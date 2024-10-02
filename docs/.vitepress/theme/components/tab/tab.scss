@@ -1,0 +1,124 @@
+@import "@/assets/mixins.scss";
+
+.cp-tabs-container {
+    background-color: var(--cp-page-bg-light);
+    margin: 1rem 0;
+}
+
+body.cp-theme-dark .cp-tabs-container {
+    background-color: var(--cp-page-bg-dark);
+}
+
+/* 固定到页面头部的 Tab */
+.cp-tabs-container.cp-sticky-tabs {
+    position: sticky;
+    top: 4rem;
+    z-index: 20;
+}
+
+.cp-tabs-container.cp-sticky-tabs {
+    @include cp-acrylic-bg-light;
+}
+
+.cp-theme-dark .cp-tabs-container.cp-sticky-tabs {
+    @include cp-acrylic-bg-dark;
+}
+
+/* 由于打开窗口时已经有全局毛玻璃效果了，因此出于性能考虑，Tab 的毛玻璃效果不同时开启 */
+body.cp-dialog-show .cp-tabs-container.cp-sticky-tabs {
+    background-color: var(--cp-page-bg-light);
+}
+
+body.cp-theme-dark.cp-dialog-show .cp-tabs-container.cp-sticky-tabs {
+    background-color: var(--cp-page-bg-dark);
+}
+
+/* 几个 Tab 平分空间 */
+.cp-tabs-container.cp-average-tabs .cp-tab {
+    flex: 1;
+    transition: flex 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+@media (min-width: $cp-col-phone-large) {
+    .cp-tabs-container.cp-average-tabs .cp-tab {
+        flex: 0;
+    }
+}
+
+.cp-tabs {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.125rem;
+}
+
+/* 选项卡下方的浅横线 */
+.cp-tabs-bottom-line {
+    width: 100%;
+    height: 0.0625rem;
+    position: relative;
+    bottom: 0.1875rem;
+    background-color: rgba(229, 229, 229, 0.7);
+}
+
+.cp-theme-dark .cp-tabs-bottom-line {
+    background-color: rgba(224, 243, 255, 0.1);
+}
+
+/* 切换选项的按钮 */
+.cp-tab {
+    flex-shrink: 0;
+    padding: 0 0.5rem;
+    margin-right: 0.5rem;
+    background-color: inherit;
+    min-width: 3rem;
+    height: 2.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    user-select: none;
+
+    &:hover, &:focus {
+        background-color: var(--cp-grey-bg-light);
+    }
+}
+
+.cp-theme-dark .cp-tab {
+    &:hover, &:focus {
+        background-color: var(--cp-grey-bg-dark);
+    }
+}
+
+@media (min-width: 1024px) {
+    .cp-tab {
+        min-width: 4rem;
+    }
+}
+
+.cp-tab.cp-tab-active {
+    color: var(--cp-primary-light);
+}
+
+.cp-theme-dark .cp-tab.cp-tab-active {
+    color: var(--cp-primary-dark);
+}
+
+/* 激活的选项下方的横线 */
+.cp-tab-bottom {
+    width: calc(100% + 1rem);
+    height: 2px;
+    margin-top: 0.75rem;
+    z-index: 1; /* 盖过外层的分界线 */
+}
+
+.cp-tab.cp-tab-active .cp-tab-bottom {
+    border-bottom: 2px solid var(--cp-primary-light);
+}
+
+.cp-theme-dark .cp-tab.cp-tab-active .cp-tab-bottom {
+    border-bottom: 2px solid var(--cp-primary-dark);
+}

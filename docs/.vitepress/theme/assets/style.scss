@@ -1,0 +1,882 @@
+@import '@/assets/mixins.scss';
+
+:root {
+    --cp-text-light: rgb(32, 32, 32);
+    --cp-text-dark: rgb(220, 220, 220);
+    --cp-page-bg-light: rgb(255, 255, 255);
+    --cp-page-bg-dark: rgb(32, 32, 32);
+    --cp-primary-light: rgb(30, 58, 138);
+    --cp-primary-dark: rgb(191, 219, 254);
+    --cp-secondary-light: rgb(220, 235, 254);
+    --cp-secondary-dark: rgb(37, 48, 55);
+    --cp-border-light: 0.1rem solid rgb(229, 231, 235);
+    --cp-border-dark: 0.1rem solid rgb(48, 48, 48);
+    --cp-border-color-light: rgb(229, 231, 235);
+    --cp-border-color-dark: rgb(48, 48, 48);
+    --cp-grey-bg-light: rgb(229, 231, 235);
+    --cp-grey-bg-dark: rgb(48, 48, 48);
+    --cp-grey-text-light: rgb(107, 114, 128);
+    --cp-grey-text-dark: rgb(175, 175, 175);
+    --cp-info-text-light: rgb(30, 58, 138);
+    --cp-info-text-dark: rgb(191, 219, 254);
+    --cp-info-bg-light: rgb(220, 235, 254);
+    --cp-info-bg-dark: rgb(21, 30, 54);
+    --cp-info-border-light: 0.05rem solid rgb(191, 219, 254);
+    --cp-info-border-dark: 0.05rem solid rgb(72, 87, 114);
+    --cp-success-text-light: rgb(0, 62, 0);
+    --cp-success-text-dark: rgb(127, 255, 170);
+    --cp-success-bg-light: rgb(240, 255, 240);
+    --cp-success-bg-dark: rgb(46, 65, 52);
+    --cp-success-border-light: 0.05rem solid rgb(191, 219, 254);
+    --cp-success-border-dark: 0.05rem solid rgb(90, 111, 113);
+    --cp-warning-text-light: rgb(113, 63, 18);
+    --cp-warning-text-dark: rgb(254, 240, 138);
+    --cp-warning-bg-light: rgb(254, 252, 232);
+    --cp-warning-bg-dark: rgb(61, 42, 14);
+    --cp-warning-border-light: 0.05rem solid rgb(254, 249, 195);
+    --cp-warning-border-dark: 0.05rem solid rgb(119, 101, 51);
+    --cp-error-text-light: rgb(127, 29, 29);
+    --cp-error-text-dark: rgb(254, 192, 192);
+    --cp-error-bg-light: rgb(254, 231, 231);
+    --cp-error-bg-dark: rgb(60, 31, 31);
+    --cp-error-border-light: 0.05rem solid rgb(254, 202, 202)
+    --cp-error-border-dark: 0.05rem solid rgb(112, 75, 75);
+    --dvh: 1dvh;
+}
+
+html {
+    font-family: "Helvetica Neue", "PingFang SC", "Noto Sans", "Microsoft Yahei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 16px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    scroll-behavior: smooth;
+}
+
+html.cp-text-sm {
+    font-size: 14px;
+}
+
+html.cp-text-lg {
+    font-size: 18px;
+}
+
+/* 删除 div 获取焦点时的边框，这个边框实在是太难看了 */
+:focus {
+    outline: none;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    background-color: var(--cp-page-bg-light);
+    scrollbar-gutter: stable; /* 防止滚动条挤占内容位置 */
+}
+
+body.cp-theme-dark {
+    background-color: var(--cp-page-bg-dark);
+}
+
+* {
+    box-sizing: border-box;
+    line-height: 1.75;
+    color: var(--cp-text-light);
+}
+
+.cp-theme-dark * {
+    color: var(--cp-text-dark);
+}
+
+/* 屏蔽 UC 浏览器的广告，仅允许个别 iframe 显示 */
+iframe {
+    display: none !important;
+}
+
+iframe.useful-iframe {
+    display: inherit !important;
+}
+
+/* 按钮 */
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2.5rem;
+    line-height: 1; /* 让按钮中的文字垂直居中 */
+    font-size: 0.9375rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+button.btn-primary {
+    border: 0.1rem solid var(--cp-primary-light);
+    color: rgb(235, 235, 235);
+    background-color: var(--cp-primary-light);
+
+    &:hover {
+        border: 0.1rem solid rgb(60, 88, 166);
+        background-color: rgb(60, 88, 166);
+    }
+
+    &:focus {
+        outline: 0.15rem solid rgb(255, 215, 0);
+    }
+}
+
+button.btn-secondary {
+    border: var(--cp-border-light);
+    background-color: var(--cp-bg-light);
+
+    &:hover {
+        background-color: var(--cp-grey-bg-light);
+    }
+
+    &:focus {
+        outline: 0.15rem solid rgb(218, 165, 32);
+    }
+}
+
+button.btn-link {
+    display: inline;
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: rgb(0, 107, 230);
+    background-color: var(--cp-page-light);
+}
+
+button:disabled, button:disabled:hover {
+    background-color: rgba(26, 28, 24, 0.12) !important;
+    border: 0.1rem solid rgba(26, 28, 24, 0.12) !important;
+    color: rgba(26, 28, 24, 0.7) !important;
+    cursor: not-allowed;
+}
+
+.cp-theme-dark button:disabled, .cp-theme-dark button:disabled:hover {
+    background-color: rgba(227, 227, 220, 0.12) !important;
+    border: 0.1rem solid rgba(227, 227, 220, 0.12) !important;
+    color: rgba(227, 227, 220, 0.7) !important;
+}
+
+.cp-theme-dark {
+    button.btn-primary {
+        border: 0.1rem solid var(--cp-primary-dark);
+        color: rgb(15, 15, 15);
+        background-color: var(--cp-primary-dark);
+
+        &:hover {
+            border: 0.1rem solid rgb(158, 230, 255);
+            background-color: rgb(158, 230, 255);
+        }
+
+        &:focus {
+            outline: 0.15rem solid rgb(218, 165, 32);
+        }
+    }
+
+    button.btn-secondary {
+        border: var(--cp-border-dark);
+        background-color: var(--cp-bg-dark);
+
+        &:hover {
+            background-color: var(--cp-grey-bg-dark);
+        }
+
+        &:focus {
+            outline: 0.1rem solid var(--cp-primary-dark);
+        }
+    }
+
+    button.btn-link {
+        color: rgb(128, 204, 255);
+        background-color: var(--cp-page-dark);
+    }
+}
+
+/* 上标和下标 */
+sub {
+    display: inline-block;
+    font-size: 0.875rem;
+}
+
+sup {
+    display: inline-block;
+    font-size: 0.875rem;
+}
+
+table th, table td, .cp-unit-property-value {
+    sub {
+        transform: translateY(0.25rem);
+    }
+
+    sup {
+        transform: translateY(-0.25rem);
+    }
+}
+
+/*
+ * 在大屏设备上缩小滚动条（屏幕边缘的滚动条除外），并且设定只有 hover 的时候显示这个元素的滚动条
+ * 这段 css 只能在 webkit 系浏览器生效，但 Firefox 的滚动条本来就不大，无所谓。
+ * 表格的横向滚动条采用默认方案，防止电脑用户看不到滚动条，无法拖动。
+ */
+div:not(.cp-table-container) {
+    &::-webkit-scrollbar {
+        width: 0.25rem;
+        height: 0.25rem;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 0.125rem;
+        background-color: rgb(192, 192, 192);
+    }
+}
+
+.cp-theme-dark div {
+    &::-webkit-scrollbar-thumb {
+        background-color: rgb(80, 80, 80);
+    }
+}
+
+/* 链接通用样式 */
+a {
+    text-decoration: none;
+    color: rgb(0, 107, 230);
+}
+
+.cp-theme-dark a {
+    color: rgb(128, 204, 255);
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+a.header-anchor {
+    display: none; /* 让 Tab 键无法选中 h1 到 h6 */
+}
+
+/* 失效的链接 */
+a s, s a {
+    text-decoration: line-through;
+    color: rgb(0, 107, 230);
+}
+
+.cp-theme-dark a s, .cp-theme-dark s a {
+    color: rgb(128, 204, 255);
+}
+
+h1 {
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (min-width: $cp-col-tablat-big) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.375rem;
+    }
+
+    h4 {
+        font-size: 1.125rem;
+    }
+}
+
+h2, h3, h4 {
+    padding-bottom: 0.25rem;
+    border-bottom: 0.1rem solid rgba(229, 229, 229, 0.7);
+    
+    &.cp-title-with-icon {
+        display: flex;
+        align-items: center;
+
+        .cp-img-container {
+            display: inline-block;
+            width: 2rem;
+            margin: 0 0.375rem 0 0;
+        }
+    }
+}
+
+.cp-theme-dark {
+    h2, h3, h4 {
+        border-bottom: 0.1rem solid rgba(224, 243, 255, 0.1);
+    }
+}
+
+p {
+    margin: 1rem 0;
+}
+
+hr {
+    margin: 1.5rem 0;
+    border: 0.0625rem solid rgb(209, 213, 219);
+}
+
+hr.cp-light-row-division {
+    border: 0.0625rem solid rgba(229, 229, 229, 0.7);
+}
+
+.cp-theme-dark hr.cp-light-row-division {
+    border: 0.0625rem solid rgba(224, 243, 255, 0.1);
+}
+
+ul, ol {
+    margin-left: 1.25rem;
+    padding-left: 0;
+}
+
+@media (min-width: $cp-col-tablat-big) {
+    ul, ol {
+        margin-left: 1.5rem;
+    }
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+img {
+    vertical-align: bottom; /* 防止链接套图片时，图片产生额外高度 */
+    display: inline-block;
+    height: auto; /* 让图片保持比例 */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+video {
+    display: inline-block;
+    width: 750px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    color: var(--cp-grey-text-light);
+}
+
+.cp-theme-dark figcaption {
+    color: var(--cp-grey-text-dark);
+}
+
+/* 旧浏览器升级提示 */
+.cp-browser-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cp-browser-dialog {
+    padding: 0;
+    border-radius: 0.375rem;
+    background: rgb(254, 231, 231);
+    max-width: 750px;
+    max-height: calc(100vh - 8rem);
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.cp-browser-title {
+    margin: 1rem 1.125rem 0.5rem 1.125rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(127, 29, 29);
+    flex-basis: 3rem;
+}
+
+.cp-browser-content {
+    margin: 0 1.125rem 1rem 1.125rem;
+    height: calc(100% - 5rem);
+    overflow-y: auto;
+
+    p {
+        color: rgb(127, 29, 29);
+    }
+
+    p:first-child {
+        margin-top: 0;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+
+    a.cp-browser-download-links {
+        text-decoration: none;
+
+        .cp-browser-download-icon {
+            float: left;
+            width: 3rem;
+            height: 3rem;
+            margin-right: 0.375rem;
+            transform: translateY(0.125rem);
+        }
+    
+        .cp-browser-download-name {
+            color: rgb(0, 107, 230);
+        }
+    
+        .cp-browser-download-description {
+            color: rgb(0, 107, 230);
+            font-size: 0.875rem;
+        }
+    }
+}
+
+.cp-browser-content {
+    ul.cp-browser-download {
+        color: rgb(127, 29, 29);
+        list-style: none;
+        margin: 0;
+
+        li {
+            display: inline-block;
+            width: 100%;
+            height: 3.25rem;
+            margin: 0;
+            margin-bottom: 0.25rem;
+            overflow-y: hidden;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .cp-browser-content {
+        ul.cp-browser-download {
+            li {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .cp-browser-content {
+        ul.cp-browser-download {
+            li {
+                width: 33%;
+            }
+        }
+    }
+}
+
+/* 允许表格超出屏幕，方便左右滚动 */
+.cp-table-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; /* 如果表格限制宽度，则让表格居中 */
+    overflow-x: auto;
+    overflow-y: hidden; /* 防止固定表头后，当表头与表格底部重合时出现滚动条 */
+    border: var(--cp-border-light);
+    border-radius: 0.5rem;
+}
+
+.cp-theme-dark .cp-table-container {
+    border: var(--cp-border-dark);
+}
+
+/* 限制宽度的表格 */
+.cp-table-container.cp-table-width-limited {
+    max-width: 32rem; /* 默认限制 32rem */
+    margin: 0 auto;
+}
+
+/* 表格边框和 padding */
+table {
+    width: 100%; /* 让表格填满网页宽度 */
+    border-collapse: collapse; /* 合并表格的两个边框 */
+
+    thead tr, tbody tr {
+        border-top: var(--cp-border-light);
+        border-bottom: var(--cp-border-light);
+    }
+
+    thead tr:first-child {
+        border-top: none;
+    }
+
+    tbody tr:last-child {
+        border-bottom: none;
+    }
+
+    th, td {
+        text-align: center;
+        line-height: 1.5;
+        padding: 0.25rem;
+        background-clip: padding-box; /* 表格的背景色不延伸到边框（防止第一列的不透明背景遮挡边框） */
+    }
+
+    th:first-child, td:first-child {
+        padding-left: 0.5rem;
+    }
+
+    th:last-child, td:last-child {
+        padding-right: 0.5rem;
+    }
+
+    th {
+        font-size: 0.9375rem;
+        font-weight: 700;
+        white-space: nowrap; /* 文字默认不换行，防止手机端表格占用太多纵向空间 */
+        color: var(--cp-grey-text-light);
+
+        sub, sup {
+            color: var(--cp-grey-text-light);
+        }
+    }
+}
+
+@media (min-width: $cp-col-tablat) {
+    table {
+        th, td {
+            padding: 0.375rem;
+        }
+
+        th:first-child, td:first-child {
+            padding-left: 0.75rem;
+        }
+
+        th:last-child, td:last-child {
+            padding-right: 0.75rem;
+        }
+    }
+}
+
+.cp-theme-dark table {
+    tr {
+        border-top: var(--cp-border-dark);
+        border-bottom: var(--cp-border-dark);
+    }
+
+    th {
+        color: var(--cp-grey-text-dark);
+
+        sub, sup {
+            color: var(--cp-grey-text-dark);
+        }
+    }
+}
+
+/* 含有左右边框的表格 */
+.cp-table-with-all-borders table {
+    tr {
+        th, td {
+            border-left: var(--cp-border-light);
+            border-right: var(--cp-border-light);
+        }
+        
+        th:first-child, td:first-child {
+            padding-left: 0.25rem;
+            border-left: none !important;
+        }
+        
+        th:last-child, td:last-child {
+            padding-right: 0.25rem;
+            border-right: none !important;
+        }
+    }
+
+    tr:hover {
+        td {
+            border-left: 0.1rem solid rgb(220, 220, 220);
+            border-right: 0.1rem solid rgb(220, 220, 220);
+        }
+    }
+}
+
+.cp-theme-dark .cp-table-with-all-borders table {
+    tr {
+        th, td {
+            border-left: var(--cp-border-dark);
+            border-right: var(--cp-border-dark);
+        }
+    }
+
+    tr:hover {
+        td {
+            border-left: 0.1rem solid rgb(64, 64, 64);
+            border-right: 0.1rem solid rgb(64, 64, 64);
+        }
+    }
+}
+
+/* hover 时不改变背景的表格 */
+.cp-table-without-hover-bg {
+    table tr:hover td {
+        border-left: var(--cp-border-light);
+        border-right: var(--cp-border-light);
+        background-color: var(--cp-page-bg-light);
+    }
+}
+
+.cp-theme-dark .cp-table-without-hover-bg {
+    table tr:hover td {
+        border-left: var(--cp-border-dark);
+        border-right: var(--cp-border-dark);
+        background-color: var(--cp-page-bg-dark);
+    }
+}
+
+/* 表格位置相关 */
+table {
+    /* thead 不能使用 position: sticky，因为父元素设置了 overflow: auto */
+    thead th {
+        position: relative;
+        z-index: 2;
+
+        &:first-child {
+            position: sticky;
+            left: 0;
+            z-index: 3;
+        }
+    }
+
+    tbody td:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+    }
+}
+
+/* 如果写明了不固定第一列，则将 position 设为 inherit */
+.cp-table-nosticky-column table {
+    thead th:first-child, tbody td:first-child {
+        position: inherit;
+    }
+}
+
+/* 表格的背景色 */
+table {
+    thead th {
+        background-color: var(--cp-page-bg-light);
+    }
+
+    tbody {
+        tr td:first-child {
+            background-color: var(--cp-page-bg-light);
+        }
+
+        tr:hover td {
+            background-color: var(--cp-border-color-light);
+        }
+    }
+}
+
+.cp-theme-dark table {
+    thead th {
+        background-color: var(--cp-page-bg-dark);
+    }
+
+    tbody {
+        tr td:first-child {
+            background-color: var(--cp-page-bg-dark);
+        }
+
+        tr:hover td {
+            background-color: var(--cp-border-color-dark);
+        }
+    }
+}
+
+/* 表格相关的特殊类 */
+table {
+    th.cp-table-col-numeric, td.cp-table-col-numeric {
+        text-align: right;
+    }
+
+    th.cp-table-col-numeric {
+        min-width: 100px;
+    }
+
+    /* 小数字不设最小宽度 */
+    th.cp-table-col-numeric.cp-table-col-num-small {
+        min-width: 0;
+    }
+    
+    th.cp-table-col-icon, td.cp-table-col-icon {
+        padding-left: 0.375rem;
+        width: 65px;
+
+        img {
+            max-width: 55px;
+            border-radius: 0;
+        }
+    }
+
+    th.cp-table-col-name, td.cp-table-col-name {
+        min-width: 96px;
+    }
+
+    th.cp-table-col-description, td.cp-table-col-description {
+        text-align: left;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    th.cp-table-col-description {
+        min-width: 150px;
+    }
+}
+
+@media (min-width: $cp-col-tablat) {
+    table {
+        th.cp-table-col-icon, td.cp-table-col-icon {
+            width: 75px;
+
+            img {
+                max-width: 65px;
+            }
+        }
+    }
+}
+
+@media (min-width: $cp-col-laptop) {
+    table {
+        th.cp-table-col-icon, td.cp-table-col-icon {
+            width: 85px;
+
+            img {
+                max-width: 75px;
+            }
+        }
+    }
+}
+
+/* 表格中的图片没有 margin */
+table {
+    th, td {
+        figure.cp-img-container {
+            margin: 0;
+        }
+    }
+}
+
+/* 隐藏的日均耗油图标 */
+#cp-daily-cost-help-icon {
+    display: none;
+}
+
+/* 图标 */
+.cp-icon {
+    stroke: var(--cp-text-light);
+    cursor: pointer;
+}
+
+.cp-theme-dark .cp-icon {
+    stroke: var(--cp-text-dark);
+}
+
+.cp-icon-property-key, .cp-icon-thead-key {
+    stroke: var(--cp-grey-text-light);
+}
+
+.cp-theme-dark {
+    .cp-icon-property-key, .cp-icon-thead-key {
+        stroke: var(--cp-grey-text-dark);
+    }
+}
+
+.cp-icon-thead-key {
+    margin-left: 0.1rem;
+    transform: translateY(0.25rem);
+}
+
+.cp-icon-sidebar-item {
+    width: 1.125rem;
+    height: 1.125rem;
+    margin-left: 0.125rem;
+    stroke: var(--cp-grey-text-light);
+}
+
+.cp-theme-dark .cp-icon-sidebar-item {
+    stroke: var(--cp-grey-text-dark);
+}
+
+/* 数学公式 */
+mjx-container {
+    /* 针对 block 公式 */
+    padding-bottom: 0.5rem;
+    margin: 1rem 0 0.5rem 0 !important;
+    overflow-x: auto;
+    /* 针对 inline 公式 */
+    vertical-align: -0.25rem;
+
+    svg {
+        margin: 0.25rem 0;
+    }
+}
+
+/* 引用 */
+blockquote {
+    border-left: 5px solid var(--cp-text-light);
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0.75rem;
+}
+
+.cp-theme-dark blockquote {
+    border-left: 5px solid var(--cp-text-dark);
+}
+
+/* 输入框 */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+input[type=search] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}

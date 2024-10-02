@@ -1,0 +1,16 @@
+$cp-col-phone-medium: 375px;
+$cp-col-phone-large: 576px;
+$cp-col-tablat: 768px;
+$cp-col-tablat-big: 1024px;
+$cp-col-laptop: 1280px;
+$cp-col-deskop: 1600px;
+
+/* 毛玻璃效果 */
+@mixin cp-acrylic-bg-light {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(0.75rem);
+}
+@mixin cp-acrylic-bg-dark {
+    background-color: rgba(32, 32, 32, 0.85);
+    backdrop-filter: blur(0.75rem);
+}

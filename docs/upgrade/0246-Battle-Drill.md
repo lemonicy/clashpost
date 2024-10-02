@@ -1,0 +1,90 @@
+---
+title: "部落冲突 coc 攻城钻机升级数据"
+navTitle: "攻城钻机"
+shownTitle: "攻城钻机"
+description: "攻城钻机完美体现了哥布林的聪明才智。它能够深入地底，钻向距离最近的防御建筑。到达目的地后，它会冒出地面，使用威力十足的钻头瘫痪并摧毁目标。"
+module: upgrade-home
+imgFolder: home_tech/0246
+wiki: https://clashofclans.fandom.com/wiki/Battle_Drill
+canonical: /upgrade/0246-Battle-Drill
+---
+
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Battle_Drill.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Battle_Drill1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Battle_Drill2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Battle_Drill3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Battle_Drill4.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>重要说明</SmallTitle>
+
+1. 攻城钻机部署后会遁地，从地下出来的时候可以破掉两层墙，也就是说当 [城墙](/upgrade/0300-Walls) 和防御中间隔着一格时可以破墙，隔两格不行。
+
+<Pic src="/upgrade/description/Battle_Drill_Splash.jpg" caption="攻城钻机破墙图示" :lazyLoading="false" width="750" height="435" />
+
+1. 攻城钻机从地下钻出时可以对建筑造成眩晕效果。
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="攻击方式" pValue="寻找防御建筑攻击" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="攻击速度" pValue="1.7 秒/次" />
+    <UnitProperty pKey="眩晕时间" pValue="2 秒" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="所需攻城机器工坊等级" pValue="7" />
+    <UnitProperty pKey="所需大本等级" pValue="15" />
+    <UnitProperty pKey="建造时间" pValue="1200" :isTrainingTime="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间  | 所需实验室等级|所需大本等级|
+| ---- |   ----   |   ----  |  ----  |  ----  |    ----   |    ----     |   ----    |
+|   1  |    430   |    731  |  4600  |     \  |     \     |      1      |    15     |
+|   2  |    470   |    799  |  4900  |    8M  |    7,12   |     13      |    15     |
+|   3  |    510   |    867  |  5200  |   11M  |   10      |     13      |    15     |
+|   4  |    550   |    935  |  5500  |   14M  |   12      |     13      |    15     |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
+
+<Timeline>
+    <TimelineItem date="2024/06/18">
+        <TimelineRow>2 ~ 4 级攻城钻机的升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2023/12/12">
+        <TimelineRow>3 ~ 4 级攻城钻机的升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2022/10/10">
+        <TimelineRow>游戏新增 15 本，并在 15 本新增攻城机器：攻城钻机。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem :historyBottom="true" />
+</Timeline>

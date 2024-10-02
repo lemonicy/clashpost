@@ -1,0 +1,153 @@
+---
+title: "部落冲突 coc 炸弹人升级数据"
+navTitle: "炸弹人"
+shownTitle: "炸弹人"
+description: "只有轰塌一面面城墙才能让炸弹人那颗冰冷的心得到些许温暖。“砰”的一声巨响，他们为您的地面部队开道！"
+module: upgrade-home
+imgFolder: home_tech/0004
+wiki: https://clashofclans.fandom.com/wiki/Wall_Breaker
+canonical: /upgrade/0004-Wall-Breaker
+---
+
+- *如想查看该兵种的强化版本，请访问：[超级炸弹人（超炸）](/upgrade/0603-Super-Wall-Breaker)。*
+- *如想查看夜世界的炸弹兵，请访问：[夜世界炸弹兵](/upgrade/1004-Bomber)。*
+
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wall_Breaker_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Wall_Breaker1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Wall_Breaker3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Wall_Breaker5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Wall_Breaker6.png" />
+        <UnitImg imgTitle="7 - 9 级" imgSrc="Wall_Breaker7.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Wall_Breaker10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Wall_Breaker11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Wall_Breaker12.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>重要说明</SmallTitle>
+
+1. 不要把两层墙挨着摆，炸弹人可以炸到。下图中画出来的所有城墙都可以受到伤害。
+
+<Pic src="/upgrade/description/Breaking_Walls_2.jpg" caption="炸弹人的伤害范围" :lazyLoading="false" maxWidth="10rem" width="284" height="228" />
+
+2. 根据解析安装包的结果，炸弹人的攻速是一秒一次，也即每秒伤害等于每次伤害。但实际上它引爆炸弹后自身也会死亡，所以这个兵种不讨论攻速。下方所说的攻击伤害均为每次伤害。
+3. 2020 年 10 月更新后，炸弹人的伤害分为主动伤害和死亡伤害，和 [超级炸弹人](/upgrade/0603-Super-Wall-Breaker) 一样。如果炸弹人成功爆破，则建筑受到炸弹人的主动伤害加死亡伤害；如果在爆破之前被打死了，并且死亡伤害波及到了建筑，则建筑受到炸弹人的死亡伤害。参考：[【超级部队】超级炸弹人爆炸机制分析](/p/1279){target="_blank"}。文章是老了点，但机制没变。
+4. 即使炸弹人被 [弹簧](/upgrade/0381-Spring-Trap) 弹走，炸弹仍然会爆炸。
+5. [狂暴法术](/upgrade/0102-Rage-Spell) 只会影响主动伤害，而不会影响死亡伤害。
+6. 2020 年 10 月更新后，对炸弹人而言，[弹跳法术](/upgrade/0103-Jump-Spell) 覆盖的城墙，等价于城墙消失。
+7. 炸弹人的寻路机制比较复杂，详情请参考：[【炸弹人机制讲解】揭示寻路和炸弹的真相](/p/1957)，文章老但结论不变。
+8. 部分高本玩家会用“炸弹人”指代超级炸弹人，而非普通炸弹人，在看解说视频的时候需要注意一下。
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="城墙 (40 倍伤害)" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害 (仅地面)" />
+    <UnitProperty pKey="占据人口" pValue="2" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="到达目标后的停顿时间" pValue="1 秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.5 格" />
+    <UnitProperty pKey="主动伤害爆炸半径" pValue="0.8 格" />
+    <UnitProperty pKey="死亡伤害爆炸半径" pValue="1.5 格" />
+    <UnitProperty pKey="所需训练营等级" pValue="5" />
+    <UnitProperty pKey="所需大本等级" pValue="3" />
+    <UnitProperty pKey="训练时间" pValue="15" :isTrainingTime="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  面板伤害 | 中途死亡<br>(对城墙)|成功爆破<br>(对城墙) | 生命值 | 升级花费 | 升级时间 |所需实验室<br>等级|所需<br>大本等级|
+|  --- | -------- |         ---        |        ---        |   ---  |    ---  |    ---   |       ---      |      ---      |
+|   1  | 6 / 6    |         240        |         480       |    20  |   \     |     \    |        1       |       3       |
+|   2  | 10 / 9   |         360        |         760       |    24  |   100k  |   0, 6   |        2       |       4       |
+|   3  | 15 / 13  |         520        |        1120       |    29  |   250k  |   0,12   |        4       |       6       |
+|   4  | 20 / 16  |         640        |        1440       |    35  |   600k  |   0,18   |        5       |       7       |
+|   5  | 43 / 23  |         920        |        2640       |    53  |   1.2M  |   1      |        6       |       8       |
+|   6  | 55 / 30  |         1200       |        3400       |    72  |   2.5M  |   1,12   |        8       |      10       |
+|   7  | 66 / 36  |         1440       |        4080       |    82  |   4.2M  |   2, 3   |        9       |      11       |
+|   8  | 75 / 42  |         1680       |        4680       |    92  |   6.5M  |   3      |       10       |      12       |
+|   9  | 86 / 48  |         1920       |        5360       |   112  |     8M  |   6,12   |       11       |      13       |
+|  10  | 94 / 54  |         2160       |        5920       |   130  |   9.5M  |  10      |       12       |      14       |
+|  11  | 102 / 60 |         2400       |        6480       |   140  |    14M  |  11      |       13       |      15       |
+|  12  | 110 / 66 |         2640       |        7040       |   150  |    19M  |  14      |       14       |      16       |
+</UnitTable>
+
+1. 上方的“面板伤害”解释："10/9" 表示主动伤害为 10，死亡伤害为 9.
+2. 上方的“中途死亡”指的是炸弹人中途死亡的爆炸伤害，“成功爆破”指的是炸弹人成功自爆的伤害。成功爆破的伤害是两个面板伤害加起来，再算上对城墙的 40 倍伤害。
+
+<SmallTitle>更新历史</SmallTitle>
+
+<Timeline>
+    <TimelineItem date="2024/06/18">
+        <TimelineRow>8、10 ~ 11 级炸弹人的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 11 级炸弹人的升级费用降低。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2023/12/12">
+        <TimelineRow>16 本推出，同时在 16 本新增 12 级炸弹人。</TimelineRow>
+        <TimelineRow>6 ~ 11 级炸弹人的升级时间减少。</TimelineRow>
+        <TimelineRow>10 级炸弹人的升级费用降低。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2023/06/12">
+        <TimelineRow>8 ~ 9 级炸弹人的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 9 级炸弹人的升级费用降低。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2022/10/10">
+        <TimelineRow>游戏新增 15 本，并在 15 本新增 11 级炸弹人。</TimelineRow>
+        <TimelineRow>6 ~ 10 级炸弹人的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2021/12/09">
+        <TimelineRow>4 ~ 9 级炸弹人的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 9 级炸弹人的升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2021/04/12">
+        <TimelineRow>14 本推出，并在 14 本新增 10 级炸弹人。</TimelineRow>
+        <TimelineRow>6 ~ 8 级的炸弹人的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 8 级炸弹人的升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2020/10/23">
+        <TimelineRow>炸弹人的爆炸半径由 1.2 格提升到 1.5 格。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2020/10/12">
+        <TimelineRow>炸弹人现在会使用弹跳法术跳过城墙。</TimelineRow>
+        <TimelineRow>优化了炸弹人的 AI，让它们能更集中地锁定同一块城墙，降低它们被部署后分散攻击不同城墙的几率。假设你的炸弹人和城墙已升至你目前大本营所支持的最高等级：<br>
+        - 1 个享受狂暴法术加成的炸弹人可以摧毁 1 块城墙。<br>
+        - 9 级大本营及以下：2 个炸弹人最高可以摧毁 1 块 9 级城墙。<br>
+        - 9 级大本营及以上：3 个炸弹人可以摧毁 1 块 10 级及以上的城墙。<br>
+        - 9 级大本营及以上：6 个炸弹人的死亡附加伤害可以摧毁 1 块 10 级及以上的城墙。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2020-03-30">
+        <TimelineRow>5 ~ 6 级炸弹人的升级费用降低。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2019-12-09">
+        <TimelineRow>13 本推出，并在 13 本新增 9 级炸弹人。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2019-04-02">
+        <TimelineRow>5 ~ 6 级炸弹人的升级时间减少。</TimelineRow>
+        <TimelineRow>所有等级炸弹人的训练费用降低。</TimelineRow>
+        <TimelineRow>5 ~ 8 级炸弹人的生命值提高。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem :historyBottom="true" />
+</Timeline>
