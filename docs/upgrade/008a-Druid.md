@@ -145,12 +145,12 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2024/10/02">
-        <TimelineRow>德鲁伊在人类形态下的每秒治疗量减少（-42%）。</TimelineRow>
+        <TimelineRow>德鲁伊在人类形态下的每秒治疗量减少约 42%.</TimelineRow>
         <TimelineRow>德鲁伊在人类形态下最多可存活的时间减少（30 秒 → 25 秒）。</TimelineRow>
-        <TimelineRow>德鲁伊在巨熊形态下的伤害降低（-50%）。</TimelineRow>
+        <TimelineRow>德鲁伊在巨熊形态下的伤害降低 50%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
-        <TimelineRow>德鲁伊的最多可治疗的目标数量由 4 个减少到 3 个。</TimelineRow>
+        <TimelineRow>德鲁伊最多可治疗的目标数量由 4 个减少到 3 个。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>14 本可解锁新兵种：德鲁伊。</TimelineRow>
