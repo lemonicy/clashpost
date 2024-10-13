@@ -30,7 +30,7 @@ canonical: /upgrade/0e0c-Witch-Golem
 
 <SmallTitle>重要说明</SmallTitle>
 
-女巫戈仑是合体狂潮活动中的四个临时兵种之一，在活动中的奖励之路中达到 55 000 酸腐圣水（任务点数）即可解锁该兵种。
+女巫戈仑在 2023 年 10 月的合体狂潮活动中首次推出，在奖励之路中达到 55 000 酸腐圣水（任务点数）即可解锁，并在 2024 年 10 月的合体狂热活动中返场，这次只需 3 000 酸腐圣水即可解锁。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -68,6 +68,7 @@ canonical: /upgrade/0e0c-Witch-Golem
 |   8  |   221   |  530.4  |   800   |  8000  |               11               |       28      |            3           |       13        |
 |   9  |   234   |  561.6  |   850   |  8400  |               12               |       30      |            3           |       14        |
 |  10  |   247   |  592.8  |   900   |  8800  |               12               |       32      |            3           |       15        |
+|  11  |   260   |  624    |   950   |  9200  |               13               |       34      |            4           |       16        |
 </UnitTable>
 
 \# 女巫戈仑并不是每次召唤都可以召唤出这么多骷髅，当一只女巫戈仑召唤的骷髅达到上表的限制时，除非骷髅兵死亡，否则女巫戈仑不会继续召唤。这个上限指的是每只女巫戈仑召唤的骷髅，如果有两只女巫戈仑，那么场上的最大骷髅数量为 2 倍上限。
@@ -149,14 +150,19 @@ canonical: /upgrade/0e0c-Witch-Golem
 |   8  |   378   |   756   |  4000  |
 |   9  |   402   |   804   |  4200  |
 |  10  |   426   |   852   |  4400  |
+|  11  |   450   |   900   |  5000  |
 </UnitTable>
 </SwitchTabGroup>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/10/11">
+        <TimelineRow>该兵种第 2 次推出，是 2024 年合体狂热活动中的五个临时兵种之一。</TimelineRow>
+        <TimelineRow>与 2023 版相比，该兵种新增了第 11 个等级。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/10/20">
-        <TimelineRow>所有等级的大宝宝的每秒伤害增加20%。</TimelineRow>
+        <TimelineRow>所有等级的大宝宝的每秒伤害增加 20%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/13">
         <TimelineRow>该兵种第 1 次推出。</TimelineRow>

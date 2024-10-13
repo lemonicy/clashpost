@@ -21,9 +21,9 @@ canonical: /upgrade/0e09-Barcher
 
 <SmallTitle>重要说明</SmallTitle>
 
-野蛮箭手是合体狂潮活动中的四个临时兵种之一，在活动中的奖励之路中达到 2 000 酸腐圣水（任务点数）即可解锁该兵种。
+野蛮箭手在 2023 年 10 月的合体狂潮活动中首次推出，在奖励之路中达到 2 000 酸腐圣水（任务点数）即可解锁，并在 2024 年 10 月的合体狂热活动中返场，同样是 2 000 酸腐圣水解锁。
 
-<SmallTitle>属性</SmallTitle>
+<SmallTitle>野蛮箭手的属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="无" />
@@ -35,11 +35,16 @@ canonical: /upgrade/0e09-Barcher
     <UnitProperty pKey="攻击距离" pValue="3.5 格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />    
+    <UnitProperty pKey="训练时间" pValue="12" :isTrainingTime="true" />
+</UnitProperties>
+
+<SmallTitle>特殊技能的属性</SmallTitle>
+
+<UnitProperties>
     <UnitProperty pKey="特殊技能" pValue="狂暴披风<sup>*</sup>" />
     <UnitProperty pKey="伤害提升" pValue="70%" />
     <UnitProperty pKey="攻速提升" pValue="100%" />
     <UnitProperty pKey="移速提升" pValue="2.5 格/秒" />
-    <UnitProperty pKey="训练时间" pValue="12" :isTrainingTime="true" />
 </UnitProperties>
 
 \* 部署后的 5 秒内对防御建筑隐身，并提升攻击速度！
@@ -60,16 +65,21 @@ canonical: /upgrade/0e09-Barcher
 |   8  |    68   |    68   |   325  |       13       |
 |   9  |    72   |    72   |   360  |       14       |
 |  10  |    76   |    76   |   395  |       15       |
+|  11  |    80   |    80   |   430  |       16       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/10/11">
+        <TimelineRow>该兵种第 2 次推出，是 2024 年合体狂热活动中的五个临时兵种之一。</TimelineRow>
+        <TimelineRow>与 2023 版相比，该兵种新增了 11 级。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/10/20">
         <TimelineRow>所有等级野蛮箭手的伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/13">
-        <TimelineRow>该兵种第 1 次推出。</TimelineRow>
+        <TimelineRow>该兵种第 1 次推出，是 2023 年合体狂潮活动中的四个临时兵种之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

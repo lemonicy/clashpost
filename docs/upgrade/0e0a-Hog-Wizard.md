@@ -21,9 +21,8 @@ canonical: /upgrade/0e0a-Hog-Wizard
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 野猪法师是合体狂潮活动中的四个临时兵种之一，在活动中的奖励之路中达到 15 000 酸腐圣水（任务点数）即可解锁该兵种。
-2. 野猪法师有个微弱的光环，这个光环和 [雷霆泰坦](/upgrade/000f-Electro-Titan) 的类似，可以对敌方部队和建筑造成持续伤害，且
-   [狂暴法术](/upgrade/0102-Rage-Spell) 不能增加光环的伤害。
+1. 野猪法师在 2023 年 10 月的合体狂潮活动中首次推出，在奖励之路中达到 15 000 酸腐圣水（任务点数）即可解锁，并在 2024 年 10 月的合体狂热活动中返场，这次只需 4 000 酸腐圣水即可解锁。
+2. 野猪法师有个微弱的光环，这个光环和 [雷霆泰坦](/upgrade/000f-Electro-Titan) 的类似，可以对敌方部队和建筑造成持续伤害，且 [狂暴法术](/upgrade/0102-Rage-Spell) 不能增加光环的伤害。
 
 <SmallTitle>野猪法师的属性</SmallTitle>
 
@@ -67,12 +66,17 @@ canonical: /upgrade/0e0a-Hog-Wizard
 |   7  |   225   |  180    |  1007  |      12      |
 |   8  |   253   |  202.4  |  1134  |      13      |
 |   9  |   281   |  224.8  |  1260  |      14      |
-|  10  |   309   |  247.2  |  1387  |      15      |
+|  10  |   300   |  240    |  1387  |      15      |
+|  11  |   310   |  248    |  1514  |      16      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/10/11">
+        <TimelineRow>该兵种第 2 次推出，是 2024 年合体狂热活动中的五个临时兵种之一。</TimelineRow>
+        <TimelineRow>与 2023 版相比，该兵种新增了第 11 个等级，但 10 级的伤害降低了。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/10/20">
         <TimelineRow>所有等级的野猪法师的生命值增加。</TimelineRow>
     </TimelineItem>
