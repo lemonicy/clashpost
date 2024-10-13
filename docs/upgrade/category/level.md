@@ -17,4 +17,4 @@ import ListItem from '@/components/upgrade/ListItem.vue';
 - 夜世界：[Cumulative Costs/Builder Base](https://clashofclans.fandom.com/wiki/Cumulative_Costs/Builder_Base)
 - 都城：[Cumulative Costs/Clan Capital](https://clashofclans.fandom.com/wiki/Cumulative_Costs/Clan_Capital)
 
-另外，按大本等级分类版块我打算砍掉，因为按大本等级分类是稳本算法，已严重脱离玩家的实际需求，应该用更实用的功能代替，相关功能计划于 2024/09 完成。
+由于以前的按大本等级分类是稳本算法，已严重脱离玩家的实际需求，应该用更实用的功能代替。但游戏都这样了，替代功能可能不会再做了。
