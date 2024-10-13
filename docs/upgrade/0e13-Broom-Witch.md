@@ -23,7 +23,7 @@ canonical: /upgrade/0e13-Broom-Witch
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="所有等级" imgSrc="Broom_Witch.png" />
+        <UnitImg imgTitle="所有等级" imgSrc="Broom_Witch1.png" />
     </UnitImgGroup>
 </Panel>
 

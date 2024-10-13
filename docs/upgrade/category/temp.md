@@ -36,6 +36,7 @@ import ListItem from '@/components/upgrade/ListItem.vue';
     <ListItem name="边线球巨人" imgSrc="0e11/Giant_Thrower_thumb.png" link="0e11-Giant-Thrower" :lazyLoading="false" />
     <ListItem name="机甲超人" imgSrc="0e12/M.E.C.H.A_thumb.png" link="0e12-M.E.C.H.A" :lazyLoading="false" />
     <ListItem name="扫帚女巫" imgSrc="0e13/Broom_Witch_thumb.png" link="0e13-Broom-Witch" :lazyLoading="false" />
+    <ListItem name="寒冰亡灵" imgSrc="0e14/Ice_Minion_thumb.png" link="0e14-Ice-Minion" :lazyLoading="false" />
 </ListItems>
 <ListItems title="法术" imgFolder="temp">
     <ListItem name="圣诞奇袭" imgSrc="0e80/Santas_Surprise.png" link="0e80-Santas-Surprise" :lazyLoading="false" />
