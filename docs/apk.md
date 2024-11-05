@@ -11,9 +11,9 @@ robots: index, nofollow
 import { showDialog } from '@/components/dialog/Dialog.vue';
 import { generateToast } from '@/components/dialog/Toast.vue';
 
-const apkVersion = "16.517.17";
-const apkUploadDate = "2024-10-18";
-const apkFileName = "coc正式服_v16.517.17_QvqKHu03QRJRCP0Y.apk";
+const apkVersion = "16.517.24";
+const apkUploadDate = "2024-11-05";
+const apkFileName = "coc正式服_v16.517.24_tfuOxT82U5UAJVFl.apk";
 
 function downloadCocApk() {
     window.location.href = "https://static.clashpost.com/download/" + encodeURI(apkFileName);
@@ -87,7 +87,7 @@ function downloadXapkInstaller() {
   - 虽说天翼云盘是中国电信的产品，但不一定要在电信网络下使用，你在移动、联通的网络下也可以使用。
 - [123 云盘（提取码：FBLy）](https://www.123pan.com/s/yAPGTd-9vivH) - 不限速，但想要免登录下载需要分享者掏钱买一个叫“免登录提取流量包”的东西。
   - 我们只会在游戏大版本更新后买一些免登录流量，手快有手慢无。
-- [小飞机网盘（提取码：dg54）](https://share.feijipan.com/s/kCBcuwIg) - 同样不限速，但只有 500 MB 以下的文件才能免登录下载，coc 安装包不满足要求，因此需要登录。
+- [小飞机网盘（提取码：dg54）](https://share.feijipan.com/s/kCBcuwIg) - 同样不限速，但只有 500 MB 以下的文件才能免登录下载，coc 安装包暂未超过限制，因此无需登录。
 
 ### 应用商店下载（需要翻墙）
 
