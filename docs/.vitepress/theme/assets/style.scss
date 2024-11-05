@@ -1,4 +1,4 @@
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 :root {
     --cp-text-light: rgb(32, 32, 32);

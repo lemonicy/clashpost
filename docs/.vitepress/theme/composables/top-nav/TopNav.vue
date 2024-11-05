@@ -22,7 +22,7 @@ watch(() => router.route.data.relativePath, (path) => {
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 .cp-top-nav {
     display: block; /* 其实就是 div 的默认值，写出来只是容易理解 */

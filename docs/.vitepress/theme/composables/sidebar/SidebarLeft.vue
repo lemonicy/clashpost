@@ -248,7 +248,7 @@ if (inBrowser) {
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 /* 左侧菜单栏的整体样式 */
 #cp-sidebar-left {

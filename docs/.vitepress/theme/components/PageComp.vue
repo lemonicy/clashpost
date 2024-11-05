@@ -195,7 +195,7 @@ onBeforeUnmount(() => {
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 .cp-page-component {
     display: flex;
