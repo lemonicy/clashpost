@@ -53,7 +53,7 @@ if (props.maxHeight) {
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 .cp-img-item {
     display: flex;

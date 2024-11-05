@@ -90,7 +90,7 @@ function goToSetting() {
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 #cp-gp-discount-container {
     display: flex; /* 让元素显示在一行 */

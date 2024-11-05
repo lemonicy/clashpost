@@ -116,7 +116,7 @@ if (isSupportWebp) {
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 figure.cp-video-container {
     text-align: center;

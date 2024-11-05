@@ -1,4 +1,4 @@
-@import "@/assets/mixins.scss";
+@use "@/assets/mixins.scss" as *;
 
 .cp-tabs-container {
     background-color: var(--cp-page-bg-light);

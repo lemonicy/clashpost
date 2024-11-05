@@ -21,7 +21,7 @@ onMounted(() => {
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 /* 第一列含有右边框 */
 .cp-table-district-level {

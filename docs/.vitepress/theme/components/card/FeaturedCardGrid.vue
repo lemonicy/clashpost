@@ -5,7 +5,7 @@
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 /* 特色卡片的网格 */
 .cp-featured-card-grid {

@@ -57,5 +57,5 @@ onBeforeUnmount(() => {
 </template>
 
 <style lang="scss">
-@import '@/components/tab/tab.scss';
+@use '@/components/tab/tab.scss';
 </style>

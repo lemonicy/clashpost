@@ -31,7 +31,7 @@ const props = defineProps({
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 .unit-img-group {
     border-bottom: 0.1rem solid rgb(205, 205, 205);

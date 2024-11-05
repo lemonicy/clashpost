@@ -66,7 +66,7 @@ if (import.meta.env.MODE === 'development') {
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 main {
     width: 100%;

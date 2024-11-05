@@ -65,7 +65,7 @@ const loadingValue = props.lazyLoading ? "lazy" : "eager";
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 /* 特色卡片 */
 .cp-featured-card {

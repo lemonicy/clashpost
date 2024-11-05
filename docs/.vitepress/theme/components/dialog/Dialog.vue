@@ -152,7 +152,7 @@ const emits = defineEmits([
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 .cp-dialog-background {
     display: flex;

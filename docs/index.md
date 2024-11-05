@@ -120,7 +120,7 @@ onBeforeUnmount(() => {
 </div>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 #homepage-site-name {
     margin-top: 0.75rem;

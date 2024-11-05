@@ -109,7 +109,7 @@ const imgSrcWebp = replaceFileExtension(imgSrcOriginal, ".webp");
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 figure.cp-img-container {
     text-align: center;

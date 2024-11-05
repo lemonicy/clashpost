@@ -59,7 +59,7 @@ onMounted(() => {
 </template>
 
 <style lang="scss">
-@import '@/assets/mixins.scss';
+@use '@/assets/mixins.scss' as *;
 
 .cp-unit-img-item {
     display: flex;
