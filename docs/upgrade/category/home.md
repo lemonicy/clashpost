@@ -71,6 +71,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="狂暴宝石" imgSrc="0782/Rage_Gem_thumb.png" link="0782-Rage-Gem" :heroIndex="2" />
         <ListItem name="治疗书卷" imgSrc="0783/Healing_Tome_thumb.png" link="0783-Healing-Tome" :heroIndex="2" />
         <ListItem name="巨大火球" imgSrc="0784/Fireball_thumb.png" link="0784-Fireball" :heroIndex="2" />
+        <ListItem name="熔岩气球玩偶" imgSrc="0785/Lavaloon_Puppet_thumb.png" link="0785-Lavaloon-Puppet" :heroIndex="2" />
         <ListItem name="寻踪飞盾" imgSrc="07c0/Seeking_Shield_thumb.png" link="07c0-Seeking-Shield" :heroIndex="3" />
         <ListItem name="皇家宝石" imgSrc="07c1/Royal_Gem_thumb.png" link="07c1-Royal-Gem" :heroIndex="3" />
         <ListItem name="野猪骑士木偶" imgSrc="07c2/Hog_Rider_Puppet_thumb.png" link="07c2-Hog-Rider-Puppet" :heroIndex="3" />
