@@ -9,6 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Lavaloon
 canonical: /upgrade/0e0b-Lavaloon
 ---
 
+- *如想查看熔岩气球玩偶装备派生出来的同名兵种，请访问：[熔岩气球玩偶](/upgrade/0785-Lavaloon-Puppet)。*
+
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-unit-item-0" :activeTab="true">熔岩气球</SwitchTab>
     <SwitchTab tabId="cp-unit-item-1">迷你熔岩气球犬</SwitchTab>
@@ -37,6 +39,7 @@ canonical: /upgrade/0e0b-Lavaloon
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="防空火箭" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="1.8 格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="23" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
