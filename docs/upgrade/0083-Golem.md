@@ -187,7 +187,7 @@ const tableExtraInfo = [
         <TimelineRow>8 ~ 10 级戈仑石人的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>新增 15 本，并在 16 本新增 12 级戈仑石人。</TimelineRow>
+        <TimelineRow>新增 15 本，并在 15 本新增 12 级戈仑石人。</TimelineRow>
         <TimelineRow>5 ~ 11 级戈仑石人的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
