@@ -92,11 +92,11 @@ onBeforeUnmount(() => {
     <div class="homepage-recommend-item">
         <SmallTitle>你知道吗</SmallTitle>
         <ul>
-            <li>使用 <a href="/upgrade/0745-Magic-Mirror">克隆魔镜</a> 复制出的 <a href="/upgrade/0201-Archer-Queen">女王</a> 会被 <a href="/upgrade/0088-Headhunter">英雄猎手</a> 优先攻击。</li>
-            <li><a href="/upgrade/000b-Miner">掘地矿工</a> 在防守时不会钻地。</li>
-            <li><a href="/upgrade/0185-Overgrowth-Spell">蔓生法术</a> 生成的藤蔓可以卡住 <a href="/upgrade/0244-Log-Launcher">攻城滚木车</a>。</li>
-            <li>给萌新捐兵时，捐出去的兵等级会变低，详见 <a href="/p/2053">援兵等级限制机制</a>。</li>
-            <li>法术的效果可以叠加，详见 <a href="/p/1362">法术叠加机制</a>。</li>
+            <li><a href="/upgrade/0785-Lavaloon-Puppet">熔岩气球玩偶</a> 是目前游戏中唯一召唤临时兵种的装备。</li>
+            <li><a href="/upgrade/0488-Blacksmith">铁匠铺</a> 免疫 <a href="/upgrade/0100-Lightning-Spell">雷电法术</a> 伤害，理论上属于资源类建筑，但不被 <a href="/upgrade/0003-Goblin">哥布林</a> 优先攻击。</li>
+            <li>在远古版本，<a href="/upgrade/110a-Giant-Cannon">巨型加农炮</a> 会对 <a href="/upgrade/10f0-Battle-Machine">战争机器</a> 造成额外伤害。</li>
+            <li>2024 年 9 月更新大幅提高了仓库的 <a href="/p/639">掠夺上限</a>。</li>
+            <li><a href="/p/6524">匹配值</a> 是什么？如何查看？</li>
         </ul>
     </div>
     <div class="homepage-recommend-item">
