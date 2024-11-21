@@ -12,9 +12,9 @@ import Close from '@/components/icon/Close.vue';
 const notificationCountIconRef = ref(0);
 const searchProviderRef = ref();
 
-const hasNotification = false;
+const hasNotification = true;
 const notificationCount = 1;
-const currentNotificationId = 2;
+const currentNotificationId = 3;
 
 // 显示通知弹窗
 function showNotificationDialog() {
@@ -251,8 +251,9 @@ onBeforeUnmount(() => {
             </div>
         </nav>
     </div>
-    <Dialog dialogId="cp-notification-dialog" title="消息通知" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了">
-        <p>网站的搜索功能终于上线了，快去通知你的小伙伴吧！</p>
+    <Dialog dialogId="cp-notification-dialog" title="本网站不再积极维护" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了">
+        <p>考虑到游戏的现状，经内部研究决定，本项目不再积极维护，这意味着网站的内容更新速度会大幅减慢，且会在不久之后停更。</p>
+        <p>如果你愿意陪这个项目走到最后，也可 <a href="https://github.com/lemonicy/clashpost" target="_blank" rel="nofollow noreferrer">前往 Github</a> 给本项目续命。</p>
     </Dialog>
     <Dialog dialogId="cp-search-dialog" title="搜索 (Ctrl + k)" :hasSecondaryBtn="true" :hasPrimaryBtn="true"
         primaryText="开始搜索" secondaryText="关闭窗口" :hasClickPrimaryEvent="true" :hasClickSecondaryEvent="true"
