@@ -61,14 +61,14 @@ function downloadXapkInstaller() {
 - 请留意下方的更新时间和版本号，不要下载成旧版的安装包。如果网站内未更新安装包，请等一会再看，不要反复下载。
 
 <div id="apk-download-btn-container">
-    <button id="apk-download-btn" class="btn-primary" @click="downloadCocApk">
+    <!-- <button id="apk-download-btn" class="btn-primary" @click="downloadCocApk">
         <p id="apk-download-text">点击下载安装包</p>
         <p>版本 {{ apkVersion }}，更新于 {{ apkUploadDate }}</p>
-    </button>
-    <!-- <button id="apk-download-btn" class="btn-primary" disabled>
+    </button> -->
+    <button id="apk-download-btn" class="btn-primary" disabled>
         <p id="apk-download-text">游戏即将更新</p>
         <p>旧版本下载渠道暂时关闭</p>
-    </button> -->
+    </button>
     <!-- <button id="apk-download-btn" class="btn-secondary" @click="downloadXapkInstaller">
         <p id="apk-download-text">点击下载安装工具</p>
         <p>版本 {{ installerVersion }}，更新于 {{ installerUploadDate }}</p>
