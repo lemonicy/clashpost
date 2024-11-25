@@ -11,9 +11,9 @@ robots: index, nofollow
 import { showDialog } from '@/components/dialog/Dialog.vue';
 import { generateToast } from '@/components/dialog/Toast.vue';
 
-const apkVersion = "16.517.24";
-const apkUploadDate = "2024-11-05";
-const apkFileName = "coc正式服_v16.517.24_tfuOxT82U5UAJVFl.apk";
+const apkVersion = "16.654.6";
+const apkUploadDate = "2024-11-25";
+const apkFileName = "coc正式服_v16.654.6_IorPuoqymYlqZJdg.apk";
 
 function downloadCocApk() {
     window.location.href = "https://static.clashpost.com/download/" + encodeURI(apkFileName);
@@ -61,14 +61,14 @@ function downloadXapkInstaller() {
 - 请留意下方的更新时间和版本号，不要下载成旧版的安装包。如果网站内未更新安装包，请等一会再看，不要反复下载。
 
 <div id="apk-download-btn-container">
-    <!-- <button id="apk-download-btn" class="btn-primary" @click="downloadCocApk">
+    <button id="apk-download-btn" class="btn-primary" @click="downloadCocApk">
         <p id="apk-download-text">点击下载安装包</p>
         <p>版本 {{ apkVersion }}，更新于 {{ apkUploadDate }}</p>
-    </button> -->
-    <button id="apk-download-btn" class="btn-primary" disabled>
+    </button>
+    <!-- <button id="apk-download-btn" class="btn-primary" disabled>
         <p id="apk-download-text">游戏即将更新</p>
         <p>旧版本下载渠道暂时关闭</p>
-    </button>
+    </button> -->
     <!-- <button id="apk-download-btn" class="btn-secondary" @click="downloadXapkInstaller">
         <p id="apk-download-text">点击下载安装工具</p>
         <p>版本 {{ installerVersion }}，更新于 {{ installerUploadDate }}</p>
@@ -87,7 +87,7 @@ function downloadXapkInstaller() {
   - 虽说天翼云盘是中国电信的产品，但不一定要在电信网络下使用，你在移动、联通的网络下也可以使用。
 - [123 云盘（提取码：FBLy）](https://www.123pan.com/s/yAPGTd-9vivH) - 不限速，但想要免登录下载需要分享者掏钱买一个叫“免登录提取流量包”的东西。
   - 我们只会在游戏大版本更新后买一些免登录流量，手快有手慢无。
-- [小飞机网盘（提取码：dg54）](https://share.feijipan.com/s/kCBcuwIg) - 同样不限速，但只有 500 MB 以下的文件才能免登录下载，coc 安装包暂未超过限制，因此无需登录。
+- [小飞机网盘（提取码：dg54）](https://share.feijipan.com/s/kCBcuwIg) - 同样不限速，但只有 500 MB 以下的文件才能免登录下载，coc 安装包已超过限制，因此需要登录。
 
 ### 应用商店下载（需要翻墙）
 
