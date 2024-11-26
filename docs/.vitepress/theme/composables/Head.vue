@@ -14,7 +14,7 @@ const searchProviderRef = ref();
 
 const hasNotification = true;
 const notificationCount = 1;
-const currentNotificationId = 3;
+const currentNotificationId = 4;
 
 // 显示通知弹窗
 function showNotificationDialog() {
@@ -251,9 +251,16 @@ onBeforeUnmount(() => {
             </div>
         </nav>
     </div>
-    <Dialog dialogId="cp-notification-dialog" title="本网站不再积极维护" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了">
-        <p>考虑到游戏的现状，经内部研究决定，本项目不再积极维护，这意味着网站的内容更新速度会大幅减慢，且会在不久之后停更。</p>
-        <p>如果你愿意陪这个项目走到最后，也可 <a href="https://github.com/lemonicy/clashpost" target="_blank" rel="nofollow noreferrer">前往 Github</a> 给本项目续命。</p>
+    <Dialog dialogId="cp-notification-dialog" title="关于修改网站更新计划的通知" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了">
+        <p>考虑到游戏的现状，经内部研究决定，本项目不再积极维护，这意味着网站的内容更新速度会大幅减慢，且不排除停更的可能性。</p>
+        <p><strong>注意：</strong></p>
+        <p>1. 安装包功能我们会优先保障，毕竟这个功能不费什么精力，只要有时间我们一定安排。<strong>以后大家仍然可以在这里下载安装包</strong>。</p>
+        <p>2. 数据功能现在只有作者和个别粉丝在维护，更新速度根本快不起来。如果再有人退游且补不上来新人，那就约等于停更了，所以这条公告也有招募维护人员的考虑。</p>
+        <p>3. 除了更新一下场景、载入图这些东西，攻略区事实上已经停更了，不过之前承诺的英雄皮肤页面仍然会做，目前报 404 的页面也会补上，至于新攻略就别指望太多了。</p>
+        <p>4. 之前说的计算功能会砍掉一部分，装备升级计算、英雄升级计算仍然会抽时间做，不过按大本等级分类不准备再做了。</p>
+        <p>5. 如果你愿意陪这个项目走到最后，也可 <a href="https://github.com/lemonicy/clashpost" target="_blank" rel="nofollow noreferrer">前往 Github</a>
+            给本项目续命。另外，在 Github 做操作的时候务必隐藏个人信息，我看有人把自己的 QQ 号都泄露了，还有泄露姓名全拼的。你也不想步那位
+            <a href="https://www.sohu.com/a/724375120_121333743" target="_blank" rel="nofollow noreferrer">承德程序员</a> 的后尘吧（话说这还需要我提醒吗）。</p>
     </Dialog>
     <Dialog dialogId="cp-search-dialog" title="搜索 (Ctrl + k)" :hasSecondaryBtn="true" :hasPrimaryBtn="true"
         primaryText="开始搜索" secondaryText="关闭窗口" :hasClickPrimaryEvent="true" :hasClickSecondaryEvent="true"
