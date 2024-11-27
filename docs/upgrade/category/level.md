@@ -11,10 +11,12 @@ import ListItems from '@/components/upgrade/ListItems.vue';
 import ListItem from '@/components/upgrade/ListItem.vue';
 </script>
 
-如果你想看每个大本等级升满需要多少资源、多少时间，请参考以下链接：
+这个页面原本是用来查看每个大本等级升满需要多少资源、多少时间的，不过以前的按大本等级分类是稳本算法，已严重脱离玩家的实际需求，实在是没什么用了，因此我们删除了相关内容。
+
+后来，游戏玩家大量流失导致做一套新页面的必要性降低，该功能的复杂性会导致运营成本上升（服务器配置要提升），维护人员不够导致即使做了也没时间维护。综合以上几点，虽然玩家确实有这个需求，但我们只能忍痛放弃此功能。
+
+如果你有相关需求，请前往维基查看：
 
 - 家乡：[Cumulative Costs/Home Village](https://clashofclans.fandom.com/wiki/Cumulative_Costs/Home_Village)
 - 夜世界：[Cumulative Costs/Builder Base](https://clashofclans.fandom.com/wiki/Cumulative_Costs/Builder_Base)
 - 都城：[Cumulative Costs/Clan Capital](https://clashofclans.fandom.com/wiki/Cumulative_Costs/Clan_Capital)
-
-由于以前的按大本等级分类是稳本算法，已严重脱离玩家的实际需求，应该用更实用的功能代替。但游戏都这样了，替代功能可能不会再做了。
