@@ -199,6 +199,13 @@ function getDailyCost(timeValue, costValue, discount) {
 
     if (costValue === "\\" || timeValue === "\\") {
         return "\\";
+    } else if (costValue == "0") {
+        // 如果升级花费为 0，日均消耗一定为 0
+        // 即使此时时间为 0，也即零做除数，日均消耗也显示为 0
+        return 0;
+    } else if (timeValue == "0") {
+        // 这个分支是为了排除时间为 0 时出现零做除数的情况
+        return "\\";
     } else {
         const timeSec = getTimeSecFromValue(timeValue);
         const newTimeSec = getDiscountTimeSec(timeSec, discount);
