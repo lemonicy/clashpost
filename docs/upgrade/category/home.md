@@ -38,6 +38,7 @@ if (activeTabCookieValue === "home-techniques") {
     <ListItems title="英雄" imgFolder="home_heroes">
         <ListItem name="野蛮人之王" imgSrc="0200/Barbarian_King_thumb.png" link="0200-Barbarian-King" :heroIndex="0" :lazyLoading="false" />
         <ListItem name="弓箭女皇" imgSrc="0201/Archer_Queen_thumb.png" link="0201-Archer-Queen" :heroIndex="1" :lazyLoading="false" />
+        <ListItem name="亡灵王子" imgSrc="0204/Minion_Prince_thumb.png" link="0204-Minion-Prince" :heroIndex="4" :lazyLoading="false" />
         <ListItem name="大守护者" imgSrc="0202/Grand_Warden_thumb.png" link="0202-Grand-Warden" :heroIndex="2" :lazyLoading="false" />
         <ListItem name="飞盾战神" imgSrc="0203/Royal_Champion_thumb.png" link="0203-Royal-Champion" :heroIndex="3" :lazyLoading="false" />
     </ListItems>
@@ -211,6 +212,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="攻城机器工坊" imgSrc="0486/Workshop7.png" link="0486-Workshop" />
         <ListItem name="战宠小屋" imgSrc="0487/Pet_House10.png" link="0487-Pet-House" />
         <ListItem name="铁匠铺" imgSrc="0488/Blacksmith9.png" link="0488-Blacksmith" />
+        <ListItem name="英雄殿堂" imgSrc="0489/Hero_Hall11.png" link="0489-Hero-Hall" />
     </ListItems>
     <ListItems title="其他" imgFolder="home_buildings">
         <ListItem name="建筑工人小屋" imgSrc="0500/Builders_Hut6.png" link="0500-Builders-Hut" />
