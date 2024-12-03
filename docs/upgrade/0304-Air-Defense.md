@@ -12,7 +12,7 @@ canonical: /upgrade/0304-Air-Defense
 - *如想查看夜世界的多管防空火炮，请访问 [夜世界防空火炮](/upgrade/1104-Firecrackers)。*
 - *如想查看都城的多管防空火箭，请访问：[都城防空火箭](/upgrade/2203-Air-Defense)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Air_Defense14.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Air_Defense15.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -32,13 +32,14 @@ canonical: /upgrade/0304-Air-Defense
         <UnitImg imgTitle="12 级" imgSrc="Air_Defense12.png" />
         <UnitImg imgTitle="13 级" imgSrc="Air_Defense13.png" />
         <UnitImg imgTitle="14 级" imgSrc="Air_Defense14.png" />
+        <UnitImg imgTitle="15 级" imgSrc="Air_Defense15.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 3, 4 - 5, 6, 7 - 8, 9 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 3, 4 - 5, 6, 7 - 8, 9 - 17" />
     <BuildingNumRow title="建筑数量" num="    0,     1, 2,     3,      4" />
 </BuildingNum>
 
@@ -89,16 +90,25 @@ const tableExtraInfo = [
 |   7  |   280   |   280   |  1100  | 1.75M   |    2      |                     |        9       |
 |   8  |   320   |   320   |  1210  |  2.3M   |    2,12   |                     |       10       |
 |   9  |   360   |   360   |  1300  |  3.4M   |    3      |                     |       11       |
-|  10  |   400   |   400   |  1400  |  5.8M   |    4,12   |                     |       12       |
-|  11  |   440   |   440   |  1500  |  8.4M   |    5,12   |                     |       13       |
-|  12  |   500   |   500   |  1650  |   11M   |    7,12   |                     |       14       |
-|  13  |   540   |   540   |  1750  |   16M   |    8,12   |                     |       15       |
-|  14  |   600   |   600   |  1850  | 20.5M   |   15      |                     |       16       |
+|  10  |   400   |   400   |  1400  |  5.8M   |    4      |                     |       12       |
+|  11  |   440   |   440   |  1500  |  7.5M   |    4,12   |                     |       13       |
+|  12  |   500   |   500   |  1650  |  8.5M   |    5      |                     |       14       |
+|  13  |   540   |   540   |  1750  | 11.5M   |    6      |                     |       15       |
+|  14  |   600   |   600   |  1850  | 15.4M   |   11      |                     |       16       |
+|  15  |   650   |   650   |  1950  |   21M   |   15,6    |                     |       17       |
+| ⚡1  |   670   |   670   |  1950  |   10M   |    4      |                     |       17       |
+| ⚡2  |   690   |   690   |  1950  |    6M   |    6      |                     |       17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 15 级防空火箭。</TimelineRow>
+        <TimelineRow>10 ~ 14 级防空火箭的升级时间减少。</TimelineRow>
+        <TimelineRow>11 ~ 14 级防空火箭的升级费用降低。</TimelineRow>
+        <TimelineRow>防空火箭成为第二批可以充能的建筑。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>2 ~ 4、10 ~ 13 级防空火箭的升级时间减少。</TimelineRow>
         <TimelineRow>12 ~ 13 级防空火箭的升级费用降低。</TimelineRow>

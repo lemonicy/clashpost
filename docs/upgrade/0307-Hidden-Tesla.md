@@ -39,7 +39,7 @@ canonical: /upgrade/0307-Hidden-Tesla
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 11, 12 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 11, 12 - 17" />
     <BuildingNumRow title="建筑数量" num="    0, 2, 3,      4,       5" />
 </BuildingNum>
 
@@ -88,20 +88,29 @@ const tableExtraInfo = [
 |   4  |    55   |   33    |   690  |  800k   |   0,12    |                     |        8       |
 |   5  |    64   |   38.4  |   730  |    1M   |   0,18    |                     |        8       |
 |   6  |    75   |   45    |   770  |  1.2M   |   1       |                     |        8       |
-|   7  |    87   |   52.2  |   810  |  1.5M   |   2       |                     |        9       |
-|   8  |    99   |   59.4  |   850  |  1.6M   |   2,12    |                     |       10       |
+|   7  |    87   |   52.2  |   810  |  1.5M   |   1,12    |                     |        9       |
+|   8  |    99   |   59.4  |   850  |  1.6M   |   2       |                     |       10       |
 |   9  |   110   |   66    |   900  |  2.5M   |   3       |                     |       11       |
 |  10  |   120   |   72    |   980  |    5M   |   3,12    |                     |       12       |
-|  11  |   130   |   78    |  1100  |  7.7M   |   5       |                     |       13       |
-|  12  |   140   |   84    |  1200  |    9M   |   6       |                     |       13       |
-|  13  |   150   |   90    |  1350  |   10M   |   7       |                     |       14       |
-|  14  |   160   |   96    |  1450  |   15M   |   8       |                     |       15       |
-|  15  |   170   |  102    |  1550  |   20M   |  14       |                     |       16       |
+|  11  |   130   |   78    |  1100  |  5.5M   |   4       |                     |       13       |
+|  12  |   140   |   84    |  1200  |    6M   |   4, 6    |                     |       13       |
+|  13  |   150   |   90    |  1350  |    7M   |   5       |                     |       14       |
+|  14  |   160   |   96    |  1450  |   10M   |   6       |                     |       15       |
+|  15  |   170   |  102    |  1550  | 15.5M   |  10,12    |                     |       16       |
+| ⚡1  |   175   |  105    |  1550  |    6M   |   2, 6    |                     |       16       |
+| ⚡2  |   175   |  105    |  1600  |    3M   |   3,18    |                     |       16       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>7 ~ 8、11 ~ 15 级特斯拉电磁塔的升级时间减少。</TimelineRow>
+        <TimelineRow>11 ~ 15 级特斯拉电磁塔的升级费用降低。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2024/09/09">
+        <TimelineRow>超级充能推出，特斯拉电磁塔是第一批可以充能的建筑之一。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>10 ~ 14 级特斯拉电磁塔的升级时间减少。</TimelineRow>
         <TimelineRow>13 ~ 14 级特斯拉电磁塔的升级费用降低。</TimelineRow>

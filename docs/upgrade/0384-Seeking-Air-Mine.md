@@ -20,6 +20,7 @@ canonical: /upgrade/0384-Seeking-Air-Mine
         <UnitImg imgTitle="1 - 2 级" imgSrc="Seeking_Air_Mine1.png" />
         <UnitImg imgTitle="3 - 4 级" imgSrc="Seeking_Air_Mine3.png" />
         <UnitImg imgTitle="5 - 6 级" imgSrc="Seeking_Air_Mine5.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Seeking_Air_Mine7.png" />
         <UnitImg imgTitle="未重新布置" imgSrc="Seeking_Air_Mine_unarmed.png" />
     </UnitImgGroup>
 </Panel>
@@ -27,8 +28,8 @@ canonical: /upgrade/0384-Seeking-Air-Mine
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9, 10 - 11, 12, 13, 14 - 16" />
-    <BuildingNumRow title="建筑数量" num="    0, 1, 2, 4,       5,  6,  7,       8" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9, 10 - 11, 12, 13, 14 - 16, 17" />
+    <BuildingNumRow title="建筑数量" num="    0, 1, 2, 4,       5,  6,  7,       8,  9" />
 </BuildingNum>
 
 <SmallTitle>属性</SmallTitle>
@@ -73,14 +74,20 @@ const tableExtraInfo = [
 |   2  |   1800  |   900k  |    0,12   |                     |        9      |
 |   3  |   2100  |   1.6M  |    1      |                     |       10      |
 |   4  |   2500  |   3.1M  |    3      |                     |       13      |
-|   5  |   2800  |     8M  |    6,12   |                     |       15      |
-|   6  |   3000  |    14M  |   12,12   |                     |       16      |
+|   5  |   2800  |     6M  |    5      |                     |       15      |
+|   6  |   3000  |  10.5M  |    9, 6   |                     |       16      |
+|   7  |   3200  |    14M  |   10      |                     |       17      |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 7 级搜空地雷。</TimelineRow>
+        <TimelineRow>17 本可以新解锁一个搜空地雷。</TimelineRow>
+        <TimelineRow>5 ~ 6 级搜空地雷的升级费用和时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>5 级搜空地雷的升级时间减少。</TimelineRow>
         <TimelineRow>5 级搜空地雷的升级费用降低。</TimelineRow>

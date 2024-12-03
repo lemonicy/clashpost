@@ -37,7 +37,7 @@ canonical: /upgrade/0500-Builders-Hut
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1, 2 - 16" />
+    <BuildingNumRow title="大本等级" num="1, 2 - 17" />
     <BuildingNumRow title="建筑数量" num="2,      5" />
 </BuildingNum>
 
@@ -96,12 +96,14 @@ const tableExtraInfo = [
 
 | 等级 | 每秒伤害 | 每次伤害 |每秒<br>修复值|每次敲锤子<br>的修复值| 生命值 | 升级费用 | 升级时间|升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |  ----   |   ---   |     ---     |         ---         |  ---  |   ---   |   ---   |         ---        |      ---      |
-|   1  |     0   |     0   |       0     |         0           |   250 |  见下方  |   0     |                    |      1        |
-|   2  |    80   |    32   |      50     |        37.5         |  1000 |     8M  |   8     |                    |      14       |
-|   3  |   100   |    40   |      60     |        45           |  1300 |    10M  |   9     |                    |      14       |
-|   4  |   120   |    48   |      70     |        52.5         |  1600 |    12M  |   9,12  |                    |      14       |
-|   5  |   135   |    54   |      80     |        60           |  1800 |    15M  |  11     |                    |      15       |
-|   6  |   150   |    60   |      85     |        63.75        |  1900 |    20M  |  15     |                    |      16       |
+|   1  |     0   |     0   |       0     |         0           |   250 |  见下方  |    0    |                    |      1        |
+|   2  |    80   |    32   |      50     |        37.5         |  1000 |   5.5M  |    4    |                    |      14       |
+|   3  |   100   |    40   |      60     |        45           |  1300 |     7M  |    5    |                    |      14       |
+|   4  |   120   |    48   |      70     |        52.5         |  1600 |   8.5M  |    6    |                    |      14       |
+|   5  |   135   |    54   |      80     |        60           |  1800 |  11.5M  |    7    |                    |      15       |
+|   6  |   150   |    60   |      85     |        63.75        |  1900 |  15.5M  |   11    |                    |      16       |
+| ⚡1  |   157   |   62.8  |     85      |        63.75       |  1900  |   10M   |    4    |                    |      16      |
+| ⚡2  |   157   |   62.8  |     85      |        63.75       |  1950  |    5M   |    6    |                    |      16      |
 </UnitTable>
 
 <SmallTitle>新建费用</SmallTitle>
@@ -120,6 +122,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>2 ~ 6 级建筑工人小屋的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2024/09/09">
+        <TimelineRow>超级充能推出，建筑工人小屋是第一批可以充能的建筑之一。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>2 ~ 5 级建筑工人小屋的升级时间减少。</TimelineRow>
         <TimelineRow>5 级建筑工人小屋的升级费用降低。</TimelineRow>

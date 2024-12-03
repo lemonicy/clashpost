@@ -11,7 +11,7 @@ canonical: /upgrade/0404-Gold-Storage
 
 - *如想查看夜世界的储金罐，请访问：[夜世界储金罐](/upgrade/1203-Gold-Storage)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Storage17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Storage18.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -34,13 +34,14 @@ canonical: /upgrade/0404-Gold-Storage
         <UnitImg imgTitle="15 级" imgSrc="Gold_Storage15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Gold_Storage16.png" />
         <UnitImg imgTitle="17 级" imgSrc="Gold_Storage17.png" />
+        <UnitImg imgTitle="18 级" imgSrc="Gold_Storage18.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 7, 8, 9 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 7, 8, 9 - 17" />
     <BuildingNumRow title="建筑数量" num="    1,     2, 3,      4" />
 </BuildingNum>
 
@@ -84,29 +85,35 @@ const tableExtraInfo = [
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 | 最大储量 | 生命值 | 升级费用 |   升级时间  | 升级后可获<br>得的经验 | 所需<br>大本等级 |
-| ---- |  ----   |  ---- |    ---   |     ---    |         ---          |  ---  |
-|   1  |   1.5k  |   400 |    300   |  0,0, 0,10 |                      |    1  |
-|   2  |   3.0k  |   600 |    750   |  0,0, 5    |                      |    2  |
-|   3  |   6.0k  |   800 |   1500   |  0,0,20    |                      |    2  |
-|   4  |    12k  |  1000 |   3000   |  0, 1      |                      |    3  |
-|   5  |    25k  |  1200 |   6000   |  0, 2      |                      |    3  |
-|   6  |    45k  |  1400 |    12k   |  0, 3      |                      |    3  |
-|   7  |   100k  |  1600 |    25k   |  0, 4      |                      |    4  |
-|   8  |   225k  |  1700 |    50k   |  0, 5      |                      |    4  |
-|   9  |   450k  |  1800 |   100k   |  0, 8      |                      |    5  |
-|  10  |   850k  |  1900 |   250k   |  0,12      |                      |    6  |
-|  11  |  1.75M  |  2100 |   500k   |  0,16      |                      |    7  |
-|  12  |     2M  |  2500 |     1M   |  1         |                      |   11  |
-|  13  |     3M  |  2900 |   1.8M   |  2         |                      |   12  |
-|  14  |     4M  |  3300 |   2.8M   |  3         |                      |   13  |
-|  15  |   4.5M  |  3700 |   3.9M   |  4         |                      |   14  |
-|  16  |     5M  |  3900 |   6.5M   |  6         |                      |   15  |
-|  17  |  5.25M  |  4050 |   7.5M   | 12,12      |                      |   16  |
+| ---- |  ----   |  ---- |    ---   |     ---    |         ---          |       ---       |
+|   1  |   1.5k  |   400 |    300   |  0,0, 0,10 |                      |         1       |
+|   2  |   3.0k  |   600 |    750   |  0,0, 5    |                      |         2       |
+|   3  |   6.0k  |   800 |   1500   |  0,0,20    |                      |         2       |
+|   4  |    12k  |  1000 |   3000   |  0, 1      |                      |         3       |
+|   5  |    25k  |  1200 |   6000   |  0, 2      |                      |         3       |
+|   6  |    45k  |  1400 |    12k   |  0, 3      |                      |         3       |
+|   7  |   100k  |  1600 |    25k   |  0, 4      |                      |         4       |
+|   8  |   225k  |  1700 |    50k   |  0, 5      |                      |         4       |
+|   9  |   450k  |  1800 |   100k   |  0, 8      |                      |         5       |
+|  10  |   850k  |  1900 |   250k   |  0,12      |                      |         6       |
+|  11  |  1.75M  |  2100 |   500k   |  0,16      |                      |         7       |
+|  12  |     2M  |  2500 |     1M   |  1         |                      |        11       |
+|  13  |     3M  |  2900 |   1.8M   |  2         |                      |        12       |
+|  14  |     4M  |  3300 |   2.8M   |  3         |                      |        13       |
+|  15  |   4.5M  |  3700 |     3M   |  4         |                      |        14       |
+|  16  |     5M  |  3900 |     4M   |  6         |                      |        15       |
+|  17  |  5.25M  |  4050 |   5.5M   |  9         |                      |        16       |
+|  18  |   5.5M  |  4200 |    10M   | 12,12      |                      |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 18 级储金罐。</TimelineRow>
+        <TimelineRow>15 ~ 17 级储金罐的升级费用降低。</TimelineRow>
+        <TimelineRow>17 级储金罐的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>12 ~ 16 级储金罐的升级时间减少。</TimelineRow>
     </TimelineItem>

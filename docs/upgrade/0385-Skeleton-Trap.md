@@ -33,7 +33,7 @@ canonical: /upgrade/0385-Skeleton-Trap
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 9, 10 - 13, 14 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 9, 10 - 13, 14 - 17" />
     <BuildingNumRow title="建筑数量" num="    0,     2,       3,       4" />
 </BuildingNum>
 
@@ -85,12 +85,12 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 | 骷髅数量 | 升级费用 |  升级时间  |升级后可<br>获得的经验|所需<br>大本等级|
-| ---- |   ---   |   ---   |    ---     |         ---        |      ---      |
-|   1  |    2    |     6k  |    0       |                    |        8      |
-|   2  |    3    |   300k  |    0, 5    |                    |        8      |
-|   3  |    4    |   800k  |    0,10    |                    |        9      |
-|   4  |    5    |   1.1M  |    0,20    |                    |       10      |
+| 等级 | 骷髅数量 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
+| ---- |   ---   |   ---   |   ---   |         ---        |      ---      |
+|   1  |    2    |     6k  |   0     |                    |        8      |
+|   2  |    3    |   300k  |   0, 5  |                    |        8      |
+|   3  |    4    |   800k  |   0,10  |                    |        9      |
+|   4  |    5    |   1.1M  |   0,20  |                    |       10      |
 
 </UnitTable>
 

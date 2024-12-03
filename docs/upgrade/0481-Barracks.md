@@ -13,7 +13,7 @@ canonical: /upgrade/0481-Barracks
 - *如想查看夜世界的建筑大师训练营，请访问：[夜世界建筑大师训练营](/upgrade/1280-Builder-Barracks)。*
 - *都城的训练营比较多，这里就不放链接了，如有需求请自行前往相关页面查看。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Barracks17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Barracks18.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -35,14 +35,15 @@ canonical: /upgrade/0481-Barracks
         <UnitImg imgTitle="14 级" imgSrc="Barracks14.png" />
         <UnitImg imgTitle="15 级" imgSrc="Barracks15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Barracks16.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Barracks17.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Barracks17.png" imgHd="Barracks17_hd.png" />
+        <UnitImg imgTitle="18 级" imgSrc="Barracks18.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 17" />
     <BuildingNumRow title="建筑数量" num="1" />
 </BuildingNum>
 
@@ -87,19 +88,20 @@ const tableExtraInfo = [
 |    2 |   290  |    500  |  0,0, 1    |                    |  1<sup>#</sup>  |<a href="/upgrade/0001-Archer">弓箭手</a>|
 |    3 |   330  |   2500  |  0,0,10    |                    |  1<sup>#</sup>  |<a href="/upgrade/0002-Giant">巨人</a>|
 |    4 |   370  |   5000  |  0, 1      |                    |         2       |<a href="/upgrade/0003-Goblin">哥布林</a>|
-|    5 |   420  |    20k  |  0, 8      |                    |         3       |<a href="/upgrade/0004-Wall-Breaker">炸弹人</a>|
+|    5 |   420  |    20k  |  0, 4      |                    |         3       |<a href="/upgrade/0004-Wall-Breaker">炸弹人</a>|
 |    6 |   470  |   120k  |  0,12      |                    |         4       |<a href="/upgrade/0005-Balloon">气球兵</a>|
 |    7 |   520  |   270k  |  0,18      |                    |         5       |<a href="/upgrade/0006-Wizard">法师</a>|
 |    8 |   580  |   800k  |  1         |                    |         6       |<a href="/upgrade/0007-Healer">天使</a>|
 |    9 |   650  |     1M  |  1,12      |                    |         7       |<a href="/upgrade/0008-Dragon">飞龙</a>|
 |   10 |   730  |   1.4M  |  2,12      |                    |         8       |<a href="/upgrade/0009-P.E.K.K.A">皮卡超人</a>|
-|   11 |   810  |   2.6M  |  4         |                    |         9       |<a href="/upgrade/000a-Baby-Dragon">飞龙宝宝</a>|
-|   12 |   900  |   3.7M  |  5,12      |                    |        10       |<a href="/upgrade/000b-Miner">掘地矿工</a>|
-|   13 |   980  |   6.5M  |  7,12      |                    |        11       |<a href="/upgrade/000c-Electro-Dragon">雷电飞龙</a>|
-|   14 |  1050  |     8M  |  9         |                    |        12       |<a href="/upgrade/000d-Yeti">大雪怪</a>|
-|   15 |  1150  |    10M  |  9,12      |                    |        13       |<a href="/upgrade/000e-Dragon-Rider">龙骑士</a>|
-|   16 |  1250  |    11M  | 12         |                    |        14       |<a href="/upgrade/000f-Electro-Titan">雷霆泰坦</a>|
-|   17 |  1350  |    14M  | 14         |                    |        15       |<a href="/upgrade/0010-Root-Rider">根蔓骑士</a>|
+|   11 |   810  |   2.6M  |  3         |                    |         9       |<a href="/upgrade/000a-Baby-Dragon">飞龙宝宝</a>|
+|   12 |   900  |   3.7M  |  5         |                    |        10       |<a href="/upgrade/000b-Miner">掘地矿工</a>|
+|   13 |   980  |   6.5M  |  6         |                    |        11       |<a href="/upgrade/000c-Electro-Dragon">雷电飞龙</a>|
+|   14 |  1050  |     7M  |  7         |                    |        12       |<a href="/upgrade/000d-Yeti">大雪怪</a>|
+|   15 |  1150  |    10M  |  7,4       |                    |        13       |<a href="/upgrade/000e-Dragon-Rider">龙骑士</a>|
+|   16 |  1250  |    11M  |  8         |                    |        14       |<a href="/upgrade/000f-Electro-Titan">雷霆泰坦</a>|
+|   17 |  1350  |  12.6M  | 12         |                    |        15       |<a href="/upgrade/0010-Root-Rider">根蔓骑士</a>|
+|   18 |  1450  |    21M  | 15         |                    |        16       |<a href="/upgrade/0011-Thrower">巨矛投手</a>|
 </UnitTable>
 
 \# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 3 级，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
@@ -107,17 +109,21 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 16 本新增 18 级训练营。</TimelineRow>    
+        <TimelineRow>5、11 ~ 17 级训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>14、17 级训练营的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>16 ~ 17 级训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>游戏新增 16 本，并在 15 本新增 17 级训练营。</TimelineRow>    
         <TimelineRow>15 ~ 16 级训练营的升级时间减少。</TimelineRow>
-        <TimelineRow>9 ~ 10 级训练营的升级时间费用减少。</TimelineRow>
+        <TimelineRow>9 ~ 10 级训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">  
-        <TimelineRow>14 ~ 14 级训练营的升级时间减少。</TimelineRow>
-        <TimelineRow>14 ~ 15 级训练营的升级时间费用减少。</TimelineRow>
+        <TimelineRow>14 ~ 15 级训练营的升级费用和时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>游戏新增 15 本，并在 14 本新增 16 级训练营，可解锁新兵种：雷霆泰坦。</TimelineRow>

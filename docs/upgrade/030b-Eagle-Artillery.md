@@ -9,6 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Eagle_Artillery
 canonical: /upgrade/030b-Eagle-Artillery
 ---
 
+- *如想查看大本营和天鹰火炮合并后的大本武器，请移步：[地狱火炮](/upgrade/0315-Inferno-Artillery)。*
+
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Eagle_Artillery7_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
@@ -46,9 +48,11 @@ canonical: /upgrade/030b-Eagle-Artillery
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 10, 11 - 16" />
-    <BuildingNumRow title="建筑数量" num="     0,       1" />
+    <BuildingNumRow title="大本等级" num="1 - 10, 11 - 16, 17" />
+    <BuildingNumRow title="建筑数量" num="     0,       1,  0" />
 </BuildingNum>
+
+在 16 级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -58,6 +62,9 @@ canonical: /upgrade/030b-Eagle-Artillery
 4. 镜像法术复制出来的部队不算人口，但是别忘了镜像法术本身算 15 人口。(**注意镜像是 3 格**)
 5. **上线之后系统会自动填充弹药**。老玩家可能经历过手动花圣水填充天鹰的年代，现在填充不消耗资源了。
 6. 如想了解天鹰火炮的更多机制，请访问：[【天鹰火炮机制讲解】跟随“我们”揭示火炮的运作规律](/p/2140)。
+7. 升级 17 级 [大本营](/upgrade/0400-Town-Hall) 时，天鹰火炮会与大本营合并为 [地狱火炮](/upgrade/0315-Inferno-Artillery)，此时天鹰火炮不再是独立建筑，而是作为大本附带的武器存在。
+    - 升级 17 级大本营时要求天鹰火炮达到 7 级，升级完成后天鹰火炮会被移除。
+    - 合并建筑的操作是永久性的，一旦合并就无法拆开。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -102,15 +109,15 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 |中心区域<br>每次伤害|外围区域<br>每次伤害|平均秒伤<sup>③</sup>| 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
-| ---- |       ---        |        ---        |         ---       |   ---  |   ---   |    ----   |        ---          |      ----      |
-|   1  |       225        |         20        |        82.5       |  4000  |    6M   |    5      |                     |       11       |
-|   2  |       250        |         25        |        97.5       |  4400  |    8M   |    5      |                     |       11       |
-|   3  |       275        |         30        |       112.5       |  4800  |   10M   |    9      |                     |       12       |
-|   4  |       350        |         35        |       127.5       |  5200  |   13M   |   10      |                     |       13       |
-|   5  |       425        |         40        |       142.5       |  5600  |   15M   |   13      |                     |       14       |
-|   6  |       475        |         45        |       150         |  5900  | 19.5M   |   14      |                     |       15       |
-|   7  |       525        |         50        |       157.5       |  6200  |   22M   |   15,12   |                     |       16       |
+| 等级 |中心区域<br>每次伤害|外围区域<br>每次伤害|平均秒伤<sup>③</sup>| 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |       ---        |        ---        |         ---       |   ---  |   ---   |   ----  |        ---          |      ----      |
+|   1  |       225        |         20        |        82.5       |  4000  |  5.5M   |   4     |                     |       11       |
+|   2  |       250        |         25        |        97.5       |  4400  |    8M   |   5     |                     |       11       |
+|   3  |       275        |         30        |       112.5       |  4800  |   10M   |   8     |                     |       12       |
+|   4  |       350        |         35        |       127.5       |  5200  |   11M   |   9     |                     |       13       |
+|   5  |       425        |         40        |       142.5       |  5600  |   13M   |  12     |                     |       14       |
+|   6  |       475        |         45        |       150         |  5900  |   14M   |  12,12  |                     |       15       |
+|   7  |       525        |         50        |       157.5       |  6200  | 17.5M   |  13     |                     |       16       |
 </UnitTable>
 
 ③ 这里的平均秒伤是以 10 秒一轮为攻速计算出的，由于天鹰火炮的实际攻速比游戏面板慢，因此实际秒伤会低于这个值。
@@ -118,6 +125,11 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>升级 17 级大本营后，大本营和天鹰火炮会自动合并成为地狱火炮。升级 17 级大本营时要求天鹰火炮达到 7 级，升级完成后天鹰火炮会被移除。</TimelineRow>
+        <TimelineRow>1、3 ~ 7 级天鹰火炮的升级时间减少。</TimelineRow>
+        <TimelineRow>1、4 ~ 7 级天鹰火炮的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>5 ~ 6 级天鹰火炮的升级费用降低。</TimelineRow>
     </TimelineItem>
@@ -128,7 +140,7 @@ const tableExtraInfo = [
         <TimelineRow>在 16 本新增 7 级天鹰火炮。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/09/28">
-        <TimelineRow>所有等级天鹰火炮中心区域的每次伤害降低 25.</TimelineRow>
+        <TimelineRow>所有等级天鹰火炮中心区域的每次伤害降低 25。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
         <TimelineRow>15 本新增 6 级天鹰火炮。</TimelineRow>

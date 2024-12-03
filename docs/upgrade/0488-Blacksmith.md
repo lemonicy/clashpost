@@ -26,7 +26,7 @@ canonical: /upgrade/0488-Blacksmith
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 17" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
@@ -37,6 +37,7 @@ canonical: /upgrade/0488-Blacksmith
 3. 英雄装备可以赋予英雄一定的技能，详情请前往对应的装备页面查看。
 4. 升级装备不需要时间，只需花费矿石。
 5. 升级装备不占用 [建筑工人](/upgrade/0500-Builders-Hut)，也不占用 [实验室](/upgrade/0483-Laboratory)。
+6. 铁匠铺免疫 [雷电法术](/upgrade/0100-Lightning-Spell) 伤害，理论上属于资源类建筑，但不被 [哥布林](/upgrade/0003-Goblin) 优先攻击。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -97,13 +98,16 @@ const tableExtraInfo = [
 |   5  |  1100  |        30k      |       3000      |       600      |   5.5M   |    5    |                     |       12      |<a href="/upgrade/0743-Healer-Puppet">天使木偶</a>|
 |   6  |  1200  |        35k      |       3500      |       700      |   8.5M   |    6    |                     |       13      |<a href="/upgrade/0783-Healing-Tome">治疗书卷</a>|
 |   7  |  1300  |        40k      |       4000      |       800      |    12M   |    7    |                     |       14      |<a href="/upgrade/07c2-Hog-Rider-Puppet">野猪骑士木偶</a>|
-|   8  |  1400  |        45k      |       4500      |       900      |    14M   |    8    |                     |       15      |<a href="/upgrade/07c3-Haste-Vial">急速药水瓶</a>|
+|   8  |  1400  |        45k      |       4500      |       900      |  12.6M   |    8    |                     |       15      |<a href="/upgrade/07c3-Haste-Vial">急速药水瓶</a>|
 |   9  |  1500  |        50k      |       5000      |      1000      |    16M   |    9    |                     |       16      |     无    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">  
+        <TimelineRow>8 级铁匠铺的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>铁匠铺改为使用圣水升级。</TimelineRow>
         <TimelineRow>现在 7 ~ 8 级铁匠铺可以解锁新装备了。</TimelineRow>

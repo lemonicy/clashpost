@@ -36,7 +36,7 @@ canonical: /upgrade/0482-Dark-Barracks
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7 -16" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7 -17" />
     <BuildingNumRow title="建筑数量" num="    0,     1" />
 </BuildingNum>
 
@@ -81,18 +81,22 @@ const tableExtraInfo = [
 |    2 |   550 |   600k  |   1      |                      |         7       |<a href="/upgrade/0081-Hog-Rider">野猪骑士</a>|
 |    3 |   600 |     1M  |   1,12   |                      |         8       |<a href="/upgrade/0082-Valkyrie">瓦基丽武神</a>|
 |    4 |   650 |   1.6M  |   2      |                      |         8       |<a href="/upgrade/0083-Golem">戈仑石人</a>|
-|    5 |   700 |   2.2M  |   3,12   |                      |         9       |<a href="/upgrade/0084-Witch">女巫</a>|
-|    6 |   750 |   2.9M  |   4,12   |                      |         9       |<a href="/upgrade/0085-Lava-Hound">熔岩猎犬</a>|
-|    7 |   800 |     4M  |   6,12   |                      |        10       |<a href="/upgrade/0086-Bowler">巨石投手</a>|
-|    8 |   850 |   7.5M  |   8      |                      |        11       |<a href="/upgrade/0087-Ice-Golem">戈仑冰人</a>|
-|    9 |   900 |     9M  |  10      |                      |        12       |<a href="/upgrade/0088-Headhunter">英雄猎手</a>|
-|   10 |   950 |    11M  |  12      |                      |        13       |<a href="/upgrade/0089-Apprentice-Warden">守护者学徒</a>|
-|   11 |  1000 |    14M  |  13      |                      |        14       |<a href="/upgrade/008a-Druid">德鲁伊</a>|
+|    5 |   700 |   2.2M  |   2,12   |                      |         9       |<a href="/upgrade/0084-Witch">女巫</a>|
+|    6 |   750 |   2.9M  |   3      |                      |         9       |<a href="/upgrade/0085-Lava-Hound">熔岩猎犬</a>|
+|    7 |   800 |     4M  |   5      |                      |        10       |<a href="/upgrade/0086-Bowler">巨石投手</a>|
+|    8 |   850 |     7M  |   6      |                      |        11       |<a href="/upgrade/0087-Ice-Golem">戈仑冰人</a>|
+|    9 |   900 |   7.2M  |   7      |                      |        12       |<a href="/upgrade/0088-Headhunter">英雄猎手</a>|
+|   10 |   950 |    11M  |   8      |                      |        13       |<a href="/upgrade/0089-Apprentice-Warden">守护者学徒</a>|
+|   11 |  1000 |    14M  |   9      |                      |        14       |<a href="/upgrade/008a-Druid">德鲁伊</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">  
+        <TimelineRow>5 ~ 11 级暗黑训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 9 级暗黑训练营的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>10 级暗黑训练营的升级时间减少。</TimelineRow>
         <TimelineRow>10 级暗黑训练营的升级费用降低。</TimelineRow>

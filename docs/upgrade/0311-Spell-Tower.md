@@ -33,7 +33,7 @@ canonical: /upgrade/0311-Spell-Tower
 <SmallTitle>各大本等级的法术塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 17" />
     <BuildingNumRow title="建筑数量" num="     0,       2" />
 </BuildingNum>
 
@@ -76,7 +76,7 @@ canonical: /upgrade/0311-Spell-Tower
 <SmallTitle>各大本等级的法术塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 17" />
     <BuildingNumRow title="建筑数量" num="     0,       2" />
 </BuildingNum>
 
@@ -122,7 +122,7 @@ canonical: /upgrade/0311-Spell-Tower
 <SmallTitle>各大本等级的法术塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 17" />
     <BuildingNumRow title="建筑数量" num="     0,       2" />
 </BuildingNum>
 
@@ -177,14 +177,19 @@ const tableExtraInfo = [
 
 | 等级 | 生命值 | 升级费用 | 升级时间 | 升级后可<br>获得的经验| 所需<br>大本等级 | 解锁的法术 |
 | ---- |   --- |   ---   |   ---    |        ---          |       ---       |    ---    |
-|   1  |  2500 |   14M   |    9     |                     |        15       |  狂暴法术  |
-|   2  |  2800 |   15M   |   10,18  |                     |        15       |  毒药法术  |
-|   3  |  3100 |   17M   |   11     |                     |        15       |  隐形法术  |
+|   1  |  2500 |   11M   |    9     |                     |        15       |<a href="/upgrade/0102-Rage-Spell">狂暴法术</a>|
+|   2  |  2800 |   12M   |   10,18  |                     |        15       |<a href="/upgrade/0180-Poison-Spell">毒药法术</a>|
+|   3  |  3100 |   13M   |   11     |                     |        15       |<a href="/upgrade/0106-Invisibility-Spell">隐形法术</a>|
 </UnitTable>
+
+注：法术塔释放的法术与自己主动释放的法术并不完全相同，上述链接只是方便对照，切勿生搬硬套。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>1 ~ 3 级法术塔的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>1 ~ 3 级法术塔的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 3 级法术塔的升级费用降低。</TimelineRow>

@@ -179,8 +179,18 @@ const props = defineProps({
     tableExtraInfo: {
         type: Array,
         default: []
-    }
+    },
+    maxWidth: {
+        type: String,
+        default: null
+    },
 });
+
+const maxWidth = props.maxWidth;
+let styleAttr = "";
+if (maxWidth) {
+    styleAttr += "max-width: " + maxWidth;
+}
 
 const tableContainerRef = ref();
 
@@ -198,7 +208,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="cp-table-container cp-upgrade-table" ref="tableContainerRef">
+    <div class="cp-table-container cp-upgrade-table" :style="styleAttr" ref="tableContainerRef">
         <slot></slot>
     </div>
 </template>

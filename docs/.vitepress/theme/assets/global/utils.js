@@ -205,7 +205,7 @@ export function convertNum(num, rounding = true) {
     } else if (num < 10 ** 5) {
         return numStr.substring(0, 2) + " " + numStr.substring(2, numStr.length);
     } else if (num < 10 ** 8) {
-        return Math.round(num / 10 ** 3) / 10 + "万";
+        return Math.round(num / 10 ** 2) / 100 + "万";
     } else {
         return Math.round(num / 10 ** 6) / 100 + "亿";
     }

@@ -11,7 +11,7 @@ canonical: /upgrade/0483-Laboratory
 
 - *如想查看夜世界的星空实验室，请访问：[夜世界星空实验室](/upgrade/1282-Star-Laboratory)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Laboratory14.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Laboratory15.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -31,13 +31,14 @@ canonical: /upgrade/0483-Laboratory
         <UnitImg imgTitle="12 级" imgSrc="Laboratory12.png" />
         <UnitImg imgTitle="13 级" imgSrc="Laboratory13.png" />
         <UnitImg imgTitle="14 级" imgSrc="Laboratory14.png" />
+        <UnitImg imgTitle="15 级" imgSrc="Laboratory15.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 17" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
@@ -90,14 +91,20 @@ const tableExtraInfo = [
 |    9 |  1070 |   2.1M  |  2,18    |                      |       11        | 
 |   10 |  1140 |   3.8M  |  4       |                      |       12        | 
 |   11 |  1210 |   5.5M  |  6       |                      |       13        | 
-|   12 |  1280 |   8.1M  |  11,12   |                      |       14        | 
-|   13 |  1350 |    12M  |  12      |                      |       15        |
-|   14 |  1400 |    13M  |  16      |                      |       16        |
+|   12 |  1280 |   8.1M  |  7       |                      |       14        | 
+|   13 |  1350 |  10.8M  |  8       |                      |       15        |
+|   14 |  1400 |    13M  |  12,12   |                      |       16        |
+|   15 |  1450 |    20M  |  16      |                      |       17        |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 15 级实验室。</TimelineRow>    
+        <TimelineRow>12 ~ 14 级实验室的升级时间减少。</TimelineRow>
+        <TimelineRow>13 级实验室的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>13 ~ 14 级实验室的升级费用降低。</TimelineRow>
     </TimelineItem>

@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage
 canonical: /upgrade/0406-Dark-Elixir-Storage
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Storage11.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Storage12.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -26,13 +26,14 @@ canonical: /upgrade/0406-Dark-Elixir-Storage
         <UnitImg imgTitle="9 级" imgSrc="Dark_Elixir_Storage9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Dark_Elixir_Storage10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Dark_Elixir_Storage11.png" imgHd="Dark_Elixir_Storage11_hd.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Dark_Elixir_Storage12.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 17" />
     <BuildingNumRow title="建筑数量" num="     0,     1" />
 </BuildingNum>
 
@@ -81,18 +82,24 @@ const tableExtraInfo = [
 |   2  | 17.5k   |  2200 |    500k  |   0,16  |                      |         7       |
 |   3  |   40k   |  2400 |    1.0M  |   1     |                      |         8       |
 |   4  |   75k   |  2600 |    1.5M  |   1,12  |                      |         8       |
-|   5  |  140k   |  2900 |    2.0M  |   2     |                      |         9       |
+|   5  |  140k   |  2900 |    2.0M  |   1,16  |                      |         9       |
 |   6  |  180k   |  3200 |    3.0M  |   2     |                      |         9       |
 |   7  |  220k   |  3500 |    3.8M  |   3,12  |                      |        12       |
 |   8  |  280k   |  3800 |    5.4M  |   5     |                      |        13       |
 |   9  |  330k   |  4100 |      7M  |   6     |                      |        14       |
-|  10  |  350k   |  4300 |     11M  |  12     |                      |        15       |
-|  11  |  360k   |  4500 |   13.5M  |  15     |                      |        16       |
+|  10  |  350k   |  4300 |     10M  |   8     |                      |        15       |
+|  11  |  360k   |  4500 |   13.5M  |  11,12  |                      |        16       |
+|  12  |  370k   |  4700 |     16M  |  15     |                      |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 12 级暗黑重油罐。</TimelineRow>
+        <TimelineRow>5、10 ~ 11 级暗黑重油罐的升级时间减少。</TimelineRow>
+        <TimelineRow>10 级暗黑重油罐的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>8 ~ 10 级暗黑重油罐的升级时间减少。</TimelineRow>
         <TimelineRow>9 ~ 10 级暗黑重油罐的升级费用降低。</TimelineRow>

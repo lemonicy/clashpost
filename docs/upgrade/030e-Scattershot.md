@@ -35,7 +35,7 @@ canonical: /upgrade/030e-Scattershot
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 12, 13 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 12, 13 - 17" />
     <BuildingNumRow title="建筑数量" num="     0,       2" />
 </BuildingNum>
 
@@ -81,18 +81,27 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 | 每秒伤害 |    每次伤害   |  散射伤害  | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
+| 等级 | 每秒伤害 |    每次伤害   |  散射伤害  | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验|  所需<br>大本等级 |
 | ---- |   ---   |      ---     |    ---    |   ---  |   ---   |    ----   |        ---          |       ----      |
-|   1  |   125   | 300 - 403.5  | 100 - 300 |  3600  |    11M  |    10     |                     |        13       |
-|   2  |   150   | 360 - 484.2  | 120 - 360 |  4200  |    12M  |    11     |                     |        13       |
-|   3  |   175   | 420 - 564.9  | 140 - 420 |  4800  |  12.6M  |    13     |                     |        14       |
-|   4  |   185   | 450 - 597.18 | 150 - 450 |  5100  |  19.3M  |    14     |                     |        15       |
-|   5  |   190   | 480 - 613.32 | 160 - 480 |  5410  |  22.5M  |    15     |                     |        16       |
+|   1  |   125   | 300 - 403.5  | 100 - 300 |  3600  |     8M  |    8      |                     |        13       |
+|   2  |   150   | 360 - 484.2  | 120 - 360 |  4200  |     9M  |    9      |                     |        13       |
+|   3  |   175   | 420 - 564.9  | 140 - 420 |  4800  |  12.6M  |   10      |                     |        14       |
+|   4  |   185   | 450 - 597.18 | 150 - 450 |  5100  |    13M  |   11      |                     |        15       |
+|   5  |   190   | 480 - 613.32 | 160 - 480 |  5410  |    17M  |   11,12   |                     |        16       |
+| ⚡1  |   195   | 495 - 629.46 | 165 - 495 |  5410 |   6.75M  |    3      |                     |        16       |
+| ⚡2  |   195   | 495 - 629.46 | 165 - 495 |  5560 |   3.75M  |    4,12   |                     |        16       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>1 ~ 5 级投石炮的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 2、4 ~ 5 级投石炮的升级费用降低。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2024/09/09">
+        <TimelineRow>超级充能推出，投石炮是第一批可以充能的建筑之一。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>4 级投石炮的升级费用降低。</TimelineRow>
     </TimelineItem>

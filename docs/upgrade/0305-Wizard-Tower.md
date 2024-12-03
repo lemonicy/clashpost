@@ -11,7 +11,7 @@ canonical: /upgrade/0305-Wizard-Tower
 
 - *如想查看都城的超级法师塔，请访问：[都城超级法师塔](/upgrade/2207-Super-Wizard-Tower)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wizard_Tower16.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wizard_Tower17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -33,13 +33,14 @@ canonical: /upgrade/0305-Wizard-Tower
         <UnitImg imgTitle="14 级" imgSrc="Wizard_Tower14.png" />
         <UnitImg imgTitle="15 级" imgSrc="Wizard_Tower15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Wizard_Tower16.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Wizard_Tower17.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 4, 5, 6 - 7, 8, 9 - 10, 11 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 4, 5, 6 - 7, 8, 9 - 10, 11 - 17" />
     <BuildingNumRow title="建筑数量" num="    0, 1,     2, 3,      4,       5" />
 </BuildingNum>
 
@@ -80,29 +81,38 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
-| ---- |   ---   |   ---   |   ---  |   ---   |    ---    |        ---          |       ---      |
-|   1  |    11   |   14.3  |   620  |   120k  |    0, 3   |                     |        5       |
-|   2  |    13   |   16.9  |   650  |   220k  |    0, 3   |                     |        5       |
-|   3  |    16   |   20.8  |   680  |   400k  |    0, 8   |                     |        6       |
-|   4  |    20   |   26    |   730  |   540k  |    0,12   |                     |        7       |
-|   5  |    24   |   31.2  |   840  |   700k  |    0,18   |                     |        8       |
-|   6  |    32   |   41.6  |   960  |     1M  |    1      |                     |        8       |
-|   7  |    40   |   52    |  1200  |     2M  |    1,12   |                     |        9       |
-|   8  |    45   |   58.5  |  1440  |   2.2M  |    2      |                     |       10       |
-|   9  |    50   |   65    |  1600  |   2.8M  |    2,12   |                     |       10       |
-|  10  |    62   |   80.6  |  1900  |     4M  |    3      |                     |       11       |
-|  11  |    70   |   91    |  2120  |     5M  |    4      |                     |       12       |
-|  12  |    78   |  101.4  |  2240  |     8M  |    4,12   |                     |       13       |
-|  13  |    84   |  109.2  |  2500  |     9M  |    5      |                     |       13       |
-|  14  |    90   |  117    |  2800  |    11M  |    6      |                     |       14       |
-|  15  |    95   |  123.5  |  3000  |  15.5M  |    7, 6   |                     |       15       |
-|  16  |   102   |  132.6  |  3150  |  20.2M  |   14,12   |                     |       16       |
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |   ---   |   ---   |   ---  |   ---   |   ---   |        ---          |       ---      |
+|   1  |    11   |   14.3  |   620  |   120k  |   0, 3  |                     |        5       |
+|   2  |    13   |   16.9  |   650  |   220k  |   0, 3  |                     |        5       |
+|   3  |    16   |   20.8  |   680  |   400k  |   0, 8  |                     |        6       |
+|   4  |    20   |   26    |   730  |   540k  |   0,12  |                     |        7       |
+|   5  |    24   |   31.2  |   840  |   700k  |   0,18  |                     |        8       |
+|   6  |    32   |   41.6  |   960  |     1M  |   1     |                     |        8       |
+|   7  |    40   |   52    |  1200  |   1.5M  |   1,12  |                     |        9       |
+|   8  |    45   |   58.5  |  1440  |   1.6M  |   1,18  |                     |       10       |
+|   9  |    50   |   65    |  1600  |     2M  |   2     |                     |       10       |
+|  10  |    62   |   80.6  |  1900  |     3M  |   2,12  |                     |       11       |
+|  11  |    70   |   91    |  2120  |   4.5M  |   3     |                     |       12       |
+|  12  |    78   |  101.4  |  2240  |     5M  |   3,12  |                     |       13       |
+|  13  |    84   |  109.2  |  2500  |   5.5M  |   4     |                     |       13       |
+|  14  |    90   |  117    |  2800  |   6.5M  |   4,12  |                     |       14       |
+|  15  |    95   |  123.5  |  3000  |     9M  |   5     |                     |       15       |
+|  16  |   102   |  132.6  |  3150  |  15.1M  |  10,12  |                     |       16       |
+|  17  |   110   |  143    |  3300  |    20M  |  14,18  |                     |       17       |
+| ⚡1  |   114   |  148.2  |  3300  |     8M  |   3,12  |                     |       17       |
+| ⚡2  |   114   |  148.2  |  3375  |     4M  |   5,12  |                     |       17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 17 级法师塔。</TimelineRow>
+        <TimelineRow>8 ~ 16 级法师塔的升级时间减少。</TimelineRow>
+        <TimelineRow>7 ~ 16 级法师塔的升级费用降低。</TimelineRow>
+        <TimelineRow>法师塔成为第二批可以充能的建筑。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>11 ~ 15 级法师塔的升级时间减少。</TimelineRow>
         <TimelineRow>11 ~ 15 级法师塔的升级费用降低。</TimelineRow>

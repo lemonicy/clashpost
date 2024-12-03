@@ -24,8 +24,8 @@ canonical: /upgrade/0312-Monolith
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1-14, 15-16" />
-    <BuildingNumRow title="建筑数量" num=" 0,     1" />
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 17" />
+    <BuildingNumRow title="建筑数量" num="     0,       1" />
 </BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
@@ -72,14 +72,18 @@ const tableExtraInfo = [
 
 | 等级 |基础伤害<br>(每秒)|基础伤害<br>(每次)| 额外伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |       ---      |       ---        |   ---   |   ---  |   ---   |    ----   |        ---          |      ----      |
-|   1  |       150      |       225        |   11%   |  4747  |   255k  |  13,12    |                     |       15       |
-|   2  |       175      |       262.5      |   12%   |  5050  |   300k  |  14       |                     |       15       |
-|   3  |       193      |       289.5      |   13%   |  5353  |   370k  |  16       |                     |       16       |
+|   1  |       150      |       225        |   11%   |  4747  |   255k  |  11       |                     |       15       |
+|   2  |       175      |       262.5      |   12%   |  5050  |   270k  |  12       |                     |       15       |
+|   3  |       193      |       289.5      |   13%   |  5353  |   280k  |  12,12    |                     |       16       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>1 ~ 3 级巨石碑的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3 级巨石碑的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>1 ~ 2 级巨石碑的升级费用降低。</TimelineRow>
     </TimelineItem>
