@@ -36,7 +36,7 @@ canonical: /upgrade/0480-Army-Camp
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 4, 5 - 6, 7 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 4, 5 - 6, 7 - 17" />
     <BuildingNumRow title="建筑数量" num="    1,     2,     3,      4" />
 </BuildingNum>
 
@@ -72,7 +72,7 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 | 可容纳的<br>部队人口 | 生命值 | 升级费用 | 升级时间 | 升级后可获<br>得的经验 | 所需<br>大本等级 |
+| 等级 | 可容纳的<br>部队人口 | 生命值 | 升级费用 | 升级时间 | 升级后可获<br>得的经验  | 所需<br>大本等级 |
 | ---- |        ----        |  ----  |   ----  |    ---  |          ---          |       ---       |
 |    1 |          20        |   250  |    200  |  0, 0, 5|                       |         1       |
 |    2 |          30        |   270  |     2k  |  0, 0,15|                       |         2       |
@@ -82,15 +82,19 @@ const tableExtraInfo = [
 |    6 |          50        |   350  |   750k  |  0,12   |                       |         6       |
 |    7 |          55        |   400  |   1.5M  |  2      |                       |         9       |
 |    8 |          60        |   500  |   2.5M  |  3      |                       |        10       |
-|    9 |          65        |   600  |   4.2M  |  6, 6   |                       |        11       |
-|   10 |          70        |   700  |   5.7M  |  8,18   |                       |        12       |
-|   11 |          75        |   800  |   9.6M  |  9,12   |                       |        13       |
-|   12 |          80        |   850  |    15M  | 11      |                       |        15       |
+|    9 |          65        |   600  |   4.2M  |  4      |                       |        11       |
+|   10 |          70        |   700  |   4.5M  |  5      |                       |        12       |
+|   11 |          75        |   800  |   9.6M  |  6      |                       |        13       |
+|   12 |          80        |   850  |  13.5M  |  7      |                       |        15       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">  
+        <TimelineRow>9 ~ 12 级兵营的升级时间减少。</TimelineRow>
+        <TimelineRow>10、12 级兵营的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>12 级兵营的升级时间减少。</TimelineRow>
         <TimelineRow>12 级兵营的升级费用降低。</TimelineRow>

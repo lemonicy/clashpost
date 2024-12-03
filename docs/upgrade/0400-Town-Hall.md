@@ -14,7 +14,7 @@ canonical: /upgrade/0400-Town-Hall
 - *如想查看夜世界的大本营，请访问：[建筑大师大本营](/upgrade/1200-Builder-Hall)、[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。*
 - *如想查看都城的大本营，请访问：[都城大本营](/upgrade/2400-Capital-Hall)、[子城大本营](/upgrade/2401-District-Hall)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Town_Hall16_hd.png" :imgAlt="$frontmatter.navTitle"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Town_Hall17_5_hd.png" :imgAlt="$frontmatter.navTitle"
     description="大本营是村庄的核心。升级大本营，可解锁新的防御、建筑、陷阱和更多内容。<br>摧毁敌军大本营，您将赢得战争，并获得一颗星。<br>摧毁敌军 50% 的建筑及其大本营，可赢得第二颗星。<br>如果 100% 全毁敌军建筑，则获得满分三星。<br>小心！敌军也会尝试摧毁您的大本营！<br>把大本营建在村庄中心，并在其周围建造城墙、陷阱以及其他防御是最安全的举措。<br>敌军十分狡猾，可能在村庄的任何一侧发起进攻！" />
 
 <SmallTitle>各等级图片</SmallTitle>
@@ -53,6 +53,11 @@ canonical: /upgrade/0400-Town-Hall
         <UnitImg imgTitle="15 本 4 星" imgSrc="Town_Hall15_4.png" imgHd="Town_Hall15_4_hd.png" />
         <UnitImg imgTitle="15 本 5 星" imgSrc="Town_Hall15_5.png" imgHd="Town_Hall15_5_hd.png" />
         <UnitImg imgTitle="16 本" imgSrc="Town_Hall16.png" imgHd="Town_Hall16_hd.png" />
+        <UnitImg imgTitle="17 本 1 星" imgSrc="Town_Hall17_1.png" imgHd="Town_Hall17_1_hd.png" />
+        <UnitImg imgTitle="17 本 2 星" imgSrc="Town_Hall17_2.png" imgHd="Town_Hall17_2_hd.png" />
+        <UnitImg imgTitle="17 本 3 星" imgSrc="Town_Hall17_3.png" imgHd="Town_Hall17_3_hd.png" />
+        <UnitImg imgTitle="17 本 4 星" imgSrc="Town_Hall17_4.png" imgHd="Town_Hall17_4_hd.png" />
+        <UnitImg imgTitle="17 本 5 星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -66,7 +71,25 @@ canonical: /upgrade/0400-Town-Hall
 <SmallTitle>升级数据</SmallTitle>
 
 <script setup>
-const tableExtraInfo = [
+const tableExtraInfo1 = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 4,
+        "type": "exp",
+        "icon": "Exp"
+    },
+];
+const tableExtraInfo2 = [
     {
         "column": 1,
         "type": "number",
@@ -79,48 +102,58 @@ const tableExtraInfo = [
         "icon": "Dark_Elixir",
         "noGoldPass": true
     },
-    {
-        "column": 4,
-        "type": "cost",
-        "gpClass": "building",
-        "icon": "Gold"
-    },
-    {
-        "column": 5,
-        "type": "time",
-        "gpClass": "building"
-    },
-    {
-        "column": 6,
-        "type": "exp",
-        "icon": "Exp"
-    },
 ];
 </script>
 
-<UnitTable :tableExtraInfo="tableExtraInfo">
+<UnitTable :tableExtraInfo="tableExtraInfo1">
 
-| 等级 |金币和圣水<br>储量|暗黑重油<br>储量| 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验|最大建筑<br>数量<sup>*</sup>|最大陷阱<br>数量|
-| ---- |      ---       |       ---     |   ---  |   ---   |     ---    |         ---         |            ---            |      ---      |
-|   1  |        1k      |         0     |    450 |      \  |      \     |                     |             14            |        0      |
-|   2  |      2.5k      |         0     |   1600 |     1k  |   0,0,0,10 |                     |             18            |        0      |
-|   3  |       10k      |         0     |   1850 |     4k  |   0,1      |                     |             25            |        2      |
-|   4  |       50k      |         0     |   2100 |    25k  |   0,3      |                     |             29            |        4      |
-|   5  |      100k      |         0     |   2400 |   150k  |   0,6      |                     |             36            |        8      |
-|   6  |      300k      |         0     |   2800 |   750k  |   0,12     |                     |             42            |       11      |
-|   7  |      500k      |      2.5k     |   3300 |     1M  |   0,18     |                     |             54            |       15      |
-|   8  |      750k      |        5k     |   3900 |     2M  |   1        |                     |             64            |       23      |
-|   9  |        1M      |       10k     |   4600 |     3M  |   2        |                     |             77            |       26      |
-|  10  |      1.5M      |       20k     |   5500 |   3.5M  |   2,12     |                     |             84            |       30      |
-|  11  |        2M      |       20k     |   6800 |     4M  |   2,18     |                     |             90            |       31      |
-|  12  |        2M      |       20k     |   7500 |     6M  |   4,6      |                     |             93            |       36      |
-|  13  |        2M      |       20k     |   8200 |     9M  |   7,12     |                     |             96            |       39      |
-|  14  |        2M      |       20k     |   8900 |    15M  |  13,6      |                     |             97            |       44      |
-|  15  |        2M      |       20k     |   9600 |    18M  |  13,12     |                     |            100            |       44      |
-|  16  |        2M      |       20k     |  10000 |    20M  |  14        |                     |             96            |       44      |
+| 等级 | 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验|最大建筑<br>数量<sup>*</sup>|最大陷阱<br>数量|
+| ---- |   ---  |   ---   |     ---    |         ---        |            ---            |      ---      |
+|   1  |    450 |      \  |      \     |                    |             13            |        0      |
+|   2  |   1600 |     1k  |   0,0,0,10 |                    |             17            |        0      |
+|   3  |   1850 |     4k  |   0,1      |                    |             25            |        2      |
+|   4  |   2100 |    25k  |   0,3      |                    |             29            |        4      |
+|   5  |   2400 |   150k  |   0,6      |                    |             36            |        8      |
+|   6  |   2800 |   750k  |   0,12     |                    |             42            |       11      |
+|   7  |   3300 |     1M  |   0,18     |                    |             54            |       15      |
+|   8  |   3900 |     2M  |   1        |                    |             64            |       23      |
+|   9  |   4600 |     3M  |   2        |                    |             77            |       26      |
+|  10  |   5500 |   3.5M  |   2,12     |                    |             84            |       30      |
+|  11  |   6800 |     4M  |   2,18     |                    |             89            |       31      |
+|  12  |   7500 |     6M  |   4,6      |                    |             92            |       36      |
+|  13  |   8200 |     9M  |   7,12     |                    |             94            |       39      |
+|  14  |   8900 |    15M  |   9        |                    |             95            |       44      |
+|  15  |   9600 |    16M  |  11        |                    |             98            |       44      |
+|  16  |  10000 |    18M  |  12        |                    |             94            |       44      |
+|  17  |  10400 |    20M  |  15        |                    |             94            |       47      |
 </UnitTable>
 
-\* 从 16 级大本营开始，游戏引入合并建筑功能，这里的最大建筑数量指的是将所有可合并的建筑都合并后的数量。
+**\* 关于建筑数量和陷阱数量的说明：**
+
+1. 这里的建筑数量包含大本营本身以及 5 个 [建筑工人小屋](/upgrade/0500-Builders-Hut)，在 10 级及以上大本营还包含 [小博木屋](/upgrade/0501-B.O.Bs-Hut)。
+2. 理论上来说，[部落城堡](/upgrade/0407-Clan-Castle) 在 2 级大本营也有可能解锁，但这种情况过于刁钻，为了让数据更具普遍性，这里将城堡视为 3 级大本营解锁。
+3. 当商店里的所有建筑都已建造，且所有可以合并的建筑都已经合并时，建筑数量才会等于表格中的数字。
+4. [战旗](/p/6827) 不视为建筑。
+
+<SmallTitle>各大本等级的资源储量</SmallTitle>
+
+<UnitTable :tableExtraInfo="tableExtraInfo2" maxWidth="500px">
+
+| 大本等级 | 金币和圣水<br>储量 | 暗黑重油<br>储量 |
+|   ---   |        ---        |        ---      |
+|    1    |          1k       |          0      |
+|    2    |        2.5k       |          0      |
+|    3    |         10k       |          0      |
+|    4    |         50k       |          0      |
+|    5    |        100k       |          0      |
+|    6    |        300k       |          0      |
+|    7    |        500k       |       2.5k      |
+|    8    |        750k       |         5k      |
+|    9    |          1M       |        10k      |
+|   10    |        1.5M       |        20k      |
+|   11+   |          2M       |        20k      |
+
+</UnitTable>
 
 <SmallTitle>大本营升级提速情况一览</SmallTitle>
 
@@ -138,6 +171,11 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>游戏新增 17 级大本营。</TimelineRow>
+        <TimelineRow>15 ~ 16 级大本营的升级费用降低。</TimelineRow>
+        <TimelineRow>14 ~ 16 级大本营的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>游戏新增 16 级大本营。</TimelineRow>
         <TimelineRow>15 级大本营的升级时间由 15 天减少至 13 天 12 小时。</TimelineRow>

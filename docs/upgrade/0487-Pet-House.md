@@ -31,7 +31,7 @@ canonical: /upgrade/0487-Pet-House
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 13, 14 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 13, 14 - 17" />
     <BuildingNumRow title="建筑数量" num="     0,       1" />
 </BuildingNum>
 
@@ -78,21 +78,24 @@ const tableExtraInfo = [
 
 | 等级 |  生命值 | 升级费用 |  升级时间 |升级后可获<br>得的经验|所需<br>大本等级| 解锁的战宠 |
 | ---- |   ---  |   ---    |   ---    |         ---        |       ---     |    ---    |
-|   1  |   700  |    10M   |   7      |                    |       14      |<a href="/upgrade/0280-L.A.S.S.I">莱希</a>|
-|   2  |   800  |    12M   |   7,12   |                    |       14      |<a href="/upgrade/0281-Electro-Owl">闪枭</a>|
-|   3  |   900  |    13M   |   8      |                    |       14      |<a href="/upgrade/0282-Mighty-Yak">大牦</a>|
-|   4  |  1000  |    15M   |   8,12   |                    |       14      |<a href="/upgrade/0283-Unicorn">独角</a>|
-|   5  |  1050  |    16M   |   9      |                    |       15      |<a href="/upgrade/0284-Frosty">冰牙</a>|
-|   6  |  1100  |    17M   |  10      |                    |       15      |<a href="/upgrade/0285-Diggy">地兽</a>|
-|   7  |  1150  |    18M   |  11      |                    |       15      |<a href="/upgrade/0286-Poison-Lizard">猛蜥</a>|
-|   8  |  1200  |    19M   |  12      |                    |       15      |<a href="/upgrade/0287-Phoenix">凤凰</a>|
-|   9  |  1250  |    21M   |  15      |                    |       16      |<a href="/upgrade/0288-Spirit-Fox">灵狐</a>|
-|  10  |  1300  |  21.5M   |  16      |                    |       16      |<a href="/upgrade/0289-Angry-Jelly">愤怒水母</a>|
+|   1  |   700  |     8M   |   3,12   |                    |       14      |<a href="/upgrade/0280-L.A.S.S.I">莱希</a>|
+|   2  |   800  |    10M   |   4      |                    |       14      |<a href="/upgrade/0281-Electro-Owl">闪枭</a>|
+|   3  |   900  |    12M   |   5      |                    |       14      |<a href="/upgrade/0282-Mighty-Yak">大牦</a>|
+|   4  |  1000  |    14M   |   6      |                    |       14      |<a href="/upgrade/0283-Unicorn">独角</a>|
+|   5  |  1050  |    15M   |   7      |                    |       15      |<a href="/upgrade/0284-Frosty">冰牙</a>|
+|   6  |  1100  |  15.5M   |   8      |                    |       15      |<a href="/upgrade/0285-Diggy">地兽</a>|
+|   7  |  1150  |    16M   |   9      |                    |       15      |<a href="/upgrade/0286-Poison-Lizard">猛蜥</a>|
+|   8  |  1200  |    17M   |  10      |                    |       15      |<a href="/upgrade/0287-Phoenix">凤凰</a>|
+|   9  |  1250  |  17.5M   |  11,12   |                    |       16      |<a href="/upgrade/0288-Spirit-Fox">灵狐</a>|
+|  10  |  1300  |    18M   |  12,12   |                    |       16      |<a href="/upgrade/0289-Angry-Jelly">愤怒水母</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">  
+        <TimelineRow>1 ~ 10 级战宠小屋的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>1 ~ 8 级战宠小屋的升级时间减少。</TimelineRow>
         <TimelineRow>3 ~ 8 级战宠小屋的升级费用降低。</TimelineRow>

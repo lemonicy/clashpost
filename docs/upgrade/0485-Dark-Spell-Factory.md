@@ -37,7 +37,7 @@ canonical: /upgrade/0485-Dark-Spell-Factory
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 17" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
@@ -82,15 +82,19 @@ const tableExtraInfo = [
 |   2  |          1         |   660  |  260k   |   0,18  |                       |      8     |<a href="/upgrade/0181-Earthquake-Spell">地震法术</a>|
 |   3  |          1         |   720  |  600k   |   2     |                       |      9     |<a href="/upgrade/0182-Haste-Spell">急速法术</a>|
 |   4  |          1         |   780  |  1.2M   |   4     |                       |      9     |<a href="/upgrade/0183-Skeleton-Spell">骷髅法术</a>|
-|   5  |          1         |   840  |  2.5M   |   6     |                       |     10     |<a href="/upgrade/0184-Bat-Spell">蝙蝠法术</a>|
-|   6  |          1         |   950  |    5M   |   8     |                       |     12     |<a href="/upgrade/0185-Overgrowth-Spell">蔓生法术</a>|
+|   5  |          1         |   840  |  2.5M   |   5     |                       |     10     |<a href="/upgrade/0184-Bat-Spell">蝙蝠法术</a>|
+|   6  |          1         |   950  |    4M   |   6     |                       |     12     |<a href="/upgrade/0185-Overgrowth-Spell">蔓生法术</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">  
+        <TimelineRow>5 ~ 6 级暗黑法术工厂的升级时间减少。</TimelineRow>
+        <TimelineRow>6 级暗黑法术工厂的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>新增 6 级法术工厂，12 本可解锁。新法术：蔓生法术。</TimelineRow>
+        <TimelineRow>新增 6 级暗黑法术工厂，12 本可解锁。新法术：蔓生法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>1 ~ 2 级暗黑法术工厂的升级费用 150k/300k 减少至 130k/260k。</TimelineRow>

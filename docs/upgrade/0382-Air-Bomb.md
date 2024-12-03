@@ -24,7 +24,7 @@ canonical: /upgrade/0382-Air-Bomb
         <UnitImg imgTitle="5 - 6 级" imgSrc="Air_Bomb5.png" />
         <UnitImg imgTitle="7 - 8 级" imgSrc="Air_Bomb7.png" />
         <UnitImg imgTitle="9 - 10 级" imgSrc="Air_Bomb9.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Air_Bomb11.png" />
+        <UnitImg imgTitle="11 - 12 级" imgSrc="Air_Bomb11.png" />
         <UnitImg imgTitle="未重新布置" imgSrc="Air_Bomb_unarmed.png" />
     </UnitImgGroup>
 </Panel>
@@ -32,7 +32,7 @@ canonical: /upgrade/0382-Air-Bomb
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 7, 8 - 9, 10 - 11, 12 - 13, 14 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 7, 8 - 9, 10 - 11, 12 - 13, 14 - 17" />
     <BuildingNumRow title="建筑数量" num="    0,     2,     4,       5,       6,       7" />
 </BuildingNum>
 
@@ -72,25 +72,30 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 | 爆炸伤害 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需大本等级 |
+| 等级 | 爆炸伤害 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需大本等级  |
 | ---- |    ---  |   ---   |    ---    |         ---         |     ---     |
 |   1  |   100   |     4k  |    0      |                     |      5      |
 |   2  |   120   |    20k  |    0, 1   |                     |      5      |
 |   3  |   144   |   150k  |    0, 2   |                     |      7      |
-|   4  |   173   |   540k  |    0,12   |                     |      9      |
-|   5  |   208   |   1.1M  |    1      |                     |     11      |
-|   6  |   232   |   1.9M  |    2      |                     |     12      |
-|   7  |   252   |     2M  |    2,12   |                     |     13      |
-|   8  |   280   |   2.6M  |    3      |                     |     13      |
-|   9  |   325   |     5M  |    5      |                     |     14      |
-|  10  |   350   |   6.5M  |    6      |                     |     15      |
-|  11  |   375   |    10M  |    9,12   |                     |     16      |
-
+|   4  |   173   |   540k  |    0, 8   |                     |      9      |
+|   5  |   208   |   1.1M  |    0,12   |                     |     11      |
+|   6  |   232   |   1.9M  |    1      |                     |     12      |
+|   7  |   252   |     2M  |    2      |                     |     13      |
+|   8  |   280   |   2.6M  |    2,12   |                     |     13      |
+|   9  |   325   |     4M  |    3      |                     |     14      |
+|  10  |   350   |     5M  |    4      |                     |     15      |
+|  11  |   375   |   7.5M  |    7      |                     |     16      |
+|  12  |   400   |    11M  |    8,12   |                     |     17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 12 级空中炸弹。</TimelineRow>
+        <TimelineRow>4 ~ 11 级空中炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 11 级空中炸弹的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>8 ~ 10 级空中炸弹的升级时间减少。</TimelineRow>
         <TimelineRow>10 级空中炸弹的升级费用降低。</TimelineRow>

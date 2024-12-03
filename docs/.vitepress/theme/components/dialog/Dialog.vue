@@ -136,14 +136,14 @@ const emits = defineEmits([
                 <button class="btn-secondary btn-dialog-secondary" @click="emits('clickSecondaryEvent')" v-if="props.hasSecondaryBtn && props.hasClickSecondaryEvent">
                     {{ props.secondaryText }}
                 </button>
-                <button class="btn-secondary btn-dialog-secondary" @click="hideDialog" v-if="props.hasSecondaryBtn && !props.hasClickSecondaryEvent">
+                <button class="btn-secondary btn-dialog-secondary" @click="hideDialog('cp-notification-dialog')" v-if="props.hasSecondaryBtn && !props.hasClickSecondaryEvent">
                     {{ props.secondaryText }}
                 </button>
                 <!-- OK button -->
                 <button class="btn-primary" @click="emits('clickPrimaryEvent')" v-if="props.hasPrimaryBtn && props.hasClickPrimaryEvent">
                     {{ props.primaryText }}
                 </button>
-                <button class="btn-primary" @click="hideDialog" v-if="props.hasPrimaryBtn && !props.hasClickPrimaryEvent">
+                <button class="btn-primary" @click="hideDialog('cp-notification-dialog')" v-if="props.hasPrimaryBtn && !props.hasClickPrimaryEvent">
                     {{ props.primaryText }}
                 </button>
             </div>

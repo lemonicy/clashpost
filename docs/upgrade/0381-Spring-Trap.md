@@ -30,7 +30,7 @@ canonical: /upgrade/0381-Spring-Trap
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 3, 4 - 5, 6 - 7, 8 - 11, 12, 13 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 3, 4 - 5, 6 - 7, 8 - 11, 12, 13 - 17" />
     <BuildingNumRow title="建筑数量" num="    0,     2,     4,      6,  8,       9" />
 </BuildingNum>
 
@@ -74,7 +74,7 @@ const tableExtraInfo = [
 |   1  |         10       |     2k  |    0       |                    |      4      |
 |   2  |         12       |   250k  |    0, 3    |                    |      7      |
 |   3  |         14       |   375k  |    0, 9    |                    |      8      |
-|   4  |         16       |   700k  |    0,18    |                    |      9      |
+|   4  |         16       |   700k  |    0,12    |                    |      9      |
 |   5  |         18       |   800k  |    1       |                    |     10      |
 
 </UnitTable>
@@ -82,6 +82,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>4 级隐形弹簧的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>5 级隐形弹簧的升级时间减少。</TimelineRow>
     </TimelineItem>

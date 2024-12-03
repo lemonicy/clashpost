@@ -11,7 +11,7 @@ canonical: /upgrade/0484-Spell-Factory
 
 - *如想查看配置暗黑法术的法术工厂，请访问：[暗黑法术工厂](/upgrade/0485-Dark-Spell-Factory)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spell_Factory7.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spell_Factory8.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -24,6 +24,7 @@ canonical: /upgrade/0484-Spell-Factory
         <UnitImg imgTitle="5 级" imgSrc="Spell_Factory5.png" />
         <UnitImg imgTitle="6 级" imgSrc="Spell_Factory6.png" />
         <UnitImg imgTitle="7 级" imgSrc="Spell_Factory7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Spell_Factory8.png" />
     </UnitImgGroup>
     <UnitImgGroup title="法术配置中" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Spell_Factory1_Active.png" />
@@ -33,13 +34,14 @@ canonical: /upgrade/0484-Spell-Factory
         <UnitImg imgTitle="5 级" imgSrc="Spell_Factory5_Active.png" />
         <UnitImg imgTitle="6 级" imgSrc="Spell_Factory6_Active.png" />
         <UnitImg imgTitle="7 级" imgSrc="Spell_Factory7_Active.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Spell_Factory8_Active.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 16" />
+    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 17" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
@@ -83,15 +85,20 @@ const tableExtraInfo = [
 |   1  |         2        |   425  |  150k   |   0, 8  |                     |       5       |<a href="/upgrade/0100-Lightning-Spell">雷电法术</a>|
 |   2  |         4        |   470  |  300k   |   1     |                     |       6       |<a href="/upgrade/0101-Healing-Spell">疗伤法术</a>|
 |   3  |         6        |   520  |  600k   |   2     |                     |       7       |<a href="/upgrade/0102-Rage-Spell">狂暴法术</a>|
-|   4  |         8        |   600  |  1.2M   |   3,12  |                     |       9       |<a href="/upgrade/0103-Jump-Spell">弹跳法术</a><br><a href="/upgrade/0104-Freeze-Spell">冰冻法术</a>|
-|   5  |        10        |   720  |    2M   |   4, 6  |                     |      10       |<a href="/upgrade/0105-Clone-Spell">镜像法术</a>|
+|   4  |         8        |   600  |  1.2M   |   3     |                     |       9       |<a href="/upgrade/0103-Jump-Spell">弹跳法术</a><br><a href="/upgrade/0104-Freeze-Spell">冰冻法术</a>|
+|   5  |        10        |   720  |    2M   |   4     |                     |      10       |<a href="/upgrade/0105-Clone-Spell">镜像法术</a>|
 |   6  |        10        |   840  |  3.5M   |   5     |                     |      11       |<a href="/upgrade/0106-Invisibility-Spell">隐形法术</a>|
-|   7  |        10        |   960  |    9M   |   8     |                     |      13       |<a href="/upgrade/0107-Recall-Spell">回溯法术</a>|
+|   7  |        10        |   960  |    9M   |   7, 4  |                     |      13       |<a href="/upgrade/0107-Recall-Spell">回溯法术</a>|
+|   8  |        10        |  1080  |   18M   |   8,12  |                     |      15       ||
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 15 本新增 8 级法术工厂。</TimelineRow>    
+        <TimelineRow>4 ~ 5、7 级法术工厂的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>7 级法术工厂的升级时间 9 天减少至 8 天。</TimelineRow>
     </TimelineItem>

@@ -20,6 +20,7 @@ canonical: /upgrade/0383-Giant-Bomb
         <UnitImg imgTitle="5 - 6 级" imgSrc="Giant_Bomb5.png" />
         <UnitImg imgTitle="7 - 8 级" imgSrc="Giant_Bomb7.png" />
         <UnitImg imgTitle="9 - 10 级" imgSrc="Giant_Bomb9.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Giant_Bomb11.png" />
     </UnitImgGroup>
     <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 - 2 级" imgSrc="Giant_Bomb1_unarmed.png" />
@@ -27,14 +28,15 @@ canonical: /upgrade/0383-Giant-Bomb
         <UnitImg imgTitle="5 - 6 级" imgSrc="Giant_Bomb5_unarmed.png" />
         <UnitImg imgTitle="7 - 8 级" imgSrc="Giant_Bomb7_unarmed.png" />
         <UnitImg imgTitle="9 - 10 级" imgSrc="Giant_Bomb9_unarmed.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Giant_Bomb11_unarmed.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 5, 6, 7, 8, 9, 10 - 11, 12 - 13, 14 - 16" />
-    <BuildingNumRow title="建筑数量" num="    0, 1, 2, 3, 4,       5,       6,       7" />
+    <BuildingNumRow title="大本等级" num="1 - 5, 6, 7, 8, 9, 10 - 11, 12 - 13, 14 - 16, 17" />
+    <BuildingNumRow title="建筑数量" num="    0, 1, 2, 3, 4,       5,       6,       7,  8" />
 </BuildingNum>
 
 <SmallTitle>属性</SmallTitle>
@@ -76,23 +78,28 @@ const tableExtraInfo = [
 | ---- |    ---  |    ---  |    ---  |    ---    |         ---        |       ---     |
 |   1  |   175   |   3 格  |  12.5k  |    0      |                    |        6      |
 |   2  |   200   |  3.5 格 |    75k  |    0, 3   |                    |        6      |
-|   3  |   225   |  3.5 格 |   480k  |    0,12   |                    |        8      |
-|   4  |   250   |   4 格  |   1.5M  |    0,18   |                    |       10      |
-|   5  |   275   |   4 格  |     2M  |    1      |                    |       11      |
-|   6  |   325   |   4 格  |   2.5M  |    2      |                    |       13      |
-|   7  |   375   |   4 格  |   3.5M  |    2,12   |                    |       13      |
-|   8  |   400   |   4 格  |     6M  |    3      |                    |       14      |
-|   9  |   425   |   4 格  |   8.5M  |    5      |                    |       15      |
-|  10  |   450   |   4 格  |    12M  |   12,18   |                    |       16      |
-
+|   3  |   225   |  3.5 格 |   480k  |    0, 6   |                    |        8      |
+|   4  |   250   |   4 格  |   1.5M  |    0,12   |                    |       10      |
+|   5  |   275   |   4 格  |     2M  |    0,18   |                    |       11      |
+|   6  |   325   |   4 格  |   2.5M  |    1      |                    |       13      |
+|   7  |   375   |   4 格  |   3.5M  |    2      |                    |       13      |
+|   8  |   400   |   4 格  |     4M  |    3      |                    |       14      |
+|   9  |   425   |   4 格  |     5M  |    4      |                    |       15      |
+|  10  |   450   |   4 格  |     9M  |    8      |                    |       16      |
+|  11  |   475   |   4 格  |    12M  |    9      |                    |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 11 级巨型炸弹和新解锁一个巨型炸弹。</TimelineRow>
+        <TimelineRow>3 ~ 7、9 ~ 10 级巨型炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 10 级巨型炸弹的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>6 ~ 9 级空中炸弹的升级时间减少。</TimelineRow>
-        <TimelineRow>8 ~ 9 级空中炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>6 ~ 9 级巨型炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 9 级巨型炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>游戏新增 16 本，并在 16 本新增 10 级巨型炸弹。</TimelineRow>

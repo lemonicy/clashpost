@@ -89,9 +89,11 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 <SmallTitle>各大本等级的箭塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1, 2 - 3, 4, 5 - 6,  7, 8, 9, 10, 11 - 15, 16" />
-    <BuildingNumRow title="建筑数量" num="0,     1, 2,     3,  4, 5, 6,  7,       8,  4" />
+    <BuildingNumRow title="大本等级" num="1, 2 - 3, 4, 5 - 6,  7, 8, 9, 10, 11 - 15, 16, 17" />
+    <BuildingNumRow title="建筑数量" num="0,     1, 2,     3,  4, 5, 6,  7,       8,  4,  3" />
 </BuildingNum>
+
+在 16 级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -116,26 +118,26 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---  |   ---   |    ---    |        ---          |       ---      |
 |   1  |    11   |    5.5  |   380  |     1k  |   0, 0, 1 |                     |        2       |
-|   2  |    15   |    7.5  |   420  |     2k  |   0, 0, 1 |                     |        2       |
-|   3  |    19   |    9.5  |   460  |     5k  |   0, 0, 4 |                     |        3       |
+|   2  |    15   |    7.5  |   420  |     2k  |   0, 0,15 |                     |        2       |
+|   3  |    19   |    9.5  |   460  |     5k  |   0, 0,45 |                     |        3       |
 |   4  |    25   |   12.5  |   500  |    20k  |   0, 3    |                     |        4       |
 |   5  |    30   |   15    |   540  |    80k  |   0, 4    |                     |        5       |
 |   6  |    35   |   17.5  |   580  |   150k  |   0, 5    |                     |        5       |
-|   7  |    42   |   21    |   630  |   300k  |   0, 8    |                     |        6       |
-|   8  |    48   |   24    |   690  |   480k  |   0,10    |                     |        7       |
-|   9  |    56   |   28    |   750  |   580k  |   0,12    |                     |        8       |
+|   7  |    42   |   21    |   630  |   300k  |   0, 6    |                     |        6       |
+|   8  |    48   |   24    |   690  |   480k  |   0, 8    |                     |        7       |
+|   9  |    56   |   28    |   750  |   580k  |   0,10    |                     |        8       |
 |  10  |    63   |   31.5  |   810  |   760k  |   0,12    |                     |        8       |
 |  11  |    70   |   35    |   890  |     1M  |   0,14    |                     |        9       |
-|  12  |    74   |   37    |   970  |   1.1M  |   0,18    |                     |       10       |
+|  12  |    74   |   37    |   970  |   1.1M  |   0,16    |                     |       10       |
 |  13  |    78   |   39    |  1050  |     2M  |   0,18    |                     |       10       |
-|  14  |    82   |   41    |  1130  |   2.2M  |   1       |                     |       11       |
+|  14  |    82   |   41    |  1130  |   2.2M  |   0,20    |                     |       11       |
 |  15  |    85   |   42.5  |  1230  |   2.5M  |   1       |                     |       11       |
-|  16  |    90   |   45    |  1310  |     4M  |   2       |                     |       12       |
-|  17  |   100   |   50    |  1390  |     5M  |   2       |                     |       12       |
-|  18  |   110   |   55    |  1510  |   6.5M  |   3       |                     |       13       |
-|  19  |   120   |   60    |  1600  |     8M  |   3       |                     |       13       |
-|  20  |   135   |   67.5  |  1700  |    10M  |   4       |                     |       14       |
-|  21  |   145   |   72.5  |  1800  |    12M  |   5       |                     |       15       |
+|  16  |    90   |   45    |  1310  |     3M  |   1,12    |                     |       12       |
+|  17  |   100   |   50    |  1390  |   3.5M  |   2       |                     |       12       |
+|  18  |   110   |   55    |  1510  |     4M  |   2,12    |                     |       13       |
+|  19  |   120   |   60    |  1600  |   4.5M  |   3       |                     |       13       |
+|  20  |   135   |   67.5  |  1700  |     6M  |   3,12    |                     |       14       |
+|  21  |   145   |   72.5  |  1800  |     8M  |   4       |                     |       15       |
 
 </UnitTable>
 </SwitchTabGroup>
@@ -167,8 +169,8 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 <SmallTitle>各大本等级的箭塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1, 2 - 3, 4, 5 - 6,  7, 8, 9, 10, 11 - 15, 16" />
-    <BuildingNumRow title="建筑数量" num="0,     1, 2,     3,  4, 5, 6,  7,       8,  4" />
+    <BuildingNumRow title="大本等级" num="1, 2 - 3, 4, 5 - 6,  7, 8, 9, 10, 11 - 15, 16, 17" />
+    <BuildingNumRow title="建筑数量" num="0,     1, 2,     3,  4, 5, 6,  7,       8,  4,  3" />
 </BuildingNum>
 
 <SmallTitle>属性</SmallTitle>
@@ -195,16 +197,16 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 | ---- |   ---   |   ---   |   ---  |   ---   |    ---    |        ---          |       ---      |
 |  10  |   126   |   31.5  |   810  |   760k  |    0,12   |                     |        8       |
 |  11  |   140   |   35    |   890  |     1M  |    0,14   |                     |        9       |
-|  12  |   148   |   37    |   970  |   1.1M  |    0,18   |                     |       10       |
+|  12  |   148   |   37    |   970  |   1.1M  |    0,16   |                     |       10       |
 |  13  |   156   |   39    |  1050  |     2M  |    0,18   |                     |       10       |
-|  14  |   164   |   41    |  1130  |   2.2M  |    1      |                     |       11       |
+|  14  |   164   |   41    |  1130  |   2.2M  |    0,20   |                     |       11       |
 |  15  |   170   |   42.5  |  1230  |   2.5M  |    1      |                     |       11       |
-|  16  |   180   |   45    |  1310  |     4M  |    2      |                     |       12       |
-|  17  |   200   |   50    |  1390  |     5M  |    2      |                     |       12       |
-|  18  |   220   |   55    |  1510  |   6.5M  |    3      |                     |       13       |
-|  19  |   240   |   60    |  1600  |     8M  |    3      |                     |       13       |
-|  20  |   270   |   67.5  |  1700  |    10M  |    4      |                     |       14       |
-|  21  |   290   |   72.5  |  1800  |    12M  |    5      |                     |       15       |
+|  16  |   180   |   45    |  1310  |     3M  |    1,12   |                     |       12       |
+|  17  |   200   |   50    |  1390  |   3.5M  |    2      |                     |       12       |
+|  18  |   220   |   55    |  1510  |     4M  |    2,12   |                     |       13       |
+|  19  |   240   |   60    |  1600  |   4.5M  |    3      |                     |       13       |
+|  20  |   270   |   67.5  |  1700  |     6M  |    3,12   |                     |       14       |
+|  21  |   290   |   72.5  |  1800  |     8M  |    4      |                     |       15       |
 
 </UnitTable>
 </SwitchTabGroup>
@@ -215,6 +217,12 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，其中 2 个箭塔可以被合并为 1 个多人箭塔。</TimelineRow>
+        <TimelineRow>17 本新解锁一个箭塔。</TimelineRow>
+        <TimelineRow>7 ~ 9、12、14、16、18、20 ~ 21 级箭塔的升级时间减少。</TimelineRow>
+        <TimelineRow>16 ~ 21 级箭塔的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>14 ~ 21 级箭塔的升级时间减少。</TimelineRow>
         <TimelineRow>16 ~ 18、20 ~ 21 级箭塔的升级费用降低。</TimelineRow>
@@ -226,6 +234,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
         <TimelineRow>16 ~ 17 级箭塔的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
+        <TimelineRow>16 本推出，其中 4 个箭塔可以被合并为 2 个多人箭塔。</TimelineRow>
         <TimelineRow>5 ~ 21 级箭塔的升级时间减少。</TimelineRow>
         <TimelineRow>6 ~ 12、14 ~ 15、20 ~ 21 级箭塔的升级费用降低。</TimelineRow>
     </TimelineItem>

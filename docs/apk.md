@@ -114,7 +114,7 @@ function downloadXapkInstaller() {
 
 - [Atrasis 服官网](https://atrasisclash.net/)
 - [天翼云盘（访问码：wfm0）](https://cloud.189.cn/web/share?code=aMR7BjzIbIvm)
-- [123 云盘（提取码：xiqk）](https://www.cjjd19.com/s/yAPGTd-QvivH.html)
+- [123 云盘（提取码：xiqk）](https://www.123pan.com/s/yAPGTd-QvivH.html)
 - [小飞机网盘（提取码：T81v）](https://share.feijipan.com/s/49BcL43l)
 
 ## 国服
@@ -178,8 +178,9 @@ function downloadXapkInstaller() {
   - 华为版比较特殊，在下载绑定工具之前请先下载 [华为应用市场](https://appgallery.huawei.com/#/app/C27162)、[华为移动服务 (HMS Core)](https://appgallery.huawei.com/#/app/C10132067) 和 [华为游戏中心](https://appgallery.huawei.com/#/app/C10059090)，否则会提示登录谷歌。
 - [夜神](https://app.yeshen.com/games/single/9360)
   - 进去之后请选择“下载安卓版”，否则下载到的不是安装包，而是夜神模拟器。
-- [逍遥安卓](https://www.xyaz.cn/gc/apps-586-1.html)
-  - 进去之后请选择“下载安卓版”，否则下载到的不是安装包，而是逍遥模拟器。
+- [~~逍遥安卓~~](https://www.xyaz.cn/gc/apps-586-1.html)
+  - 该渠道强制下载逍遥安卓出品的安装工具，没有无套路下载地址。
+  - 根据用户反馈，逍遥安卓已经不再提供部落冲突账号绑定工具。
 - [~~一号玩家（原益玩版）~~](https://www.1gamer.cn/game-id-11162.html)
 - [联想（线路一）](http://update.coc.gameark.cn/?channel=lenovo)
 - [联想（线路二）](https://www.lenovomm.com/appdetail/com.supercell.clashofclans.lenovo/1224)
@@ -212,7 +213,7 @@ function downloadXapkInstaller() {
 
 ## 结语
 
-账号绑定工具的版本一大堆，我没心思一个一个测试，如果发现哪个版本的链接不能用了，或者发现了新的有效链接，请联系作者。网站内容的准确性离不开大家的贡献。
+账号绑定工具的版本一大堆，好多渠道的账号网站内部根本没有，所以我们没能力逐一测试。如果你发现哪个版本的链接不能用了，或者发现了新的有效链接，请前往“常见问题解答”版块查找作者的联系方式，并向作者反馈，我们会依据你的反馈进行更新。网站内容的准确性离不开大家的贡献。
 
 <style>
     #apk-download-btn-container {
