@@ -54,11 +54,15 @@ canonical: /upgrade/0602-Super-Giant
 |  10  |    140   |   280   |      1400     |  4200 |     13    |
 |  11  |    150   |   300   |      1500     |  4400 |     15    |
 |  12  |    160   |   320   |      1600     |  4600 |     16    |
+|  13  |    170   |   340   |      1700     |  4800 |     17    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>游戏新增 17 本，并在 17 本新增 13 级巨人，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>游戏新增 16 本，并在 16 本新增 12 级巨人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>

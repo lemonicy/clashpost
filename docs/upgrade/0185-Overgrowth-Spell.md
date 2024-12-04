@@ -61,14 +61,18 @@ const tableExtraInfo = [
 | 等级 |法术<br>持续时间| 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |      ---      |   ---   |  ----   |       ----      |      ----     |
 |   1  |     22 秒     |    \    |    \    |         1       |       12      |
-|   2  |     23 秒     |   125K  |   10    |        10       |       12      |
-|   3  |     24 秒     |   250K  |   12    |        12       |       14      |
-|   4  |     25 秒     |   350K  |   16    |        14       |       16      |
+|   2  |     23 秒     |  62.5K  |    7    |        10       |       12      |
+|   3  |     24 秒     |   125K  |   12    |        12       |       14      |
+|   4  |     25 秒     |   175K  |   13    |        14       |       16      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>2、4 级蔓生法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4 级蔓生法术的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/09/09">
         <TimelineRow>2 - 4 级蔓生法术的持续时间减少。</TimelineRow>
         <TimelineRow>蔓生法术的作用半径减少。</TimelineRow>

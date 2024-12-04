@@ -66,7 +66,7 @@ const tableExtraInfo = [
 |   3  |        150%       |          24       |    800K  |     1      |            4           |     7     |
 |   4  |        160%       |          26       |    1.6M  |     2      |            5           |     7     |
 |   5  |        170%       |          28       |    2.4M  |     4      |            6           |     8     |
-|   6  |        180%       |          30       |      7M  |     6      |           10           |    12     |
+|   6  |        180%       |          30       |      5M  |     5      |           10           |    12     |
 </UnitTable>
 
 ① 伤害增加 170% 的意思是兵种的伤害是原来的 1 + 170% = 2.7 倍，其它同理。<br>
@@ -76,6 +76,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>6 级狂暴法术的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>6 级狂暴法术的升级时间减少。</TimelineRow>
     </TimelineItem>

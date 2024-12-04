@@ -20,6 +20,7 @@ canonical: /upgrade/000c-Electro-Dragon
         <UnitImg imgTitle="5 级" imgSrc="Electro_Dragon5.png" />
         <UnitImg imgTitle="6 级" imgSrc="Electro_Dragon6.png" />
         <UnitImg imgTitle="7 级" imgSrc="Electro_Dragon7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Electro_Dragon8.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -28,7 +29,7 @@ canonical: /upgrade/000c-Electro-Dragon
 1. 雷电飞龙会对 3 格以内 (不含 3 格) 的兵种或建筑造成连锁伤害，闪电的下次连锁伤害为上次的 80%，伤害比例为 100%、80%、64%、51.2%、41%，连锁延迟为 0.128 秒。
 2. 雷电飞龙死亡后会对附近目标造成 6 次闪电伤害。
 3. 雷电飞龙死亡后，正在连锁的雷电会消失。
-4. 雷龙背后的背鳍是蓄能标志，共 5 个。当第 4 个亮起的时候已经蓄能完毕，就算女王开大也会被打到，第 5 个亮起只是攻击时顺带的动画。
+4. 雷龙背后的背鳍是蓄能标志，共 5 个。当第 4 个亮起的时候已经蓄能完毕，就算部队或英雄隐身也会被打到，第 5 个亮起只是攻击时顺带的动画。
 
 <Pic src="/upgrade/description/Electro_Dragon_Example.jpg" caption="雷电飞龙背鳍示意图" maxWidth="25rem" :lazyLoading="false" width="443" height="260" />
 
@@ -75,15 +76,21 @@ const tableExtraInfo = [
 |   1  |    240   |    840  |     65×6    |  3200 |      \  |     \     |      1      |    11     |
 |   2  |    270   |    945  |     75×6    |  3700 |   6.3M  |     5     |      9      |    11     |
 |   3  |    300   |   1050  |     85×6    |  4200 |     7M  |     5,12  |     10      |    12     |
-|   4  |    330   |   1155  |     95×6    |  4500 |   9.6M  |     9     |     11      |    13     |
-|   5  |    360   |   1260  |    105×6    |  4800 |    18M  |    12     |     12      |    14     |
-|   6  |    390   |   1365  |    115×6    |  5200 |    20M  |    13     |     13      |    15     |
-|   7  |    420   |   1470  |    125×6    |  5500 |    22M  |    16     |     14      |    16     |
+|   4  |    330   |   1155  |     95×6    |  4500 |     9M  |     9     |     11      |    13     |
+|   5  |    360   |   1260  |    105×6    |  4800 |    11M  |    10     |     12      |    14     |
+|   6  |    390   |   1365  |    115×6    |  5200 |    16M  |    12     |     13      |    15     |
+|   7  |    420   |   1470  |    125×6    |  5500 |  17.6M  |    13     |     14      |    16     |
+|   8  |    450   |   1575  |    135×6    |  5800 |    23M  |    15     |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 8 级雷电飞龙。</TimelineRow>
+        <TimelineRow>5 ~ 7 级雷电飞龙的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 7 级雷电飞龙的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>6 级雷电飞龙的升级时间减少。</TimelineRow>
     </TimelineItem>

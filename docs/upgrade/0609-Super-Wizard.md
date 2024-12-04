@@ -54,16 +54,20 @@ canonical: /upgrade/0609-Super-Wizard
 <UnitTable>
 
 | 等级 |  每秒伤害  | 直接伤害 | 连锁伤害 | 生命值 |所需大本等级|
-| ---- |    ----   |  ----   |   ----  |  ----  |    ----   |
+| ---- |    ----   |  ----   |   ---   |  ----  |    ----   |
 |   9  |    220    |   440   |   176   |   450  |     12    |
 |  10  |    240    |   480   |   192   |   500  |     13    |
 |  11  |    260    |   520   |   208   |   540  |     15    |
 |  12  |    275    |   550   |   220   |   580  |     16    |
+|  13  |    290    |   580   |   232   |   620  |     17    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>游戏新增 17 本，并在 17 本新增 13 级法师，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>游戏新增 16 本，并在 16 本新增 12 级法师，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>

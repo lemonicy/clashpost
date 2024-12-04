@@ -80,16 +80,19 @@ const tableExtraInfo = [
 | 等级 |召唤的<br>蝙蝠数量| 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |        ----     |   ----  |  ----   |       ----      |      ----     |
 |   1  |          7      |     \   |    \    |         1       |       10      |
-|   2  |          9      |    26K  |   1,18  |         8       |       10      |
-|   3  |         11      |    51K  |   3, 4  |         8       |       10      |
-|   4  |         16      |    70K  |   5, 6  |         9       |       11      |
-|   5  |         21      |    95K  |   6     |        10       |       12      |
-|   6  |         22      |   280K  |  13     |        13       |       15      |
+|   2  |          9      |    13K  |   1, 6  |         8       |       10      |
+|   3  |         11      |  25.5K  |   2, 8  |         8       |       10      |
+|   4  |         16      |    35K  |   3,12  |         9       |       11      |
+|   5  |         21      |  47.5K  |   4,12  |        10       |       12      |
+|   6  |         22      |   140K  |   8,12  |        13       |       15      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>2 ~ 6 级蝙蝠法术的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>3 级和 6 级蝙蝠法术的升级时间减少。</TimelineRow>
         <TimelineRow>6 级蝙蝠法术的升级费用降低。</TimelineRow>

@@ -55,11 +55,15 @@ canonical: /upgrade/0604-Inferno-Dragon
 |   8  |     83    |      166      |     1660    |  2200 |     14    |
 |   9  |     85    |      170      |     1700    |  2300 |     15    |
 |  10  |     86    |      174      |     1740    |  2400 |     16    |
+|  11  |     88    |      178      |     1780    |  2500 |     17    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>游戏新增 17 本，并在 17 本新增 11 级飞龙宝宝，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>16 本新增 10 级飞龙宝宝，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
