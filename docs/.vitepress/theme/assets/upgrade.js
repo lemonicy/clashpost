@@ -104,12 +104,15 @@ export function geNumFromValue(value) {
         return value;
     }
     
+    // 由于表格的原始数据含有很多空格（包括字符串头尾的空格以及网站维护人员手动添加的三位数字分隔符），这里需要全部去掉
+    value = value.replaceAll(" ", "");
+
     let cost;
-    value = value.trim();
-    // 如果没有后缀，则直接将 value 转化为数字
-    cost = Number(value);
-    if (isNumber(value.substring(0, value.length - 1))) {
-    // 数字有后缀
+    if (isNumber(value)) {
+        // 如果没有后缀，则直接将 value 转化为数字
+        cost = Number(value);
+    } else if (isNumber(value.substring(0, value.length - 1))) {
+        // 如果有后缀，则需要进一步处理
         const numPrefix = Number(value.substring(0, value.length - 1));
         const costSuffix = value.substring(value.length - 1, value.length);
         switch (costSuffix) {

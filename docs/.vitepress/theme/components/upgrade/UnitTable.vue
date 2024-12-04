@@ -143,16 +143,15 @@ function setSpecialItems(table, tableExtraInfo) {
             // 获取目标单元格
             const targetTd = row.querySelectorAll("td, th")[column];
             if (targetTd) {
-                const targetContent = targetTd.innerHTML.trim();
                 const dataBefore = targetTd.getAttribute("data-value");
-                
-                // 如果 targetAttr 不为空，则将 dataBefore 作为 targetValue，防止将处理过的数据再处理一遍
+
                 let targetValue;
                 if (dataBefore) {
+                    // 如果之前设置过 data-value 属性，则直接使用 dataBefore，不再更改，防止将处理过的数据再处理一遍
                     targetValue = dataBefore.trim();
                 } else {
-                    targetValue = targetContent;
-                    targetTd.setAttribute("data-value", targetContent);
+                    targetValue = targetTd.innerHTML.trim();
+                    targetTd.setAttribute("data-value", targetValue);
                 }
 
                 // index 为零代表表头，不为零则代表表格主体
@@ -183,7 +182,7 @@ const props = defineProps({
     maxWidth: {
         type: String,
         default: null
-    },
+    }
 });
 
 const maxWidth = props.maxWidth;

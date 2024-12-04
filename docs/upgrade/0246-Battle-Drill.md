@@ -19,6 +19,7 @@ canonical: /upgrade/0246-Battle-Drill
         <UnitImg imgTitle="2 级" imgSrc="Battle_Drill2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Battle_Drill3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Battle_Drill4.png" />
+        <!-- <UnitImg imgTitle="5 级" imgSrc="Battle_Drill5.png" /> -->
     </UnitImgGroup>
 </Panel>
 
@@ -67,16 +68,21 @@ const tableExtraInfo = [
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间  | 所需实验室等级|所需大本等级|
-| ---- |   ----   |   ----  |  ----  |  ----  |    ----   |    ----     |   ----    |
-|   1  |    430   |    731  |  4600  |     \  |     \     |      1      |    15     |
-|   2  |    470   |    799  |  4900  |    8M  |    7,12   |     13      |    15     |
-|   3  |    510   |    867  |  5200  |   11M  |   10      |     13      |    15     |
-|   4  |    550   |    935  |  5500  |   14M  |   12      |     13      |    15     |
+|  --- |   ----   |   ----  |  ----  |  ----  |    ----   |      ----    |    ----   |
+|   1  |    430   |    731  |  4600  |     \  |     \     |        1     |     15    |
+|   2  |    470   |    799  |  4900  |    6M  |    4      |       13     |     15    |
+|   3  |    510   |    867  |  5200  |  8.5M  |    6      |       13     |     15    |
+|   4  |    550   |    935  |  5500  |   10M  |    9      |       13     |     15    |
+|   5  |    590   |   1003  |  5800  |   19M  |   13,12   |       15     |     17    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 5 级攻城钻机。</TimelineRow>
+        <TimelineRow>2 ~ 4 级攻城钻机的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>2 ~ 4 级攻城钻机的升级时间减少。</TimelineRow>
     </TimelineItem>
