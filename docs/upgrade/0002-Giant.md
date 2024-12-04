@@ -28,6 +28,7 @@ canonical: /upgrade/0002-Giant
         <UnitImg imgTitle="10 级" imgSrc="Giant10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Giant11.png" />
         <UnitImg imgTitle="12 级" imgSrc="Giant12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Giant13.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -72,19 +73,25 @@ const tableExtraInfo = [
 |   2  |    14   |    28   |   360  |    40k  |    0, 4   |      2      |     4     |
 |   3  |    19   |    38   |   450  |   150k  |    0, 8   |      4      |     6     |
 |   4  |    24   |    48   |   600  |   500k  |    0,12   |      5      |     7     |
-|   5  |    31   |    62   |   800  |   1.2M  |    1      |      6      |     8     |
-|   6  |    43   |    86   |  1100  |     2M  |    2      |      7      |     9     |
-|   7  |    55   |   110   |  1300  |     3M  |    2,20   |      8      |    10     |
-|   8  |    62   |   124   |  1500  |   3.5M  |    3      |      9      |    11     |
-|   9  |    70   |   140   |  1850  |   5.6M  |    3,12   |     10      |    12     |
-|  10  |    78   |   156   |  2000  |     8M  |    4,12   |     11      |    13     |
-|  11  |    86   |   172   |  2200  |    14M  |    6,12   |     13      |    15     |
-|  12  |    94   |   188   |  2400  |  18.5M  |   14      |     14      |    16     |
+|   5  |    31   |    62   |   800  |   1.2M  |    0,16   |      6      |     8     |
+|   6  |    43   |    86   |  1100  |     2M  |    1      |      7      |     9     |
+|   7  |    55   |   110   |  1300  |     3M  |    1,12   |      8      |    10     |
+|   8  |    62   |   124   |  1500  |   3.5M  |    2,12   |      9      |    11     |
+|   9  |    70   |   140   |  1850  |     4M  |    3      |     10      |    12     |
+|  10  |    78   |   156   |  2000  |     6M  |    4,12   |     11      |    13     |
+|  11  |    86   |   172   |  2200  |     9M  |    5,12   |     13      |    15     |
+|  12  |    94   |   188   |  2400  |  15.5M  |   10,12   |     14      |    16     |
+|  13  |   102   |   204   |  2600  |  18.5M  |   13,12   |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 13 级巨人。</TimelineRow>
+        <TimelineRow>5 ~ 9、11 ~ 12 级巨人的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 12 级巨人的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>8 ~ 11 级巨人的升级时间减少。</TimelineRow>
         <TimelineRow>11 级巨人的升级费用降低。</TimelineRow>

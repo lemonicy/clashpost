@@ -52,10 +52,10 @@ const tableExtraInfo = [
 | 等级 |速度提升<sup>#</sup>| 持续时间 | 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |        ----       |   ---   |    ---   |  ----   |       ----      |      ----     |
 |   1  |         28        |  10 秒  |     \    |    \    |         1       |        9      |
-|   2  |         34        |  15 秒  |    16K   |   1,12  |         7       |        9      |
-|   3  |         40        |  20 秒  |    34K   |   2,14  |         8       |       10      |
-|   4  |         46        |  25 秒  |    60K   |   4,12  |         8       |       10      |
-|   5  |         52        |  30 秒  |    77K   |   7     |         9       |       11      |
+|   2  |         34        |  15 秒  |     8K   |   1,12  |         7       |        9      |
+|   3  |         40        |  20 秒  |    17K   |   2     |         8       |       10      |
+|   4  |         46        |  25 秒  |    30K   |   4     |         8       |       10      |
+|   5  |         52        |  30 秒  |  38.5K   |   4,12  |         9       |       11      |
 </UnitTable>
 
 \# 这里的 8 点速度值代表 1 格/秒。
@@ -63,6 +63,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>3 ~ 5 级急速法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5 级急速法术的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>4 ~ 5 级急速法术的升级时间减少。</TimelineRow>
     </TimelineItem>

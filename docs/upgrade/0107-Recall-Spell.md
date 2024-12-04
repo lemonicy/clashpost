@@ -70,17 +70,23 @@ const tableExtraInfo = [
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 |可召回的<br>人口数| 升级花费 |  升级时间  |所需<br>实验室等级|所需<br>大本等级|
-| ---- |       ----     |    ----  |    ----   |       ----      |      ----    |
-|   1  |        83      |      \   |     \     |         1       |       13     |
-|   2  |        89      |    7.5M  |    9,12   |        11       |       13     |
-|   3  |        95      |   12.5M  |   11,12   |        12       |       14     |
-|   4  |       101      |     15M  |   12      |        13       |       15     |
-|   5  |       107      |   19.5M  |   15      |        14       |       16     |
+| ---- |       ----     |    ---   |    ----   |       ----      |      ----    |
+|   1  |        83      |     \    |     \     |         1       |       13     |
+|   2  |        89      |   7.5M   |    7      |        11       |       13     |
+|   3  |        95      |     8M   |   11,12   |        12       |       14     |
+|   4  |       101      |     9M   |   12      |        13       |       15     |
+|   5  |       107      |    13M   |   13      |        14       |       16     |
+|   6  |       113      |    21M   |   15      |        15       |       17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 6 级回溯法术。</TimelineRow>
+        <TimelineRow>2、5 级回溯法术的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 5 级回溯法术的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>4 级回溯法术的升级时间减少。</TimelineRow>
         <TimelineRow>3 ~ 4 级回溯法术的升级费用降低。</TimelineRow>

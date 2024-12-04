@@ -19,6 +19,7 @@ canonical: /upgrade/000e-Dragon-Rider
         <UnitImg imgTitle="2 级" imgSrc="Dragon_Rider2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Dragon_Rider3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Dragon_Rider4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Dragon_Rider5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -62,14 +63,19 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 |  死亡伤害  | 生命值 | 升级花费|  升级时间  |所需实验室<br>等级|所需<br>大本等级|
 | ---- |   ----   |   ----  |    ----   |  ---- |   ----  |    ----   |       ----      |     ----      |
 |   1  |    340   |    408  |     700   |  4100 |      \  |     \     |         1       |      13       |
-|   2  |    370   |    444  |     800   |  4400 |   9.6M  |     9     |        11       |      13       |
-|   3  |    400   |    480  |     900   |  4700 |  16.5M  |    14     |        12       |      14       |
-|   4  |    430   |    516  |    1000   |  5000 |  21.5M  |    16     |        14       |      16       |
+|   2  |    370   |    444  |     800   |  4400 |   7.5M  |     8     |        11       |      13       |
+|   3  |    400   |    480  |     900   |  4700 |    12M  |    10,12  |        12       |      14       |
+|   4  |    430   |    516  |    1000   |  5000 |  17.2M  |    13     |        14       |      16       |
+|   5  |    460   |    552  |    1100   |  5300 |  22.5M  |    15,12  |        15       |      17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 5 级龙骑士。</TimelineRow>
+        <TimelineRow>2 ~ 4 级龙骑士的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>16 本推出，同时在 16 本新增 4 级龙骑士。</TimelineRow>
         <TimelineRow>3 级龙骑士的升级时间减少。</TimelineRow>

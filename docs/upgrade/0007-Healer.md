@@ -75,10 +75,10 @@ const tableExtraInfo = [
 |   3  |          60        |          33        |   900  |   900k  |    1      |      6      |     8     |
 |   4  |          66        |          36        |  1200  |   2.7M  |    2      |      7      |     9     |
 |   5  |          72        |          48        |  1500  |   4.2M  |    4      |      9      |    11     |
-|   6  |          72        |          56        |  1600  |     8M  |    6,12   |     11      |    13     |
-|   7  |          72        |          62        |  1700  |    16M  |   11      |     12      |    14     |
-|   8  |          76        |          65        |  1800  |    17M  |   12      |     13      |    15     |
-|   9  |          80        |          68        |  1900  |    21M  |   15      |     14      |    16     |
+|   6  |          72        |          56        |  1600  |     7M  |    5      |     11      |    13     |
+|   7  |          72        |          62        |  1700  |   9.5M  |    8,12   |     12      |    14     |
+|   8  |          76        |          65        |  1800  |  14.8M  |    9,12   |     13      |    15     |
+|   9  |          80        |          68        |  1900  |  16.8M  |   12      |     14      |    16     |
 </UnitTable>
 
 <SmallTitle>多个治疗单位的叠加效应</SmallTitle>
@@ -107,6 +107,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>6 ~ 9 级天使的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>7 ~ 8 级天使的升级时间减少。</TimelineRow>
         <TimelineRow>8 级天使的升级费用降低。</TimelineRow>

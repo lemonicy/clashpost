@@ -28,6 +28,7 @@ canonical: /upgrade/0008-Dragon
         <UnitImg imgTitle="9 级" imgSrc="Dragon9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Dragon10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Dragon11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Dragon12.png" imgHd="Dragon12_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -73,18 +74,24 @@ const tableExtraInfo = [
 |   2  |    160   |   200   |  2100  |     1M  |    0,18   |      5      |     7     |
 |   3  |    180   |   225   |  2300  |     2M  |    1,12   |      6      |     8     |
 |   4  |    210   |   262.5 |  2700  |     3M  |    3      |      7      |     9     |
-|   5  |    240   |   300   |  3100  |   3.8M  |    4      |      8      |    10     |
-|   6  |    270   |   337.5 |  3400  |   4.9M  |    5,6    |      9      |    11     |
-|   7  |    310   |   387.5 |  3900  |   6.3M  |    5,12   |     10      |    12     |
-|   8  |    330   |   412.5 |  4200  |   8.8M  |    7      |     11      |    13     |
-|   9  |    350   |   437.5 |  4500  |  17.5M  |   12      |     12      |    14     |
-|  10  |    370   |   462.5 |  4900  |  19.5M  |   14      |     13      |    15     |
-|  11  |    390   |   487.5 |  5300  |  21.5M  |   16      |     14      |    16     |
+|   5  |    240   |   300   |  3100  |   3.8M  |    3,12   |      8      |    10     |
+|   6  |    270   |   337.5 |  3400  |   4.9M  |    4      |      9      |    11     |
+|   7  |    310   |   387.5 |  3900  |     5M  |    5      |     10      |    12     |
+|   8  |    330   |   412.5 |  4200  |   7.5M  |    6      |     11      |    13     |
+|   9  |    350   |   437.5 |  4500  |  10.5M  |    9      |     12      |    14     |
+|  10  |    370   |   462.5 |  4900  |    15M  |   10,14   |     13      |    15     |
+|  11  |    390   |   487.5 |  5300  |  17.2M  |   13      |     14      |    16     |
+|  12  |    410   |   512.5 |  5700  |    22M  |   14,16   |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>17 本推出，并在 17 本新增 12 级飞龙。</TimelineRow>
+        <TimelineRow>5 ~ 11 级飞龙的升级时间减少。</TimelineRow>
+        <TimelineRow>7 ~ 11 级飞龙的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>11 级飞龙的生命值提升。</TimelineRow>
     </TimelineItem>

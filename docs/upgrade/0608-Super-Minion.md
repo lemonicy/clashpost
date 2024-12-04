@@ -55,11 +55,15 @@ canonical: /upgrade/0608-Super-Minion
 |  10  |    350    |    350    |  1700 |     14    |
 |  11  |    360    |    360    |  1800 |     15    |
 |  12  |    370    |    370    |  1900 |     16    |
+|  13  |    380    |    380    |  2000 |     17    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>游戏新增 17 本，并在 17 本新增 13 级亡灵，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>16 本新增 12 级亡灵，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>

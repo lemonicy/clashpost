@@ -81,9 +81,9 @@ const tableExtraInfo = [
 | 等级 | 每秒治疗量 | 每次治疗量 | 生命值 | 升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
 |  --- |    ---    |    ---    |  ---- |  ----   |    ----   |       ----      |      ----     |
 |   1  |     65    |     65    |  1300 |    \    |      \    |         1       |       14      |
-|   2  |     70    |     70    |  1400 |   250K  |     12    |        12       |       14      |
-|   3  |     75    |     75    |  1500 |   350K  |     14    |        13       |       15      |
-|   4  |     80    |     80    |  1600 |   375K  |     16    |        14       |       16      |
+|   2  |     70    |     70    |  1400 |   125K  |     12    |        12       |       14      |
+|   3  |     75    |     75    |  1500 |   175K  |     14    |        13       |       15      |
+|   4  |     80    |     80    |  1600 | 187.5K  |     15    |        14       |       16      |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -130,10 +130,14 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>4 级德鲁伊的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4 级德鲁伊的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/10/02">
         <TimelineRow>德鲁伊在人类形态下的每秒治疗量减少约 42%.</TimelineRow>
         <TimelineRow>德鲁伊在人类形态下最多可存活的时间减少（30 秒 → 25 秒）。</TimelineRow>
-        <TimelineRow>德鲁伊在巨熊形态下的伤害降低 50%.</TimelineRow>
+        <TimelineRow>德鲁伊在巨熊形态下的伤害降低 50%。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
         <TimelineRow>德鲁伊最多可治疗的目标数量由 4 个减少到 3 个。</TimelineRow>
