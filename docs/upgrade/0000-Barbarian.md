@@ -105,7 +105,7 @@ const tableExtraInfo = [
         <TimelineRow>9 级野蛮人的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 11 级野蛮人。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 11 级野蛮人。</TimelineRow>
         <TimelineRow>7 ~ 10 级野蛮人的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">

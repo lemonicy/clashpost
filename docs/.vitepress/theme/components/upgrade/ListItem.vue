@@ -27,7 +27,15 @@ const props = defineProps({
 
 const unitLinkRef = ref();
 const link = "/upgrade/" + props.link;
+
+// 确定文字颜色
 const heroIndex = props.heroIndex;
+let heroTextClass = "cp-unit-text";
+if (heroIndex !== -1) {
+    heroTextClass += " cp-unit-text-hero-" + heroIndex;
+}
+
+// 图片相关
 const imgSrcOriginal = props.imgSrc;
 const imgExtension = getFileExtension(imgSrcOriginal);
 const hasAdditionalSource = getConvertWebpInfo(imgExtension);
@@ -67,11 +75,7 @@ onMounted(() => {
             <source srcset="https://static.clashpost.com/global/image-placeholder.svg" type="image/webp" v-if="hasAdditionalSource" />
             <img :loading="loadingValue" src="https://static.clashpost.com/global/image-placeholder.svg" alt="" />
         </picture>
-        <div class="cp-unit-text cp-unit-text-hero-0" v-if="heroIndex === 0">{{ name }}</div>
-        <div class="cp-unit-text cp-unit-text-hero-1" v-else-if="heroIndex === 1">{{ name }}</div>
-        <div class="cp-unit-text cp-unit-text-hero-2" v-else-if="heroIndex === 2">{{ name }}</div>
-        <div class="cp-unit-text cp-unit-text-hero-3" v-else-if="heroIndex === 3">{{ name }}</div>
-        <div class="cp-unit-text" v-else>{{ name }}</div>
+        <div :class="heroTextClass">{{ name }}</div>
     </a>
 </template>
 
@@ -171,6 +175,10 @@ onMounted(() => {
     color: rgb(55, 68, 152);
 }
 
+.cp-unit-text-hero-4 {
+    color: rgb(29,122,174);
+}
+
 .cp-theme-dark {
     .cp-unit-text-hero-0 {
         color: rgb(245, 215, 188);
@@ -186,6 +194,10 @@ onMounted(() => {
 
     .cp-unit-text-hero-3 {
         color: rgb(100, 149, 237);
+    }
+
+    .cp-unit-text-hero-4 {
+        color: rgb(71, 214, 252);
     }
 }
 </style>

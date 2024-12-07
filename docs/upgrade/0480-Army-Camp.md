@@ -107,11 +107,11 @@ const tableExtraInfo = [
         <TimelineRow>10 ~ 11 级兵营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 12 级兵营。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 12 级兵营。</TimelineRow>
         <TimelineRow>8 ~ 11 级兵营的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 15 级兵营。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 15 级兵营。</TimelineRow>
         <TimelineRow>2 ~ 3 级兵营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">

@@ -67,13 +67,13 @@ canonical: /upgrade/060d-Super-Dragon
 
 <Timeline>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>游戏新增 17 本，并在 17 本新增 12 级飞龙，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>17 本推出，并在 17 本新增 12 级飞龙，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>10 ~ 11 级超级飞龙的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 11 级飞龙，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 11 级飞龙，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
         <TimelineRow>15 本新增 10 级飞龙，超级部队的等级也相应更新。</TimelineRow>

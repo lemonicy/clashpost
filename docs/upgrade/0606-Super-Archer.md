@@ -63,13 +63,13 @@ canonical: /upgrade/0606-Super-Archer
         <TimelineRow>11 ~ 12 级超级弓箭手的生命值降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 12 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 12 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 11 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 11 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 10 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 10 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/01/20">
         <TimelineRow>9 级超级弓箭手生命值从 500 提升至 510。</TimelineRow>

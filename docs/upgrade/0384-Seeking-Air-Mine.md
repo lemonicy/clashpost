@@ -114,7 +114,7 @@ const tableExtraInfo = [
         <TimelineRow>搜空地雷的飞行速度从每秒 2.5 格提升至每秒 3.5 格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新解锁一个搜空地雷。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新解锁一个搜空地雷。</TimelineRow>
         <TimelineRow>2 ~ 3 级搜空地雷的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
@@ -125,7 +125,7 @@ const tableExtraInfo = [
         <TimelineRow>2 ~ 3 级搜空地雷的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>游戏新增 13 本，并在 13 本新增 4 级搜空地雷。</TimelineRow>
+        <TimelineRow>13 本推出，并在 13 本新增 4 级搜空地雷。</TimelineRow>
         <TimelineRow>13 本新解锁一个搜空地雷。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">

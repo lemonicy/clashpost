@@ -88,14 +88,14 @@ const tableExtraInfo = [
         <TimelineRow>9 级疗伤法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 10 级疗伤法术。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 10 级疗伤法术。</TimelineRow>
         <TimelineRow>6 ~ 9 级疗伤法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
         <TimelineRow>8 级疗伤法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 9 级疗伤法术。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 9 级疗伤法术。</TimelineRow>
         <TimelineRow>7 ~ 8 级疗伤法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">

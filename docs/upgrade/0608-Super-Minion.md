@@ -62,7 +62,7 @@ canonical: /upgrade/0608-Super-Minion
 
 <Timeline>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>游戏新增 17 本，并在 17 本新增 13 级亡灵，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>17 本推出，并在 17 本新增 13 级亡灵，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>16 本新增 12 级亡灵，超级部队的等级也相应更新。</TimelineRow>
@@ -72,14 +72,14 @@ canonical: /upgrade/0608-Super-Minion
     </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>参加防守的超级亡灵现在只有前 3 次攻击为远距离攻击。</TimelineRow>
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 11 级亡灵，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 11 级亡灵，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>家乡所有空军的攻击距离减少 0.5 格（超级飞龙除外，这玩意削了 1 格）。</TimelineRow>
         <TimelineRow>超级亡灵的远程狙杀技能的攻击距离减少 0.5 格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 10 级亡灵，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 10 级亡灵，超级部队的等级也相应更新。</TimelineRow>
         <TimelineRow>超级亡灵每秒伤害值降低 50，生命值提高 100。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">

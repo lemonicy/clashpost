@@ -171,7 +171,7 @@ const tableExtraInfo = [
         <TimelineRow>15 本新增 36 ~ 40 级飞盾战神。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 31 ~ 35 级飞盾战神。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 31 ~ 35 级飞盾战神。</TimelineRow>
         <TimelineRow>2 ~ 30 级飞盾战神的升级费用降低。</TimelineRow>
         <TimelineRow>4 ~ 25 级飞盾战神的升级时间减少。</TimelineRow>
     </TimelineItem>
@@ -187,7 +187,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2021/04/12">
         <TimelineRow>现在英雄可以搭配战宠了。</TimelineRow>
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 26 ~ 30 级飞盾战神。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 26 ~ 30 级飞盾战神。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
         <TimelineRow>战斗结束时，如果英雄的技能尚未使用，英雄会自动恢复一部分生命值（数值等于他们使用技能时可恢复的生命值）。这样就缩短了英雄的冷却时间，让他们可以更快投入下一场战斗！</TimelineRow>

@@ -99,7 +99,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>攻城机器工坊升级时兵种可继续建造攻城机器，但建造速度减半（建造时间翻倍）。</TimelineRow>
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 7 级攻城机器工坊，可解锁新的攻城机器：攻城钻机。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 7 级攻城机器工坊，可解锁新的攻城机器：攻城钻机。</TimelineRow>
         <TimelineRow>1 ~ 6 级攻城机器工坊的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">

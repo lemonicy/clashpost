@@ -97,7 +97,7 @@ const tableExtraInfo = [
         <TimelineRow>猛蜥寻找目标的范围增加 0.5 格，让它比较不会忽略附近的单位和英雄。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，可解锁四个新宠物，猛蜥是其中之一。</TimelineRow>
+        <TimelineRow>15 本推出，可解锁四个新宠物，猛蜥是其中之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

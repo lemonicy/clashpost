@@ -157,6 +157,10 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="攻城烈焰车" imgSrc="0245/Flame_Flinger_thumb.png" link="0245-Flame-Flinger" />
         <ListItem name="攻城钻机" imgSrc="0246/Battle_Drill_thumb.png" link="0246-Battle-Drill" />
     </ListItems>
+    <ListItems title="特殊角色" imgFolder="home_tech">
+        <ListItem name="实验助理" imgSrc="0800/Lab_Assistant_thumb.png" link="0800-Lab-Assistant" />
+        <ListItem name="建筑工人学徒" imgSrc="0801/Builder%27s_Apprentice_thumb.png" link="0801-Builder%27s-Apprentice" />
+    </ListItems>
 </SwitchTabGroup>
 
 <SwitchTabGroup id="cp-upgrade-buildings" class="cp-upgrade-item">
@@ -164,6 +168,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="大本营" imgSrc="0400/Town_Hall17_5.png" link="0400-Town-Hall" />
         <ListItem name="巨型特斯拉电磁塔" imgSrc="030c/Giga_Tesla5_thumb.png" link="030c-Giga-Tesla" />
         <ListItem name="巨型地狱之塔" imgSrc="030d/Giga_Inferno16_thumb.png" link="030d-Giga-Inferno" />
+        <ListItem name="巨型地狱之塔" imgSrc="0315/Inferno_Artillery5.png" link="0315-Inferno-Artillery" />
     </ListItems>
     <ListItems title="防御建筑" imgFolder="home_buildings">
         <ListItem name="城墙" imgSrc="0300/Wall18.png" link="0300-Walls" />
@@ -183,6 +188,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="巨石碑" imgSrc="0312/Monolith3.png" link="0312-Monolith" />
         <ListItem name="跳弹加农炮" imgSrc="0313/Ricochet_Cannon3.png" link="0313-Ricochet-Cannon" />
         <ListItem name="多人箭塔" imgSrc="0314/Multi-Archer_Tower3.png" link="0314-Multi-Archer-Tower" />
+        <ListItem name="火焰喷射器" imgSrc="0316/Firespitter2.png" link="0316-Firespitter" />
     </ListItems>
     <ListItems title="陷阱" imgFolder="home_buildings">
         <ListItem name="隐形炸弹" imgSrc="0380/Bomb13.png" link="0380-Bomb" />
@@ -192,6 +198,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="搜空地雷" imgSrc="0384/Seeking_Air_Mine7.png" link="0384-Seeking-Air-Mine" />
         <ListItem name="骷髅陷阱" imgSrc="0385/Skeleton_Trap3.png" link="0385-Skeleton-Trap" />
         <ListItem name="飓风陷阱" imgSrc="0386/Tornado_Trap2.png" link="0386-Tornado-Trap" />
+        <ListItem name="终极炸弹" imgSrc="0387/Giga_Bomb3.png" link="0387-Giga-Bomb" />
     </ListItems>
     <ListItems title="资源类建筑" imgFolder="home_buildings">
         <ListItem name="金矿" imgSrc="0401/Gold_Mine16.png" link="0401-Gold-Mine" />
@@ -217,6 +224,6 @@ if (activeTabCookieValue === "home-techniques") {
     <ListItems title="其他" imgFolder="home_buildings">
         <ListItem name="建筑工人小屋" imgSrc="0500/Builders_Hut6.png" link="0500-Builders-Hut" />
         <ListItem name="小博木屋" imgSrc="0501/B.O.Bs_Hut.png" link="0501-B.O.Bs-Hut" />
-        <ListItem name="建筑工人学徒" imgSrc="0502/Builder%27s_Apprentice_thumb.png" link="0502-Builder%27s-Apprentice" />
+        <ListItem name="帮手小屋" imgSrc="0502/Helper_Hut.png" link="0502-Helper-Hut" />
     </ListItems>
 </SwitchTabGroup>

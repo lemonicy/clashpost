@@ -127,11 +127,11 @@ const tableExtraInfo = [
         <TimelineRow>13 ~ 14 级圣水瓶的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 16 级圣水瓶。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 16 级圣水瓶。</TimelineRow>
         <TimelineRow>12 ~ 15 级圣水瓶的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 15 级圣水瓶。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 15 级圣水瓶。</TimelineRow>
         <TimelineRow>2 ~ 3 级圣水瓶的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">

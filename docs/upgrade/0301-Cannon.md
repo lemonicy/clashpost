@@ -250,7 +250,7 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
         <TimelineRow>16 ~ 19 级加农炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 21 级加农炮。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 21 级加农炮。</TimelineRow>
         <TimelineRow>12 ~ 20 级加农炮的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">

@@ -78,19 +78,19 @@ canonical: /upgrade/0603-Super-Wall-Breaker
 
 <Timeline>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>游戏新增 17 本，并在 17 本新增 13 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>17 本推出，并在 17 本新增 13 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 12 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 12 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 11 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 11 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
         <TimelineRow>为配合城墙的生命值调整，7 ~ 9 级超级炸弹人被摧毁时造成的伤害也一起降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 10 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 10 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
         <TimelineRow>超级部队的有效时间从 7 天缩短为 3 天。</TimelineRow>

@@ -5,7 +5,7 @@ shownTitle: "巨型特斯拉电磁塔"
 description: "只要敌方敢碰大本营，作为特斯拉家族中的暴脾气老大哥，巨型特斯拉电磁塔定会让他们好看。它会发射出超强电流击退敌方，你或许还能闻到空气中弥漫着一股......椰子和金属的气味。"
 module: upgrade-home
 imgFolder: home_buildings/030c
-wiki: https://clashofclans.fandom.com/wiki/Giga_Tesla
+wiki: https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Tesla
 canonical: /upgrade/030c-Giga-Tesla
 ---
 

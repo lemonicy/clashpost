@@ -99,7 +99,7 @@ const tableExtraInfo = [
         <TimelineRow>增加雷霆泰坦的「大守护者权重」，让大守护者更有可能跟随他们。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 14 本新增新兵种：雷霆泰坦。</TimelineRow>
+        <TimelineRow>15 本推出，并在 14 本新增新兵种：雷霆泰坦。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

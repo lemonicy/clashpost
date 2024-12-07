@@ -62,7 +62,7 @@ canonical: /upgrade/0604-Inferno-Dragon
 
 <Timeline>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>游戏新增 17 本，并在 17 本新增 11 级飞龙宝宝，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>17 本推出，并在 17 本新增 11 级飞龙宝宝，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>16 本新增 10 级飞龙宝宝，超级部队的等级也相应更新。</TimelineRow>
@@ -80,7 +80,7 @@ canonical: /upgrade/0604-Inferno-Dragon
         <TimelineRow>地狱飞龙的移动速度从 20 下降到 18。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 8 级飞龙宝宝，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 8 级飞龙宝宝，超级部队的等级也相应更新。</TimelineRow>
         <TimelineRow>7 级地狱飞龙每秒伤害值从 80 ~ 1600 降低为 79 ~ 1580，生命值降低 50。</TimelineRow>
         <TimelineRow>地狱飞龙烈焰射线冷却时间从 0.5 秒提高到 0.6 秒。</TimelineRow>
     </TimelineItem>

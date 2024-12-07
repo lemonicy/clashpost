@@ -81,7 +81,7 @@ const tableExtraInfo = [
         <TimelineRow>8 ~ 9 级毒药法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 10 级毒药法术。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 10 级毒药法术。</TimelineRow>
         <TimelineRow>5 ~ 9 级毒药法术的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 3、8 级毒药法术的升级费用降低。</TimelineRow>
     </TimelineItem>
@@ -89,7 +89,7 @@ const tableExtraInfo = [
         <TimelineRow>6 ~ 7 级毒药法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 9 级毒药法术。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 9 级毒药法术。</TimelineRow>
         <TimelineRow>4 ~ 8 级毒药法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/02/15">
@@ -100,7 +100,7 @@ const tableExtraInfo = [
         <TimelineRow>2 ~ 4 级毒药法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 8 级毒药法术。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 8 级毒药法术。</TimelineRow>
         <TimelineRow>2 ~ 3 级毒药法术的升级费用降低。</TimelineRow>
         <TimelineRow>2 ~ 5 级毒药法术的升级时间减少。</TimelineRow>
     </TimelineItem>

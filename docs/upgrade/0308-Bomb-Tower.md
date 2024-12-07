@@ -110,7 +110,7 @@ const tableExtraInfo = [
         <TimelineRow>7 ~ 10 级炸弹塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 11 级炸弹塔。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 11 级炸弹塔。</TimelineRow>
         <TimelineRow>所有等级炸弹塔的升级时间减少。</TimelineRow>
         <TimelineRow>1 ~ 6、9 级炸弹塔的升级费用降低。</TimelineRow>
     </TimelineItem>
@@ -119,14 +119,14 @@ const tableExtraInfo = [
         <TimelineRow>7 ~ 8 级炸弹塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 10 级炸弹塔。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 10 级炸弹塔。</TimelineRow>
         <TimelineRow>4 ~ 9 级炸弹塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
         <TimelineRow>1 ~ 8 级炸弹塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 9 级炸弹塔。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 9 级炸弹塔。</TimelineRow>
         <TimelineRow>1 ~ 6 级炸弹塔的升级费用降低。</TimelineRow>
         <TimelineRow>2 ~ 6 级炸弹塔的升级时间减少。</TimelineRow>
     </TimelineItem>

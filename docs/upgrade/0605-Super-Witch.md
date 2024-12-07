@@ -77,10 +77,10 @@ canonical: /upgrade/0605-Super-Witch
 
 <Timeline>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 7 级女巫，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 7 级女巫，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>    
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 6 级女巫，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 6 级女巫，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
         <TimelineRow>超级女巫的训练时间由 1200 秒减少到 800 秒。</TimelineRow>

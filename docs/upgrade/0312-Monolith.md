@@ -99,7 +99,7 @@ const tableExtraInfo = [
         <TimelineRow>所有等级巨石碑的额外伤害减少 2%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增建筑：巨石碑。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增建筑：巨石碑。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

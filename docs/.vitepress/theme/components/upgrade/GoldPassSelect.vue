@@ -24,10 +24,11 @@ const props = defineProps({
 function hasGoldPassItem(link) {
     if (link && (link.startsWith("/upgrade/0") || link.startsWith("/upgrade/1"))) {
         const unitId = link.substring(9, 13);
-        const excludedId = ["0501", "0502"];
-        // 英雄装备的升级花费不受月卡影响，特意排除
-        return unitId.match(/^[0-9a-f][0-9a-f][0-9a-f][0-9a-f]$/)
-            && !unitId.startsWith("07") && !excludedId.includes(unitId);
+        const excludedId = ["0501"];
+        // 英雄装备的升级花费以及特殊角色的升级不受月卡影响，特意排除
+        return unitId.match(/^[0-9a-f][0-9a-f][0-9a-f][0-9a-f]$/) &&
+            !unitId.startsWith("07") && !unitId.startsWith("08") &&
+            !excludedId.includes(unitId);
     }
     return false;
 }

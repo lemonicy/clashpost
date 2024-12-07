@@ -104,7 +104,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>法术工厂升级时兵种可继续配置法术，但配置速度减半（配置时间翻倍）。</TimelineRow>
-        <TimelineRow>游戏新增 15 本，并在 13 本新增 7 级法术工厂，可解锁新法术：回溯法术（召回法术）。</TimelineRow>
+        <TimelineRow>15 本推出，并在 13 本新增 7 级法术工厂，可解锁新法术：回溯法术（召回法术）。</TimelineRow>
         <TimelineRow>5 ~ 7 级法术工厂的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">

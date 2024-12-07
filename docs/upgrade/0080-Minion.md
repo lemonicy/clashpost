@@ -111,7 +111,7 @@ const tableExtraInfo = [
         <TimelineRow>8 ~ 9 级亡灵的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-    <TimelineRow>游戏新增 15 本，并在 15 本新增 11 级亡灵。</TimelineRow>
+    <TimelineRow>15 本推出，并在 15 本新增 11 级亡灵。</TimelineRow>
         <TimelineRow>6 ~ 10 级亡灵的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">

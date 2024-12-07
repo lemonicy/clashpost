@@ -108,7 +108,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>2 ~ 8 级掘地矿工的升级费用和升级时间减少。</TimelineRow>
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 9 级掘地矿工。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 9 级掘地矿工。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
         <TimelineRow>2 ~ 7 级掘地矿工的升级费用降低。</TimelineRow>

@@ -291,14 +291,14 @@ const tableExtraInfo = [
         <TimelineRow>8 ~ 9 级部落城堡的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 11 级部落城堡。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 11 级部落城堡。</TimelineRow>
         <TimelineRow>6 ~ 10 级部落城堡的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
         <TimelineRow>现在所有等级的部落城堡均需使用圣水升级，所需圣水的数量与之前所需的金币数相同。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 10 级部落城堡。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 10 级部落城堡。</TimelineRow>
         <TimelineRow>现在部落城堡可收到的兵种等级有限制，援兵无法再碾压低本了。</TimelineRow>
         <TimelineRow>4 ~ 7 级部落城堡的升级费用降低。</TimelineRow>
         <TimelineRow>7 级部落城堡的升级时间减少。</TimelineRow>
@@ -307,7 +307,7 @@ const tableExtraInfo = [
         <TimelineRow>雷电法术不再对部落城堡造成伤害。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>游戏新增 13 本，并在 13 本新增 9 级部落城堡。</TimelineRow>
+        <TimelineRow>13 本推出，并在 13 本新增 9 级部落城堡。</TimelineRow>
         <TimelineRow>12 级大本营的城堡可存储的资源量增加。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">

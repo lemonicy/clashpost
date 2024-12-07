@@ -92,7 +92,7 @@ const tableExtraInfo = [
         <TimelineRow>3 ~ 4 级回溯法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 5 级回溯法术。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 5 级回溯法术。</TimelineRow>
         <TimelineRow>2 ~ 4 级回溯法术的升级时间减少。</TimelineRow>
         <TimelineRow>3 级回溯法术的升级费用降低。</TimelineRow>
     </TimelineItem>
@@ -100,7 +100,7 @@ const tableExtraInfo = [
         <TimelineRow>各等级回溯法术可召回的部队单位都增加 11。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 13 本新增法术：回溯法术（召回法术）。</TimelineRow>
+        <TimelineRow>15 本推出，并在 13 本新增法术：回溯法术（召回法术）。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -67,13 +67,13 @@ canonical: /upgrade/0600-Super-Barbarian
         <TimelineRow>10 ~ 12 级超级野蛮人的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 12 级野蛮人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 12 级野蛮人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 11 级野蛮人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 11 级野蛮人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 10 级野蛮人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 10 级野蛮人，超级部队的等级也相应更新。</TimelineRow>
         <TimelineRow>修复了狂暴野蛮人、超级野蛮人和隐秘弓箭手的技能持续时间计时不太准确的问题。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">

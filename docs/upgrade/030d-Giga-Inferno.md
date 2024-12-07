@@ -5,7 +5,7 @@ shownTitle: "巨型地狱之塔"
 description: "巨型地狱之塔会让敌军觉得自己就是一团向篝火发动攻击的棉花糖。经过技术升级后，它现在变得更加强大，被摧毁时会释放毒雾，对附近敌军造成伤害并使其减速。"
 module: upgrade-home
 imgFolder: home_buildings/030d
-wiki: https://clashofclans.fandom.com/wiki/Giga_Inferno
+wiki: https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno
 canonical: /upgrade/030d-Giga-Inferno
 ---
 

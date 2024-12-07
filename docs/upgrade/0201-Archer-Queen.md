@@ -232,7 +232,7 @@ const tableExtraInfo = [
         <TimelineRow>15 本新增 86 ~ 90 级弓箭女皇。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 81 ~ 85 级弓箭女皇。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 81 ~ 85 级弓箭女皇。</TimelineRow>
         <TimelineRow>33 ~ 80 级弓箭女皇的升级费用降低。</TimelineRow>
         <TimelineRow>35 ~ 75 级弓箭女皇的升级时间减少。</TimelineRow>
     </TimelineItem>
@@ -245,7 +245,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2021/04/12">
         <TimelineRow>现在英雄可以搭配战宠了。</TimelineRow>
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 76 ~ 80 级弓箭女皇。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 76 ~ 80 级弓箭女皇。</TimelineRow>
         <TimelineRow>优化弓箭女皇的寻路系统，这将改善她的 AI，比如她现在会优先往有城墙缺口的方向移动。</TimelineRow>
         <TimelineRow>1 ~ 50 级弓箭女皇的升级花费降低。</TimelineRow>
         <TimelineRow>2 ~ 50 级弓箭女皇的升级时间减少。</TimelineRow>

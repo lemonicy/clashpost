@@ -129,7 +129,7 @@ const tableExtraInfo = [
         <TimelineRow>现在你可以把所有的城墙都升到 16 级了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 16 级城墙，目前游戏只开放了 200 块 16 级城墙。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 16 级城墙，目前游戏只开放了 200 块 16 级城墙。</TimelineRow>
         <TimelineRow>13 ~ 14 级城墙的升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">

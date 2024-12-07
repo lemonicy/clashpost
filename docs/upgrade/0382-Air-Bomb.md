@@ -101,7 +101,7 @@ const tableExtraInfo = [
         <TimelineRow>10 级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 11 级空中炸弹。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 11 级空中炸弹。</TimelineRow>
         <TimelineRow>2 ~ 9 级空中炸弹的升级时间减少。</TimelineRow>
         <TimelineRow>3 ~ 5、7 ~ 9 级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
@@ -109,7 +109,7 @@ const tableExtraInfo = [
         <TimelineRow>6 ~ 8 级空中炸弹的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 10 级空中炸弹。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 10 级空中炸弹。</TimelineRow>
         <TimelineRow>7 ~ 9 级空中炸弹的升级时间减少。</TimelineRow>
         <TimelineRow>5 ~ 9 级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
@@ -123,7 +123,7 @@ const tableExtraInfo = [
         <TimelineRow>14 本新增 9 级空中炸弹。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新解锁一个空中炸弹。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新解锁一个空中炸弹。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
         <TimelineRow>13 本新增 8 级空中炸弹。</TimelineRow>
@@ -132,7 +132,7 @@ const tableExtraInfo = [
         <TimelineRow>4 级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>游戏新增 13 本，并在 13 本新增 7 级空中炸弹。</TimelineRow>
+        <TimelineRow>13 本推出，并在 13 本新增 7 级空中炸弹。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
         <TimelineRow>玩家上线后，所有的陷阱将自动被重新布置，重新布置不再需要花费金币。然而，如果玩家不上线，陷阱就不会被重新布置，所以你仍然可以攻击到陷阱失效的村庄。</TimelineRow>

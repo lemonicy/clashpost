@@ -113,7 +113,7 @@ const tableExtraInfo = [
         <TimelineRow>现在 7 ~ 8 级铁匠铺可以解锁新装备了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，新建筑：铁匠铺，共设 9 个等级。其中前 6 个等级可解锁新装备，后 3 个等级不解锁任何装备。</TimelineRow>
+        <TimelineRow>16 本推出，新建筑：铁匠铺，共设 9 个等级。其中前 6 个等级可解锁新装备，后 3 个等级不解锁任何装备。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

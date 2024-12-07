@@ -102,7 +102,7 @@ const tableExtraInfo = [
         <TimelineRow>修复使用战宠凤凰的英雄有时不会触发特斯拉电磁塔的问题。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，可解锁四个新宠物，凤凰是其中之一。</TimelineRow>
+        <TimelineRow>15 本推出，可解锁四个新宠物，凤凰是其中之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

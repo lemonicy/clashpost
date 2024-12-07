@@ -1,7 +1,7 @@
 ---
-title: "部落冲突 coc 亡灵王子升级数据"
+title: "部落冲突 coc 亡灵王子（苍蝇王、大苍蝇）升级数据"
 navTitle: "亡灵王子"
-shownTitle: "亡灵王子"
+shownTitle: "亡灵王子（苍蝇王、大苍蝇）"
 description: "这个自称暗黑王子的家伙是个狠角色！亡灵王子会在空中发射暗黑粘液，对防御建筑和部队造成伤害！防守时，他会在自己的英雄战旗附近盘旋。"
 module: upgrade-home
 imgFolder: home_heroes/0204

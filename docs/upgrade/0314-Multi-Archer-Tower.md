@@ -27,8 +27,8 @@ canonical: /upgrade/0314-Multi-Archer-Tower
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1-15, 16, 17" />
-    <BuildingNumRow title="建筑数量" num=" 0,    2,  3" />
+    <BuildingNumRow title="大本等级" num="1 - 15, 16, 17" />
+    <BuildingNumRow title="建筑数量" num="     0,  2,  3" />
 </BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
@@ -93,7 +93,7 @@ const tableExtraInfo = [
         <TimelineRow>所有等级多人箭塔的每秒伤害提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增建筑：多人箭塔，共设两个等级。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增建筑：多人箭塔，共设两个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

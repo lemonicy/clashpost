@@ -215,7 +215,7 @@ const tableExtraInfo = [
         <TimelineRow>增加雷霆泰坦的「大守护者权重」，让大守护者更有可能跟随他们。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 56 ~ 60 级大守护者。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 56 ~ 60 级大守护者。</TimelineRow>
         <TimelineRow>2 ~ 55 级大守护者的升级费用减少。</TimelineRow>
         <TimelineRow>6 ~ 50 级大守护者的升级时间减少。</TimelineRow>
     </TimelineItem>
@@ -231,7 +231,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2021/04/12">
         <TimelineRow>现在英雄可以搭配战宠了。</TimelineRow>
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 51 ~ 55 级大守护者。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 51 ~ 55 级大守护者。</TimelineRow>
         <TimelineRow>修复了其他友军都没攻打城墙的情况下，大守护者会去攻打城墙的问题。</TimelineRow>
         <TimelineRow>如果在大守护者受到伤害的同时激活永恒书卷技能，他可以免疫伤害，不会再出现一个黑雷把血炸空的同时开大的情况了。</TimelineRow>
         <TimelineRow>1 ~ 10 级大守护者的升级花费降低。</TimelineRow>

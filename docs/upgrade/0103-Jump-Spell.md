@@ -81,7 +81,7 @@ const tableExtraInfo = [
         <TimelineRow>4 级弹跳法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 5 级弹跳法术。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 5 级弹跳法术。</TimelineRow>
         <TimelineRow>3 ~ 4 级弹跳法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
@@ -91,7 +91,7 @@ const tableExtraInfo = [
         <TimelineRow>走出弹跳法术效果范围的部队不会再重新选择目标，这是为了避免部队卡在其法术效果范围内。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>游戏新增 13 本，并在 13 本新增 4 级弹跳法术。</TimelineRow>
+        <TimelineRow>13 本推出，并在 13 本新增 4 级弹跳法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
         <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中 2 级弹跳法术的升级时间减少。</TimelineRow>

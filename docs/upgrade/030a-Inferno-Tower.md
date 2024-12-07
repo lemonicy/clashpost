@@ -254,7 +254,7 @@ const tableExtraInfoMultiMode = [
         <TimelineRow>6 ~ 7 级地狱之塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 9 级地狱之塔。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 9 级地狱之塔。</TimelineRow>
         <TimelineRow>1 ~ 8 级地狱之塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
@@ -264,7 +264,7 @@ const tableExtraInfoMultiMode = [
         <TimelineRow>1 ~ 7 级 地狱之塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 8 级地狱之塔。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 8 级地狱之塔。</TimelineRow>
         <TimelineRow>地狱塔在多目标模式下不再固定为 5 个目标了，8 级地狱塔最多可以攻击 6 个目标。</TimelineRow>
         <TimelineRow>1 ~ 5 级地狱塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
@@ -272,7 +272,7 @@ const tableExtraInfoMultiMode = [
         <TimelineRow>7 级地狱之塔处于单一目标模式时的每秒伤害（第三段伤害）降低 100。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>游戏新增 13 本，并在 13 本新增 7 级地狱之塔。</TimelineRow>
+        <TimelineRow>13 本推出，并在 13 本新增 7 级地狱之塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/09/11">
         <TimelineRow>2 ~ 3 级地狱塔的伤害降低。</TimelineRow>

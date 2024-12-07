@@ -104,7 +104,7 @@ const tableExtraInfo = [
         <TimelineRow>5 级蝙蝠法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 6 级蝙蝠法术。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 6 级蝙蝠法术。</TimelineRow>
         <TimelineRow>2 ~ 5 级蝙蝠法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
