@@ -93,14 +93,14 @@ const tableExtraInfo = [
         <TimelineRow>10 级雷电法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 11 级雷电法术。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 11 级雷电法术。</TimelineRow>
         <TimelineRow>6 ~ 10 级雷电法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
         <TimelineRow>9 级雷电法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 10 级雷电法术。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 10 级雷电法术。</TimelineRow>
         <TimelineRow>7 ~ 9 级雷电法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">

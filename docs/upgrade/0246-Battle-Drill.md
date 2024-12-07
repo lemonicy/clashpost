@@ -90,7 +90,7 @@ const tableExtraInfo = [
         <TimelineRow>3 ~ 4 级攻城钻机的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增攻城机器：攻城钻机。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增攻城机器：攻城钻机。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

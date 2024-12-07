@@ -9,8 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Town_Hall
 canonical: /upgrade/0400-Town-Hall
 ---
 
-- *如想查看 12 本的自带武器，请访问：[巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
-- *如想查看 13 本及以上的自带武器，请访问：[巨型地狱之塔](/upgrade/030d-Giga-Inferno)。*
+- *如想查看大本营的自带武器，请访问：[巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)、[巨型地狱之塔](/upgrade/030d-Giga-Inferno)、[地狱火炮](/upgrade/0315-Inferno-Artillery)。*
 - *如想查看夜世界的大本营，请访问：[建筑大师大本营](/upgrade/1200-Builder-Hall)、[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。*
 - *如想查看都城的大本营，请访问：[都城大本营](/upgrade/2400-Capital-Hall)、[子城大本营](/upgrade/2401-District-Hall)。*
 

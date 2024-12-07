@@ -41,7 +41,8 @@ canonical: /upgrade/030e-Scattershot
 
 <SmallTitle>重要说明</SmallTitle>
 
-投石炮击中目标后会爆炸，爆炸后会对攻击方向向前 1 ~ 5 格散射 90° 并造成散射伤害，溅射伤害随距离递减。
+1. 投石炮击中目标后会爆炸，爆炸后会对攻击方向向前 1 ~ 5 格散射 90° 并造成散射伤害，溅射伤害随距离递减。
+2. 投石炮不能同时溅射到地面目标和空中目标，瞄准地面就无法溅射到空中，反之亦然。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -124,7 +125,7 @@ const tableExtraInfo = [
         <TimelineRow>1 ~ 3 级投石炮的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 3 级投石炮。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 3 级投石炮。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
         <TimelineRow>投石炮的攻击速度从 3.036 秒/次减慢至 3.228 秒/次。</TimelineRow>
@@ -136,7 +137,7 @@ const tableExtraInfo = [
         <TimelineRow>投石炮现在可能会出现弹药用尽的情况，和X连弩、地狱之塔类似。</TimelineRow>
     </TimelineItem>       
     <TimelineItem date="2019/12/09">
-        <TimelineRow>游戏新增 13 本，并在 13 本新增建筑：投石炮。</TimelineRow>
+        <TimelineRow>13 本推出，并在 13 本新增建筑：投石炮。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

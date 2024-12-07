@@ -121,7 +121,7 @@ const tableExtraInfo = [
         <TimelineRow>9 ~ 14 级法师塔的生命值降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 16 级法师塔。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 16 级法师塔。</TimelineRow>
         <TimelineRow>2 ~ 15 级法师塔的升级时间减少。</TimelineRow>
         <TimelineRow>3 ~ 10、14 级法师塔的升级费用降低。</TimelineRow>
     </TimelineItem>
@@ -130,7 +130,7 @@ const tableExtraInfo = [
         <TimelineRow>11 ~ 13 级法师塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 15 级法师塔。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 15 级法师塔。</TimelineRow>
         <TimelineRow>8 ~ 14 级法师塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
@@ -147,7 +147,7 @@ const tableExtraInfo = [
         <TimelineRow>13 本新增 13 级法师塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>游戏新增 13 本，并在 13 本新增 12 级法师塔。</TimelineRow>
+        <TimelineRow>13 本推出，并在 13 本新增 12 级法师塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
         <TimelineRow>8 ~ 9 级法师塔的伤害降低。</TimelineRow>

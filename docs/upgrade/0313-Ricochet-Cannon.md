@@ -94,7 +94,7 @@ const tableExtraInfo = [
         <TimelineRow>跳弹加农炮成为第二批可以充能的建筑。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增建筑：跳弹加农炮，共设两个等级。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增建筑：跳弹加农炮，共设两个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -70,7 +70,7 @@ canonical: /upgrade/0607-Super-Valkyrie
 
 <Timeline>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 11 级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 11 级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>    
     <TimelineItem date="2023/06/12">
         <TimelineRow>15 本新增 10 级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
@@ -82,7 +82,7 @@ canonical: /upgrade/0607-Super-Valkyrie
         <TimelineRow>所有等级超级瓦基丽武神的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 9 级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 9 级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
         <TimelineRow>超级部队的有效时间从 7 天缩短为 3 天。</TimelineRow>

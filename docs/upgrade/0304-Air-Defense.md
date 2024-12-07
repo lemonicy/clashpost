@@ -114,7 +114,7 @@ const tableExtraInfo = [
         <TimelineRow>12 ~ 13 级防空火箭的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 15 本新增 14 级防空火箭。</TimelineRow>
+        <TimelineRow>16 本推出，并在 15 本新增 14 级防空火箭。</TimelineRow>
         <TimelineRow>2 ~ 13 级防空火箭的升级时间减少。</TimelineRow>
         <TimelineRow>5 ~ 6、8 ~ 9、12 ~ 13 级防空火箭的升级费用降低。</TimelineRow>
     </TimelineItem>
@@ -123,7 +123,7 @@ const tableExtraInfo = [
         <TimelineRow>10 ~ 11 级防空火箭的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 13 级防空火箭。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 13 级防空火箭。</TimelineRow>
         <TimelineRow>8 ~ 12 级防空火箭的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/09/13">

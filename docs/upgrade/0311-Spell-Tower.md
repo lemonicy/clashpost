@@ -207,7 +207,7 @@ const tableExtraInfo = [
         <TimelineRow>毒药法术塔 “降低攻击速度” 的效果由 -35% 调整为 -25%。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增建筑：法术塔。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增建筑：法术塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

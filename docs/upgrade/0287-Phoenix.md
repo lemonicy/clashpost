@@ -28,6 +28,7 @@ canonical: /upgrade/0287-Phoenix
 4. 被凤凰复活的英雄不能以任何方式回复血量，不会被 [天使](/upgrade/0007-Healer) 锁定，[咏王](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备也无法延长其复活时间。一旦复活时间结束，英雄必定会阵亡，凤凰会继续战斗。
 5. 凤凰和主人都可以被单独召回，主人被召回后无敌时间会暂停，而凤凰的无敌时间不会暂停。
 6. 如果主人被召回或阵亡，凤凰会变成一个自由单位，此时没有偏好目标。
+7. 在凤凰的无敌效果结束后，你可以对该英雄使用 [复苏法术](/upgrade/0108-Revive-Spell)。
 
 <SmallTitle>凤凰的属性</SmallTitle>
 
@@ -102,7 +103,7 @@ const tableExtraInfo = [
         <TimelineRow>修复使用战宠凤凰的英雄有时不会触发特斯拉电磁塔的问题。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，可解锁四个新宠物，凤凰是其中之一。</TimelineRow>
+        <TimelineRow>15 本推出，可解锁四个新宠物，凤凰是其中之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

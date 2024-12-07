@@ -242,7 +242,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
         <TimelineRow>16 ~ 19 级箭塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 21 级箭塔。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 21 级箭塔。</TimelineRow>
         <TimelineRow>12 ~ 20 级箭塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">

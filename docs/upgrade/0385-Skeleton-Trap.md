@@ -110,7 +110,7 @@ const tableExtraInfo = [
         <TimelineRow>2 ~ 4 级骷髅陷阱的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>游戏新增 13 本，并在 13 本新增 4 级搜空地雷。</TimelineRow>
+        <TimelineRow>13 本推出，并在 13 本新增 4 级搜空地雷。</TimelineRow>
         <TimelineRow>13 本新解锁一个搜空地雷。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">

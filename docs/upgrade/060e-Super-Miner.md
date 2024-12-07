@@ -61,7 +61,7 @@ canonical: /upgrade/060e-Super-Miner
 
 <Timeline>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 10 级掘地矿工，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 10 级掘地矿工，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
         <TimelineRow>9 级超级矿工的生命值由 3200 提升到 3500。</TimelineRow>

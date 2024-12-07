@@ -114,11 +114,11 @@ const tableExtraInfo = [
         <TimelineRow>7 ~ 8 级暗黑重油罐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 10 级暗黑重油罐。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 10 级暗黑重油罐。</TimelineRow>
         <TimelineRow>7 ~ 9 级暗黑重油罐的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 9 级暗黑重油罐。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 9 级暗黑重油罐。</TimelineRow>
         <TimelineRow>1 ~ 2 级暗黑重油罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">

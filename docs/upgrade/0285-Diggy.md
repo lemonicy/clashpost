@@ -91,7 +91,7 @@ const tableExtraInfo = [
         <TimelineRow>2 ~ 10 级地兽的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，可解锁四个新宠物，地兽是其中之一。</TimelineRow>
+        <TimelineRow>15 本推出，可解锁四个新宠物，地兽是其中之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

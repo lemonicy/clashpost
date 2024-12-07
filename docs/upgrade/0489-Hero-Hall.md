@@ -206,7 +206,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>游戏新增 17 本，新建筑：英雄殿堂。</TimelineRow>
+        <TimelineRow>17 本推出，新建筑：英雄殿堂。</TimelineRow>
         <TimelineRow>现在你需要在英雄殿堂升级和管理英雄，不能和以前一样直接在阵型中找到英雄升级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

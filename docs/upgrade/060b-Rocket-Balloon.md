@@ -67,7 +67,7 @@ canonical: /upgrade/060b-Rocket-Balloon
         <TimelineRow>8 ~ 10 级火箭气球兵的死亡伤害提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 11 级气球兵，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 11 级气球兵，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>家乡所有空军的攻击距离减少 0.5 格（超级飞龙除外，这玩意削了 1 格）。</TimelineRow>

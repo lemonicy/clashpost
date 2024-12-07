@@ -93,7 +93,7 @@ const tableExtraInfo = [
         <TimelineRow>移除了灵狐进行攻击时的冰霜视觉效果。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，可解锁一个新宠物：灵狐。</TimelineRow>
+        <TimelineRow>16 本推出，可解锁一个新宠物：灵狐。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

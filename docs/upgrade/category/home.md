@@ -54,7 +54,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="灵狐" imgSrc="0288/Spirit_Fox_thumb.png" link="0288-Spirit-Fox" :lazyLoading="false" />
         <ListItem name="愤怒水母" imgSrc="0289/Angry_Jelly_thumb.png" link="0289-Angry-Jelly" :lazyLoading="false" />
     </ListItems>
-    <ListItems title="英雄装备" imgFolder="home_heroes">
+    <ListItems title="装备" imgFolder="home_heroes">
         <ListItem name="野蛮人木偶" imgSrc="0700/Barbarian_Puppet_thumb.png" link="0700-Barbarian-Puppet" :heroIndex="0" :lazyLoading="false" />
         <ListItem name="狂暴药水瓶" imgSrc="0701/Rage_Vial_thumb.png" link="0701-Rage-Vial" :heroIndex="0" :lazyLoading="false" />
         <ListItem name="地震金靴" imgSrc="0702/Earthquake_Boots_thumb.png" link="0702-Earthquake-Boots" :heroIndex="0" :lazyLoading="false" />
@@ -67,6 +67,8 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="天使木偶" imgSrc="0743/Healer_Puppet_thumb.png" link="0743-Healer-Puppet" :heroIndex="1" />
         <ListItem name="冰封箭矢" imgSrc="0744/Frozen_Arrow_thumb.png" link="0744-Frozen-Arrow" :heroIndex="1" />
         <ListItem name="克隆魔镜" imgSrc="0745/Magic_Mirror_thumb.png" link="0745-Magic-Mirror" :heroIndex="1" />
+        <ListItem name="护卫玩偶" imgSrc="0720/Henchmen_Puppet_thumb.png" link="0720-Henchmen-Puppet" :heroIndex="4" />
+        <ListItem name="暗黑魔球" imgSrc="0721/Dark_Orb_thumb.png" link="0721-Dark-Orb" :heroIndex="4" />
         <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" :heroIndex="2" />
         <ListItem name="生命宝石" imgSrc="0781/Life_Gem_thumb.png" link="0781-Life-Gem" :heroIndex="2" />
         <ListItem name="狂暴宝石" imgSrc="0782/Rage_Gem_thumb.png" link="0782-Rage-Gem" :heroIndex="2" />
@@ -100,6 +102,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="龙骑士" imgSrc="000e/Dragon_Rider_thumb.png" link="000e-Dragon-Rider" />
         <ListItem name="雷霆泰坦" imgSrc="000f/Electro_Titan_thumb.png" link="000f-Electro-Titan" />
         <ListItem name="根蔓骑士" imgSrc="0010/Root_Rider_thumb.png" link="0010-Root-Rider" />
+        <ListItem name="巨矛投手" imgSrc="0011/Thrower_thumb.png" link="0011-Thrower" />
     </ListItems>
     <ListItems title="黑水兵" imgFolder="home_tech">
         <ListItem name="亡灵" imgSrc="0080/Minion_thumb.png" link="0080-Minion" />
@@ -141,6 +144,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="镜像法术" imgSrc="0105/Clone_Spell.png" link="0105-Clone-Spell" />
         <ListItem name="隐形法术" imgSrc="0106/Invisibility_Spell.png" link="0106-Invisibility-Spell" />
         <ListItem name="回溯法术" imgSrc="0107/Recall_Spell.png" link="0107-Recall-Spell" />
+        <ListItem name="复苏法术" imgSrc="0108/Revive_Spell_thumb.png" link="0108-Revive-Spell" />
         <ListItem name="毒药法术" imgSrc="0180/Poison_Spell.png" link="0180-Poison-Spell" />
         <ListItem name="地震法术" imgSrc="0181/Earthquake_Spell.png" link="0181-Earthquake-Spell" />
         <ListItem name="急速法术" imgSrc="0182/Haste_Spell.png" link="0182-Haste-Spell" />
@@ -157,6 +161,10 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="攻城烈焰车" imgSrc="0245/Flame_Flinger_thumb.png" link="0245-Flame-Flinger" />
         <ListItem name="攻城钻机" imgSrc="0246/Battle_Drill_thumb.png" link="0246-Battle-Drill" />
     </ListItems>
+    <ListItems title="特殊角色" imgFolder="home_tech">
+        <ListItem name="实验助理" imgSrc="0800/Lab_Assistant_thumb.png" link="0800-Lab-Assistant" />
+        <ListItem name="建筑工人学徒" imgSrc="0801/Builder%27s_Apprentice_thumb.png" link="0801-Builder%27s-Apprentice" />
+    </ListItems>
 </SwitchTabGroup>
 
 <SwitchTabGroup id="cp-upgrade-buildings" class="cp-upgrade-item">
@@ -164,6 +172,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="大本营" imgSrc="0400/Town_Hall17_5.png" link="0400-Town-Hall" />
         <ListItem name="巨型特斯拉电磁塔" imgSrc="030c/Giga_Tesla5_thumb.png" link="030c-Giga-Tesla" />
         <ListItem name="巨型地狱之塔" imgSrc="030d/Giga_Inferno16_thumb.png" link="030d-Giga-Inferno" />
+        <ListItem name="巨型地狱之塔" imgSrc="0315/Inferno_Artillery5.png" link="0315-Inferno-Artillery" />
     </ListItems>
     <ListItems title="防御建筑" imgFolder="home_buildings">
         <ListItem name="城墙" imgSrc="0300/Wall18.png" link="0300-Walls" />
@@ -183,6 +192,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="巨石碑" imgSrc="0312/Monolith3.png" link="0312-Monolith" />
         <ListItem name="跳弹加农炮" imgSrc="0313/Ricochet_Cannon3.png" link="0313-Ricochet-Cannon" />
         <ListItem name="多人箭塔" imgSrc="0314/Multi-Archer_Tower3.png" link="0314-Multi-Archer-Tower" />
+        <ListItem name="火焰喷射器" imgSrc="0316/Firespitter2.png" link="0316-Firespitter" />
     </ListItems>
     <ListItems title="陷阱" imgFolder="home_buildings">
         <ListItem name="隐形炸弹" imgSrc="0380/Bomb13.png" link="0380-Bomb" />
@@ -192,6 +202,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="搜空地雷" imgSrc="0384/Seeking_Air_Mine7.png" link="0384-Seeking-Air-Mine" />
         <ListItem name="骷髅陷阱" imgSrc="0385/Skeleton_Trap3.png" link="0385-Skeleton-Trap" />
         <ListItem name="飓风陷阱" imgSrc="0386/Tornado_Trap2.png" link="0386-Tornado-Trap" />
+        <ListItem name="终极炸弹" imgSrc="0387/Giga_Bomb3.png" link="0387-Giga-Bomb" />
     </ListItems>
     <ListItems title="资源类建筑" imgFolder="home_buildings">
         <ListItem name="金矿" imgSrc="0401/Gold_Mine16.png" link="0401-Gold-Mine" />
@@ -217,6 +228,6 @@ if (activeTabCookieValue === "home-techniques") {
     <ListItems title="其他" imgFolder="home_buildings">
         <ListItem name="建筑工人小屋" imgSrc="0500/Builders_Hut6.png" link="0500-Builders-Hut" />
         <ListItem name="小博木屋" imgSrc="0501/B.O.Bs_Hut.png" link="0501-B.O.Bs-Hut" />
-        <ListItem name="建筑工人学徒" imgSrc="0502/Builder%27s_Apprentice_thumb.png" link="0502-Builder%27s-Apprentice" />
+        <ListItem name="帮手小屋" imgSrc="0502/Helper_Hut.png" link="0502-Helper-Hut" />
     </ListItems>
 </SwitchTabGroup>

@@ -104,7 +104,7 @@ const tableExtraInfo = [
         <TimelineRow>在 16 本新增 10 级战宠小屋，可解锁新战宠：愤怒水母。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 16 本新增 9 级战宠小屋，可解锁新战宠：灵狐。</TimelineRow>
+        <TimelineRow>16 本推出，并在 16 本新增 9 级战宠小屋，可解锁新战宠：灵狐。</TimelineRow>
         <TimelineRow>1 ~ 8 级战宠小屋的升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/12/12">
@@ -112,11 +112,11 @@ const tableExtraInfo = [
         <TimelineRow>1 ~ 5 级战宠小屋的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 15 本新增 5 ~ 8 级战宠小屋，可解锁四种新战宠。</TimelineRow>
+        <TimelineRow>15 本推出，并在 15 本新增 5 ~ 8 级战宠小屋，可解锁四种新战宠。</TimelineRow>
         <TimelineRow>1 ~ 4 级战宠小屋的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，新建筑：战宠小屋，可解锁四种新战宠。</TimelineRow>
+        <TimelineRow>14 本推出，新建筑：战宠小屋，可解锁四种新战宠。</TimelineRow>
     </TimelineItem>  
     <TimelineItem :historyBottom="true" />
 </Timeline>

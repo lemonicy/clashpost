@@ -118,7 +118,7 @@ const tableExtraInfo = [
         <TimelineRow>16 ~ 17 级训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 本，并在 15 本新增 17 级训练营。</TimelineRow>    
+        <TimelineRow>16 本推出，并在 15 本新增 17 级训练营。</TimelineRow>    
         <TimelineRow>15 ~ 16 级训练营的升级时间减少。</TimelineRow>
         <TimelineRow>9 ~ 10 级训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
@@ -126,7 +126,7 @@ const tableExtraInfo = [
         <TimelineRow>14 ~ 15 级训练营的升级费用和时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>游戏新增 15 本，并在 14 本新增 16 级训练营，可解锁新兵种：雷霆泰坦。</TimelineRow>
+        <TimelineRow>15 本推出，并在 14 本新增 16 级训练营，可解锁新兵种：雷霆泰坦。</TimelineRow>
         <TimelineRow>四个训练营合并为一个，更新后的兵种训练时间等同于更新前四个训练营的训练时间。</TimelineRow>
         <TimelineRow>训练营升级时兵种可继续训练部队，但训练速度减半（训练时间翻倍）。</TimelineRow>
         <TimelineRow>5 ~ 15 级训练营的升级费用和升级时间增加。</TimelineRow>
@@ -142,7 +142,7 @@ const tableExtraInfo = [
         <TimelineRow>3、10 ~ 13 级训练营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>游戏新增 13 本，并在 13 本新增 14 级训练营，可解锁新兵种：大雪怪。</TimelineRow>
+        <TimelineRow>13 本推出，并在 13 本新增 14 级训练营，可解锁新兵种：大雪怪。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">
         <TimelineRow>9 ~ 12 级训练营的升级费用降低。</TimelineRow>

@@ -93,7 +93,7 @@ const tableExtraInfo = [
         <TimelineRow>2 ~ 5 级镜像法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 7 级镜像法术。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 7 级镜像法术。</TimelineRow>
         <TimelineRow>6 级镜像法术可复制的部队单位从 33 提高到 34。</TimelineRow>
         <TimelineRow>2 ~ 5 级镜像法术的升级费用降低。</TimelineRow>
         <TimelineRow>2 ~ 3 级镜像法术的升级时间减少。</TimelineRow>

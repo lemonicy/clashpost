@@ -158,10 +158,10 @@ const tableExtraInfo = [
         <TimelineRow>降低了天鹰火炮锁定战宠的概率。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>游戏新增 14 本，并在 14 本新增 5 级天鹰火炮。</TimelineRow>
+        <TimelineRow>14 本推出，并在 14 本新增 5 级天鹰火炮。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>游戏新增 13 本，并在 13 本新增 4 级天鹰火炮。</TimelineRow>
+        <TimelineRow>13 本推出，并在 13 本新增 4 级天鹰火炮。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">
         <TimelineRow>玩家上线后，天鹰火炮的弹药将自动填充，填充不再需要花费圣水。然而，如果玩家不上线，天鹰火炮就不会自动填充，所以你仍然可以攻击到天鹰火炮的弹药用完的村庄。</TimelineRow>
