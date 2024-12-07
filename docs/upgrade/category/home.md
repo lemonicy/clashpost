@@ -54,7 +54,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="灵狐" imgSrc="0288/Spirit_Fox_thumb.png" link="0288-Spirit-Fox" :lazyLoading="false" />
         <ListItem name="愤怒水母" imgSrc="0289/Angry_Jelly_thumb.png" link="0289-Angry-Jelly" :lazyLoading="false" />
     </ListItems>
-    <ListItems title="英雄装备" imgFolder="home_heroes">
+    <ListItems title="装备" imgFolder="home_heroes">
         <ListItem name="野蛮人木偶" imgSrc="0700/Barbarian_Puppet_thumb.png" link="0700-Barbarian-Puppet" :heroIndex="0" :lazyLoading="false" />
         <ListItem name="狂暴药水瓶" imgSrc="0701/Rage_Vial_thumb.png" link="0701-Rage-Vial" :heroIndex="0" :lazyLoading="false" />
         <ListItem name="地震金靴" imgSrc="0702/Earthquake_Boots_thumb.png" link="0702-Earthquake-Boots" :heroIndex="0" :lazyLoading="false" />
@@ -67,6 +67,8 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="天使木偶" imgSrc="0743/Healer_Puppet_thumb.png" link="0743-Healer-Puppet" :heroIndex="1" />
         <ListItem name="冰封箭矢" imgSrc="0744/Frozen_Arrow_thumb.png" link="0744-Frozen-Arrow" :heroIndex="1" />
         <ListItem name="克隆魔镜" imgSrc="0745/Magic_Mirror_thumb.png" link="0745-Magic-Mirror" :heroIndex="1" />
+        <ListItem name="护卫玩偶" imgSrc="0720/Henchmen_Puppet_thumb.png" link="0720-Henchmen-Puppet" :heroIndex="4" />
+        <ListItem name="暗黑魔球" imgSrc="0721/Dark_Orb_thumb.png" link="0721-Dark-Orb" :heroIndex="4" />
         <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" :heroIndex="2" />
         <ListItem name="生命宝石" imgSrc="0781/Life_Gem_thumb.png" link="0781-Life-Gem" :heroIndex="2" />
         <ListItem name="狂暴宝石" imgSrc="0782/Rage_Gem_thumb.png" link="0782-Rage-Gem" :heroIndex="2" />
@@ -100,6 +102,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="龙骑士" imgSrc="000e/Dragon_Rider_thumb.png" link="000e-Dragon-Rider" />
         <ListItem name="雷霆泰坦" imgSrc="000f/Electro_Titan_thumb.png" link="000f-Electro-Titan" />
         <ListItem name="根蔓骑士" imgSrc="0010/Root_Rider_thumb.png" link="0010-Root-Rider" />
+        <ListItem name="巨矛投手" imgSrc="0011/Thrower_thumb.png" link="0011-Thrower" />
     </ListItems>
     <ListItems title="黑水兵" imgFolder="home_tech">
         <ListItem name="亡灵" imgSrc="0080/Minion_thumb.png" link="0080-Minion" />
@@ -141,6 +144,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="镜像法术" imgSrc="0105/Clone_Spell.png" link="0105-Clone-Spell" />
         <ListItem name="隐形法术" imgSrc="0106/Invisibility_Spell.png" link="0106-Invisibility-Spell" />
         <ListItem name="回溯法术" imgSrc="0107/Recall_Spell.png" link="0107-Recall-Spell" />
+        <ListItem name="复苏法术" imgSrc="0108/Revive_Spell_thumb.png" link="0108-Revive-Spell" />
         <ListItem name="毒药法术" imgSrc="0180/Poison_Spell.png" link="0180-Poison-Spell" />
         <ListItem name="地震法术" imgSrc="0181/Earthquake_Spell.png" link="0181-Earthquake-Spell" />
         <ListItem name="急速法术" imgSrc="0182/Haste_Spell.png" link="0182-Haste-Spell" />

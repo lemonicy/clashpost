@@ -89,7 +89,7 @@ const tableExtraInfo = [
 |   5  |        10        |   720  |    2M   |   4     |                     |      10       |<a href="/upgrade/0105-Clone-Spell">镜像法术</a>|
 |   6  |        10        |   840  |  3.5M   |   5     |                     |      11       |<a href="/upgrade/0106-Invisibility-Spell">隐形法术</a>|
 |   7  |        10        |   960  |    9M   |   7, 4  |                     |      13       |<a href="/upgrade/0107-Recall-Spell">回溯法术</a>|
-|   8  |        10        |  1080  |   18M   |   8,12  |                     |      15       ||
+|   8  |        10        |  1080  |   18M   |   8,12  |                     |      15       |<a href="/upgrade/0108-Revive-Spell">复苏法术</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
