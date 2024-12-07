@@ -2,13 +2,20 @@
 title: "部落冲突 coc 护卫玩偶装备升级数据"
 navTitle: "护卫玩偶"
 shownTitle: "护卫玩偶"
-description: ""
+description: "护卫玩偶是亡灵王子的两件初始装备之一，另一件是暗黑魔球。护卫玩偶装备可以让亡灵王子使用技能时召唤出两个空中护卫。激活技能后，亡灵王子会短暂隐身，此时空中护卫的作用就是替英雄扛伤害。"
 module: upgrade-home
 imgFolder: home_heroes/0720
 wiki: https://clashofclans.fandom.com/wiki/Henchmen_Puppet
 canonical: /upgrade/0720-Henchmen-Puppet
 ---
 
+<SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
+    <SwitchTab tabId="cp-unit-item-0" :activeTab="true">护卫玩偶</SwitchTab>
+    <SwitchTab tabId="cp-unit-item-1">空中护卫</SwitchTab>
+</SwitchTabs>
+
+<!-- ↓↓↓ 护卫玩偶 ↓↓↓ -->
+<SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Henchmen_Puppet_info.png" :imgAlt="$frontmatter.navTitle" />
 
 <SmallTitle>说明</SmallTitle>
@@ -74,7 +81,54 @@ const tableExtraInfo = [
 
 1. 如果升级费用中有多种资源，则同时需要多种资源才能升级。
 2. 如果玩家升级到了 9 本并解锁了亡灵王子，即使玩家没有马上升 [铁匠铺](/upgrade/0488-Blacksmith) 也可以升级护卫玩偶装备。
+</SwitchTabGroup>
 
+<!-- ↓↓↓ 空中护卫 ↓↓↓ -->
+<SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Henchmen_info.png" :imgAlt="$frontmatter.navTitle"
+    description="亡灵王子可以召唤这些邪恶的兄弟姐妹与他并肩作战！他们会吸收伤害并攻击防御建筑。" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Henchmen1.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>说明</SmallTitle>
+
+空中护卫不能在 [训练营](/upgrade/0481-Barracks) 或 [暗黑训练营](/upgrade/0482-Dark-Barracks) 中直接训练，只能通过亡灵王子召唤。
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="10" />
+    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1 格" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 |
+|  --- |   ---   |   ---   |   ---  |
+|   1  |   102   |  112.2  |  1600  |
+|   2  |   110   |  121    |  1700  |
+|   3  |   118   |  129.8  |  1750  |
+|   4  |   126   |  138.6  |  1800  |
+|   5  |   134   |  147.4  |  1950  |
+|   6  |   142   |  156.2  |  2100  |
+|   7  |   150   |  165    |  2500  |
+</UnitTable>
+</SwitchTabGroup>
+
+<!-- ↓↓↓ 公共部分 ↓↓↓ -->
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
