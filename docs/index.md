@@ -89,26 +89,28 @@ onBeforeUnmount(() => {
 </div>
 
 <div class="homepage-recommend">
-    <div class="homepage-recommend-item">
-        <SmallTitle>你知道吗</SmallTitle>
-        <ul>
-            <li><a href="/upgrade/0785-Lavaloon-Puppet">熔岩气球玩偶</a> 是目前游戏中唯一召唤临时兵种的装备。</li>
-            <li><a href="/upgrade/0488-Blacksmith">铁匠铺</a> 免疫 <a href="/upgrade/0100-Lightning-Spell">雷电法术</a> 伤害，理论上属于资源类建筑，但不被 <a href="/upgrade/0003-Goblin">哥布林</a> 优先攻击。</li>
-            <li>在远古版本，<a href="/upgrade/110a-Giant-Cannon">巨型加农炮</a> 会对 <a href="/upgrade/10f0-Battle-Machine">战争机器</a> 造成额外伤害。</li>
-            <li>2024 年 9 月更新大幅提高了仓库的 <a href="/p/639">掠夺上限</a>。</li>
-            <li><a href="/p/6524">匹配值</a> 是什么？如何查看？</li>
-        </ul>
-    </div>
-    <div class="homepage-recommend-item">
-        <SmallTitle>最新动态</SmallTitle>
-        <ul>
-            <li>针对 <a href="/upgrade/008a-Druid">德鲁伊</a> 的平衡性调整已于 10/2 上线。</li>
-            <li>九月更新的数据已于 9/12 上线。</li>
-            <li>网站的搜索功能已与 8/7 上线。</li>
-            <li>旧版网站的所有文章已于 6/29 迁移完毕。</li>
-            <li>六月更新数据已于 6/18 上线。</li>
-        </ul>
-    </div>
+<div class="homepage-recommend-item">
+<SmallTitle>你知道吗</SmallTitle>
+        
+- 2024/11 更新后，8 本即可解锁 [女王](/upgrade/0201-Archer-Queen)。
+- [地狱火炮](/upgrade/0315-Inferno-Artillery) 缝合了天鹰火炮、熔岩发射器、多人箭塔、都城大本营等建筑的特点。
+- 游戏中有两位少爷每天只工作一小时：[实验助手](/upgrade/0800-Lab-Assistant) 和 [建筑工人学徒](/upgrade/0801-Builder's-Apprentice)。
+- 在远古版本，[巨型加农炮](/upgrade/110a-Giant-Cannon) 会对 [战争机器](/upgrade/10f0-Battle-Machine) 造成额外伤害。
+- 2022/06 更新后，[部落城堡](/upgrade/0407-Clan-Castle) 开始使用圣水升级。
+
+</div>
+
+<div class="homepage-recommend-item">
+<SmallTitle>最新动态</SmallTitle>
+
+- 17 本版本的数据已于 12/8 上线。本次更新新增的单位有：
+    - 科技：[巨矛投手](/upgrade/0011-Thrower)、[复苏法术](/upgrade/category/home)。
+    - 建筑：[地狱火炮](/upgrade/0315-Inferno-Artillery)、[火焰喷射器](/upgrade/0316-Firespitter)、[终极炸弹](/upgrade/0387-Giga-Bomb)、[英雄殿堂](/upgrade/0489-Hero-Hall)、[帮手小屋](/upgrade/0502-Helper-Hut)。
+    - 英雄相关：[亡灵王子](/upgrade/0204-Minion-Prince)、[护卫玩偶](/upgrade/0720-Henchmen-Puppet)、[暗黑魔球](/upgrade/0721-Dark-Orb)。
+    - 其他：[实验助手](/upgrade/0800-Lab-Assistant)。
+- 针对 [德鲁伊](/upgrade/008a-Druid) 的平衡性调整已于 10/2 上线。
+
+</div>
 </div>
 
 <div class="homepage-attention">

@@ -172,7 +172,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="大本营" imgSrc="0400/Town_Hall17_5.png" link="0400-Town-Hall" />
         <ListItem name="巨型特斯拉电磁塔" imgSrc="030c/Giga_Tesla5_thumb.png" link="030c-Giga-Tesla" />
         <ListItem name="巨型地狱之塔" imgSrc="030d/Giga_Inferno16_thumb.png" link="030d-Giga-Inferno" />
-        <ListItem name="巨型地狱之塔" imgSrc="0315/Inferno_Artillery5.png" link="0315-Inferno-Artillery" />
+        <ListItem name="地狱火炮" imgSrc="0315/Inferno_Artillery5.png" link="0315-Inferno-Artillery" />
     </ListItems>
     <ListItems title="防御建筑" imgFolder="home_buildings">
         <ListItem name="城墙" imgSrc="0300/Wall18.png" link="0300-Walls" />
