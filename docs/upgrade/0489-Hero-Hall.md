@@ -101,7 +101,7 @@ const tableExtraInfo = [
 
 官方送的英雄/建筑等级就高不就低。比如说更新时你的四王等级为 60/70/51/20，那么更新后你可以获得 8 级英雄殿堂和 50 级亡灵王子。
 
-<UnitTable class="cp-table-nosticky-column">
+<UnitTable class="cp-table-nosticky-column cp-table-with-all-borders">
     <table>
         <thead>
         <tr>
@@ -140,7 +140,7 @@ const tableExtraInfo = [
             <td>-</td>
             <td>-</td>
             <td>3</td>
-            <td>-</td>
+            <td>1</td>
         </tr>
         <tr>
             <td>31 - 40</td>
