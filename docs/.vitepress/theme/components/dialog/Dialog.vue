@@ -192,7 +192,7 @@ body.cp-dialog-show .cp-dialog-background.cp-dialog-active {
 }
 
 body.cp-dialog-show .cp-dialog-background.cp-dialog-active .cp-dialog-container {
-    grid-template-rows: 4.5rem 1fr 4.5rem;
+    grid-template-rows: 1fr auto 4.5rem;
 }
 
 .cp-theme-dark .cp-dialog-container {
