@@ -80,6 +80,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="野猪骑士木偶" imgSrc="07c2/Hog_Rider_Puppet_thumb.png" link="07c2-Hog-Rider-Puppet" :heroIndex="3" />
         <ListItem name="急速药水瓶" imgSrc="07c3/Haste_Vial_thumb.png" link="07c3-Haste-Vial" :heroIndex="3" />
         <ListItem name="火箭飞矛" imgSrc="07c4/Rocket_Spear_thumb.png" link="07c4-Rocket-Spear" :heroIndex="3" />
+        <ListItem name="雷电战靴" imgSrc="07c5/Electro_Boots_thumb.png" link="07c5-Electro-Boots" :heroIndex="3" />
     </ListItems>
 </SwitchTabGroup>
 
