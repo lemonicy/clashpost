@@ -26,7 +26,7 @@ canonical: /upgrade/0e80-Santas-Surpeise
     <UnitProperty pKey="占据的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="5" />
-    <UnitProperty pKey="法术配置时间" pValue="360" :isTrainingTime="true" />
+    <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

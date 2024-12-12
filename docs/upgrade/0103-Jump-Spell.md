@@ -26,7 +26,7 @@ canonical: /upgrade/0103-Jump-Spell
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="法术配置时间" pValue="360" :isTrainingTime="true" />
+    <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="2022" />
 </UnitProperties>
 
 ① 弹跳法术对我方英雄有效，对攻城机器无效。弹跳法术的弹跳能力不能与 [野猪骑士](/upgrade/0081-Hog-Rider) 这类兵种自带的跳墙能力叠加，也不能让 [掘地矿工](/upgrade/000b-Miner) 改变钻地的机制。<br>

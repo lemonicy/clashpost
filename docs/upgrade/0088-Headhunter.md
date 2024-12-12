@@ -41,7 +41,7 @@ canonical: /upgrade/0088-Headhunter
     <UnitProperty pKey="攻击距离" pValue="3 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
-    <UnitProperty pKey="训练时间" pValue="60" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="60" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

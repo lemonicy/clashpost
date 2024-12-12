@@ -41,7 +41,7 @@ canonical: /upgrade/0600-Super-Barbarian
     <UnitProperty pKey="最低大本等级" pValue="11" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
-    <UnitProperty pKey="训练时间" pValue="25" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="25" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

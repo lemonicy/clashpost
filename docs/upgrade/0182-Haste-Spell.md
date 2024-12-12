@@ -24,7 +24,7 @@ canonical: /upgrade/0182-Haste-Spell
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="法术配置时间" pValue="180" :isTrainingTime="true" />
+    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
 </UnitProperties>
 
 \* 脉冲有效时间比脉冲间隔时间要长，这意味着部队离开法术范围后，仍然会保持效果 0.7 到 1 秒。

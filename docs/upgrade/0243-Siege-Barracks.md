@@ -51,7 +51,7 @@ canonical: /upgrade/0243-Siege-Barracks
     <UnitProperty pKey="移动速度" pValue="0" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
-    <UnitProperty pKey="建造时间" pValue="1200" :isTrainingTime="true" />
+    <UnitProperty pKey="建造时间" pValue="1200" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

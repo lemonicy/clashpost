@@ -37,7 +37,7 @@ canonical: /upgrade/000e-Dragon-Rider
     <UnitProperty pKey="死亡伤害延时" pValue="0.6 秒" />
     <UnitProperty pKey="所需训练营等级" pValue="15" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
-    <UnitProperty pKey="训练时间" pValue="250" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="250" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

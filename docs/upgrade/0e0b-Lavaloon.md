@@ -48,7 +48,7 @@ canonical: /upgrade/0e0b-Lavaloon
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
     <UnitProperty pKey="特殊技能" pValue="爆炸分裂<sup>*</sup>" />
-    <UnitProperty pKey="训练时间" pValue="90" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="90" trainingSystem="2022" />
 </UnitProperties>
 
 \* 熔岩气球在到达目标的途中会释放炸弹，每次炸弹爆炸时都会分裂出一只迷你熔岩气球犬。另外，熔岩气球死亡时会额外分裂一些迷你熔岩气球犬。

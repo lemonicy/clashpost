@@ -30,7 +30,7 @@ canonical: /upgrade/0181-Earthquake-Spell
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
-    <UnitProperty pKey="法术配置时间" pValue="180" :isTrainingTime="true" />
+    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

@@ -26,7 +26,7 @@ canonical: /upgrade/0e81-Birthday-Boom
     <UnitProperty pKey="所需法术工厂等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="5" />
     <UnitProperty pKey="法术配置费用" pValue="未知<sup>*</sup>" />
-    <UnitProperty pKey="法术配置时间" pValue="360" :oldTrainingSystem="true" :noGoldPass="true" />
+    <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="legacy" :noGoldPass="true" />
 </UnitProperties>
 
 \* 2022 年 6 月更新后，训练部队、配置法术、建造攻城机器不需要资源了，而该兵种最后一次推出时训练费用尚未取消。

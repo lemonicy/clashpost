@@ -45,7 +45,7 @@ canonical: /upgrade/0087-Ice-Golem
     <UnitProperty pKey="冰冻半径" pValue="7.5 格 (进攻)<br>5.5 格 (防守)" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="8" />
     <UnitProperty pKey="所需大本等级" pValue="11" />
-    <UnitProperty pKey="训练时间" pValue="150" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="150" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

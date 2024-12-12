@@ -44,7 +44,7 @@ canonical: /upgrade/060d-Super-Dragon
     <UnitProperty pKey="最低大本等级" pValue="12" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
-    <UnitProperty pKey="训练时间" pValue="360" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="360" trainingSystem="2022" />
 </UnitProperties>
 
 \* 超级飞龙在攻击时没有首选目标，但如果自己被敌方援军、英雄或骷髅攻击，或附近的友军被这些单位攻击，超级飞龙都会转移目标去攻击这些单位。当这些单位都消灭干净之后才会继续攻击附近建筑。

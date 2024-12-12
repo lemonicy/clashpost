@@ -33,7 +33,7 @@ canonical: /upgrade/0e03-Giant-Skeleton
     <UnitProperty pKey="死亡爆炸延时" pValue="2 秒" />
     <UnitProperty pKey="所需训练营等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="1<sup>*</sup>" />
-    <UnitProperty pKey="训练时间" pValue="30" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="30" trainingSystem="2022" />
 </UnitProperties>
 
 \* 理论上来说，1 级大本营可以解锁骷髅巨人，但因为新手教程会引导玩家升级至 2 本，所以实际上 2 本才能训练和使用骷髅巨人。

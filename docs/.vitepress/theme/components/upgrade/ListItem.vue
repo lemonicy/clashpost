@@ -15,10 +15,6 @@ const props = defineProps({
         type: String,
         required: true
     },
-    heroIndex: {
-        type: Number,
-        default: -1
-    },
     lazyLoading: {
         type: Boolean,
         default: true
@@ -27,13 +23,6 @@ const props = defineProps({
 
 const unitLinkRef = ref();
 const link = "/upgrade/" + props.link;
-
-// 确定文字颜色
-const heroIndex = props.heroIndex;
-let heroTextClass = "cp-unit-text";
-if (heroIndex !== -1) {
-    heroTextClass += " cp-unit-text-hero-" + heroIndex;
-}
 
 // 图片相关
 const imgSrcOriginal = props.imgSrc;
@@ -75,7 +64,7 @@ onMounted(() => {
             <source srcset="https://static.clashpost.com/global/image-placeholder.svg" type="image/webp" v-if="hasAdditionalSource" />
             <img :loading="loadingValue" src="https://static.clashpost.com/global/image-placeholder.svg" alt="" />
         </picture>
-        <div :class="heroTextClass">{{ name }}</div>
+        <div class="cp-unit-text">{{ name }}</div>
     </a>
 </template>
 
@@ -156,48 +145,5 @@ onMounted(() => {
     margin: auto;
     text-align: center;
     line-height: 1.25;
-}
-
-/* 用不同的文字颜色表明不同英雄的装备 */
-.cp-unit-text-hero-0 {
-    color: rgb(94, 70, 47);
-}
-
-.cp-unit-text-hero-1 {
-    color: rgb(138, 43, 226);
-}
-
-.cp-unit-text-hero-2 {
-    color: rgb(155, 74, 150);
-}
-
-.cp-unit-text-hero-3 {
-    color: rgb(55, 68, 152);
-}
-
-.cp-unit-text-hero-4 {
-    color: rgb(29,122,174);
-}
-
-.cp-theme-dark {
-    .cp-unit-text-hero-0 {
-        color: rgb(245, 215, 188);
-    }
-
-    .cp-unit-text-hero-1 {
-        color: rgb(223, 125, 221);
-    }
-
-    .cp-unit-text-hero-2 {
-        color: rgb(239, 112, 147);
-    }
-
-    .cp-unit-text-hero-3 {
-        color: rgb(100, 149, 237);
-    }
-
-    .cp-unit-text-hero-4 {
-        color: rgb(71, 214, 252);
-    }
 }
 </style>

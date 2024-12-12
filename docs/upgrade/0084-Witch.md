@@ -45,7 +45,7 @@ canonical: /upgrade/0084-Witch
     <UnitProperty pKey="召唤骷髅的冷却时间" pValue="7 秒" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="训练时间" pValue="120" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="120" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>骷髅的属性</SmallTitle>

@@ -20,9 +20,9 @@ const props = defineProps({
         type: Boolean,
         default: false
     },
-    isTrainingTime: {
-        type: Boolean,
-        default: false
+    trainingSystem: {
+        type: String,
+        default: null
     },
     isUpgradeTime: {
         type: Boolean,
@@ -44,10 +44,6 @@ const props = defineProps({
         type: Boolean,
         default: false
     },
-    oldTrainingSystem: {
-        type: Boolean,
-        default: false
-    },
     gpClass: {
         type: String,
         default: ""
@@ -63,7 +59,7 @@ let gpValue;
 
 const gpClass = props.gpClass;
 let gpClassStr = "";
-if (props.isTrainingTime || props.oldTrainingSystem) {
+if (props.trainingSystem) {
     gpClassStr = "cp-gp-class-training";
 } else if (gpClass === "research") {
     gpClassStr = "cp-gp-class-research";
@@ -73,7 +69,7 @@ if (props.isTrainingTime || props.oldTrainingSystem) {
 
 if (props.noGoldPass) {
     // 明确注明不受月卡影响，则只转化数字
-    if (props.isTrainingTime || props.oldTrainingSystem) {
+    if (props.trainingSystem) {
         value = convertTime(value, true); // 第二个参数是训练时间的 flag
     } else if (props.isUpgradeTime) {
         value = convertTime(value);
@@ -84,7 +80,7 @@ if (props.noGoldPass) {
     valueDomClass = "cp-unit-property-value";
 } else {
     // 未明确注明是否受月卡影响，或手动注明受月卡影响，则根据数据类型将各个月卡减免比例下的数值填入 div
-    if (props.isTrainingTime || props.oldTrainingSystem) {
+    if (props.trainingSystem) {
         // 不管是新版还是旧版训练系统，都按照训练时间的逻辑处理
         valueArr = getGoldPassValueArr("training", value, null);
         gpValue = true;
@@ -117,11 +113,11 @@ onMounted(() => {
 
 <template>
     <div class="cp-unit-property" ref="unitPropertyRef">
-        <div class="cp-unit-property-key" v-if="isTrainingTime">
-            {{ key }} <Info :propertyKey="true" @click="showDialog('cp-training-dialog')" />
+        <div class="cp-unit-property-key" v-if="trainingSystem === '2022'">
+            {{ key }} <Info :propertyKey="true" @click="showDialog('cp-training-dialog-2022')" />
         </div>
-        <div class="cp-unit-property-key" v-else-if="oldTrainingSystem">
-            {{ key }} <Info :propertyKey="true" @click="showDialog('cp-old-training-dialog')" />
+        <div class="cp-unit-property-key" v-else-if="trainingSystem === 'legacy'">
+            {{ key }} <Info :propertyKey="true" @click="showDialog('cp-training-dialog-legacy')" />
         </div>
         <div class="cp-unit-property-key" v-else-if="isJudgeSquare">
             {{ key }} <Question :propertyKey="true" :greyStroke="true" @click="showDialog('cp-judge-square-dialog')" />

@@ -47,7 +47,7 @@ canonical: /upgrade/0e0c-Witch-Golem
     <UnitProperty pKey="所需大本等级" pValue="6" />    
     <UnitProperty pKey="特殊技能" pValue="骷髅灾难<sup>*</sup>" />
     <UnitProperty pKey="召唤骷髅的冷却时间" pValue="7 秒" />
-    <UnitProperty pKey="训练时间" pValue="300" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="300" trainingSystem="2022" />
 </UnitProperties>
 
 \* 每隔几秒会召唤骷髅军团。被击倒时还会召唤多个大宝宝。

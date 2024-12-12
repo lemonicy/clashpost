@@ -41,7 +41,7 @@ canonical: /upgrade/0e10-Barbarian-Kicker
     <UnitProperty pKey="攻击距离" pValue="0.6 格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="3" />    
-    <UnitProperty pKey="训练时间" pValue="90" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="90" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

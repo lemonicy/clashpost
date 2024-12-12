@@ -36,11 +36,11 @@ if (activeTabCookieValue === "home-techniques") {
 
 <SwitchTabGroup id="cp-upgrade-heroes" class="cp-upgrade-item">
     <ListItems title="英雄" imgFolder="home_heroes">
-        <ListItem name="野蛮人之王" imgSrc="0200/Barbarian_King_thumb.png" link="0200-Barbarian-King" :heroIndex="0" :lazyLoading="false" />
-        <ListItem name="弓箭女皇" imgSrc="0201/Archer_Queen_thumb.png" link="0201-Archer-Queen" :heroIndex="1" :lazyLoading="false" />
-        <ListItem name="亡灵王子" imgSrc="0204/Minion_Prince_thumb.png" link="0204-Minion-Prince" :heroIndex="4" :lazyLoading="false" />
-        <ListItem name="大守护者" imgSrc="0202/Grand_Warden_thumb.png" link="0202-Grand-Warden" :heroIndex="2" :lazyLoading="false" />
-        <ListItem name="飞盾战神" imgSrc="0203/Royal_Champion_thumb.png" link="0203-Royal-Champion" :heroIndex="3" :lazyLoading="false" />
+        <ListItem name="野蛮人之王" imgSrc="0200/Barbarian_King_thumb.png" link="0200-Barbarian-King" :lazyLoading="false" />
+        <ListItem name="弓箭女皇" imgSrc="0201/Archer_Queen_thumb.png" link="0201-Archer-Queen" :lazyLoading="false" />
+        <ListItem name="亡灵王子" imgSrc="0204/Minion_Prince_thumb.png" link="0204-Minion-Prince" :lazyLoading="false" />
+        <ListItem name="大守护者" imgSrc="0202/Grand_Warden_thumb.png" link="0202-Grand-Warden" :lazyLoading="false" />
+        <ListItem name="飞盾战神" imgSrc="0203/Royal_Champion_thumb.png" link="0203-Royal-Champion" :lazyLoading="false" />
     </ListItems>
     <ListItems title="战宠" imgFolder="home_heroes">
         <ListItem name="莱希" imgSrc="0280/L.A.S.S.I_thumb.png" link="0280-L.A.S.S.I" :lazyLoading="false" />
@@ -54,32 +54,41 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="灵狐" imgSrc="0288/Spirit_Fox_thumb.png" link="0288-Spirit-Fox" :lazyLoading="false" />
         <ListItem name="愤怒水母" imgSrc="0289/Angry_Jelly_thumb.png" link="0289-Angry-Jelly" :lazyLoading="false" />
     </ListItems>
-    <ListItems title="装备" imgFolder="home_heroes">
-        <ListItem name="野蛮人木偶" imgSrc="0700/Barbarian_Puppet_thumb.png" link="0700-Barbarian-Puppet" :heroIndex="0" :lazyLoading="false" />
-        <ListItem name="狂暴药水瓶" imgSrc="0701/Rage_Vial_thumb.png" link="0701-Rage-Vial" :heroIndex="0" :lazyLoading="false" />
-        <ListItem name="地震金靴" imgSrc="0702/Earthquake_Boots_thumb.png" link="0702-Earthquake-Boots" :heroIndex="0" :lazyLoading="false" />
-        <ListItem name="嗜血胡须" imgSrc="0703/Vampstache_thumb.png" link="0703-Vampstache" :heroIndex="0" :lazyLoading="false" />
-        <ListItem name="巨型手套" imgSrc="0704/Giant_Gauntlet_thumb.png" link="0704-Giant-Gauntlet" :heroIndex="0" :lazyLoading="false" />
-        <ListItem name="尖刺足球" imgSrc="0705/Spiky_Ball_thumb.png" link="0705-Spiky-Ball" :heroIndex="0" :lazyLoading="false" />
-        <ListItem name="弓箭手木偶" imgSrc="0740/Archer_Puppet_thumb.png" link="0740-Archer-Puppet" :heroIndex="1" :lazyLoading="false" />
-        <ListItem name="隐形药水瓶" imgSrc="0741/Invisibility_Vial_thumb.png" link="0741-Invisibility-Vial" :heroIndex="1" :lazyLoading="false" />
-        <ListItem name="巨型箭矢" imgSrc="0742/Giant_Arrow_thumb.png" link="0742-Giant-Arrow" :heroIndex="1" :lazyLoading="false" />
-        <ListItem name="天使木偶" imgSrc="0743/Healer_Puppet_thumb.png" link="0743-Healer-Puppet" :heroIndex="1" />
-        <ListItem name="冰封箭矢" imgSrc="0744/Frozen_Arrow_thumb.png" link="0744-Frozen-Arrow" :heroIndex="1" />
-        <ListItem name="克隆魔镜" imgSrc="0745/Magic_Mirror_thumb.png" link="0745-Magic-Mirror" :heroIndex="1" />
-        <ListItem name="护卫玩偶" imgSrc="0720/Henchmen_Puppet_thumb.png" link="0720-Henchmen-Puppet" :heroIndex="4" />
-        <ListItem name="暗黑魔球" imgSrc="0721/Dark_Orb_thumb.png" link="0721-Dark-Orb" :heroIndex="4" />
-        <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" :heroIndex="2" />
-        <ListItem name="生命宝石" imgSrc="0781/Life_Gem_thumb.png" link="0781-Life-Gem" :heroIndex="2" />
-        <ListItem name="狂暴宝石" imgSrc="0782/Rage_Gem_thumb.png" link="0782-Rage-Gem" :heroIndex="2" />
-        <ListItem name="治疗书卷" imgSrc="0783/Healing_Tome_thumb.png" link="0783-Healing-Tome" :heroIndex="2" />
-        <ListItem name="巨大火球" imgSrc="0784/Fireball_thumb.png" link="0784-Fireball" :heroIndex="2" />
-        <ListItem name="熔岩气球玩偶" imgSrc="0785/Lavaloon_Puppet_thumb.png" link="0785-Lavaloon-Puppet" :heroIndex="2" />
-        <ListItem name="寻踪飞盾" imgSrc="07c0/Seeking_Shield_thumb.png" link="07c0-Seeking-Shield" :heroIndex="3" />
-        <ListItem name="皇家宝石" imgSrc="07c1/Royal_Gem_thumb.png" link="07c1-Royal-Gem" :heroIndex="3" />
-        <ListItem name="野猪骑士木偶" imgSrc="07c2/Hog_Rider_Puppet_thumb.png" link="07c2-Hog-Rider-Puppet" :heroIndex="3" />
-        <ListItem name="急速药水瓶" imgSrc="07c3/Haste_Vial_thumb.png" link="07c3-Haste-Vial" :heroIndex="3" />
-        <ListItem name="火箭飞矛" imgSrc="07c4/Rocket_Spear_thumb.png" link="07c4-Rocket-Spear" :heroIndex="3" />
+    <ListItems title="装备（野蛮人之王）" imgFolder="home_heroes">
+        <ListItem name="野蛮人木偶" imgSrc="0700/Barbarian_Puppet_thumb.png" link="0700-Barbarian-Puppet" :lazyLoading="false" />
+        <ListItem name="狂暴药水瓶" imgSrc="0701/Rage_Vial_thumb.png" link="0701-Rage-Vial" :lazyLoading="false" />
+        <ListItem name="地震金靴" imgSrc="0702/Earthquake_Boots_thumb.png" link="0702-Earthquake-Boots" :lazyLoading="false" />
+        <ListItem name="嗜血胡须" imgSrc="0703/Vampstache_thumb.png" link="0703-Vampstache" :lazyLoading="false" />
+        <ListItem name="巨型手套" imgSrc="0704/Giant_Gauntlet_thumb.png" link="0704-Giant-Gauntlet" :lazyLoading="false" />
+        <ListItem name="尖刺足球" imgSrc="0705/Spiky_Ball_thumb.png" link="0705-Spiky-Ball" :lazyLoading="false" />
+    </ListItems>
+    <ListItems title="装备（弓箭女皇）" imgFolder="home_heroes">
+        <ListItem name="弓箭手木偶" imgSrc="0740/Archer_Puppet_thumb.png" link="0740-Archer-Puppet" :lazyLoading="false" />
+        <ListItem name="隐形药水瓶" imgSrc="0741/Invisibility_Vial_thumb.png" link="0741-Invisibility-Vial" :lazyLoading="false" />
+        <ListItem name="巨型箭矢" imgSrc="0742/Giant_Arrow_thumb.png" link="0742-Giant-Arrow" :lazyLoading="false" />
+        <ListItem name="天使木偶" imgSrc="0743/Healer_Puppet_thumb.png" link="0743-Healer-Puppet" />
+        <ListItem name="冰封箭矢" imgSrc="0744/Frozen_Arrow_thumb.png" link="0744-Frozen-Arrow" />
+        <ListItem name="克隆魔镜" imgSrc="0745/Magic_Mirror_thumb.png" link="0745-Magic-Mirror" />
+    </ListItems>
+    <ListItems title="装备（亡灵王子）" imgFolder="home_heroes">
+        <ListItem name="护卫玩偶" imgSrc="0720/Henchmen_Puppet_thumb.png" link="0720-Henchmen-Puppet" />
+        <ListItem name="暗黑魔球" imgSrc="0721/Dark_Orb_thumb.png" link="0721-Dark-Orb" />
+    </ListItems>
+    <ListItems title="装备（大守护者）" imgFolder="home_heroes">
+        <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" />
+        <ListItem name="生命宝石" imgSrc="0781/Life_Gem_thumb.png" link="0781-Life-Gem" />
+        <ListItem name="狂暴宝石" imgSrc="0782/Rage_Gem_thumb.png" link="0782-Rage-Gem" />
+        <ListItem name="治疗书卷" imgSrc="0783/Healing_Tome_thumb.png" link="0783-Healing-Tome" />
+        <ListItem name="巨大火球" imgSrc="0784/Fireball_thumb.png" link="0784-Fireball" />
+        <ListItem name="熔岩气球玩偶" imgSrc="0785/Lavaloon_Puppet_thumb.png" link="0785-Lavaloon-Puppet" />
+    </ListItems>
+    <ListItems title="装备（飞盾战神）" imgFolder="home_heroes">
+        <ListItem name="寻踪飞盾" imgSrc="07c0/Seeking_Shield_thumb.png" link="07c0-Seeking-Shield" />
+        <ListItem name="皇家宝石" imgSrc="07c1/Royal_Gem_thumb.png" link="07c1-Royal-Gem" />
+        <ListItem name="野猪骑士木偶" imgSrc="07c2/Hog_Rider_Puppet_thumb.png" link="07c2-Hog-Rider-Puppet" />
+        <ListItem name="急速药水瓶" imgSrc="07c3/Haste_Vial_thumb.png" link="07c3-Haste-Vial" />
+        <ListItem name="火箭飞矛" imgSrc="07c4/Rocket_Spear_thumb.png" link="07c4-Rocket-Spear" />
+        <ListItem name="雷电战靴" imgSrc="07c5/Electro_Boots_thumb.png" link="07c5-Electro-Boots" />
     </ListItems>
 </SwitchTabGroup>
 

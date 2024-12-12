@@ -37,7 +37,7 @@ canonical: /upgrade/0e11-Giant-Thrower
     <UnitProperty pKey="攻击距离" pValue="0.7 格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />    
-    <UnitProperty pKey="训练时间" pValue="120" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="120" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

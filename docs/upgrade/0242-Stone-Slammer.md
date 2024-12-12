@@ -51,7 +51,7 @@ canonical: /upgrade/0242-Stone-Slammer
     <UnitProperty pKey="死亡伤害延迟" pValue="0.416 秒" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
-    <UnitProperty pKey="建造时间" pValue="1200" :isTrainingTime="true" />
+    <UnitProperty pKey="建造时间" pValue="1200" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

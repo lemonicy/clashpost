@@ -30,10 +30,10 @@ canonical: /upgrade/0e00-Ice-Wizard
     <UnitProperty pKey="攻击速度" pValue="1.5 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="3 格" />
     <UnitProperty pKey="所需训练营等级" pValue="7" />
-    <UnitProperty pKey="所需大本等级" pValue="5" />    
+    <UnitProperty pKey="所需大本等级" pValue="6" />    
     <UnitProperty pKey="特殊技能" pValue="被击中的目标会减速" />
     <UnitProperty pKey="速度降低" pValue="50% 攻速<br>50% 移速" />
-    <UnitProperty pKey="训练时间" pValue="30" :oldTrainingSystem="true" />
+    <UnitProperty pKey="训练时间" pValue="30" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -50,34 +50,36 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 | 每秒伤害 | 每次伤害 |训练花费<sup>①</sup>| 生命值 |对应的<br>大本等级|
-| ---- |  ----   |  ----   |        ----       |  ----  |       ----      |
-|   1  |    40   |    60   |         800       |    75  |  1<sup>②</sup>  |
-|   2  |    56   |    84   |        1120       |    90  |        5        |
-|   3  |    72   |   108   |        1440       |   108  |        6        |
-|   4  |   100   |   150   |        1760       |   130  |        7        |
-|   5  |   136   |   204   |        2080       |   156  |        8        |
-|   6  |   148   |   222   |        2400       |   175  |        9        |
-|   7  |   160   |   240   |        2720       |   190  |       10        |
-|   8  |   172   |   258   |        3040       |   210  |       11        |
-|   9  |   184   |   276   |        3360       |   230  |       12        |
-|  10  |   196   |   294   |        3680       |   250  |       13        |
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 |对应的<br>大本等级|
+| ---- |  ----   |  ----   |  ----  |       ----      |
+|   1  |    40   |    60   |   150  |        6        |
+|   2  |    56   |    84   |   180  |        7        |
+|   3  |    72   |   108   |   216  |        8        |
+|   4  |   100   |   150   |   260  |        9        |
+|   5  |   136   |   204   |   312  |       10        |
+|   6  |   148   |   222   |   350  |       11        |
+|   7  |   160   |   240   |   380  |       12        |
+|   8  |   172   |   258   |   420  |       13        |
+|   9  |   184   |   276   |   460  |       14        |
+|  10  |   196   |   258   |   500  |       15        |
+|  11  |   208   |   294   |   540  |       16        |
+|  12  |   220   |   312   |   580  |       17        |
 </UnitTable>
-
-① 2022 年 6 月更新后，训练部队、配置法术、建造攻城机器不需要资源了，而该兵种最后一次推出时训练费用尚未取消。<br>
-② 游戏内部确实规定了 1 级寒冰法师的属性，但是寒冰法师 5 本才会解锁，这时候系统会自动把寒冰法师升到 2 级，所以 1 级寒冰法师实际上不会出现。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
-    <TimelineItem date="2021/12">
-        <TimelineRow>该兵种第 6 次推出。</TimelineRow>
+    <TimelineItem date="2024/12/11">
+        <TimelineRow>该兵种第 6 次推出，有效期至 2025/1/1.</TimelineRow>
     </TimelineItem>
-    <TimelineItem date="2020/12">
+    <TimelineItem date="2021/12">
         <TimelineRow>该兵种第 5 次推出。</TimelineRow>
     </TimelineItem>
+    <TimelineItem date="2020/12">
+        <TimelineRow>该兵种第 4 次推出。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2019/12">
-        <TimelineRow>该兵种第 4 次推出，前 3 次推出分别在 2016、2017、2018 年。</TimelineRow>
+        <TimelineRow>该兵种第 3 次推出，前两次分别在 2016/12/30 - 2017/1/6、2017/12/?? - 2018/1/3.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
