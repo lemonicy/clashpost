@@ -30,7 +30,7 @@ canonical: /upgrade/0e00-Ice-Wizard
     <UnitProperty pKey="攻击速度" pValue="1.5 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="3 格" />
     <UnitProperty pKey="所需训练营等级" pValue="7" />
-    <UnitProperty pKey="所需大本等级" pValue="5" />    
+    <UnitProperty pKey="所需大本等级" pValue="6" />    
     <UnitProperty pKey="特殊技能" pValue="被击中的目标会减速" />
     <UnitProperty pKey="速度降低" pValue="50% 攻速<br>50% 移速" />
     <UnitProperty pKey="训练时间" pValue="30" trainingSystem="2022" />
@@ -69,8 +69,8 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
-    <TimelineItem date="2024/12">
-        <TimelineRow>该兵种第 6 次推出，有效期为 2024/12/11 - 2025/1/1.</TimelineRow>
+    <TimelineItem date="2024/12/11">
+        <TimelineRow>该兵种第 6 次推出，有效期至 2025/1/1.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12">
         <TimelineRow>该兵种第 5 次推出。</TimelineRow>

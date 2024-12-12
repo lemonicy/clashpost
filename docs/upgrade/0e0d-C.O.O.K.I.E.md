@@ -35,7 +35,7 @@ canonical: /upgrade/0e0d-C.O.O.K.I.E
     <UnitProperty pKey="攻击速度" pValue="1.5 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="0.6 格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
-    <UnitProperty pKey="所需大本等级" pValue="8" />    
+    <UnitProperty pKey="所需大本等级" pValue="6" />    
     <UnitProperty pKey="训练时间" pValue="60" trainingSystem="2022" />
 </UnitProperties>
 
@@ -45,6 +45,8 @@ canonical: /upgrade/0e0d-C.O.O.K.I.E
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 对应的大本等级 |
 | ---- |   ---   |   ---   |   ---  |      ----    |
+|   1  |   8200  |  12300  |   400  |       6      |
+|   2  |   8400  |  12600  |   600  |       7      |
 |   3  |   8600  |  12900  |   800  |       8      |
 |   4  |   8800  |  13200  |  1000  |       9      |
 |   5  |   9000  |  13500  |  1100  |      10      |
@@ -54,11 +56,16 @@ canonical: /upgrade/0e0d-C.O.O.K.I.E
 |   9  |   9800  |  14700  |  1900  |      14      |
 |  10  |  10000  |  15000  |  2200  |      15      |
 |  11  |  10200  |  15300  |  2400  |      16      |
+|  12  |  10400  |  15600  |  2600  |      17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/12/11">
+        <TimelineRow>该兵种第 2 次推出，有效期至 2025/1/1.</TimelineRow>
+        <TimelineRow>这次推出时，现在饼干皮卡只需 6 本即可解锁（之前是 8 本）。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>该兵种第 1 次推出，有效期至 2023/12/29.</TimelineRow>
     </TimelineItem>
