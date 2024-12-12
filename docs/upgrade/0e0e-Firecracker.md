@@ -40,7 +40,7 @@ canonical: /upgrade/0e0e-Firecracker
     <UnitProperty pKey="攻击距离" pValue="6 格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="8" />    
-    <UnitProperty pKey="训练时间" pValue="60" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="60" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

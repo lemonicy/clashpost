@@ -40,7 +40,7 @@ canonical: /upgrade/060c-Super-Bowler
     <UnitProperty pKey="最低大本等级" pValue="12" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
-    <UnitProperty pKey="训练时间" pValue="300" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="300" trainingSystem="2022" />
 </UnitProperties>
 
 \* 超级巨石投手扔出去的石头落地后可以造成三次伤害。石头的第一个落地距离超级蓝胖 3 格，第二个落点距离蓝胖 6 格，第三个是 9 格。和普通蓝胖类似，超级蓝胖只能看到第一个目标，二次伤害和三次伤害都是顺带的，它并不知道石头会溅到哪儿。

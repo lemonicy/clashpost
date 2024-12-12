@@ -45,7 +45,7 @@ canonical: /upgrade/0007-Healer
     <UnitProperty pKey="治疗速度" pValue="0.7 秒/次" />
     <UnitProperty pKey="所需训练营等级" pValue="8" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
-    <UnitProperty pKey="训练时间" pValue="120" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="120" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

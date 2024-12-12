@@ -30,7 +30,7 @@ canonical: /upgrade/0105-Clone-Spell
     <UnitProperty pKey="占用的法术空间" pValue="3" />
     <UnitProperty pKey="所需法术工厂等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="10" />
-    <UnitProperty pKey="法术配置时间" pValue="540" :isTrainingTime="true" />
+    <UnitProperty pKey="法术配置时间" pValue="540" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

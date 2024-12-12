@@ -39,7 +39,7 @@ canonical: /upgrade/0e08-Ram-Rider
     <UnitProperty pKey="所需训练营等级" pValue="10" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
     <UnitProperty pKey="特殊技能" pValue="蛮羊冲锋！<sup>*</sup>" />
-    <UnitProperty pKey="训练时间" pValue="60" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="60" trainingSystem="2022" />
 </UnitProperties>
 
 \* 冲向她看到的第一个防御建筑，并摧毁挡道的城墙！

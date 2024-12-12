@@ -32,7 +32,7 @@ canonical: /upgrade/0101-Healing-Spell
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
-    <UnitProperty pKey="法术配置时间" pValue="360" :isTrainingTime="true" />
+    <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="2022" />
 </UnitProperties>
 
 \* 疗伤法术的治疗方式是每隔 0.3 秒给法术作用范围内兵种增加部分生命值。

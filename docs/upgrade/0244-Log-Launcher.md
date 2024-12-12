@@ -49,7 +49,7 @@ canonical: /upgrade/0244-Log-Launcher
     <UnitProperty pKey="掉血速度" pValue="每秒 156 血<sup>*</sup>" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
-    <UnitProperty pKey="建造时间" pValue="1200" :isTrainingTime="true" />
+    <UnitProperty pKey="建造时间" pValue="1200" trainingSystem="2022" />
 </UnitProperties>
 
 \* 这是滚木车不受到伤害时的掉血速度。

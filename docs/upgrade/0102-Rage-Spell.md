@@ -34,7 +34,7 @@ canonical: /upgrade/0102-Rage-Spell
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
-    <UnitProperty pKey="法术配置时间" pValue="360" :isTrainingTime="true" />
+    <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="2022" />
 </UnitProperties>
 
 \* 脉冲次数指狂暴法术给兵提供效果的次数，不可叠加。增益时间指受到脉冲效果后的持续时间。

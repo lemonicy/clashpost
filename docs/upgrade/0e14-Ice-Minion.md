@@ -11,13 +11,13 @@ canonical: /upgrade/0e14-Ice-Minion
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ice_Minion_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-<!-- <SmallTitle>各等级图片</SmallTitle>
+<SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="所有等级" imgSrc="Ice_Minion1.png" />
     </UnitImgGroup>
-</Panel> -->
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -40,7 +40,7 @@ canonical: /upgrade/0e14-Ice-Minion
     <UnitProperty pKey="死亡冰冻半径" pValue="4.5 格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />  
     <UnitProperty pKey="所需大本等级" pValue="6" />    
-    <UnitProperty pKey="训练时间" pValue="18" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="18" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

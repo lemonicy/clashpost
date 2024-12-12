@@ -50,7 +50,7 @@ canonical: /upgrade/000d-Yeti
     <UnitProperty pKey="攻击距离" pValue="0.8 格" />
     <UnitProperty pKey="所需训练营等级" pValue="14" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
-    <UnitProperty pKey="训练时间" pValue="180" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="180" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

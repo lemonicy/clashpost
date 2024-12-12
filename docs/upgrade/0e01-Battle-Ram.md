@@ -39,7 +39,7 @@ canonical: /upgrade/0e01-Battle-Ram
     <UnitProperty pKey="特殊技能" pValue="见说明<sup>②</sup>" />
     <UnitProperty pKey="爆出的野蛮人数量" pValue="4" />
     <UnitProperty pKey="训练所需圣水" pValue="250<sup>③</sup>" />
-    <UnitProperty pKey="训练时间" pValue="30" :oldTrainingSystem="true" :noGoldPass="true" />
+    <UnitProperty pKey="训练时间" pValue="30" trainingSystem="legacy" :noGoldPass="true" />
 </UnitProperties>
 
 ① 理论上来说，1 级大本营可以同时解锁野蛮人和野蛮人攻城锤，但因为新手教程会引导玩家升级至 2 本，所以实际上 2 本才能训练和使用野蛮人攻城槌。<br>

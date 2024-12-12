@@ -33,7 +33,7 @@ canonical: /upgrade/0e83-Yellow-Card
     <UnitProperty pKey="所需空间" pValue="1" />
     <UnitProperty pKey="所需法术工厂等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="5" />
-    <UnitProperty pKey="法术配置时间" pValue="180" :isTrainingTime="true" />
+    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>更新历史</SmallTitle>

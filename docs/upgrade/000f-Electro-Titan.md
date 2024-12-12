@@ -42,7 +42,7 @@ canonical: /upgrade/000f-Electro-Titan
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="所需训练营等级" pValue="16" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
-    <UnitProperty pKey="训练时间" pValue="360" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="360" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>光环的属性</SmallTitle>

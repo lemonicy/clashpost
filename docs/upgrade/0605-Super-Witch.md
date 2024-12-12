@@ -42,7 +42,7 @@ canonical: /upgrade/0605-Super-Witch
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
     <UnitProperty pKey="骷髅召唤频率" pValue="详见说明<sup>*</sup>" />
-    <UnitProperty pKey="训练时间" pValue="400" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="400" trainingSystem="2022" />
 </UnitProperties>
 
 \* 第一个大骷髅在部署后 5 秒召唤，之后每 30 秒召唤一个。

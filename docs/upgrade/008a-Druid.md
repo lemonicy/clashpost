@@ -55,7 +55,7 @@ canonical: /upgrade/008a-Druid
     <UnitProperty pKey="治疗距离" pValue="5 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="11" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
-    <UnitProperty pKey="训练时间" pValue="150" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="150" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

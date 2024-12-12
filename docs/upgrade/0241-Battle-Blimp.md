@@ -43,7 +43,7 @@ canonical: /upgrade/0241-Battle-Blimp
     <UnitProperty pKey="攻击速度" pValue="1.5 秒/次" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
-    <UnitProperty pKey="建造时间" pValue="1200" :isTrainingTime="true" />
+    <UnitProperty pKey="建造时间" pValue="1200" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

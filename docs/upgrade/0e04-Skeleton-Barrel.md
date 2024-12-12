@@ -36,7 +36,7 @@ canonical: /upgrade/0e04-Skeleton-Barrel
     <UnitProperty pKey="所需训练营等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="4" />
     <UnitProperty pKey="特殊技能" pValue="见说明<sup>*</sup>" />
-    <UnitProperty pKey="训练时间" pValue="30" :oldTrainingSystem="true" />
+    <UnitProperty pKey="训练时间" pValue="30" trainingSystem="legacy" />
 </UnitProperties>
 
 \* 部署骷髅飞桶后，它会走向最近的建筑并释放骷髅。如果在死亡前未成功释放骷髅，则在死亡时释放。

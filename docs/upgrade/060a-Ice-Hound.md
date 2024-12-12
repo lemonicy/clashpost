@@ -46,7 +46,7 @@ canonical: /upgrade/060a-Ice-Hound
     <UnitProperty pKey="最低大本等级" pValue="12" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
-    <UnitProperty pKey="训练时间" pValue="400" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="400" trainingSystem="2022" />
 </UnitProperties>
 
 \* 寒冰猎犬有三段攻击偏好。场上有防空火箭时攻击 [防空火箭](/upgrade/0304-Air-Defense)，没有防空火箭时攻击其他防御建筑，没有防御建筑时攻击非防御建筑。

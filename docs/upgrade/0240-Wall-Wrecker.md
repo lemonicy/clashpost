@@ -44,7 +44,7 @@ canonical: /upgrade/0240-Wall-Wrecker
     <UnitProperty pKey="攻击速度" pValue="1.3 秒/次" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
-    <UnitProperty pKey="建造时间" pValue="1200" :isTrainingTime="true" />
+    <UnitProperty pKey="建造时间" pValue="1200" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

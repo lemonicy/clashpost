@@ -45,7 +45,7 @@ canonical: /upgrade/0008-Dragon
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />
     <UnitProperty pKey="所需训练营等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
-    <UnitProperty pKey="训练时间" pValue="180" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="180" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

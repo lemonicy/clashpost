@@ -48,7 +48,7 @@ canonical: /upgrade/000c-Electro-Dragon
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />
     <UnitProperty pKey="所需训练营等级" pValue="13" />
     <UnitProperty pKey="所需大本等级" pValue="11" />
-    <UnitProperty pKey="训练时间" pValue="360" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="360" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

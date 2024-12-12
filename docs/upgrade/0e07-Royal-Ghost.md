@@ -34,7 +34,7 @@ canonical: /upgrade/0e07-Royal-Ghost
     <UnitProperty pKey="所需大本等级" pValue="5" />
     <UnitProperty pKey="特殊技能" pValue="匿迹隐形<sup>*</sup>" />
     <UnitProperty pKey="减速比例" pValue="50% 攻速<br>50% 移速" />
-    <UnitProperty pKey="训练时间" pValue="37" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="37" trainingSystem="2022" />
 </UnitProperties>
 
 \* 皇家幽灵在部署后的 12 秒内不能被锁定为目标，也不能被城墙阻拦。此外，被皇家幽灵命中的目标还有减速效果。

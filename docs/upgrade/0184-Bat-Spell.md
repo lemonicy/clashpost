@@ -37,7 +37,7 @@ canonical: /upgrade/0184-Bat-Spell
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="10" />
-    <UnitProperty pKey="法术配置时间" pValue="180" :isTrainingTime="true" />
+    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
 </UnitProperties>
 
 \* 第一次生成 2 个蝙蝠，之后每 0.6 秒生成一个。
@@ -54,7 +54,7 @@ canonical: /upgrade/0184-Bat-Spell
     <UnitProperty pKey="攻击距离" pValue="0.8 格" />
     <UnitProperty pKey="每秒伤害" pValue="30" />
     <UnitProperty pKey="每次伤害" pValue="60" />
-    <UnitProperty pKey="生命值" pValue="20" :isTrainingTime="true" />
+    <UnitProperty pKey="生命值" pValue="20" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

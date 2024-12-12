@@ -45,7 +45,7 @@ canonical: /upgrade/0085-Lava-Hound
     <UnitProperty pKey="死亡爆炸半径" pValue="3.5 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="训练时间" pValue="300" :isTrainingTime="true" />
+    <UnitProperty pKey="训练时间" pValue="300" trainingSystem="2022" />
 </UnitProperties>
 
 \* 熔岩猎犬有三段攻击偏好。场上有防空火箭时攻击 [防空火箭](/upgrade/0304-Air-Defense)，没有防空火箭时攻击其他防御建筑，没有防御建筑时攻击非防御建筑。

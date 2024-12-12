@@ -36,7 +36,7 @@ canonical: /upgrade/0e05-El-Primo
     <UnitProperty pKey="所需训练营等级" pValue="7" />
     <UnitProperty pKey="所需大本等级" pValue="5" />
     <UnitProperty pKey="特殊技能" pValue="对城墙造成 20 倍伤害" />
-    <UnitProperty pKey="训练时间" pValue="60" :oldTrainingSystem="true" :noGoldPass="true" />
+    <UnitProperty pKey="训练时间" pValue="60" trainingSystem="legacy" :noGoldPass="true" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
