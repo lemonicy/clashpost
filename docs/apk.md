@@ -11,9 +11,9 @@ robots: index, nofollow
 import { showDialog } from '@/components/dialog/Dialog.vue';
 import { generateToast } from '@/components/dialog/Toast.vue';
 
-const apkVersion = "16.654.13";
-const apkUploadDate = "2024-11-30";
-const apkFileName = "coc正式服_v16.654.13_Ppe1nd8EQn1SWXhn.apk";
+const apkVersion = "16.654.16";
+const apkUploadDate = "2024-12-14";
+const apkFileName = "coc正式服_v16.654.16_wQI4Foi8g4BW3Ny5.apk";
 
 function downloadCocApk() {
     window.location.href = "https://static.clashpost.com/download/" + encodeURI(apkFileName);
