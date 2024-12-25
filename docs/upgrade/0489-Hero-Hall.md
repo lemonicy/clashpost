@@ -112,7 +112,7 @@ const tableExtraInfo = [
             <th>野蛮人之王</th>
             <th>弓箭女王</th>
             <th>大守护者</th>
-            <th>大守护者</th>
+            <th>飞盾战神</th>
             <th>英雄殿堂</th>
             <th>亡灵王子</th>
         </tr>

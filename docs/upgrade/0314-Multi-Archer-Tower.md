@@ -79,8 +79,8 @@ const tableExtraInfo = [
 |   1  |          120         |           60         |  5000  |   16M   |  12     |                    |       16       |
 |   2  |          130         |           65         |  5200  |   18M   |  13     |                    |       16       |
 |   3  |          140         |           70         |  5400  |   23M   |  15,12  |                    |       17       |
-|  ⚡1  |          145         |         72.5         |  5400  | 11.5M   |   5,12  |                    |       17        |
-|  ⚡2  |          145         |         72.5         |  5500  |    8M   |   6,12  |                    |       17        |
+| ⚡1  |          145         |         72.5         |  5400  | 11.5M   |   5,12  |                    |       17        |
+| ⚡2  |          145         |         72.5         |  5500  |    8M   |   6,12  |                    |       17        |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
@@ -90,6 +90,7 @@ const tableExtraInfo = [
         <TimelineRow>17 本推出，并在 17 本新增 3 级多人箭塔。</TimelineRow>
         <TimelineRow>17 本新解锁一个多人箭塔。</TimelineRow>
         <TimelineRow>1 ~ 2 级多人箭塔的升级费用和时间减少。</TimelineRow>
+        <TimelineRow>多人箭塔成为第二批可以充能的建筑。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/03/26">
         <TimelineRow>所有等级多人箭塔的每秒伤害提升。</TimelineRow>
