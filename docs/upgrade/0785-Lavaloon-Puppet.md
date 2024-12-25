@@ -35,7 +35,7 @@ canonical: /upgrade/0785-Lavaloon-Puppet
     <UnitProperty pKey="解锁条件" pValue="见说明<sup>*</sup>" />
 </UnitProperties>
 
-\* 在 2024 年 10 月的合体狂热活动中积攒 3 100 合体奖章（活动货币）后去商人那里购买即可解锁。
+\* 在 2024 年 10 月的合体狂热活动中积攒 3 100 合体奖章（活动货币）后去商人那里购买即可解锁。自 2024/12/11 起，该装备有几率出现在商人那里，可花费 1 500 宝石购买。
 
 <SmallTitle>升级数据</SmallTitle>
 
