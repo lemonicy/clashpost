@@ -41,10 +41,8 @@ function downloadXapkInstaller() {
 ## 事先声明
 
 - 现在部落冲突不是全球同服了，如果你是回归玩家，请看完这篇文章后再决定要不要回归：[什么是 216 事件？这件事的后续是什么呢？](/p/2754)
-- **本页只提供 coc 安卓版的安装包**，苹果手机请使用国外 Apple ID 登录应用商店下载国际服。
-- 我们只搬运下载地址，不解决安装后的闪退问题，如闪退请自行排查。
-- 如果下载国际服和私服之后发现进不去或者闪 WiFi，请自行准备游戏加速器，我们这里就不提供了。
-- 除了国服外，其他版本都不可能在国内的应用商店下载到，而有些手机发现商店里没有的 App 就会提示危险。我们的安装包没有问题，大家不用担心，忽略提示即可。
+- **本页只提供 coc 安卓版的安装包**，苹果手机请参考这两篇文章：[iOS 如何下载国际服（清除数据方案）](/p/6676)、[iOS 如何下载国际服（保留数据方案）](/p/4604)。
+- 安装时遇到问题请参考这篇文章：[Android 如何下载国际服](/p/6665)。
 
 ## 国际服
 
@@ -57,7 +55,7 @@ function downloadXapkInstaller() {
 **注意：**
 
 <!-- - 从 2024 年 9 月更新起，游戏官方只提供 xapk 和 apkm 格式的安装包，需要使用下方的安装工具才能安装。
-    - 安装教程：[Android 如何下载国际服](/p/6665)。另外，小米手机请关闭 MIUI 优化后再安装。 -->
+    - 安装教程：[Android 如何下载国际服](/p/6665)。 -->
 - 请留意下方的更新时间和版本号，不要下载成旧版的安装包。如果网站内未更新安装包，请等一会再看，不要反复下载。
 
 <div id="apk-download-btn-container">
@@ -96,7 +94,7 @@ function downloadXapkInstaller() {
 - [Google Play 下载](https://play.google.com/store/apps/details?id=com.supercell.clashofclans) - Google Play 下载的安装包只适配你自己的手机，无法分享给他人，如需分享请勿下载这个版本。
 - [Apkpure 下载](https://apkpure.net/cn/clash-of-clans-android/com.supercell.clashofclans) - 这个渠道更新最快，更新后大家可以去这个地方蹲新版本安装包。
 - [APKMirror 下载](https://www.apkmirror.com/apk/supercell/clash-of-clans/) - 这个渠道更新也相当快。
-<!-- - [XAPK 安装工具（APKMirror Installer）](https://www.apkmirror.com/apk/apkmirror/apkmirror-installer-official/) - 网站提供的安装工具就是这个。 -->
+<!-- - [XAPK 安装工具（APKMirror Installer）](https://www.apkmirror.com/apk/apkmirror/apkmirror-installer-official/) -->
 
 ## 私服
 
@@ -180,7 +178,7 @@ function downloadXapkInstaller() {
   - 进去之后请选择“下载安卓版”，否则下载到的不是安装包，而是夜神模拟器。
 - [~~逍遥安卓~~](https://www.xyaz.cn/gc/apps-586-1.html)
   - 该渠道强制下载逍遥安卓出品的安装工具，没有无套路下载地址。
-  - 根据用户反馈，逍遥安卓已经不再提供部落冲突账号绑定工具。
+  - 根据用户反馈，逍遥安卓已经不再提供部落冲突账号绑定服务。
 - [~~一号玩家（原益玩版）~~](https://www.1gamer.cn/game-id-11162.html)
 - [联想（线路一）](http://update.coc.gameark.cn/?channel=lenovo)
 - [联想（线路二）](https://www.lenovomm.com/appdetail/com.supercell.clashofclans.lenovo/1224)

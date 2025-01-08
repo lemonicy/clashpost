@@ -5,6 +5,7 @@ const tags = {
     "8848": "8848",
     "account-safety": "账号安全",
     "achievements": "成就",
+    "Android-devices": "安卓设备",
     "announcement": "网站公告",
     "anti-addiction": "防沉迷",
     "archer-queen": "女王",
