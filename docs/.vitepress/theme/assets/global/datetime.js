@@ -57,7 +57,7 @@ export function getTimeStr(datetime) {
     if (timeDiff < -300) {
         // 显示刚刚，但在控制台打印警告
         timePost = "刚刚";
-        console.warn("警告：有个未来人发布或修改了文章，我们所处的时空已经扭曲，请不惜一切代价生存下去！")
+        console.warn("警告：我们发现一个来自未来的人发布或修改了文章，我们所处的时空可能已经扭曲，请不惜一切代价生存下去！")
     } else if (timeDiff < 60) {
         // 如果文章发布时间小于一分钟，则显示刚刚
         timePost = "刚刚";
