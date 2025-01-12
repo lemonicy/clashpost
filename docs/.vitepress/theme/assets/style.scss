@@ -699,7 +699,7 @@ table {
         }
 
         tr:hover td {
-            background-color: var(--cp-border-color-light);
+            background-color: rgb(229, 231, 235);
         }
     }
 }
@@ -715,7 +715,7 @@ table {
         }
 
         tr:hover td {
-            background-color: var(--cp-border-color-dark);
+            background-color: rgb(40, 40, 40);
         }
     }
 }
@@ -850,10 +850,10 @@ mjx-container {
 
 /* 引用 */
 blockquote {
-    border-left: 5px solid var(--cp-text-light);
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0.75rem;
+    border-left: 5px solid var(--cp-border-color-light);
+    margin: 1.5rem 0;
+    padding-left: 1.25rem;
+    border-left-width: 2px;
 }
 
 .cp-theme-dark blockquote {

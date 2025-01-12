@@ -1,4 +1,5 @@
 import { inBrowser } from 'vitepress';
+import { generateToast } from '@/components/dialog/Toast.vue';
 
 /**
  * 确定传入的数值是否是数字
@@ -468,4 +469,24 @@ export function changeScrollDirection(scrollDom, wheelEvent) {
     const deltaX = wheelEvent.deltaY;
     scrollDom.scrollLeft = tabsLeftPosition + deltaX;
     wheelEvent.preventDefault();
+}
+
+/**
+ * 将文本复制到剪贴板
+ * 
+ * @param {String} text 要复制的文本
+ * @param {String} callback 复制成功后的提示信息
+ */
+export function copyToClip(text, callback) {
+    navigator.clipboard.writeText(text).then(() => {
+        generateToast(callback, {
+            position: "top",
+            type: "success"
+        });
+    }, () => {
+        generateToast("复制失败，请检测权限！", {
+            position: "top",
+            type: "error"
+        });
+    });
 }
