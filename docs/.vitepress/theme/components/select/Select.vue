@@ -125,12 +125,12 @@ onMounted(() => {
     border-radius: 0.375rem;
     border: none;
     background-color: var(--cp-page-bg-light);
-    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px inset, rgb(209, 213, 219) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px inset, var(--cp-border-color-light) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
 }
 
 .cp-theme-dark .cp-select-button {
     background-color: var(--cp-page-bg-dark);
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset, rgba(224, 243, 255, 0.2) 0px 0px 0px 1px inset, rgba(255, 255, 255, 0) 0px 0px 0px 0px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset, var(--cp-border-color-dark) 0px 0px 0px 1px inset, rgba(255, 255, 255, 0) 0px 0px 0px 0px;
 }
 
 .cp-select-button:focus {
@@ -161,7 +161,7 @@ onMounted(() => {
     padding: 0;
     z-index: 100;
     border-radius: 0.375rem;
-    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px inset, rgb(209, 213, 219) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px inset, var(--cp-border-color-light) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
     background-color: var(--cp-page-bg-light);
 
     ul {
@@ -177,7 +177,7 @@ onMounted(() => {
 }
 
 .cp-theme-dark .cp-select-dropdowns {
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset, rgba(224, 243, 255, 0.2) 0px 0px 0px 1px inset, rgba(255, 255, 255, 0) 0px 0px 0px 0px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset, var(--cp-border-color-dark) 0px 0px 0px 1px inset, rgba(255, 255, 255, 0) 0px 0px 0px 0px;
     background-color: var(--cp-page-bg-dark);
 }
 </style>
