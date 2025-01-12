@@ -7,7 +7,6 @@ import TopNav from '@/composables/top-nav/TopNav.vue';
 import PageTitle from '@/composables/PageTitle.vue';
 import PageInfoPost from '@/composables/page-info/PageInfoPost.vue';
 import Main from '@/composables/Main.vue';
-import UpdateTimeBottom from '@/composables/page-info/UpdateTimeBottom.vue';
 import Footer from '@/composables/Footer.vue';
 import SidebarRight from '@/composables/sidebar/SidebarRight.vue';
 import UpgradeDialog from '@/components/upgrade/UpgradeDialog.vue';
@@ -18,7 +17,6 @@ const router = useRouter();
 let titleKey = ref(0);
 let pageInfoPostKey = ref(0);
 let upgradeDialogKey = ref(0);
-let updateTimeBottomKey = ref(0);
 
 const hasPageInfoPost = link => {
     return link && link.startsWith('/p/') && link.indexOf('category') < 0;
@@ -29,7 +27,6 @@ watch(() => router.route.data.relativePath, (path) => {
         titleKey.value++;
         pageInfoPostKey.value++;
         upgradeDialogKey.value++;
-        updateTimeBottomKey.value++;
     });
 }, { immediate: false });
 </script>
@@ -42,7 +39,6 @@ watch(() => router.route.data.relativePath, (path) => {
         <PageTitle :key="titleKey" v-if="!$frontmatter.customTitle" />
         <PageInfoPost :key="pageInfoPostKey" :link="$frontmatter.canonical" v-if="hasPageInfoPost($frontmatter.canonical)" />
         <Main />
-        <UpdateTimeBottom :key="updateTimeBottomKey" :lastUpdated="$frontmatter.lastUpdated" />
         <Footer />
     </main>
     <SidebarRight />
