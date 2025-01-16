@@ -93,22 +93,23 @@ onBeforeUnmount(() => {
 <SmallTitle>你知道吗</SmallTitle>
         
 - 2024/11 更新后，8 本即可解锁 [女王](/upgrade/0201-Archer-Queen)。
-- [地狱火炮](/upgrade/0315-Inferno-Artillery) 缝合了天鹰火炮、熔岩发射器、多人箭塔、都城大本营等建筑的特点。
-- 游戏中有两位少爷每天只工作一小时：[实验助手](/upgrade/0800-Lab-Assistant) 和 [建筑工人学徒](/upgrade/0801-Builder's-Apprentice)。
-- 在远古版本，[巨型加农炮](/upgrade/110a-Giant-Cannon) 会对 [战争机器](/upgrade/10f0-Battle-Machine) 造成额外伤害。
-- 2022/06 更新后，[部落城堡](/upgrade/0407-Clan-Castle) 开始使用圣水升级。
+- 升级 17 本后，[天鹰火炮](/upgrade/030b-Eagle-Artillery) 会被移除。
+- 和 [空气炮](/upgrade/0306-Air-Sweeper) 一样，[火焰喷射器](/upgrade/0316-Firespitter) 不能全角度射击，需要玩家选择一个开口方向。
+- 在游戏内，[宝石矿井](/upgrade/1205-Gem-Mine) 的产量只保留一位小数，但实际产量却有两位小数。
+- 2023 年 5 月更新后的 [夜世界机制](/p/6582) 已在网站中发布。
 
 </div>
 
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
-- 17 本版本的数据已于 12/8 上线。本次更新新增的单位有：
-    - 科技：[巨矛投手](/upgrade/0011-Thrower)、[复苏法术](/upgrade/category/home)。
-    - 建筑：[地狱火炮](/upgrade/0315-Inferno-Artillery)、[火焰喷射器](/upgrade/0316-Firespitter)、[终极炸弹](/upgrade/0387-Giga-Bomb)、[英雄殿堂](/upgrade/0489-Hero-Hall)、[帮手小屋](/upgrade/0502-Helper-Hut)。
-    - 英雄相关：[亡灵王子](/upgrade/0204-Minion-Prince)、[护卫玩偶](/upgrade/0720-Henchmen-Puppet)、[暗黑魔球](/upgrade/0721-Dark-Orb)。
-    - 其他：[实验助手](/upgrade/0800-Lab-Assistant)。
-- 针对 [德鲁伊](/upgrade/008a-Druid) 的平衡性调整已于 10/2 上线。
+- 最近网站重新整理了国际服下载相关的文章：
+    - [如何注册美区 Apple ID（手把手教学）](/p/6813)
+    - [iOS 如何下载 coc 国际服（清除数据方案）](/p/6676)
+    - [iOS 如何下载 coc 国际服（保留数据方案）](/p/4604)
+    - [如何正确安装谷歌三件套](/p/6844)
+    - [Android 如何下载 coc 国际服](/p/6665)
+- 最新推出：[雷电战靴](/upgrade/07c5-Electro-Boots)
 
 </div>
 </div>
