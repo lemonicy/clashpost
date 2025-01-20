@@ -166,6 +166,7 @@ const tags = {
     "th14": "14 本",
     "th15": "15 本",
     "th16": "16 本",
+    "th17": "17 本",
     "training-system": "训练机制",
     "troop-vision": "兵种视野",
     "tools": "实用工具",
