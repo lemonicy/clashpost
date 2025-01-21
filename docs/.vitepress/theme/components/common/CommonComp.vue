@@ -5,6 +5,7 @@ import Vid from '@/components/media/Vid.vue';
 import Table from '@/components/common/Table.vue';
 import Panel from '@/components/common/Panel.vue';
 import PCenter from '@/components/common/PCenter.vue';
+import PCaption from '@/components/common/PCaption.vue';
 import Resource from '@/components/Resource.vue';
 
 export {
@@ -14,6 +15,7 @@ export {
     Table,
     Panel,
     PCenter,
+    PCaption,
     Resource
 }
 </script>

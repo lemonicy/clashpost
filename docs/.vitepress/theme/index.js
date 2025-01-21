@@ -4,7 +4,7 @@ import { setUserTheme, normalizeLink } from '@/assets/global/utils.js';
 import Layout from '@/Layout.vue';
 import { Dialog, Toast } from '@/components/dialog/DialogComp.vue';
 import { SwitchTabs, SwitchTab, SwitchTabGroup } from '@/components/tab/TabComp.vue';
-import { Pic, Vid, SmallTitle, Table, Panel, PCenter, Resource } from '@/components/common/CommonComp.vue';
+import { Pic, Vid, SmallTitle, Table, Panel, PCenter, PCaption, Resource } from '@/components/common/CommonComp.vue';
 import { UnitInfo, UnitImgGroup, UnitImg, UnitProperties, UnitProperty, UnitTable, DistrictTable, BuildingNum, BuildingNumRow, Timeline, TimelineItem, TimelineRow } from '@/components/upgrade/UnitComp.vue';
 import { PostHistory, PostCopyright } from '@/components/posts/PostComp.vue';
 
@@ -37,6 +37,7 @@ export default {
         app.component('Table', Table);
         app.component('Panel', Panel);
         app.component('PCenter', PCenter);
+        app.component('PCaption', PCaption);
         app.component('Resource', Resource);
         // 升级数据相关
         app.component('UnitInfo', UnitInfo);
