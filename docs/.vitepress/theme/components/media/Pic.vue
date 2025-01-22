@@ -68,6 +68,8 @@ if (maxWidth) {
     // 当 maxWidth 以 % 结尾，或者以 min、max 开头时，则尊重填入的值，不使用 min(xxx, 100%) 形式。
     if (maxWidth.endsWith("%") || maxWidth.startsWith("min") || maxWidth.startsWith("max")) {
         imgStyle += "max-width: " + maxWidth + ";";
+    } else if (maxWidth === "none") {
+        imgStyle += "max-width: 100%";
     } else {
         imgStyle += "max-width: min(" + maxWidth + ", 100%);";
     }
