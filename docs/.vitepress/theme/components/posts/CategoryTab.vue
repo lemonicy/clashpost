@@ -14,7 +14,7 @@ const router = useRouter();
 
 async function changeCategory(categoryIndex) {
     const linkArr = ["", "starter", "advanced", "knowledge", "material", "defense",
-        "bh", "capital", "archive", "uncategorized"];
+        "bh", "capital", "storm", "archive", "uncategorized"];
     let fullLink;
     if (categoryIndex === 0) {
         fullLink = "/p"
@@ -38,7 +38,8 @@ async function changeCategory(categoryIndex) {
         <EventTab :activeTab="categoryIndex === 5" @clickEvent="changeCategory(5)">布阵和防守</EventTab>
         <EventTab :activeTab="categoryIndex === 6" @clickEvent="changeCategory(6)">夜世界</EventTab>
         <EventTab :activeTab="categoryIndex === 7" @clickEvent="changeCategory(7)">都城</EventTab>
-        <EventTab :activeTab="categoryIndex === 8" @clickEvent="changeCategory(8)">历史档案</EventTab>
-        <EventTab :activeTab="categoryIndex === 9" @clickEvent="changeCategory(9)">未分类</EventTab>
+        <EventTab :activeTab="categoryIndex === 8" @clickEvent="changeCategory(8)">风暴之后</EventTab>
+        <EventTab :activeTab="categoryIndex === 9" @clickEvent="changeCategory(9)">历史档案</EventTab>
+        <EventTab :activeTab="categoryIndex === 10" @clickEvent="changeCategory(10)">未分类</EventTab>
     </EventTabs>
 </template>

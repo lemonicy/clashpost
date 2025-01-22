@@ -8,8 +8,9 @@ export default {
             { params: { category: 'defense', categoryIndex: 5 }},
             { params: { category: 'bh', categoryIndex: 6 }},
             { params: { category: 'capital', categoryIndex: 7 }},
-            { params: { category: 'archive', categoryIndex: 8 }},
-            { params: { category: 'uncategorized', categoryIndex: 9 }},
+            { params: { category: 'storm', categoryIndex: 8 }},
+            { params: { category: 'archive', categoryIndex: 9 }},
+            { params: { category: 'uncategorized', categoryIndex: 10 }},
         ];
     }
 }
