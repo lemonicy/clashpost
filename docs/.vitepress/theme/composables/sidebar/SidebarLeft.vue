@@ -121,6 +121,7 @@ function getModule(frontmatterModule, path) {
             case "defense":
             case "bh":
             case "capital":
+            case "storm":
             case "archive":
             case "uncategorized":
                 return "posts-" + moduleInFact;
@@ -226,6 +227,9 @@ if (inBrowser) {
                     </li>
                     <li>
                         <a id="cp-module-posts-capital" class="cp-module-item" href="/p/category/capital">都城</a>
+                    </li>
+                    <li>
+                        <a id="cp-module-posts-storm" class="cp-module-item" href="/p/category/storm">风暴之后</a>
                     </li>
                     <li>
                         <a id="cp-module-posts-archive" class="cp-module-item" href="/p/category/archive">历史档案</a>

@@ -47,10 +47,12 @@ function getCategoryIndexFromId(categoryId) {
             return 6;
         case "capital":
             return 7;
-        case "archive":
+        case "storm":
             return 8;
-        case "uncategorized":
+        case "archive":
             return 9;
+        case "uncategorized":
+            return 10;
         default:
             return 0;
     }

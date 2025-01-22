@@ -108,6 +108,9 @@ function getBreadcrumbArr(moduleCode, finalTitle, path) {
             case "capital":
                 items[2] = setBreadcrumbItem(null, "都城");
                 break;
+            case "storm":
+                items[2] = setBreadcrumbItem(null, "风暴之后");
+                break;
             case "archive":
                 items[2] = setBreadcrumbItem(null, "历史档案");
                 break;
@@ -145,6 +148,9 @@ function getBreadcrumbArr(moduleCode, finalTitle, path) {
                     break;
                 case "posts-capital":
                     items[2] = setBreadcrumbItem("/p/category/capital", "都城");
+                    break;
+                case "posts-storm":
+                    items[2] = setBreadcrumbItem("/p/category/storm", "风暴之后");
                     break;
                 case "posts-archive":
                     items[2] = setBreadcrumbItem("/p/category/archive", "历史档案");
