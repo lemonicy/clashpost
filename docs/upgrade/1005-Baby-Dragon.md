@@ -105,7 +105,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/10/09">
-        <TimelineRow>飞龙宝宝的烈焰喷嚏伤害不再固定，根据到目标的距离缩减 0~20%.</TimelineRow>
+        <TimelineRow>飞龙宝宝的烈焰喷嚏伤害不再固定，根据到目标的距离缩减 0 ~ 20%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/05/15">
         <TimelineRow>新增 19 - 20 级飞龙宝宝。</TimelineRow>
