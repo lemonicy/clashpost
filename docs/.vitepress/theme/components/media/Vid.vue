@@ -125,7 +125,6 @@ figure.cp-video-container {
     video {
         max-width: min(750px, 100%);
         border-radius: 0.5rem;
-        object-fit: cover;
         aspect-ratio: 1.77778 / 1; /* 默认为 16:9 */
     }
 
