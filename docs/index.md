@@ -91,25 +91,25 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend">
 <div class="homepage-recommend-item">
 <SmallTitle>你知道吗</SmallTitle>
-        
+
 - 2024/11 更新后，8 本即可解锁 [女王](/upgrade/0201-Archer-Queen)。
 - 升级 17 本后，[天鹰火炮](/upgrade/030b-Eagle-Artillery) 会被移除。
 - 和 [空气炮](/upgrade/0306-Air-Sweeper) 一样，[火焰喷射器](/upgrade/0316-Firespitter) 不能全角度射击，需要玩家选择一个开口方向。
 - 在游戏内，[宝石矿井](/upgrade/1205-Gem-Mine) 的产量只保留一位小数，但实际产量却有两位小数。
-- 2023 年 5 月更新后的 [夜世界机制](/p/6582) 已在网站中发布。
+- 长老也可以发起都城突袭（详见：[部落中各职位的权限](/p/6654)）。
 
 </div>
 
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
-- 最近网站重新整理了国际服下载相关的文章：
-    - [如何注册美区 Apple ID（手把手教学）](/p/6813)
-    - [iOS 如何下载 coc 国际服（清除数据方案）](/p/6676)
-    - [iOS 如何下载 coc 国际服（保留数据方案）](/p/4604)
-    - [如何正确安装谷歌三件套](/p/6844)
-    - [Android 如何下载 coc 国际服](/p/6665)
-- 最新推出：[雷电战靴](/upgrade/07c5-Electro-Boots)
+- 最近更新：[COC 常用网站（公众号、小程序）集锦](/p/4599)。
+- 最新网站重新整理了国际服相关的文章：
+    - [国际服重生保姆级教程](/p/6791)。
+    - [coc 国际服充值教程](/p/6725)。
+    - [Supercell ID 的账号保护是什么？我可以开启吗？](/p/6755)
+    - [为什么我 Supercell ID 的邮箱收不到验证码？](/p/6749)
+    - [遇到“此区域已不再支持您当前的登录方式”怎么办？](/p/4511)
 
 </div>
 </div>
