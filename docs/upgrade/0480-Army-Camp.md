@@ -55,7 +55,7 @@ const tableExtraInfo = [
         "column": 3,
         "type": "cost",
         "gpClass": "building",
-        "icon": "Gold"
+        "icon": "Elixir"
     },
     {
         "column": 4,
