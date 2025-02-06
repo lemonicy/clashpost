@@ -26,7 +26,7 @@ canonical: /upgrade/0204-Minion-Prince
     <UnitProperty pKey="攻击速度" pValue="0.85 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="4.5 格" />
     <UnitProperty pKey="所需英雄殿堂等级" pValue="3" />
-    <UnitProperty pKey="所需大本等级" pValue="8" />
+    <UnitProperty pKey="所需大本等级" pValue="9" />
     <UnitProperty pKey="警戒半径" pValue="12 格<sup>①</sup>" />
     <UnitProperty pKey="搜索半径" pValue="10 格<sup>②</sup>" />
     <UnitProperty pKey="巡逻半径" pValue="3 格<sup>③</sup>" />

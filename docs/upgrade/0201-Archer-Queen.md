@@ -27,7 +27,7 @@ canonical: /upgrade/0201-Archer-Queen
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="0.75 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="5 格" />
-    <UnitProperty pKey="所需大本等级" pValue="9" />
+    <UnitProperty pKey="所需大本等级" pValue="8" />
     <UnitProperty pKey="警戒半径" pValue="13 格<sup>①</sup>" />
     <UnitProperty pKey="搜索半径" pValue="10 格<sup>②</sup>" />
     <UnitProperty pKey="巡逻半径" pValue="3 格<sup>③</sup>" />
