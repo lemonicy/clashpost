@@ -2,7 +2,7 @@
 title: "部落冲突 coc 巨型手套装备升级数据"
 navTitle: "巨型手套"
 shownTitle: "巨型手套"
-description: "巨型手套是野蛮人之王的第一件史诗装备，它在 2023 年 12 月的饼干大作战活动中首次出现。当蛮王带上巨型手套装备时，开启技能后蛮王受到的伤害减少，而且会造成范围伤害。另外，巨型手套还会增加蛮王的每秒伤害，并给予他自愈的能力。"
+description: "巨型手套是野蛮人之王的第一件史诗装备，它在 2023 年 12 月的饼干大作战活动中首次开放购买。当蛮王带上巨型手套装备时，开启技能后蛮王受到的伤害减少，而且会造成范围伤害。另外，巨型手套还会增加蛮王的每秒伤害，并给予他自愈的能力。"
 module: upgrade-home
 imgFolder: home_heroes/0704
 wiki: https://clashofclans.fandom.com/wiki/Giant_Gauntlet
@@ -13,7 +13,7 @@ canonical: /upgrade/0704-Giant-Gauntlet
 
 <SmallTitle>说明</SmallTitle>
 
-1. 巨型手套是 [野蛮人之王](/upgrade/0200-Barbarian-King) 的第一件史诗装备，它在 2023 年 12 月的饼干大作战活动中首次出现。
+1. 巨型手套是 [野蛮人之王](/upgrade/0200-Barbarian-King) 的第一件史诗装备，它在 2023 年 12 月的饼干大作战活动中首次开放购买。
 2. 当蛮王带上巨型手套装备时，开启技能后蛮王受到的伤害减少，而且会造成范围伤害。
 3. 另外，巨型手套还会增加蛮王的每秒伤害，并给予他自愈的能力。
 
