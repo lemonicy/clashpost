@@ -2,7 +2,7 @@
 title: "部落冲突 coc 冰封箭矢（寒冰箭）装备升级数据"
 navTitle: "冰封箭矢"
 shownTitle: "冰封箭矢（寒冰箭）"
-description: "冰封箭矢是弓箭女皇的第一件史诗装备，它在 2024 年 2 月的龙年佳节活动中首次出现。带上冰封箭矢装备后，被女王打中的目标在一段时间内移动速度和攻击速度会变慢。另外，冰封箭矢还能增加女王的每秒伤害。"
+description: "冰封箭矢是弓箭女皇的第一件史诗装备，它在 2024 年 2 月的龙年佳节活动中首次开放购买。带上冰封箭矢装备后，被女王打中的目标在一段时间内移动速度和攻击速度会变慢。另外，冰封箭矢还能增加女王的每秒伤害。"
 module: upgrade-home
 imgFolder: home_heroes/0744
 wiki: https://clashofclans.fandom.com/wiki/Frozen_Arrow
@@ -13,7 +13,7 @@ canonical: /upgrade/0744-Frozen-Arrow
 
 <SmallTitle>说明</SmallTitle>
 
-1. 冰封箭矢是 [弓箭女皇](/upgrade/0201-Archer-Queen) 的第一件史诗装备，它在 2024 年 2 月的龙年佳节活动中首次出现。
+1. 冰封箭矢是 [弓箭女皇](/upgrade/0201-Archer-Queen) 的第一件史诗装备，它在 2024 年 2 月的龙年佳节活动中首次开放购买。
 2. 带上冰封箭矢装备后，被女王打中的目标在一段时间内移动速度和攻击速度会变慢。
 3. 另外，冰封箭矢还能增加女王的每秒伤害。
 

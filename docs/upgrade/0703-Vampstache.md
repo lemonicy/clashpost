@@ -16,6 +16,7 @@ canonical: /upgrade/0703-Vampstache
 1. 嗜血胡须是 [野蛮人之王](/upgrade/0200-Barbarian-King) 的一件普通装备。
 2. 嗜血胡须可以使蛮王每次攻击时都能回血，此外，嗜血胡须还可以提高蛮王的攻击速度和每秒伤害。
    - 例外：被 [凤凰](/upgrade/0287-Phoenix) 复活的蛮王不能回血。
+3. 该装备的英文名称 Vampstache 取自吸血鬼（vampire）这个单词的前半边和胡须（mustache）这个单词的后半边，因此顾名思义这个装备有吸血效果，网站出于准确性原则采用了“嗜血胡须”这个翻译。
 
 <SmallTitle>属性</SmallTitle>
 

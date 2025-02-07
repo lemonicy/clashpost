@@ -61,11 +61,12 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="嗜血胡须" imgSrc="0703/Vampstache_thumb.png" link="0703-Vampstache" :lazyLoading="false" />
         <ListItem name="巨型手套" imgSrc="0704/Giant_Gauntlet_thumb.png" link="0704-Giant-Gauntlet" :lazyLoading="false" />
         <ListItem name="尖刺足球" imgSrc="0705/Spiky_Ball_thumb.png" link="0705-Spiky-Ball" :lazyLoading="false" />
+        <ListItem name="灵蛇手镯" imgSrc="0706/Snake_Bracelet_thumb.png" link="0706-Snake-Bracelet" :lazyLoading="false" />
     </ListItems>
     <ListItems title="装备（弓箭女皇）" imgFolder="home_heroes">
-        <ListItem name="弓箭手木偶" imgSrc="0740/Archer_Puppet_thumb.png" link="0740-Archer-Puppet" :lazyLoading="false" />
-        <ListItem name="隐形药水瓶" imgSrc="0741/Invisibility_Vial_thumb.png" link="0741-Invisibility-Vial" :lazyLoading="false" />
-        <ListItem name="巨型箭矢" imgSrc="0742/Giant_Arrow_thumb.png" link="0742-Giant-Arrow" :lazyLoading="false" />
+        <ListItem name="弓箭手木偶" imgSrc="0740/Archer_Puppet_thumb.png" link="0740-Archer-Puppet" />
+        <ListItem name="隐形药水瓶" imgSrc="0741/Invisibility_Vial_thumb.png" link="0741-Invisibility-Vial" />
+        <ListItem name="巨型箭矢" imgSrc="0742/Giant_Arrow_thumb.png" link="0742-Giant-Arrow" />
         <ListItem name="天使木偶" imgSrc="0743/Healer_Puppet_thumb.png" link="0743-Healer-Puppet" />
         <ListItem name="冰封箭矢" imgSrc="0744/Frozen_Arrow_thumb.png" link="0744-Frozen-Arrow" />
         <ListItem name="克隆魔镜" imgSrc="0745/Magic_Mirror_thumb.png" link="0745-Magic-Mirror" />
