@@ -19,7 +19,7 @@ canonical: /upgrade/0785-Lavaloon-Puppet
 
 <!-- ↓↓↓ 装备 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Lavaloon_Puppet_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Lavaloon_Puppet_info.png" :imgAlt="$frontmatter.navTitle" description="召唤可怕的熔岩气球。" />
 
 <SmallTitle>说明</SmallTitle>
 
@@ -100,7 +100,7 @@ const tableExtraInfo = [
 
 <!-- ↓↓↓ 熔岩气球 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Lavaloon_info.png" imgAlt="熔岩气球" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Lavaloon_info.png" imgAlt="熔岩气球" description="兼具气球兵的强力炸弹和熔岩猎犬的坚硬外壳，熔岩气球能轻松摧毁基地，一炸一个坑！" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -157,7 +157,7 @@ const tableExtraInfo = [
 
 <!-- ↓↓↓ 迷你熔岩气球犬 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-2" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Lavaloon_Pup_info.png" imgAlt="迷你熔岩气球犬" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Lavaloon_Pup_info.png" imgAlt="迷你熔岩气球犬" description="这些调皮的绿色小怪物就是为战斗而生的，无论什么情况他们都会接着战斗。" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 

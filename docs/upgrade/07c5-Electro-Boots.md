@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Electro_Boots
 canonical: /upgrade/07c5-Electro-Boots
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Electro_Boots_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Electro_Boots_info.png" :imgAlt="$frontmatter.navTitle" description="每隔一段时间对飞盾战神附近的一切造成伤害。" />
 
 <SmallTitle>说明</SmallTitle>
 

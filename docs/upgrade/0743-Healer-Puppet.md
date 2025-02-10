@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Healer_Puppet
 canonical: /upgrade/0743-Healer-Puppet
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Healer_Puppet_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Healer_Puppet_info.png" :imgAlt="$frontmatter.navTitle" description="召唤一群天使。" />
 
 <SmallTitle>说明</SmallTitle>
 

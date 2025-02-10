@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Fireball
 canonical: /upgrade/0784-Fireball
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Fireball_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Fireball_info.png" :imgAlt="$frontmatter.navTitle" description="向距离最近的防御建筑扔出一个巨大的爆炸火球。" />
 
 <SmallTitle>说明</SmallTitle>
 

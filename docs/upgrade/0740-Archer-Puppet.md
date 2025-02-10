@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Archer_Puppet
 canonical: /upgrade/0740-Archer-Puppet
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Archer_Puppet_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Archer_Puppet_info.png" :imgAlt="$frontmatter.navTitle" description="召唤一群隐形弓箭手。" />
 
 <SmallTitle>说明</SmallTitle>
 

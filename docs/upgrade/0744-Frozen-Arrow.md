@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Frozen_Arrow
 canonical: /upgrade/0744-Frozen-Arrow
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Frozen_Arrow_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Frozen_Arrow_info.png" :imgAlt="$frontmatter.navTitle" description="冰封箭矢会减缓被命中目标的速度。" />
 
 <SmallTitle>说明</SmallTitle>
 

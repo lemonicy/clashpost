@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Life_Gem
 canonical: /upgrade/0781-Life-Gem
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Life_Gem_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Life_Gem_info.png" :imgAlt="$frontmatter.navTitle" description="附近友军单位获得额外生命值。" />
 
 <SmallTitle>说明</SmallTitle>
 

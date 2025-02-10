@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Haste_Vial
 canonical: /upgrade/07c3-Haste-Vial
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Haste_Vial_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Haste_Vial_info.png" :imgAlt="$frontmatter.navTitle" description="使飞盾战神获得急速效果。" />
 
 <SmallTitle>说明</SmallTitle>
 

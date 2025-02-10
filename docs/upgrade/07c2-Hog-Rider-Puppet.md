@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Hog_Rider_Puppet
 canonical: /upgrade/07c2-Hog-Rider-Puppet
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hog_Rider_Puppet_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hog_Rider_Puppet_info.png" :imgAlt="$frontmatter.navTitle" description="召唤一群野猪骑士。" />
 
 <SmallTitle>说明</SmallTitle>
 

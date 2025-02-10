@@ -9,13 +9,13 @@ wiki: https://clashofclans.fandom.com/wiki/Royal_Gem
 canonical: /upgrade/07c1-Royal-Gem
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Royal_Gem_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Royal_Gem_info.png" :imgAlt="$frontmatter.navTitle" description="为飞盾战神提供大量额外治疗。" />
 
 <SmallTitle>说明</SmallTitle>
 
 1. 皇家宝石是 [飞盾战神](/upgrade/0203-Royal-Champion) 的两件初始装备之一，另一件是 [寻踪飞盾](/upgrade/07c0-Seeking-Shield)。
 2. 皇家宝石可以使飞盾战神在使用技能时恢复大量生命值，这个属性可以与英雄本身的回血属性叠加。
-3. 另外，皇家宝石可以增加飞盾战神的每秒伤害和生命值。
+3. 另外，皇家宝石可以增加飞盾战神日常状态下的每秒伤害和生命值。
 
 <SmallTitle>属性</SmallTitle>
 
