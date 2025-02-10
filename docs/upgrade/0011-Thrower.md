@@ -11,15 +11,15 @@ canonical: /upgrade/0011-Thrower
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Thrower_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-<!-- <SmallTitle>各等级图片</SmallTitle>
+<SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Thrower1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Thrower2.png" />
-        <!-- <UnitImg imgTitle="3 级" imgSrc="Thrower3.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Thrower3.png" />
     </UnitImgGroup>
-</Panel> -->
+</Panel>
 
 <SmallTitle>属性</SmallTitle>
 

@@ -42,7 +42,8 @@ function downloadXapkInstaller() {
 
 - 现在部落冲突不是全球同服了，如果你是回归玩家，请看完这篇文章后再决定要不要回归：[什么是 216 事件？这件事的后续是什么呢？](/p/2754)
 - **本页只提供 coc 安卓版的安装包**，苹果手机请参考这两篇文章：[iOS 如何下载 coc 国际服（清除数据方案）](/p/6676)、[iOS 如何下载 coc 国际服（保留数据方案）](/p/4604)。
-- 安装时遇到问题请参考这篇文章：[Android 如何下载 coc 国际服](/p/6665)。
+- 安装时遇到问题请参考这篇文章：[网站里下载的 coc 安装包不能用，可能是什么造成的？](/p/6903)
+- 如果你从其他渠道下载到了 xapk 或 apkm 格式的安装包，请按照这篇文章所说的步骤操作：[如何安装 xapk 或 apkm 格式的安装包？](/p/6665)
 
 ## 国际服
 
@@ -52,20 +53,15 @@ function downloadXapkInstaller() {
 
 今天我宣布一个好消息，因为国外的商业带宽比较便宜，所以网站服务器迁移到国外之后运营成本有所下降，就算是开放直接下载也支付得起，因此我们决定让利用户，回归直接下载功能！当然也因为网站服务器在国外，我们不保证国内用户的速度。
 
-**注意：**
-
-<!-- - 如果你下载到了 xapk 和 apkm 格式的安装包，请先下载下方的安装工具，再根据这篇文章的内容操作：[Android 如何下载 coc 国际服](/p/6665)。 -->
-- 请留意下方的更新时间和版本号，不要下载成旧版的安装包。如果网站内未更新安装包，请等一会再看，不要反复下载。
-
 <div id="apk-download-btn-container">
-    <button id="apk-download-btn" class="btn-primary" @click="downloadCocApk">
+    <!-- <button id="apk-download-btn" class="btn-primary" @click="downloadCocApk">
         <p id="apk-download-text">点击下载安装包</p>
         <p>版本 {{ apkVersion }}，更新于 {{ apkUploadDate }}</p>
-    </button>
-    <!-- <button id="apk-download-btn" class="btn-primary" disabled>
+    </button> -->
+    <button id="apk-download-btn" class="btn-primary" disabled>
         <p id="apk-download-text">游戏即将更新</p>
         <p>旧版本下载渠道暂时关闭</p>
-    </button> -->
+    </button>
     <!-- <button id="apk-download-btn" class="btn-secondary" @click="downloadXapkInstaller">
         <p id="apk-download-text">点击下载安装工具</p>
         <p>版本 {{ installerVersion }}，更新于 {{ installerUploadDate }}</p>
@@ -73,6 +69,8 @@ function downloadXapkInstaller() {
 </div>
 
 <!-- 安装工具由 APKMirror 提供技术支持。 -->
+
+请留意上方的更新时间和版本号，不要下载成旧版的安装包。如果网站内未更新安装包，请等一会再看，不要反复下载。
 
 ### 网盘下载
 
