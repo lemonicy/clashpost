@@ -138,6 +138,7 @@ const tags = {
     "sea-of-witches": "女巫海",
     "shield-and-guard": "护盾和守卫",
     "siege-barracks": "攻城训练营",
+    "siege-machines": "攻城机器",
     "skeleton-spell": "骷髅法术",
     "sneaky-goblin": "隐秘哥布林",
     "specific-grass": "种草",

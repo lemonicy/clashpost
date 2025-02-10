@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Battle_Drill
 canonical: /upgrade/0246-Battle-Drill
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Battle_Drill.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Battle_Drill_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -25,11 +25,14 @@ canonical: /upgrade/0246-Battle-Drill
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 攻城钻机部署后会遁地，从地下出来的时候可以破掉两层墙，也就是说当 [城墙](/upgrade/0300-Walls) 和防御中间隔着一格时可以破墙，隔两格不行。
+1. 如果你不了解攻城机器的基础设定，请阅读这篇文章：[浅谈攻城机器的一些基础设定](/p/6912)。
+2. 和 [掘地矿工](/upgrade/000b-Miner) 类似，部署攻城钻机后，它会在地下行进，避开路线上的一系列防御建筑，之后在目标建筑附近破土而出，直接攻击目标建筑。
+3. 攻城钻机从地下出来的一瞬间可以破掉两层墙，也就是说当 [城墙](/upgrade/0300-Walls) 和防御中间隔着一格时可以破墙，隔两格不行。
 
 <Pic src="/upgrade/description/Battle_Drill_Splash.jpg" caption="攻城钻机破墙图示" :lazyLoading="false" width="750" height="435" />
 
-1. 攻城钻机从地下钻出时可以对建筑造成眩晕效果。
+4. 攻城钻机从地下钻出时可以对建筑造成眩晕效果。
+5. 当攻城钻机的血量清零时，攻城钻机就会自动解体并释放部落城堡内的部队。
 
 <SmallTitle>属性</SmallTitle>
 
