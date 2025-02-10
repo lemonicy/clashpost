@@ -2,14 +2,14 @@
 title: "部落冲突 coc 地震金靴（震地金靴）装备升级数据"
 navTitle: "地震金靴"
 shownTitle: "地震金靴（震地金靴）"
-description: "地震金靴是野蛮人之王的一件普通装备，建造铁匠铺之后即可解锁，要求大本营达到 8 级。地震金靴可以时蛮王在使用技能时制造一场地震。这次地震可以立即摧毁周围的城墙，并且对建筑物造成一定百分比的破坏。"
+description: "地震金靴是野蛮人之王的一件普通装备。地震金靴可以时蛮王在使用技能时制造一场地震。这次地震可以立即摧毁周围的城墙，并且对建筑物造成一定百分比的破坏。地震金靴可以对半径内的所有地面单位（包括部队）造成少量额外伤害……"
 module: upgrade-home
 imgFolder: home_heroes/0702
 wiki: https://clashofclans.fandom.com/wiki/Earthquake_Boots
 canonical: /upgrade/0702-Earthquake-Boots
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Earthquake_Boots_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Earthquake_Boots_info.png" :imgAlt="$frontmatter.navTitle" description="引发强烈地震，摧毁城墙并对建筑造成伤害。" />
 
 <SmallTitle>说明</SmallTitle>
 

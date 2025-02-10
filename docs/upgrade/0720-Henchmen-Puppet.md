@@ -16,7 +16,7 @@ canonical: /upgrade/0720-Henchmen-Puppet
 
 <!-- ↓↓↓ 护卫玩偶 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Henchmen_Puppet_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Henchmen_Puppet_info.png" :imgAlt="$frontmatter.navTitle" description="召唤空中护卫来增援亡灵王子" />
 
 <SmallTitle>说明</SmallTitle>
 

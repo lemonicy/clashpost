@@ -74,6 +74,7 @@ if (activeTabCookieValue === "home-techniques") {
     <ListItems title="装备（亡灵王子）" imgFolder="home_heroes">
         <ListItem name="护卫玩偶" imgSrc="0720/Henchmen_Puppet_thumb.png" link="0720-Henchmen-Puppet" />
         <ListItem name="暗黑魔球" imgSrc="0721/Dark_Orb_thumb.png" link="0721-Dark-Orb" />
+        <ListItem name="铁甲短裤" imgSrc="0722/Metal_Pants_thumb.png" link="0722-Metal-Pants" />
     </ListItems>
     <ListItems title="装备（大守护者）" imgFolder="home_heroes">
         <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" />
@@ -175,6 +176,7 @@ if (activeTabCookieValue === "home-techniques") {
     <ListItems title="特殊角色" imgFolder="home_tech">
         <ListItem name="实验助理" imgSrc="0800/Lab_Assistant_thumb.png" link="0800-Lab-Assistant" />
         <ListItem name="建筑工人学徒" imgSrc="0801/Builder%27s_Apprentice_thumb.png" link="0801-Builder%27s-Apprentice" />
+        <ListItem name="炼金术士" imgSrc="0802/Alchemist_thumb.png" link="0802-Alchemist" />
     </ListItems>
 </SwitchTabGroup>
 
@@ -204,6 +206,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="跳弹加农炮" imgSrc="0313/Ricochet_Cannon3.png" link="0313-Ricochet-Cannon" />
         <ListItem name="多人箭塔" imgSrc="0314/Multi-Archer_Tower3.png" link="0314-Multi-Archer-Tower" />
         <ListItem name="火焰喷射器" imgSrc="0316/Firespitter2.png" link="0316-Firespitter" />
+        <ListItem name="复合机械塔" imgSrc="0317/Multi-Gear_Tower2_LongRange.png" link="0317-Multi-Gear-Tower" />
     </ListItems>
     <ListItems title="陷阱" imgFolder="home_buildings">
         <ListItem name="隐形炸弹" imgSrc="0380/Bomb13.png" link="0380-Bomb" />

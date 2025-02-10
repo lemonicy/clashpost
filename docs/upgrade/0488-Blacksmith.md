@@ -93,7 +93,7 @@ const tableExtraInfo = [
 | ---- |   ---- |        ---      |        ---      |       ---      |    ---   |   ---   |         ---         |      ---      |    ---    |
 |   1  |   700  |        10k      |       1000      |       200      |   750k   |    1    |                     |        8      |<a href="/upgrade/0702-Earthquake-Boots">地震金靴</a>|
 |   2  |   800  |        15k      |       1500      |       300      |   1.7M   |    2    |                     |        9      |<a href="/upgrade/0742-Giant-Arrow">巨型箭矢</a>|
-|   3  |   900  |        20k      |       2000      |       400      |   2.3M   |    3    |                     |       10      |<a href="/upgrade/0703-Vampstache">嗜血胡须</a>|
+|   3  |   900  |        20k      |       2000      |       400      |   2.3M   |    3    |                     |       10      |<a href="/upgrade/0703-Vampstache">嗜血胡须</a><br><a href="/upgrade/0722-Metal-Pants">铁甲短裤</a>|
 |   4  |  1000  |        25k      |       2500      |       500      |     3M   |    4    |                     |       11      |<a href="/upgrade/0782-Rage-Gem">狂暴宝石</a>|
 |   5  |  1100  |        30k      |       3000      |       600      |   5.5M   |    5    |                     |       12      |<a href="/upgrade/0743-Healer-Puppet">天使木偶</a>|
 |   6  |  1200  |        35k      |       3500      |       700      |   8.5M   |    6    |                     |       13      |<a href="/upgrade/0783-Healing-Tome">治疗书卷</a>|

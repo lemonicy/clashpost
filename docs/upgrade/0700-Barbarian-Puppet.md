@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Barbarian_Puppet
 canonical: /upgrade/0700-Barbarian-Puppet
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Barbarian_Puppet_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Barbarian_Puppet_info.png" :imgAlt="$frontmatter.navTitle" description="召唤一群狂暴野蛮人。" />
 
 <SmallTitle>说明</SmallTitle>
 

@@ -2,14 +2,14 @@
 title: "部落冲突 coc 暗黑魔球装备升级数据"
 navTitle: "暗黑魔球"
 shownTitle: "暗黑魔球"
-description: ""
+description: "暗黑魔球是亡灵王子的两件初始装备之一。暗黑魔球装备可以让亡灵王子使用技能时召唤出一颗水晶，并向他所面对的方向移动。水晶移动时会对周围的部队造成少量伤害，并在一段时间内减慢敌方单位的移动速度和攻击速度。"
 module: upgrade-home
 imgFolder: home_heroes/0721
 wiki: https://clashofclans.fandom.com/wiki/Dark_Orb
 canonical: /upgrade/0721-Dark-Orb
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Orb_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Orb_info.png" :imgAlt="$frontmatter.navTitle" description="对命中的所有目标造成伤害，并减缓目标的速度" />
 
 <SmallTitle>说明</SmallTitle>
 
@@ -27,7 +27,6 @@ canonical: /upgrade/0721-Dark-Orb
     <UnitProperty pKey="解锁要求" pValue="有亡灵王子即可" />
     <UnitProperty pKey="水晶的作用半径" pValue="6 格（中心点在英雄前方）" />
 </UnitProperties>
-
 
 <SmallTitle>升级数据</SmallTitle>
 

@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Rage_Vial
 canonical: /upgrade/0701-Rage-Vial
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Rage_Vial_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Rage_Vial_info.png" :imgAlt="$frontmatter.navTitle" description="使野蛮人之王获得狂暴效果。" />
 
 <SmallTitle>说明</SmallTitle>
 

@@ -16,7 +16,7 @@ canonical: /upgrade/0706-Snake-Bracelet
 
 <!-- ↓↓↓ 灵蛇手镯 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_Bracelet_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_Bracelet_info.png" :imgAlt="$frontmatter.navTitle" description="受到伤害时，召唤灵蛇与您并肩作战。" />
 
 <SmallTitle>说明</SmallTitle>
 
