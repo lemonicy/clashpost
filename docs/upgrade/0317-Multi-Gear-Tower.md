@@ -46,9 +46,9 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <!-- <UnitImg imgTitle="废墟" imgSrc="Multi-Gear_Tower_Ruin.png" /> -->
-        <UnitImg imgTitle="1 级" imgSrc="Multi-Gear_Tower1_LongRange.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Multi-Gear_Tower2_LongRange.png" />
+        <!-- <UnitImg imgTitle="废墟" imgSrc="Multi-Gear_Tower_Ruin.png" imgHd="Multi-Gear_Tower_Ruin_hd.png" /> -->
+        <UnitImg imgTitle="1 级" imgSrc="Multi-Gear_Tower1_LongRange.png" imgHd="Multi-Gear_Tower1_LongRange_hd.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Multi-Gear_Tower2_LongRange.png" imgHd="Multi-Gear_Tower2_LongRange_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -97,9 +97,9 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <!-- <UnitImg imgTitle="废墟" imgSrc="Multi-Gear_Tower_Ruin.png" /> -->
-        <UnitImg imgTitle="1 级" imgSrc="Multi-Gear_Tower1_FastAttack.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Multi-Gear_Tower2_FastAttack.png" />
+        <!-- <UnitImg imgTitle="废墟" imgSrc="Multi-Gear_Tower_Ruin.png" imgHd="Multi-Gear_Tower_Ruin_hd.png" /> -->
+        <UnitImg imgTitle="1 级" imgSrc="Multi-Gear_Tower1_FastAttack.png" imgHd="Multi-Gear_Tower1_FastAttack_hd.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Multi-Gear_Tower2_FastAttack.png" imgHd="Multi-Gear_Tower2_FastAttack_hd.png" />
     </UnitImgGroup>
 </Panel>
 

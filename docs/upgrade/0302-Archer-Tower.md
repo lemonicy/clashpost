@@ -91,7 +91,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 
 <BuildingNum>
     <BuildingNumRow title="大本等级" num="1, 2 - 3, 4, 5 - 6,  7, 8, 9, 10, 11 - 15, 16, 17" />
-    <BuildingNumRow title="建筑数量" num="0,     1, 2,     3,  4, 5, 6,  7,       8,  4,  3" />
+    <BuildingNumRow title="建筑数量" num="0,     1, 2,     3,  4, 5, 6,  7,       8,  4,  2" />
 </BuildingNum>
 
 在 16 级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
@@ -171,7 +171,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 
 <BuildingNum>
     <BuildingNumRow title="大本等级" num="1, 2 - 3, 4, 5 - 6,  7, 8, 9, 10, 11 - 15, 16, 17" />
-    <BuildingNumRow title="建筑数量" num="0,     1, 2,     3,  4, 5, 6,  7,       8,  4,  3" />
+    <BuildingNumRow title="建筑数量" num="0,     1, 2,     3,  4, 5, 6,  7,       8,  4,  2" />
 </BuildingNum>
 
 <SmallTitle>属性</SmallTitle>

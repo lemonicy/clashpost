@@ -28,7 +28,6 @@ canonical: /upgrade/0721-Dark-Orb
     <UnitProperty pKey="水晶的作用半径" pValue="6 格（中心点在英雄前方）" />
 </UnitProperties>
 
-
 <SmallTitle>升级数据</SmallTitle>
 
 <script setup>
