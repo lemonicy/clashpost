@@ -41,7 +41,7 @@ canonical: /upgrade/0604-Inferno-Dragon
     <UnitProperty pKey="最低大本等级" pValue="12" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
-    <UnitProperty pKey="训练时间" pValue="135" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="127" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -61,6 +61,9 @@ canonical: /upgrade/0604-Inferno-Dragon
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>地狱飞龙的训练时间由 2:15 改为 2:08</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 11 级飞龙宝宝，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>

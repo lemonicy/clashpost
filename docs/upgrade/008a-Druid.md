@@ -55,7 +55,7 @@ canonical: /upgrade/008a-Druid
     <UnitProperty pKey="治疗距离" pValue="5 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="11" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
-    <UnitProperty pKey="训练时间" pValue="150" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="140" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -130,6 +130,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>德鲁伊的训练时间由 2:30 改为 2:20</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>4 级德鲁伊的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 4 级德鲁伊的升级费用降低。</TimelineRow>

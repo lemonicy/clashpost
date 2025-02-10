@@ -48,7 +48,7 @@ canonical: /upgrade/060f-Super-Hog-Rider
     <UnitProperty pKey="最低大本等级" pValue="13" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
-    <UnitProperty pKey="训练时间" pValue="108" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="101" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -150,6 +150,9 @@ canonical: /upgrade/060f-Super-Hog-Rider
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>超级野猪骑士的训练时间由 1:50 改为 1:41</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>16 本新增 13 级野猪骑士，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>

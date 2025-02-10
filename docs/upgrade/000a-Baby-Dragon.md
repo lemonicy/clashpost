@@ -48,7 +48,7 @@ canonical: /upgrade/000a-Baby-Dragon
     <UnitProperty pKey="攻击距离" pValue="2.25 格" />
     <UnitProperty pKey="所需训练营等级" pValue="11" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="训练时间" pValue="90" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="85" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -89,6 +89,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>飞龙宝宝的训练时间由 1:30 改为 1:25</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 11 级飞龙宝宝。</TimelineRow>
         <TimelineRow>2 ~ 10 级飞龙宝宝的升级时间减少。</TimelineRow>

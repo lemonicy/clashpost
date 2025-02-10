@@ -48,7 +48,7 @@ canonical: /upgrade/0089-Apprentice-Warden
     <UnitProperty pKey="光环半径" pValue="7 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="10" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
-    <UnitProperty pKey="训练时间" pValue="240" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="170" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -82,6 +82,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>守护者学徒的训练时间由 4:00 改为 2:50</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 4 级守护者学徒的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

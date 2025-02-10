@@ -41,7 +41,7 @@ canonical: /upgrade/0088-Headhunter
     <UnitProperty pKey="攻击距离" pValue="3 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
-    <UnitProperty pKey="训练时间" pValue="60" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="50" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -76,6 +76,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>英雄猎手的训练时间由 1:00 改为 0:50</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 3 级英雄猎手的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

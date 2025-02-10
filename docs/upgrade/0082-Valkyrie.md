@@ -42,7 +42,7 @@ canonical: /upgrade/0082-Valkyrie
     <UnitProperty pKey="首次进攻时机" pValue="到达目标后 0.8 秒" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
-    <UnitProperty pKey="训练时间" pValue="90" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="70" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -83,6 +83,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>瓦基丽武神的训练时间由 1:30 改为 1:10</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 11 级瓦基丽武神的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

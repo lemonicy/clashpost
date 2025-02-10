@@ -45,7 +45,7 @@ canonical: /upgrade/0008-Dragon
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />
     <UnitProperty pKey="所需训练营等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
-    <UnitProperty pKey="训练时间" pValue="180" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="170" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -87,6 +87,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>飞龙的训练时间由 3:00 改为 2:50</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 12 级飞龙。</TimelineRow>
         <TimelineRow>5 ~ 11 级飞龙的升级时间减少。</TimelineRow>

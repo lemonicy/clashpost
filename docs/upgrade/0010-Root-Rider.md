@@ -38,7 +38,7 @@ canonical: /upgrade/0010-Root-Rider
     <UnitProperty pKey="攻击距离" pValue="1 格" />
     <UnitProperty pKey="所需训练营等级" pValue="17" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
-    <UnitProperty pKey="训练时间" pValue="220" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="170" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -71,6 +71,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>根蔓骑士的训练时间由 3:40 改为 2:50</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>3 级根蔓骑士的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 3 级根蔓骑士的升级费用降低。</TimelineRow>

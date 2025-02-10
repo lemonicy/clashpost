@@ -45,7 +45,7 @@ canonical: /upgrade/0081-Hog-Rider
     <UnitProperty pKey="攻击距离" pValue="0.6 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
-    <UnitProperty pKey="训练时间" pValue="45" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="42" trainingSystem="2022" />
 </UnitProperties>
 
 \* 如果场上存在防御建筑，则野猪骑士不会去攻击敌方的援军、英雄、骷髅兵。如果场上没有防御，则野猪骑士会优先攻击附近的敌方单位，然后才会去攻击普通建筑。
@@ -90,6 +90,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>野猪骑士的训练时间由 0:45 改为 0:42</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>3、4、6、10 ~ 13 级野猪骑士的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 13 级野猪骑士的升级费用降低。</TimelineRow>
