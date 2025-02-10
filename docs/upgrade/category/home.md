@@ -170,6 +170,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="攻城滚木车" imgSrc="0244/Log_Launcher_thumb.png" link="0244-Log-Launcher" />
         <ListItem name="攻城烈焰车" imgSrc="0245/Flame_Flinger_thumb.png" link="0245-Flame-Flinger" />
         <ListItem name="攻城钻机" imgSrc="0246/Battle_Drill_thumb.png" link="0246-Battle-Drill" />
+        <ListItem name="部队发射器" imgSrc="0247/Troop_Launcher_thumb.png" link="0247-Troop-Launcher" />
     </ListItems>
     <ListItems title="特殊角色" imgFolder="home_tech">
         <ListItem name="实验助理" imgSrc="0800/Lab_Assistant_thumb.png" link="0800-Lab-Assistant" />

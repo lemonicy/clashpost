@@ -103,12 +103,11 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
-- 最新发布：[灵蛇手镯](/upgrade/0706-Snake-Bracelet)
-- 几篇最近更新过的文章：
-    - [COC 常用网站（公众号、小程序）集锦](/p/4599)
-    - [COC 国际服充值教程](/p/6725)
-    - [回归后竟然会自动升级！回归奖励的常见问题解答](/p/1631)
-    - [为什么我 Supercell ID 的邮箱收不到验证码？](/p/6749)
+- 最新发布：
+    - 新攻城机器：[部队发射器](/upgrade/0247-Troop-Launcher)
+    - 新防御：[复合机械塔](/upgrade/0317-Multi-Gear-Tower)
+    - 新帮手：[炼金术士](/upgrade/0802-Alchemist)
+    - 新装备：[铁甲短裤](/upgrade/0722-Metal-Pants)、[灵蛇手镯](/upgrade/0706-Snake-Bracelet)
 
 </div>
 </div>

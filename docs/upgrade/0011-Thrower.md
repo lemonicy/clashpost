@@ -1,7 +1,7 @@
 ---
-title: "部落冲突 coc 巨矛投手升级数据"
+title: "部落冲突 coc 巨矛投手（粉胖）升级数据"
 navTitle: "巨矛投手"
-shownTitle: "巨矛投手"
+shownTitle: "巨矛投手（粉胖）"
 description: "这位力大无穷的投手目标明确，志在必得！他会从远处向敌人和防御建筑投掷威力十足的长矛。他哪来那么大力气？秘诀就在于他那浓密的胡须！"
 module: upgrade-home
 imgFolder: home_tech/0011
