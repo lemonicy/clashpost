@@ -41,7 +41,7 @@ canonical: /upgrade/0086-Bowler
     <UnitProperty pKey="攻击距离" pValue="3 格<sup>*</sup>" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="7" />
     <UnitProperty pKey="所需大本等级" pValue="10" />
-    <UnitProperty pKey="训练时间" pValue="60" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="50" trainingSystem="2022" />
 </UnitProperties>
 
 \* 巨石投手扔出去的石头落地后还能再次弹起来，对建筑造成二次伤害。石头的第一个落地距离蓝胖 3 格，第二个落点距离蓝胖 7 格。巨石投手只能看到第一个目标，二次范围伤害是顺带的，巨石投手并不知道石头会溅到哪儿。
@@ -81,6 +81,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>巨石投手的训练时间由 1:00 改为 0:50</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 8 级巨石投手的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

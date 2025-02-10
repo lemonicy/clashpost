@@ -48,7 +48,7 @@ canonical: /upgrade/0080-Minion
     <UnitProperty pKey="攻击距离" pValue="2.25 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
-    <UnitProperty pKey="训练时间" pValue="18" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="16" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -91,6 +91,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>亡灵的训练时间由 0:18 改为 0:16</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 13 级亡灵。</TimelineRow>
         <TimelineRow>3 ~ 12 级亡灵的升级时间减少。</TimelineRow>

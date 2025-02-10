@@ -41,7 +41,7 @@ canonical: /upgrade/0608-Super-Minion
     <UnitProperty pKey="最低大本等级" pValue="12" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
-    <UnitProperty pKey="训练时间" pValue="108" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="96" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -61,6 +61,9 @@ canonical: /upgrade/0608-Super-Minion
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>超级亡灵的训练时间由 1:48 改为 1:36</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 13 级亡灵，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>

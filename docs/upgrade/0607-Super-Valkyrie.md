@@ -40,7 +40,7 @@ canonical: /upgrade/0607-Super-Valkyrie
     <UnitProperty pKey="最低大本等级" pValue="12" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
-    <UnitProperty pKey="训练时间" pValue="225" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="175" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>超级武神死亡后丢下的狂暴法术的属性</SmallTitle>
@@ -69,6 +69,9 @@ canonical: /upgrade/0607-Super-Valkyrie
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>超级瓦基丽武神的训练时间由 3:45 改为 2:55</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>16 本推出，并在 16 本新增 11 级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>    

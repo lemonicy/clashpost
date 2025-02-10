@@ -45,7 +45,7 @@ canonical: /upgrade/0084-Witch
     <UnitProperty pKey="召唤骷髅的冷却时间" pValue="7 秒" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="训练时间" pValue="120" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="100" trainingSystem="2022" />
 </UnitProperties>
 
 <SmallTitle>骷髅的属性</SmallTitle>
@@ -99,6 +99,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>女巫的训练时间由 2:00 改为 1:40</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 7 级女巫的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

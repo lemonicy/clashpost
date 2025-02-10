@@ -94,8 +94,8 @@ onBeforeUnmount(() => {
 
 - 2024/11 更新后，8 本即可解锁 [女王](/upgrade/0201-Archer-Queen)。
 - 升级 17 本后，[天鹰火炮](/upgrade/030b-Eagle-Artillery) 会被移除。
-- 和 [空气炮](/upgrade/0306-Air-Sweeper) 一样，[火焰喷射器](/upgrade/0316-Firespitter) 不能全角度射击，需要玩家选择一个开口方向。
-- 在游戏内，[宝石矿井](/upgrade/1205-Gem-Mine) 的产量只保留一位小数，但实际产量却有两位小数。
+- 加农炮和箭塔合体后会变成什么建筑呢？答：[复合机械塔](/upgrade/0317-Multi-Gear-Tower)。
+- 2025/02 更新后，部分部队的训练时间降低，不同兵种的 [相对训练速度](/p/596) 是什么样的？
 - 长老也可以发起都城突袭（详见：[部落中各职位的权限](/p/6654)）。
 
 </div>
@@ -103,11 +103,12 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
-- 最新发布：
-    - 新攻城机器：[部队发射器](/upgrade/0247-Troop-Launcher)
-    - 新防御：[复合机械塔](/upgrade/0317-Multi-Gear-Tower)
-    - 新帮手：[炼金术士](/upgrade/0802-Alchemist)
-    - 新装备：[铁甲短裤](/upgrade/0722-Metal-Pants)、[灵蛇手镯](/upgrade/0706-Snake-Bracelet)
+- 新攻城机器：[部队发射器](/upgrade/0247-Troop-Launcher)
+- 新防御：[复合机械塔](/upgrade/0317-Multi-Gear-Tower)
+- 新帮手：[炼金术士](/upgrade/0802-Alchemist)
+- 新装备：[铁甲短裤](/upgrade/0722-Metal-Pants)、[灵蛇手镯](/upgrade/0706-Snake-Bracelet)
+- 新文章：[浅谈攻城机器的一些基础设定](/p/6912)
+- 每逢更新都有问的：[为什么网站里下载的 coc 安装包不能用？](/p/6903)
 
 </div>
 </div>
