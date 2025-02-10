@@ -2,7 +2,7 @@
 title: "部落冲突 coc 炼金术士升级数据"
 navTitle: "炼金术士"
 shownTitle: "炼金术士"
-description: ""
+description: "炼金术士可以将资源转换为不同类型！她每天工作一次，升级炼金术士可提高她的工作效率！"
 module: upgrade-home
 imgFolder: home_tech/0802
 wiki: https://clashofclans.fandom.com/wiki/Alchemist
@@ -45,3 +45,12 @@ const tableExtraInfo = [
 |   6  |          750 万          |         5 万        |  109% |  1500   |     16      |
 |   7  |         1050 万          |         7 万        |  110% |  1500   |     17      |
 </UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
+
+<Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>新角色：炼金术士，11 本可解锁。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem :historyBottom="true" />
+</Timeline>

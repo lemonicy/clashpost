@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Giant_Gauntlet
 canonical: /upgrade/0704-Giant-Gauntlet
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giant_Gauntlet_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giant_Gauntlet_info.png" :imgAlt="$frontmatter.navTitle" description="野蛮人之王体型变大，可造成范围伤害且减少所受伤害。" />
 
 <SmallTitle>说明</SmallTitle>
 

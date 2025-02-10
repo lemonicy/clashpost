@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Spiky_Ball
 canonical: /upgrade/0705-Spiky-Ball
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spiky_Ball_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spiky_Ball_info.png" :imgAlt="$frontmatter.navTitle" description="发射一个尖刺足球，可在建筑之间弹射并造成伤害。" />
 
 <SmallTitle>说明</SmallTitle>
 

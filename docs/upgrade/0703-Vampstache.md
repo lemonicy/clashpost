@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Vampstache
 canonical: /upgrade/0703-Vampstache
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Vampstache_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Vampstache_info.png" :imgAlt="$frontmatter.navTitle" description="野蛮人之王每次攻击都会治疗自身" />
 
 <SmallTitle>说明</SmallTitle>
 

@@ -11,9 +11,9 @@ robots: index, nofollow
 import { showDialog } from '@/components/dialog/Dialog.vue';
 import { generateToast } from '@/components/dialog/Toast.vue';
 
-const apkVersion = "16.654.16";
-const apkUploadDate = "2024-12-14";
-const apkFileName = "coc正式服_v16.654.16_wQI4Foi8g4BW3Ny5.apk";
+const apkVersion = "17.18.5";
+const apkUploadDate = "2025-02-10";
+const apkFileName = "Clash_of_Clans_v17.18.5_Wvpqs7EbiuPjLB8S.apk";
 
 function downloadCocApk() {
     window.location.href = "https://static.clashpost.com/download/" + encodeURI(apkFileName);
@@ -23,9 +23,9 @@ function downloadCocApk() {
     });
 }
 
-const installerVersion = "1.7.1";
-const installerUploadDate = "2024-08-31";
-const installerFileName = "APKMirror_Installer_v1.7.1.apk";
+const installerVersion = "1.8.3";
+const installerUploadDate = "2025-01-07";
+const installerFileName = "APKMirror_Installer_v1.8.3.apk";
 
 function downloadXapkInstaller() {
     window.location.href = "https://static.clashpost.com/download/" + encodeURI(installerFileName);
@@ -54,14 +54,14 @@ function downloadXapkInstaller() {
 今天我宣布一个好消息，因为国外的商业带宽比较便宜，所以网站服务器迁移到国外之后运营成本有所下降，就算是开放直接下载也支付得起，因此我们决定让利用户，回归直接下载功能！当然也因为网站服务器在国外，我们不保证国内用户的速度。
 
 <div id="apk-download-btn-container">
-    <!-- <button id="apk-download-btn" class="btn-primary" @click="downloadCocApk">
+    <button id="apk-download-btn" class="btn-primary" @click="downloadCocApk">
         <p id="apk-download-text">点击下载安装包</p>
         <p>版本 {{ apkVersion }}，更新于 {{ apkUploadDate }}</p>
-    </button> -->
-    <button id="apk-download-btn" class="btn-primary" disabled>
+    </button>
+    <!-- <button id="apk-download-btn" class="btn-primary" disabled>
         <p id="apk-download-text">游戏即将更新</p>
         <p>旧版本下载渠道暂时关闭</p>
-    </button>
+    </button> -->
     <!-- <button id="apk-download-btn" class="btn-secondary" @click="downloadXapkInstaller">
         <p id="apk-download-text">点击下载安装工具</p>
         <p>版本 {{ installerVersion }}，更新于 {{ installerUploadDate }}</p>

@@ -2,7 +2,7 @@
 title: "部落冲突 coc 部队发射器升级数据"
 navTitle: "部队发射器"
 shownTitle: "部队发射器"
-description: ""
+description: "这是一台无法移动的机器，它会向友军发射装满部队和部落城堡援军的飞桶，为他们提供支援。每个飞桶可容纳多个单位，包括一个部落城堡援军。飞桶数量有限，一定要充分发挥它们的作用！"
 module: upgrade-home
 imgFolder: home_tech/0247
 wiki: https://clashofclans.fandom.com/wiki/Troop_Launcher

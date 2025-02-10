@@ -2,7 +2,7 @@
 title: "部落冲突 coc 复合机械塔升级数据"
 navTitle: "复合机械塔"
 shownTitle: "复合机械塔"
-description: ""
+description: "复合机械塔是两种经典防御建筑的强力结合体！选择适合您的攻击模式，释放毁灭之力！可攻击空中和地面单位。"
 module: upgrade-home
 imgFolder: home_buildings/0317
 wiki: https://clashofclans.fandom.com/wiki/Multi-Gear_Tower
@@ -34,11 +34,11 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 - *如想查看合并前的建筑，请移步：[加农炮](/upgrade/0301-Cannon)、[箭塔](/upgrade/0302-Archer-Tower)。*
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
-    <SwitchTab tabId="cp-unit-item-0" :activeTab="true">长距离攻击模式</SwitchTab>
+    <SwitchTab tabId="cp-unit-item-0" :activeTab="true">远程攻击模式</SwitchTab>
     <SwitchTab tabId="cp-unit-item-1">快速攻击模式</SwitchTab>
 </SwitchTabs>
 
-<!-- ↓↓↓ 长距离攻击模式 ↓↓↓ -->
+<!-- ↓↓↓ 远程攻击模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Gear_Tower2_LongRange_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
@@ -65,7 +65,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
     - 合并一旦开始就无法取消。
     - 如果你的加农炮或箭塔未改装，则无法合并。
     - 升本前必须合并完所有可以合并的建筑。
-2. 复合机械塔有两种模式，长距离攻击模式和快速攻击模式。其中长距离攻击模式的射程更远，但伤害略低，且攻速较慢（伤害溢出高）；快速攻击模式攻速快（伤害溢出低）、伤害高，但射程较近。
+2. 复合机械塔有两种模式，远程攻击模式和快速攻击模式。其中远程攻击模式的射程更远，但伤害略低，且攻速较慢（伤害溢出高）；快速攻击模式攻速快（伤害溢出低）、伤害高，但射程较近。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -116,7 +116,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
     - 合并一旦开始就无法取消。
     - 如果你的加农炮或箭塔未改装，则无法合并。
     - 升本前必须合并完所有可以合并的建筑。
-2. 复合机械塔有两种模式，长距离攻击模式和快速攻击模式。其中长距离攻击模式的射程更远，但伤害略低，且攻速较慢（伤害溢出高）；快速攻击模式攻速快（伤害溢出低）、伤害高，但射程较近。
+2. 复合机械塔有两种模式，远程攻击模式和快速攻击模式。其中远程攻击模式的射程更远，但伤害略低，且攻速较慢（伤害溢出高）；快速攻击模式攻速快（伤害溢出低）、伤害高，但射程较近。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -141,3 +141,13 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 |   2  |     644     |   185   |  4200  |    23M  |    16   |                     |        17      |
 </UnitTable>
 </SwitchTabGroup>
+
+<!-- ↓↓↓ 公共部分 ↓↓↓ -->
+<SmallTitle>更新历史</SmallTitle>
+
+<Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>在 17 本新增复合机械塔。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem :historyBottom="true" />
+</Timeline>

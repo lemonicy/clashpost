@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Metal_Pants
 canonical: /upgrade/0722-Metal-Pants
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Metal_Pants_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Metal_Pants_info.png" :imgAlt="$frontmatter.navTitle" description="生成一层防护屏障，暂时减少所受伤害。"  />
 
 <SmallTitle>说明</SmallTitle>
 
