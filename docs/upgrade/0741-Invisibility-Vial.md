@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Invisibility_Vial
 canonical: /upgrade/0741-Invisibility-Vial
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Invisibility_Vial_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Invisibility_Vial_info.png" :imgAlt="$frontmatter.navTitle" description="使弓箭女皇隐身并强化其攻击。" />
 
 <SmallTitle>说明</SmallTitle>
 

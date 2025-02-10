@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Rage_Gem
 canonical: /upgrade/0782-Rage-Gem
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Rage_Gem_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Rage_Gem_info.png" :imgAlt="$frontmatter.navTitle" description="附近友军单位会造成额外伤害。" />
 
 <SmallTitle>说明</SmallTitle>
 

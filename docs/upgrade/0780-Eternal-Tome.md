@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Eternal_Tome
 canonical: /upgrade/0780-Eternal-Tome
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Eternal_Tome_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Eternal_Tome_info.png" :imgAlt="$frontmatter.navTitle" description="大守护者和附近所有友军单位免疫伤害。" />
 
 <SmallTitle>说明</SmallTitle>
 

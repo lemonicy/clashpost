@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Giant_Arrow
 canonical: /upgrade/0742-Giant-Arrow
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giant_Arrow_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giant_Arrow_info.png" :imgAlt="$frontmatter.navTitle" description="发射一支穿透力极强的巨大箭矢，穿过整个村庄。" />
 
 <SmallTitle>说明</SmallTitle>
 

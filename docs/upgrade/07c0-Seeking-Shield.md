@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Seeking_Shield
 canonical: /upgrade/07c0-Seeking-Shield
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Seeking_Shield_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Seeking_Shield_info.png" :imgAlt="$frontmatter.navTitle" description="投掷盾牌，在防御建筑间弹跳并造成伤害。" />
 
 <SmallTitle>说明</SmallTitle>
 

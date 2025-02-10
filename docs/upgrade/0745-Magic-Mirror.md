@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Magic_Mirror
 canonical: /upgrade/0745-Magic-Mirror
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Magic_Mirror_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Magic_Mirror_info.png" :imgAlt="$frontmatter.navTitle" description="召唤弓箭女皇的克隆体。" />
 
 <SmallTitle>说明</SmallTitle>
 

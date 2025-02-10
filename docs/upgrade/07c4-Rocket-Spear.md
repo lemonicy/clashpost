@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Rocket_Spear
 canonical: /upgrade/07c4-Rocket-Spear
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Rocket_Spear_info.png" :imgAlt="$frontmatter.navTitle" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Rocket_Spear_info.png" :imgAlt="$frontmatter.navTitle" description="她接下来几次投掷的飞矛威力更强，范围更远。" />
 
 <SmallTitle>说明</SmallTitle>
 
