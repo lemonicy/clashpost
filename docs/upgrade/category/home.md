@@ -204,6 +204,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="跳弹加农炮" imgSrc="0313/Ricochet_Cannon3.png" link="0313-Ricochet-Cannon" />
         <ListItem name="多人箭塔" imgSrc="0314/Multi-Archer_Tower3.png" link="0314-Multi-Archer-Tower" />
         <ListItem name="火焰喷射器" imgSrc="0316/Firespitter2.png" link="0316-Firespitter" />
+        <ListItem name="复合机械塔" imgSrc="0317/Multi-Gear_Tower2_LongRange.png" link="0317-Multi-Gear-Tower" />
     </ListItems>
     <ListItems title="陷阱" imgFolder="home_buildings">
         <ListItem name="隐形炸弹" imgSrc="0380/Bomb13.png" link="0380-Bomb" />

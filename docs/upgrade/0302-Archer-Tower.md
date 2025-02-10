@@ -32,6 +32,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 </script>
 
 - *如想查看由两个箭塔合成的多人箭塔，请访问 [多人箭塔](/upgrade/0314-Multi-Archer-Tower)。*
+- *如想查看由一个加农炮和一个箭塔合成的建筑，请访问：[复合机械塔]( /upgrade/0317-Multi-Gear-Tower)。*
 - *如想查看夜世界的箭塔，请访问：[夜世界箭塔](/upgrade/1102-Archer-Tower)。*
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">

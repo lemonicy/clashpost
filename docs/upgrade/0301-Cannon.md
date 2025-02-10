@@ -32,6 +32,7 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
 </script>
 
 - *如想查看由两个加农炮合成的跳弹加农炮，请访问 [跳弹加农炮](/upgrade/0313-Ricochet-Cannon)。*
+- *如想查看由一个加农炮和一个箭塔合成的建筑，请访问：[复合机械塔]( /upgrade/0317-Multi-Gear-Tower)。*
 - *如想查看夜世界的加农炮，请访问：[夜世界加农炮](/upgrade/1100-Cannon)。*
 - *如想查看都城的加农炮，请访问：[都城加农炮](/upgrade/2201-Cannon)。*
 
@@ -105,6 +106,7 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="射程" pValue="9 格" />
     <UnitProperty pKey="攻速" pValue="0.8 秒 1 发<sup>*</sup>" />
     <UnitProperty pKey="改装所需加农炮等级" pValue="7" />
@@ -114,7 +116,7 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="改装费用" pValue="1.5M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
 </UnitProperties>
 
-\* 加农炮改装前（标准模式）的攻速是 0.8 秒一次，改装后（连发模式）是 2.3 秒一轮。在连发模式下，4 连发期间每发 0.192 秒，之后停顿 1.76 秒。如果目标在双管还没打完 4 连发之前死亡， 导致双管没有发射全部 4 发炮弹时，每发没有射出去的炮弹会减少 0.2 秒攻击间隔。这里的 2.3 是这么算的：0.192 * (4 - 1) + 1.76 = 2.336 (秒) ≈ 2.3 (秒)。
+\* 加农炮改装前（标准模式）的攻速是 0.8 秒一次，改装后（连发模式）是 2.3 秒一轮。在连发模式下，4 连发期间每发 0.192 秒，之后停顿 1.76 秒。如果目标在加农炮还没打完 4 连发之前死亡， 导致加农炮没有发射全部 4 发炮弹时，每发没有射出去的炮弹会减少 0.2 秒攻击间隔。这里的 2.3 是这么算的：0.192 * (4 - 1) + 1.76 = 2.336 (秒) ≈ 2.3 (秒)。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -186,6 +188,7 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="射程" pValue="7 格 " />
     <UnitProperty pKey="攻速" pValue="2.3 秒 4 发<sup>*</sup>" />
     <UnitProperty pKey="改装所需加农炮等级" pValue="7" />
@@ -195,7 +198,7 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="改装费用" pValue="1.5M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
 </UnitProperties>
 
-\* 加农炮改装前（标准模式）的攻速是 0.8 秒一次，改装后（连发模式）是 2.3 秒一轮。在连发模式下，4 连发期间每发 0.192 秒，之后停顿 1.76 秒。如果目标在双管还没打完 4 连发之前死亡， 导致双管没有发射全部 4 发炮弹时，每发没有射出去的炮弹会减少 0.2 秒攻击间隔。这里的 2.3 是这么算的：0.192 * (4 - 1) + 1.76 = 2.336 (秒) ≈ 2.3 (秒)。
+\* 加农炮改装前（标准模式）的攻速是 0.8 秒一次，改装后（连发模式）是 2.3 秒一轮。在连发模式下，4 连发期间每发 0.192 秒，之后停顿 1.76 秒。如果目标在加农炮还没打完 4 连发之前死亡， 导致加农炮没有发射全部 4 发炮弹时，每发没有射出去的炮弹会减少 0.2 秒攻击间隔。这里的 2.3 是这么算的：0.192 * (4 - 1) + 1.76 = 2.336 (秒) ≈ 2.3 (秒)。
 
 <SmallTitle>升级数据</SmallTitle>
 

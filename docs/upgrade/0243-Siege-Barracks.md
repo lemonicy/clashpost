@@ -44,7 +44,7 @@ canonical: /upgrade/0243-Siege-Barracks
 <UnitProperties>
     <UnitProperty pKey="攻击方式" pValue="部署后生成额外部队" />
     <UnitProperty pKey="部队最长生存时间" pValue="30 秒" />
-    <UnitProperty pKey="移动速度" pValue="0" />
+    <UnitProperty pKey="移动速度" pValue="0 (无法移动)" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
     <UnitProperty pKey="建造时间" pValue="1200" trainingSystem="2022" />
