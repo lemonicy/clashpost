@@ -27,7 +27,7 @@ canonical: /upgrade/000a-Baby-Dragon
         <UnitImg imgTitle="8 级" imgSrc="Baby_Dragon8.png" />
         <UnitImg imgTitle="9 级" imgSrc="Baby_Dragon9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Baby_Dragon10.png" />
-        <!-- <UnitImg imgTitle="11 级" imgSrc="Baby_Dragon11.png" /> -->
+        <UnitImg imgTitle="11 级" imgSrc="Baby_Dragon11.png" />
     </UnitImgGroup>
 </Panel>
 

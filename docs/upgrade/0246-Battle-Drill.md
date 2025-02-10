@@ -19,7 +19,7 @@ canonical: /upgrade/0246-Battle-Drill
         <UnitImg imgTitle="2 级" imgSrc="Battle_Drill2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Battle_Drill3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Battle_Drill4.png" />
-        <!-- <UnitImg imgTitle="5 级" imgSrc="Battle_Drill5.png" /> -->
+        <UnitImg imgTitle="5 级" imgSrc="Battle_Drill5.png" />
     </UnitImgGroup>
 </Panel>
 

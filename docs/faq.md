@@ -30,11 +30,8 @@ hasUpdateTime: false
     <p>以前是可以投放的，现在不能了。</p>
     <p>考虑到 coc 行将就木，网站也不再积极维护，放广告是浪费广告商的钱，同时也会消耗网站的口碑（没人买产品的话花了钱的广告商怎么想），还不如不接广告。</p>
 </Panel>
-<Panel title="模拟器打不开新版本的安装包怎么办？">
-    <p>每次更新都有人反馈这个，不过我们也没啥好办法，我们能给的建议就是不要把鸡蛋全都放一个篮子里。如果是主号，那就在手机上也留下登录方式，并绑定
-        <a href="/p/3114">Supercell ID</a>；如果是小号，那就把登录方式分散到多个品牌的模拟器中，尽量保证打联赛的时候能随时调用几个号进攻。</p>
-    <p>官方一直不待见模拟器（参见 <a href="https://supercell.com/en/terms-of-service/cn/" target="_blank" rel="nofollow noreferrer">Supercell 的服务条款</a>），每次更新都会有一批模拟器进不去，这属于正常现象，你可以去模拟器那边反馈，然后等他们做技术攻关，过一段时间更新一下模拟器版本应该就可以了。如果你急着进游戏，也可以试试其他的模拟器，多试几个总有能用的。</p>
-<Pic src="/p/6605/IMG_1115.png" width="1170" height="2532" alt="" maxWidth="390px" />
+<Panel title="网站下载的安装包不能用怎么办？">
+    <p>请参考这篇文章：<a href="/p/6903" target="_blank" rel="nofollow noreferrer">网站里下载的 coc 安装包不能用，可能是什么造成的？</a></p>
 </Panel>
 <Panel title="Discord 群为什么把我踢了？">
     Discord 群会不定期清理长时间不上线的成员。清理死鱼时不会拉黑，你可以使用下方的链接再次加入。
