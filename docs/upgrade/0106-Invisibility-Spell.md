@@ -55,15 +55,18 @@ const tableExtraInfo = [
 
 | 等级 | 法术持续时间 | 升级花费 |  升级时间  | 所需实验室等级 | 所需大本等级 |
 | ---- |     ----    |   ----  |    ----   |      ----     |     ----    |
-|   1  |   3.75 秒   |     \   |     \     |        1      |      11     |
-|   2  |      4 秒   |    5M   |    4      |        9      |      11     |
-|   3  |   4.25 秒   |    6M   |    4,12   |       10      |      12     |
-|   4  |    4.5 秒   |    7M   |    7      |       11      |      13     |
+|   1  |    3.5 秒   |     \   |     \     |        1      |      11     |
+|   2  |   3.75 秒   |    5M   |    4      |        9      |      11     |
+|   3  |      4 秒   |    6M   |    4,12   |       10      |      12     |
+|   4  |   4.25 秒   |    7M   |    7      |       11      |      13     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>所有等级隐形法术的持续时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 4 级隐形法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
