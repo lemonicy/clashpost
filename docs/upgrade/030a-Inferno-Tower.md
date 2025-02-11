@@ -127,7 +127,7 @@ const tableExtraInfoMultiMode = [
 |   2  |       35      |        100        |         1000       |  1800  |     2M  |   2,12  |                     |       10       |
 |   3  |       40      |        120        |         1200       |  2100  |     3M  |   3     |                     |       10       |
 |   4  |       45      |        140        |         1400       |  2400  |   3.4M  |   4     |                     |       11       |
-|   5  |       50      |        150        |         1500       |  2700  |   4.2M  |   5     |                     |       11       |
+|   5  |       50      |        150        |         1500       |  2700  |     4M  |   3     |                     |       11       |
 |   6  |       55      |        160        |         1600       |  3000  |   6.5M  |   6     |                     |       12       |
 |   7  |       65      |        180        |         1800       |  3300  |     8M  |   7     |                     |       13       |
 |   8  |       80      |        210        |         2100       |  3700  |    11M  |   9     |                     |       14       |
@@ -209,7 +209,7 @@ const tableExtraInfoMultiMode = [
 |   2  |    35   |     5   |  1800  |     2M  |   2,12  |                     |       10       |
 |   3  |    40   |     5   |  2100  |     3M  |   3     |                     |       10       |
 |   4  |    45   |     5   |  2400  |   3.4M  |   4     |                     |       11       |
-|   5  |    50   |     5   |  2700  |   4.2M  |   5     |                     |       11       |
+|   5  |    50   |     5   |  2700  |     4M  |   3     |                     |       11       |
 |   6  |    55   |     5   |  3000  |   6.5M  |   6     |                     |       12       |
 |   7  |    65   |     5   |  3300  |     8M  |   7     |                     |       13       |
 |   8  |    80   |     6   |  3700  |    11M  |   9     |                     |       14       |
@@ -224,6 +224,10 @@ const tableExtraInfoMultiMode = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>5 级地狱之塔的升级时间减少。</TimelineRow>
+        <TimelineRow>5 级地狱之塔的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>4、6 ~ 10 级地狱之塔的升级时间减少。</TimelineRow>
         <TimelineRow>7 ~ 10 级地狱之塔的升级费用降低。</TimelineRow>

@@ -12,9 +12,9 @@ import Close from '@/components/icon/Close.vue';
 const notificationCountIconRef = ref(0);
 const searchProviderRef = ref();
 
-const hasNotification = false;
+const hasNotification = true;
 const notificationCount = 1;
-const currentNotificationId = 4;
+const currentNotificationId = 5;
 
 // 显示通知弹窗
 function showNotificationDialog() {
@@ -252,7 +252,7 @@ onBeforeUnmount(() => {
         </nav>
     </div>
     <Dialog dialogId="cp-notification-dialog" title="通知" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了">
-        <p>暂无通知</p>
+        <p>二月更新后，高等级建筑的升级时间和升级费用不一定高于低等级建筑的，比如 5 级箭塔的升级时间是 4 小时，6 级反倒减少到了 2 小时。游戏设计如此，并不是网站写错了。</p>
     </Dialog>
     <Dialog dialogId="cp-search-dialog" title="搜索 (Ctrl + k)" :hasSecondaryBtn="true" :hasPrimaryBtn="true"
         primaryText="开始搜索" secondaryText="关闭窗口" :hasClickPrimaryEvent="true" :hasClickSecondaryEvent="true"

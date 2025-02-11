@@ -9,6 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Minion_Prince
 canonical: /upgrade/0204-Minion-Prince
 ---
 
+- *如想查看亡灵王子的创作原型，请访问：[亡灵](/upgrade/0080-Minion)。*
+
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Minion_Prince_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>重要说明</SmallTitle>

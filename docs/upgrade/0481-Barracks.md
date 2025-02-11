@@ -85,9 +85,9 @@ const tableExtraInfo = [
 | 等级 |  生命值 | 升级费用 |  升级时间  |升级后可获<br>得的经验| 所需<br>大本等级 | 解锁的兵种 |
 | ---- |   ---  |   ----  |     ---    |         ---        |       ---       |    ---    |
 |    1 |   250  |    100  |  0,0, 0,10 |                    |         1       |<a href="/upgrade/0000-Barbarian">野蛮人</a>|
-|    2 |   290  |    500  |  0,0, 1    |                    |  1<sup>#</sup>  |<a href="/upgrade/0001-Archer">弓箭手</a>|
-|    3 |   330  |   2500  |  0,0,10    |                    |  1<sup>#</sup>  |<a href="/upgrade/0002-Giant">巨人</a>|
-|    4 |   370  |   5000  |  0, 1      |                    |         2       |<a href="/upgrade/0003-Goblin">哥布林</a>|
+|    2 |   290  |    500  |  0,0, 0,30 |                    |  1<sup>#</sup>  |<a href="/upgrade/0001-Archer">弓箭手</a>|
+|    3 |   330  |   2500  |  0,0, 5    |                    |  1<sup>#</sup>  |<a href="/upgrade/0002-Giant">巨人</a>|
+|    4 |   370  |   5000  |  0,0,30    |                    |         2       |<a href="/upgrade/0003-Goblin">哥布林</a>|
 |    5 |   420  |    20k  |  0, 4      |                    |         3       |<a href="/upgrade/0004-Wall-Breaker">炸弹人</a>|
 |    6 |   470  |   120k  |  0,12      |                    |         4       |<a href="/upgrade/0005-Balloon">气球兵</a>|
 |    7 |   520  |   270k  |  0,18      |                    |         5       |<a href="/upgrade/0006-Wizard">法师</a>|
@@ -109,6 +109,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>2 ~ 4 级训练营的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 16 本新增 18 级训练营。</TimelineRow>    
         <TimelineRow>5、11 ~ 17 级训练营的升级时间减少。</TimelineRow>

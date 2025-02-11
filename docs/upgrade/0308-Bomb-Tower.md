@@ -85,7 +85,7 @@ const tableExtraInfo = [
 |   3  |    32   |   35.2  |         220        |   750  |   1.6M  |    1,12   |                     |        9       |
 |   4  |    40   |   44    |         260        |   850  |     2M  |    2      |                     |       10       |
 |   5  |    48   |   52.8  |         300        |  1050  |   2.8M  |    2,12   |                     |       11       |
-|   6  |    56   |   61.6  |         350        |  1300  |     3M  |    3      |                     |       11       |
+|   6  |    56   |   61.6  |         350        |  1300  |     2M  |    2      |                     |       11       |
 |   7  |    64   |   70.4  |         400        |  1600  |     6M  |    4      |                     |       12       |
 |   8  |    72   |   79.2  |         450        |  1900  |     7M  |    4,12   |                     |       13       |
 |   9  |    84   |   92.4  |         500        |  2300  |     8M  |    5      |                     |       14       |
@@ -99,6 +99,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>6 级炸弹塔的升级时间减少。</TimelineRow>
+        <TimelineRow>6 级炸弹塔的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 12 级炸弹塔。</TimelineRow>
         <TimelineRow>5、7 ~ 11 级炸弹塔的升级时间减少。</TimelineRow>

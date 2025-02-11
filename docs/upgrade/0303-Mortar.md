@@ -8,6 +8,7 @@ imgFolder: home_buildings/0303
 wiki: https://clashofclans.fandom.com/wiki/Mortar
 canonical: /upgrade/0303-Mortar
 ---
+
 <script setup>
 const tableExtraInfoStandardMode = [
     {
@@ -116,15 +117,16 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 |   7  |    15   |    75   |   700  |   1.3M  |   1       |                     |        9       |
 |   8  |    20   |   100   |   800  |   1.9M  |   1,12    |                     |       10       |
 |   9  |    25   |   125   |   950  |   2.5M  |   1,18    |                     |       11       |
-|  10  |    30   |   150   |  1100  |   3.5M  |   2       |                     |       11       |
+|  10  |    30   |   150   |  1100  |     3M  |   1       |                     |       11       |
 |  11  |    35   |   175   |  1300  |     4M  |   2,12    |                     |       12       |
-|  12  |    38   |   190   |  1500  |   4.8M  |   3       |                     |       12       |
+|  12  |    38   |   190   |  1500  |   4.5M  |   1,12    |                     |       12       |
 |  13  |    42   |   210   |  1700  |     5M  |   3,12    |                     |       13       |
 |  14  |    48   |   240   |  1950  |   6.5M  |   4       |                     |       14       |
 |  15  |    54   |   270   |  2150  |   8.5M  |   4,12    |                     |       15       |
 |  16  |    60   |   300   |  2300  |  14.6M  |  10       |                     |       16       |
-| ⚡1  |    63   |   315   |  2300  |   4.1M  |   2,12    |                     |       16       |
-| ⚡2  |    63   |   315   |  2375  |   2.5M  |   3,12    |                     |       16       |
+|  17  |    66   |   330   |  2450  |  19.5M  |  14,12    |                     |       17       |
+| ⚡1  |    69   |   345   |  2450  |   7.5M  |   3,12    |                     |       17       |
+| ⚡2  |    69   |   345   |  2525  |     5M  |   5,12    |                     |       17       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -183,15 +185,16 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 | ---- |   ---   |   ---   |   ---  |   ---   |    ---    |        ---          |       ---      |
 |   8  |    22   |   37    |   800  |  1.9M   |   1,12    |                     |       10       |
 |   9  |    28   |   47    |   950  |  2.5M   |   1,18    |                     |       11       |
-|  10  |    33   |   56    |  1100  |  3.5M   |   2       |                     |       11       |
+|  10  |    33   |   56    |  1100  |    3M   |   1       |                     |       11       |
 |  11  |    38   |   64    |  1300  |    4M   |   2,12    |                     |       12       |
-|  12  |    41   |   70    |  1500  |  4.8M   |   3       |                     |       12       |
+|  12  |    41   |   70    |  1500  |  4.5M   |   1,12    |                     |       12       |
 |  13  |    46   |   77    |  1700  |    5M   |   3,12    |                     |       13       |
 |  14  |    52   |   88    |  1950  |  6.5M   |   4       |                     |       14       |
 |  15  |    59   |   99    |  2150  |  8.5M   |   4,12    |                     |       15       |
 |  16  |    65   |  110    |  2300  | 14.6M   |  10       |                     |       16       |
-| ⚡1  |    68   |   113   |  2300  |   4.1M  |   2,12    |                     |       16       |
-| ⚡2  |    68   |   113   |  2375  |   2.5M  |   3,12    |                     |       16       |
+|  17  |    72   |  121    |  2450  | 19.5M   |  14,12    |                     |       16       |
+| ⚡1  |    75   |   126   |  2450  |   7.5M  |   3,12    |                     |       17       |
+| ⚡2  |    75   |   126   |  2525  |     5M  |   5,12    |                     |       17       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -201,6 +204,11 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>在 17 本新增 17 级迫击炮。</TimelineRow>
+        <TimelineRow>10、12 级迫击炮的升级时间减少。</TimelineRow>
+        <TimelineRow>10、12 级迫击炮的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>9 ~ 16 级迫击炮的升级时间减少。</TimelineRow>
         <TimelineRow>11 ~ 16 级迫击炮的升级费用降低。</TimelineRow>
