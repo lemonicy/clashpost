@@ -81,7 +81,7 @@ const tableExtraInfo = [
 |   5  |   208   |   1.1M  |    0,12   |                     |     11      |
 |   6  |   232   |   1.9M  |    1      |                     |     12      |
 |   7  |   252   |     2M  |    2      |                     |     13      |
-|   8  |   280   |   2.6M  |    2,12   |                     |     13      |
+|   8  |   280   |   1.5M  |    1      |                     |     13      |
 |   9  |   325   |     4M  |    3      |                     |     14      |
 |  10  |   350   |     5M  |    4      |                     |     15      |
 |  11  |   375   |   7.5M  |    7      |                     |     16      |
@@ -91,6 +91,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>8 级空中炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>8 级空中炸弹的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 12 级空中炸弹。</TimelineRow>
         <TimelineRow>4 ~ 11 级空中炸弹的升级时间减少。</TimelineRow>

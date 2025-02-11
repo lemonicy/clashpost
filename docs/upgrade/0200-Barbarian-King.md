@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Barbarian_King
 canonical: /upgrade/0200-Barbarian-King
 ---
 
-- *如想查看以野蛮人之王的创作原型，请访问：[野蛮人](/upgrade/0000-Barbarian)。*
+- *如想查看野蛮人之王的创作原型，请访问：[野蛮人](/upgrade/0000-Barbarian)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Barbarian_King_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

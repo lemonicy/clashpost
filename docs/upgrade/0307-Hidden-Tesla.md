@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Hidden_Tesla
 canonical: /upgrade/0307-Hidden-Tesla
 ---
 
-- *如想查看12 本的自带武器，请访问 [巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
+- *如想查看 12 本的自带武器，请访问 [巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
 - *如想查看夜世界的特斯拉电磁塔，请访问：[夜世界特斯拉电磁塔](/upgrade/1103-Hidden-Tesla)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Tesla15.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
@@ -85,25 +85,31 @@ const tableExtraInfo = [
 |   1  |    34   |   20.4  |   600  |  250k   |   0, 2    |                     |        7       |
 |   2  |    40   |   24    |   630  |  350k   |   0, 3    |                     |        7       |
 |   3  |    48   |   28.8  |   660  |  520k   |   0, 5    |                     |        7       |
-|   4  |    55   |   33    |   690  |  800k   |   0,12    |                     |        8       |
-|   5  |    64   |   38.4  |   730  |    1M   |   0,18    |                     |        8       |
+|   4  |    55   |   33    |   690  |  800k   |   0, 6    |                     |        8       |
+|   5  |    64   |   38.4  |   730  |    1M   |   0,12    |                     |        8       |
 |   6  |    75   |   45    |   770  |  1.2M   |   1       |                     |        8       |
 |   7  |    87   |   52.2  |   810  |  1.5M   |   1,12    |                     |        9       |
 |   8  |    99   |   59.4  |   850  |  1.6M   |   2       |                     |       10       |
 |   9  |   110   |   66    |   900  |  2.5M   |   3       |                     |       11       |
 |  10  |   120   |   72    |   980  |    5M   |   3,12    |                     |       12       |
 |  11  |   130   |   78    |  1100  |  5.5M   |   4       |                     |       13       |
-|  12  |   140   |   84    |  1200  |    6M   |   4, 6    |                     |       13       |
+|  12  |   140   |   84    |  1200  |    4M   |   3       |                     |       13       |
 |  13  |   150   |   90    |  1350  |    7M   |   5       |                     |       14       |
 |  14  |   160   |   96    |  1450  |   10M   |   6       |                     |       15       |
 |  15  |   170   |  102    |  1550  | 15.5M   |  10,12    |                     |       16       |
-| ⚡1  |   175   |  105    |  1550  |    6M   |   2, 6    |                     |       16       |
-| ⚡2  |   175   |  105    |  1600  |    3M   |   3,18    |                     |       16       |
+|  16  |   180   |  108    |  1650  | 20.5M   |  15       |                     |       17       |
+| ⚡1  |   185   |  111    |  1650  |   10M   |   4       |                     |       17       |
+| ⚡2  |   185   |  111    |  1700  |    6M   |   6       |                     |       17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>17 本新增 16 级特斯拉电磁塔。</TimelineRow>
+        <TimelineRow>4、5、12 级特斯拉电磁塔的升级时间减少。</TimelineRow>
+        <TimelineRow>12 级特斯拉电磁塔的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>7 ~ 8、11 ~ 15 级特斯拉电磁塔的升级时间减少。</TimelineRow>
         <TimelineRow>11 ~ 15 级特斯拉电磁塔的升级费用降低。</TimelineRow>

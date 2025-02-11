@@ -50,7 +50,7 @@ canonical: /upgrade/0300-Walls
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="1×1" />
-    <UnitProperty pKey="18 级城墙最高可升级" pValue="100 块" />
+    <UnitProperty pKey="18 级城墙最高可升级" pValue="175 块" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -83,7 +83,7 @@ const tableExtraInfo = [
 
 | 等级 | 生命值 | 升级费用 | 升级费用 | 升级所需<br>戒指数量 | 所需<br>大本等级 |
 | ---- |  ---  |   ---   |    ---   |         ---        |       ---       |
-|   1  |   300 |    50   |     \    |          \         |        2        |
+|   1  |   300 |     0   |     \    |          \         |        2        |
 |   2  |   500 |    1k   |     \    |          1         |        2        |
 |   3  |   700 |    5k   |     \    |          1         |        3        |
 |   4  |   900 |   10k   |     \    |          1         |        4        |
@@ -108,6 +108,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>建造 1 级城墙不再需要费用。</TimelineRow>
+        <TimelineRow>17 本新解锁 75 块 18 级城墙（共 175 块）。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 18 级城墙，目前游戏只开放了 100 块 18 级城墙。</TimelineRow>
         <TimelineRow>16 ~ 17 级城墙的升级费用降低。</TimelineRow>

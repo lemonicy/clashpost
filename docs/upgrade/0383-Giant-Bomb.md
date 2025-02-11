@@ -84,7 +84,7 @@ const tableExtraInfo = [
 |   4  |   250   |   4 格  |   1.5M  |    0,12   |                    |       10      |
 |   5  |   275   |   4 格  |     2M  |    0,18   |                    |       11      |
 |   6  |   325   |   4 格  |   2.5M  |    1      |                    |       13      |
-|   7  |   375   |   4 格  |   3.5M  |    2      |                    |       13      |
+|   7  |   375   |   4 格  |     2M  |    0,12   |                    |       13      |
 |   8  |   400   |   4 格  |     4M  |    3      |                    |       14      |
 |   9  |   425   |   4 格  |     5M  |    4      |                    |       15      |
 |  10  |   450   |   4 格  |     9M  |    8      |                    |       16      |
@@ -94,6 +94,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>7 级巨型炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>7 级巨型炸弹的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 11 级巨型炸弹和新解锁一个巨型炸弹。</TimelineRow>
         <TimelineRow>3 ~ 7、9 ~ 10 级巨型炸弹的升级时间减少。</TimelineRow>

@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Archer_Queen
 canonical: /upgrade/0201-Archer-Queen
 ---
 
-- *如想查看以弓箭女皇的创作原型，请访问：[弓箭手](/upgrade/0001-Archer)。*
+- *如想查看弓箭女皇的创作原型，请访问：[弓箭手](/upgrade/0001-Archer)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Archer_Queen_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

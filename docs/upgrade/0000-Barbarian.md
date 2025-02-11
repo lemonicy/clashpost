@@ -71,7 +71,7 @@ const tableExtraInfo = [
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级花费 |  升级时间  |所需实验室等级|所需大本等级|
 | ---- |  ----   |  ----   |  ----  |   ----  |    ----   |    ----     |   ----    |
 |   1  |     8   |    8    |    45  |      \  |       \   |      1      |     1     |
-|   2  |    11   |   11    |    54  |    20k  |    0, 2   |      1      |     3     |
+|   2  |    11   |   11    |    54  |    20k  |    0, 1   |      1      |     3     |
 |   3  |    14   |   14    |    65  |    60k  |    0, 4   |      3      |     5     |
 |   4  |    18   |   18    |    85  |   200k  |    0, 6   |      5      |     7     |
 |   5  |    23   |   23    |   105  |   650k  |    0,12   |      6      |     8     |
@@ -87,6 +87,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>2 级野蛮人的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>3 ~ 7、9 ~ 12 级野蛮人的升级时间减少。</TimelineRow>
         <TimelineRow>9 ~ 12 级野蛮人的升级费用降低。</TimelineRow>
