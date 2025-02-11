@@ -76,11 +76,15 @@ const tableExtraInfo = [
 |   5  |           3          |  1400 |    10M   |    8    |                    |       13      |<a href="/upgrade/0244-Log-Launcher">攻城滚木车</a>|
 |   6  |           3          |  1500 |    14M   |    9    |                    |       14      |<a href="/upgrade/0245-Flame-Flinger">攻城烈焰车</a>|
 |   7  |           3          |  1600 |  15.3M   |   10    |                    |       15      |<a href="/upgrade/0246-Battle-Drill">攻城钻机</a>|
+|   8  |           3          |  1700 |    19M   |   12    |                    |       16      |<a href="/upgrade/0247-Troop-Launcher">部队发射器</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">  
+        <TimelineRow>16 本新增 8 级攻城机器工坊。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">  
         <TimelineRow>3 ~ 7 级攻城机器工坊的升级时间减少。</TimelineRow>
         <TimelineRow>1 ~ 3、7 级攻城机器工坊的升级费用降低。</TimelineRow>
