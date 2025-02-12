@@ -24,6 +24,7 @@ canonical: /upgrade/000b-Miner
         <UnitImg imgTitle="8 级" imgSrc="Miner8.png" />
         <UnitImg imgTitle="9 级" imgSrc="Miner9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Miner10.png" />
+        <!-- <UnitImg imgTitle="11 级" imgSrc="Miner11.png" /> -->
     </UnitImgGroup>
 </Panel>
 

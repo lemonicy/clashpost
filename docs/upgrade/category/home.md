@@ -191,16 +191,16 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="城墙" imgSrc="0300/Wall18.png" link="0300-Walls" />
         <ListItem name="加农炮" imgSrc="0301/Cannon21.png" link="0301-Cannon" />
         <ListItem name="箭塔" imgSrc="0302/Archer_Tower21.png" link="0302-Archer-Tower" />
-        <ListItem name="迫击炮" imgSrc="0303/Mortar16.png" link="0303-Mortar" />
+        <ListItem name="迫击炮" imgSrc="0303/Mortar17.png" link="0303-Mortar" />
         <ListItem name="防空火箭" imgSrc="0304/Air_Defense15.png" link="0304-Air-Defense" />
         <ListItem name="法师塔" imgSrc="0305/Wizard_Tower17.png" link="0305-Wizard-Tower" />
         <ListItem name="空气炮" imgSrc="0306/Air_Sweeper7.png" link="0306-Air-Sweeper" />
-        <ListItem name="特斯拉电磁塔" imgSrc="0307/Hidden_Tesla15.png" link="0307-Hidden-Tesla" />
+        <ListItem name="特斯拉电磁塔" imgSrc="0307/Hidden_Tesla16.png" link="0307-Hidden-Tesla" />
         <ListItem name="炸弹塔" imgSrc="0308/Bomb_Tower12.png" link="0308-Bomb-Tower" />
-        <ListItem name="X连弩" imgSrc="0309/X-Bow11.png" link="0309-X-Bow" />
+        <ListItem name="X连弩" imgSrc="0309/X-Bow12.png" link="0309-X-Bow" />
         <ListItem name="地狱之塔" imgSrc="030a/Inferno_Tower10.png" link="030a-Inferno-Tower" />
         <ListItem name="天鹰火炮" imgSrc="030b/Eagle_Artillery7.png" link="030b-Eagle-Artillery" />
-        <ListItem name="投石炮" imgSrc="030e/Scattershot5.png" link="030e-Scattershot" />
+        <ListItem name="投石炮" imgSrc="030e/Scattershot6.png" link="030e-Scattershot" />
         <ListItem name="法术塔" imgSrc="0311/Spell_Tower3_Rage.png" link="0311-Spell-Tower" />
         <ListItem name="巨石碑" imgSrc="0312/Monolith3.png" link="0312-Monolith" />
         <ListItem name="跳弹加农炮" imgSrc="0313/Ricochet_Cannon3.png" link="0313-Ricochet-Cannon" />

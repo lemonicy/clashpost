@@ -22,6 +22,7 @@ canonical: /upgrade/0007-Healer
         <UnitImg imgTitle="7 级" imgSrc="Healer7.png" />
         <UnitImg imgTitle="8 级" imgSrc="Healer8.png" />
         <UnitImg imgTitle="9 级" imgSrc="Healer9.png" />
+        <!-- <UnitImg imgTitle="10 级" imgSrc="Healer10.png" /> -->
     </UnitImgGroup>
 </Panel>
 
