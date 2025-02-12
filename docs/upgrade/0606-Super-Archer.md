@@ -48,17 +48,21 @@ canonical: /upgrade/0606-Super-Archer
 <UnitTable>
 
 | 等级 |  每秒伤害 | 每次伤害 | 生命值 |所需大本等级|
-| ---- |   ----   |   ----  |  ---- |    ----   |
+| ---- |   ----   |   ----  |   --- |    ----   |
 |   8  |    120   |   180   |   450 |     11    |
 |   9  |    132   |   198   |   510 |     12    |
 |  10  |    144   |   216   |   550 |     14    |
 |  11  |    156   |   234   |   575 |     15    |
 |  12  |    162   |   243   |   600 |     16    |
+|  13  |    166   |   249   |   625 |     17    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>17 本新增 13 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>11 ~ 12 级超级弓箭手的生命值降低。</TimelineRow>
     </TimelineItem>

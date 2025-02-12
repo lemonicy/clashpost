@@ -56,6 +56,7 @@ canonical: /upgrade/060c-Super-Bowler
 |   6  |    200    |    440    |  2000 |     14    |
 |   7  |    215    |    473    |  2200 |     15    |
 |   8  |    230    |    506    |  2400 |     16    |
+|   9  |    245    |    539    |  2600 |     17    |
 
 </UnitTable>
 
@@ -64,6 +65,7 @@ canonical: /upgrade/060c-Super-Bowler
 <Timeline>
     <TimelineItem date="2025/02/10">
         <TimelineRow>超级巨石投手的训练时间由 5:00 改为 4:10</TimelineRow>
+        <TimelineRow>17 本新增 9 级巨石投手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>16 本新增 8 级巨石投手，超级部队的等级也相应更新。</TimelineRow>
