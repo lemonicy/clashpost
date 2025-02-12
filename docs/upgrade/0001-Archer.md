@@ -29,6 +29,7 @@ canonical: /upgrade/0001-Archer
         <UnitImg imgTitle="10 级" imgSrc="Archer10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Archer11.png" />
         <UnitImg imgTitle="12 级" imgSrc="Archer12.png" />
+        <!-- <UnitImg imgTitle="13 级" imgSrc="Archer13.png" /> -->
     </UnitImgGroup>
 </Panel>
 
@@ -71,27 +72,29 @@ const tableExtraInfo = [
 | ---- |  ----   |  ----   |  ----  |   ----  |    ----   |    ----     |   ----    |
 |   1  |     7   |    7    |    20  |      \  |       \   |      1      |     1     |
 |   2  |     9   |    9    |    23  |    30k  |    0, 2   |      1      |     3     |
-|   3  |    12   |   12    |    28  |    80k  |    0, 6   |      3      |     5     |
-|   4  |    16   |   16    |    33  |   300k  |    0,12   |      5      |     7     |
-|   5  |    20   |   20    |    40  |   800k  |    1      |      6      |     8     |
-|   6  |    22   |   22    |    44  |     2M  |    1,12   |      7      |     9     |
-|   7  |    25   |   25    |    48  |   2.5M  |    1,18   |      8      |    10     |
+|   3  |    12   |   12    |    28  |    80k  |    0, 5   |      3      |     5     |
+|   4  |    16   |   16    |    33  |   300k  |    0, 7   |      5      |     7     |
+|   5  |    20   |   20    |    40  |   800k  |    0,14   |      6      |     8     |
+|   6  |    22   |   22    |    44  |     2M  |    0,18   |      7      |     9     |
+|   7  |    25   |   25    |    48  |   2.5M  |    1      |      8      |    10     |
 |   8  |    28   |   28    |    52  |   3.2M  |    2      |      9      |    11     |
-|   9  |    31   |   31    |    56  |   5.6M  |    3      |     10      |    12     |
-|  10  |    34   |   34    |    60  |     9M  |    5      |     12      |    14     |
-|  11  |    37   |   37    |    64  |    14M  |    6      |     13      |    15     |
-|  12  |    40   |   40    |    68  |    18M  |   13      |     14      |    16     |
+|   9  |    31   |   31    |    56  |     4M  |    3      |     10      |    12     |
+|  10  |    34   |   34    |    60  |   4.5M  |    4      |     12      |    14     |
+|  11  |    37   |   37    |    64  |     8M  |    5      |     13      |    15     |
+|  12  |    40   |   40    |    68  |    14M  |    9      |     14      |    16     |
+|  13  |    43   |   43    |    72  |  17.5M  |   13      |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/02/10">
+        <TimelineRow>17 本新增 13 级弓箭手。</TimelineRow>
         <TimelineRow>2 级弓箭手的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>7 ~ 11 级弓箭手的升级时间减少。</TimelineRow>
-        <TimelineRow>10 ~ 11 级弓箭手的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 7、10 ~ 12 级弓箭手的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 12 级弓箭手的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>16 本推出，同时在 16 本新增 12 级弓箭手。</TimelineRow>

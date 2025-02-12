@@ -22,15 +22,17 @@ canonical: /upgrade/0007-Healer
         <UnitImg imgTitle="7 级" imgSrc="Healer7.png" />
         <UnitImg imgTitle="8 级" imgSrc="Healer8.png" />
         <UnitImg imgTitle="9 级" imgSrc="Healer9.png" />
+        <!-- <UnitImg imgTitle="10 级" imgSrc="Healer10.png" /> -->
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
 1. 当天使治疗英雄时，其治疗量会衰减。
-2. 天使不会跟随 [炸弹人](/upgrade/0004-Wall-Breaker)、[超级炸弹人](/upgrade/0603-Super-Wall-Breaker) 和 [小雪怪](/upgrade/000d-Yeti/Yetimite)。
-3. 天使不会治疗被 [凤凰](/upgrade/0287-Phoenix) 召回的英雄。
-4. 当多个治疗单位治疗同一目标时，治疗量会打折扣，详见下方“多个治疗单位的叠加效应”这部分。
+2. 当多个治疗单位治疗同一目标时，治疗量也会衰减，详见这篇文章：[论多个治疗单位治疗同一目标时的衰减效应](/p/6925)。
+3. 天使不会跟随 [炸弹人](/upgrade/0004-Wall-Breaker)、[超级炸弹人](/upgrade/0603-Super-Wall-Breaker) 和 [小雪怪](/upgrade/000d-Yeti/Yetimite)。
+4. 天使不会治疗被 [凤凰](/upgrade/0287-Phoenix) 召回的英雄。
+5. 安装包中所给天使的攻速是 0.7 秒，但经实测，天使每两发奶的间隔并不稳定，而是在 0.7 秒和 0.82 秒这两个数字中横跳，详见这篇文章：[【天使】治疗机制详解（不含复杂函数关系）](/p/2102)。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -79,34 +81,15 @@ const tableExtraInfo = [
 |   7  |          72        |          62        |  1700  |   9.5M  |    8,12   |     12      |    14     |
 |   8  |          76        |          65        |  1800  |  14.8M  |    9,12   |     13      |    15     |
 |   9  |          80        |          68        |  1900  |  16.8M  |   12      |     14      |    16     |
+|  10  |          80        |          74        |  2000  |  22.5M  |   15      |     15      |    17     |
 </UnitTable>
-
-<SmallTitle>多个治疗单位的叠加效应</SmallTitle>
-
-当多个治疗单位（包括天使、[独角](/upgrade/0283-Unicorn) 和人类形态下的 [德鲁伊](/upgrade/008a-Druid)）治疗同一目标时，治疗量会打折扣，详见下表：
-
-<Table maxWidth="30rem">
-
-| 治疗单位<br>数量 | 新增治疗单位的<br>治疗效益 | 总治疗效益 |
-|      ----       |           ----           |    ----   |
-|        1        |           100%           |    100%   |
-|        2        |           100%           |    100%   |
-|        3        |            90%           |   96.7%   |
-|        4        |            90%           |     95%   |
-|        5        |            70%           |     90%   |
-|        6        |            40%           |   81.7%   |
-|        7        |            10%           |   71.4%   |
-|        8        |             0%           |   62.5%   |
-</Table>
-
-注：安装包中所给天使的攻速是 0.7 秒，而实际测得天使每两发奶的间隔并不稳定，而是在 0.69 秒和 0.82 秒这两个数字中横跳（0.69 可能是实验误差引起，实际可能仍然是
-0.7）。也就是说，天使第一发奶与第二发奶相差 0.7 秒，第二发与第三发相差 0.82 秒，接着 0.7，0.82，0.7……这与安装包所给的“稳定
-0.7”相比，总治疗效果偏差。目前认为这种波动是天使重新判定目标浪费了 0.12 秒导致的，由此暂时得出结论“天使每两发奶重置一次目标，计算新目标需要时间 0.12
-秒”。但是，每发奶的治疗量是确定的，因此计算衰减时，应以每发奶治疗量作为计算对象，而不应以每秒治疗量作为计算对象，否则将引起计算结果偏低。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>17 本新增 10 级天使。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>6 ~ 9 级天使的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

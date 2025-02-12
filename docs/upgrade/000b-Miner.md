@@ -24,6 +24,7 @@ canonical: /upgrade/000b-Miner
         <UnitImg imgTitle="8 级" imgSrc="Miner8.png" />
         <UnitImg imgTitle="9 级" imgSrc="Miner9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Miner10.png" />
+        <!-- <UnitImg imgTitle="11 级" imgSrc="Miner11.png" /> -->
     </UnitImgGroup>
 </Panel>
 
@@ -31,7 +32,7 @@ canonical: /upgrade/000b-Miner
 
 1. 掘地矿工在地底下不会受到伤害，但是依然可以受到法术的增益效果。
 2. 掘地矿工击败目标后，需要 1 到 1.25 秒才会再次钻地，不过这个延时依然能够躲避 12 级及以上 [大本营](/upgrade/0400-Town-Hall) 的爆炸伤害。
-3. 13 级及以上 [大本营](/upgrade/0400-Town-Hall) 自爆后的毒雾伤害对处于地底的掘地矿工无效。
+3. 13 到 16 级 [大本营](/upgrade/0400-Town-Hall) 自爆后的毒雾伤害对处于地底的掘地矿工无效。
 4. 掘地矿工在防守时不会钻地。
 
 <SmallTitle>属性</SmallTitle>
@@ -81,11 +82,15 @@ const tableExtraInfo = [
 |   8  |    136   |  231.2  |  1100 |     9M  |    8      |     12      |    14     |
 |   9  |    144   |  244.8  |  1250 |    14M  |    9      |     13      |    15     |
 |  10  |    152   |  258.4  |  1400 |  16.4M  |   12      |     14      |    16     |
+|  11  |    160   |  272    |  1600 |  21.5M  |   14,12   |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>17 本新增 11 级掘地矿工。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 10 级掘地矿工的升级时间减少。</TimelineRow>
         <TimelineRow>5 ~ 10 级掘地矿工的升级费用降低。</TimelineRow>

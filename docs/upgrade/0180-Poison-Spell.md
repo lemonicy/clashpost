@@ -20,7 +20,7 @@ canonical: /upgrade/0180-Poison-Spell
 3. 中毒状态下，兵种的每次伤害和非中毒状态一致，并不会因为攻速变慢而产生更高的每次伤害。
 4. 毒药法术的伤害成二次函数递增，约 8 秒达到最大伤害。离开毒药范围后伤害递减，递减速度是增加的两倍。详见：[【毒药法术原理】9 项实验让你怀疑你从未用过毒药法术](/p/1505)。
 5. [法术塔](/upgrade/0311-Spell-Tower)、[猛蜥](/upgrade/0286-Poison-Lizard) 和 14 级及以上 [大本营](/upgrade/0400-Town-Hall) 爆炸后的毒药也具有和毒药法术类似的伤害递增特性，但是这些毒药的属性和毒药法术不同。
-6. [英雄猎手](/upgrade/0088-Headhunter) 的攻击也具有和毒药法术类似的减速效果，但中毒伤害不是随时间递增的。
+6. [英雄猎手](/upgrade/0088-Headhunter) 的攻击也具有和毒药法术类似的减速效果，但中毒伤害不是随时间递增的，而是会立即达到最大伤害。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -67,11 +67,15 @@ const tableExtraInfo = [
 |   8  |    300    |        46%       |         68%       |   100K  |   9     |        12       |       14      |
 |   9  |    320    |        48%       |         70%       |   135K  |  10     |        13       |       15      |
 |  10  |    340    |        50%       |         72%       |   175K  |  12     |        14       |       16      |
+|  11  |    360    |        51%       |         73%       |   280K  |  14,12  |        15       |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>17 本新增 11 级毒药法术。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>4、6、7、9、10 级毒药法术的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 10 级毒药法术的升级费用降低。</TimelineRow>

@@ -12,7 +12,7 @@ canonical: /upgrade/0307-Hidden-Tesla
 - *如想查看 12 本的自带武器，请访问 [巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
 - *如想查看夜世界的特斯拉电磁塔，请访问：[夜世界特斯拉电磁塔](/upgrade/1103-Hidden-Tesla)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Tesla15.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Tesla16.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -33,6 +33,7 @@ canonical: /upgrade/0307-Hidden-Tesla
         <UnitImg imgTitle="13 级" imgSrc="Hidden_Tesla13.png" />
         <UnitImg imgTitle="14 级" imgSrc="Hidden_Tesla14.png" />
         <UnitImg imgTitle="15 级" imgSrc="Hidden_Tesla15.png" />
+        <UnitImg imgTitle="16 级" imgSrc="Hidden_Tesla16.png" />
     </UnitImgGroup>
 </Panel>
 

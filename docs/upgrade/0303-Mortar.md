@@ -41,7 +41,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 <!-- ↓↓↓ 标准模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Mortar16.png" imgAlt="迫击炮（标准模式）"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Mortar17_hd.png" imgAlt="迫击炮（标准模式）"
     :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
@@ -64,6 +64,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <UnitImg imgTitle="14 级" imgSrc="Mortar14.png" />
         <UnitImg imgTitle="15 级" imgSrc="Mortar15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Mortar16.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Mortar17.png" />
     </UnitImgGroup>
     <UnitImgGroup title="已改装，处于标准模式" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="8 级" imgSrc="Mortar8A.png" />
@@ -75,6 +76,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <UnitImg imgTitle="14 级" imgSrc="Mortar14A.png" />
         <UnitImg imgTitle="15 级" imgSrc="Mortar15A.png" />
         <UnitImg imgTitle="16 级" imgSrc="Mortar16A.png" />
+        <!-- <UnitImg imgTitle="17 级" imgSrc="Mortar17A.png" /> -->
     </UnitImgGroup>
 </Panel>
 
@@ -148,6 +150,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <UnitImg imgTitle="14 级" imgSrc="Mortar14B.png" />
         <UnitImg imgTitle="15 级" imgSrc="Mortar15B.png" />
         <UnitImg imgTitle="16 级" imgSrc="Mortar16B.png" />
+        <!-- <UnitImg imgTitle="17 级" imgSrc="Mortar17B.png" /> -->
     </UnitImgGroup>
 </Panel>
 

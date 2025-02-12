@@ -55,11 +55,15 @@ canonical: /upgrade/060e-Super-Miner
 |   8  |    185    |      370      |     560   |    1600   |  3200 |     14    |
 |   9  |    200    |      400      |     600   |    1800   |  3500 |     15    |
 |  10  |    215    |      430      |     640   |    2000   |  3800 |     16    |
+|  11  |    230    |      460      |     680   |    2200   |  4100 |     17    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>17 本新增 11 级掘地矿工，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>16 本推出，并在 16 本新增 10 级掘地矿工，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>

@@ -24,6 +24,7 @@ canonical: /upgrade/0086-Bowler
         <UnitImg imgTitle="6 级" imgSrc="Bowler6.png" />
         <UnitImg imgTitle="7 级" imgSrc="Bowler7.png" />
         <UnitImg imgTitle="8 级" imgSrc="Bowler8.png" />
+        <!-- <UnitImg imgTitle="9 级" imgSrc="Bowler9.png" /> -->
     </UnitImgGroup>
 </Panel>
 
@@ -76,11 +77,15 @@ const tableExtraInfo = [
 |   6  |    108   |  237.6  |   530  |  110K  |     8     |     12      |    14     |
 |   7  |    114   |  250.8  |   565  |  145K  |     9     |     13      |    15     |
 |   8  |    126   |  277.2  |   600  |  175K  |    12     |     14      |    16     |
+|   9  |    136   |  299.2  |   650  |  280K  |    15     |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>17 本新增 9 级巨石投手。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>巨石投手的训练时间由 1:00 改为 0:50</TimelineRow>
     </TimelineItem>

@@ -11,7 +11,7 @@ canonical: /upgrade/030e-Scattershot
 
 - *玩家所说的投石车指的是攻城烈焰车，而不是投石炮，攻城烈焰车的数据请参考： [攻城烈焰车](/upgrade/0245-Flame-Flinger)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Scattershot5.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Scattershot6_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -22,6 +22,7 @@ canonical: /upgrade/030e-Scattershot
         <UnitImg imgTitle="3 级" imgSrc="Scattershot3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Scattershot4.png" />
         <UnitImg imgTitle="5 级" imgSrc="Scattershot5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Scattershot6.png" />
     </UnitImgGroup>
         <UnitImgGroup title="无弹药" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Scattershot1_Depleted.png" />
@@ -29,6 +30,7 @@ canonical: /upgrade/030e-Scattershot
         <UnitImg imgTitle="3 级" imgSrc="Scattershot3_Depleted.png" />
         <UnitImg imgTitle="4 级" imgSrc="Scattershot4_Depleted.png" />
         <UnitImg imgTitle="5 级" imgSrc="Scattershot5_Depleted.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Scattershot6_Depleted.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -41,9 +43,9 @@ canonical: /upgrade/030e-Scattershot
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 投石炮的每次伤害会随着距离增加而减小。它会对瞄准的目标造成最大伤害，对距离目标 1 格的单位造成最小伤害。
-2. 投石炮击中目标后会爆炸，爆炸后会对攻击方向向前 1 ~ 5 格散射 90° 并造成散射伤害，这个伤害随距离递减。最大散射伤害是对距离目标 5 格的单位造成的，最小散射伤害是对距离目标 1 格的单位造成的。
-3. 投石炮不能同时溅射到地面目标和空中目标，瞄准地面就无法溅射到空中，反之亦然。
+1. 投石炮的溅射伤害会随着距离增加而减小。它会对瞄准的目标造成最大伤害，对距离目标 1 格的单位造成最小伤害。
+2. 投石炮击中目标后会爆炸，爆炸后会对攻击方向向前 1 ~ 5 格散射 90° 并造成散射伤害，这个伤害随距离递减。最大散射伤害是对距离目标 1 格的单位造成的，最小散射伤害是对距离目标 5 格的单位造成的。
+3. 投石炮的溅射伤害和散射伤害不能同时作用于地面目标和空中目标，瞄准地面目标就无法对空中目标造成伤害，反之亦然。
 4. 投石炮必须装弹才能工作，这个装弹操作会在玩家登录游戏时自动进行，但如果玩家长时间不登录，弹药就会用完，从而导致防御失效。
     - 用完投石炮的弹药需要 4 分 51 秒。
 
@@ -56,10 +58,12 @@ canonical: /upgrade/030e-Scattershot
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="伤害半径" pValue="1 格" />
     <UnitProperty pKey="射程" pValue="3 ~ 10 格" />
-    <UnitProperty pKey="攻速" pValue="3.228 秒/次" />
+    <UnitProperty pKey="攻速" pValue="3.2 秒/次<sup>*</sup>" />
     <UnitProperty pKey="目标切换速度" pValue="2.2 秒" />
     <UnitProperty pKey="弹药数量" pValue="90" />
 </UnitProperties>
+
+\* 按照官方说法，投石炮的攻速为 3.228 秒/次，但经实测，这个零头并不存在，其实际攻速就是 3.2 秒/次。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -86,16 +90,16 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 | 每秒伤害 |    每次伤害   |  散射伤害  | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验|  所需<br>大本等级 |
-| ---- |   ---   |      ---     |    ---    |   ---  |   ---   |    ----   |        ---          |       ----      |
-|   1  |   125   | 300 - 403.5  | 100 - 300 |  3600  |     8M  |    8      |                     |        13       |
-|   2  |   150   | 360 - 484.2  | 120 - 360 |  4200  |     9M  |    9      |                     |        13       |
-|   3  |   175   | 420 - 564.9  | 140 - 420 |  4800  |  12.6M  |   10      |                     |        14       |
-|   4  |   185   | 450 - 597.18 | 150 - 450 |  5100  |    13M  |   11      |                     |        15       |
-|   5  |   190   | 480 - 613.32 | 160 - 480 |  5410  |    17M  |   11,12   |                     |        16       |
-|   6  |   195   |   ? - 629.46 |     ?     |  5600  |  22.5M  |   15,18   |                     |        17       |
-| ⚡1  |   200   |   ? - 645.6  |     ?     |  5600 |   6.75M  |    3      |                     |        17       |
-| ⚡2  |   200   |   ? - 645.6  |     ?     |  5750 |   3.75M  |    4,12   |                     |        17       |
+| 等级 | 每秒伤害 |   溅射伤害  |  散射伤害  | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验|  所需<br>大本等级 |
+| ---- |   ---   |    ---     |    ---    |   ---  |   ---   |    ----   |        ---          |       ----      |
+|   1  |   125   |  300 - 400 | 100 - 300 |  3600  |     8M  |    8      |                     |        13       |
+|   2  |   150   |  360 - 480 | 120 - 360 |  4200  |     9M  |    9      |                     |        13       |
+|   3  |   175   |  420 - 560 | 140 - 420 |  4800  |  12.6M  |   10      |                     |        14       |
+|   4  |   185   |  444 - 592 | 148 - 444 |  5100  |    13M  |   11      |                     |        15       |
+|   5  |   190   |  456 - 608 | 152 - 456 |  5410  |    17M  |   11,12   |                     |        16       |
+|   6  |   195   |  468 - 624 | 156 - 468 |  5600  |  22.5M  |   15,18   |                     |        17       |
+| ⚡1  |   200   |  480 - 640 | 160 - 480 |  5600 |     11M  |    5      |                     |        17       |
+| ⚡2  |   200   |  480 - 640 | 160 - 480 |  5750 |      7M  |    7      |                     |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

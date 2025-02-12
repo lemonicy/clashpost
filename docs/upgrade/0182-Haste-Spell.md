@@ -56,6 +56,7 @@ const tableExtraInfo = [
 |   3  |         40        |  20 秒  |    17K   |   2     |         8       |       10      |
 |   4  |         46        |  25 秒  |    30K   |   4     |         8       |       10      |
 |   5  |         52        |  30 秒  |  38.5K   |   4,12  |         9       |       11      |
+|   6  |         56        |  30 秒  |   200K   |  12,12  |        15       |       17      |
 </UnitTable>
 
 \# 这里的 8 点速度值代表 1 格/秒。
@@ -63,6 +64,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>17 本新增 6 级急速法术。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>3 ~ 5 级急速法术的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 5 级急速法术的升级费用降低。</TimelineRow>
