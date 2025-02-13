@@ -87,14 +87,17 @@ const tableExtraInfo = [
 |   7  |  220k   |  3500 |    3.8M  |   3,12  |                      |        12       |
 |   8  |  280k   |  3800 |    5.4M  |   5     |                      |        13       |
 |   9  |  330k   |  4100 |      7M  |   6     |                      |        14       |
-|  10  |  350k   |  4300 |     10M  |   8     |                      |        15       |
-|  11  |  360k   |  4500 |   13.5M  |  11,12  |                      |        16       |
-|  12  |  370k   |  4700 |     16M  |  15     |                      |        17       |
+|  10  |  360k   |  4300 |     10M  |   8     |                      |        15       |
+|  11  |  390k   |  4500 |   13.5M  |  11,12  |                      |        16       |
+|  12  |  420k   |  4700 |     16M  |  15     |                      |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>10 ~ 12 级暗黑重油罐的资源储量增加。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 12 级暗黑重油罐。</TimelineRow>
         <TimelineRow>5、10 ~ 11 级暗黑重油罐的升级时间减少。</TimelineRow>

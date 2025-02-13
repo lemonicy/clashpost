@@ -217,8 +217,8 @@ const tableExtraInfoMultiMode = [
 |   8  |    80   |     6   |  3700  |    11M  |   9     |                     |       14       |
 |   9  |   100   |     6   |  4000  |  12.5M  |  10     |                     |       15       |
 |  10  |   120   |     6   |  4400  |  16.5M  |  11, 6  |                     |       16       |
-| ⚡1  |   130   |    6   |  4400  |    11M   |   4,12  |                     |       16       |
-| ⚡2  |   130   |    6   |  4600  |   6.5M   |   6,12  |                     |       16       |
+| ⚡1  |   130   |    6   |  4400  |   6.5M   |   2,18  |                     |       16       |
+| ⚡2  |   130   |    6   |  4600  |   3.3M   |   4, 6  |                     |       16       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -229,6 +229,7 @@ const tableExtraInfoMultiMode = [
     <TimelineItem date="2025/02/10">
         <TimelineRow>5 级地狱之塔的升级时间减少。</TimelineRow>
         <TimelineRow>5 级地狱之塔的升级费用降低。</TimelineRow>
+        <TimelineRow>地狱之塔的充能时间和充能费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>4、6 ~ 10 级地狱之塔的升级时间减少。</TimelineRow>
