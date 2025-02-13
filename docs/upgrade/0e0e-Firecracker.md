@@ -39,7 +39,7 @@ canonical: /upgrade/0e0e-Firecracker
     <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="6 格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
-    <UnitProperty pKey="所需大本等级" pValue="8" />    
+    <UnitProperty pKey="所需大本等级" pValue="6" />    
     <UnitProperty pKey="训练时间" pValue="60" trainingSystem="2022" />
 </UnitProperties>
 
@@ -49,6 +49,8 @@ canonical: /upgrade/0e0e-Firecracker
 
 | 等级 | 每秒伤害 |每次射击的<br>最大伤害| 生命值 |对应的<br>大本等级|
 | ---- |   ---   |         ---        |   ---  |        ----     |
+|   1  |    50   |         90         |   100  |         6       |
+|   2  |    65   |         117        |   140  |         7       |
 |   3  |    80   |         144        |   180  |         8       |
 |   4  |    95   |         171        |   220  |         9       |
 |   5  |   110   |         198        |   260  |        10       |
@@ -57,12 +59,17 @@ canonical: /upgrade/0e0e-Firecracker
 |   8  |   155   |         279        |   360  |        13       |
 |   9  |   170   |         306        |   380  |        14       |
 |  10  |   190   |         342        |   400  |        15       |
-|  11  |   200   |         360        |   420  |        16       |
+|  11  |   220   |         396        |   430  |        16       |
+|  12  |   260   |         468        |   470  |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/07">
+        <TimelineRow>该兵种第 2 次推出，是 2025 年灵蛇庆典活动中的两个临时兵种之一。</TimelineRow>
+        <TimelineRow>此次活动新增了等级（1、2和12），增加了 11 级生命、每次伤害，以及6本即可解锁兵种（之前是8级）。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/02/08">
         <TimelineRow>该兵种第 1 次推出，有效期至 2024/02/22.</TimelineRow>
     </TimelineItem>
