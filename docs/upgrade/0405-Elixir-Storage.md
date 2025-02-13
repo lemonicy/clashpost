@@ -102,14 +102,15 @@ const tableExtraInfo = [
 |  14  |    4M   |  3300 |   2.8M   |  3          |                      |        13       |
 |  15  |   4.5M  |  3700 |     3M   |  4          |                      |        14       |
 |  16  |     5M  |  3900 |     4M   |  6          |                      |        15       |
-|  17  |  5.25M  |  4050 |   5.5M   |  9          |                      |        16       |
-|  18  |   5.5M  |  4200 |    10M   | 12,12       |                      |        17       |
+|  17  |   5.5M  |  4050 |   5.5M   |  9          |                      |        16       |
+|  18  |     6M  |  4200 |    10M   | 12,12       |                      |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/02/10">
+        <TimelineRow>17 ~ 18 级圣水瓶的资源储量增加。</TimelineRow>
         <TimelineRow>2 ~ 8 级圣水瓶的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">

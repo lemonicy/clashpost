@@ -91,6 +91,7 @@ const tags = {
     "healer-pekka-wizard": "天皮法",
     "healer-pekka-bowler": "天皮蓝",
     "healing-unit": "治疗单位",
+    "heroes": "英雄",
     "hog-rider": "野猪骑士",
     "ice-golem": "戈仑冰人",
     "inferno-dragon": "地狱飞龙",
