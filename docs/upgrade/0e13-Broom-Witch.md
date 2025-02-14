@@ -71,7 +71,7 @@ canonical: /upgrade/0e13-Broom-Witch
 
 <!-- ↓↓↓ 精灵 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Witch_Spirit.png" :imgAlt="$frontmatter.navTitle"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Witch_Spirit.png" imgAlt="扫帚女巫召唤的精灵"
     description="这些淘气的小火花看起来很可爱，但可以对附近的防御造成大量伤害。"
     :isSmallImg="true" />
 

@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Workshop
 canonical: /upgrade/0486-Workshop
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Workshop7.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Workshop8.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -22,7 +22,7 @@ canonical: /upgrade/0486-Workshop
         <UnitImg imgTitle="5 级" imgSrc="Workshop5.png" />
         <UnitImg imgTitle="6 级" imgSrc="Workshop6.png" />
         <UnitImg imgTitle="7 级" imgSrc="Workshop7.png" />
-        <!-- <UnitImg imgTitle="8 级" imgSrc="Workshop8.png" /> -->
+        <UnitImg imgTitle="8 级" imgSrc="Workshop8.png" />
     </UnitImgGroup>
 </Panel>
 

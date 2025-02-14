@@ -19,7 +19,7 @@ canonical: /upgrade/0785-Lavaloon-Puppet
 
 <!-- ↓↓↓ 装备 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Lavaloon_Puppet_info.png" :imgAlt="$frontmatter.navTitle" description="召唤可怕的熔岩气球。" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Lavaloon_Puppet_info.png" imgAlt="熔岩气球玩偶" description="召唤可怕的熔岩气球。" />
 
 <SmallTitle>说明</SmallTitle>
 
