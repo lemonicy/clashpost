@@ -40,7 +40,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <!-- ↓↓↓ 远程攻击模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Gear_Tower2_LongRange_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Gear_Tower2_LongRange_hd.png" imgAlt="复合机械塔（远程攻击模式）" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -91,7 +91,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <!-- ↓↓↓ 快速攻击模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Gear_Tower2_FastAttack_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Gear_Tower2_FastAttack_hd.png" imgAlt="复合机械塔（快速攻击模式）" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 

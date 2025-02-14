@@ -16,7 +16,7 @@ canonical: /upgrade/0720-Henchmen-Puppet
 
 <!-- ↓↓↓ 护卫玩偶 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Henchmen_Puppet_info.png" :imgAlt="$frontmatter.navTitle" description="召唤空中护卫来增援亡灵王子" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Henchmen_Puppet_info.png" imgAlt="护卫玩偶" description="召唤空中护卫来增援亡灵王子" />
 
 <SmallTitle>说明</SmallTitle>
 
@@ -85,7 +85,7 @@ const tableExtraInfo = [
 
 <!-- ↓↓↓ 空中护卫 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Henchmen_info.png" :imgAlt="$frontmatter.navTitle"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Henchmen_info.png" imgAlt="护卫玩偶装备的空中护卫"
     description="亡灵王子可以召唤这些邪恶的兄弟姐妹与他并肩作战！他们会吸收伤害并攻击防御建筑。" />
 
 <SmallTitle>各等级图片</SmallTitle>

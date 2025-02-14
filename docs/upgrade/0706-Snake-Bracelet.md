@@ -16,7 +16,7 @@ canonical: /upgrade/0706-Snake-Bracelet
 
 <!-- ↓↓↓ 灵蛇手镯 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_Bracelet_info.png" :imgAlt="$frontmatter.navTitle" description="受到伤害时，召唤灵蛇与您并肩作战。" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_Bracelet_info.png" imgAlt="灵蛇手镯" description="受到伤害时，召唤灵蛇与您并肩作战。" />
 
 <SmallTitle>说明</SmallTitle>
 
@@ -97,12 +97,8 @@ const tableExtraInfo = [
 
 <!-- ↓↓↓ 灵蛇 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_info.png" :imgAlt="$frontmatter.navTitle"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_info.png" imgAlt="灵蛇手镯召唤的灵蛇"
     description="这些饥饿的大蛇被一只神秘的古老手镯召唤出来，它们只有一个目的——咬碎一切！" />
-
-<SmallTitle>说明</SmallTitle>
-
-灵蛇不能在 [训练营](/upgrade/0481-Barracks) 或 [暗黑训练营](/upgrade/0482-Dark-Barracks) 中直接训练，只能通过灵蛇手镯装备召唤。
 
 <SmallTitle>属性</SmallTitle>
 
