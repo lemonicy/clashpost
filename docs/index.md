@@ -107,8 +107,7 @@ onBeforeUnmount(() => {
 - 新防御：[复合机械塔](/upgrade/0317-Multi-Gear-Tower)
 - 新帮手：[炼金术士](/upgrade/0802-Alchemist)
 - 新装备：[铁甲短裤](/upgrade/0722-Metal-Pants)、[灵蛇手镯](/upgrade/0706-Snake-Bracelet)
-- 新文章：[浅谈攻城机器的一些基础设定](/p/6912)
-- 每逢更新都有问的：[为什么网站里下载的 coc 安装包不能用？](/p/6903)
+- 新文章：[浅谈攻城机器的一些基础设定](/p/6912)、[论多个治疗单位治疗同一目标时的衰减效应](/p/6925)
 
 </div>
 </div>
