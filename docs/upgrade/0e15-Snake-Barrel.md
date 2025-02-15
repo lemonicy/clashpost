@@ -9,6 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Snake_Barrel
 canonical: /upgrade/0e15-Snake-Barrel
 ---
 
+- *如想查看由灵蛇手镯装备召唤的灵蛇，请移步：[灵蛇手镯](/upgrade/0706-Snake-Bracelet)。*
+
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-unit-item-0" :activeTab="true">灵蛇飞桶</SwitchTab>
     <SwitchTab tabId="cp-unit-item-1">灵蛇</SwitchTab>
