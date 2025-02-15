@@ -9,6 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Snake_Bracelet
 canonical: /upgrade/0706-Snake-Bracelet
 ---
 
+- *如想查看由临时兵种灵蛇飞桶召唤的灵蛇，请移步：[灵蛇飞桶](/upgrade/0e15-Snake-Barrel)。*
+
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-unit-item-0" :activeTab="true">灵蛇手镯</SwitchTab>
     <SwitchTab tabId="cp-unit-item-1">灵蛇</SwitchTab>
@@ -99,6 +101,14 @@ const tableExtraInfo = [
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_info.png" imgAlt="灵蛇手镯召唤的灵蛇"
     description="这些饥饿的大蛇被一只神秘的古老手镯召唤出来，它们只有一个目的——咬碎一切！" />
+
+<!-- <SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <!-- <UnitImg imgTitle="所有等级" imgSrc="Snake_Barrel1.png" />
+    </UnitImgGroup>
+</Panel> -->
 
 <SmallTitle>属性</SmallTitle>
 
