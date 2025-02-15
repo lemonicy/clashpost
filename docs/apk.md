@@ -11,9 +11,9 @@ robots: index, nofollow
 import { showDialog } from '@/components/dialog/Dialog.vue';
 import { generateToast } from '@/components/dialog/Toast.vue';
 
-const apkVersion = "17.18.5";
-const apkUploadDate = "2025-02-10";
-const apkFileName = "Clash_of_Clans_v17.18.5_Wvpqs7EbiuPjLB8S.apk";
+const apkVersion = "17.18.11";
+const apkUploadDate = "2025-02-15";
+const apkFileName = "Clash_of_Clans_v17.18.11_hWZf0EFept5fyUSm.apk";
 
 function downloadCocApk() {
     window.location.href = "https://static.clashpost.com/download/" + encodeURI(apkFileName);
