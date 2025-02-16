@@ -24,7 +24,7 @@ canonical: /upgrade/0086-Bowler
         <UnitImg imgTitle="6 级" imgSrc="Bowler6.png" />
         <UnitImg imgTitle="7 级" imgSrc="Bowler7.png" />
         <UnitImg imgTitle="8 级" imgSrc="Bowler8.png" />
-        <!-- <UnitImg imgTitle="9 级" imgSrc="Bowler9.png" /> -->
+        <UnitImg imgTitle="9 级" imgSrc="Bowler9.png" imgHd="Bowler9_hd.png" />
     </UnitImgGroup>
 </Panel>
 

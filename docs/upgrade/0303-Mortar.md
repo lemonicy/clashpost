@@ -76,7 +76,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <UnitImg imgTitle="14 级" imgSrc="Mortar14A.png" />
         <UnitImg imgTitle="15 级" imgSrc="Mortar15A.png" />
         <UnitImg imgTitle="16 级" imgSrc="Mortar16A.png" />
-        <!-- <UnitImg imgTitle="17 级" imgSrc="Mortar17A.png" /> -->
+        <UnitImg imgTitle="17 级" imgSrc="Mortar17A.png" />
     </UnitImgGroup>
 </Panel>
 
