@@ -29,7 +29,7 @@ canonical: /upgrade/0001-Archer
         <UnitImg imgTitle="10 级" imgSrc="Archer10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Archer11.png" />
         <UnitImg imgTitle="12 级" imgSrc="Archer12.png" />
-        <!-- <UnitImg imgTitle="13 级" imgSrc="Archer13.png" /> -->
+        <UnitImg imgTitle="13 级" imgSrc="Archer13.png" imgHd="Archer13_hd.png" />
     </UnitImgGroup>
 </Panel>
 
