@@ -11,16 +11,16 @@ canonical: /upgrade/0247-Troop-Launcher
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Troop_Launcher_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-<!-- <SmallTitle>各等级图片</SmallTitle>
+<SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Troop_Launcher1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Troop_Launcher2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Troop_Launcher3.png" />
-        <!-- <UnitImg imgTitle="4 级" imgSrc="Troop_Launcher4.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Troop_Launcher4.png" />
     </UnitImgGroup>
-</Panel> -->
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 

@@ -134,7 +134,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 <!-- ↓↓↓ 快速模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Mortar16B.png" imgAlt="迫击炮（快速模式）"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Mortar17B.png" imgAlt="迫击炮（快速模式）"
     :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
@@ -150,7 +150,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <UnitImg imgTitle="14 级" imgSrc="Mortar14B.png" />
         <UnitImg imgTitle="15 级" imgSrc="Mortar15B.png" />
         <UnitImg imgTitle="16 级" imgSrc="Mortar16B.png" />
-        <!-- <UnitImg imgTitle="17 级" imgSrc="Mortar17B.png" /> -->
+        <UnitImg imgTitle="17 级" imgSrc="Mortar17B.png" />
     </UnitImgGroup>
 </Panel>
 
