@@ -102,13 +102,13 @@ const tableExtraInfo = [
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_info.png" imgAlt="灵蛇手镯召唤的灵蛇"
     description="这些饥饿的大蛇被一只神秘的古老手镯召唤出来，它们只有一个目的——咬碎一切！" />
 
-<!-- <SmallTitle>各等级图片</SmallTitle>
+<SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <!-- <UnitImg imgTitle="所有等级" imgSrc="Snake_Barrel1.png" />
+        <UnitImg imgTitle="所有等级" imgSrc="Snake_Sprite.png" />
     </UnitImgGroup>
-</Panel> -->
+</Panel>
 
 <SmallTitle>属性</SmallTitle>
 
