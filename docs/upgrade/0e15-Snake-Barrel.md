@@ -20,13 +20,13 @@ canonical: /upgrade/0e15-Snake-Barrel
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_Barrel_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-<!-- <SmallTitle>各等级图片</SmallTitle>
+<SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <!-- <UnitImg imgTitle="所有等级" imgSrc="Snake_Barrel1.png" />
+        <UnitImg imgTitle="所有等级" imgSrc="Snake_Barrel1.png" />
     </UnitImgGroup>
-</Panel> -->
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -74,13 +74,13 @@ canonical: /upgrade/0e15-Snake-Barrel
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_info.png" imgAlt="灵蛇飞桶召唤的灵蛇" description="这些绿色的危险生物从地底钻出来，想尝尝战斗的滋味！它们会爬过城墙，用牙齿撕咬一切！它们成群结队时更加危险！" />
 
-<!-- <SmallTitle>各等级图片</SmallTitle>
+<SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <!-- <UnitImg imgTitle="所有等级" imgSrc="Snake_Barrel1.png" />
+        <UnitImg imgTitle="所有等级" imgSrc="Snake_Sprite.png" />
     </UnitImgGroup>
-</Panel> -->
+</Panel>
 
 <SmallTitle>灵蛇的属性</SmallTitle>
 
