@@ -46,7 +46,7 @@ canonical: /upgrade/0107-Recall-Spell
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="7" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
-    <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -70,18 +70,24 @@ const tableExtraInfo = [
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 |可召回的<br>人口数| 升级花费 |  升级时间  |所需<br>实验室等级|所需<br>大本等级|
-| ---- |       ----     |    ---   |    ----   |       ----      |      ----    |
+| ---- |       ----     |    ---   |    ---    |       ----      |      ----    |
 |   1  |        83      |     \    |     \     |         1       |       13     |
-|   2  |        89      |   7.5M   |    7      |        11       |       13     |
-|   3  |        95      |     8M   |   11,12   |        12       |       14     |
-|   4  |       101      |     9M   |   12      |        13       |       15     |
-|   5  |       107      |    13M   |   13      |        14       |       16     |
-|   6  |       113      |    21M   |   15      |        15       |       17     |
+|   2  |        89      |   7.5M   |     7     |        11       |       13     |
+|   3  |        95      |     8M   |     9     |        12       |       14     |
+|   4  |       101      |     9M   |    11     |        13       |       15     |
+|   5  |       107      |    13M   |    13     |        14       |       16     |
+|   6  |       113      |    21M   |    15     |        15       |       17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>3 ~ 4 级回溯法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 6 级回溯法术。</TimelineRow>
         <TimelineRow>2、5 级回溯法术的升级时间减少。</TimelineRow>

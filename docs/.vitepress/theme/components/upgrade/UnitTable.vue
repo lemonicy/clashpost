@@ -80,11 +80,11 @@ function setTbodyValue(targetTd, targetValue, item) {
             timeValue = targetValue;
             break;
         case "time":
-        case "regen":
             timeValue = targetValue;
             break;
         case "cost":
         case "trainingCost":
+            // trainingCost 这一项仅在个别临时兵种中使用，这些兵种推出时训练费用尚未取消
             costValue = targetValue;
             break;
         case "exp":

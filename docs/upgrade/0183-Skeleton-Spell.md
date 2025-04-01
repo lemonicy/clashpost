@@ -24,10 +24,10 @@ canonical: /upgrade/0183-Skeleton-Spell
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 骷髅法术对资源类建筑（除 [部落城堡](/upgrade/0407-Clan-Castle) 外）的伤害为对其他建筑的 15%。
-2. 家乡和夜世界的骷髅属性不同，夜世界的骷髅更弱一些。
-3. 骷髅法术召唤出的骷髅兵会带有盔甲。也就是说，兵种至少需要攻击两次才能击杀骷髅兵（第一次打掉盔甲，第二次打死没有盔甲的骷髅兵）。
-4. 骷髅法术无法触发城堡内的援兵。
+1. 骷髅法术召唤出的骷髅兵会带有盔甲。也就是说，兵种至少需要攻击两次才能击杀骷髅兵（第一次打掉盔甲，第二次打死没有盔甲的骷髅兵）。
+2. 骷髅对 [大本营](/upgrade/0400-Town-Hall) 和资源罐的伤害为对其他建筑的 15%.
+3. 骷髅无法触发城堡内的援兵。
+4. 虽然骷髅本身无法触发陷阱，但是被其他地面单位触发的陷阱还是有可能攻击骷髅。
 
 <SmallTitle>骷髅法术的属性</SmallTitle>
 
@@ -38,7 +38,7 @@ canonical: /upgrade/0183-Skeleton-Spell
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 \* 第一次生成 4 个骷髅，之后每秒生成一个。
@@ -81,17 +81,23 @@ const tableExtraInfo = [
 | ---- |       ----     |   ----   |  ----   |       ----      |      ----     |
 |   1  |        12      |     \    |    \    |         1       |        9      |
 |   2  |        13      |    11K   |   1     |         8       |       10      |
-|   3  |        14      |    17K   |   2     |         8       |       10      |
-|   4  |        15      |    25K   |   3     |         9       |       11      |
-|   5  |        16      |    40K   |   3,12  |        10       |       12      |
+|   3  |        14      |    17K   |   1,12  |         8       |       10      |
+|   4  |        15      |    25K   |   2, 6  |         9       |       11      |
+|   5  |        16      |    40K   |   3     |        10       |       12      |
 |   6  |        17      |    50K   |   4     |        10       |       12      |
 |   7  |        18      |    75K   |   5     |        11       |       13      |
-|   8  |        19      |   135K   |   8     |        13       |       15      |
+|   8  |        19      |   135K   |   7, 4  |        13       |       15      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>3 ~ 5、8 级骷髅法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 8 级骷髅法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

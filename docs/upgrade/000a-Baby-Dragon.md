@@ -48,7 +48,7 @@ canonical: /upgrade/000a-Baby-Dragon
     <UnitProperty pKey="攻击距离" pValue="2.25 格" />
     <UnitProperty pKey="所需训练营等级" pValue="11" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="训练时间" pValue="85" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -74,21 +74,28 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间  |所需实验室等级|所需大本等级|
 | ---- |   ----   |   ----  |  ---- |   ----  |    ----   |    ----     |   ----    |
 |   1  |     75   |    75   |  1200 |      \  |       \   |      1      |     9     |
-|   2  |     85   |    85   |  1300 |     2M  |    1, 6   |      7      |     9     |
-|   3  |     95   |    95   |  1400 |   2.5M  |    1,18   |      8      |    10     |
-|   4  |    105   |   105   |  1500 |   3.4M  |    2,12   |      8      |    10     |
-|   5  |    115   |   115   |  1600 |   3.9M  |    3,12   |      9      |    11     |
-|   6  |    125   |   125   |  1700 |   5.5M  |    5      |     10      |    12     |
-|   7  |    135   |   135   |  1800 |   7.2M  |    6      |     11      |    13     |
-|   8  |    145   |   145   |  1900 |   9.5M  |    8,12   |     12      |    14     |
-|   9  |    155   |   155   |  2000 |  14.5M  |   10      |     13      |    15     |
-|  10  |    165   |   165   |  2100 |    16M  |   12      |     14      |    16     |
+|   2  |     85   |    85   |  1300 |   1.5M  |    1, 6   |      7      |     9     |
+|   3  |     95   |    95   |  1400 |     2M  |    1,12   |      8      |    10     |
+|   4  |    105   |   105   |  1500 |   2.8M  |    2      |      8      |    10     |
+|   5  |    115   |   115   |  1600 |   3.7M  |    3      |      9      |    11     |
+|   6  |    125   |   125   |  1700 |   4.8M  |    4      |     10      |    12     |
+|   7  |    135   |   135   |  1800 |   6.2M  |    4,18   |     11      |    13     |
+|   8  |    145   |   145   |  1900 |   9.5M  |    7      |     12      |    14     |
+|   9  |    155   |   155   |  2000 |    11M  |    7,12   |     13      |    15     |
+|  10  |    165   |   165   |  2100 |  13.5M  |    8      |     14      |    16     |
 |  11  |    175   |   175   |  2200 |  22.5M  |   15      |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>3 ~ 10 级飞龙宝宝的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 7、9 ~ 10 级飞龙宝宝的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>飞龙宝宝的训练时间由 1:30 改为 1:25</TimelineRow>
     </TimelineItem>

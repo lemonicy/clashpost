@@ -24,9 +24,9 @@ canonical: /upgrade/0184-Bat-Spell
 <SmallTitle>重要说明</SmallTitle>
 
 1. 蝙蝠的第一次出手在到达防御建筑之后的 1.5 秒，而 [法师塔](/upgrade/0305-Wizard-Tower) 的攻速为 1.3 秒/次，故蝙蝠怕法师塔。
-2. 蝙蝠法术对资源类建筑（除 [部落城堡](/upgrade/0407-Clan-Castle) 外）的伤害只有 15%。
-3. 蝙蝠法术无法触发城堡内的援兵。
-4. 蝙蝠虽然自己无法触发陷阱，但是被其它空军触发的陷阱有可能攻击蝙蝠。
+2. 蝙蝠对 [大本营](/upgrade/0400-Town-Hall) 和资源罐的伤害为对其他建筑的 15%.
+3. 蝙蝠无法触发城堡内的援兵。
+4. 虽然蝙蝠本身无法触发陷阱，但是被其他空军触发的陷阱还是有可能攻击蝙蝠。
 
 <SmallTitle>蝙蝠法术的属性</SmallTitle>
 
@@ -37,7 +37,7 @@ canonical: /upgrade/0184-Bat-Spell
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="10" />
-    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 \* 第一次生成 2 个蝙蝠，之后每 0.6 秒生成一个。
@@ -51,10 +51,10 @@ canonical: /upgrade/0184-Bat-Spell
     <UnitProperty pKey="移动速度" pValue="7 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
     <UnitProperty pKey="首次进攻时机" pValue="到达目标后 1.5 秒" />
-    <UnitProperty pKey="攻击距离" pValue="0.8 格" />
+    <UnitProperty pKey="攻击距离" pValue="0.3 格" />
     <UnitProperty pKey="每秒伤害" pValue="30" />
     <UnitProperty pKey="每次伤害" pValue="60" />
-    <UnitProperty pKey="生命值" pValue="20" trainingSystem="2022" />
+    <UnitProperty pKey="生命值" pValue="20" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -80,16 +80,24 @@ const tableExtraInfo = [
 | 等级 |召唤的<br>蝙蝠数量| 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |        ----     |   ----  |  ----   |       ----      |      ----     |
 |   1  |          7      |     \   |    \    |         1       |       10      |
-|   2  |          9      |    13K  |   1, 6  |         8       |       10      |
-|   3  |         11      |  25.5K  |   2, 8  |         8       |       10      |
-|   4  |         16      |    35K  |   3,12  |         9       |       11      |
-|   5  |         21      |  47.5K  |   4,12  |        10       |       12      |
-|   6  |         22      |   140K  |   8,12  |        13       |       15      |
+|   2  |          9      |    13K  |   1     |         8       |       10      |
+|   3  |         11      |  25.5K  |   2     |         8       |       10      |
+|   4  |         16      |    35K  |   2, 6  |         9       |       11      |
+|   5  |         21      |  47.5K  |   4     |        10       |       12      |
+|   6  |         22      |   140K  |   7, 4  |        13       |       15      |
+|   7  |         23      |   260K  |  13     |        15       |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>17 本新增 7 级蝙蝠法术。</TimelineRow>
+        <TimelineRow>2 ~ 6 级蝙蝠法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 6 级蝙蝠法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

@@ -30,7 +30,7 @@ canonical: /upgrade/0181-Earthquake-Spell
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
-    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -53,13 +53,13 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 |总伤害<sup>*</sup>| 作用半径 | 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
+| 等级 |       总伤害     | 作用半径 | 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |       ----      |   ---   |   ----  |   ----   |       ----      |      ----     |
-|   1  |       14.5%     |  3.5 格 |     \   |    \     |         1       |        8      |
-|   2  |         17%     |  3.8 格 |     6K  |   0,18   |         6       |        8      |
-|   3  |         21%     |  4.1 格 |    12K  |   1,12   |         7       |        9      |
-|   4  |         25%     |  4.4 格 |  25.5K  |   4, 6   |         8       |       10      |
-|   5  |         29%     |  4.7 格 |    42K  |   5      |         9       |       11      |
+|   1  |14.5%<sup>*</sup>|  3.5 格 |     \   |    \     |         1       |        8      |
+|   2  |        17%      |  3.8 格 |     6K  |   0,12   |         6       |        8      |
+|   3  |        21%      |  4.1 格 |    12K  |   1      |         7       |        9      |
+|   4  |        25%      |  4.4 格 |  25.5K  |   3      |         8       |       10      |
+|   5  |        29%      |  4.7 格 |    42K  |   3,12   |         9       |       11      |
 </UnitTable>
 
 \* 1 级地震的实际伤害是 14.5%，但游戏内显示的是 14%。
@@ -67,6 +67,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 5 级地震法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>5 级地震法术的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 5 级地震法术的升级费用降低。</TimelineRow>

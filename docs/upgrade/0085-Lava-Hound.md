@@ -45,7 +45,7 @@ canonical: /upgrade/0085-Lava-Hound
     <UnitProperty pKey="死亡爆炸半径" pValue="3.5 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="训练时间" pValue="260" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 \* 熔岩猎犬有三段攻击偏好。场上有防空火箭时攻击 [防空火箭](/upgrade/0304-Air-Defense)，没有防空火箭时攻击其他防御建筑，没有防御建筑时攻击非防御建筑。
@@ -90,15 +90,21 @@ const tableExtraInfo = [
 | --- |  ---  |   --  |       ---     |               ---              |  ---- |  ----   |  ----   |       ----     |      ----     |
 |  1  |   10  |   20  |       100     |             8 / 8              |  6100 |    \    |    \    |        1       |       9       |
 |  2  |   12  |   24  |       150     |            10 / 9              |  6500 |    14K  |   2     |        7       |       9       |
-|  3  |   14  |   28  |       200     |            12 / 10             |  6800 |  21.5K  |   3     |        8       |      10       |
-|  4  |   16  |   32  |       250     |            14 / 11             |  7200 |  42.5K  |   4,12  |        9       |      11       |
-|  5  |   18  |   36  |       300     |            16 / 12             |  7600 |    60K  |   5     |       10       |      12       |
-|  6  |   20  |   40  |       350     |            18 / 13             |  8000 |    80K  |   8     |       11       |      13       |
+|  3  |   14  |   28  |       200     |            12 / 10             |  6800 |  21.5K  |   2,12  |        8       |      10       |
+|  4  |   16  |   32  |       250     |            14 / 11             |  7200 |  42.5K  |   3     |        9       |      11       |
+|  5  |   18  |   36  |       300     |            16 / 12             |  7600 |    60K  |   4     |       10       |      12       |
+|  6  |   20  |   40  |       350     |            18 / 13             |  8000 |    80K  |   7     |       11       |      13       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>3 ~ 6 级熔岩猎犬的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>熔岩猎犬的训练时间由 5:00 改为 4:20</TimelineRow>
     </TimelineItem>

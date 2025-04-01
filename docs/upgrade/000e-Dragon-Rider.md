@@ -37,7 +37,7 @@ canonical: /upgrade/000e-Dragon-Rider
     <UnitProperty pKey="死亡伤害延时" pValue="0.6 秒" />
     <UnitProperty pKey="所需训练营等级" pValue="15" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
-    <UnitProperty pKey="训练时间" pValue="210" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -60,18 +60,25 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 |  每秒伤害 | 每次伤害 |  死亡伤害  | 生命值 | 升级花费|  升级时间  |所需实验室<br>等级|所需<br>大本等级|
-| ---- |   ----   |   ----  |    ----   |  ---- |   ----  |    ----   |       ----      |     ----      |
-|   1  |    340   |    408  |     700   |  4100 |      \  |     \     |         1       |      13       |
-|   2  |    370   |    444  |     800   |  4400 |   7.5M  |     8     |        11       |      13       |
-|   3  |    400   |    480  |     900   |  4700 |    12M  |    10,12  |        12       |      14       |
-|   4  |    430   |    516  |    1000   |  5000 |  17.2M  |    13     |        14       |      16       |
-|   5  |    460   |    552  |    1100   |  5300 |  22.5M  |    15,12  |        15       |      17       |
+| 等级 |  每秒伤害 | 每次伤害 | 死亡伤害 | 生命值 | 升级花费| 升级时间 |所需实验室<br>等级|所需<br>大本等级|
+| ---- |   ----   |   ----  |   ----   |  ---- |   ----  |   ----  |       ----      |     ----      |
+|   1  |    340   |    408  |    700   |  4100 |      \  |   \     |         1       |      13       |
+|   2  |    370   |    444  |    800   |  4400 |   7.5M  |   7     |        11       |      13       |
+|   3  |    400   |    480  |    900   |  4700 |    12M  |   8,12  |        12       |      14       |
+|   4  |    430   |    516  |   1000   |  5000 |  14.5M  |   9     |        14       |      16       |
+|   5  |    460   |    552  |   1100   |  5300 |  22.5M  |  15,12  |        15       |      17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 4 级龙骑士的升级时间减少。</TimelineRow>
+        <TimelineRow>4 级龙骑士的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>龙骑士的训练时间由 4:10 改为 3:30</TimelineRow>
     </TimelineItem>

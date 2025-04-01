@@ -47,7 +47,7 @@ canonical: /upgrade/0007-Healer
     <UnitProperty pKey="治疗速度" pValue="0.7 秒/次" />
     <UnitProperty pKey="所需训练营等级" pValue="8" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
-    <UnitProperty pKey="训练时间" pValue="120" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -75,18 +75,25 @@ const tableExtraInfo = [
 |   1  |          36        |          19        |   500  |      \  |       \   |      1      |     6     |
 |   2  |          48        |          26        |   700  |   450k  |    0,12   |      5      |     7     |
 |   3  |          60        |          33        |   900  |   900k  |    1      |      6      |     8     |
-|   4  |          66        |          36        |  1200  |   2.7M  |    2      |      7      |     9     |
-|   5  |          72        |          48        |  1500  |   4.2M  |    4      |      9      |    11     |
-|   6  |          72        |          56        |  1600  |     7M  |    5      |     11      |    13     |
-|   7  |          72        |          62        |  1700  |   9.5M  |    8,12   |     12      |    14     |
-|   8  |          76        |          65        |  1800  |  14.8M  |    9,12   |     13      |    15     |
-|   9  |          80        |          68        |  1900  |  16.8M  |   12      |     14      |    16     |
+|   4  |          66        |          36        |  1200  |   2.5M  |    2      |      7      |     9     |
+|   5  |          72        |          48        |  1500  |     4M  |    3      |      9      |    11     |
+|   6  |          72        |          56        |  1600  |     6M  |    4,12   |     11      |    13     |
+|   7  |          72        |          62        |  1700  |   9.5M  |    7      |     12      |    14     |
+|   8  |          76        |          65        |  1800  |    11M  |    7,12   |     13      |    15     |
+|   9  |          80        |          68        |  1900  |    13M  |    8      |     14      |    16     |
 |  10  |          80        |          74        |  2000  |  22.5M  |   15      |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>5 ~ 9 级天使的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 6、8 ~ 9 级天使的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>17 本新增 10 级天使。</TimelineRow>
     </TimelineItem>

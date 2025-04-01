@@ -32,7 +32,7 @@ canonical: /upgrade/0101-Healing-Spell
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
-    <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 \* 疗伤法术的治疗方式是每隔 0.3 秒给法术作用范围内兵种增加部分生命值。
@@ -60,15 +60,15 @@ const tableExtraInfo = [
 | 等级 |最大总治疗量<br>(部队)<sup>①</sup>|最大总治疗量<br>(英雄)| 升级花费 |  升级时间  |所需实验室<br>等级<sup>②</sup>|所需<br>大本等级|
 | ---- |              ----              |         ----        |   ----  |    ----   |             ----            |      ----     |
 |   1  |               600              |          330        |     \   |     \     |              2              |       6       |
-|   2  |               800              |          440        |    75K  |    0, 5   |              2              |       6       |
-|   3  |              1000              |          550        |   150K  |    0,10   |              4              |       6       |
-|   4  |              1200              |          660        |   300K  |    0,20   |              5              |       7       |
-|   5  |              1400              |          770        |   900K  |    1,12   |              6              |       8       |
-|   6  |              1600              |          880        |   1.8M  |    2      |              7              |       9       |
+|   2  |               800              |          440        |    75K  |    0, 3   |              2              |       6       |
+|   3  |              1000              |          550        |   150K  |    0, 6   |              4              |       6       |
+|   4  |              1200              |          660        |   300K  |    0,12   |              5              |       7       |
+|   5  |              1400              |          770        |   900K  |    1      |              6              |       8       |
+|   6  |              1600              |          880        |   1.8M  |    1,12   |              7              |       9       |
 |   7  |              1800              |          990        |     3M  |    3      |              8              |      10       |
 |   8  |              2000              |         1100        |     6M  |    5      |             11              |      13       |
-|   9  |              2200              |         1210        |    11M  |    9      |             13              |      15       |
-|  10  |              2400              |         1320        |    14M  |   12      |             14              |      16       |
+|   9  |              2200              |         1210        |    11M  |    7      |             13              |      15       |
+|  10  |              2400              |         1320        |    14M  |    8      |             14              |      16       |
 |  11  |              2600              |         1430        |    19M  |   15      |             15              |      17       |
 </UnitTable>
 
@@ -78,6 +78,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 6、9 ~ 10 级疗伤法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 11 级疗伤法术。</TimelineRow>
         <TimelineRow>6 ~ 8、10 级疗伤法术的升级时间减少。</TimelineRow>

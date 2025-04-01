@@ -37,7 +37,7 @@ canonical: /upgrade/008a-Druid
    - 德鲁伊的治疗效果无法弹射到攻城机器身上（攻城机器免疫所有治疗效果）。
    - 德鲁伊可以同时治疗地面和空中部队，而天使只能治疗地面部队。
    - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同的是，德鲁伊对英雄的治疗量没有衰减。
-   - 当多个治疗单位治疗同一目标时，治疗量也会衰减，详见这篇文章：[论多个治疗单位治疗同一目标时的衰减效应](/p/6925)。
+   - 当多个治疗单位治疗同一目标时，治疗量会衰减，详见这篇文章：[论多个治疗单位治疗同一目标时的衰减效应](/p/6925)。
    - 在人类形态下，德鲁伊不能反击。在没有治疗目标时，即使受到伤害也会保持静止。
 4. 在巨熊形态下，德鲁伊是一种优先攻击防御建筑的兵种。
 5. 人类形态下的德鲁伊可以跳墙，巨熊形态下则不能。
@@ -55,7 +55,7 @@ canonical: /upgrade/008a-Druid
     <UnitProperty pKey="治疗距离" pValue="5 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="11" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
-    <UnitProperty pKey="训练时间" pValue="140" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -81,9 +81,9 @@ const tableExtraInfo = [
 | 等级 | 每秒治疗量 | 每次治疗量 | 生命值 | 升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
 |  --- |    ---    |    ---    |  ---- |  ----   |    ----   |       ----      |      ----     |
 |   1  |     65    |     65    |  1300 |    \    |      \    |         1       |       14      |
-|   2  |     70    |     70    |  1400 |   125K  |     12    |        12       |       14      |
-|   3  |     75    |     75    |  1500 |   175K  |     14    |        13       |       15      |
-|   4  |     80    |     80    |  1600 | 187.5K  |     15    |        14       |       16      |
+|   2  |     70    |     70    |  1400 |   125K  |      9    |        12       |       14      |
+|   3  |     75    |     75    |  1500 |   175K  |     12    |        13       |       15      |
+|   4  |     80    |     80    |  1600 | 187.5K  |     13    |        14       |       16      |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -130,6 +130,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 4 级德鲁伊的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>德鲁伊的训练时间由 2:30 改为 2:20</TimelineRow>
     </TimelineItem>

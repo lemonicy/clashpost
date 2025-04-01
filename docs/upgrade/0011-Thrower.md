@@ -33,7 +33,7 @@ canonical: /upgrade/0011-Thrower
     <UnitProperty pKey="攻击距离" pValue="6 格" />
     <UnitProperty pKey="所需训练营等级" pValue="18" />
     <UnitProperty pKey="所需大本等级" pValue="16" />
-    <UnitProperty pKey="训练时间" pValue="140" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -66,6 +66,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>巨矛投手的训练时间由 3:10 改为 2:20</TimelineRow>
     </TimelineItem>

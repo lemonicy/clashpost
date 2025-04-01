@@ -37,7 +37,7 @@ canonical: /upgrade/0488-Blacksmith
 3. 英雄装备可以赋予英雄一定的技能，详情请前往对应的装备页面查看。
 4. 升级装备不需要时间，只需花费矿石。
 5. 升级装备不占用 [建筑工人](/upgrade/0500-Builders-Hut)，也不占用 [实验室](/upgrade/0483-Laboratory)。
-6. 铁匠铺免疫 [雷电法术](/upgrade/0100-Lightning-Spell) 伤害，理论上属于资源类建筑，但不被 [哥布林](/upgrade/0003-Goblin) 优先攻击。
+6. 铁匠铺免疫 [雷电法术](/upgrade/0100-Lightning-Spell) 伤害，理论上属于资源类建筑，但不被 [哥布林](/upgrade/0003-Goblin) 优先攻击，哥布林的攻击伤害也不会翻倍。
 
 <SmallTitle>属性</SmallTitle>
 

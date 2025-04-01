@@ -42,7 +42,7 @@ canonical: /upgrade/000f-Electro-Titan
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="所需训练营等级" pValue="16" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
-    <UnitProperty pKey="训练时间" pValue="270" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>光环的属性</SmallTitle>
@@ -78,14 +78,21 @@ const tableExtraInfo = [
 | 等级 |普攻伤害<br>(每秒/每次)|光环伤害<br>(每秒/每次)| 生命值 | 升级花费 |  升级时间 |所需实验室<br>等级|所需<br>大本等级|
 | ---- |          ---        |           ---        |  ---- |   ----  |    ----   |      ----      |     ----      |
 |   1  |      180 / 270      |        75 / 30       |  7200 |      \  |     \     |        1       |      14       |
-|   2  |      200 / 300      |       100 / 40       |  7700 |    14M  |    12     |       12       |      14       |
-|   3  |      220 / 330      |       125 / 50       |  8200 |    18M  |    13     |       13       |      15       |
-|   4  |      240 / 360      |      137.5 / 55      |  8400 |  18.5M  |    13,12  |       14       |      16       |
+|   2  |      200 / 300      |       100 / 40       |  7700 |    14M  |    9      |       12       |      14       |
+|   3  |      220 / 330      |       125 / 50       |  8200 |    16M  |   10,12   |       13       |      15       |
+|   4  |      240 / 360      |      137.5 / 55      |  8400 |  18.5M  |   12      |       14       |      16       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 4 级雷霆泰坦的升级时间减少。</TimelineRow>
+        <TimelineRow>3 级雷霆泰坦的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>雷霆泰坦的训练时间由 6:00 改为 4:30</TimelineRow>
     </TimelineItem>

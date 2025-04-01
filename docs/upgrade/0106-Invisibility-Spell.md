@@ -30,7 +30,7 @@ canonical: /upgrade/0106-Invisibility-Spell
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需法术工厂等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="11" />
-    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -56,14 +56,20 @@ const tableExtraInfo = [
 | 等级 | 法术持续时间 | 升级花费 |  升级时间  | 所需实验室等级 | 所需大本等级 |
 | ---- |     ----    |   ----  |    ----   |      ----     |     ----    |
 |   1  |    3.5 秒   |     \   |     \     |        1      |      11     |
-|   2  |   3.75 秒   |    5M   |    4      |        9      |      11     |
-|   3  |      4 秒   |    6M   |    4,12   |       10      |      12     |
-|   4  |   4.25 秒   |    7M   |    7      |       11      |      13     |
+|   2  |   3.75 秒   |    5M   |    3      |        9      |      11     |
+|   3  |      4 秒   |    6M   |    4      |       10      |      12     |
+|   4  |   4.25 秒   |    7M   |    5      |       11      |      13     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 4 级隐形法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>所有等级隐形法术的持续时间减少。</TimelineRow>
     </TimelineItem>

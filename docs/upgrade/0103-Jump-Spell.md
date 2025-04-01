@@ -26,7 +26,7 @@ canonical: /upgrade/0103-Jump-Spell
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 ① 弹跳法术对我方英雄有效，对攻城机器无效。弹跳法术的弹跳能力不能与 [野猪骑士](/upgrade/0081-Hog-Rider) 这类兵种自带的跳墙能力叠加，也不能让 [掘地矿工](/upgrade/000b-Miner) 改变钻地的机制。<br>
@@ -55,7 +55,7 @@ const tableExtraInfo = [
 | 等级 |脉冲<br>作用时间|  脉冲次数  | 升级花费 |  升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |       ----    |    ----   |   ----  |    ----   |      ----      |       ----    |
 |   1  |      20 秒    |     66    |     \   |     \     |        4       |        9      |
-|   2  |      40 秒    |    133    |    1M   |    1,12   |        5       |        9      |
+|   2  |      40 秒    |    133    |    1M   |    1      |        5       |        9      |
 |   3  |      60 秒    |    199    |    2M   |    2      |        8       |       10      |
 |   4  |      80 秒    |    266    |    5M   |    4      |       11       |       13      |
 |   5  |     100 秒    |    333    |    8M   |    6,12   |       13       |       15      |
@@ -67,6 +67,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 级弹跳法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 5 级弹跳法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

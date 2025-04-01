@@ -24,7 +24,7 @@ canonical: /upgrade/0182-Haste-Spell
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 \* 脉冲有效时间比脉冲间隔时间要长，这意味着部队离开法术范围后，仍然会保持效果 0.7 到 1 秒。
@@ -52,18 +52,24 @@ const tableExtraInfo = [
 | 等级 |速度提升<sup>#</sup>| 持续时间 | 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |        ----       |   ---   |    ---   |  ----   |       ----      |      ----     |
 |   1  |         28        |  10 秒  |     \    |    \    |         1       |        9      |
-|   2  |         34        |  15 秒  |     8K   |   1,12  |         7       |        9      |
+|   2  |         34        |  15 秒  |     8K   |   1     |         7       |        9      |
 |   3  |         40        |  20 秒  |    17K   |   2     |         8       |       10      |
-|   4  |         46        |  25 秒  |    30K   |   4     |         8       |       10      |
-|   5  |         52        |  30 秒  |  38.5K   |   4,12  |         9       |       11      |
+|   4  |         46        |  25 秒  |    30K   |   3     |         8       |       10      |
+|   5  |         52        |  30 秒  |  38.5K   |   4     |         9       |       11      |
 |   6  |         56        |  30 秒  |   200K   |  12,12  |        15       |       17      |
 </UnitTable>
 
-\# 这里的 8 点速度值代表 1 格/秒。
+\# 表格中每 8 点速度值代表 1 格/秒。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2、4 ~ 4 级急速法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>17 本新增 6 级急速法术。</TimelineRow>
     </TimelineItem>

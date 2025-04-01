@@ -45,7 +45,7 @@ canonical: /upgrade/0008-Dragon
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />
     <UnitProperty pKey="所需训练营等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
-    <UnitProperty pKey="训练时间" pValue="170" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -78,15 +78,22 @@ const tableExtraInfo = [
 |   6  |    270   |   337.5 |  3400  |   4.9M  |    4      |      9      |    11     |
 |   7  |    310   |   387.5 |  3900  |     5M  |    5      |     10      |    12     |
 |   8  |    330   |   412.5 |  4200  |   7.5M  |    6      |     11      |    13     |
-|   9  |    350   |   437.5 |  4500  |  10.5M  |    9      |     12      |    14     |
-|  10  |    370   |   462.5 |  4900  |    15M  |   10,14   |     13      |    15     |
-|  11  |    390   |   487.5 |  5300  |  17.2M  |   13      |     14      |    16     |
+|   9  |    350   |   437.5 |  4500  |  10.5M  |    7      |     12      |    14     |
+|  10  |    370   |   462.5 |  4900  |    12M  |    8      |     13      |    15     |
+|  11  |    390   |   487.5 |  5300  |    14M  |    8,12   |     14      |    16     |
 |  12  |    410   |   512.5 |  5700  |    22M  |   14,16   |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>9 ~ 11 级飞龙的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 11 级飞龙的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>飞龙的训练时间由 3:00 改为 2:50</TimelineRow>
     </TimelineItem>

@@ -48,7 +48,7 @@ canonical: /upgrade/060f-Super-Hog-Rider
     <UnitProperty pKey="最低大本等级" pValue="13" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
-    <UnitProperty pKey="训练时间" pValue="101" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -61,6 +61,7 @@ canonical: /upgrade/060f-Super-Hog-Rider
 |  11  |    210    |    210    |  1600 |     14    |
 |  12  |    230    |    230    |  1700 |     15    |
 |  13  |    250    |    250    |  1800 |     16    |
+|  14  |    270    |    270    |  1900 |     17    |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -76,10 +77,6 @@ canonical: /upgrade/060f-Super-Hog-Rider
         <UnitImg imgTitle="所有等级" imgSrc="Super_Hog10.png" />
     </UnitImgGroup>
 </Panel>
-
-<SmallTitle>重要说明</SmallTitle>
-
-超级野猪骑士的技能（分头作战）：被击倒后，野猪和骑士会分开，成为相互独立的部队。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -102,6 +99,7 @@ canonical: /upgrade/060f-Super-Hog-Rider
 |  11  |     55    |     55    |   900 |     14    |
 |  12  |     60    |     60    |  1000 |     15    |
 |  13  |     65    |     65    |  1050 |     16    |
+|  14  |     70    |     70    |  1100 |     17    |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -120,7 +118,7 @@ canonical: /upgrade/060f-Super-Hog-Rider
 
 <SmallTitle>重要说明</SmallTitle>
 
-超级野猪骑士的技能（分头作战）：被击倒后，野猪和骑士会分开，成为相互独立的部队。
+超级骑士对城墙有两倍伤害，不过超级骑士没有攻击偏好。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -137,12 +135,13 @@ canonical: /upgrade/060f-Super-Hog-Rider
 
 <UnitTable>
 
-| 等级 |  每秒伤害  |  每次伤害  | 生命值 |所需大本等级|
-| ---- |    ----   |    ----   |  ---- |    ----   |
-|  10  |    190    |    190    |  550  |     13    |
-|  11  |    210    |    210    |  625  |     14    |
-|  12  |    230    |    230    |  700  |     15    |
-|  13  |    250    |    250    |  750  |     16    |
+| 等级 | 每秒伤害 | 每次伤害 | 对墙每次伤害 | 生命值 |所需大本等级|
+| ---- |   ----  |   ----  |     ----    |  ---- |    ----   |
+|  10  |   190   |   190   |     380     |  550  |     13    |
+|  11  |   210   |   210   |     420     |  625  |     14    |
+|  12  |   230   |   230   |     460     |  700  |     15    |
+|  13  |   250   |   250   |     500     |  750  |     16    |
+|  14  |   270   |   270   |     540     |  800  |     17    |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -150,6 +149,12 @@ canonical: /upgrade/060f-Super-Hog-Rider
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>17 本新增 14 级野猪骑士，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>超级野猪骑士的训练时间由 1:50 改为 1:41</TimelineRow>
     </TimelineItem>

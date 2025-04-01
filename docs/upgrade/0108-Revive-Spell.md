@@ -20,7 +20,7 @@ canonical: /upgrade/0108-Revive-Spell
 3. 只有当英雄的自动技能和 [凤凰](/upgrade/0287-Phoenix) 的无敌效果都结束后，你才能对被击倒的英雄使用复苏法术。
     - 英雄的自动技能指的是设置中的“即将被击败时自动使用技能”选项，这个选项默认打开。
 5. 如果英雄在使用技能时被击倒，复苏后剩余的技能时间还在。
-6. 如果带有战宠的英雄被击倒，则英雄在第一次被击倒时就会与宠物分离，复苏后英雄和宠物互不影响。
+6. 如果带有战宠的英雄被击倒，则英雄在第一次被击倒时就会与战宠分离，此时战宠会变成独立个体，即使该英雄被复苏，战宠也不会重新跟随。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -31,7 +31,7 @@ canonical: /upgrade/0108-Revive-Spell
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="8" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
-    <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -66,6 +66,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 15 本新增复苏法术。</TimelineRow>
     </TimelineItem>

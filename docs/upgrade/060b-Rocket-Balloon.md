@@ -44,7 +44,7 @@ canonical: /upgrade/060b-Rocket-Balloon
     <UnitProperty pKey="最低大本等级" pValue="12" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
-    <UnitProperty pKey="训练时间" pValue="48" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -62,6 +62,9 @@ canonical: /upgrade/060b-Rocket-Balloon
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/04/09">
         <TimelineRow>8 ~ 10 级火箭气球兵的每秒伤害提升。</TimelineRow>
         <TimelineRow>8 ~ 10 级火箭气球兵的死亡伤害提升。</TimelineRow>

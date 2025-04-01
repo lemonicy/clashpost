@@ -45,7 +45,7 @@ canonical: /upgrade/0000-Barbarian
     <UnitProperty pKey="攻击距离" pValue="0.4 格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="1" />
-    <UnitProperty pKey="训练时间" pValue="5" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -71,22 +71,29 @@ const tableExtraInfo = [
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级花费 |  升级时间  |所需实验室等级|所需大本等级|
 | ---- |  ----   |  ----   |  ----  |   ----  |    ----   |    ----     |   ----    |
 |   1  |     8   |    8    |    45  |      \  |       \   |      1      |     1     |
-|   2  |    11   |   11    |    54  |    20k  |    0, 1   |      1      |     3     |
-|   3  |    14   |   14    |    65  |    60k  |    0, 4   |      3      |     5     |
-|   4  |    18   |   18    |    85  |   200k  |    0, 6   |      5      |     7     |
-|   5  |    23   |   23    |   105  |   650k  |    0,12   |      6      |     8     |
-|   6  |    26   |   26    |   125  |   1.4M  |    0,18   |      7      |     9     |
-|   7  |    30   |   30    |   160  |   2.1M  |    1      |      8      |    10     |
-|   8  |    34   |   34    |   205  |   2.8M  |    2      |      9      |    11     |
-|   9  |    38   |   38    |   230  |   3.5M  |    2,12   |     10      |    12     |
-|  10  |    42   |   42    |   250  |   4.3M  |    4      |     12      |    14     |
-|  11  |    45   |   45    |   270  |     6M  |    5      |     13      |    15     |
-|  12  |    48   |   48    |   290  |    12M  |    9      |     14      |    16     |
+|   2  |    11   |   11    |    54  |    10k  |   0, 0,30 |      1      |     3     |
+|   3  |    14   |   14    |    65  |    50k  |   0, 1    |      3      |     5     |
+|   4  |    18   |   18    |    85  |   130k  |   0, 2    |      5      |     7     |
+|   5  |    23   |   23    |   105  |   300k  |   0, 4    |      6      |     8     |
+|   6  |    26   |   26    |   125  |   800k  |   0, 8    |      7      |     9     |
+|   7  |    30   |   30    |   160  |     1M  |   0,12    |      8      |    10     |
+|   8  |    34   |   34    |   205  |   1.5M  |   1       |      9      |    11     |
+|   9  |    38   |   38    |   230  |   2.5M  |   2       |     10      |    12     |
+|  10  |    42   |   42    |   250  |   4.3M  |   3, 4    |     12      |    14     |
+|  11  |    45   |   45    |   270  |     6M  |   4       |     13      |    15     |
+|  12  |    48   |   48    |   290  |     8M  |   5       |     14      |    16     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 12 级野蛮人的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 9、12 级野蛮人的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>2 级野蛮人的升级时间减少。</TimelineRow>
     </TimelineItem>

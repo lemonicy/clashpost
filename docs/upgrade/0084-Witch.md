@@ -45,7 +45,7 @@ canonical: /upgrade/0084-Witch
     <UnitProperty pKey="召唤骷髅的冷却时间" pValue="7 秒" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="训练时间" pValue="100" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>骷髅的属性</SmallTitle>
@@ -84,14 +84,14 @@ const tableExtraInfo = [
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 |每秒伤害| 每次伤害 |每次召唤<br>数量<sup>*</sup>|最大召唤<br>数量| 生命值 |升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
-| --- |   ---  |   ----  |            ---            |       ---     |  ---- |  ----  |   ----    |       ----      |      ----     |
-|  1  |   100  |   70    |             4             |        6      |  300  |    \   |      \    |        1        |       9       |
-|  2  |   110  |   77    |             4             |        8      |  320  |    20K |      3    |        7        |       9       |
-|  3  |   140  |   98    |             4             |       10      |  400  |    29K |      4    |        8        |      10       |
-|  4  |   165  |  115.5  |             4             |       12      |  470  |    45K |      5    |        9        |      11       |
-|  5  |   185  |  129.5  |             4             |       14      |  520  |  62.5K |      6    |       10        |      12       |
-|  6  |   200  |  140    |             4             |       15      |  540  |   150K |     12    |       13        |      15       |
-|  7  |   220  |  154    |             5             |       16      |  560  |   180K |     13    |       14        |      16       |
+| --- |   ---  |   ----  |            ---            |       ---     |  ---- |  ----  |    ---    |       ----      |      ----     |
+|  1  |   100  |   70    |             4             |        6      |  300  |    \   |     \     |        1        |       9       |
+|  2  |   110  |   77    |             4             |        8      |  320  |    20K |    2      |        7        |       9       |
+|  3  |   140  |   98    |             4             |       10      |  400  |    29K |    3      |        8        |      10       |
+|  4  |   165  |  115.5  |             4             |       12      |  470  |    45K |    4      |        9        |      11       |
+|  5  |   185  |  129.5  |             4             |       14      |  520  |  62.5K |    4,12   |       10        |      12       |
+|  6  |   200  |  140    |             4             |       15      |  540  |   150K |    7      |       13        |      15       |
+|  7  |   220  |  154    |             5             |       16      |  560  |   180K |    8,12   |       14        |      16       |
 </UnitTable>
 
 \* 女巫并不是每次召唤都可以召唤出这么多骷髅，当一只女巫召唤的骷髅达到上表的限制时，除非骷髅兵死亡，否则女巫不会继续召唤。这个上限指的是每只女巫召唤的骷髅，如果有两只女巫，那么场上的最大骷髅数量为 2 倍上限。
@@ -99,6 +99,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 7 级女巫的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>女巫的训练时间由 2:00 改为 1:40</TimelineRow>
     </TimelineItem>
