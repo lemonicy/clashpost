@@ -41,7 +41,7 @@ canonical: /upgrade/0240-Wall-Wrecker
     <UnitProperty pKey="攻击速度" pValue="1.3 秒/次" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
-    <UnitProperty pKey="建造时间" pValue="1200" trainingSystem="2022" />
+    <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -76,6 +76,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 5 级攻城战车的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

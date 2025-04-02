@@ -39,7 +39,7 @@ canonical: /upgrade/0100-Lightning-Spell
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需法术工厂等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="5" />
-    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -65,16 +65,16 @@ const tableExtraInfo = [
 | 等级 |  总伤害 | 升级花费 | 升级时间 |所需实验室<br>等级<sup>*</sup>|所需<br>大本等级|
 | ---- |  ----  |  ----   |  ----   |            ----             |     ----      |
 |   1  |   150  |     \   |   \     |              1              |       5       |
-|   2  |   180  |    50K  |   0, 4  |              1              |       5       |
-|   3  |   210  |   100K  |   0, 8  |              2              |       5       |
-|   4  |   240  |   200K  |   0,12  |              3              |       5       |
+|   2  |   180  |    50K  |   0, 2  |              1              |       5       |
+|   3  |   210  |   100K  |   0, 4  |              2              |       5       |
+|   4  |   240  |   200K  |   0, 6  |              3              |       5       |
 |   5  |   270  |   600K  |   1     |              6              |       8       |
-|   6  |   320  |   1.5M  |   2     |              7              |       9       |
+|   6  |   320  |   1.5M  |   1,12  |              7              |       9       |
 |   7  |   400  |   2.5M  |   3     |              8              |      10       |
-|   8  |   480  |   4.2M  |   5     |              9              |      11       |
-|   9  |   560  |   6.3M  |   6     |             10              |      12       |
-|  10  |   600  |    10M  |   9     |             13              |      15       |
-|  11  |   640  |  13.5M  |  11     |             14              |      16       |
+|   8  |   480  |   4.2M  |   3,12  |              9              |      11       |
+|   9  |   560  |   6.3M  |   5     |             10              |      12       |
+|  10  |   600  |    10M  |   7     |             13              |      15       |
+|  11  |   640  |  13.5M  |   8     |             14              |      16       |
 |  12  |   680  |  18.5M  |  14     |             15              |      17       |
 </UnitTable>
 
@@ -83,6 +83,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 4、6、8 ~ 11 级雷电法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 12 级雷电法术。</TimelineRow>
         <TimelineRow>6 ~ 9、11 级雷电法术的升级时间减少。</TimelineRow>

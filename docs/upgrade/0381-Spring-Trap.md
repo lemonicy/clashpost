@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 隐形弹簧升级数据"
 navTitle: "隐形弹簧"
 shownTitle: "隐形弹簧"
@@ -72,16 +72,20 @@ const tableExtraInfo = [
 | 等级 |可被弹飞的<br>人口数| 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需大本等级 |
 | ---- |        ---       |   ---   |    ---     |         ---        |     ---     |
 |   1  |         10       |     2k  |    0       |                    |      4      |
-|   2  |         12       |   250k  |    0, 3    |                    |      7      |
-|   3  |         14       |   375k  |    0, 9    |                    |      8      |
-|   4  |         16       |   700k  |    0,12    |                    |      9      |
-|   5  |         18       |   800k  |    1       |                    |     10      |
+|   2  |         12       |   130k  |    0, 2    |                    |      7      |
+|   3  |         14       |   240k  |    0, 4    |                    |      8      |
+|   4  |         16       |   350k  |    0, 6    |                    |      9      |
+|   5  |         18       |   800k  |    0,12    |                    |     10      |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 5 级隐形弹簧的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4 级隐形弹簧的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>4 级隐形弹簧的升级时间减少。</TimelineRow>
     </TimelineItem>

@@ -80,11 +80,11 @@ function setTbodyValue(targetTd, targetValue, item) {
             timeValue = targetValue;
             break;
         case "time":
-        case "regen":
             timeValue = targetValue;
             break;
         case "cost":
         case "trainingCost":
+            // trainingCost 这一项仅在个别临时兵种中使用，这些兵种推出时训练费用尚未取消
             costValue = targetValue;
             break;
         case "exp":
@@ -215,6 +215,7 @@ onMounted(() => {
 <style lang="scss">
 .cp-upgrade-table {
     a {
+        white-space: nowrap; // a 元素内部不换行
         line-height: 2.25;
     }
 }

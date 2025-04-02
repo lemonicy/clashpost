@@ -48,7 +48,7 @@ canonical: /upgrade/000c-Electro-Dragon
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />
     <UnitProperty pKey="所需训练营等级" pValue="13" />
     <UnitProperty pKey="所需大本等级" pValue="11" />
-    <UnitProperty pKey="训练时间" pValue="260" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -74,18 +74,25 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 |死亡后闪电伤害| 生命值 | 升级花费|  升级时间  |所需实验室等级|所需大本等级|
 | ---- |   ----   |   ----  |     ----    |  ---- |   ----  |    ----   |    ----     |   ----    |
 |   1  |    240   |    840  |     65×6    |  3200 |      \  |     \     |      1      |    11     |
-|   2  |    270   |    945  |     75×6    |  3700 |   6.3M  |     5     |      9      |    11     |
+|   2  |    270   |    945  |     75×6    |  3700 |     6M  |     4,12  |      9      |    11     |
 |   3  |    300   |   1050  |     85×6    |  4200 |     7M  |     5,12  |     10      |    12     |
-|   4  |    330   |   1155  |     95×6    |  4500 |     9M  |     9     |     11      |    13     |
-|   5  |    360   |   1260  |    105×6    |  4800 |    11M  |    10     |     12      |    14     |
-|   6  |    390   |   1365  |    115×6    |  5200 |    16M  |    12     |     13      |    15     |
-|   7  |    420   |   1470  |    125×6    |  5500 |  17.6M  |    13     |     14      |    16     |
+|   4  |    330   |   1155  |     95×6    |  4500 |     9M  |     7     |     11      |    13     |
+|   5  |    360   |   1260  |    105×6    |  4800 |    11M  |     8     |     12      |    14     |
+|   6  |    390   |   1365  |    115×6    |  5200 |    14M  |     9     |     13      |    15     |
+|   7  |    420   |   1470  |    125×6    |  5500 |    16M  |    10     |     14      |    16     |
 |   8  |    450   |   1575  |    135×6    |  5800 |    23M  |    15     |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2、4 ~ 7 级雷电飞龙的升级时间减少。</TimelineRow>
+        <TimelineRow>2、6 ~ 7 级雷电飞龙的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>雷电飞龙的训练时间由 6:00 改为 4:20</TimelineRow>
     </TimelineItem>

@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 暗黑法术工厂升级数据"
 navTitle: "暗黑法术工厂"
 shownTitle: "暗黑法术工厂"
@@ -79,7 +79,7 @@ const tableExtraInfo = [
 | 等级 | 可容纳的<br>法术空间 | 生命值 | 升级费用 | 升级时间 | 升级后可获<br>得的经验 | 所需大本等级 | 解锁的法术 |
 | ---- |         ----       |   ---  |   ---   |   ---   |          ---          |     ---    |    ----    |
 |   1  |          1         |   600  |  130k   |   0, 6  |                       |      8     |<a href="/upgrade/0180-Poison-Spell">毒药法术</a>|
-|   2  |          1         |   660  |  260k   |   0,18  |                       |      8     |<a href="/upgrade/0181-Earthquake-Spell">地震法术</a>|
+|   2  |          1         |   660  |  260k   |   0,12  |                       |      8     |<a href="/upgrade/0181-Earthquake-Spell">地震法术</a>|
 |   3  |          1         |   720  |  600k   |   2     |                       |      9     |<a href="/upgrade/0182-Haste-Spell">急速法术</a>|
 |   4  |          1         |   780  |  1.2M   |   4     |                       |      9     |<a href="/upgrade/0183-Skeleton-Spell">骷髅法术</a>|
 |   5  |          1         |   840  |  2.5M   |   5     |                       |     10     |<a href="/upgrade/0184-Bat-Spell">蝙蝠法术</a>|
@@ -89,6 +89,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 级暗黑法术工厂的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">  
         <TimelineRow>5 ~ 6 级暗黑法术工厂的升级时间减少。</TimelineRow>
         <TimelineRow>6 级暗黑法术工厂的升级费用降低。</TimelineRow>
@@ -109,8 +112,8 @@ const tableExtraInfo = [
         <TimelineRow>所有等级暗黑法术工厂的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem> 
         <TimelineItem date="2019/04/02">
-        <TimelineRow>所有等级暗黑法术工厂的升级费用降低。</TimelineRow>
         <TimelineRow>1 ~ 4 级暗黑法术工厂的升级时间减少。</TimelineRow>
+        <TimelineRow>所有等级暗黑法术工厂的升级费用降低。</TimelineRow>
     </TimelineItem>    
     <TimelineItem :historyBottom="true" />
 </Timeline>

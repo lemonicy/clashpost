@@ -30,7 +30,7 @@ canonical: /upgrade/0104-Freeze-Spell
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需法术工厂等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -56,17 +56,23 @@ const tableExtraInfo = [
 | 等级 |  冰冻时间 | 升级花费| 升级时间 | 所需实验室等级 |所需大本等级|
 | ---- |   ----   |  ----  |  ----   |      ----     |   ----    |
 |   1  |  2.5 秒  |    \   |   \     |        7      |     9     |
-|   2  |    3 秒  |  1.2M  |   1,12  |        7      |     9     |
-|   3  |  3.5 秒  |  1.7M  |   2     |        8      |    10     |
-|   4  |    4 秒  |    3M  |   2,12  |        8      |    10     |
-|   5  |  4.5 秒  |  4.2M  |   3     |        8      |    10     |
-|   6  |    5 秒  |    6M  |   5     |        9      |    11     |
-|   7  |  5.5 秒  |    7M  |   6     |       10      |    12     |
+|   2  |    3 秒  |  1.2M  |   1     |        7      |     9     |
+|   3  |  3.5 秒  |  1.7M  |   1,12  |        8      |    10     |
+|   4  |    4 秒  |    3M  |   2     |        8      |    10     |
+|   5  |  4.5 秒  |  4.2M  |   2,12  |        8      |    10     |
+|   6  |    5 秒  |    6M  |   3,12  |        9      |    11     |
+|   7  |  5.5 秒  |    7M  |   5     |       10      |    12     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 7 级冰冻法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>3 ~ 7 级冰冻法术的升级时间减少。</TimelineRow>
     </TimelineItem>

@@ -45,7 +45,7 @@ canonical: /upgrade/0005-Balloon
     <UnitProperty pKey="死亡伤害延时" pValue="0.146 秒" />
     <UnitProperty pKey="所需训练营等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="4" />
-    <UnitProperty pKey="训练时间" pValue="30" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -71,21 +71,28 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害|死亡<br>溅射伤害|生命值 | 升级花费|  升级时间  |所需<br>实验室等级|所需大本等级|
 | ---- |   ----   |   ----  |     ----    |  ---- |   ----  |    ----   |      ----       |   ----    |
 |   1  |     25   |    75   |      25     |   150 |      \  |       \   |        1        |     4     |
-|   2  |     32   |    96   |      32     |   180 |   125k  |    0, 8   |        2        |     4     |
-|   3  |     48   |   144   |      48     |   216 |   400k  |    0,12   |        4        |     6     |
+|   2  |     32   |    96   |      32     |   180 |   100k  |    0, 4   |        2        |     4     |
+|   3  |     48   |   144   |      48     |   216 |   400k  |    0, 6   |        4        |     6     |
 |   4  |     72   |   216   |      72     |   280 |   720k  |    0,18   |        5        |     7     |
 |   5  |    108   |   324   |     108     |   390 |   1.3M  |    1      |        6        |     8     |
 |   6  |    162   |   486   |     162     |   545 |  2.75M  |    3      |        7        |     9     |
-|   7  |    198   |   594   |     214     |   690 |   4.5M  |    3,12   |        9        |    11     |
+|   7  |    198   |   594   |     214     |   690 |   4.4M  |    3,12   |        9        |    11     |
 |   8  |    236   |   708   |     268     |   840 |     5M  |    4      |       10        |    12     |
-|   9  |    256   |   768   |     322     |   940 |     8M  |    8      |       11        |    13     |
-|  10  |    276   |   828   |     352     |  1040 |    10M  |   12      |       12        |    14     |
-|  11  |    290   |   870   |     375     |  1140 |    18M  |   13      |       14        |    16     |
+|   9  |    256   |   768   |     322     |   940 |     7M  |    5      |       11        |    13     |
+|  10  |    276   |   828   |     352     |  1040 |    10M  |    7,12   |       12        |    14     |
+|  11  |    290   |   870   |     375     |  1140 |    14M  |    8,12   |       14        |    16     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 3、9 ~ 11 级气球兵的升级时间减少。</TimelineRow>
+        <TimelineRow>2、7、9、11 级气球兵的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>6 ~ 11 级气球兵的升级时间减少。</TimelineRow>
         <TimelineRow>8 ~ 11 级气球兵的升级费用降低。</TimelineRow>

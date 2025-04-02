@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 城墙升级数据"
 navTitle: "城墙"
 shownTitle: "城墙"
@@ -50,7 +50,7 @@ canonical: /upgrade/0300-Walls
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="1×1" />
-    <UnitProperty pKey="18 级城墙最高可升级" pValue="175 块" />
+    <UnitProperty pKey="18 级城墙最高可升级" pValue="250 块" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -95,11 +95,11 @@ const tableExtraInfo = [
 |  10  |  4000 |  200k   |   200k   |          1         |        9        |
 |  11  |  5000 |  500k   |   500k   |          1         |       10        |
 |  12  |  7000 |    1M   |     1M   |          1         |       11        |
-|  13  |  9000 |    2M   |     2M   |          2         |       12        |
-|  14  | 11000 |    3M   |     3M   |          3         |       13        |
-|  15  | 12500 |    4M   |     4M   |          4         |       14        |
-|  16  | 13500 |    5M   |     5M   |          5         |       15        |
-|  17  | 14500 |    7M   |     7M   |          7         |       16        |
+|  13  |  9000 |  1.5M   |   1.5M   |          2         |       12        |
+|  14  | 11000 |    2M   |     2M   |          2         |       13        |
+|  15  | 12500 |    3M   |     3M   |          3         |       14        |
+|  16  | 13500 |    4M   |     4M   |          4         |       15        |
+|  17  | 14500 |    5M   |     5M   |          5         |       16        |
 |  18  | 15500 |    8M   |     8M   |          8         |       17        |
 </UnitTable>
 
@@ -108,6 +108,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>13 ~ 17 级城墙的升级费用降低。</TimelineRow>
+        <TimelineRow>17 本新解锁 75 块 18 级城墙（共 250 块）。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>建造 1 级城墙不再需要费用。</TimelineRow>
         <TimelineRow>17 本新解锁 75 块 18 级城墙（共 175 块）。</TimelineRow>

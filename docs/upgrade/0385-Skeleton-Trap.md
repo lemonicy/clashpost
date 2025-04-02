@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 骷髅陷阱升级数据"
 navTitle: "骷髅陷阱"
 shownTitle: "骷髅陷阱"
@@ -47,15 +47,30 @@ canonical: /upgrade/0385-Skeleton-Trap
     <UnitProperty pKey="触发半径" pValue="5 格" />
 </UnitProperties>
 
-<SmallTitle>骷髅的属性</SmallTitle>
+<SmallTitle>对地骷髅的属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="无" />
-    <UnitProperty pKey="攻击的目标" pValue="可调地面或空中目标" />
-    <UnitProperty pKey="移动速度" pValue="24 (地面)<br>17.6 (空中)" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格 (地面)<br>0 (空中)" />
-    <UnitProperty pKey="每秒伤害" pValue="25" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
     <UnitProperty pKey="攻速" pValue="0.7 秒/次" />
+    <UnitProperty pKey="每秒伤害" pValue="25" />
+    <UnitProperty pKey="每次伤害" pValue="17.5" />
+    <UnitProperty pKey="生命值" pValue="30" />
+</UnitProperties>
+
+<SmallTitle>对空骷髅的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="攻击的目标" pValue="仅空中目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
+    <UnitProperty pKey="移动速度" pValue="2.2 格/秒" />
+    <UnitProperty pKey="攻击距离" pValue="0 (紧贴目标)" />
+    <UnitProperty pKey="攻速" pValue="0.7 秒/次" />
+    <UnitProperty pKey="每秒伤害" pValue="25" />
     <UnitProperty pKey="每次伤害" pValue="17.5" />
     <UnitProperty pKey="生命值" pValue="30" />
 </UnitProperties>
@@ -88,15 +103,20 @@ const tableExtraInfo = [
 | 等级 | 骷髅数量 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |   ---   |   ---   |   ---   |         ---        |      ---      |
 |   1  |    2    |     6k  |   0     |                    |        8      |
-|   2  |    3    |   300k  |   0, 5  |                    |        8      |
-|   3  |    4    |   800k  |   0,10  |                    |        9      |
-|   4  |    5    |   1.1M  |   0,20  |                    |       10      |
+|   2  |    3    |   250k  |   0, 5  |                    |        8      |
+|   3  |    4    |   400k  |   0, 8  |                    |        9      |
+|   4  |    5    |     1M  |   0,12  |                    |       10      |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>3 ~ 4 级骷髅陷阱的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4 级骷髅陷阱的升级费用降低。</TimelineRow>
+        <TimelineRow>对地模式的骷髅陷阱召唤出的骷髅占用的人口数由 2 调整为 1，现在对空和对地骷髅的人口数统一为 1 了。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>所有等级骷髅陷阱的升级费用降低。</TimelineRow>
         <TimelineRow>3 ~ 4级骷髅陷阱的升级时间减少。</TimelineRow>
@@ -106,8 +126,8 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2021/04/12">
         <TimelineRow>14 本推出，并在 14 本新解锁一个骷髅陷阱。</TimelineRow>
-        <TimelineRow>2 ~ 3 级骷髅陷阱的升级费用降低。</TimelineRow>
         <TimelineRow>2 ~ 4 级骷髅陷阱的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3 级骷髅陷阱的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
         <TimelineRow>13 本推出，并在 13 本新增 4 级搜空地雷。</TimelineRow>

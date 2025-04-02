@@ -168,17 +168,6 @@ function getUpgradeCost(value, discount) {
     return convertNum(costInDiscount);
 }
 
-/**
- * 获取英雄的恢复时间
- * 英雄恢复时间的 timeValue 是一个数字，以分钟为单位
- */
-function getRegenTime(timeMinutes, discount) {
-    const timeSec = 60 * timeMinutes;
-    // 英雄的恢复时间一定是整数秒，没有舍入算法
-    const timeInDiscount = timeSec * (1 - discount / 100);
-    return convertTime(timeInDiscount);
-}
-
 /*
  * 升级后可获得的经验值
  */
@@ -254,12 +243,6 @@ export function getGoldPassValueArr(numType, timeValue, costValue) {
             valueArr[2] = getUpgradeCost(costValue, 15);
             valueArr[3] = getUpgradeCost(costValue, 20);
             break;
-        case "regen":
-            valueArr[0] = getRegenTime(timeValue, 0);
-            valueArr[1] = getRegenTime(timeValue, 10);
-            valueArr[2] = getRegenTime(timeValue, 15);
-            valueArr[3] = getRegenTime(timeValue, 20);
-            break;
         case "exp":
             valueArr[0] = getUpgradeExp(timeValue, 0);
             valueArr[1] = getUpgradeExp(timeValue, 10);
@@ -273,6 +256,7 @@ export function getGoldPassValueArr(numType, timeValue, costValue) {
             valueArr[3] = getDailyCost(timeValue, costValue, 20);
             break;
         case "trainingCost":
+            // trainingCost 这一项仅在个别临时兵种中使用，这些兵种推出时训练费用尚未取消
             valueArr[0] = getTrainingCost(costValue, 0);
             valueArr[1] = getTrainingCost(costValue, 10);
             valueArr[2] = getTrainingCost(costValue, 15);

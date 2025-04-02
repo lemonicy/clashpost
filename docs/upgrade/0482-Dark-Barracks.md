@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 暗黑训练营升级数据"
 navTitle: "暗黑训练营"
 shownTitle: "暗黑训练营"
@@ -13,7 +13,7 @@ canonical: /upgrade/0482-Dark-Barracks
 - *如想查看夜世界的建筑大师训练营，请访问：[夜世界建筑大师训练营](/upgrade/1280-Builder-Barracks)。*
 - *都城的训练营比较多，这里就不放链接了，如有需求请自行前往相关页面查看。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Barracks10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Barracks12_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -30,6 +30,7 @@ canonical: /upgrade/0482-Dark-Barracks
         <UnitImg imgTitle="9 级" imgSrc="Dark_Barracks9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Dark_Barracks10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Dark_Barracks11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Dark_Barracks12.png" imgHd="Dark_Barracks12_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -86,13 +87,18 @@ const tableExtraInfo = [
 |    7 |   800 |     4M  |   5      |                      |        10       |<a href="/upgrade/0086-Bowler">巨石投手</a>|
 |    8 |   850 |     7M  |   6      |                      |        11       |<a href="/upgrade/0087-Ice-Golem">戈仑冰人</a>|
 |    9 |   900 |   7.2M  |   7      |                      |        12       |<a href="/upgrade/0088-Headhunter">英雄猎手</a>|
-|   10 |   950 |    11M  |   8      |                      |        13       |<a href="/upgrade/0089-Apprentice-Warden">守护者学徒</a>|
-|   11 |  1000 |    14M  |   9      |                      |        14       |<a href="/upgrade/008a-Druid">德鲁伊</a>|
+|   10 |   950 |    10M  |   8      |                      |        13       |<a href="/upgrade/0089-Apprentice-Warden">守护者学徒</a>|
+|   11 |  1000 |    12M  |   9      |                      |        14       |<a href="/upgrade/008a-Druid">德鲁伊</a>|
+|   12 |  1050 |    20M  |  12      |                      |        15       |<a href="/upgrade/008b-Furnace">烈焰熔炉</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">  
+        <TimelineRow>15 本新增 12 级暗黑训练营，新兵种：烈焰熔炉。</TimelineRow>
+        <TimelineRow>10 ~ 11 级暗黑训练营的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">  
         <TimelineRow>5 ~ 11 级暗黑训练营的升级时间减少。</TimelineRow>
         <TimelineRow>8 ~ 9 级暗黑训练营的升级费用降低。</TimelineRow>
@@ -100,7 +106,7 @@ const tableExtraInfo = [
     <TimelineItem date="2024/06/18">
         <TimelineRow>10 级暗黑训练营的升级时间减少。</TimelineRow>
         <TimelineRow>10 级暗黑训练营的升级费用降低。</TimelineRow>
-        <TimelineRow>在 14 本新增 11 级暗黑训练营，新兵种：德鲁伊。</TimelineRow>
+        <TimelineRow>14 本新增 11 级暗黑训练营，新兵种：德鲁伊。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>1 ~ 4 级暗黑训练营的升级费用减少。</TimelineRow>

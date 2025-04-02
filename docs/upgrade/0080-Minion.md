@@ -49,7 +49,7 @@ canonical: /upgrade/0080-Minion
     <UnitProperty pKey="攻击距离" pValue="2.25 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
-    <UnitProperty pKey="训练时间" pValue="16" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -75,23 +75,29 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
 | ---- |   ----   |   ----  |  ---- |   ----  |    ----   |       ----      |      ----     |
 |   1  |     38   |    38   |   58  |      \  |     \     |         1       |        7      |
-|   2  |     41   |    41   |   63  |     1K  |    0, 8   |         5       |        7      |
-|   3  |     44   |    44   |   68  |   2.5K  |    0,12   |         6       |        8      |
-|   4  |     47   |    47   |   73  |     5K  |    0,18   |         6       |        8      |
+|   2  |     41   |    41   |   63  |     1K  |    0, 6   |         5       |        7      |
+|   3  |     44   |    44   |   68  |   2.5K  |    0, 8   |         6       |        8      |
+|   4  |     47   |    47   |   73  |     5K  |    0,12   |         6       |        8      |
 |   5  |     50   |    50   |   78  |    10K  |    1      |         7       |        9      |
-|   6  |     54   |    54   |   84  |    15K  |    2      |         8       |       10      |
-|   7  |     58   |    58   |   90  |  31.5K  |    2,12   |         9       |       11      |
-|   8  |     62   |    62   |   96  |  47.5K  |    3,12   |        10       |       12      |
-|   9  |     66   |    66   |  102  |    75K  |    5      |        11       |       13      |
-|  10  |     70   |    70   |  108  |   100K  |    6      |        12       |       14      |
-|  11  |     74   |    74   |  114  |   115K  |    7      |        13       |       15      |
-|  12  |     78   |    78   |  120  |   160K  |   11      |        14       |       16      |
+|   6  |     54   |    54   |   84  |    15K  |    1,12   |         8       |       10      |
+|   7  |     58   |    58   |   90  |  31.5K  |    1,18   |         9       |       11      |
+|   8  |     62   |    62   |   96  |  47.5K  |    2,12   |        10       |       12      |
+|   9  |     66   |    66   |  102  |    75K  |    3,12   |        11       |       13      |
+|  10  |     70   |    70   |  108  |   100K  |    5      |        12       |       14      |
+|  11  |     74   |    74   |  114  |   115K  |    5,12   |        13       |       15      |
+|  12  |     78   |    78   |  120  |   160K  |    6,12   |        14       |       16      |
 |  13  |     82   |    82   |  126  |   255K  |   14      |        15       |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 4、6 ~ 12 级亡灵的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>亡灵的训练时间由 0:18 改为 0:16</TimelineRow>
     </TimelineItem>

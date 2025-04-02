@@ -32,7 +32,7 @@ canonical: /upgrade/0180-Poison-Spell
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
-    <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -58,21 +58,27 @@ const tableExtraInfo = [
 | 等级 |每秒最大伤害|移动速度<br>降低幅度|攻击速度<br>降低幅度 | 升级花费| 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |    ----   |        ----      |         ----      |   ----  |   ----  |        ---      |      ----     |
 |   1  |     90    |        26%       |         35%       |     \   |     \   |         1       |        8      |
-|   2  |    115    |        30%       |         40%       |     5K  |   0, 8  |         6       |        8      |
-|   3  |    145    |        34%       |         45%       |    10K  |   1     |         7       |        9      |
+|   2  |    115    |        30%       |         40%       |     5K  |   0, 6  |         6       |        8      |
+|   3  |    145    |        34%       |         45%       |    10K  |   0,18  |         7       |        9      |
 |   4  |    180    |        38%       |         50%       |  21.5K  |   2     |         8       |       10      |
-|   5  |    220    |        40%       |         55%       |    35K  |   4     |         9       |       11      |
-|   6  |    260    |        42%       |         60%       |    55K  |   5     |        10       |       12      |
-|   7  |    280    |        44%       |         65%       |  77.5K  |   6     |        11       |       13      |
-|   8  |    300    |        46%       |         68%       |   100K  |   9     |        12       |       14      |
-|   9  |    320    |        48%       |         70%       |   135K  |  10     |        13       |       15      |
-|  10  |    340    |        50%       |         72%       |   175K  |  12     |        14       |       16      |
+|   5  |    220    |        40%       |         55%       |    35K  |   3     |         9       |       11      |
+|   6  |    260    |        42%       |         60%       |    55K  |   4     |        10       |       12      |
+|   7  |    280    |        44%       |         65%       |  77.5K  |   5     |        11       |       13      |
+|   8  |    300    |        46%       |         68%       |   100K  |   7     |        12       |       14      |
+|   9  |    320    |        48%       |         70%       |   135K  |   8     |        13       |       15      |
+|  10  |    340    |        50%       |         72%       |   175K  |   9     |        14       |       16      |
 |  11  |    360    |        51%       |         73%       |   280K  |  14,12  |        15       |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 3、5 ~ 10 级毒药法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>17 本新增 11 级毒药法术。</TimelineRow>
     </TimelineItem>

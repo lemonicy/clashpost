@@ -38,7 +38,7 @@ canonical: /upgrade/0010-Root-Rider
     <UnitProperty pKey="攻击距离" pValue="1 格" />
     <UnitProperty pKey="所需训练营等级" pValue="17" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
-    <UnitProperty pKey="训练时间" pValue="170" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -64,13 +64,20 @@ const tableExtraInfo = [
 | 等级 |普攻伤害<br>(每秒/每次)|对墙伤害<br>(每秒/每次)| 生命值 | 升级花费 | 升级时间 |所需实验室<br>等级|所需<br>大本等级|
 | ---- |          ---        |           ---        |  ---- |   ----  |   ----   |      ----      |     ----      |
 |   1  |       95 / 209      |    10 000 / 4 000    |  6200 |      \  |     \    |        1       |      15       |
-|   2  |      105 / 231      |    10 000 / 4 000    |  6350 |    17M  |    12    |       13       |      15       |
-|   3  |      115 / 253      |    10 000 / 4 000    |  6500 |  17.6M  |    13    |       14       |      16       |
+|   2  |      105 / 231      |    10 000 / 4 000    |  6350 |    15M  |    10    |       13       |      15       |
+|   3  |      115 / 253      |    10 000 / 4 000    |  6500 |  17.6M  |    12    |       14       |      16       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 3 级根蔓骑士的升级时间减少。</TimelineRow>
+        <TimelineRow>2 级根蔓骑士的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>根蔓骑士的训练时间由 3:40 改为 2:50</TimelineRow>
     </TimelineItem>

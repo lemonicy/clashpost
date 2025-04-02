@@ -35,7 +35,7 @@ canonical: /upgrade/0185-Overgrowth-Spell
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
-    <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -61,14 +61,20 @@ const tableExtraInfo = [
 | 等级 |法术<br>持续时间| 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |      ---      |   ---   |  ----   |       ----      |      ----     |
 |   1  |     22 秒     |    \    |    \    |         1       |       12      |
-|   2  |     23 秒     |  62.5K  |    7    |        10       |       12      |
-|   3  |     24 秒     |   125K  |   12    |        12       |       14      |
-|   4  |     25 秒     |   175K  |   13    |        14       |       16      |
+|   2  |     23 秒     |  62.5K  |   5,12  |        10       |       12      |
+|   3  |     24 秒     |   125K  |   9     |        12       |       14      |
+|   4  |     25 秒     |   175K  |  11     |        14       |       16      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 4 级蔓生法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2、4 级蔓生法术的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 4 级蔓生法术的升级费用降低。</TimelineRow>

@@ -42,7 +42,7 @@ canonical: /upgrade/0247-Troop-Launcher
     <UnitProperty pKey="移动速度" pValue="0 (无法移动)" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="8" />
     <UnitProperty pKey="所需大本等级" pValue="16" />
-    <UnitProperty pKey="建造时间" pValue="1200" trainingSystem="2022" />
+    <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -76,6 +76,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>在 16 本新增攻城机器：部队发射器。</TimelineRow>
     </TimelineItem>

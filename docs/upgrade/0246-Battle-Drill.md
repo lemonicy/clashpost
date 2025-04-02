@@ -47,7 +47,7 @@ canonical: /upgrade/0246-Battle-Drill
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="7" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
-    <UnitProperty pKey="建造时间" pValue="1200" trainingSystem="2022" />
+    <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -74,14 +74,20 @@ const tableExtraInfo = [
 |  --- |   ----   |   ----  |  ----  |  ----  |    ----   |      ----    |    ----   |
 |   1  |    430   |    731  |  4600  |     \  |     \     |        1     |     15    |
 |   2  |    470   |    799  |  4900  |    6M  |    4      |       13     |     15    |
-|   3  |    510   |    867  |  5200  |  8.5M  |    6      |       13     |     15    |
-|   4  |    550   |    935  |  5500  |   10M  |    9      |       13     |     15    |
+|   3  |    510   |    867  |  5200  |  8.5M  |    5      |       13     |     15    |
+|   4  |    550   |    935  |  5500  |   10M  |    8      |       13     |     15    |
 |   5  |    590   |   1003  |  5800  |   19M  |   13,12   |       15     |     17    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>3 ~ 4 级攻城钻机的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 5 级攻城钻机。</TimelineRow>
         <TimelineRow>2 ~ 4 级攻城钻机的升级费用和升级时间减少。</TimelineRow>

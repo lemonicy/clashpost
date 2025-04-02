@@ -40,7 +40,7 @@ canonical: /upgrade/060c-Super-Bowler
     <UnitProperty pKey="最低大本等级" pValue="12" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
-    <UnitProperty pKey="训练时间" pValue="250" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 \* 超级巨石投手扔出去的石头落地后可以造成三次伤害。石头的第一个落地距离超级蓝胖 3 格，第二个落点距离蓝胖 6 格，第三个是 9 格。和普通蓝胖类似，超级蓝胖只能看到第一个目标，二次伤害和三次伤害都是顺带的，它并不知道石头会溅到哪儿。
@@ -63,6 +63,9 @@ canonical: /upgrade/060c-Super-Bowler
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>超级巨石投手的训练时间由 5:00 改为 4:10</TimelineRow>
         <TimelineRow>17 本新增 9 级巨石投手，超级部队的等级也相应更新。</TimelineRow>

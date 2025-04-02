@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 多人箭塔升级数据"
 navTitle: "多人箭塔"
 shownTitle: "多人箭塔"
@@ -76,20 +76,23 @@ const tableExtraInfo = [
 
 | 等级 |每个弓箭手的<br>每秒伤害|每个弓箭手的<br>每次伤害| 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |          ---         |          ---         |   ---  |   ---   |   ----  |        ---         |      ----      |
-|   1  |          120         |           60         |  5000  |   16M   |  12     |                    |       16       |
-|   2  |          130         |           65         |  5200  |   18M   |  13     |                    |       16       |
+|   1  |          120         |           60         |  5000  |   12M   |   9     |                    |       16       |
+|   2  |          130         |           65         |  5200  |   13M   |  10     |                    |       16       |
 |   3  |          140         |           70         |  5400  |   23M   |  15,12  |                    |       17       |
-| ⚡1  |          145         |         72.5         |  5400  | 11.5M   |   5,12  |                    |       17        |
-| ⚡2  |          145         |         72.5         |  5500  |    8M   |   6,12  |                    |       17        |
+| ⚡1  |          145         |         72.5         |  5400  | 11.5M   |   5,12  |                    |       17       |
+| ⚡2  |          145         |         72.5         |  5500  |    8M   |   6,12  |                    |       17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>1 ~ 2 级多人箭塔的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 3 级多人箭塔。</TimelineRow>
         <TimelineRow>17 本新解锁一个多人箭塔。</TimelineRow>
-        <TimelineRow>1 ~ 2 级多人箭塔的升级费用和时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 2 级多人箭塔的升级费用和升级时间减少。</TimelineRow>
         <TimelineRow>多人箭塔成为第二批可以充能的建筑。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/03/26">

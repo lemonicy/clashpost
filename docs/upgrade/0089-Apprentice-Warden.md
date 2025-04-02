@@ -48,7 +48,7 @@ canonical: /upgrade/0089-Apprentice-Warden
     <UnitProperty pKey="光环半径" pValue="7 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="10" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
-    <UnitProperty pKey="训练时间" pValue="170" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -74,14 +74,20 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 |光环<br>加血比例| 生命值 | 升级花费| 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |   ----   |   ----  |      ----     |  ---- |  ----   |   ----  |       ----      |      ----     |
 |   1  |    170   |   153   |       20%     |  1500 |    \    |     \   |         1       |       13      |
-|   2  |    185   |   166.5 |       22%     |  1650 |    90K  |     8   |        11       |       13      |
-|   3  |    200   |   180   |       24%     |  1800 |   135K  |     9   |        12       |       14      |
-|   4  |    215   |   193.5 |       26%     |  1950 |   160K  |    11   |        13       |       15      |
+|   2  |    185   |   166.5 |       22%     |  1650 |    90K  |   6     |        11       |       13      |
+|   3  |    200   |   180   |       24%     |  1800 |   135K  |   7,12  |        12       |       14      |
+|   4  |    215   |   193.5 |       26%     |  1950 |   160K  |   8,18  |        13       |       15      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 4 级守护者学徒的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>守护者学徒的训练时间由 4:00 改为 2:50</TimelineRow>
     </TimelineItem>

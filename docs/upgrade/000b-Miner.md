@@ -24,7 +24,7 @@ canonical: /upgrade/000b-Miner
         <UnitImg imgTitle="8 级" imgSrc="Miner8.png" />
         <UnitImg imgTitle="9 级" imgSrc="Miner9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Miner10.png" />
-        <!-- <UnitImg imgTitle="11 级" imgSrc="Miner11.png" /> -->
+        <UnitImg imgTitle="11 级" imgSrc="Miner11.png" imgHd="Miner11_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -47,7 +47,7 @@ canonical: /upgrade/000b-Miner
     <UnitProperty pKey="攻击距离" pValue="0.5 格" />
     <UnitProperty pKey="所需训练营等级" pValue="12" />
     <UnitProperty pKey="所需大本等级" pValue="10" />
-    <UnitProperty pKey="训练时间" pValue="30" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -73,21 +73,28 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费 |  升级时间  |所需实验室等级|所需大本等级|
 | ---- |   ----   |   ----  |  ----  |   ----  |    ----   |    ----     |   ----    |
 |   1  |     80   |  136    |   550  |      \  |       \   |      1      |    10     |
-|   2  |     88   |  149.6  |   610  |   2.5M  |    1      |      8      |    10     |
-|   3  |     96   |  163.2  |   670  |   3.2M  |    2      |      8      |    10     |
-|   4  |    104   |  176.8  |   730  |   3.8M  |    3      |      9      |    11     |
-|   5  |    112   |  190.4  |   800  |     4M  |    3,12   |      9      |    11     |
-|   6  |    120   |  204    |   900  |   5.5M  |    4,12   |     10      |    12     |
-|   7  |    128   |  217.6  |  1000  |   6.5M  |    5      |     11      |    13     |
-|   8  |    136   |  231.2  |  1100  |     9M  |    8      |     12      |    14     |
-|   9  |    144   |  244.8  |  1250  |    14M  |    9      |     13      |    15     |
-|  10  |    152   |  258.4  |  1400  |  16.4M  |   12      |     14      |    16     |
+|   2  |     88   |  149.6  |   610  |   1.5M  |    1      |      8      |    10     |
+|   3  |     96   |  163.2  |   670  |   2.6M  |    2      |      8      |    10     |
+|   4  |    104   |  176.8  |   730  |     3M  |    2,12   |      9      |    11     |
+|   5  |    112   |  190.4  |   800  |     4M  |    3      |      9      |    11     |
+|   6  |    120   |  204    |   900  |   4.8M  |    4      |     10      |    12     |
+|   7  |    128   |  217.6  |  1000  |     6M  |    4,12   |     11      |    13     |
+|   8  |    136   |  231.2  |  1100  |   8.6M  |    6, 6   |     12      |    14     |
+|   9  |    144   |  244.8  |  1250  |  10.5M  |    7      |     13      |    15     |
+|  10  |    152   |  258.4  |  1400  |  12.5M  |    7,12   |     14      |    16     |
 |  11  |    160   |  272    |  1600  |  21.5M  |   14,12   |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>4 ~ 10 级掘地矿工的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4、6 ~ 10 级掘地矿工的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>17 本新增 11 级掘地矿工。</TimelineRow>
     </TimelineItem>

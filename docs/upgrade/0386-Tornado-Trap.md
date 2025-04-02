@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 飓风陷阱（旋风）升级数据"
 navTitle: "飓风陷阱"
 shownTitle: "飓风陷阱（旋风）"
@@ -69,14 +69,17 @@ const tableExtraInfo = [
 | 等级 | 总伤害 |陷阱<br>持续时间| 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |  ---  |      ---      |    ---   |  ---    |         ---        |      ---      |
 |   1  |   39  |      5 秒     |   1.8M   |    0    |                    |       11      |
-|   2  |   47  |      6 秒     |   2.8M   |    2    |                    |       11      |
-|   3  |   55  |      7 秒     |   3.5M   |    3    |                    |       12      |
+|   2  |   47  |      6 秒     |     2M   |    1    |                    |       11      |
+|   3  |   55  |      7 秒     |   2.5M   |    2    |                    |       12      |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 3 级飓风陷阱的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>2 ~ 3 级飓风陷阱的升级费用降低。</TimelineRow>
     </TimelineItem>

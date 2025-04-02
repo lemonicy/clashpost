@@ -28,6 +28,7 @@ canonical: /upgrade/000d-Yeti
         <UnitImg imgTitle="3 - 4 级" imgSrc="Yeti3.png" />
         <UnitImg imgTitle="5 级" imgSrc="Yeti5.png" />
         <UnitImg imgTitle="6 级" imgSrc="Yeti6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Yeti7.png" imgHd="Yeti7_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -50,7 +51,7 @@ canonical: /upgrade/000d-Yeti
     <UnitProperty pKey="攻击距离" pValue="0.8 格" />
     <UnitProperty pKey="所需训练营等级" pValue="14" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
-    <UnitProperty pKey="训练时间" pValue="150" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -76,11 +77,12 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 |拥有的<br>小雪怪数量| 生命值 | 升级花费|  升级时间  |所需实验室<br>等级|所需<br>大本等级|
 | ---- |   ----   |   ----  |        ----       |  ---- |   ----  |    ----   |      ----      |     ----      |
 |   1  |    230   |    230  |          8        |  2900 |      \  |     \     |        1       |      12       |
-|   2  |    250   |    250  |          9        |  3200 |     6M  |     4,12  |       10       |      12       |
-|   3  |    270   |    270  |         10        |  3500 |     7M  |     6     |       11       |      13       |
-|   4  |    290   |    290  |         11        |  3700 |    10M  |     9     |       12       |      14       |
-|   5  |    310   |    310  |         12        |  3900 |    14M  |    10     |       13       |      15       |
-|   6  |    330   |    330  |         13        |  4100 |  16.8M  |    12,12  |       14       |      16       |
+|   2  |    250   |    250  |          9        |  3200 |     5M  |     4     |       10       |      12       |
+|   3  |    270   |    270  |         10        |  3500 |   6.5M  |     5     |       11       |      13       |
+|   4  |    290   |    290  |         11        |  3700 |    10M  |     7,12  |       12       |      14       |
+|   5  |    310   |    310  |         12        |  3900 |    12M  |     8     |       13       |      15       |
+|   6  |    330   |    330  |         13        |  4100 |  14.5M  |     9     |       14       |      16       |
+|   7  |    350   |    350  |         13        |  4300 |  22.5M  |    15     |       15       |      17       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -97,6 +99,7 @@ const tableExtraInfo = [
         <UnitImg imgTitle="2 级" imgSrc="Yetimite2.png" />
         <UnitImg imgTitle="3 - 5 级" imgSrc="Yetimite3.png" />
         <UnitImg imgTitle="6 级" imgSrc="Yetimite6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Yetimite7.png" imgHd="Yetimite7_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -116,13 +119,13 @@ const tableExtraInfo = [
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="0.8 格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="占据人口" pValue="3<sup>①</sup>" />
+    <UnitProperty pKey="占据人口" pValue="1<sup>①</sup>" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次<sup>②</sup>" />
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />
 </UnitProperties>
 
-① 在隐形弹簧、飓风陷阱、镜像法术、回溯法术看来，小雪怪占 3 人口。<br>
+① 在隐形弹簧、飓风陷阱、镜像法术、回溯法术看来，小雪怪占 1 人口。<br>
 ② 虽然说小雪怪的攻击速度是一秒一次，但实际上小雪怪攻击一次之后就死了，而小雪怪的首次攻击时机为到达目标后 0.5 秒。这样一来，小雪怪的每秒伤害等于每次伤害，但造成了攻速更快的观感。
 
 <SmallTitle>升级数据</SmallTitle>
@@ -137,6 +140,7 @@ const tableExtraInfo = [
 |    4    |   78   |          312         |            156          |          39          |   450  |
 |    5    |   84   |          336         |            168          |          42          |   500  |
 |    6    |   88   |          352         |            176          |          44          |   550  |
+|    7    |   90   |          360         |            180          |          45          |   575  |
 
 </UnitTable>
 </SwitchTabGroup>
@@ -145,6 +149,15 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>在 17 本新增 7 级大雪怪。</TimelineRow>
+        <TimelineRow>2 ~ 6 级大雪怪的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3、5 ~ 6 级大雪怪的升级费用降低。</TimelineRow>
+        <TimelineRow>小雪怪和小冰怪占据的人口数由 3 调整为 1.</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>大雪怪的训练时间由 3:00 改为 2:30</TimelineRow>
     </TimelineItem>

@@ -22,6 +22,7 @@ canonical: /upgrade/0087-Ice-Golem
         <UnitImg imgTitle="5 - 6 级" imgSrc="Ice_Golem5.png" />
         <UnitImg imgTitle="7 级" imgSrc="Ice_Golem7.png" />
         <UnitImg imgTitle="8 级" imgSrc="Ice_Golem8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Ice_Golem9.png" imgHd="Ice_Golem9_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -45,7 +46,7 @@ canonical: /upgrade/0087-Ice-Golem
     <UnitProperty pKey="冰冻半径" pValue="7.5 格 (进攻)<br>5.5 格 (防守)" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="8" />
     <UnitProperty pKey="所需大本等级" pValue="11" />
-    <UnitProperty pKey="训练时间" pValue="130" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -75,14 +76,22 @@ const tableExtraInfo = [
 |  3  |    32   |    64   |      5.5  秒        |       2.5  秒      |  3000 |  42.5K |    3,12   |        9        |       11      |
 |  4  |    36   |    72   |      6.25 秒        |       2.75 秒      |  3200 |    50K |    4      |       10        |       12      |
 |  5  |    40   |    80   |      7    秒        |       3    秒      |  3400 |  62.5K |    5      |       10        |       12      |
-|  6  |    44   |    88   |      7.5  秒        |       3.25 秒      |  3600 |   110K |    9      |       12        |       14      |
-|  7  |    48   |    96   |      8    秒        |       3.5  秒      |  3900 |   140K |   10      |       13        |       15      |
-|  8  |    52   |   104   |      8.5  秒        |       3.75 秒      |  4200 |   180K |   12,12   |       14        |       16      |
+|  6  |    44   |    88   |      7.5  秒        |       3.25 秒      |  3600 |   110K |    7      |       12        |       14      |
+|  7  |    48   |    96   |      8    秒        |       3.25 秒      |  3900 |   140K |    8      |       13        |       15      |
+|  8  |    52   |   104   |      8.5  秒        |       3.25 秒      |  4200 |   180K |    9      |       14        |       16      |
+|  9  |    56   |   112   |      9    秒        |       3.25 秒      |  4350 |   300K |   15,12   |       15        |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>在 17 本新增 9 级戈仑冰人。</TimelineRow>
+        <TimelineRow>6 ~ 8 级戈仑冰人的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>戈仑冰人的训练时间由 2:30 改为 2:10</TimelineRow>
     </TimelineItem>

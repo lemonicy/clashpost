@@ -22,10 +22,12 @@ const props = defineProps({
 });
 
 const link = props.link;
-let hasTrainingTime = false;
+let hasTrainingDialog = false;
+let hasV1TrainingDialog = false;
+let hasV2TrainingDialog = false;
+let hasNewestTrainingDialog = true;
 let hasJudgeSquare = false;
 let hasDailyCost = false;
-let hasOldTrainingDialog = false;
 
 if (link && isUpgradeDetails(link)) {
     // 提取链接中的序号
@@ -45,13 +47,28 @@ if (link && isUpgradeDetails(link)) {
     const buildingPrefixArr = ["03", "04", "05", "11", "12", "22", "23", "24", "25"];
     const isBuilding = buildingPrefixArr.includes(unitIdFirst2);
 
-    // 是否使用旧版训练系统的说明文字
-    const oldTrainingSystemUnits = ["0e01", "0e02", "0e04", "0e05", "0e81"];
-    hasOldTrainingDialog = oldTrainingSystemUnits.includes(unitId);
+    // 确定是否展示训练弹窗
+    const isTroops = ["00"].includes(unitIdFirst2);
+    const isSpells = ["01"].includes(unitIdFirst2);
+    const isSiegeMachine = ["024", "025", "026", "027"].includes(unitIdFirst3);
+    const tempTroops = ["0e"].includes(unitIdFirst2);
+    hasTrainingDialog = isTroops || isSpells || isSiegeMachine || tempTroops;
 
-    // 只有家乡的兵种、法术和攻城机器有训练时间（法术配置时间）
-    const isSiegeMachine = ["024", "025", "026", "027"].includes(unitId);
-    hasTrainingTime = unitIdFirst2 == "00" || unitIdFirst2 == "01" || isSiegeMachine || !hasOldTrainingDialog;
+    // 只有在确定拥有训练弹窗时才运行这一段
+    if (hasTrainingDialog) {
+        // 是否使用旧版训练系统的说明文字，其中 v1 指的是 2022/10/10 更新前的训练系统，v2 指的是 2022/10/10 更新后、2025/03/24 更新前的训练系统。
+        const v1TrainingSystemUnits = ["0e01", "0e02", "0e04", "0e05", "0e81"];
+        const v2TrainingSystemUnits = [
+            "0e00", "0e03", "0e06", "0e07", "0e08", "0e09",
+            "0e0a", "0e0b", "0e0c", "0e0d", "0e0e", "0e0f",
+            "0e10", "0e11", "0e12", "0e13", "0e14", "0e15", 
+        ];
+        hasV1TrainingDialog = v1TrainingSystemUnits.includes(unitId);
+        hasV2TrainingDialog = v2TrainingSystemUnits.includes(unitId);
+        if (hasV1TrainingDialog || hasV2TrainingDialog) {
+            hasNewestTrainingDialog = false;
+        }
+    }
 
     // 建筑和英雄的页面都有判定面积
     hasJudgeSquare = isHero || isBuilding;
@@ -63,15 +80,20 @@ if (link && isUpgradeDetails(link)) {
 </script>
 
 <template>
+    <Dialog dialogId="cp-training-dialog-2025" title="注意" :hasSecondaryBtn="false"
+        :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasNewestTrainingDialog">
+        2025 年 3 月更新后，兵种训练时间、法术配置时间和攻城机器建造时间均被取消。<br>
+        如果你对 coc 训练机制的变迁感兴趣，请移步这篇文章：<a href="/p/4727">coc 的部队训练机制经历过哪些变迁？</a>
+    </Dialog>
     <Dialog dialogId="cp-training-dialog-2022" title="注意" :hasSecondaryBtn="false"
-        :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingTime">
-        2022 年 10 月更新后，同一种训练营被合并为一个，更新后的训练时间等于更新前四个圣水训练营或两个暗黑训练营的训练时间。<br>
-        同时，训练营、法术工厂、攻城机器工坊升级时不再停止训练，但是训练速度会减半（训练时间翻倍）。
+        :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasV2TrainingDialog">
+        该兵种最后一次推出时，训练时间尚未被取消，这里显示的是 2022/10 更新后、2025/03 更新前的部队的训练时间。<br>
+        要想讲清楚当时的训练机制，需要补充大量背景知识，这里就不做介绍，感兴趣的玩家请移步这篇文章：<a href="/p/4727">coc 的部队训练机制经历过哪些变迁？</a>
     </Dialog>
     <Dialog dialogId="cp-training-dialog-legacy" title="注意" :hasSecondaryBtn="false"
-        :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasOldTrainingDialog">
-        2022 年 10 月更新后，同一种训练营被合并为一个，并且训练营、法术工厂、攻城机器工坊升级时不再停止训练。虽然该兵种推出时游戏尚未做出这项改动，但是为了简单起见，这里显示的是更新后的训练时间。<br>
-        如想了解老版本的训练系统，请移步：<a href="/p/4727">多训练营时代的训练机制是什么样的？</a>
+        :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasV1TrainingDialog">
+        该兵种最后一次推出时，训练时间尚未被取消。该兵种最后一次推出时是四训练营时代，不过为了方便起见，这里显示的是单训练营时代（2022/10 - 2025/03）的训练时间。<br>
+        要想讲清楚当时的训练机制，需要补充大量背景知识，这里就不做介绍，感兴趣的玩家请移步这篇文章：<a href="/p/4727">coc 的部队训练机制经历过哪些变迁？</a>
     </Dialog>
     <Dialog dialogId="cp-judge-square-dialog" title="什么是判定面积？" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasJudgeSquare">

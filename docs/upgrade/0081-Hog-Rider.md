@@ -30,6 +30,7 @@ canonical: /upgrade/0081-Hog-Rider
         <UnitImg imgTitle="11 级" imgSrc="Hog_Rider11.png" />
         <UnitImg imgTitle="12 级" imgSrc="Hog_Rider12.png" />
         <UnitImg imgTitle="13 级" imgSrc="Hog_Rider13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Hog_Rider14.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -45,7 +46,7 @@ canonical: /upgrade/0081-Hog-Rider
     <UnitProperty pKey="攻击距离" pValue="0.6 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
-    <UnitProperty pKey="训练时间" pValue="42" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 \* 如果场上存在防御建筑，则野猪骑士不会去攻击敌方的援军、英雄、骷髅兵。如果场上没有防御，则野猪骑士会优先攻击附近的敌方单位，然后才会去攻击普通建筑。
@@ -78,18 +79,27 @@ const tableExtraInfo = [
 |   4  |     92   |    92   |   430 |     5K  |    1      |      6     |     8     |
 |   5  |    105   |   105   |   500 |    10K  |    2      |      7     |     9     |
 |   6  |    118   |   118   |   590 |  18.5K  |    2, 6   |      8     |    10     |
-|   7  |    140   |   140   |   700 |    35K  |    3      |      9     |    11     |
-|   8  |    155   |   155   |   810 |  47.5K  |    4      |     10     |    12     |
-|   9  |    165   |   165   |   890 |    50K  |    5      |     10     |    12     |
-|  10  |    176   |   176   |   970 |  87.5K  |    5,12   |     11     |    13     |
-|  11  |    187   |   187   |  1080 | 107.5K  |    6,12   |     12     |    14     |
-|  12  |    200   |   200   |  1230 |   125K  |    9      |     13     |    15     |
-|  13  |    213   |   213   |  1380 |   175K  |   11,12   |     14     |    16     |
+|   7  |    140   |   140   |   700 |    35K  |    2,12   |      9     |    11     |
+|   8  |    155   |   155   |   810 |  47.5K  |    3      |     10     |    12     |
+|   9  |    165   |   165   |   890 |    50K  |    3,18   |     10     |    12     |
+|  10  |    176   |   176   |   970 |    85K  |    4, 6   |     11     |    13     |
+|  11  |    187   |   187   |  1080 | 107.5K  |    6      |     12     |    14     |
+|  12  |    200   |   200   |  1230 |   125K  |    6, 6   |     13     |    15     |
+|  13  |    213   |   213   |  1380 |   175K  |    7,12   |     14     |    16     |
+|  14  |    225   |   225   |  1500 |   280K  |    14     |     15     |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>在 17 本新增 14 级野猪骑士。</TimelineRow>
+        <TimelineRow>7 ~ 13 级野猪骑士的升级时间减少。</TimelineRow>
+        <TimelineRow>10 级野猪骑士的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>野猪骑士的训练时间由 0:45 改为 0:42</TimelineRow>
     </TimelineItem>

@@ -30,7 +30,7 @@ canonical: /upgrade/0105-Clone-Spell
     <UnitProperty pKey="占用的法术空间" pValue="3" />
     <UnitProperty pKey="所需法术工厂等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="10" />
-    <UnitProperty pKey="法术配置时间" pValue="540" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -58,16 +58,22 @@ const tableExtraInfo = [
 |   1  |        22      |     \    |   \     |         1      |      10     |
 |   2  |        24      |   1.5M   |   1     |         8      |      10     |
 |   3  |        26      |   2.5M   |   2     |         8      |      10     |
-|   4  |        28      |     3M   |   2,12  |         9      |      11     |
-|   5  |        30      |     4M   |   3,12  |         9      |      11     |
+|   4  |        28      |     3M   |   2, 6  |         9      |      11     |
+|   5  |        30      |     4M   |   2,12  |         9      |      11     |
 |   6  |        34      |     5M   |   4     |        11      |      13     |
-|   7  |        38      |     8M   |   6     |        12      |      14     |
-|   8  |        42      |     9M   |   8     |        13      |      15     |
+|   7  |        38      |     8M   |   5     |        12      |      14     |
+|   8  |        42      |     9M   |   7     |        13      |      15     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>4 ~ 5、7 ~ 8 级镜像法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 8 级镜像法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

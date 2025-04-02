@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 实验室（研究所）升级数据"
 navTitle: "实验室"
 shownTitle: "实验室（研究所）"
@@ -80,8 +80,8 @@ const tableExtraInfo = [
 
 | 等级 | 生命值 | 升级费用 | 升级时间 | 升级后可获<br>得的经验 | 所需<br>大本等级 |
 | ---- |  ---- |   ----  |    ---   |          ---         |       ---       |
-|    1 |   500 |     5k  |  0,0, 1  |                      |        3        | 
-|    2 |   550 |    25k  |  0, 1    |                      |        4        | 
+|    1 |   500 |     5k  |  0, 0, 1 |                      |        3        | 
+|    2 |   550 |    25k  |  0, 0,30 |                      |        4        |
 |    3 |   600 |    50k  |  0, 2    |                      |        5        | 
 |    4 |   650 |   100k  |  0, 4    |                      |        6        | 
 |    5 |   700 |   200k  |  0, 8    |                      |        7        | 
@@ -93,13 +93,16 @@ const tableExtraInfo = [
 |   11 |  1210 |   5.5M  |  6       |                      |       13        | 
 |   12 |  1280 |   8.1M  |  7       |                      |       14        | 
 |   13 |  1350 |  10.8M  |  8       |                      |       15        |
-|   14 |  1400 |    13M  |  12,12   |                      |       16        |
+|   14 |  1400 |    13M  |  9       |                      |       16        |
 |   15 |  1450 |    20M  |  16      |                      |       17        |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24"> 
+        <TimelineRow>2、14 级实验室的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 15 级实验室。</TimelineRow>    
         <TimelineRow>12 ~ 14 级实验室的升级时间减少。</TimelineRow>
@@ -132,8 +135,8 @@ const tableExtraInfo = [
         <TimelineRow>新增 11 级实验室，13 级大本营可解锁。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
+        <TimelineRow>1 ~ 2、4 ~ 8 级实验室的升级时间减少。</TimelineRow>
         <TimelineRow>7 ~ 8 级实验室的升级费用降低。</TimelineRow>
-        <TimelineRow>1 ~ 2、4 ~ 8 级实验室的升级时间减少。</TimelineRow>        
     </TimelineItem>    
     <TimelineItem :historyBottom="true" />
 </Timeline>

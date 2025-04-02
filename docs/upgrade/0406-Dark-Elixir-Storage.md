@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 暗黑重油罐升级数据"
 navTitle: "暗黑重油罐"
 shownTitle: "暗黑重油罐"
@@ -83,18 +83,22 @@ const tableExtraInfo = [
 |   3  |   40k   |  2400 |    1.0M  |   1     |                      |         8       |
 |   4  |   75k   |  2600 |    1.5M  |   1,12  |                      |         8       |
 |   5  |  140k   |  2900 |    2.0M  |   1,16  |                      |         9       |
-|   6  |  180k   |  3200 |    3.0M  |   2     |                      |         9       |
-|   7  |  220k   |  3500 |    3.8M  |   3,12  |                      |        12       |
-|   8  |  280k   |  3800 |    5.4M  |   5     |                      |        13       |
-|   9  |  330k   |  4100 |      7M  |   6     |                      |        14       |
-|  10  |  360k   |  4300 |     10M  |   8     |                      |        15       |
-|  11  |  390k   |  4500 |   13.5M  |  11,12  |                      |        16       |
+|   6  |  180k   |  3200 |    2.4M  |   2     |                      |         9       |
+|   7  |  220k   |  3500 |    3.8M  |   3     |                      |        12       |
+|   8  |  280k   |  3800 |    5.4M  |   4,12  |                      |        13       |
+|   9  |  330k   |  4100 |    6.6M  |   5     |                      |        14       |
+|  10  |  360k   |  4300 |      8M  |   5,12  |                      |        15       |
+|  11  |  390k   |  4500 |     10M  |   6     |                      |        16       |
 |  12  |  420k   |  4700 |     16M  |  15     |                      |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>7 ~ 11 级暗黑重油罐的升级时间减少。</TimelineRow>
+        <TimelineRow>6、9 ~ 11 级暗黑重油罐的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>10 ~ 12 级暗黑重油罐的资源储量增加。</TimelineRow>
     </TimelineItem>
@@ -109,7 +113,6 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>新增 10 级暗黑重油罐，16 级大本营可解锁。</TimelineRow>
-        <TimelineRow>9 级暗黑重油罐的升级费用 11.5M 降低 8.1M。</TimelineRow>
         <TimelineRow>6, 8 ~ 10 级暗黑重油罐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">

@@ -29,7 +29,8 @@ canonical: /upgrade/0003-Goblin
 
 <SmallTitle>重要说明</SmallTitle>
 
-哥布林攻击资源类建筑时，其伤害翻倍。
+1. 哥布林攻击资源类建筑时，其伤害翻倍。
+2. [铁匠铺](/upgrade/0488-Blacksmith) 免疫 [雷电法术](/upgrade/0100-Lightning-Spell) 伤害，理论上属于资源类建筑，但不被哥布林优先攻击，哥布林的攻击伤害也不会翻倍。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -43,7 +44,7 @@ canonical: /upgrade/0003-Goblin
     <UnitProperty pKey="攻击距离" pValue="0.4 格" />
     <UnitProperty pKey="所需训练营等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="2" />
-    <UnitProperty pKey="训练时间" pValue="7" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -69,19 +70,26 @@ const tableExtraInfo = [
 | 等级 | 每秒伤害 | 每次伤害 |对资源建筑的<br>每次伤害|生命值| 升级花费 |  升级时间  |所需实验室<br>等级|所需大本等级|
 | ---- |  ----   |  ----   |        ----        |  ----  |   ----  |    ----   |      ----       |   ----   |
 |   1  |    11   |    11   |         22         |   25   |      \  |       \   |        1        |     2    |
-|   2  |    14   |    14   |         28         |   30   |    45k  |    0, 4   |        1        |     3    |
-|   3  |    19   |    19   |         38         |   36   |   100k  |    0, 6   |        3        |     5    |
-|   4  |    24   |    24   |         48         |   50   |   500k  |    0,12   |        5        |     7    |
-|   5  |    32   |    32   |         64         |   65   |   1.2M  |    1      |        6        |     8    |
-|   6  |    42   |    42   |         84         |   80   |     2M  |    1, 6   |        7        |     9    |
-|   7  |    52   |    52   |        104         |  105   |     3M  |    2      |        8        |    10    |
-|   8  |    62   |    62   |        124         |  126   |   4.2M  |    3,12   |       10        |    12    |
-|   9  |    72   |    72   |        144         |  146   |    10M  |    6      |       13        |    15    |
+|   2  |    14   |    14   |         28         |   30   |    45k  |    0, 2   |        1        |     3    |
+|   3  |    19   |    19   |         38         |   36   |   100k  |    0, 3   |        3        |     5    |
+|   4  |    24   |    24   |         48         |   50   |   500k  |    0, 6   |        5        |     7    |
+|   5  |    32   |    32   |         64         |   65   |   700k  |    0,12   |        6        |     8    |
+|   6  |    42   |    42   |         84         |   80   |   1.6M  |    1      |        7        |     9    |
+|   7  |    52   |    52   |        104         |  105   |   2.2M  |    1,12   |        8        |    10    |
+|   8  |    62   |    62   |        124         |  126   |   3.7M  |    3      |       10        |    12    |
+|   9  |    72   |    72   |        144         |  146   |     8M  |    5,12   |       13        |    15    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 9 级哥布林的升级时间减少。</TimelineRow>
+        <TimelineRow>5 ~ 9 级哥布林的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 3、6 ~ 9 级哥布林的升级时间减少。</TimelineRow>
         <TimelineRow>3、8、9 级哥布林的升级费用降低。</TimelineRow>

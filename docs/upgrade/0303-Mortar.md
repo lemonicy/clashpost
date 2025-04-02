@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 迫击炮升级数据"
 navTitle: "迫击炮"
 shownTitle: "迫击炮"
@@ -101,7 +101,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="改装所需夜世界迫击炮等级" pValue="8" />
     <UnitProperty pKey="改装数量" pValue="仅限一个" />
     <UnitProperty pKey="改装时间" pValue="14" :isUpgradeTime="true" gpClass="building" />
-    <UnitProperty pKey="改装费用" pValue="8M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
+    <UnitProperty pKey="改装费用" pValue="6M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -110,22 +110,22 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---  |   ---   |    ---    |        ---          |       ---      |
-|   1  |     4   |    20   |   400  |     5k  |   0, 2    |                     |        3       |
-|   2  |     5   |    25   |   450  |    25k  |   0, 3    |                     |        4       |
-|   3  |     6   |    30   |   500  |   100k  |   0, 4    |                     |        5       |
-|   4  |     7   |    35   |   550  |   200k  |   0, 6    |                     |        6       |
-|   5  |     9   |    45   |   600  |   300k  |   0,12    |                     |        7       |
-|   6  |    11   |    55   |   650  |   560k  |   0,18    |                     |        8       |
-|   7  |    15   |    75   |   700  |   1.3M  |   1       |                     |        9       |
-|   8  |    20   |   100   |   800  |   1.9M  |   1,12    |                     |       10       |
-|   9  |    25   |   125   |   950  |   2.5M  |   1,18    |                     |       11       |
-|  10  |    30   |   150   |  1100  |     3M  |   1       |                     |       11       |
-|  11  |    35   |   175   |  1300  |     4M  |   2,12    |                     |       12       |
-|  12  |    38   |   190   |  1500  |   4.5M  |   1,12    |                     |       12       |
-|  13  |    42   |   210   |  1700  |     5M  |   3,12    |                     |       13       |
-|  14  |    48   |   240   |  1950  |   6.5M  |   4       |                     |       14       |
-|  15  |    54   |   270   |  2150  |   8.5M  |   4,12    |                     |       15       |
-|  16  |    60   |   300   |  2300  |  14.6M  |  10       |                     |       16       |
+|   1  |     4   |    20   |   400  |     5k  |   0, 0,30 |                     |        3       |
+|   2  |     5   |    25   |   450  |    25k  |   0, 1    |                     |        4       |
+|   3  |     6   |    30   |   500  |    90k  |   0, 2    |                     |        5       |
+|   4  |     7   |    35   |   550  |   180k  |   0, 3    |                     |        6       |
+|   5  |     9   |    45   |   600  |   300k  |   0, 6    |                     |        7       |
+|   6  |    11   |    55   |   650  |   500k  |   0, 8    |                     |        8       |
+|   7  |    15   |    75   |   700  |   900k  |   0,12    |                     |        9       |
+|   8  |    20   |   100   |   800  |   1.2M  |   0,18    |                     |       10       |
+|   9  |    25   |   125   |   950  |   1.6M  |   0,20    |                     |       11       |
+|  10  |    30   |   150   |  1100  |   1.8M  |   1       |                     |       11       |
+|  11  |    35   |   175   |  1300  |   2.3M  |   1, 6    |                     |       12       |
+|  12  |    38   |   190   |  1500  |   2.4M  |   1,12    |                     |       12       |
+|  13  |    42   |   210   |  1700  |   2.8M  |   2       |                     |       13       |
+|  14  |    48   |   240   |  1950  |   4.3M  |   2,12    |                     |       14       |
+|  15  |    54   |   270   |  2150  |     5M  |   3,12    |                     |       15       |
+|  16  |    60   |   300   |  2300  |     7M  |   5       |                     |       16       |
 |  17  |    66   |   330   |  2450  |  19.5M  |  14,12    |                     |       17       |
 | ⚡1  |    69   |   345   |  2450  |   7.5M  |   3,12    |                     |       17       |
 | ⚡2  |    69   |   345   |  2525  |     5M  |   5,12    |                     |       17       |
@@ -175,7 +175,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="改装所需夜世界迫击炮等级" pValue="8" />
     <UnitProperty pKey="改装数量" pValue="仅限一个" />
     <UnitProperty pKey="改装时间" pValue="14" :isUpgradeTime="true" gpClass="building" />
-    <UnitProperty pKey="改装费用" pValue="8M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
+    <UnitProperty pKey="改装费用" pValue="6M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
 </UnitProperties>
 
 \* 多管迫击炮的攻击间隔是：3 连发期间每发 0.5 秒，之后停顿 4 秒。如果目标在多管还没打完 3 连发之前死亡，导致多管没有发射全部3发炮弹时，每发没有射出去的炮弹会减少 0.5 秒攻击间隔。上述的 5 秒指的是一整个周期的时间，0.5 * (3 - 1) + 4 = 5 (秒)
@@ -186,18 +186,18 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---  |   ---   |    ---    |        ---          |       ---      |
-|   8  |    22   |   37    |   800  |  1.9M   |   1,12    |                     |       10       |
-|   9  |    28   |   47    |   950  |  2.5M   |   1,18    |                     |       11       |
-|  10  |    33   |   56    |  1100  |    3M   |   1       |                     |       11       |
-|  11  |    38   |   64    |  1300  |    4M   |   2,12    |                     |       12       |
-|  12  |    41   |   70    |  1500  |  4.5M   |   1,12    |                     |       12       |
-|  13  |    46   |   77    |  1700  |    5M   |   3,12    |                     |       13       |
-|  14  |    52   |   88    |  1950  |  6.5M   |   4       |                     |       14       |
-|  15  |    59   |   99    |  2150  |  8.5M   |   4,12    |                     |       15       |
-|  16  |    65   |  110    |  2300  | 14.6M   |  10       |                     |       16       |
-|  17  |    72   |  121    |  2450  | 19.5M   |  14,12    |                     |       16       |
-| ⚡1  |    75   |   126   |  2450  |   7.5M  |   3,12    |                     |       17       |
-| ⚡2  |    75   |   126   |  2525  |     5M  |   5,12    |                     |       17       |
+|   8  |    22   |   37    |   800  |  1.2M   |   0,18    |                     |       10       |
+|   9  |    28   |   47    |   950  |  1.6M   |   0,20    |                     |       11       |
+|  10  |    33   |   56    |  1100  |  1.8M   |   1       |                     |       11       |
+|  11  |    38   |   64    |  1300  |  2.3M   |   1, 6    |                     |       12       |
+|  12  |    41   |   70    |  1500  |  2.4M   |   1,12    |                     |       12       |
+|  13  |    46   |   77    |  1700  |  2.8M   |   2       |                     |       13       |
+|  14  |    52   |   88    |  1950  |  4.3M   |   2,12    |                     |       14       |
+|  15  |    59   |   99    |  2150  |    5M   |   3,12    |                     |       15       |
+|  16  |    65   |  110    |  2300  |    7M   |   5       |                     |       16       |
+|  17  |    72   |  121    |  2450  | 19.5M   |  14,12    |                     |       17       |
+| ⚡1  |    75   |   126   |  2450  |  7.5M   |   3,12    |                     |       17       |
+| ⚡2  |    75   |   126   |  2525  |    5M   |   5,12    |                     |       17       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -207,6 +207,11 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>1 ~ 9、11、13 ~ 16 级迫击炮的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 4、6 ~ 16 级迫击炮的升级费用降低。</TimelineRow>
+        <TimelineRow>迫击炮的改装费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>在 17 本新增 17 级迫击炮。</TimelineRow>
         <TimelineRow>10、12 级迫击炮的升级时间减少。</TimelineRow>

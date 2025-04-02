@@ -42,7 +42,7 @@ canonical: /upgrade/0082-Valkyrie
     <UnitProperty pKey="首次进攻时机" pValue="到达目标后 0.8 秒" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
-    <UnitProperty pKey="训练时间" pValue="70" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -68,21 +68,28 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间  |所需实验室等级|所需大本等级|
 | ---- |   ----   |   ----  |  ---- |   ----  |    ----   |    ----    |   ----    |
 |   1  |     94   |  169.2  |  750  |      \  |     \     |      1     |     8     |
-|   2  |    106   |  190.8  |  850  |     3K  |    0,12   |      6     |     8     |
+|   2  |    106   |  190.8  |  850  |     3K  |    0, 8   |      6     |     8     |
 |   3  |    119   |  214.2  |  950  |     5K  |    1      |      7     |     9     |
-|   4  |    133   |  239.4  | 1050  |    10K  |    2      |      7     |     9     |
-|   5  |    148   |  266.4  | 1300  |    16K  |    2,12   |      8     |    10     |
-|   6  |    167   |  300.6  | 1500  |  31.5K  |    3,12   |      9     |    11     |
-|   7  |    185   |  333    | 1650  |    55K  |    4      |     10     |    12     |
-|   8  |    196   |  352.8  | 1800  |  77.5K  |    5      |     11     |    13     |
-|   9  |    208   |  374.4  | 2000  | 107.5K  |    7      |     12     |    14     |
-|  10  |    223   |  401.4  | 2400  |   120K  |    9,12   |     13     |    15     |
-|  11  |    238   |  428.4  | 2600  |   170K  |   11      |     14     |    16     |
+|   4  |    133   |  239.4  | 1050  |    10K  |    1,12   |      7     |     9     |
+|   5  |    148   |  266.4  | 1300  |    16K  |    2      |      8     |    10     |
+|   6  |    167   |  300.6  | 1500  |  31.5K  |    2, 6   |      9     |    11     |
+|   7  |    185   |  333    | 1650  |    55K  |    2,18   |     10     |    12     |
+|   8  |    196   |  352.8  | 1800  |  77.5K  |    3,18   |     11     |    13     |
+|   9  |    208   |  374.4  | 2000  |   105K  |    6      |     12     |    14     |
+|  10  |    223   |  401.4  | 2400  |   120K  |    6, 6   |     13     |    15     |
+|  11  |    238   |  428.4  | 2600  |   170K  |    6,18   |     14     |    16     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2、4 ~ 11 级瓦基丽武神的升级时间减少。</TimelineRow>
+        <TimelineRow>9 级瓦基丽武神的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>瓦基丽武神的训练时间由 1:30 改为 1:10</TimelineRow>
     </TimelineItem>

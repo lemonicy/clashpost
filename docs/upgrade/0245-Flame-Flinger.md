@@ -51,7 +51,7 @@ canonical: /upgrade/0245-Flame-Flinger
     <UnitProperty pKey="熔岩持续时间" pValue="30 秒" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
-    <UnitProperty pKey="建造时间" pValue="1200" trainingSystem="2022" />
+    <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 ① 目前的公开资料显示攻城烈焰车的攻速是 5 秒每次，但根据我们的测试，攻城烈焰车的实际攻速约为 5.4 秒每次。<br>
@@ -93,6 +93,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 5 级攻城烈焰车的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

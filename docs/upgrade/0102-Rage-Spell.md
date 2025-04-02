@@ -34,7 +34,7 @@ canonical: /upgrade/0102-Rage-Spell
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
-    <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="2022" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 \* 脉冲次数指狂暴法术给兵提供效果的次数，不可叠加。增益时间指受到脉冲效果后的持续时间。
@@ -62,11 +62,11 @@ const tableExtraInfo = [
 | 等级 |伤害增加<sup>①</sup>|速度增加<sup>②</sup>|  升级花费 |  升级时间  |所需实验室等级<sup>③</sup>|所需大本等级|
 | ---- |        ----       |         ----      |    ----  |    ----    |           ----         |    ----   |
 |   1  |        130%       |          20       |      \   |     \      |            3           |     7     |
-|   2  |        140%       |          22       |    400K  |     0,12   |            3           |     7     |
-|   3  |        150%       |          24       |    800K  |     1      |            4           |     7     |
-|   4  |        160%       |          26       |    1.6M  |     2      |            5           |     7     |
-|   5  |        170%       |          28       |    2.4M  |     4      |            6           |     8     |
-|   6  |        180%       |          30       |      5M  |     5      |           10           |    12     |
+|   2  |        140%       |          22       |    400K  |     0, 6   |            3           |     7     |
+|   3  |        150%       |          24       |    800K  |     0,12   |            4           |     7     |
+|   4  |        160%       |          26       |      1M  |     1      |            5           |     7     |
+|   5  |        170%       |          28       |      2M  |     2      |            6           |     8     |
+|   6  |        180%       |          30       |      5M  |     4      |           10           |    12     |
 </UnitTable>
 
 ① 伤害增加 170% 的意思是兵种的伤害是原来的 1 + 170% = 2.7 倍，其它同理。<br>
@@ -76,6 +76,13 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 6 级狂暴法术的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 5 级狂暴法术的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>6 级狂暴法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

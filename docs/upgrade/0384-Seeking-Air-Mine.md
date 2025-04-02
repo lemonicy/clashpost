@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 搜空地雷（黑炸）升级数据"
 navTitle: "搜空地雷"
 shownTitle: "搜空地雷（黑炸）"
@@ -71,11 +71,11 @@ const tableExtraInfo = [
 | 等级 | 爆炸伤害 | 升级费用 |  升级时间  |升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |    ---  |   ---   |    ---    |         ---         |       ---     |
 |   1  |   1500  |    12k  |    0      |                     |        7      |
-|   2  |   1800  |   900k  |    0,12   |                     |        9      |
-|   3  |   2100  |   1.6M  |    1      |                     |       10      |
-|   4  |   2500  |   3.1M  |    3      |                     |       13      |
-|   5  |   2800  |     6M  |    5      |                     |       15      |
-|   6  |   3000  |  10.5M  |    9, 6   |                     |       16      |
+|   2  |   1800  |   600k  |    0,12   |                     |        9      |
+|   3  |   2100  |   1.2M  |    1      |                     |       10      |
+|   4  |   2500  |   2.5M  |    2      |                     |       13      |
+|   5  |   2800  |     5M  |    4      |                     |       15      |
+|   6  |   3000  |   6.5M  |    5      |                     |       16      |
 |   7  |   3200  |    14M  |   10      |                     |       17      |
 
 </UnitTable>
@@ -83,6 +83,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>4 ~ 6 级搜空地雷的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6 级搜空地雷的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 17 本新增 7 级搜空地雷。</TimelineRow>
         <TimelineRow>17 本可以新解锁一个搜空地雷。</TimelineRow>

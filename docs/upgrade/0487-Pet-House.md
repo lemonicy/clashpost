@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 战宠小屋升级数据"
 navTitle: "战宠小屋"
 shownTitle: "战宠小屋"
@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Pet_House
 canonical: /upgrade/0487-Pet-House
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Pet_House10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Pet_House11_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -25,6 +25,7 @@ canonical: /upgrade/0487-Pet-House
         <UnitImg imgTitle="8 级" imgSrc="Pet_House8.png" />
         <UnitImg imgTitle="9 级" imgSrc="Pet_House9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Pet_House10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Pet_House11.png" imgHd="Pet_House11_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -78,21 +79,26 @@ const tableExtraInfo = [
 
 | 等级 |  生命值 | 升级费用 |  升级时间 |升级后可获<br>得的经验|所需<br>大本等级| 解锁的战宠 |
 | ---- |   ---  |   ---    |   ---    |         ---        |       ---     |    ---    |
-|   1  |   700  |     8M   |   3,12   |                    |       14      |<a href="/upgrade/0280-L.A.S.S.I">莱希</a>|
-|   2  |   800  |    10M   |   4      |                    |       14      |<a href="/upgrade/0281-Electro-Owl">闪枭</a>|
-|   3  |   900  |    12M   |   5      |                    |       14      |<a href="/upgrade/0282-Mighty-Yak">大牦</a>|
-|   4  |  1000  |    14M   |   6      |                    |       14      |<a href="/upgrade/0283-Unicorn">独角</a>|
-|   5  |  1050  |    15M   |   7      |                    |       15      |<a href="/upgrade/0284-Frosty">冰牙</a>|
-|   6  |  1100  |  15.5M   |   8      |                    |       15      |<a href="/upgrade/0285-Diggy">地兽</a>|
-|   7  |  1150  |    16M   |   9      |                    |       15      |<a href="/upgrade/0286-Poison-Lizard">猛蜥</a>|
-|   8  |  1200  |    17M   |  10      |                    |       15      |<a href="/upgrade/0287-Phoenix">凤凰</a>|
-|   9  |  1250  |  17.5M   |  11,12   |                    |       16      |<a href="/upgrade/0288-Spirit-Fox">灵狐</a>|
-|  10  |  1300  |    18M   |  12,12   |                    |       16      |<a href="/upgrade/0289-Angry-Jelly">愤怒水母</a>|
+|   1  |   700  |     3M   |   2      |                    |       14      |<a href="/upgrade/0280-L.A.S.S.I">莱希</a>|
+|   2  |   800  |     4M   |   3      |                    |       14      |<a href="/upgrade/0281-Electro-Owl">闪枭</a>|
+|   3  |   900  |     5M   |   3,12   |                    |       14      |<a href="/upgrade/0282-Mighty-Yak">大牦</a>|
+|   4  |  1000  |     6M   |   4      |                    |       14      |<a href="/upgrade/0283-Unicorn">独角</a>|
+|   5  |  1050  |     7M   |   5      |                    |       15      |<a href="/upgrade/0284-Frosty">冰牙</a>|
+|   6  |  1100  |     8M   |   5,12   |                    |       15      |<a href="/upgrade/0285-Diggy">地兽</a>|
+|   7  |  1150  |     9M   |   6      |                    |       15      |<a href="/upgrade/0286-Poison-Lizard">猛蜥</a>|
+|   8  |  1200  |    10M   |   7      |                    |       15      |<a href="/upgrade/0287-Phoenix">凤凰</a>|
+|   9  |  1250  |    11M   |   7,12   |                    |       16      |<a href="/upgrade/0288-Spirit-Fox">灵狐</a>|
+|  10  |  1300  |    12M   |   8      |                    |       16      |<a href="/upgrade/0289-Angry-Jelly">愤怒水母</a>|
+|  11  |  1350  |    22M   |  15,12   |                    |       17      |<a href="/upgrade/028a-Sneezy">阿啾</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>17 本新增 11 级战宠小屋，可解锁新战宠：阿啾。</TimelineRow>
+        <TimelineRow>1 ~ 10 级战宠小屋的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">  
         <TimelineRow>1 ~ 10 级战宠小屋的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
@@ -101,7 +107,7 @@ const tableExtraInfo = [
         <TimelineRow>3 ~ 8 级战宠小屋的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/04/17">
-        <TimelineRow>在 16 本新增 10 级战宠小屋，可解锁新战宠：愤怒水母。</TimelineRow>
+        <TimelineRow>16 本新增 10 级战宠小屋，可解锁新战宠：愤怒水母。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>16 本推出，并在 16 本新增 9 级战宠小屋，可解锁新战宠：灵狐。</TimelineRow>

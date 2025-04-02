@@ -40,7 +40,7 @@ canonical: /upgrade/0088-Headhunter
     <UnitProperty pKey="攻击距离" pValue="3 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
-    <UnitProperty pKey="训练时间" pValue="50" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -66,8 +66,8 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 |每秒伤害<br>(对英雄)|每次伤害<br>(对英雄)|毒药法术<br>效果<sup>*</sup>| 生命值 | 升级花费| 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |   ----   |   ----  |        ---        |        ---        |            ----           |  ---- |  ----  |   ----   |       ----     |      ----     |
 |   1  |    105   |    63   |        420        |        252        |           40%/55%         |   360 |    \   |     \    |         1      |       12      |
-|   2  |    115   |    69   |        460        |        276        |           42%/60%         |   400 |  57.5K |   8, 6   |        10      |       12      |
-|   3  |    125   |    75   |        500        |        300        |           44%/65%         |   440 |    90K |   9      |        11      |       13      |
+|   2  |    115   |    69   |        460        |        276        |           42%/60%         |   400 |  57.5K |   5      |        10      |       12      |
+|   3  |    125   |    75   |        500        |        300        |           44%/65%         |   440 |    90K |   7      |        11      |       13      |
 </UnitTable>
 
 \* 毒药法术效果：移动速度降低 / 攻击速度降低。
@@ -75,6 +75,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 3 级英雄猎手的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>英雄猎手的训练时间由 1:00 改为 0:50</TimelineRow>
     </TimelineItem>

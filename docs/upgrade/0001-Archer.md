@@ -45,7 +45,7 @@ canonical: /upgrade/0001-Archer
     <UnitProperty pKey="攻击距离" pValue="3.5 格" />
     <UnitProperty pKey="所需训练营等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="2" />
-    <UnitProperty pKey="训练时间" pValue="6" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -71,23 +71,30 @@ const tableExtraInfo = [
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级花费 |  升级时间  |所需实验室等级|所需大本等级|
 | ---- |  ----   |  ----   |  ----  |   ----  |    ----   |    ----     |   ----    |
 |   1  |     7   |    7    |    20  |      \  |       \   |      1      |     1     |
-|   2  |     9   |    9    |    23  |    30k  |    0, 2   |      1      |     3     |
-|   3  |    12   |   12    |    28  |    80k  |    0, 5   |      3      |     5     |
-|   4  |    16   |   16    |    33  |   300k  |    0, 7   |      5      |     7     |
-|   5  |    20   |   20    |    40  |   800k  |    0,14   |      6      |     8     |
-|   6  |    22   |   22    |    44  |     2M  |    0,18   |      7      |     9     |
-|   7  |    25   |   25    |    48  |   2.5M  |    1      |      8      |    10     |
-|   8  |    28   |   28    |    52  |   3.2M  |    2      |      9      |    11     |
-|   9  |    31   |   31    |    56  |     4M  |    3      |     10      |    12     |
-|  10  |    34   |   34    |    60  |   4.5M  |    4      |     12      |    14     |
-|  11  |    37   |   37    |    64  |     8M  |    5      |     13      |    15     |
-|  12  |    40   |   40    |    68  |    14M  |    9      |     14      |    16     |
+|   2  |     9   |    9    |    23  |    20k  |    0, 1   |      1      |     3     |
+|   3  |    12   |   12    |    28  |    80k  |    0, 2   |      3      |     5     |
+|   4  |    16   |   16    |    33  |   200k  |    0, 3   |      5      |     7     |
+|   5  |    20   |   20    |    40  |   500k  |    0, 8   |      6      |     8     |
+|   6  |    22   |   22    |    44  |     1M  |    0,12   |      7      |     9     |
+|   7  |    25   |   25    |    48  |   1.5M  |    1      |      8      |    10     |
+|   8  |    28   |   28    |    52  |   2.3M  |    1,12   |      9      |    11     |
+|   9  |    31   |   31    |    56  |     3M  |    2,12   |     10      |    12     |
+|  10  |    34   |   34    |    60  |   4.5M  |    3,12   |     12      |    14     |
+|  11  |    37   |   37    |    64  |   6.5M  |    4,12   |     13      |    15     |
+|  12  |    40   |   40    |    68  |     9M  |    5,12   |     14      |    16     |
 |  13  |    43   |   43    |    72  |  17.5M  |   13      |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>2 ~ 6、8 ~ 12 级弓箭手的升级时间减少。</TimelineRow>
+        <TimelineRow>2、4 ~ 9、11 ~ 12 级弓箭手的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>17 本新增 13 级弓箭手。</TimelineRow>
         <TimelineRow>2 级弓箭手的升级时间减少。</TimelineRow>

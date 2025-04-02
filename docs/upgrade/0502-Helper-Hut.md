@@ -41,14 +41,18 @@ canonical: /upgrade/0502-Helper-Hut
 |    :--  |     ---     |
 | <a href="/upgrade/0800-Lab-Assistant">实验助手</a> |  9 |
 | <a href="/upgrade/0801-Builder%27s-Apprentice">建筑工人学徒</a> | 10 |
+| <a href="/upgrade/0802-Alchemist">炼金术士</a> | 11 |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>新帮手：炼金术士。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>新建筑：帮手小屋。现在你可以在帮手小屋里给帮手们分配任务。</TimelineRow>
+        <TimelineRow>新建筑：帮手小屋。现在你可以在帮手小屋里给帮手们分配任务。最初帮手小屋总共有两个帮手：实验助手和建筑工人学徒。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

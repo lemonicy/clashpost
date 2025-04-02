@@ -59,7 +59,10 @@ let gpValue;
 
 const gpClass = props.gpClass;
 let gpClassStr = "";
-if (props.trainingSystem) {
+
+const isGoldPassTrainingItem = props.trainingSystem && (props.trainingSystem === "legacy" || props.trainingSystem === "2022");
+if (isGoldPassTrainingItem) {
+    // 如果是 legacy 或者 2022 版本的训练系统，则认定为受月卡影响
     gpClassStr = "cp-gp-class-training";
 } else if (gpClass === "research") {
     gpClassStr = "cp-gp-class-research";
@@ -69,7 +72,7 @@ if (props.trainingSystem) {
 
 if (props.noGoldPass) {
     // 明确注明不受月卡影响，则只转化数字
-    if (props.trainingSystem) {
+    if (isGoldPassTrainingItem) {
         value = convertTime(value, true); // 第二个参数是训练时间的 flag
     } else if (props.isUpgradeTime) {
         value = convertTime(value);
@@ -80,8 +83,8 @@ if (props.noGoldPass) {
     valueDomClass = "cp-unit-property-value";
 } else {
     // 未明确注明是否受月卡影响，或手动注明受月卡影响，则根据数据类型将各个月卡减免比例下的数值填入 div
-    if (props.trainingSystem) {
-        // 不管是新版还是旧版训练系统，都按照训练时间的逻辑处理
+    if (isGoldPassTrainingItem) {
+        // 不管是 legacy 还是 2022 版训练系统，都按照训练时间的逻辑处理。2025 版训练系统不会进入这个 if 分支。
         valueArr = getGoldPassValueArr("training", value, null);
         gpValue = true;
         valueDomClass = "cp-unit-property-value cp-gp-item cp-gp-type-training " + gpClassStr;
@@ -113,7 +116,10 @@ onMounted(() => {
 
 <template>
     <div class="cp-unit-property" ref="unitPropertyRef">
-        <div class="cp-unit-property-key" v-if="trainingSystem === '2022'">
+        <div class="cp-unit-property-key" v-if="trainingSystem === '2025'">
+            {{ key }} <Info :propertyKey="true" @click="showDialog('cp-training-dialog-2025')" />
+        </div>
+        <div class="cp-unit-property-key" v-else-if="trainingSystem === '2022'">
             {{ key }} <Info :propertyKey="true" @click="showDialog('cp-training-dialog-2022')" />
         </div>
         <div class="cp-unit-property-key" v-else-if="trainingSystem === 'legacy'">
