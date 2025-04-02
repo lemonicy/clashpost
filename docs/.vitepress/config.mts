@@ -73,7 +73,8 @@ export default defineConfig({
         },
         resolve: {
             alias: {
-                "@": path.resolve(__dirname, "./theme")
+                "@": path.resolve(__dirname, "./theme"),
+                "#": path.resolve(__dirname, "../..")
             }
         }
     }

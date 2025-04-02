@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, onBeforeUnmount, nextTick, ref } from 'vue';
 import { inBrowser } from 'vitepress';
+import { notificationInfo } from "#/global-variables.js";
 import { getCookie, setCookie } from "@/assets/global/utils.js";
 import { showSidebarLeft, hideSidebarLeft } from '@/composables/sidebar/SidebarLeft.vue';
 import { showSidebarRight, hideSidebarRight } from '@/composables/sidebar/SidebarRight.vue';
@@ -12,9 +13,10 @@ import Close from '@/components/icon/Close.vue';
 const notificationCountIconRef = ref(0);
 const searchProviderRef = ref();
 
-const hasNotification = true;
-const notificationCount = 1;
-const currentNotificationId = 6;
+const hasNotification = notificationInfo.hasNotification;
+const notificationCount = notificationInfo.notificationCount;
+const currentNotificationId = notificationInfo.currentNotificationId;
+const notificationHTML = notificationInfo.notificationHTML;
 
 // 显示通知弹窗
 function showNotificationDialog() {
@@ -174,17 +176,20 @@ onMounted(() => {
     nextTick(() => {
         if (!inBrowser) return;
 
-        // 确定是否需要显示通知角标
-        // 加个延迟，防止 Hydration Mismatch
-        setTimeout(() => {
-            const notificationCountIcon = notificationCountIconRef.value
-            const cookieIdString = getCookie("cp-notification-id");
-            const cookieId = cookieIdString ? parseFloat(cookieIdString) : 0;
-            // 如果当前的通知 ID 大于 cookie 中存储的 ID，则展示新通知并把新 ID 存入 cookie
-            if (hasNotification && cookieId < currentNotificationId) {
-                notificationCountIcon.style.display = "block";
-            }
-        }, 300);
+        // 确定是否需要显示通知角标。
+        // 只有当通知存在时才运行这段代码，没有通知当然不显示角标。
+        if (hasNotification) {
+            // 加个延迟，防止 Hydration Mismatch
+            setTimeout(() => {
+                const notificationCountIcon = notificationCountIconRef.value
+                const cookieIdString = getCookie("cp-notification-id");
+                const cookieId = cookieIdString ? parseFloat(cookieIdString) : 0;
+                // 如果当前的通知 ID 大于 cookie 中存储的 ID，则展示新通知并把新 ID 存入 cookie
+                if (cookieId < currentNotificationId) {
+                    notificationCountIcon.style.display = "block";
+                }
+            }, 300);
+        }
 
         // 搜索相关的快捷键绑定
         const searchInput = document.getElementById("cp-search-input");
@@ -251,8 +256,11 @@ onBeforeUnmount(() => {
             </div>
         </nav>
     </div>
-    <Dialog dialogId="cp-notification-dialog" title="通知" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了">
-        <p>三月更新的数据已更新完毕（烈焰熔炉、阿啾和贵族哑铃除外）。</p>
+    <Dialog dialogId="cp-notification-dialog" title="通知" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasNotification">
+        <p v-html="notificationHTML"></p>
+    </Dialog>
+    <Dialog dialogId="cp-notification-dialog" title="通知" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了" v-else>
+        暂无通知
     </Dialog>
     <Dialog dialogId="cp-search-dialog" title="搜索 (Ctrl + k)" :hasSecondaryBtn="true" :hasPrimaryBtn="true"
         primaryText="开始搜索" secondaryText="关闭窗口" :hasClickPrimaryEvent="true" :hasClickSecondaryEvent="true"
