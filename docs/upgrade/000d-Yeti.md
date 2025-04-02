@@ -119,13 +119,13 @@ const tableExtraInfo = [
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="0.8 格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="占据人口" pValue="3<sup>①</sup>" />
+    <UnitProperty pKey="占据人口" pValue="1<sup>①</sup>" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次<sup>②</sup>" />
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />
 </UnitProperties>
 
-① 在隐形弹簧、飓风陷阱、镜像法术、回溯法术看来，小雪怪占 3 人口。<br>
+① 在隐形弹簧、飓风陷阱、镜像法术、回溯法术看来，小雪怪占 1 人口。<br>
 ② 虽然说小雪怪的攻击速度是一秒一次，但实际上小雪怪攻击一次之后就死了，而小雪怪的首次攻击时机为到达目标后 0.5 秒。这样一来，小雪怪的每秒伤害等于每次伤害，但造成了攻速更快的观感。
 
 <SmallTitle>升级数据</SmallTitle>
@@ -156,6 +156,7 @@ const tableExtraInfo = [
         <TimelineRow>在 17 本新增 7 级大雪怪。</TimelineRow>
         <TimelineRow>2 ~ 6 级大雪怪的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 3、5 ~ 6 级大雪怪的升级费用降低。</TimelineRow>
+        <TimelineRow>小雪怪和小冰怪占据的人口数由 3 调整为 1.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>大雪怪的训练时间由 3:00 改为 2:30</TimelineRow>

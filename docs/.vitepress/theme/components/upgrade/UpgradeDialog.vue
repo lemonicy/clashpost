@@ -92,7 +92,7 @@ if (link && isUpgradeDetails(link)) {
     </Dialog>
     <Dialog dialogId="cp-training-dialog-legacy" title="注意" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasV1TrainingDialog">
-        该兵种最后一次推出时，训练时间尚未被取消。该兵种最后一次推出时是四训练营时代，不过为例方便起见，这里显示的是单训练营时代（2022/10 - 2025/03）的训练时间。<br>
+        该兵种最后一次推出时，训练时间尚未被取消。该兵种最后一次推出时是四训练营时代，不过为了方便起见，这里显示的是单训练营时代（2022/10 - 2025/03）的训练时间。<br>
         要想讲清楚当时的训练机制，需要补充大量背景知识，这里就不做介绍，感兴趣的玩家请移步这篇文章：<a href="/p/4727">coc 的部队训练机制经历过哪些变迁？</a>
     </Dialog>
     <Dialog dialogId="cp-judge-square-dialog" title="什么是判定面积？" :hasSecondaryBtn="false"

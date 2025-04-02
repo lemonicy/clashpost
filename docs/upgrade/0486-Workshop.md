@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 攻城机器工坊升级数据"
 navTitle: "攻城机器工坊"
 shownTitle: "攻城机器工坊"
@@ -70,21 +70,25 @@ const tableExtraInfo = [
 
 | 等级 |可容纳的攻<br>城机器数量| 生命值 | 升级费用 | 升级时间 |升级后可获<br>得的经验|所需<br>大本等级|解锁的<br>攻城机器|
 | ---- |          ---         |   --- |    ---   |   ---   |         ---        |       ---     |        ----     |
-|   1  |           1          |  1000 |   2.4M   |    4    |                    |       12      |<a href="/upgrade/0240-Wall-Wrecker">攻城战车</a>|
-|   2  |           2          |  1100 |     4M   |    5    |                    |       12      |<a href="/upgrade/0241-Battle-Blimp">攻城飞艇</a>|
-|   3  |           3          |  1200 |   5.6M   |    6    |                    |       12      |<a href="/upgrade/0242-Stone-Slammer">攻城气球</a>|
-|   4  |           3          |  1300 |     9M   |    7    |                    |       13      |<a href="/upgrade/0243-Siege-Barracks">攻城训练营</a>|
-|   5  |           3          |  1400 |    10M   |    8    |                    |       13      |<a href="/upgrade/0244-Log-Launcher">攻城滚木车</a>|
-|   6  |           3          |  1500 |    14M   |    9    |                    |       14      |<a href="/upgrade/0245-Flame-Flinger">攻城烈焰车</a>|
-|   7  |           3          |  1600 |  15.3M   |   10    |                    |       15      |<a href="/upgrade/0246-Battle-Drill">攻城钻机</a>|
-|   8  |           3          |  1700 |    19M   |   12    |                    |       16      |<a href="/upgrade/0247-Troop-Launcher">部队发射器</a>|
+|   1  |           1          |  1000 |   2.4M   |    2    |                    |       12      |<a href="/upgrade/0240-Wall-Wrecker">攻城战车</a>|
+|   2  |           2          |  1100 |   3.7M   |    3    |                    |       12      |<a href="/upgrade/0241-Battle-Blimp">攻城飞艇</a>|
+|   3  |           3          |  1200 |     5M   |    4    |                    |       12      |<a href="/upgrade/0242-Stone-Slammer">攻城气球</a>|
+|   4  |           3          |  1300 |   8.7M   |    7    |                    |       13      |<a href="/upgrade/0243-Siege-Barracks">攻城训练营</a>|
+|   5  |           3          |  1400 |     9M   |    7, 6 |                    |       13      |<a href="/upgrade/0244-Log-Launcher">攻城滚木车</a>|
+|   6  |           3          |  1500 |    10M   |    7,12 |                    |       14      |<a href="/upgrade/0245-Flame-Flinger">攻城烈焰车</a>|
+|   7  |           3          |  1600 |    11M   |    7,18 |                    |       15      |<a href="/upgrade/0246-Battle-Drill">攻城钻机</a>|
+|   8  |           3          |  1700 |    13M   |    8    |                    |       16      |<a href="/upgrade/0247-Troop-Launcher">部队发射器</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24"> 
+        <TimelineRow>1 ~ 3、5 ~ 8 级攻城机器工坊的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 8 级攻城机器工坊的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">  
-        <TimelineRow>16 本新增 8 级攻城机器工坊。</TimelineRow>
+        <TimelineRow>16 本新增 8 级攻城机器工坊，新攻城机器：部队发射器。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">  
         <TimelineRow>3 ~ 7 级攻城机器工坊的升级时间减少。</TimelineRow>

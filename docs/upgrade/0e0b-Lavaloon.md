@@ -92,6 +92,7 @@ canonical: /upgrade/0e0b-Lavaloon
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
     <UnitProperty pKey="移动速度" pValue="4 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="2 格" />
@@ -121,6 +122,9 @@ canonical: /upgrade/0e0b-Lavaloon
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>迷你熔岩猎犬、迷你寒冰猎犬和迷你熔岩气球犬占用的人口数由 2 调整为 1.</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/10/11">
         <TimelineRow>该兵种第 2 次推出，是 2024 年合体狂热活动中的五个临时兵种之一。</TimelineRow>
         <TimelineRow>与 2023 版相比，该兵种新增了第 11 个等级，但 10 级的伤害和生命值降低了。</TimelineRow>

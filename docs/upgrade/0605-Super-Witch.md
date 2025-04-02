@@ -53,7 +53,7 @@ canonical: /upgrade/0605-Super-Witch
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="占据人口" pValue="20" />
+    <UnitProperty pKey="占据人口" pValue="10" />
     <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="1 格" />
@@ -78,6 +78,9 @@ canonical: /upgrade/0605-Super-Witch
 <Timeline>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>大宝宝（超级女巫的骷髅巨人）占用的人口数由 20 调整为 10，这意味着它现在可以被隐形弹簧弹走了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>超级女巫的训练时间由 6:40 改为 5:33</TimelineRow>

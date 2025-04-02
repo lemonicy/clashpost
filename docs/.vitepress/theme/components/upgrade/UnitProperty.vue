@@ -84,7 +84,7 @@ if (props.noGoldPass) {
 } else {
     // 未明确注明是否受月卡影响，或手动注明受月卡影响，则根据数据类型将各个月卡减免比例下的数值填入 div
     if (isGoldPassTrainingItem) {
-        // 不管是新版还是旧版训练系统，都按照训练时间的逻辑处理
+        // 不管是 legacy 还是 2022 版训练系统，都按照训练时间的逻辑处理。2025 版训练系统不会进入这个 if 分支。
         valueArr = getGoldPassValueArr("training", value, null);
         gpValue = true;
         valueDomClass = "cp-unit-property-value cp-gp-item cp-gp-type-training " + gpClassStr;

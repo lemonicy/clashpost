@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 铁匠铺升级数据"
 navTitle: "铁匠铺"
 shownTitle: "铁匠铺"
@@ -37,7 +37,7 @@ canonical: /upgrade/0488-Blacksmith
 3. 英雄装备可以赋予英雄一定的技能，详情请前往对应的装备页面查看。
 4. 升级装备不需要时间，只需花费矿石。
 5. 升级装备不占用 [建筑工人](/upgrade/0500-Builders-Hut)，也不占用 [实验室](/upgrade/0483-Laboratory)。
-6. 铁匠铺免疫 [雷电法术](/upgrade/0100-Lightning-Spell) 伤害，理论上属于资源类建筑，但不被 [哥布林](/upgrade/0003-Goblin) 优先攻击，哥布林的攻击伤害也不会翻倍。
+6. 铁匠铺免疫 [雷电法术](/upgrade/0100-Lightning-Spell) 伤害，理论上属于资源类建筑，但不被 [哥布林](/upgrade/0003-Goblin) 优先攻击。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -91,20 +91,28 @@ const tableExtraInfo = [
 
 | 等级 |  生命值 |蓝矿的<br>最大储量|紫矿的<br>最大储量|黄矿的<br>最大储量|  升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级| 解锁的装备 |
 | ---- |   ---- |        ---      |        ---      |       ---      |    ---   |   ---   |         ---         |      ---      |    ---    |
-|   1  |   700  |        10k      |       1000      |       200      |   750k   |    1    |                     |        8      |<a href="/upgrade/0702-Earthquake-Boots">地震金靴</a>|
-|   2  |   800  |        15k      |       1500      |       300      |   1.7M   |    2    |                     |        9      |<a href="/upgrade/0742-Giant-Arrow">巨型箭矢</a>|
-|   3  |   900  |        20k      |       2000      |       400      |   2.3M   |    3    |                     |       10      |<a href="/upgrade/0703-Vampstache">嗜血胡须</a><br><a href="/upgrade/0722-Metal-Pants">铁甲短裤</a>|
-|   4  |  1000  |        25k      |       2500      |       500      |     3M   |    4    |                     |       11      |<a href="/upgrade/0782-Rage-Gem">狂暴宝石</a>|
-|   5  |  1100  |        30k      |       3000      |       600      |   5.5M   |    5    |                     |       12      |<a href="/upgrade/0743-Healer-Puppet">天使木偶</a>|
-|   6  |  1200  |        35k      |       3500      |       700      |   8.5M   |    6    |                     |       13      |<a href="/upgrade/0783-Healing-Tome">治疗书卷</a>|
-|   7  |  1300  |        40k      |       4000      |       800      |    12M   |    7    |                     |       14      |<a href="/upgrade/07c2-Hog-Rider-Puppet">野猪骑士木偶</a>|
-|   8  |  1400  |        45k      |       4500      |       900      |  12.6M   |    8    |                     |       15      |<a href="/upgrade/07c3-Haste-Vial">急速药水瓶</a>|
-|   9  |  1500  |        50k      |       5000      |      1000      |    16M   |    9    |                     |       16      |     无    |
+|   1  |   700  |        10k      |       1000      |       200      |   600k   |    0,12 |                     |        8      |<a href="/upgrade/0702-Earthquake-Boots">地震金靴</a>|
+|   2  |   800  |        15k      |       1500      |       300      |   1.2M   |    1    |                     |        9      |<a href="/upgrade/0742-Giant-Arrow">巨型箭矢</a>|
+|   3  |   900  |        20k      |       2000      |       400      |   2.3M   |    2    |                     |       10      |<a href="/upgrade/0703-Vampstache">嗜血胡须</a><br><a href="/upgrade/0722-Metal-Pants">铁甲短裤</a>|
+|   4  |  1000  |        25k      |       2500      |       500      |     3M   |    3    |                     |       11      |<a href="/upgrade/0782-Rage-Gem">狂暴宝石</a>|
+|   5  |  1100  |        30k      |       3000      |       600      |     5M   |    4    |                     |       12      |<a href="/upgrade/0743-Healer-Puppet">天使木偶</a><br><a href="/upgrade/0723-Noble-Iron">贵族哑铃</a>|
+|   6  |  1200  |        35k      |       3500      |       700      |   6.2M   |    5    |                     |       13      |<a href="/upgrade/0783-Healing-Tome">治疗书卷</a>|
+|   7  |  1300  |        40k      |       4000      |       800      |   9.2M   |    7    |                     |       14      |<a href="/upgrade/07c2-Hog-Rider-Puppet">野猪骑士木偶</a>|
+|   8  |  1400  |        45k      |       4500      |       900      |    10M   |    7, 6 |                     |       15      |<a href="/upgrade/07c3-Haste-Vial">急速药水瓶</a>|
+|   9  |  1500  |        50k      |       5000      |      1000      |    11M   |    8    |                     |       16      |     无    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>1 ~ 6、8 ~ 9 级铁匠铺的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 2、5 ~ 9 级铁匠铺的升级费用降低。</TimelineRow>
+        <TimelineRow>5 级铁匠铺可以再解锁一个装备：贵族哑铃。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>3 级铁匠铺可以再解锁一个装备：铁甲短裤。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">  
         <TimelineRow>8 级铁匠铺的升级费用降低。</TimelineRow>
     </TimelineItem>

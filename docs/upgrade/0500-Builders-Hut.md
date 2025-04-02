@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 建筑工人小屋升级数据"
 navTitle: "建筑工人小屋"
 shownTitle: "建筑工人小屋"
@@ -11,7 +11,7 @@ canonical: /upgrade/0500-Builders-Hut
 
 - *如想查看村庄内类似于建筑工人小屋的另一种建筑，请访问：[小博木屋（巴布小屋）](/upgrade/0501-B.O.Bs-Hut)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Builders_Hut6_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Builders_Hut7_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -23,6 +23,7 @@ canonical: /upgrade/0500-Builders-Hut
         <UnitImg imgTitle="4 级" imgSrc="Builders_Hut4.png" />
         <UnitImg imgTitle="5 级" imgSrc="Builders_Hut5.png" />
         <UnitImg imgTitle="6 级" imgSrc="Builders_Hut6.png" imgHd="Builders_Hut6_hd.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Builders_Hut7.png" imgHd="Builders_Hut7_hd.png" />
     </UnitImgGroup>
     <UnitImgGroup title="激活状态" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Builders_Hut1.png" />
@@ -31,6 +32,7 @@ canonical: /upgrade/0500-Builders-Hut
         <UnitImg imgTitle="4 级" imgSrc="Builders_Hut4_Active.png" />
         <UnitImg imgTitle="5 级" imgSrc="Builders_Hut5_Active.png" />
         <UnitImg imgTitle="6 级" imgSrc="Builders_Hut6_Active.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Builders_Hut7_Active.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -97,13 +99,14 @@ const tableExtraInfo = [
 | 等级 | 每秒伤害 | 每次伤害 |每秒<br>修复值|每次敲锤子<br>的修复值| 生命值 | 升级费用 | 升级时间|升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |  ----   |   ---   |     ---     |         ---         |  ---  |   ---   |   ---   |         ---        |      ---      |
 |   1  |     0   |     0   |       0     |         0           |   250 |  见下方  |   0     |                    |      1        |
-|   2  |    80   |    32   |      50     |        37.5         |  1000 |   5.5M  |   4     |                    |      14       |
-|   3  |   100   |    40   |      60     |        45           |  1300 |     7M  |   5     |                    |      14       |
-|   4  |   120   |    48   |      70     |        52.5         |  1600 |   8.5M  |   6     |                    |      14       |
-|   5  |   135   |    54   |      80     |        60           |  1800 |  11.5M  |   7     |                    |      15       |
-|   6  |   150   |    60   |      85     |        63.75        |  1900 |  15.5M  |  11     |                    |      16       |
-| ⚡1  |   157   |   62.8  |     85      |        63.75       |  1900  |    6M   |   2, 6  |                    |      16      |
-| ⚡2  |   157   |   62.8  |     85      |        63.75       |  1950  |    3M   |   3,18  |                    |      16      |
+|   2  |    80   |    32   |      50     |        37.5         |  1000 |     4M  |   3     |                    |      14       |
+|   3  |   100   |    40   |      60     |        45           |  1300 |     5M  |   4     |                    |      14       |
+|   4  |   120   |    48   |      70     |        52.5         |  1600 |     7M  |   5     |                    |      14       |
+|   5  |   135   |    54   |      80     |        60           |  1800 |     8M  |   6     |                    |      15       |
+|   6  |   150   |    60   |      85     |        63.75        |  1900 |     9M  |   7     |                    |      16       |
+|   7  |   165   |    66   |      90     |        67.5         |  2000 |    21M  |  15, 6  |                    |      17       |
+| ⚡1  |   172   |   68.8  |      90     |        67.5         |  2000 |    10M  |   4     |                    |      17       |
+| ⚡2  |   172   |   68.8  |      90     |        67.5         |  2050 |     5M  |   6     |                    |      17       |
 </UnitTable>
 
 <SmallTitle>新建费用</SmallTitle>
@@ -111,7 +114,7 @@ const tableExtraInfo = [
 <Table>
 
 | 建筑工人小屋数量 |           建造所需宝石             |
-|      ----       |              ----                 |
+|      ----       |              ----                |
 |     第 1 个     |      无（玩家注册账号后有一个）     |
 |     第 2 个     | 250（新手教程中要求玩家必须购买一个）|
 |     第 3 个     |              500                  |
@@ -122,6 +125,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>17 本新增 7 级建筑工人小屋。</TimelineRow>
+        <TimelineRow>2 ~ 6 级建筑工人小屋的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>建筑工人小屋的充能时间和充能费用减少。</TimelineRow>
     </TimelineItem>
@@ -136,7 +143,7 @@ const tableExtraInfo = [
         <TimelineRow>5 级建筑工人小屋的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/04/17">
-        <TimelineRow>在 16 本新增 6 级建筑工人小屋。</TimelineRow>
+        <TimelineRow>16 本新增 6 级建筑工人小屋。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>2 ~ 4 级建筑工人小屋的升级费用减少。</TimelineRow>

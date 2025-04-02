@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 地狱之塔升级数据"
 navTitle: "地狱之塔"
 shownTitle: "地狱之塔"
@@ -58,7 +58,7 @@ const tableExtraInfoMultiMode = [
 
 <!-- ↓↓↓ 单一目标模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Inferno_Tower10.png" imgAlt="地狱之塔（单一目标模式）" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Inferno_Tower11.png" imgAlt="地狱之塔（单一目标模式）" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -74,6 +74,7 @@ const tableExtraInfoMultiMode = [
         <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8.png" />
         <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11.png" />
     </UnitImgGroup>
     <UnitImgGroup title="熄火的单头" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1_Depleted.png" />
@@ -86,6 +87,7 @@ const tableExtraInfoMultiMode = [
         <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8_Depleted.png" />
         <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Depleted.png" />
         <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Depleted.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Depleted.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -124,24 +126,25 @@ const tableExtraInfoMultiMode = [
 
 | 等级 |初始<br>每秒伤害|1.25 秒后<br>每秒伤害|5.25 秒后<br>每秒伤害| 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |      ---      |        ---        |          ---       |   ---  |   ---   |   ----  |        ---          |      ----      |
-|   1  |       30      |         80        |          800       |  1500  |   1.5M  |   2     |                     |       10       |
-|   2  |       35      |        100        |         1000       |  1800  |     2M  |   2,12  |                     |       10       |
-|   3  |       40      |        120        |         1200       |  2100  |     3M  |   3     |                     |       10       |
-|   4  |       45      |        140        |         1400       |  2400  |   3.4M  |   4     |                     |       11       |
+|   1  |       30      |         80        |          800       |  1500  |     1M  |   0,12  |                     |       10       |
+|   2  |       35      |        100        |         1000       |  1800  |   1.2M  |   1     |                     |       10       |
+|   3  |       40      |        120        |         1200       |  2100  |   2.4M  |   2     |                     |       10       |
+|   4  |       45      |        140        |         1400       |  2400  |   3.4M  |   2,12  |                     |       11       |
 |   5  |       50      |        150        |         1500       |  2700  |     4M  |   3     |                     |       11       |
-|   6  |       55      |        160        |         1600       |  3000  |   6.5M  |   6     |                     |       12       |
+|   6  |       55      |        160        |         1600       |  3000  |     6M  |   5     |                     |       12       |
 |   7  |       65      |        180        |         1800       |  3300  |     8M  |   7     |                     |       13       |
-|   8  |       80      |        210        |         2100       |  3700  |    11M  |   9     |                     |       14       |
-|   9  |      100      |        230        |         2300       |  4000  |  12.5M  |  10     |                     |       15       |
-|  10  |      120      |        260        |         2600       |  4400  |  16.5M  |  11, 6  |                     |       16       |
-| ⚡1  |      130      |        280        |         2800       |  4400  |   11M   |   4,12  |                     |       16       |
-| ⚡2  |      130      |        280        |         2800       |  4600  |  6.5M   |   6,12  |                     |       16       |
+|   8  |       80      |        210        |         2100       |  3700  |   9.5M  |   7,12  |                     |       14       |
+|   9  |      100      |        230        |         2300       |  4000  |    10M  |   7,18  |                     |       15       |
+|  10  |      120      |        260        |         2600       |  4400  |    11M  |   8     |                     |       16       |
+|  11  |      140      |        290        |         2900       |  4800  |    22M  |  15,12  |                     |       17       |
+| ⚡1  |      150      |        310        |         3100       |  4800  |    11M  |   4,12  |                     |       17       |
+| ⚡2  |      150      |        310        |         3100       |  5000  |   6.5M  |   6,12  |                     |       17       |
 </UnitTable>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 多重目标模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Inferno_Tower10_Multi.png" imgAlt="地狱之塔（多重目标模式）" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Inferno_Tower11_Multi.png" imgAlt="地狱之塔（多重目标模式）" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -157,6 +160,7 @@ const tableExtraInfoMultiMode = [
         <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8_Multi.png" />
         <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Multi.png" />
         <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Multi.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Multi.png" />
     </UnitImgGroup>
         <UnitImgGroup title="熄火的多头" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1_Multi_Depleted.png" />
@@ -169,6 +173,7 @@ const tableExtraInfoMultiMode = [
         <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8_Multi_Depleted.png" />
         <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Multi_Depleted.png" />
         <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Multi_Depleted.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Multi_Depleted.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -207,18 +212,19 @@ const tableExtraInfoMultiMode = [
 
 | 等级 | 每秒伤害 | 目标数量 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---  |   ---   |  ---    |        ---          |      ----      |
-|   1  |    30   |     5   |  1500  |   1.5M  |   2     |                     |       10       |
-|   2  |    35   |     5   |  1800  |     2M  |   2,12  |                     |       10       |
-|   3  |    40   |     5   |  2100  |     3M  |   3     |                     |       10       |
-|   4  |    45   |     5   |  2400  |   3.4M  |   4     |                     |       11       |
+|   1  |    30   |     5   |  1500  |     1M  |   0,12  |                     |       10       |
+|   2  |    35   |     5   |  1800  |   1.2M  |   1     |                     |       10       |
+|   3  |    40   |     5   |  2100  |   2.4M  |   2     |                     |       10       |
+|   4  |    45   |     5   |  2400  |   3.4M  |   2,12  |                     |       11       |
 |   5  |    50   |     5   |  2700  |     4M  |   3     |                     |       11       |
-|   6  |    55   |     5   |  3000  |   6.5M  |   6     |                     |       12       |
+|   6  |    55   |     5   |  3000  |     6M  |   5     |                     |       12       |
 |   7  |    65   |     5   |  3300  |     8M  |   7     |                     |       13       |
-|   8  |    80   |     6   |  3700  |    11M  |   9     |                     |       14       |
-|   9  |   100   |     6   |  4000  |  12.5M  |  10     |                     |       15       |
-|  10  |   120   |     6   |  4400  |  16.5M  |  11, 6  |                     |       16       |
-| ⚡1  |   130   |    6   |  4400  |   6.5M   |   2,18  |                     |       16       |
-| ⚡2  |   130   |    6   |  4600  |   3.3M   |   4, 6  |                     |       16       |
+|   8  |    80   |     6   |  3700  |   9.5M  |   7,12  |                     |       14       |
+|   9  |   100   |     6   |  4000  |    10M  |   7,18  |                     |       15       |
+|  10  |   120   |     6   |  4400  |    11M  |   8     |                     |       16       |
+|  11  |   140   |     6   |  4800  |    22M  |  15,12  |                     |       17       |
+| ⚡1  |   150   |     6   |  4800  |    11M  |   4,12  |                     |       17       |
+| ⚡2  |   150   |     6   |  5000  |   6.5M  |   6,12  |                     |       17       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -226,6 +232,11 @@ const tableExtraInfoMultiMode = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>17 本新增 11 级地狱之塔。</TimelineRow>
+        <TimelineRow>1 ~ 4、6、8 ~ 10 级地狱之塔的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 3、6、8 ~ 10 级地狱之塔的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>5 级地狱之塔的升级时间减少。</TimelineRow>
         <TimelineRow>5 级地狱之塔的升级费用降低。</TimelineRow>
@@ -286,7 +297,7 @@ const tableExtraInfoMultiMode = [
     </TimelineItem>
         <TimelineItem date="2019/04/02">
         <TimelineRow>4 级地狱之塔的升级费用降低。</TimelineRow>
-        <TimelineRow>玩家上线后，地狱之塔的弹药将自动被填充，填充不再需要花费暗黑重油。然而，如果玩家不上线， 地狱之塔的弹药就不会被填充，所以你仍然可以攻击到地狱之塔的弹药用完的村庄</TimelineRow>
+        <TimelineRow>玩家上线后，地狱之塔的弹药将自动被填充，填充不再需要花费暗黑重油。然而，如果玩家不上线， 地狱之塔的弹药就不会被填充，所以你仍然可以攻击到地狱之塔的弹药用完的村庄。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 法术工厂升级数据"
 navTitle: "法术工厂"
 shownTitle: "法术工厂"
@@ -82,19 +82,23 @@ const tableExtraInfo = [
 
 | 等级 |可容纳的<br>法术空间| 生命值 | 升级费用 | 升级时间 |升级后可获<br>得的经验|所需<br>大本等级| 解锁的法术 |
 | ---- |        ---       |   ---  |   ---   |   ---   |         ---         |      ---      |    ---    |
-|   1  |         2        |   425  |  150k   |   0, 8  |                     |       5       |<a href="/upgrade/0100-Lightning-Spell">雷电法术</a>|
-|   2  |         4        |   470  |  300k   |   1     |                     |       6       |<a href="/upgrade/0101-Healing-Spell">疗伤法术</a>|
-|   3  |         6        |   520  |  600k   |   2     |                     |       7       |<a href="/upgrade/0102-Rage-Spell">狂暴法术</a>|
-|   4  |         8        |   600  |  1.2M   |   3     |                     |       9       |<a href="/upgrade/0103-Jump-Spell">弹跳法术</a><br><a href="/upgrade/0104-Freeze-Spell">冰冻法术</a>|
-|   5  |        10        |   720  |    2M   |   4     |                     |      10       |<a href="/upgrade/0105-Clone-Spell">镜像法术</a>|
+|   1  |         2        |   425  |  150k   |   0, 6  |                     |       5       |<a href="/upgrade/0100-Lightning-Spell">雷电法术</a>|
+|   2  |         4        |   470  |  300k   |   0,12  |                     |       6       |<a href="/upgrade/0101-Healing-Spell">疗伤法术</a>|
+|   3  |         6        |   520  |  600k   |   1     |                     |       7       |<a href="/upgrade/0102-Rage-Spell">狂暴法术</a>|
+|   4  |         8        |   600  |  1.2M   |   2     |                     |       9       |<a href="/upgrade/0103-Jump-Spell">弹跳法术</a><br><a href="/upgrade/0104-Freeze-Spell">冰冻法术</a>|
+|   5  |        10        |   720  |    2M   |   3     |                     |      10       |<a href="/upgrade/0105-Clone-Spell">镜像法术</a>|
 |   6  |        10        |   840  |  3.5M   |   5     |                     |      11       |<a href="/upgrade/0106-Invisibility-Spell">隐形法术</a>|
-|   7  |        10        |   960  |    9M   |   7, 4  |                     |      13       |<a href="/upgrade/0107-Recall-Spell">回溯法术</a>|
-|   8  |        10        |  1080  |   18M   |   8,12  |                     |      15       |<a href="/upgrade/0108-Revive-Spell">复苏法术</a>|
+|   7  |        10        |   960  |    9M   |   7     |                     |      13       |<a href="/upgrade/0107-Recall-Spell">回溯法术</a>|
+|   8  |        10        |  1080  |   14M   |   8     |                     |      15       |<a href="/upgrade/0108-Revive-Spell">复苏法术</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>1 ~ 5、7 ~ 8 级法术工厂的升级时间减少。</TimelineRow>
+        <TimelineRow>8 级法术工厂的升级费用降低。</TimelineRow>
+    </TimelineItem> 
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 15 本新增 8 级法术工厂。</TimelineRow>    
         <TimelineRow>4 ~ 5、7 级法术工厂的升级时间减少。</TimelineRow>

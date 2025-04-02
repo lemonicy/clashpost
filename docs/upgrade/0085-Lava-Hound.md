@@ -104,6 +104,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>3 ~ 6 级熔岩猎犬的升级时间减少。</TimelineRow>
+        <TimelineRow>迷你熔岩猎犬、迷你寒冰猎犬和迷你熔岩气球犬占用的人口数由 2 调整为 1.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>熔岩猎犬的训练时间由 5:00 改为 4:20</TimelineRow>

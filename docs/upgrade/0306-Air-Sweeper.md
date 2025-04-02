@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 空气炮（吹风机）升级数据"
 navTitle: "空气炮"
 shownTitle: "空气炮（吹风机）"
@@ -77,11 +77,11 @@ const tableExtraInfo = [
 
 | 等级 | 每次攻击的<br>击退距离 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |         ---          |   --- |    ---   |   ---     |        ---          |       ---      |
-|   1  |        1.6 格        |   750 |   400k   |  0, 6     |                     |        6       |
-|   2  |        2.0 格        |   800 |   600k   |  0, 8     |                     |        6       |
-|   3  |        2.4 格        |   850 |   900k   |  0,12     |                     |        7       |
-|   4  |        2.8 格        |   900 |   1.2M   |  0,18     |                     |        8       |
-|   5  |        3.2 格        |   950 |   1.8M   |  1        |                     |        9       |
+|   1  |        1.6 格        |   750 |   200k   |  0, 4     |                     |        6       |
+|   2  |        2.0 格        |   800 |   300k   |  0, 6     |                     |        6       |
+|   3  |        2.4 格        |   850 |   450k   |  0, 8     |                     |        7       |
+|   4  |        2.8 格        |   900 |   800k   |  0,12     |                     |        8       |
+|   5  |        3.2 格        |   950 |   1.2M   |  1        |                     |        9       |
 |   6  |        3.6 格        |  1000 |   1.9M   |  2        |                     |       10       |
 |   7  |        4.0 格        |  1050 |   3.4M   |  3        |                     |       11       |
 </UnitTable>
@@ -89,18 +89,22 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>1 ~ 4 级空气炮的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 5 级空气炮的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>6 ~ 7 级空气炮的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
         <TimelineRow>6 ~ 7 级空气炮的升级费用降低。</TimelineRow>
     </TimelineItem>
-        <TimelineItem date="2021/04/12">
+    <TimelineItem date="2021/04/12">
         <TimelineRow>所有等级空气炮的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>  
-        <TimelineItem date="2019/04/02">
-        <TimelineRow>4 ~ 7 级空气炮的升级费用降低。</TimelineRow>
+    <TimelineItem date="2019/04/02">
         <TimelineRow>1 ~ 6 级空气炮的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 7 级空气炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

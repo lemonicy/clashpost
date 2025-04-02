@@ -41,6 +41,7 @@ canonical: /upgrade/008a-Druid
    - 在人类形态下，德鲁伊不能反击。在没有治疗目标时，即使受到伤害也会保持静止。
 4. 在巨熊形态下，德鲁伊是一种优先攻击防御建筑的兵种。
 5. 人类形态下的德鲁伊可以跳墙，巨熊形态下则不能。
+6. 两种形态的德鲁伊占用的人口数不一样，人类形态为 16 人口，巨熊形态为 10 人口。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -101,13 +102,29 @@ const tableExtraInfo = [
     </UnitImgGroup>
 </Panel>
 
+<SmallTitle>重要说明</SmallTitle>
+
+1. 德鲁伊有两种形态：可以治疗友军的人类形态以及可以进攻的巨熊形态。
+2. 在德鲁伊被部署后的前 25 秒，他处于人类形态，当 25 秒时间耗尽或生命值归零时，他会变身为巨熊形态。
+   - 如果德鲁伊被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹走，他将无法变身。
+3. 在人类形态下，德鲁伊的治疗效果可以最多弹射到 4 个目标（含第一个治疗目标）身上。
+   - 德鲁伊的治疗效果无法弹射到攻城机器身上（攻城机器免疫所有治疗效果）。
+   - 德鲁伊可以同时治疗地面和空中部队，而天使只能治疗地面部队。
+   - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同的是，德鲁伊对英雄的治疗量没有衰减。
+   - 当多个治疗单位治疗同一目标时，治疗量会衰减，详见这篇文章：[论多个治疗单位治疗同一目标时的衰减效应](/p/6925)。
+   - 在人类形态下，德鲁伊不能反击。在没有治疗目标时，即使受到伤害也会保持静止。
+4. 在巨熊形态下，德鲁伊是一种优先攻击防御建筑的兵种。
+5. 人类形态下的德鲁伊可以跳墙，巨熊形态下则不能。
+6. 两种形态的德鲁伊占用的人口数不一样，人类形态为 16 人口，巨熊形态为 10 人口。
+
+
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
     <UnitProperty pKey="攻击类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="占据人口" pValue="16" />
+    <UnitProperty pKey="占据人口" pValue="10" />
     <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="0.6 格" />
@@ -135,6 +152,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 4 级德鲁伊的升级时间减少。</TimelineRow>
+        <TimelineRow>德鲁伊在巨熊形态下占用的人口数由 16 调整为 10.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>德鲁伊的训练时间由 2:30 改为 2:20</TimelineRow>

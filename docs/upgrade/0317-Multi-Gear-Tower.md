@@ -86,6 +86,8 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 | ---- |   ---   |   ---   |   ---  |   ---   |   ---   |        ---          |       ---      |
 |   1  |   300   |   300   |  4000  |  22.5M  |    15   |                     |        17      |
 |   2  |   320   |   320   |  4200  |    23M  |    16   |                     |        17      |
+| ⚡1  |   330   |   330   |  4200  |  11.5M  |     6   |                     |        17      |
+| ⚡2  |   330   |   330   |  4350  |     8M  |     7   |                     |        17      |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -139,6 +141,8 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 | ---- |     ---     |   ---   |   ---  |   ---   |   ---   |        ---          |       ---      |
 |   1  |     607     |   175   |  4000  |  22.5M  |    15   |                     |        17      |
 |   2  |     644     |   185   |  4200  |    23M  |    16   |                     |        17      |
+| ⚡1  |     678     |   189   |  4200  |  11.5M  |     6   |                     |        17      |
+| ⚡2  |     678     |   189   |  4350  |     8M  |     7   |                     |        17      |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -146,6 +150,9 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>复合机械塔成为可以充能的建筑。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>在 17 本新增复合机械塔。</TimelineRow>
     </TimelineItem>

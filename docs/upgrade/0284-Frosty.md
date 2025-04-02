@@ -47,6 +47,7 @@ canonical: /upgrade/0284-Frosty
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="0.8 格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次<sup>*</sup>" />
     <UnitProperty pKey="攻击距离" pValue="2 格" />
@@ -103,6 +104,7 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 9 级冰牙的升级费用降低。</TimelineRow>
+        <TimelineRow>小雪怪和小冰怪占据的人口数由 3 调整为 1.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>2 ~ 10 级冰牙的升级费用和升级时间减少。</TimelineRow>

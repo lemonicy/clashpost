@@ -215,6 +215,7 @@ onMounted(() => {
 <style lang="scss">
 .cp-upgrade-table {
     a {
+        white-space: nowrap; // a 元素内部不换行
         line-height: 2.25;
     }
 }

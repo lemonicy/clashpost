@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 英雄殿堂升级数据"
 navTitle: "英雄殿堂"
 shownTitle: "英雄殿堂"
@@ -15,17 +15,17 @@ canonical: /upgrade/0489-Hero-Hall
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Hero_Hall1.png" imgHd="Town_Hall1_hd.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Hero_Hall2.png" imgHd="Town_Hall2_hd.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Hero_Hall3.png" imgHd="Town_Hall3_hd.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Hero_Hall4.png" imgHd="Town_Hall4_hd.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Hero_Hall5.png" imgHd="Town_Hall5_hd.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Hero_Hall6.png" imgHd="Town_Hall6_hd.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Hero_Hall7.png" imgHd="Town_Hall7_hd.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Hero_Hall8.png" imgHd="Town_Hall8_hd.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Hero_Hall9.png" imgHd="Town_Hall9_hd.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Hero_Hall10.png" imgHd="Town_Hall10_hd.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Hero_Hall11.png" imgHd="Town_Hall11_hd.png" />
+        <UnitImg imgTitle="1 级" imgSrc="Hero_Hall1.png" imgHd="Hero_Hall1_hd.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Hero_Hall2.png" imgHd="Hero_Hall2_hd.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Hero_Hall3.png" imgHd="Hero_Hall3_hd.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Hero_Hall4.png" imgHd="Hero_Hall4_hd.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Hero_Hall5.png" imgHd="Hero_Hall5_hd.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Hero_Hall6.png" imgHd="Hero_Hall6_hd.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Hero_Hall7.png" imgHd="Hero_Hall7_hd.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Hero_Hall8.png" imgHd="Hero_Hall8_hd.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Hero_Hall9.png" imgHd="Hero_Hall9_hd.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Hero_Hall10.png" imgHd="Hero_Hall10_hd.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Hero_Hall11.png" imgHd="Hero_Hall11_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -81,16 +81,16 @@ const tableExtraInfo = [
 
 | 等级 | 英雄栏位<br>数量 | 生命值 | 升级费用 | 升级时间 | 升级后可<br>获得的经验 | 所需<br>大本等级 |   解锁英雄   |
 |  --- |       ---       |  ---- |   ----   |    ---  |          ---         |       ---        |     ----     |
-|   1  |        1        |  2000 |    80k   |  1      |                      |        7         |<a href="/upgrade/0200-Barbarian-King">野蛮人之王</a>|
+|   1  |        1        |  2000 |   800k   |  1      |                      |        7         |<a href="/upgrade/0200-Barbarian-King">野蛮人之王</a>|
 |   2  |        1        |  2400 |   1.6M   |  2      |                      |        8         |<a href="/upgrade/0201-Archer-Queen">弓箭女皇</a>|
-|   3  |        2        |  2800 |   2.3M   |  4      |                      |        9         |<a href="/upgrade/0204-Minion-Prince">亡灵王子</a>|
+|   3  |        2        |  2800 |   2.3M   |  3      |                      |        9         |<a href="/upgrade/0204-Minion-Prince">亡灵王子</a>|
 |   4  |        2        |  3200 |     3M   |  5      |                      |       10         | 无 |
 |   5  |        3        |  3600 |     5M   |  6      |                      |       11         |<a href="/upgrade/0202-Grand-Warden">大守护者</a>|
 |   6  |        3        |  3800 |     6M   |  7      |                      |       12         | 无 |
-|   7  |        4        |  4200 |     9M   |  8      |                      |       13         |<a href="/upgrade/0203-Royal-Champion">飞盾战神</a>|
-|   8  |        4        |  4600 |    14M   |  9      |                      |       14         | 无 |
-|   9  |        4        |  5000 |    16M   |  12     |                      |       15         | 无 |
-|  10  |        4        |  5400 |    18M   |  15     |                      |       16         | 无 |
+|   7  |        4        |  4200 |     9M   |  7,12   |                      |       13         |<a href="/upgrade/0203-Royal-Champion">飞盾战神</a>|
+|   8  |        4        |  4600 |    10M   |  7,18   |                      |       14         | 无 |
+|   9  |        4        |  5000 |    12M   |  8      |                      |       15         | 无 |
+|  10  |        4        |  5400 |    14M   |  9      |                      |       16         | 无 |
 |  11  |        4        |  5800 |    21M   |  15,12  |                      |       17         | 无 |  
 
 </UnitTable>
@@ -205,6 +205,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>3、7 ~ 10 级英雄殿堂的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 10 级英雄殿堂的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，新建筑：英雄殿堂。</TimelineRow>
         <TimelineRow>现在你需要在英雄殿堂升级和管理英雄，不能和以前一样直接在阵型中找到英雄升级。</TimelineRow>

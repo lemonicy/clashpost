@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 箭塔升级数据"
 navTitle: "箭塔"
 shownTitle: "箭塔"
@@ -109,7 +109,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="改装所需夜世界箭塔等级" pValue="6" />
     <UnitProperty pKey="改装数量" pValue="仅限一个" />
     <UnitProperty pKey="改装时间" pValue="7" :isUpgradeTime="true" gpClass="building" />
-    <UnitProperty pKey="改装费用" pValue="4M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
+    <UnitProperty pKey="改装费用" pValue="3M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -118,27 +118,27 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |   升级时间   |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---  |   ---   |     ---     |        ---          |       ---      |
-|   1  |    11   |    5.5  |   380  |     1k  |  0, 0, 0,30 |                     |        2       |
-|   2  |    15   |    7.5  |   420  |     2k  |  0, 0, 5    |                     |        2       |
-|   3  |    19   |    9.5  |   460  |     5k  |  0, 0,45    |                     |        3       |
-|   4  |    25   |   12.5  |   500  |    20k  |  0, 3       |                     |        4       |
-|   5  |    30   |   15    |   540  |    80k  |  0, 4       |                     |        5       |
-|   6  |    35   |   17.5  |   580  |   150k  |  0, 2       |                     |        5       |
-|   7  |    42   |   21    |   630  |   300k  |  0, 6       |                     |        6       |
-|   8  |    48   |   24    |   690  |   480k  |  0, 8       |                     |        7       |
-|   9  |    56   |   28    |   750  |   580k  |  0,10       |                     |        8       |
-|  10  |    63   |   31.5  |   810  |   760k  |  0, 6       |                     |        8       |
-|  11  |    70   |   35    |   890  |     1M  |  0,14       |                     |        9       |
-|  12  |    74   |   37    |   970  |   1.1M  |  0,16       |                     |       10       |
-|  13  |    78   |   39    |  1050  |   1.5M  |  0,10       |                     |       10       |
-|  14  |    82   |   41    |  1130  |   2.2M  |  0,20       |                     |       11       |
-|  15  |    85   |   42.5  |  1230  |     2M  |  0,12       |                     |       11       |
-|  16  |    90   |   45    |  1310  |     3M  |  1,12       |                     |       12       |
-|  17  |   100   |   50    |  1390  |   2.5M  |  1          |                     |       12       |
-|  18  |   110   |   55    |  1510  |     4M  |  2,12       |                     |       13       |
-|  19  |   120   |   60    |  1600  |     3M  |  1,12       |                     |       13       |
-|  20  |   135   |   67.5  |  1700  |     6M  |  3,12       |                     |       14       |
-|  21  |   145   |   72.5  |  1800  |     8M  |  4          |                     |       15       |
+|   1  |    11   |    5.5  |   380  |     1k  |  0, 0, 0,15 |                     |        2       |
+|   2  |    15   |    7.5  |   420  |     2k  |  0, 0, 2    |                     |        2       |
+|   3  |    19   |    9.5  |   460  |     5k  |  0, 0,20    |                     |        3       |
+|   4  |    25   |   12.5  |   500  |    20k  |  0, 1       |                     |        4       |
+|   5  |    30   |   15    |   540  |    70k  |  0, 1,30    |                     |        5       |
+|   6  |    35   |   17.5  |   580  |    80k  |  0, 2       |                     |        5       |
+|   7  |    42   |   21    |   630  |   150k  |  0, 3       |                     |        6       |
+|   8  |    48   |   24    |   690  |   200k  |  0, 4       |                     |        7       |
+|   9  |    56   |   28    |   750  |   400k  |  0, 5       |                     |        8       |
+|  10  |    63   |   31.5  |   810  |   460k  |  0, 6       |                     |        8       |
+|  11  |    70   |   35    |   890  |   600k  |  0, 7       |                     |        9       |
+|  12  |    74   |   37    |   970  |   700k  |  0, 8       |                     |       10       |
+|  13  |    78   |   39    |  1050  |     1M  |  0,10       |                     |       10       |
+|  14  |    82   |   41    |  1130  |   1.1M  |  0,11       |                     |       11       |
+|  15  |    85   |   42.5  |  1230  |   1.3M  |  0,12       |                     |       11       |
+|  16  |    90   |   45    |  1310  |   1.6M  |  0,20       |                     |       12       |
+|  17  |   100   |   50    |  1390  |   1.8M  |  1          |                     |       12       |
+|  18  |   110   |   55    |  1510  |     2M  |  1, 6       |                     |       13       |
+|  19  |   120   |   60    |  1600  |   2.2M  |  1,12       |                     |       13       |
+|  20  |   135   |   67.5  |  1700  |     3M  |  2          |                     |       14       |
+|  21  |   145   |   72.5  |  1800  |     4M  |  3          |                     |       15       |
 
 </UnitTable>
 </SwitchTabGroup>
@@ -187,7 +187,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="改装所需夜世界箭塔等级" pValue="6" />
     <UnitProperty pKey="改装数量" pValue="仅限一个" />
     <UnitProperty pKey="改装时间" pValue="7" :isUpgradeTime="true" gpClass="building" />
-    <UnitProperty pKey="改装费用" pValue="4M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
+    <UnitProperty pKey="改装费用" pValue="3M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -196,18 +196,18 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---  |   ---   |    ---    |        ---          |       ---      |
-|  10  |   126   |   31.5  |   810  |   760k  |    0, 6   |                     |        8       |
-|  11  |   140   |   35    |   890  |     1M  |    0,14   |                     |        9       |
-|  12  |   150   |   37.5  |   970  |   1.1M  |    0,16   |                     |       10       |
-|  13  |   160   |   40    |  1050  |   1.5M  |    0,10   |                     |       10       |
-|  14  |   180   |   45    |  1130  |   2.2M  |    0,20   |                     |       11       |
-|  15  |   200   |   50    |  1230  |     2M  |    0,12   |                     |       11       |
-|  16  |   210   |   52.5  |  1310  |     3M  |    1,12   |                     |       12       |
-|  17  |   220   |   55    |  1390  |   2.5M  |    1      |                     |       12       |
-|  18  |   240   |   60    |  1510  |     4M  |    2,12   |                     |       13       |
-|  19  |   260   |   65    |  1600  |     3M  |    1,12   |                     |       13       |
-|  20  |   276   |   69    |  1700  |     6M  |    3,12   |                     |       14       |
-|  21  |   290   |   72.5  |  1800  |     8M  |    4      |                     |       15       |
+|  10  |   126   |   31.5  |   810  |   460k  |    0, 6   |                     |        8       |
+|  11  |   140   |   35    |   890  |   600k  |    0, 7   |                     |        9       |
+|  12  |   150   |   37.5  |   970  |   700k  |    0, 8   |                     |       10       |
+|  13  |   160   |   40    |  1050  |     1M  |    0,10   |                     |       10       |
+|  14  |   180   |   45    |  1130  |   1.1M  |    0,11   |                     |       11       |
+|  15  |   200   |   50    |  1230  |   1.3M  |    0,12   |                     |       11       |
+|  16  |   210   |   52.5  |  1310  |   1.6M  |    0,20   |                     |       12       |
+|  17  |   220   |   55    |  1390  |   1.8M  |    1      |                     |       12       |
+|  18  |   240   |   60    |  1510  |     2M  |    1, 6   |                     |       13       |
+|  19  |   260   |   65    |  1600  |   2.2M  |    1,12   |                     |       13       |
+|  20  |   276   |   69    |  1700  |     3M  |    2      |                     |       14       |
+|  21  |   290   |   72.5  |  1800  |     4M  |    3      |                     |       15       |
 
 </UnitTable>
 </SwitchTabGroup>
@@ -216,6 +216,11 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>1 ~ 5、7 ~ 9、11 ~ 12、14、16、18、20 ~ 21 级箭塔的升级时间减少。</TimelineRow>
+        <TimelineRow>5 ~ 21 级箭塔的升级费用降低。</TimelineRow>
+        <TimelineRow>箭塔的改装费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>1、2、6、10、13、15、17、19 级箭塔的升级时间减少。</TimelineRow>
         <TimelineRow>13、15、17、19 级箭塔的升级费用降低。</TimelineRow>
