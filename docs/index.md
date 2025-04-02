@@ -92,22 +92,20 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>你知道吗</SmallTitle>
 
-- 2024/11 更新后，8 本即可解锁 [女王](/upgrade/0201-Archer-Queen)。
+- 2025/03 更新后，兵种训练、法术配置、攻城机器建造以及英雄恢复都不需要时间了。
+- 2025/03 更新后，下完兵就退不会立即打完，需要等待战斗结束才能进行下一次进攻。
 - 升级 17 本后，[天鹰火炮](/upgrade/030b-Eagle-Artillery) 会被移除。
 - 加农炮和箭塔合体后会变成什么建筑呢？答：[复合机械塔](/upgrade/0317-Multi-Gear-Tower)。
-- 2025/02 更新后，部分部队的训练时间降低，不同兵种的 [相对训练速度](/p/596) 是什么样的？
-- 长老也可以发起都城突袭（详见：[部落中各职位的权限](/p/6654)）。
 
 </div>
 
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
-- 新攻城机器：[部队发射器](/upgrade/0247-Troop-Launcher)
-- 新防御：[复合机械塔](/upgrade/0317-Multi-Gear-Tower)
-- 新帮手：[炼金术士](/upgrade/0802-Alchemist)
-- 新装备：[铁甲短裤](/upgrade/0722-Metal-Pants)、[灵蛇手镯](/upgrade/0706-Snake-Bracelet)
-- 新文章：[浅谈攻城机器的一些基础设定](/p/6912)、[论多个治疗单位治疗同一目标时的衰减效应](/p/6925)
+- 新兵种（感觉更像攻城机器）：[烈焰熔炉](/upgrade/008b-Furnace)
+- 新战宠：[阿啾](/upgrade/028a-Sneezy)
+- 新装备：[贵族哑铃](/upgrade/0723-Noble-Iron)
+- 最近游戏更新挺快，但新内容根本做不过来啊，因此没有更多动态了……
 
 </div>
 </div>

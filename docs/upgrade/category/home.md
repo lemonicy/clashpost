@@ -53,6 +53,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="凤凰" imgSrc="0287/Phoenix_thumb.png" link="0287-Phoenix" :lazyLoading="false" />
         <ListItem name="灵狐" imgSrc="0288/Spirit_Fox_thumb.png" link="0288-Spirit-Fox" :lazyLoading="false" />
         <ListItem name="愤怒水母" imgSrc="0289/Angry_Jelly_thumb.png" link="0289-Angry-Jelly" :lazyLoading="false" />
+        <ListItem name="阿啾" imgSrc="028a/Sneezy_thumb.png" link="028a-Sneezy" :lazyLoading="false" />
     </ListItems>
     <ListItems title="装备（野蛮人之王）" imgFolder="home_heroes">
         <ListItem name="野蛮人木偶" imgSrc="0700/Barbarian_Puppet_thumb.png" link="0700-Barbarian-Puppet" :lazyLoading="false" />
@@ -75,6 +76,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="护卫玩偶" imgSrc="0720/Henchmen_Puppet_thumb.png" link="0720-Henchmen-Puppet" />
         <ListItem name="暗黑魔球" imgSrc="0721/Dark_Orb_thumb.png" link="0721-Dark-Orb" />
         <ListItem name="铁甲短裤" imgSrc="0722/Metal_Pants_thumb.png" link="0722-Metal-Pants" />
+        <ListItem name="贵族哑铃" imgSrc="0723/Noble_Iron_thumb.png" link="0723-Noble-Iron" />
     </ListItems>
     <ListItems title="装备（大守护者）" imgFolder="home_heroes">
         <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" />
@@ -127,6 +129,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="英雄猎手" imgSrc="0088/Headhunter_thumb.png" link="0088-Headhunter" />
         <ListItem name="守护者学徒" imgSrc="0089/Apprentice_Warden_thumb.png" link="0089-Apprentice-Warden" />
         <ListItem name="德鲁伊" imgSrc="008a/Druid_thumb.png" link="008a-Druid" />
+        <ListItem name="烈焰熔炉" imgSrc="008b/Furnace_thumb.png" link="008b-Furnace" />
     </ListItems>
     <ListItems title="超级兵" imgFolder="home_tech">
         <ListItem name="超级野蛮人" imgSrc="0600/Super_Barbarian_thumb.png" link="0600-Super-Barbarian" />

@@ -34,10 +34,7 @@ canonical: /upgrade/000d-Yeti
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 小雪怪不会触发陷阱，但是大雪怪会踩中 [弹簧](/upgrade/0381-Spring-Trap)、[大炸弹](/upgrade/0383-Giant-Bomb)等陷阱。
-2. 小雪怪对防御建筑的伤害是 4 倍，对带有武器的 [大本营](/upgrade/0400-Town-Hall) 是 2 倍，对不带武器的大本以及其他资源建筑为二分之一。
-    - 大本营的武器在升级时应视为不带武器的大本。
-    - 此处我们**不**将 [铁匠铺](/upgrade/0488-Blacksmith) 视为资源建筑。
+每受到 600 伤害，大雪怪就会释放一个小雪怪，大雪怪死亡后会释放剩余的全部小雪怪。
 
 <SmallTitle>大雪怪的属性</SmallTitle>
 
@@ -105,10 +102,11 @@ const tableExtraInfo = [
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 小雪怪不会触发陷阱，但是大雪怪会踩中 [弹簧](/upgrade/0381-Spring-Trap)、[大炸弹](/upgrade/0383-Giant-Bomb)等陷阱。
+1. 小雪怪本身不会触发陷阱，但是大雪怪踩中的 [弹簧](/upgrade/0381-Spring-Trap)、[大炸弹](/upgrade/0383-Giant-Bomb) 等陷阱可能会伤害到小雪怪。
 2. 小雪怪对防御建筑的伤害是 4 倍，对带有武器的 [大本营](/upgrade/0400-Town-Hall) 是 2 倍，对不带武器的大本以及其他资源建筑为二分之一。
     - 大本营的武器在升级时应视为不带武器的大本。
     - 此处我们**不**将 [铁匠铺](/upgrade/0488-Blacksmith) 视为资源建筑。
+3. 小雪怪攻击时会先接近目标建筑，然后在短暂停顿后跳到建筑身上并造成伤害。在跳跃状态下，小雪怪是无敌的，且不能被其他单位锁定。
 
 <SmallTitle>小雪怪的属性</SmallTitle>
 
@@ -121,12 +119,12 @@ const tableExtraInfo = [
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="1<sup>①</sup>" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次<sup>②</sup>" />
+    <UnitProperty pKey="攻击时机" pValue="到达目标后 0.5 秒<sup>②</sup>" />
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />
 </UnitProperties>
 
-① 在隐形弹簧、飓风陷阱、镜像法术、回溯法术看来，小雪怪占 1 人口。<br>
-② 虽然说小雪怪的攻击速度是一秒一次，但实际上小雪怪攻击一次之后就死了，而小雪怪的首次攻击时机为到达目标后 0.5 秒。这样一来，小雪怪的每秒伤害等于每次伤害，但造成了攻速更快的观感。
+① 在考虑小雪怪与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，小雪怪应被视为 1 人口。<br>
+② 根据解析安装包的结果，小雪怪的攻击速度是一秒一次，但实际上小雪怪攻击一次后就会死亡，而小雪怪的首次攻击时机为到达目标后 0.5 秒，因此小雪怪的攻速值无意义。
 
 <SmallTitle>升级数据</SmallTitle>
 
