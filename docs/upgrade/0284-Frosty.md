@@ -36,6 +36,7 @@ canonical: /upgrade/0284-Frosty
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1.2 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="3.5 格" />
+    <UnitProperty pKey="召唤小冰怪的频率" pValue="8 秒/次" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
 </UnitProperties>
