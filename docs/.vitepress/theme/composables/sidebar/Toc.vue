@@ -10,6 +10,7 @@ import { useData } from 'vitepress';
 import ArrowTop from '@/components/icon/ArrowTop.vue';
 import ExternalLink from '@/components/icon/ExternalLink.vue';
 import TocList from '@/composables/sidebar/TocList.vue';
+import { hideAllDialogs } from '@/components/dialog/Dialog.vue';
 
 const headings = ref([]);
 const { frontmatter } = useData();
@@ -75,7 +76,7 @@ const wikiLink = frontmatter.value.wiki;
         <div class="cp-toc-bottom-line"></div>
         <ul id="cp-toc-operation">
             <li v-if="wikiLink">
-                <a :href="wikiLink" target="_blank" rel="nofollow">前往维基查看 <ExternalLink :sidebarItemIcon="true" /></a>
+                <a :href="wikiLink" target="_blank" rel="nofollow" @click="hideAllDialogs">前往维基查看 <ExternalLink :sidebarItemIcon="true" /></a>
             </li>
             <li class="cp-toc-scroll-to-top">
                 <button id="cp-toc-scroll-top" @click="scrollToTop">返回顶部 <ArrowTop :sidebarItemIcon="true" /></button>

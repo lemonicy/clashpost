@@ -252,7 +252,7 @@ onBeforeUnmount(() => {
         </nav>
     </div>
     <Dialog dialogId="cp-notification-dialog" title="通知" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了">
-        <p>三月更新的数据已更新完毕。</p>
+        <p>三月更新的数据已更新完毕（烈焰熔炉、阿啾和贵族哑铃除外）。</p>
     </Dialog>
     <Dialog dialogId="cp-search-dialog" title="搜索 (Ctrl + k)" :hasSecondaryBtn="true" :hasPrimaryBtn="true"
         primaryText="开始搜索" secondaryText="关闭窗口" :hasClickPrimaryEvent="true" :hasClickSecondaryEvent="true"
