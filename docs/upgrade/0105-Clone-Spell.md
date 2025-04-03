@@ -31,6 +31,7 @@ canonical: /upgrade/0105-Clone-Spell
     <UnitProperty pKey="所需法术工厂等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="10" />
     <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="9,9,27000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -69,7 +70,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+        <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>4 ~ 5、7 ~ 8 级镜像法术的升级时间减少。</TimelineRow>

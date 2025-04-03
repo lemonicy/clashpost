@@ -46,6 +46,7 @@ canonical: /upgrade/0008-Dragon
     <UnitProperty pKey="所需训练营等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="10,10,30000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -88,7 +89,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>9 ~ 11 级飞龙的升级时间减少。</TimelineRow>

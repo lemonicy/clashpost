@@ -20,19 +20,22 @@ const imgAlt = iconInfo.alt;
 <style lang="scss">
 figure.cp-img-resource-icon {
     display: inline-block;
-    width: 1.125rem;
+    width: 1.25rem;
     margin: 0;
 
     img {
-        width: 1.125rem;
+        height: 1.125rem;
+        float: left;
         vertical-align: baseline;
         border-radius: 0;
     }
 }
 
-.cp-unit-property-key .cp-img-resource-icon img {
-    position: relative;
-    top: 0.125rem;
+.cp-unit-property-key, .cp-unit-property-value {
+    .cp-img-resource-icon img {
+        position: relative;
+        top: 0.125rem;
+    }
 }
 
 table .cp-img-resource-icon img {

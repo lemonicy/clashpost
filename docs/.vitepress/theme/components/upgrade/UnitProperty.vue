@@ -36,6 +36,10 @@ const props = defineProps({
         type: Boolean,
         default: false
     },
+    isDonationCost: {
+        type: Boolean,
+        default: false
+    },
     resourceType: {
         type: String,
         default: null
@@ -103,6 +107,20 @@ if (props.noGoldPass) {
     }
 }
 
+// 捐赠费用这一块视为不受月卡影响，单独处理
+let valueSplit;
+let donationCostGem;
+let donationCostRaidMedal;
+let donationCostNormalResource;
+let donationCostNormalResourceType;
+if (props.isDonationCost) {
+    valueSplit = value.split(",");
+    donationCostGem = convertNum(valueSplit[0].trim());
+    donationCostRaidMedal = convertNum(valueSplit[1].trim());
+    donationCostNormalResource = convertNum(valueSplit[2].trim());
+    donationCostNormalResourceType = valueSplit[3].trim();
+}
+
 const unitPropertyRef = ref();
 
 onMounted(() => {
@@ -116,26 +134,29 @@ onMounted(() => {
 
 <template>
     <div class="cp-unit-property" ref="unitPropertyRef">
-        <div class="cp-unit-property-key" v-if="trainingSystem === '2025'">
+        <div class="cp-unit-property-key" v-if="props.trainingSystem === '2025'">
             {{ key }} <Info :propertyKey="true" @click="showDialog('cp-training-dialog-2025')" />
         </div>
-        <div class="cp-unit-property-key" v-else-if="trainingSystem === '2022'">
+        <div class="cp-unit-property-key" v-else-if="props.trainingSystem === '2022'">
             {{ key }} <Info :propertyKey="true" @click="showDialog('cp-training-dialog-2022')" />
         </div>
-        <div class="cp-unit-property-key" v-else-if="trainingSystem === 'legacy'">
+        <div class="cp-unit-property-key" v-else-if="props.trainingSystem === 'legacy'">
             {{ key }} <Info :propertyKey="true" @click="showDialog('cp-training-dialog-legacy')" />
         </div>
-        <div class="cp-unit-property-key" v-else-if="isJudgeSquare">
+        <div class="cp-unit-property-key" v-else-if="props.isJudgeSquare">
             {{ key }} <Question :propertyKey="true" :greyStroke="true" @click="showDialog('cp-judge-square-dialog')" />
         </div>
-        <div class="cp-unit-property-key" v-else-if="isTrainingCost">
+        <div class="cp-unit-property-key" v-else-if="props.isTrainingCost">
             {{ key }} <Resource :type="props.resourceType" />
         </div>
-        <div class="cp-unit-property-key" v-else-if="isUpgradeCost">
+        <div class="cp-unit-property-key" v-else-if="props.isUpgradeCost">
             {{ key }} <Resource :type="props.resourceType" />
         </div>
         <div class="cp-unit-property-key" v-else-if="props.resourceType">
             {{ key }} <Resource :type="props.resourceType" />
+        </div>
+        <div class="cp-unit-property-key" v-else-if="props.isDonationCost">
+            {{ key }} <Info :propertyKey="true" @click="showDialog('cp-donation-cost-dialog')" />
         </div>
         <div class="cp-unit-property-key" v-else>{{ key }}</div>
 
@@ -144,6 +165,11 @@ onMounted(() => {
             <div class="cp-gp-discount-10">{{ valueArr[1] }}</div>
             <div class="cp-gp-discount-15">{{ valueArr[2] }}</div>
             <div class="cp-gp-discount-20">{{ valueArr[3] }}</div>
+        </div>
+        <div :class="valueDomClass" v-else-if="props.isDonationCost">
+            <div class="cp-unit-property-donation-cost-line">{{ donationCostGem }}<Resource type="Gem" /><br></div>
+            <div class="cp-unit-property-donation-cost-line">{{ donationCostRaidMedal }}<Resource type="Raid_Medal" /><br></div>
+            <div class="cp-unit-property-donation-cost-line">{{ donationCostNormalResource }}<Resource :type="donationCostNormalResourceType" /></div>
         </div>
         <div :class="valueDomClass" v-html="value" v-else></div>
     </div>
@@ -221,5 +247,10 @@ onMounted(() => {
     .cp-gp-discount-10, .cp-gp-discount-15, .cp-gp-discount-20 {
         color: inherit;
     }
+}
+
+/* 在捐赠费用一栏中，每种资源类型独占一行 */
+.cp-unit-property-donation-cost-line {
+    width: 100%;
 }
 </style>

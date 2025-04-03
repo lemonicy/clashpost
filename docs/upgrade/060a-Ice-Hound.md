@@ -47,6 +47,7 @@ canonical: /upgrade/060a-Ice-Hound
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="20,20,900,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 \* 寒冰猎犬有三段攻击偏好。场上有防空火箭时攻击 [防空火箭](/upgrade/0304-Air-Defense)，没有防空火箭时攻击其他防御建筑，没有防御建筑时攻击非防御建筑。
@@ -81,7 +82,7 @@ canonical: /upgrade/060a-Ice-Hound
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>迷你熔岩猎犬、迷你寒冰猎犬和迷你熔岩气球犬占用的人口数由 2 调整为 1.</TimelineRow>

@@ -39,6 +39,7 @@ canonical: /upgrade/0183-Skeleton-Spell
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
     <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,135,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 \* 第一次生成 4 个骷髅，之后每秒生成一个。
@@ -94,7 +95,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+        <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>3 ~ 5、8 级骷髅法术的升级时间减少。</TimelineRow>

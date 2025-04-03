@@ -35,6 +35,7 @@ canonical: /upgrade/0102-Rage-Spell
     <UnitProperty pKey="所需法术工厂等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
     <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="6,6,18000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 \* 脉冲次数指狂暴法术给兵提供效果的次数，不可叠加。增益时间指受到脉冲效果后的持续时间。
@@ -77,7 +78,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+        <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 6 级狂暴法术的升级时间减少。</TimelineRow>

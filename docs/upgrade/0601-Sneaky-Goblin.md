@@ -42,6 +42,7 @@ canonical: /upgrade/0601-Sneaky-Goblin
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="2,2,6000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -59,7 +60,7 @@ canonical: /upgrade/0601-Sneaky-Goblin
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
         <TimelineRow>15 本新增 9 级哥布林，超级部队的等级也相应更新。</TimelineRow>

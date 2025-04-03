@@ -33,6 +33,7 @@ canonical: /upgrade/0101-Healing-Spell
     <UnitProperty pKey="所需法术工厂等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
     <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="6,6,18000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 \* 疗伤法术的治疗方式是每隔 0.3 秒给法术作用范围内兵种增加部分生命值。
@@ -79,7 +80,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+        <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 6、9 ~ 10 级疗伤法术的升级时间减少。</TimelineRow>

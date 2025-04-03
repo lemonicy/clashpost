@@ -28,6 +28,7 @@ let hasV2TrainingDialog = false;
 let hasNewestTrainingDialog = true;
 let hasJudgeSquare = false;
 let hasDailyCost = false;
+let hasDonationCostDialog = false;
 
 if (link && isUpgradeDetails(link)) {
     // 提取链接中的序号
@@ -40,19 +41,25 @@ if (link && isUpgradeDetails(link)) {
     const isHeroBh = unitIdFirst3 === "10f";
     const isHero = isHeroHome || isHeroBh;
 
+    // 判断这个页面是否为兵种、法术、攻城机器（我们不将临时兵种视为 NormalTroop 或 SuperTroop）
+    const isNormalTroop = ["00"].includes(unitIdFirst2);
+    const isSuperTroop = ["06"].includes(unitIdFirst2);
+    const isTroop = isNormalTroop || isSuperTroop;
+    const isSpell = ["01"].includes(unitIdFirst2);
+    const isSiegeMachine = ["024", "025", "026", "027"].includes(unitIdFirst3);
+
+    // 判断这个页面是否为临时兵种
+    const isTempTroop = ["0e"].includes(unitIdFirst2);
+
     // 判断这个页面是否为战宠
     const isPet = ["028", "029", "02a", "02b"].includes(unitIdFirst3);
-    
+
     // 判断这个页面是否为建筑
     const buildingPrefixArr = ["03", "04", "05", "11", "12", "22", "23", "24", "25"];
     const isBuilding = buildingPrefixArr.includes(unitIdFirst2);
 
     // 确定是否展示训练弹窗
-    const isTroops = ["00"].includes(unitIdFirst2);
-    const isSpells = ["01"].includes(unitIdFirst2);
-    const isSiegeMachine = ["024", "025", "026", "027"].includes(unitIdFirst3);
-    const tempTroops = ["0e"].includes(unitIdFirst2);
-    hasTrainingDialog = isTroops || isSpells || isSiegeMachine || tempTroops;
+    hasTrainingDialog = isNormalTroop || isSpell || isSiegeMachine || isTempTroop;
 
     // 只有在确定拥有训练弹窗时才运行这一段
     if (hasTrainingDialog) {
@@ -75,6 +82,9 @@ if (link && isUpgradeDetails(link)) {
 
     // 英雄和战宠才有日均花费
     hasDailyCost = isHero || isPet;
+
+    // 兵种、法术和攻城机器才有捐赠费用，临时兵种数据缺失，不加载捐赠费用的提示弹窗
+    hasDonationCostDialog = isTroop || isSpell || isSiegeMachine;
 }
 
 </script>
@@ -108,5 +118,11 @@ if (link && isUpgradeDetails(link)) {
         启用月卡的升级时间加成后，游戏会删掉时间的零头，所以升级时间的减免比例实际上要比游戏中标注的 10%、15%、20%
         略高一些，而升级花费的减免比例和标注值是一样的。也就是说开月卡之后游戏实际上是更肝了，但肝度增加有限。<br>
         如想了解详细的月卡减免算法，请参考这篇文章：<a href="/p/1001">部落冲突月度挑战 (月卡、黄金令牌) 机制详解</a>)。
+    </Dialog>
+    <Dialog dialogId="cp-donation-cost-dialog" title="说明" :hasSecondaryBtn="false"
+        :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasDonationCostDialog">
+        1. 这三种资源是“或”的关系，使用任何一种资源均可捐赠。<br>
+        2. 捐赠费用与部队、法术和攻城机器的等级无关，所有等级的捐赠费用是一样的。<br>
+        3. <a href="/p/1001">黄金令牌</a> 只能减少捐赠所需的宝石费用（就是那个 1 宝石捐赠特权），不能减少其他类型的费用。
     </Dialog>
 </template>
