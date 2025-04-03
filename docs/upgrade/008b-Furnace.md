@@ -48,6 +48,7 @@ canonical: /upgrade/008b-Furnace
     <UnitProperty pKey="所需暗黑训练营等级" pValue="12" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="9,9,405,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 \* 这是烈焰熔炉未受到伤害时的存活时间。
@@ -132,7 +133,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>新兵种：烈焰熔炉，15 本可解锁。</TimelineRow>

@@ -45,6 +45,7 @@ canonical: /upgrade/060d-Super-Dragon
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="20,20,60000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 \* 超级飞龙在攻击时没有首选目标，但如果自己被敌方援军、英雄或骷髅攻击，或附近的友军被这些单位攻击，超级飞龙都会转移目标去攻击这些单位。当这些单位都消灭干净之后才会继续攻击附近建筑。
@@ -67,7 +68,7 @@ canonical: /upgrade/060d-Super-Dragon
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>超级飞龙的训练时间由 6:00 改为 5:40</TimelineRow>

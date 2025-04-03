@@ -52,6 +52,7 @@ canonical: /upgrade/0245-Flame-Flinger
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
     <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="15,15,45000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 ① 目前的公开资料显示攻城烈焰车的攻速是 5 秒每次，但根据我们的测试，攻城烈焰车的实际攻速约为 5.4 秒每次。<br>

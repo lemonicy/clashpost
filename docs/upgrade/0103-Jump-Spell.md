@@ -27,6 +27,7 @@ canonical: /upgrade/0103-Jump-Spell
     <UnitProperty pKey="所需法术工厂等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
     <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="6,6,18000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 ① 弹跳法术对我方英雄有效，对攻城机器无效。弹跳法术的弹跳能力不能与 [野猪骑士](/upgrade/0081-Hog-Rider) 这类兵种自带的跳墙能力叠加，也不能让 [掘地矿工](/upgrade/000b-Miner) 改变钻地的机制。<br>
@@ -68,7 +69,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+        <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 级弹跳法术的升级时间减少。</TimelineRow>

@@ -42,6 +42,7 @@ canonical: /upgrade/0600-Super-Barbarian
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,9000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -61,7 +62,7 @@ canonical: /upgrade/0600-Super-Barbarian
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
         <TimelineRow>12 级超级野蛮人的每秒伤害减少。</TimelineRow>

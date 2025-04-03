@@ -49,6 +49,7 @@ canonical: /upgrade/0242-Stone-Slammer
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
     <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="15,15,45000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

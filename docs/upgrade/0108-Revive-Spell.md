@@ -21,6 +21,13 @@ canonical: /upgrade/0108-Revive-Spell
     - 英雄的自动技能指的是设置中的“即将被击败时自动使用技能”选项，这个选项默认打开。
 5. 如果英雄在使用技能时被击倒，复苏后剩余的技能时间还在。
 6. 如果带有战宠的英雄被击倒，则英雄在第一次被击倒时就会与战宠分离，此时战宠会变成独立个体，即使该英雄被复苏，战宠也不会重新跟随。
+7. 根据早期的游戏设定，英雄拥有不死之身，为了契合该设定，网站采用“复苏法术”这个翻译，而不使用“复活法术”。
+
+> Heroes are immortal! Unlike other troops, they will not perish in combat. If they are injured, they can simply sleep it off.
+
+> 英雄是不朽的！不同于其他部队，他们不会在战斗结束后化作圣水，当他们受伤了只需睡一觉就会痊愈。
+
+> （摘自官方于 2013 年 1 月在英雄玩法推出之时对英雄的介绍）
 
 <SmallTitle>属性</SmallTitle>
 
@@ -32,6 +39,7 @@ canonical: /upgrade/0108-Revive-Spell
     <UnitProperty pKey="所需法术工厂等级" pValue="8" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
     <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="6,6,18000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -67,7 +75,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+        <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，并在 15 本新增复苏法术。</TimelineRow>

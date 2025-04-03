@@ -25,6 +25,7 @@ canonical: /upgrade/0182-Haste-Spell
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
     <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,135,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 \* 脉冲有效时间比脉冲间隔时间要长，这意味着部队离开法术范围后，仍然会保持效果 0.7 到 1 秒。
@@ -65,7 +66,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>法术的配置时间被取消。</TimelineRow>
+        <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2、4 ~ 4 级急速法术的升级时间减少。</TimelineRow>

@@ -46,6 +46,7 @@ canonical: /upgrade/0085-Lava-Hound
     <UnitProperty pKey="所需暗黑训练营等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="15,15,675,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 \* 熔岩猎犬有三段攻击偏好。场上有防空火箭时攻击 [防空火箭](/upgrade/0304-Air-Defense)，没有防空火箭时攻击其他防御建筑，没有防御建筑时攻击非防御建筑。
@@ -100,7 +101,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>3 ~ 6 级熔岩猎犬的升级时间减少。</TimelineRow>

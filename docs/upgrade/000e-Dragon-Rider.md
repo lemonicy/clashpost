@@ -38,6 +38,7 @@ canonical: /upgrade/000e-Dragon-Rider
     <UnitProperty pKey="所需训练营等级" pValue="15" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="13,13,39000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -73,7 +74,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 4 级龙骑士的升级时间减少。</TimelineRow>

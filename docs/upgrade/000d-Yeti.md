@@ -49,6 +49,7 @@ canonical: /upgrade/000d-Yeti
     <UnitProperty pKey="所需训练营等级" pValue="14" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="9,9,27000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -92,7 +93,7 @@ const tableExtraInfo = [
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Yetimite1.png" />
+        <UnitImg imgTitle="1 级" imgSrc="Yetimi7te1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Yetimite2.png" />
         <UnitImg imgTitle="3 - 5 级" imgSrc="Yetimite3.png" />
         <UnitImg imgTitle="6 级" imgSrc="Yetimite6.png" />
@@ -148,7 +149,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>在 17 本新增 7 级大雪怪。</TimelineRow>

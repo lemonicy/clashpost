@@ -43,6 +43,7 @@ canonical: /upgrade/0605-Super-Witch
     <UnitProperty pKey="强化有效期" pValue="3 天" />
     <UnitProperty pKey="骷髅召唤频率" pValue="详见说明<sup>*</sup>" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="20,20,900,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 \* 第一个大骷髅在部署后 5 秒召唤，之后每 30 秒召唤一个。
@@ -77,7 +78,7 @@ canonical: /upgrade/0605-Super-Witch
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>大宝宝（超级女巫的骷髅巨人）占用的人口数由 20 调整为 10，这意味着它现在可以被隐形弹簧弹走了。</TimelineRow>

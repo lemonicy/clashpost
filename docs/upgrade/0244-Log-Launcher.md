@@ -46,6 +46,7 @@ canonical: /upgrade/0244-Log-Launcher
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
     <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="15,15,45000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 \* 这是滚木车不受到伤害时的掉血速度。

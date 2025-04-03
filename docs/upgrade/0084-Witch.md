@@ -46,6 +46,7 @@ canonical: /upgrade/0084-Witch
     <UnitProperty pKey="所需暗黑训练营等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="6,6,270,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 <SmallTitle>骷髅的属性</SmallTitle>
@@ -100,7 +101,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/27">
-        <TimelineRow>部队的训练时间被取消。</TimelineRow>
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 7 级女巫的升级时间减少。</TimelineRow>
