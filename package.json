@@ -3,7 +3,7 @@
     "cross-spawn": "^7.0.6",
     "markdown-it-mathjax3": "^4.3.2",
     "p-map": "^7.0.3",
-    "sass": "^1.83.4",
+    "sass": "^1.86.3",
     "vitepress": "^1.6.3"
   },
   "scripts": {
