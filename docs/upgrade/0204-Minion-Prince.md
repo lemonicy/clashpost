@@ -200,7 +200,7 @@ const tableExtraInfo = [
         <TimelineRow>取消英雄的恢复时间，现在英雄可以像战宠一样瞬间恢复。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>在 8 本推出新英雄：亡灵王子。</TimelineRow>
+        <TimelineRow>在 9 本推出新英雄：亡灵王子。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
