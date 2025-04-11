@@ -120,6 +120,14 @@ button.btn-primary {
     color: rgb(235, 235, 235);
     background-color: var(--cp-primary-light);
 
+    p, div {
+        color: rgb(235, 235, 235);
+    }
+
+    svg {
+        stroke: rgb(235, 235, 235);
+    }
+
     &:hover {
         border: 0.1rem solid rgb(60, 88, 166);
         background-color: rgb(60, 88, 166);
@@ -143,27 +151,19 @@ button.btn-secondary {
     }
 }
 
-button.btn-link {
-    display: inline;
-    border: none;
-    padding: 0;
-    font-size: 1rem;
-    line-height: 1.75;
-    color: rgb(0, 107, 230);
-    background-color: var(--cp-page-light);
-}
-
 button:disabled, button:disabled:hover {
     background-color: rgba(26, 28, 24, 0.12) !important;
     border: 0.1rem solid rgba(26, 28, 24, 0.12) !important;
     color: rgba(26, 28, 24, 0.7) !important;
     cursor: not-allowed;
-}
 
-.cp-theme-dark button:disabled, .cp-theme-dark button:disabled:hover {
-    background-color: rgba(227, 227, 220, 0.12) !important;
-    border: 0.1rem solid rgba(227, 227, 220, 0.12) !important;
-    color: rgba(227, 227, 220, 0.7) !important;
+    p, div {
+        color: rgba(26, 28, 24, 0.7) !important;
+    }
+
+    svg {
+        stroke: rgba(26, 28, 24, 0.7) !important;
+    }
 }
 
 .cp-theme-dark {
@@ -172,6 +172,14 @@ button:disabled, button:disabled:hover {
         color: rgb(15, 15, 15);
         background-color: var(--cp-primary-dark);
 
+        p, div {
+            color: rgb(15, 15, 15);
+        }
+
+        svg {
+            stroke: rgb(15, 15, 15);
+        }
+    
         &:hover {
             border: 0.1rem solid rgb(158, 230, 255);
             background-color: rgb(158, 230, 255);
@@ -194,10 +202,19 @@ button:disabled, button:disabled:hover {
             outline: 0.1rem solid var(--cp-primary-dark);
         }
     }
-
-    button.btn-link {
-        color: rgb(128, 204, 255);
-        background-color: var(--cp-page-dark);
+    
+    button:disabled, .cp-theme-dark button:disabled:hover {
+        background-color: rgba(227, 227, 220, 0.12) !important;
+        border: 0.1rem solid rgba(227, 227, 220, 0.12) !important;
+        color: rgba(227, 227, 220, 0.7) !important;
+    
+        p, div {
+            color: rgba(227, 227, 220, 0.7) !important;
+        }
+    
+        svg {
+            stroke: rgba(227, 227, 220, 0.7) !important;
+        }
     }
 }
 
@@ -282,7 +299,7 @@ h1 {
 
 h2 {
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h3 {

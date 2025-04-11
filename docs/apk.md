@@ -10,26 +10,17 @@ robots: index, nofollow
 <script setup>
 import { showDialog } from '@/components/dialog/Dialog.vue';
 import { generateToast } from '@/components/dialog/Toast.vue';
+import Download from '@/components/icon/Download.vue';
 
-const apkVersion = "17.126.15";
-const apkUploadDate = "2025-04-02";
-const apkFileName = "Clash_of_Clans_v17.126.15_CRkn6dPSo5DWtx4M.apk";
+const disableDownloading = false;
+const apkVersion = "17.126.20";
+const apkUploadDate = "2025-04-12";
+const apkFileSize = "554.7 MB";
+const apkFileName = "Clash_of_Clans_v17.126.20_Blq9SXrAp5Pq8xgo.apk";
 
 function downloadCocApk() {
     window.location.href = "https://static.clashpost.com/download/" + encodeURI(apkFileName);
     generateToast("不出意外的话，安装包已开始下载，如果没反应，请重新点击按钮。", {
-        position: "top",
-        showDuration: 7500
-    });
-}
-
-const installerVersion = "1.8.3";
-const installerUploadDate = "2025-01-07";
-const installerFileName = "APKMirror_Installer_v1.8.3.apk";
-
-function downloadXapkInstaller() {
-    window.location.href = "https://static.clashpost.com/download/" + encodeURI(installerFileName);
-    generateToast("不出意外的话，安装工具已开始下载，如果没反应，请重新点击按钮。", {
         position: "top",
         showDuration: 7500
     });
@@ -53,22 +44,30 @@ function downloadXapkInstaller() {
 
 今天我宣布一个好消息，因为国外的商业带宽比较便宜，所以网站服务器迁移到国外之后运营成本有所下降，就算是开放直接下载也支付得起，因此我们决定让利用户，回归直接下载功能！当然也因为网站服务器在国外，我们不保证国内用户的速度。
 
-<div id="apk-download-btn-container">
-    <button id="apk-download-btn" class="btn-primary" @click="downloadCocApk">
-        <p id="apk-download-text">点击下载安装包</p>
-        <p>版本 {{ apkVersion }}，更新于 {{ apkUploadDate }}</p>
+<div class="cp-download-container" v-if="!disableDownloading">
+    <button class="btn-primary cp-download-btn" @click="downloadCocApk">
+        <div class="cp-download-btn-left">
+            <Download />
+        </div>
+        <div class="cp-download-btn-right">
+            <p class="cp-download-text">点击下载安装包</p>
+            <p class="cp-download-size">{{ apkFileSize }}</p>
+        </div>
     </button>
-    <!-- <button id="apk-download-btn" class="btn-primary" disabled>
-        <p id="apk-download-text">游戏即将更新</p>
-        <p>旧版本下载渠道暂时关闭</p>
-    </button> -->
-    <!-- <button id="apk-download-btn" class="btn-secondary" @click="downloadXapkInstaller">
-        <p id="apk-download-text">点击下载安装工具</p>
-        <p>版本 {{ installerVersion }}，更新于 {{ installerUploadDate }}</p>
-    </button> -->
+    <p style="text-align: center">版本：{{ apkVersion }}，更新于 {{ apkUploadDate }}</p>
 </div>
-
-<!-- 安装工具由 APKMirror 提供技术支持。 -->
+<div class="cp-download-container" v-else>
+    <button class="btn-primary cp-download-btn" disabled>
+        <div class="cp-download-btn-left">
+            <Download />
+        </div>
+        <div class="cp-download-btn-right">
+            <p class="cp-download-text">游戏即将更新</p>
+            <p class="cp-download-size">旧版本下载链接暂时关闭</p>
+        </div>
+    </button>
+    <p>版本：未知，更新时间：未知</p>
+</div>
 
 请留意上方的更新时间和版本号，不要下载成旧版的安装包。如果网站内未更新安装包，请等一会再看，不要反复下载。
 
@@ -210,34 +209,43 @@ function downloadXapkInstaller() {
 
 账号绑定工具的版本一大堆，好多渠道的账号网站内部根本没有，所以我们没能力逐一测试。如果你发现哪个版本的链接不能用了，或者发现了新的有效链接，请前往“常见问题解答”版块查找作者的联系方式，并向作者反馈，我们会依据你的反馈进行更新。网站内容的准确性离不开大家的贡献。
 
-<style>
-    #apk-download-btn-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1rem;
+<style lang="scss">
+.cp-download-container button.cp-download-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15rem;
+    height: 6rem;
+    margin: 0 auto;
+    border-radius: 0.75rem;
 
-        button {
-            display: block;
+    .cp-download-btn-left {
+        display: flex;
+        align-items: center;
+        width: 1.75rem;
+    }
+
+    .cp-download-btn-right {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+
+        p {
+            line-height: 1;
             margin: 0;
         }
-    }
 
-    #apk-download-btn {
-        width: 18rem;
-        height: 6rem;
-        display: inherit;
-        margin: 0 auto;
-        border-radius: 0.75rem;
-    }
+        .cp-download-text {
+            font-size: 1.25rem;
+        }
 
-    #apk-download-btn p {
-        color: inherit;
-        margin: 0;
+        .cp-download-size {
+            font-size: 0.875rem;
+        }
     }
+}
 
-    #apk-download-text {
-        font-size: 1.25rem;
-        margin-bottom: 0.5rem !important;
-    }
+.cp-download-container p {
+    text-align: center;
+}
 </style>
