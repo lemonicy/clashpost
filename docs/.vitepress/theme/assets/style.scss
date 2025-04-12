@@ -57,14 +57,6 @@ html {
     scroll-behavior: smooth;
 }
 
-html.cp-text-sm {
-    font-size: 14px;
-}
-
-html.cp-text-lg {
-    font-size: 18px;
-}
-
 /* 删除 div 获取焦点时的边框，这个边框实在是太难看了 */
 :focus {
     outline: none;

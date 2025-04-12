@@ -56,11 +56,13 @@ switch (props.type) {
     }
 }
 
-.cp-theme-dark .cp-callout a {
-    color: rgb(135, 206, 235);
+.cp-theme-dark .cp-callout {
+    a {
+        color: rgb(135, 206, 235);
 
-    &:focus {
-        outline: 0.1rem solid var(--cp-primary-dark);
+        &:focus {
+            outline: 0.1rem solid var(--cp-primary-dark);
+        }
     }
 }
 
@@ -155,10 +157,12 @@ switch (props.type) {
 .cp-callout-icon {
     font-size: 1.125rem;
     margin-right: 0.25rem;
-    transform: translateY(-0.1rem);
+    transform: translateY(-1px);
 }
 
 .cp-callout-content {
+    display: flex;
+    align-items: center;
     color: var(--cp-info-text-light);
 
     p, div, ul, li {
