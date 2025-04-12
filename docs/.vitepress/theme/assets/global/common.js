@@ -1,6 +1,6 @@
 import { inBrowser } from 'vitepress';
 import { getCookie, setCookie, getRemValue } from "@/assets/global/utils.js";
-import { getSafariVersionFromUA } from "@/assets/global/browser-check.js";
+import { isAppleDevice, getSafariVersionFromUA } from "@/assets/global/browser-check.js";
 import { hideOverlayOnly } from '@/components/dialog/Overlay.vue';
 import { hideSidebarLeft } from '@/composables/sidebar/SidebarLeft.vue';
 import { hideSidebarRight } from '@/composables/sidebar/SidebarRight.vue';
@@ -276,3 +276,35 @@ export function resetToastPosition() {
         resetFixedPosition(toastContainer, originalFixedOffset);
     }
 }
+
+/**
+ * 加载自定义字体，使各设备体验尽可能一致。
+ * 
+ * 目前的字体加载机制如下：
+ * 
+ * 1. 如果用户使用苹果设备，则：
+ *      如果用户将加载策略设为 Positive（始终加载），则加载自定义字体，否则不加载。
+ * 2. 如果用户不使用苹果设备，则：
+ *      如果用户将加载策略设为 Positive（始终加载）或 Normal（智能加载），则加载自定义字体，否则不加载。
+ * 
+ * 也就是说，在默认设置下，苹果设备不加载自定义字体，而其他设备加载。这是因为网站英文部分使用的 Inter 字体与苹果设备自带的 San Francisco 字体非常相似，无需多次一举。
+ * 另外，不论用户选择什么加载策略，网站都只会加载英文和数字字体，不会加载巨大的中文字体，中文部分始终使用系统默认字体。
+ */
+function loadLatinFont() {
+    document.fonts.load("1rem Inter").then(() => {
+        document.documentElement.classList.add("cp-web-font-loaded");
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const fontLoadPolicy = getCookie("cp-font-load-policy");
+    if (isAppleDevice()) {
+        if (fontLoadPolicy === "Positive") {
+            loadLatinFont();
+        }
+    } else {
+        if (fontLoadPolicy !== "Negative") {
+            loadLatinFont();
+        }
+    }
+});

@@ -26,6 +26,17 @@ function getBrowserInfo() {
 }
 
 /**
+ * 确定是否为 Apple 设备
+ */
+export function isAppleDevice() {
+    if (navigator.userAgent) {
+        return false;
+    } else {
+        return userAgent.includes("iPhone") || userAgent.includes("iPad") || userAgent.includes("Macintosh");
+    }
+}
+
+/**
  * 根据 userAgent 字符串确定 Safari 版本
  * 如果不是 iOS 端的浏览器，则返回 null
  * 

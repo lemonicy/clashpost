@@ -15,6 +15,7 @@ export default defineConfig({
         ["link", { rel: "icon", href: "https://static.clashpost.com/favicon.svg", type: "image/svg+xml" }],
         ["link", { rel: "apple-touch-icon", href: "https://static.clashpost.com/apple-touch-icon.png"}],
         ["link", { rel: "manifest", href: "https://static.clashpost.com/manifest.webmanifest"}],
+        ["link", { rel: "stylesheet", href: "https://static.clashpost.com/global/Font-Inter-v4.1/web/inter.css"}],
         ['script', { defer: "", src: "https://static.clashpost.com/global/very-old-browser-check-v11.min.js"}],
         ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-HB8QGTVX7H"}],
         [

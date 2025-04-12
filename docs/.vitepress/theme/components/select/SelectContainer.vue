@@ -35,7 +35,7 @@ const props = defineProps({
         <Select :id="props.selectId" :aria-label="props.ariaLabel" :selectWidth="props.selectWidth" :activeValue="props.activeValue">
             <slot></slot>
         </Select>
-        <div class="cp-select-description" v-if="props.description">{{ description }}</div>
+        <div class="cp-select-description" v-if="props.description" v-html="description"></div>
     </div>
 </template>
 

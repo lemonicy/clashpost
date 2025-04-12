@@ -21,13 +21,6 @@ function loadGpValueFromDiscount(discount) {
     return 0;
 }
 
-/*
- * 重置设置
- */
-function resetSettings() {
-    window.location.reload();
-}
-
 /**
  * 根据 option 的 value 值确定月卡减免比例
  */
@@ -75,6 +68,16 @@ function saveSettings() {
         deleteCookie("cp-preferred-theme");
     }
 
+    // 字体加载策略
+    const fontLoadPolicyValue = getSelectValue("cp-select-font-load-policy");
+    if (fontLoadPolicyValue === "1") {
+        setCookie("cp-font-load-policy", "Positive", "10", "years");
+    } else if (fontLoadPolicyValue === "2") {
+        setCookie("cp-font-load-policy", "Negative", "10", "years");
+    } else {
+        deleteCookie("cp-font-load-policy");
+    }
+
     // 搜索服务提供商设置
     const searchProviderValue = getSelectValue("cp-select-search-provider");
     if (searchProviderValue === "1") {
@@ -94,6 +97,13 @@ function saveSettings() {
         type: "success",
         showDuration: 3000
     });
+}
+
+/*
+ * 重置设置
+ */
+function resetSettings() {
+    window.location.reload();
 }
 </script>
 
@@ -141,6 +151,19 @@ if (preferredTheme) {
     }
 }
 
+/*
+ * 获取字体加载策略
+ */
+const fontLoadPolicy = inBrowser ? getCookie("cp-font-load-policy") : null;
+let fontLoadPolicyValue = 0;
+if (fontLoadPolicy) {
+    if (fontLoadPolicy === "Positive") {
+        fontLoadPolicyValue = 1;
+    } else if (fontLoadPolicy === "Negative") {
+        fontLoadPolicyValue = 2;
+    }
+}
+
 /**
  * 加载当前使用的搜索服务提供商
  */
@@ -158,6 +181,8 @@ if (searchProvider) {
     }
 }
 </script>
+
+网站的所有设置都通过 Cookie 存储，如果你使用设置功能，即代表您同意我们使用 Cookie 存储您的使用偏好。
 
 网站的所有设置都需要重新刷新页面后才可生效。
 
@@ -187,13 +212,20 @@ if (searchProvider) {
     <Option text="20%" value="3" />
 </SelectContainer>
 
-## 网站主题
+## 网站风格
 
-<SelectContainer title="切换网站主题" selectId="cp-select-page-theme" aria-label="切换网站主题的下拉菜单"
+<SelectContainer title="主题" selectId="cp-select-page-theme" aria-label="切换网站主题的下拉菜单"
     :activeValue="pageThemeActiveValue" selectWidth="12rem">
     <Option text="跟随系统（默认）" value="0" />
     <Option text="始终使用浅色主题" value="1" />
     <Option text="始终使用深色主题" value="2" />
+</SelectContainer>
+<SelectContainer title="字体加载策略" selectId="cp-select-font-load-policy" aria-label="切换字体加载策略的下拉菜单"
+    :activeValue="fontLoadPolicyValue" selectWidth="12rem"
+    description="在智能加载模式下，网站可能会加载少量字体资源以平衡网站的颜值与加载速度。不论选择哪一项，网站都只会加载英文和数字字体，不会加载巨大的中文字体。中文部分始终使用系统默认字体。">
+    <Option text="智能加载（默认）" value="0" />
+    <Option text="始终加载" value="1" />
+    <Option text="始终不加载" value="2" />
 </SelectContainer>
 
 <hr class="cp-light-row-division" />
