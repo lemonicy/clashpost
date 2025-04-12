@@ -4,7 +4,7 @@
     </li>
 </template>
 
-<style>
+<style lang="scss">
 .cp-timeline-row {
     margin: 0;
 }

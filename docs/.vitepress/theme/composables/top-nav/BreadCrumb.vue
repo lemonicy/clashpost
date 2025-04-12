@@ -226,7 +226,7 @@ if (inBrowser) {
     </div>
 </template>
 
-<style>
+<style lang="scss">
 #cp-breadcrumb {
     display: flex;
     overflow-x: auto;

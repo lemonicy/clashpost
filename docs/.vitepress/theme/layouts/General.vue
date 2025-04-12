@@ -46,7 +46,7 @@ watch(() => router.route.data.relativePath, (path) => {
     <NetworkWarning />
 </template>
 
-<style>
+<style lang="scss">
 .cp-top-callout {
     margin-bottom: -0.5rem;
 }
