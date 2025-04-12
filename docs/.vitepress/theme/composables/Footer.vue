@@ -10,7 +10,7 @@
     </div>
 </template>
 
-<style>
+<style lang="scss">
 #cp-footer {
     font-size: 0.875rem;
     text-align: center;

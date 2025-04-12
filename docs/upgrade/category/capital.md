@@ -149,7 +149,7 @@ if (activeTabCookieValue === "capital-buildings") {
     </ol>
 </div>
 
-<style>
+<style lang="scss">
 .cp-upgrade-index-tip .cp-small-subtitle {
     margin: 0 0 1rem 0.125rem;
 }

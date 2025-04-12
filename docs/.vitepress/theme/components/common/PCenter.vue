@@ -4,7 +4,7 @@
     </p>
 </template>
 
-<style>
+<style lang="scss">
 .cp-p-center {
     display: block;
     margin: 1rem 0;

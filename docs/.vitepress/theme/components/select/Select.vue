@@ -110,7 +110,7 @@ onMounted(() => {
     </div>
 </template>
 
-<style>
+<style lang="scss">
 .cp-select {
     position: relative; /* 子元素相对这个元素定位 */
     margin-left: 0;

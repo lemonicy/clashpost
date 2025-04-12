@@ -4,7 +4,7 @@
     </p>
 </template>
 
-<style>
+<style lang="scss">
 /* 与 figcaption 样式近似的说明文字 */
 .cp-p-caption {
     text-align: center;

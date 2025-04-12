@@ -18,3 +18,12 @@ const emits = defineEmits([
         <div class="cp-tab-bottom"></div>
     </button>
 </template>
+
+<style lang="scss">
+button.cp-tab {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+</style>
