@@ -21,13 +21,6 @@ function loadGpValueFromDiscount(discount) {
     return 0;
 }
 
-/*
- * 重置设置
- */
-function resetSettings() {
-    window.location.reload();
-}
-
 /**
  * 根据 option 的 value 值确定月卡减免比例
  */
@@ -41,6 +34,13 @@ function getDiscountFromOptionValue(value) {
     } else {
         return "0";
     }
+}
+
+/*
+ * 重置设置
+ */
+function resetSettings() {
+    window.location.reload();
 }
 
 /*
