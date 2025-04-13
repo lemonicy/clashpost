@@ -64,7 +64,7 @@ canonical: /upgrade/0400-Town-Hall
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="4×4" />
-    <UnitProperty pKey="占地面积" pValue="3×3" :isJudgeSquare="true" />
+    <UnitProperty pKey="判定面积" pValue="3×3" :isJudgeSquare="true" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

@@ -9,7 +9,7 @@ hasUpdateTime: false
 
 <script setup>
 import { useData } from 'vitepress';
-import PostCategoryTab from '@/components/posts/CategoryTab.vue';
+import PostCategoryTab from '@/components/posts/PostCategoryTab.vue';
 import PageComp from '@/components/PageComp.vue';
 import PostList from '@/components/posts/PostList.vue';
 import { getPostList, getPostCount } from '@/assets/posts/posts.js';
@@ -20,8 +20,8 @@ const currentPage = params.value.page;
 const categoryName = params.value.category;
 const categoryIndex = params.value.categoryIndex;
 
-const posts = getPostList(currentPage, {"category": categoryName});
-const postCount = getPostCount({"category": categoryName});
+const posts = await getPostList(currentPage, {"category": categoryName});
+const postCount = await getPostCount({"category": categoryName});
 const linkPrefix = "/p/category/" + categoryName;
 const maxPage = Math.ceil(postCount / 20);
 </script>

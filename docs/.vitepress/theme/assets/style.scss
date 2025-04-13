@@ -47,7 +47,7 @@
 }
 
 html {
-    font-family: "SF Pro", "Roboto", "Segoe UI", "PingFang SC", "Noto Sans SC", "Microsoft Yahei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "SF Pro Text", "Roboto", "Segoe UI", "PingFang SC", "Noto Sans SC", "Microsoft Yahei", sans-serif;
     font-size: 16px;
     width: 100%;
     overflow-x: hidden;
@@ -55,14 +55,6 @@ html {
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
     scroll-behavior: smooth;
-}
-
-html.cp-text-sm {
-    font-size: 14px;
-}
-
-html.cp-text-lg {
-    font-size: 18px;
 }
 
 /* 删除 div 获取焦点时的边框，这个边框实在是太难看了 */
@@ -110,6 +102,7 @@ button {
     min-height: 2.5rem;
     line-height: 1; /* 让按钮中的文字垂直居中 */
     font-size: 0.9375rem;
+    font-family: inherit;
     padding: 0.5rem 1rem;
     border-radius: 9999px;
     cursor: pointer;
@@ -870,9 +863,13 @@ mjx-container {
 /* 引用 */
 blockquote {
     border-left: 5px solid var(--cp-border-color-light);
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     padding-left: 1.25rem;
     border-left-width: 2px;
+    
+    p {
+        margin: 0;
+    }
 }
 
 .cp-theme-dark blockquote {

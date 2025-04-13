@@ -8,6 +8,7 @@ export default defineConfig({
     lang: "zh-Hans-CN",
     cleanUrls: true,
     ignoreDeadLinks: true,
+    metaChunk: true,
     head: [
         ["meta", { name: "format-detection", content: "telephone=no"}],
         ["link", { rel: "preconnect", href: "https://www.googletagmanager.com" }],

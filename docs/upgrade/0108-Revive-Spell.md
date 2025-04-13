@@ -23,10 +23,8 @@ canonical: /upgrade/0108-Revive-Spell
 6. 如果带有战宠的英雄被击倒，则英雄在第一次被击倒时就会与战宠分离，此时战宠会变成独立个体，即使该英雄被复苏，战宠也不会重新跟随。
 7. 根据早期的游戏设定，英雄拥有不死之身，为了契合该设定，网站采用“复苏法术”这个翻译，而不使用“复活法术”。
 
-> Heroes are immortal! Unlike other troops, they will not perish in combat. If they are injured, they can simply sleep it off.
-
-> 英雄是不朽的！不同于其他部队，他们不会在战斗结束后化作圣水，当他们受伤了只需睡一觉就会痊愈。
-
+> Heroes are immortal! Unlike other troops, they will not perish in combat. If they are injured, they can simply sleep it off.<br>
+> 英雄是不朽的！不同于其他部队，他们不会在战斗结束后化作圣水，当他们受伤了只需睡一觉就会痊愈。<br>
 > （摘自官方于 2013 年 1 月在英雄玩法推出之时对英雄的介绍）
 
 <SmallTitle>属性</SmallTitle>
