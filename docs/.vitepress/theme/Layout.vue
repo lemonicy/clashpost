@@ -6,13 +6,10 @@ import Posts from '@/layouts/Posts.vue';
 
 const router = useRouter();
 const { page } = useData();
-
-const link = router.route.data.relativePath;
-const isPostPage = link && (link.startsWith('p/') || link === "p.md");
 </script>
 
 <template>
     <HTTPNotFound v-if="page.isNotFound" />
-    <Posts v-else-if="isPostPage" />
+    <Posts v-else-if="router.route.data.relativePath.startsWith('p/') || router.route.data.relativePath === 'p.md'" />
     <General v-else />
 </template>
