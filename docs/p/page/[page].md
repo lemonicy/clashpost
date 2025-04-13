@@ -9,7 +9,7 @@ hasUpdateTime: false
 
 <script setup>
 import { useData } from 'vitepress';
-import PostCategoryTab from '@/components/posts/CategoryTab.vue';
+import PostCategoryTab from '@/components/posts/PostCategoryTab.vue';
 import PageComp from '@/components/PageComp.vue';
 import PostList from '@/components/posts/PostList.vue';
 import { getPostList, getPostCount } from '@/assets/posts/posts.js';
@@ -17,12 +17,10 @@ import { getPostList, getPostCount } from '@/assets/posts/posts.js';
 const { params } = useData();
 
 const currentPage = params.value.page;
-const posts = getPostList(currentPage);
-const postCount = getPostCount();
+const posts = await getPostList(currentPage);
+const postCount = await getPostCount();
 const maxPage = Math.ceil(postCount / 20);
 </script>
-
-页面正在迁移中，如想查看全部攻略，请 [前往旧版网站](https://www.cocservice.top/p/)。
 
 <PostCategoryTab :categoryIndex="0" />
 

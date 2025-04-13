@@ -7,9 +7,8 @@ import { resetToastPosition } from '@/assets/global/common.js';
  * 如果不合法，则返回错误原因，合法则返回 null
  * 
  * @param {Number} page 用户输入的页码
- * @param {Number} maxPage 最大页码
  */
-function getPageInvalidInfo(page, maxPage) {
+function getPageInvalidInfo(page) {
     if (page === "" || !isNumber(page)) {
         return "页码必须是数字";
     }
@@ -22,9 +21,6 @@ function getPageInvalidInfo(page, maxPage) {
     }
     if (page === 0) {
         return "页码不得为 0";
-    }
-    if (page > maxPage) {
-        return "输入的页码数超过了最大页";
     }
     return null;
 }
@@ -101,10 +97,18 @@ function enterKeyEvent(event, pageJumpInput) {
                 type: "error"
             });
         } else {
-            const pageNum = parseInt(inputValue);
-            const pageLink = getPageLink(prefix, pageNum);
+            let pageNum = parseInt(inputValue);
+            let pageLink;
+            let succeedText;
+            // 如果用户输入的页面数大于或等于最大页面数，则跳转到最后一页
+            if (pageNum >= maxPage) {
+                pageLink = getPageLink(prefix, maxPage);
+                succeedText = "已跳转到最后一页";
+            } else {
+                pageLink = getPageLink(prefix, pageNum);
+                succeedText = "已跳转到第 " + pageNum + " 页";
+            }
             router.go(pageLink).then(() => {
-                const succeedText = "已跳转到第 " + pageNum + " 页";
                 generateToast(succeedText, {
                     type: "info"
                 });

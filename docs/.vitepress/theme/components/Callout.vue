@@ -157,7 +157,6 @@ switch (props.type) {
 .cp-callout-icon {
     font-size: 1.125rem;
     margin-right: 0.25rem;
-    transform: translateY(-1px);
 }
 
 .cp-callout-content {

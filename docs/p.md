@@ -7,14 +7,14 @@ hasUpdateTime: false
 ---
 
 <script setup>
-import PostCategoryTab from '@/components/posts/CategoryTab.vue';
+import PostCategoryTab from '@/components/posts/PostCategoryTab.vue';
 import PageComp from '@/components/PageComp.vue';
 import PostList from '@/components/posts/PostList.vue';
 import { getPostList, getPostCount } from '@/assets/posts/posts.js';
 
 const currentPage = 1;
-const posts = getPostList(currentPage);
-const postCount = getPostCount();
+const posts = await getPostList(currentPage);
+const postCount = await getPostCount();
 const maxPage = Math.ceil(postCount / 20);
 </script>
 

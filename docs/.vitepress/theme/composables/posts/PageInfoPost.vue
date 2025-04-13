@@ -2,7 +2,7 @@
 import { ref, onMounted, nextTick } from 'vue';
 import { getISOTimeStr, getTimeStr } from '@/assets/global/datetime.js';
 import { invalidatedPosts, oldBuilderBasePosts, maintenancePosts } from '@/assets/posts/marks.js';
-import { getAuthorInfo, getPostInfo } from '@/assets/posts/posts.js';
+import { getPostInfo } from '@/assets/posts/posts.js';
 import Callout from '@/components/Callout.vue';
 
 const props = defineProps({
@@ -18,10 +18,10 @@ const updateTimeRef = ref();
 // 文章的基本信息（作者、最后更新时间等）
 const link = props.link;
 const postId = parseInt(link.replace("/p/", ""));
-const postInfo = getPostInfo(postId);
-const author = getAuthorInfo(postInfo.authorId);
-const lastCreated = new Date(postInfo.lastCreated).getTime();
-const lastUpdated = new Date(postInfo.lastUpdated).getTime();
+const postInfo = await getPostInfo(postId);
+const author = postInfo.author;
+const lastCreated = postInfo.lastCreated;
+const lastUpdated = postInfo.lastUpdated;
 
 // 判断文章是否太长时间（超过两年）没有编辑
 const timeMillsNow = new Date().getTime();
@@ -48,9 +48,9 @@ onMounted(() => {
         if (lastUpdated - lastCreated < 60 * 1000) {
             updateTimeDom.innerText = "从未更新";
         } else {
-            const updateTimeISO = getISOTimeStr(lastUpdated);
+            const lastUpdatedISO = getISOTimeStr(lastUpdated);
             const updateTime = getTimeStr(lastUpdated);
-            updateTimeDom.setAttribute("datetime", updateTimeISO);
+            updateTimeDom.setAttribute("datetime", lastUpdatedISO);
             updateTimeDom.innerText = updateTime + "更新";
         }
     });

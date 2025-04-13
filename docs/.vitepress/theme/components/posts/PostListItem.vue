@@ -15,7 +15,7 @@ const props = defineProps({
         type: Boolean,
         required: true
     },
-    updateTimeISO: {
+    lastUpdatedISO: {
         type: [String, null],
         required: true
     },
@@ -54,9 +54,9 @@ if (!author) {
 onMounted(() => {
     nextTick(() => {
         const updateTimeDom = updateTimeRef.value;
-        const updateTimeISO = props.updateTimeISO;
-        const updateTime = getTimeStr(updateTimeISO);
-        updateTimeDom.setAttribute("datetime", updateTimeISO);
+        const lastUpdatedISO = props.lastUpdatedISO;
+        const updateTime = getTimeStr(lastUpdatedISO);
+        updateTimeDom.setAttribute("datetime", lastUpdatedISO);
         updateTimeDom.innerText = updateTime;
     });
 });

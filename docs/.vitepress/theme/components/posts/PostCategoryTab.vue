@@ -13,6 +13,7 @@ const props = defineProps({
 const router = useRouter();
 
 async function changeCategory(categoryIndex) {
+    // 获取目标链接
     const linkArr = ["", "starter", "advanced", "knowledge", "material", "defense",
         "bh", "capital", "storm", "archive", "uncategorized"];
     let fullLink;
@@ -21,10 +22,13 @@ async function changeCategory(categoryIndex) {
     } else {
         fullLink = "/p/category/" + linkArr[categoryIndex];
     }
-    // 获取滚动位置
+
+    // 将滚动位置设置到之前的位置
     const tabLeftPosition = document.querySelector("#cp-post-category-tabs .cp-tabs").scrollLeft;
     await router.go(fullLink);
-    document.querySelector("#cp-post-category-tabs .cp-tabs").scrollLeft = tabLeftPosition;
+    setTimeout(() => {
+        document.querySelector("#cp-post-category-tabs .cp-tabs").scrollLeft = tabLeftPosition;
+    }, 50);
 }
 </script>
 
