@@ -71,13 +71,16 @@ canonical: /upgrade/0e17-Giant-Giant
 |  11  |   780   |  1560   |  20000  |       13       |
 |  12  |   820   |  1640   |  21000  |       14       |
 |  13  |   860   |  1720   |  22000  |       15       |
-|  14  |   940   |  1880   |  24000  |       16       |
-|  15  |  1020   |  2040   |  26000  |       17       |
+|  14  |   920   |  1840   |  23500  |       16       |
+|  15  |   980   |  1960   |  25000  |       17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/04/14">
+        <TimelineRow>14 ~ 15 级霸天巨人的每秒伤害和生命值降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/04/08">
         <TimelineRow>该兵种第 1 次推出，有效期至 2025/04/29.</TimelineRow>
     </TimelineItem>
