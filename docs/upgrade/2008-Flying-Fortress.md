@@ -38,7 +38,7 @@ canonical: /upgrade/2008-Flying-Fortress
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="空中单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="配兵人口" pValue="100" />
@@ -80,7 +80,7 @@ canonical: /upgrade/2008-Flying-Fortress
 <SmallTitle>骷髅飞骑的属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="攻击方式" pValue="攻击一次后爆出骷髅" />
     <UnitProperty pKey="爆出的骷髅数量" pValue="3" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />

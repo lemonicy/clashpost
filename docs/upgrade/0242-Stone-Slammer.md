@@ -35,7 +35,7 @@ canonical: /upgrade/0242-Stone-Slammer
 
 <UnitProperties>
     <UnitProperty pKey="攻击方式" pValue="寻找防御建筑攻击" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害加成" pValue="对墙 25 倍伤害" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="3 格" />

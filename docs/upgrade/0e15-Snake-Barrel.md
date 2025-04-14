@@ -38,7 +38,7 @@ canonical: /upgrade/0e15-Snake-Barrel
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="空中单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="1.2 格" />
     <UnitProperty pKey="攻击的目标" pValue="地面目标" />

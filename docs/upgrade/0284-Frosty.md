@@ -44,7 +44,7 @@ canonical: /upgrade/0284-Frosty
 <SmallTitle>小冰怪的属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="0.8 格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />

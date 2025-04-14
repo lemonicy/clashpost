@@ -46,7 +46,7 @@ canonical: /upgrade/0184-Bat-Spell
 <SmallTitle>蝙蝠的属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="移动速度" pValue="7 格/秒" />

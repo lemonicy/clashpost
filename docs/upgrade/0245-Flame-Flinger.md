@@ -38,7 +38,7 @@ canonical: /upgrade/0245-Flame-Flinger
 
 <UnitProperties>
     <UnitProperty pKey="攻击方式" pValue="寻找防御建筑攻击" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="攻击距离" pValue="11 格" />

@@ -30,7 +30,7 @@ canonical: /upgrade/0e11-Giant-Thrower
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面远程单位 (首次攻击时)<br>地面近战单位 (首次攻击后)" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面目标" />
     <UnitProperty pKey="占据人口" pValue="15" />

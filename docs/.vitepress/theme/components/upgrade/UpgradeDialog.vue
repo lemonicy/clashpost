@@ -29,6 +29,7 @@ let hasNewestTrainingDialog = true;
 let hasJudgeSquare = false;
 let hasDailyCost = false;
 let hasDonationCostDialog = false;
+let hasPreferredTargetTip = false;
 
 if (link && isUpgradeDetails(link)) {
     // 提取链接中的序号
@@ -44,7 +45,10 @@ if (link && isUpgradeDetails(link)) {
     // 判断这个页面是否为兵种、法术、攻城机器（我们不将临时兵种视为 NormalTroop 或 SuperTroop）
     const isNormalTroop = ["00"].includes(unitIdFirst2);
     const isSuperTroop = ["06"].includes(unitIdFirst2);
-    const isTroop = isNormalTroop || isSuperTroop;
+    const isHomeTroop = isNormalTroop || isSuperTroop;
+    const isBuilderBaseTroop = ["10"].includes(unitIdFirst2);
+    const isCapitalTroop = ["20"].includes(unitIdFirst2);
+    const isTroop = isHomeTroop || isBuilderBaseTroop || isCapitalTroop;
     const isSpell = ["01"].includes(unitIdFirst2);
     const isSiegeMachine = ["024", "025", "026", "027"].includes(unitIdFirst3);
 
@@ -66,10 +70,8 @@ if (link && isUpgradeDetails(link)) {
         // 是否使用旧版训练系统的说明文字，其中 v1 指的是 2022/10/10 更新前的训练系统，v2 指的是 2022/10/10 更新后、2025/03/24 更新前的训练系统。
         const v1TrainingSystemUnits = ["0e01", "0e02", "0e04", "0e05", "0e81"];
         const v2TrainingSystemUnits = [
-            "0e00", "0e03", "0e06", "0e07", "0e08", "0e09",
-            "0e0a", "0e0b", "0e0c", "0e0d", "0e0e", "0e0f",
-            "0e10", "0e11", "0e12", "0e13", "0e14", "0e15", 
-            "0e80", "0e82", "0e83"
+            "0e00", "0e03", "0e06", "0e07", "0e08", "0e09", "0e0a", "0e0b", "0e0c", "0e0d", "0e0e", "0e0f",
+            "0e10", "0e11", "0e12", "0e13", "0e14", "0e15", "0e80", "0e82", "0e83"
         ];
         hasV1TrainingDialog = v1TrainingSystemUnits.includes(unitId);
         hasV2TrainingDialog = v2TrainingSystemUnits.includes(unitId);
@@ -85,7 +87,10 @@ if (link && isUpgradeDetails(link)) {
     hasDailyCost = isHero || isPet;
 
     // 兵种、法术和攻城机器才有捐赠费用，临时兵种数据缺失，不加载捐赠费用的提示弹窗
-    hasDonationCostDialog = isTroop || isSpell || isSiegeMachine;
+    hasDonationCostDialog = isHomeTroop || isSpell || isSiegeMachine;
+
+    // 是否加载兵种攻击偏好的提示弹窗
+    hasPreferredTargetTip = isTroop;
 }
 
 </script>
@@ -125,5 +130,10 @@ if (link && isUpgradeDetails(link)) {
         1. 这三种资源是“或”的关系，使用任何一种资源均可捐赠。<br>
         2. 捐赠费用与部队、法术和攻城机器的等级无关，所有等级的捐赠费用是一样的。<br>
         3. <a href="/p/1001">黄金令牌</a> 只能减少捐赠所需的宝石费用（就是那个 1 宝石捐赠特权），不能减少其他类型的费用。
+    </Dialog>
+    <Dialog dialogId="cp-preferred-target-tip" title="这里的偏好类型是什么意思？" :hasSecondaryBtn="false"
+        :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasPreferredTargetTip">
+        简而言之，对于以防御建筑为优先攻击目标的兵种，如果英雄、城堡部队、骷髅陷阱这些东西打它的时候，它不会反击，则为偏好类型 1，会反击则为偏好类型 2.<br>
+        相关说明见这篇文章：<a href="/p/6943">同样是以防御建筑为优先攻击目标，不同兵种竟然还有区别？</a>
     </Dialog>
 </template>

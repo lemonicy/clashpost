@@ -28,7 +28,7 @@ canonical: /upgrade/1008-Drop-Ship
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="空中单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="普攻伤害半径" pValue="1.25 格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />

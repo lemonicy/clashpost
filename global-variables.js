@@ -7,6 +7,6 @@
 export const notificationInfo = {
     "hasNotification": true,
     "notificationCount": 1,
-    "currentNotificationId": 7,
-    "notificationHTML": "三月更新的数据已更新完毕。"
+    "currentNotificationId": 8,
+    "notificationHTML": "四月平衡性调整的数据已更新完毕。"
 }
