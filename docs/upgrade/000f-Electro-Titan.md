@@ -34,6 +34,7 @@ canonical: /upgrade/000f-Electro-Titan
 <SmallTitle>雷霆泰坦属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="普攻类型" pValue="单体伤害 (地面和空中)" />
     <UnitProperty pKey="普攻攻击速度" pValue="1.5 秒/次" />

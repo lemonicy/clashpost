@@ -23,6 +23,7 @@ canonical: /upgrade/0201-Archer-Queen
 <SmallTitle>弓箭女皇的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="英雄类型" pValue="地面远程单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />

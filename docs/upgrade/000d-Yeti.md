@@ -39,6 +39,7 @@ canonical: /upgrade/000d-Yeti
 <SmallTitle>大雪怪的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
@@ -112,6 +113,7 @@ const tableExtraInfo = [
 <SmallTitle>小雪怪的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面辅助单位" />
     <UnitProperty pKey="攻击偏好1" pValue="防御建筑<br>(4 倍伤害)" />
     <UnitProperty pKey="攻击偏好2" pValue="激活的大本<br>(2 倍伤害)" />
     <UnitProperty pKey="攻击衰减" pValue="资源类建筑<br>(伤害减半)" />

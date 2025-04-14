@@ -58,6 +58,7 @@ canonical: /upgrade/200b-Hog-Raiders
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击方式" pValue="撞击后分裂为野猪骑士" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
@@ -101,6 +102,7 @@ canonical: /upgrade/200b-Hog-Raiders
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />

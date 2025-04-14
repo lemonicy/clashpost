@@ -37,6 +37,7 @@ canonical: /upgrade/0007-Healer
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="治疗偏好" pValue="无" />
     <UnitProperty pKey="兵种类型" pValue="范围治疗" />
     <UnitProperty pKey="作用目标" pValue="仅地面目标" />

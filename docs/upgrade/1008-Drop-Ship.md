@@ -27,6 +27,7 @@ canonical: /upgrade/1008-Drop-Ship
 <SmallTitle>骷髅气球的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="普攻伤害半径" pValue="1.25 格" />
@@ -59,6 +60,7 @@ canonical: /upgrade/1008-Drop-Ship
 <SmallTitle>骷髅的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />

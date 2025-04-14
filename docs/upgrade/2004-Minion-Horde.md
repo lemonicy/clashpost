@@ -30,6 +30,7 @@ canonical: /upgrade/2004-Minion-Horder
 <SmallTitle>都城亡灵的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />

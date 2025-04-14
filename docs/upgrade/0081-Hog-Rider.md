@@ -37,7 +37,8 @@ canonical: /upgrade/0081-Hog-Rider
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑<sup>*</sup>" />
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="5" />
@@ -49,8 +50,6 @@ canonical: /upgrade/0081-Hog-Rider
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="3,3,135,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
-
-\* 如果场上存在防御建筑，则野猪骑士不会去攻击敌方的援军、英雄、骷髅兵。如果场上没有防御，则野猪骑士会优先攻击附近的敌方单位，然后才会去攻击普通建筑。
 
 <SmallTitle>升级数据</SmallTitle>
 

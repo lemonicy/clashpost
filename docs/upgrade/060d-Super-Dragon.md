@@ -30,6 +30,7 @@ canonical: /upgrade/060d-Super-Dragon
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="无<sup>*</sup>" />
     <UnitProperty pKey="伤害类型" pValue="溅射伤害" />
     <UnitProperty pKey="溅射半径" pValue="1.6 格" />
