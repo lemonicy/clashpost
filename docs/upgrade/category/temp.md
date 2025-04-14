@@ -15,7 +15,7 @@ import ListItem from '@/components/upgrade/ListItem.vue';
 
 <hr class="cp-light-row-division" />
 
-<ListItems title="兵种" imgFolder="temp">
+<ListItems title="2012 - 2021" imgFolder="temp">
     <ListItem name="寒冰法师" imgSrc="0e00/Ice_Wizard_thumb.png" link="0e00-Ice-Wizard" :lazyLoading="false" />
     <ListItem name="野蛮人攻城槌" imgSrc="0e01/Battle_Ram_thumb.png" link="0e01-Battle-Ram" :lazyLoading="false" />
     <ListItem name="南瓜野蛮人" imgSrc="0e02/Pumpkin_Barbarian_thumb.png" link="0e02-Pumpkin-Barbarian" :lazyLoading="false" />
@@ -24,6 +24,14 @@ import ListItem from '@/components/upgrade/ListItem.vue';
     <ListItem name="艾尔普里莫" imgSrc="0e05/El_Primo_thumb.png" link="0e05-El-Primo" :lazyLoading="false" />
     <ListItem name="派对法师" imgSrc="0e06/Party_Wizard_thumb.png" link="0e06-Party-Wizard" :lazyLoading="false" />
     <ListItem name="皇家幽灵" imgSrc="0e07/Royal_Ghost_thumb.png" link="0e07-Royal-Ghost" :lazyLoading="false" />
+    <ListItem name="圣诞奇袭" imgSrc="0e80/Santas_Surprise.png" link="0e80-Santas-Surprise" :lazyLoading="false" />
+    <ListItem name="生日大爆炸" imgSrc="0e81/Birthday_Boom.png" link="0e81-Birthday-Boom" :lazyLoading="false" />
+    <ListItem name="南瓜炸弹" imgSrc="0f00/Pumpkin_Bomb.png" link="0f00-Pumpkin-Bomb" :lazyLoading="false" />
+    <ListItem name="圣诞陷阱" imgSrc="0f01/Santa_Strike.png" link="0f01-Santa-Strike" :lazyLoading="false" />
+    <ListItem name="冰冻陷阱" imgSrc="0f02/Freeze_Trap.png" link="0f02-Freeze-Trap" :lazyLoading="false" />
+    <ListItem name="玲珑陷阱" imgSrc="0f03/Shrink_Trap.png" link="0f03-Shrink-Trap" :lazyLoading="false" />
+</ListItems>
+<ListItems title="2022 - 2024" imgFolder="temp">
     <ListItem name="蛮羊骑士" imgSrc="0e08/Ram_Rider_thumb.png" link="0e08-Ram-Rider" :lazyLoading="false" />
     <ListItem name="野蛮箭手" imgSrc="0e09/Barcher_thumb.png" link="0e09-Barcher" :lazyLoading="false" />
     <ListItem name="野猪法师" imgSrc="0e0a/Hog_Wizard_thumb.png" link="0e0a-Hog-Wizard" :lazyLoading="false" />
@@ -37,29 +45,26 @@ import ListItem from '@/components/upgrade/ListItem.vue';
     <ListItem name="机甲超人" imgSrc="0e12/M.E.C.H.A_thumb.png" link="0e12-M.E.C.H.A" :lazyLoading="false" />
     <ListItem name="扫帚女巫" imgSrc="0e13/Broom_Witch_thumb.png" link="0e13-Broom-Witch" :lazyLoading="false" />
     <ListItem name="寒冰亡灵" imgSrc="0e14/Ice_Minion_thumb.png" link="0e14-Ice-Minion" :lazyLoading="false" />
-    <ListItem name="灵蛇飞桶" imgSrc="0e15/Snake_Barrel_thumb.png" link="0e15-Snake-Barrel" :lazyLoading="false" />
-</ListItems>
-<ListItems title="法术" imgFolder="temp">
-    <ListItem name="圣诞奇袭" imgSrc="0e80/Santas_Surprise.png" link="0e80-Santas-Surprise" :lazyLoading="false" />
-    <ListItem name="生日大爆炸" imgSrc="0e81/Birthday_Boom.png" link="0e81-Birthday-Boom" :lazyLoading="false" />
-    <ListItem name="袋装小冰怪" imgSrc="0e82/Bag_of_Frostmites.png" link="0e82-Bag-of-Frostmites" :lazyLoading="false" />
     <ListItem name="黄牌法术" imgSrc="0e83/Yellow_Card.png" link="0e83-Yellow-Card" :lazyLoading="false" />
+    <ListItem name="袋装小冰怪" imgSrc="0e82/Bag_of_Frostmites.png" link="0e82-Bag-of-Frostmites" :lazyLoading="false" />
 </ListItems>
-<ListItems title="陷阱" imgFolder="temp">
-    <ListItem name="南瓜炸弹" imgSrc="0f00/Pumpkin_Bomb.png" link="0f00-Pumpkin-Bomb" />
-    <ListItem name="圣诞陷阱" imgSrc="0f01/Santa_Strike.png" link="0f01-Santa-Strike" />
-    <ListItem name="冰冻陷阱" imgSrc="0f02/Freeze_Trap.png" link="0f02-Freeze-Trap" />
-    <ListItem name="玲珑陷阱" imgSrc="0f03/Shrink_Trap.png" link="0f03-Shrink-Trap" />
+<ListItems title="2025" imgFolder="temp">
+    <ListItem name="灵蛇飞桶" imgSrc="0e15/Snake_Barrel_thumb.png" link="0e15-Snake-Barrel" />
+    <ListItem name="战吼狂人" imgSrc="0e16/YEETer_thumb.png" link="0e16-YEETer" />
+    <ListItem name="霸天巨人" imgSrc="0e17/Giant_Giant_thumb.png" link="0e17-Giant-Giant" />
+    <ListItem name="皮卡凯恩" imgSrc="0e18/K.A.N.E_thumb.png" link="0e18-K.A.N.E" />
+    <ListItem name="铁臂终结者" imgSrc="0e19/Disarmer_thumb.png" link="0e19-The-Disarmer" />
 </ListItems>
 
 <div class="cp-upgrade-index-tip">
     <SmallTitle>注意</SmallTitle>
     <ol>
-        <li>由于某些兵种的年代过于久远，所以可能出现部分数据缺失的问题。如果您有详细数据，请联系作者。</li>
-        <li>如果某个兵种曾经被推出过多次，则本站中的数据以最后一次出现时为准。</li>
+        <li>本页中显示的年份以临时单位第一次推出时为准。</li>
+        <li>如果某个临时单位曾经多次推出，则本站中的数据以最后一次出现时为准。</li>
         <li>临时兵种、法术无法升级，它的等级根据你的大本营等级自动确定。</li>
         <li>临时陷阱无法升级，不管玩家是几本，陷阱的属性都是一样的。</li>
         <li>临时兵种和法术无法捐赠给其他部落成员。</li>
+        <li>由于某些兵种的年代过于久远，所以可能出现部分数据缺失的问题。如果您有详细数据，请联系作者。</li>
     </ol>
 </div>
 

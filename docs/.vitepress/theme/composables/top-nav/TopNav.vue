@@ -36,8 +36,8 @@ watch(() => router.route.data.relativePath, (path) => {
     }
 
     .cp-select-title {
-        font-weight: 500;
-        color: var(--cp-text-light);
+        font-weight: 400;
+        color: var(--cp-grey-text-light);
     }
 
     .cp-select {
@@ -47,7 +47,7 @@ watch(() => router.route.data.relativePath, (path) => {
 
 .cp-theme-dark .cp-top-nav {
     .cp-select-title {
-        color: var(--cp-text-dark);
+        color: var(--cp-grey-text-dark);
     }
 }
 

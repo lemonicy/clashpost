@@ -11,6 +11,7 @@ canonical: /upgrade/0002-Giant
 
 - *如想查看该兵种的强化版本，请访问：[超级巨人](/upgrade/0602-Super-Giant)。*
 - *如想查看夜世界的巨人拳击手，请访问：[夜世界巨人拳击手](/upgrade/1002-Boxer-Giant)。*
+- *如想查看作为临时兵种以及英雄装备派生兵种的巨人终极强化版，请访问：[霸天巨人](/upgrade/0e17-Giant-Giant)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giant_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

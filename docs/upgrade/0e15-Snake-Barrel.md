@@ -18,7 +18,8 @@ canonical: /upgrade/0e15-Snake-Barrel
 
 <!-- ↓↓↓ 灵蛇飞桶 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_Barrel_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Snake_Barrel_info.png" imgAlt="灵蛇飞桶"
+    description="农历新年到，灵蛇从天降！这些绿油油的家伙危险又有趣，它们会狠狠撕咬防御建筑。灵蛇还还可以爬过城墙，当它们成群结队时更加危险！" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -38,14 +39,14 @@ canonical: /upgrade/0e15-Snake-Barrel
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.2格" />
+    <UnitProperty pKey="伤害半径" pValue="1.2 格" />
     <UnitProperty pKey="攻击的目标" pValue="地面目标" />
     <UnitProperty pKey="占据人口" pValue="8" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="0.5 格" />
-    <UnitProperty pKey="所需训练营等级" pValue="1" />  
-    <UnitProperty pKey="所需大本等级" pValue="6" />    
+    <UnitProperty pKey="所需训练营等级" pValue="1" />
+    <UnitProperty pKey="所需大本等级" pValue="6" />
     <UnitProperty pKey="训练时间" pValue="30" trainingSystem="2022" />
 </UnitProperties>
 
@@ -53,20 +54,20 @@ canonical: /upgrade/0e15-Snake-Barrel
 
 <UnitTable>
 
-| 等级 | 每秒伤害 |  分裂出的<br>灵蛇数量|  生命值 | 对应的<br>大本等级|
-| ---- |   ---   |         ---         |   ---   |        ----     |
-|   1  |    22   |          8          |   222   |         6       |
-|   2  |    28   |          9          |   288   |         7       |
-|   3  |    35   |          10         |   355   |         8       |
-|   4  |    42   |          11         |   422   |         9       |
-|   5  |    48   |          12         |   488   |        10       |
-|   6  |    55   |          13         |   555   |        11       |
-|   7  |    62   |          14         |   622   |        12       |
-|   8  |    68   |          15         |   688   |        13       |
-|   9  |    75   |          16         |   755   |        14       |
-|  10  |    82   |          17         |   822   |        15       |
-|  11  |    86   |          18         |   866   |        16       |
-|  12  |    88   |          20         |   888   |        17       |
+| 等级 | 每秒伤害 | 分裂出的<br>灵蛇数量 |  生命值 | 对应的<br>大本等级|
+| ---- |   ---   |         ---        |   ---   |        ----     |
+|   1  |    22   |          8         |   222   |         6       |
+|   2  |    28   |          9         |   288   |         7       |
+|   3  |    35   |         10         |   355   |         8       |
+|   4  |    42   |         11         |   422   |         9       |
+|   5  |    48   |         12         |   488   |        10       |
+|   6  |    55   |         13         |   555   |        11       |
+|   7  |    62   |         14         |   622   |        12       |
+|   8  |    68   |         15         |   688   |        13       |
+|   9  |    75   |         16         |   755   |        14       |
+|  10  |    82   |         17         |   822   |        15       |
+|  11  |    86   |         18         |   866   |        16       |
+|  12  |    88   |         20         |   888   |        17       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -97,6 +98,7 @@ canonical: /upgrade/0e15-Snake-Barrel
 </UnitProperties>
 </SwitchTabGroup>
 
+<!-- ↓↓↓ 公共部分 ↓↓↓ -->
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>

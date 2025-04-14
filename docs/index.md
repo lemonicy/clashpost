@@ -104,8 +104,8 @@ onBeforeUnmount(() => {
 
 - 新兵种（感觉更像攻城机器）：[烈焰熔炉](/upgrade/008b-Furnace)
 - 新战宠：[阿啾](/upgrade/028a-Sneezy)
-- 新装备：[贵族哑铃](/upgrade/0723-Noble-Iron)
-- 最近游戏更新挺快，但新内容根本做不过来啊，因此没有更多动态了……
+- 新装备：[贵族哑铃](/upgrade/0723-Noble-Iron)、[动作人偶](/upgrade/0746-Action-Figure)
+- 新临时兵种：[战吼狂人](/upgrade/0e16-YEETer)、[霸天巨人](/upgrade/0e17-Giant-Giant)、[皮卡凯恩](/upgrade/0e18-K.A.N.E)、[铁臂终结者](/upgrade/0e19-The-Disarmer)
 
 </div>
 </div>

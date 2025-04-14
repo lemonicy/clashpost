@@ -57,5 +57,14 @@ canonical: /upgrade/0e07-Royal-Ghost
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2022/10">
+        <TimelineRow>该兵种第 3 次推出。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2021/10">
+        <TimelineRow>该兵种第 2 次推出。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2019/10">
+        <TimelineRow>该兵种第 1 次推出。</TimelineRow>
+    </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

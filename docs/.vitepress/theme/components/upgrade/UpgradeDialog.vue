@@ -69,6 +69,7 @@ if (link && isUpgradeDetails(link)) {
             "0e00", "0e03", "0e06", "0e07", "0e08", "0e09",
             "0e0a", "0e0b", "0e0c", "0e0d", "0e0e", "0e0f",
             "0e10", "0e11", "0e12", "0e13", "0e14", "0e15", 
+            "0e80", "0e82", "0e83"
         ];
         hasV1TrainingDialog = v1TrainingSystemUnits.includes(unitId);
         hasV2TrainingDialog = v2TrainingSystemUnits.includes(unitId);
@@ -97,12 +98,12 @@ if (link && isUpgradeDetails(link)) {
     </Dialog>
     <Dialog dialogId="cp-training-dialog-2022" title="注意" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasV2TrainingDialog">
-        该兵种最后一次推出时，训练时间尚未被取消，这里显示的是 2022/10 更新后、2025/03 更新前的部队的训练时间。<br>
+        该兵种最后一次推出时，训练时间尚未被取消，而训练费用已被取消。这里显示的是单训练营时代（2022/10 - 2025/03）的训练时间。<br>
         要想讲清楚当时的训练机制，需要补充大量背景知识，这里就不做介绍，感兴趣的玩家请移步这篇文章：<a href="/p/4727">coc 的部队训练机制经历过哪些变迁？</a>
     </Dialog>
     <Dialog dialogId="cp-training-dialog-legacy" title="注意" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasV1TrainingDialog">
-        该兵种最后一次推出时，训练时间尚未被取消。该兵种最后一次推出时是四训练营时代，不过为了方便起见，这里显示的是单训练营时代（2022/10 - 2025/03）的训练时间。<br>
+        该兵种最后一次推出时，训练时间和训练费用尚未被取消。该兵种最后一次推出时是四训练营时代，不过为了方便起见，这里显示的是单训练营时代（2022/10 - 2025/03）的训练时间。<br>
         要想讲清楚当时的训练机制，需要补充大量背景知识，这里就不做介绍，感兴趣的玩家请移步这篇文章：<a href="/p/4727">coc 的部队训练机制经历过哪些变迁？</a>
     </Dialog>
     <Dialog dialogId="cp-judge-square-dialog" title="什么是判定面积？" :hasSecondaryBtn="false"
