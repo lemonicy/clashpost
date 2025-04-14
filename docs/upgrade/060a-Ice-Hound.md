@@ -32,6 +32,7 @@ canonical: /upgrade/060a-Ice-Hound
 <SmallTitle>寒冰猎犬的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="防空火箭<sup>*</sup>" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />

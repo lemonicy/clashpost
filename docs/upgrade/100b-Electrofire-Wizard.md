@@ -62,6 +62,7 @@ const tableExtraInfoElectroMode = [
 <SmallTitle>电火法师的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面远程单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="移动速度" pValue="2.8 格/秒" />
@@ -113,6 +114,7 @@ const tableExtraInfoElectroMode = [
 <SmallTitle>电火法师的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面远程单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="移动速度" pValue="2.8 格/秒" />

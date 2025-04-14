@@ -71,6 +71,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="天使木偶" imgSrc="0743/Healer_Puppet_thumb.png" link="0743-Healer-Puppet" />
         <ListItem name="冰封箭矢" imgSrc="0744/Frozen_Arrow_thumb.png" link="0744-Frozen-Arrow" />
         <ListItem name="克隆魔镜" imgSrc="0745/Magic_Mirror_thumb.png" link="0745-Magic-Mirror" />
+        <ListItem name="动作人偶" imgSrc="0746/Action_Figure_thumb.png" link="0746-Action-Figure" />
     </ListItems>
     <ListItems title="装备（亡灵王子）" imgFolder="home_heroes">
         <ListItem name="护卫玩偶" imgSrc="0720/Henchmen_Puppet_thumb.png" link="0720-Henchmen-Puppet" />

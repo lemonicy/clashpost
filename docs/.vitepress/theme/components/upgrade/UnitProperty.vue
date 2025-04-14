@@ -48,6 +48,10 @@ const props = defineProps({
         type: Boolean,
         default: false
     },
+    isDefensePreferredTroop: {
+        type: Boolean,
+        default: false
+    },
     gpClass: {
         type: String,
         default: ""
@@ -157,6 +161,9 @@ onMounted(() => {
         </div>
         <div class="cp-unit-property-key" v-else-if="props.isDonationCost">
             {{ key }} <Info :propertyKey="true" @click="showDialog('cp-donation-cost-dialog')" />
+        </div>
+        <div class="cp-unit-property-key" v-else-if="props.isDefensePreferredTroop">
+            {{ key }} <Info :propertyKey="true" @click="showDialog('cp-preferred-target-tip')" />
         </div>
         <div class="cp-unit-property-key" v-else>{{ key }}</div>
 

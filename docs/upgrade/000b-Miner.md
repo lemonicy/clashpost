@@ -34,10 +34,12 @@ canonical: /upgrade/000b-Miner
 2. 掘地矿工击败目标后，需要 1 到 1.25 秒才会再次钻地，不过这个延时依然能够躲避 12 级及以上 [大本营](/upgrade/0400-Town-Hall) 的爆炸伤害。
 3. 13 到 16 级 [大本营](/upgrade/0400-Town-Hall) 自爆后的毒雾伤害对处于地底的掘地矿工无效。
 4. 掘地矿工在防守时不会钻地。
+5. 掘地矿工仅在移动时会钻地，攻击时不会钻地，因此归类为地面近战单位。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />

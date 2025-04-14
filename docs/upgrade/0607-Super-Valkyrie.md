@@ -10,6 +10,7 @@ canonical: /upgrade/0607-Super-Valkyrie
 ---
 
 - *如想查看该兵种的普通版本，请访问：[瓦基丽武神](/upgrade/0082-Valkyrie)。*
+- *如想查看作为临时兵种推出的超级强化版本，请访问：[铁臂终结者](/upgrade/0e19-The-Disarmer)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Valkyrie_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
@@ -28,6 +29,7 @@ canonical: /upgrade/0607-Super-Valkyrie
 <SmallTitle>超级武神的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="1 格" />

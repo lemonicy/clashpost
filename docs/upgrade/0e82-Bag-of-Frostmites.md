@@ -30,12 +30,12 @@ canonical: /upgrade/0e82-Bag-of-Frostmites
 <SmallTitle>小冰怪的属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="0.8 格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次<sup>*</sup>" />
+    <UnitProperty pKey="攻击时机" pValue="到达目标后 0.5 秒<sup>*</sup>" />
     <UnitProperty pKey="攻击距离" pValue="2 格" />
     <UnitProperty pKey="每秒伤害" pValue="15" />
     <UnitProperty pKey="每次伤害" pValue="15" />
@@ -44,7 +44,7 @@ canonical: /upgrade/0e82-Bag-of-Frostmites
     <UnitProperty pKey="减速比例" pValue="30% 攻速<br>30% 移速" />
 </UnitProperties>
 
-\* 虽然说小冰怪的攻击速度是一秒一次，但实际上小冰怪攻击一次之后就死了，而小冰怪的首次攻击时机为到达目标后 0.5 秒。这样一来，小冰怪的每秒伤害等于每次伤害，但造成了攻速更快的观感。
+\* 根据解析安装包的结果，小冰怪的攻击速度是一秒一次，但实际上小冰怪攻击一次后就会死亡，而小冰怪的首次攻击时机为到达目标后 0.5 秒，因此小冰怪的攻速值无意义。
 
 <SmallTitle>升级数据</SmallTitle>
 

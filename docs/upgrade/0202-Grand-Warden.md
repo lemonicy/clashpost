@@ -20,10 +20,13 @@ canonical: /upgrade/0202-Grand-Warden
 2. 2024 年 11 月更新后，大守护者防守时不再变成雕像，而是会和其他英雄一样走动。
 3. 即日起英雄皮肤不再集成在英雄页面，近期网站会单独出一个英雄皮肤的页面，到时候放链接。
 4. 近几年官方对英雄系统进行了多次改动，为了让回归玩家更好适应，我们准备了这篇文章：[目前 coc 的英雄系统是什么样的？](/p/6827)
+3. 下方的数据均为不含装备的数据。
+4. 英雄在防守时没有装备。
 
 <SmallTitle>大守护者的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="英雄类型" pValue="地面/空中辅助单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />

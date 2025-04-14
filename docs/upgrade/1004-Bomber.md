@@ -30,6 +30,7 @@ canonical: /upgrade/1004-Bomber
 <SmallTitle>炸弹兵的属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="城墙 (15 倍伤害)" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="1.6 格" />

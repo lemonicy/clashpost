@@ -15,11 +15,14 @@ canonical: /upgrade/0203-Royal-Champion
 
 1. 即日起英雄皮肤不再集成在英雄页面，近期网站会单独出一个英雄皮肤的页面，到时候放链接。
 2. 近几年官方对英雄系统进行了多次改动，为了让回归玩家更好适应，我们准备了这篇文章：[目前 coc 的英雄系统是什么样的？](/p/6827)
+3. 下方的数据均为不含装备的数据。
+4. 英雄在防守时没有装备。
 
 <SmallTitle>飞盾战神的属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="英雄类型" pValue="地面远程单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 2)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />

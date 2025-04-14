@@ -46,6 +46,7 @@ canonical: /upgrade/008a-Druid
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面辅助单位" />
     <UnitProperty pKey="治疗偏好" pValue="无" />
     <UnitProperty pKey="治疗类型" pValue="链式治疗" />
     <UnitProperty pKey="目标数量上限" pValue="3" />
@@ -122,7 +123,8 @@ const tableExtraInfo = [
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="攻击类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="10" />

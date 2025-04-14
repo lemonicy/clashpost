@@ -42,6 +42,7 @@ canonical: /upgrade/008b-Furnace
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面辅助单位" />
     <UnitProperty pKey="占据人口" pValue="18" />
     <UnitProperty pKey="移动速度" pValue="0 (无法移动)" />
     <UnitProperty pKey="最长存活时间" pValue="60 秒<sup>*</sup>" />
@@ -103,6 +104,7 @@ const tableExtraInfo = [
 4. <strong>这一条仅为推测，未证实</strong>：和 [毒药法术](/upgrade/0180-Poison-Spell) 类似，这个火坑的伤害是递增的，多个火坑不能叠加伤害，但能更快到达最高伤害。
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面辅助单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />

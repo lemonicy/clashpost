@@ -39,6 +39,7 @@ canonical: /upgrade/0603-Super-Wall-Breaker
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面辅助单位" />
     <UnitProperty pKey="攻击偏好" pValue="城墙 (40 倍伤害)" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="主动伤害爆炸半径" pValue="0.8 格" />

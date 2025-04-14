@@ -22,6 +22,7 @@ canonical: /upgrade/0e07-Royal-Ghost
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
@@ -57,5 +58,14 @@ canonical: /upgrade/0e07-Royal-Ghost
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2022/10">
+        <TimelineRow>该兵种第 3 次推出。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2021/10">
+        <TimelineRow>该兵种第 2 次推出。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2019/10">
+        <TimelineRow>该兵种第 1 次推出。</TimelineRow>
+    </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

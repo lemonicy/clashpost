@@ -26,7 +26,8 @@ canonical: /upgrade/2010-Mega-Sparky
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="部队类型" pValue="地面远程单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="溅射伤害" />
     <UnitProperty pKey="溅射半径" pValue="3 格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />

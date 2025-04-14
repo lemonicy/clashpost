@@ -24,11 +24,13 @@ canonical: /upgrade/0e11-Giant-Thrower
 1. 边线球巨人是 2024 年 5 月的并肩哈兰德活动中引入的临时兵种。
 2. 部署时，边线球巨人会朝防御建筑移动，把球扔到建筑上。足球会沿直线弹跳三次（包括击中建筑的那一下），每次弹跳都能对建筑、防守方部队和城墙造成**溅射伤害**，且对城墙有 **15 倍** 伤害。
    - 和其他优先攻击防御建筑的兵种一样，边线球巨人优先攻击防御建筑，当场上没有防御时，他们也会瞄准非防御建筑和防守方部队。
+3. 首次攻击过后，边线球巨人会变成近战单位。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑" />
+    <UnitProperty pKey="部队类型" pValue="地面远程单位 (首次攻击时)<br>地面近战单位 (首次攻击后)" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面目标" />
     <UnitProperty pKey="占据人口" pValue="15" />

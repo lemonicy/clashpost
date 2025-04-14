@@ -35,7 +35,8 @@ canonical: /upgrade/0e13-Broom-Witch
 
 <SmallTitle>属性</SmallTitle>
 
-<UnitProperties> 
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="法师塔" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
@@ -85,8 +86,9 @@ canonical: /upgrade/0e13-Broom-Witch
 
 <SmallTitle>属性</SmallTitle>
 
-<UnitProperties> 
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (伤害 ×4)" />
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (伤害 ×4)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="移动速度" pValue="5 格/秒" />
