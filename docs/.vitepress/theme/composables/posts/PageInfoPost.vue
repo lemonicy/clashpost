@@ -25,7 +25,7 @@ const lastUpdated = postInfo.lastUpdated;
 
 // 判断文章是否太长时间（超过两年）没有编辑
 const timeMillsNow = new Date().getTime();
-const updateTimeMills = lastUpdated;
+const updateTimeMills = new Date(lastUpdated).getTime();
 const isPostTooOld = timeMillsNow - updateTimeMills > 2 * 365 * 86400 * 1000;
 
 // 文章的 mark 标记
