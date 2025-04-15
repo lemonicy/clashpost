@@ -90,7 +90,7 @@ if (link && isUpgradeDetails(link)) {
     hasDonationCostDialog = isHomeTroop || isSpell || isSiegeMachine;
 
     // 是否加载兵种攻击偏好的提示弹窗
-    hasPreferredTargetTip = isTroop;
+    hasPreferredTargetTip = isTroop || isHero;
 }
 
 </script>
@@ -133,7 +133,7 @@ if (link && isUpgradeDetails(link)) {
     </Dialog>
     <Dialog dialogId="cp-preferred-target-tip" title="这里的偏好类型是什么意思？" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasPreferredTargetTip">
-        简而言之，对于以防御建筑为优先攻击目标的兵种，如果英雄、城堡部队、骷髅陷阱这些东西打它的时候，它不会反击，则为偏好类型 1，会反击则为偏好类型 2.<br>
+        简而言之，对于以防御建筑为优先攻击目标的兵种，在场上的防御建筑尚未清理干净的时候，如果英雄、城堡部队、骷髅陷阱这些东西在打它，它不会反击，则为偏好类型 1，会反击则为偏好类型 2.<br>
         相关说明见这篇文章：<a href="/p/6943">同样是以防御建筑为优先攻击目标，不同兵种竟然还有区别？</a>
     </Dialog>
 </template>
