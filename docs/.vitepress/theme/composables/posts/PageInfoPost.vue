@@ -71,7 +71,7 @@ onMounted(() => {
         本文已被手动标注为废弃状态，请用考古的心态查看这篇文章。
     </Callout>
     <Callout type="error" class="cp-callout-post-mark" v-else-if="isOldBuilderBasePost">
-        这篇文章是夜世界 2.0 更新之前写的，文章内容已作废，请查看新文章。
+        这篇文章是夜世界 2.0 更新之前写的，本文已作废，请查看新文章。
     </Callout>
     <Callout type="warning" class="cp-callout-post-mark" v-else-if="isPostTooOld">
         这篇文章已经很久没修订了，部分内容可能已过期，链接可能已失效，请注意辨别。

@@ -161,6 +161,7 @@ switch (props.type) {
 
 .cp-callout-content {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     color: var(--cp-info-text-light);
 
