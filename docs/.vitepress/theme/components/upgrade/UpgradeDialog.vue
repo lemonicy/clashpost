@@ -90,7 +90,7 @@ if (link && isUpgradeDetails(link)) {
     hasDonationCostDialog = isHomeTroop || isSpell || isSiegeMachine;
 
     // 是否加载兵种攻击偏好的提示弹窗
-    hasPreferredTargetTip = isTroop || isHero;
+    hasPreferredTargetTip = isTroop || isHero || isPet;
 }
 
 </script>
