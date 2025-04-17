@@ -33,7 +33,7 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
 
 - *如想查看由两个加农炮合成的跳弹加农炮，请访问 [跳弹加农炮](/upgrade/0313-Ricochet-Cannon)。*
 - *如想查看由一个加农炮和一个箭塔合成的建筑，请访问：[复合机械塔](/upgrade/0317-Multi-Gear-Tower)。*
-- *如想查看夜世界的加农炮，请访问：[夜世界加农炮](/upgrade/1100-Cannon)。*
+- *如想查看夜世界的加农炮和双管加农炮，请访问：[夜世界加农炮](/upgrade/1100-Cannon)、[夜世界双管加农炮](/upgrade/1101-Double-Cannon)。*
 - *如想查看都城的加农炮，请访问：[都城加农炮](/upgrade/2201-Cannon)。*
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
