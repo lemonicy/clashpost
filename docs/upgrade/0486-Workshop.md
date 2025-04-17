@@ -38,10 +38,7 @@ canonical: /upgrade/0486-Workshop
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="4×4" />
     <UnitProperty pKey="判定面积" pValue="4×4" :isJudgeSquare="true" />
-    <UnitProperty pKey="提速所需宝石数" pValue="30<sup>*</sup>" />
 </UnitProperties>
-
-\* 30 宝石是 [训练营](/upgrade/0481-Barracks) + [暗黑训练营](/upgrade/0482-Dark-Barracks) + 攻城机器工坊捆绑提速一小时的价格，这些建筑不能单独提速。一般来说购买训练药水更划算。
 
 <SmallTitle>升级数据</SmallTitle>
 

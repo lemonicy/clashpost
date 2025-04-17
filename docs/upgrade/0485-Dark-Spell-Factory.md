@@ -46,10 +46,7 @@ canonical: /upgrade/0485-Dark-Spell-Factory
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
-    <UnitProperty pKey="提速所需宝石数" pValue="10" />
 </UnitProperties>
-
-* [法术工厂](/upgrade/0484-Spell-Factory) 和暗黑法术工厂不能单独提速，10 宝石是非活动期间两个法术工厂同时提速一小时的价格。
 
 <SmallTitle>升级数据</SmallTitle>
 
