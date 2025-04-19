@@ -69,14 +69,14 @@ function copyCodeContent() {
 }
 
 .cp-code-copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 0.625rem;
     right: 0.75rem;
     width: 2rem;
     height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
     background-color: rgb(229, 239, 249);
     border-radius: 0.5rem;

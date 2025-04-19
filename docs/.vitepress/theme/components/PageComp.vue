@@ -205,7 +205,8 @@ onBeforeUnmount(() => {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem -0.5rem 0.5rem 0;
+    gap: 0.5rem;
+    margin: 1rem 0;
 }
 
 @media (min-width: $cp-col-tablat) {
@@ -221,8 +222,6 @@ onBeforeUnmount(() => {
     width: 1.875rem;
     height: 2rem;
     box-sizing: content-box;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
     padding: 0.25rem;
     font-size: 1rem;
     color: var(--cp-text-light);
