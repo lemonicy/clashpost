@@ -17,7 +17,7 @@ function setTheadValue(targetTd, targetValue, item) {
     if (icon) {
         if (type === "dailyCost") {
             // 如果数据类型是升级花费或英雄日均耗油，则做一些特殊处理
-            const iconHtml = '<svg class="cp-icon cp-icon-thead-key" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" /></svg>';
+            const iconHtml = '<svg xmlns="http://www.w3.org/2000/svg" class="cp-icon cp-icon-thead-key" fill="none" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" /></svg>';
             targetTd.innerHTML = targetValue + "<br>" + getResourceHTML(icon) + iconHtml;
             targetTd.querySelector("svg").addEventListener("click", () => showDialog("cp-daily-cost-dialog"));
         } else {
