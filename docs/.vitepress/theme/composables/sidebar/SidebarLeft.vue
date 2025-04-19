@@ -240,7 +240,7 @@ if (inBrowser) {
                 </ul>
             </li>
             <li>
-                <a id="cp-module-faq" class="cp-module-item" href="/faq">常见问题解答</a>
+                <a id="cp-module-faq" class="cp-module-item" href="/faq">联系我们</a>
             </li>
         </ul>
         <ul id="cp-sidebar-left-settings" class='cp-sidebar-left-list'>

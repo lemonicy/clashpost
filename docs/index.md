@@ -51,7 +51,7 @@ onBeforeUnmount(() => {
         imgSrc="https://static.clashpost.com/homepage/homepage_strategy_v2.jpg" />
     <FeaturedCard link="/faq"
         style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
-        title="常见问题解答" subtitle="含作者的联系方式"
+        title="联系我们" subtitle="遇到问题点这里"
         imgSrc="https://static.clashpost.com/homepage/homepage_faq.jpg" />
 </FeaturedCardGrid>
 

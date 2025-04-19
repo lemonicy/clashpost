@@ -1,10 +1,12 @@
 ---
-title: "常见问题解答"
+title: "联系我们"
 module: faq
 canonical: /faq
 robots: noindex, nofollow
 hasUpdateTime: false
 ---
+
+## 常见问题解答
 
 <Panel title="网站的数据为什么跟游戏内对不上？">
     <p>请按照以下步骤排查：</p>
