@@ -121,19 +121,4 @@ if (props.maxHeight) {
         width: calc(33% - 1rem);
     }
 }
-
-/* 场景中的飞空艇和铸币坊图片 */
-.cp-scenery-components-group .cp-img-item {
-    width: calc(50% - 1rem);
-
-    figure.cp-img-container {
-        max-width: 90px;
-    }
-}
-
-@media (min-width: $cp-col-phone-large) {
-    .cp-scenery-components-group .cp-img-item {
-        width: 120px;
-    }
-}
 </style>
