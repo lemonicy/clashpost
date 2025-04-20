@@ -42,10 +42,10 @@ if (link && isUpgradeDetails(link)) {
     const isHeroBh = unitIdFirst3 === "10f";
     const isHero = isHeroHome || isHeroBh;
 
-    // 判断这个页面是否为兵种、法术、攻城机器（我们不将临时兵种视为 NormalTroop 或 SuperTroop）
-    const isNormalTroop = ["00"].includes(unitIdFirst2);
+    // 判断这个页面是否为兵种、法术、攻城机器（我们不将临时兵种和超级兵视为 NormalTroop）
+    const isHomeNormalTroop = ["00"].includes(unitIdFirst2);
     const isSuperTroop = ["06"].includes(unitIdFirst2);
-    const isHomeTroop = isNormalTroop || isSuperTroop;
+    const isHomeTroop = isHomeNormalTroop || isSuperTroop;
     const isBuilderBaseTroop = ["10"].includes(unitIdFirst2);
     const isCapitalTroop = ["20"].includes(unitIdFirst2);
     const isTroop = isHomeTroop || isBuilderBaseTroop || isCapitalTroop;
@@ -63,7 +63,7 @@ if (link && isUpgradeDetails(link)) {
     const isBuilding = buildingPrefixArr.includes(unitIdFirst2);
 
     // 确定是否展示训练弹窗
-    hasTrainingDialog = isNormalTroop || isSpell || isSiegeMachine || isTempTroop;
+    hasTrainingDialog = isHomeNormalTroop || isSpell || isSiegeMachine || isTempTroop;
 
     // 只有在确定拥有训练弹窗时才运行这一段
     if (hasTrainingDialog) {
@@ -90,7 +90,7 @@ if (link && isUpgradeDetails(link)) {
     hasDonationCostDialog = isHomeTroop || isSpell || isSiegeMachine;
 
     // 是否加载兵种攻击偏好的提示弹窗
-    hasPreferredTargetTip = isTroop || isHero || isPet;
+    hasPreferredTargetTip = isTroop || isHero || isPet || isTempTroop;
 }
 
 </script>
