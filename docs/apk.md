@@ -90,7 +90,6 @@ function downloadCocApk() {
 - [Google Play 下载](https://play.google.com/store/apps/details?id=com.supercell.clashofclans) - Google Play 下载的安装包只适配你自己的手机，无法分享给他人，如需分享请勿下载这个版本。
 - [Apkpure 下载](https://apkpure.net/cn/clash-of-clans-android/com.supercell.clashofclans) - 这个渠道更新最快，更新后大家可以去这个地方蹲新版本安装包。
 - [APKMirror 下载](https://www.apkmirror.com/apk/supercell/clash-of-clans/) - 这个渠道更新也相当快。
-<!-- - [XAPK 安装工具（APKMirror Installer）](https://www.apkmirror.com/apk/apkmirror/apkmirror-installer-official/) -->
 
 ## 私服
 
@@ -129,7 +128,7 @@ function downloadCocApk() {
 从 2022 年 12 月开始，腾讯把国内的这些 coc 渠道商统一了起来，并要求你绑定 QQ/微信。操作步骤大概是这样的：
 
 - 下载对应渠道的“账号绑定工具”；
-- 使用原渠道登录游戏；
+- 使用原登录方式登录游戏；
 - 根据提示绑定 QQ 或微信。
 
 因此，所谓的账号绑定工具的作用就是让你把原渠道的游戏进度转移到腾讯那边。
@@ -139,7 +138,7 @@ function downloadCocApk() {
 ### 下载前必读
 
 - 账号绑定工具是分渠道的，如果你分服前是用九游账号登录游戏的，那么你就需要去下载九游版，以前是用果盘账号登录的就下载果盘版，不能混用。
-- 下文中，如果某链接被删除线划掉，则该链接已失效。如果你所在渠道的所有线路的链接均已失效，但你尚未绑定 QQ/微信，那么你可以认为自己的账号丢失了，只能节哀。理论上来说你可以联系客服处理，但腾讯大一统的事情都过去这么久了，小渠道商的运营公司说不定都成空壳了，就算你能找到负责这一块的客服，客服很可能也没办法帮你对接。
+- 下文中，如果某链接被删除线划掉，则该链接已失效。如果你所在渠道的所有线路的链接均已失效，但你尚未绑定 QQ/微信，那么你可以认为自己的账号丢失了，只能节哀。理论上来说你可以联系客服处理，但腾讯大一统的事情都过去这么久了，小渠道商的运营公司说不定都倒闭了，就算你能找到负责这一块的客服，客服很可能也没办法帮你对接。
 - 下载部分版本（如小米版）时会自动下载一个插件，下载完成后请给这个插件必要的权限，否则游戏无法运行。如果提示缺少插件，请到对应应用商店自行下载。
 - 部分浏览器（如 UC 浏览器、VIVO 自带浏览器）可能会劫持你的连接，导致你最终下载的不是你要的版本，这种现象与本网站无关。为了避免这种劫持，请使用 Chrome 或 Firefox 国际版下载。
 - 如果绑定时提示这个 QQ/微信 已经被绑定过了，请换一个号继续绑定。每个手机号可以注册五个 QQ 和两个微信，只要你号不是特别多就够用。请注意短时间内不要注册太多，隔天注册比较好，而且注册后一定要进行实名认证，不然你新注册的号第二天就会被封。如果你把自己的 COC 账号绑定到被封的 QQ 上，那就真的无力回天了。
@@ -157,7 +156,7 @@ function downloadCocApk() {
   - 如果你选择线路二，进入之后请选择“普通下载”，否则会下载到豌豆荚 App.
 - [360（线路一）](http://update.coc.gameark.cn/?channel=360)
 - [360（线路二）](https://m.app.so.com/detail/index?from=qing&id=3100671)
-  - 进入之后请取消勾选“360手机助手官方下载”的选项，再点击“普通下载”，否则会下载到 360 手机助手。
+  - 进入之后请先取消勾选“360手机助手官方下载”的选项，再点击“普通下载”，最后在弹窗中点击“继续”按钮，只要选错一步就会下载到 360 手机助手。
 - [VIVO（线路一）](http://update.coc.gameark.cn/?channel=vivo)
 - [VIVO（线路二）](https://h5coml.vivo.com.cn/h5coml/appdetail_h5/browser_v2/index.html?appId=420729)
 - [OPPO（线路一）](http://update.coc.gameark.cn/?channel=oppo)
@@ -173,8 +172,7 @@ function downloadCocApk() {
 - [夜神](https://app.yeshen.com/games/single/9360)
   - 进去之后请选择“下载安卓版”，否则下载到的不是安装包，而是夜神模拟器。
 - [~~逍遥安卓~~](https://www.xyaz.cn/gc/apps-586-1.html)
-  - 该渠道强制下载逍遥安卓出品的安装工具，没有无套路下载地址。
-  - 根据用户反馈，逍遥安卓已经不再提供部落冲突账号绑定服务。
+  - 即使在链接尚未失效的时候，该渠道也是强制下载逍遥安卓出品的安装工具的，没有无套路下载地址。
 - [~~一号玩家（原益玩版）~~](https://www.1gamer.cn/game-id-11162.html)
 - [联想（线路一）](http://update.coc.gameark.cn/?channel=lenovo)
 - [联想（线路二）](https://www.lenovomm.com/appdetail/com.supercell.clashofclans.lenovo/1224)
@@ -207,7 +205,7 @@ function downloadCocApk() {
 
 ## 结语
 
-账号绑定工具的版本一大堆，好多渠道的账号网站内部根本没有，所以我们没能力逐一测试。如果你发现哪个版本的链接不能用了，或者发现了新的有效链接，请前往“常见问题解答”版块查找作者的联系方式，并向作者反馈，我们会依据你的反馈进行更新。网站内容的准确性离不开大家的贡献。
+账号绑定工具的版本一大堆，好多平台的账号网站内部根本没有，所以我们没能力逐一测试。如果你发现哪个版本的链接不能用了，或者发现了新的有效链接，请前往“常见问题解答”版块查找作者的联系方式，并向作者反馈，我们会依据你的反馈进行更新。网站内容的准确性离不开大家的贡献。
 
 <style lang="scss">
 .cp-download-container button.cp-download-btn {
