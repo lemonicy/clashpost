@@ -15,7 +15,7 @@ const tableExtraInfoStandardMode = [
         "column": 4,
         "type": "cost",
         "gpClass": "research",
-        "icon": "Gold"
+        "icon": "Elixir2"
     },
     {
         "column": 5,

@@ -18,7 +18,7 @@ const props = defineProps({
     },
     text: {
         type: String,
-        required: true
+        default: null
     },
     maxWidth: {
         type: String,
@@ -48,7 +48,7 @@ if (props.maxHeight) {
             <Pic :src="src" :alt="props.text" :width="props.width" :height="props.height" :maxWidth="props.maxWidth" :maxHeight="props.maxHeight" />
         </a>
         <Pic :src="src" :alt="props.text" :width="props.width" :height="props.height" :maxWidth="props.maxWidth" :maxHeight="props.maxHeight" v-else />
-        <div class="cp-img-item-text">{{ props.text }}</div>
+        <div class="cp-img-item-text" v-if="props.text">{{ props.text }}</div>
     </div>
 </template>
 

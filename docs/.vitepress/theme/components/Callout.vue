@@ -66,6 +66,39 @@ switch (props.type) {
     }
 }
 
+/* 提示信息的基本样式 */
+.cp-callout-icon {
+    font-size: 1.125rem;
+    margin-right: 0.25rem;
+}
+
+.cp-callout-content {
+    color: var(--cp-info-text-light);
+
+    p, div, ul, li {
+        color: var(--cp-info-text-light);
+    }
+
+    p, div, ul {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    li {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+}
+
+.cp-theme-dark .cp-callout-content {
+    color: var(--cp-info-text-dark);
+    
+    p, div, ul, li {
+        color: var(--cp-info-text-dark);
+    }
+}
+
+/* 不同类型的提示信息样式 */
 .cp-callout-info {
     background-color: var(--cp-info-bg-light);
     border: var(--cp-info-border-light);
@@ -151,40 +184,6 @@ switch (props.type) {
         p, div, li {
             color: var(--cp-error-text-dark);
         }
-    }
-}
-
-.cp-callout-icon {
-    font-size: 1.125rem;
-    margin-right: 0.25rem;
-}
-
-.cp-callout-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    color: var(--cp-info-text-light);
-
-    p, div, ul, li {
-        color: var(--cp-info-text-light);
-    }
-
-    p, div, ul {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    li {
-        margin-top: 0.25rem;
-        margin-bottom: 0.25rem;
-    }
-}
-
-.cp-theme-dark .cp-callout-content {
-    color: var(--cp-info-text-dark);
-    
-    p, div, ul, li {
-        color: var(--cp-info-text-dark);
     }
 }
 

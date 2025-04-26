@@ -5,7 +5,7 @@
  * notificationHTML {String} 通知内容，可使用 HTML 代码。如果发布多条通知，通常使用 <hr> 标签分割。
  */
 export const notificationInfo = {
-    "hasNotification": true,
+    "hasNotification": false,
     "notificationCount": 1,
     "currentNotificationId": 8,
     "notificationHTML": "四月平衡性调整的数据已更新完毕。"
