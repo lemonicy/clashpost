@@ -148,6 +148,7 @@ const tags = {
     "spell-tower": "法术塔",
     "spells": "法术",
     "spring-trap": "隐形弹簧",
+    "starter-challenges": "新手挑战",
     "stone-slammer": "攻城气球",
     "super-archer": "超级弓箭手",
     "super-barbarian": "超级野蛮人",
