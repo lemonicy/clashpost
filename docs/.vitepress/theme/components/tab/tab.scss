@@ -55,10 +55,11 @@ body.cp-theme-dark.cp-dialog-show .cp-tabs-container.cp-sticky-tabs {
 /* 选项卡下方的浅横线 */
 .cp-tabs-bottom-line {
     width: 100%;
-    height: 0.0625rem;
+    height: 0.1rem;
     position: relative;
     bottom: 0.1875rem;
     background-color: rgba(229, 229, 229, 0.7);
+    z-index: -1; /* 防止与滚动条重叠 */
 }
 
 .cp-theme-dark .cp-tabs-bottom-line {
