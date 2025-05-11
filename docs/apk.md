@@ -146,14 +146,13 @@ function downloadCocApk() {
 ### 下载地址
 
 - [~~昆仑（线路一）~~](http://update.coc.gameark.cn/?channel=kunlun)
-  - 该线路的下载速度不到 3 kB/s，可视为已失效，不过昆仑提供的其他渠道安装包没有这个问题。
 - [~~昆仑（线路二）~~](https://coc.arkgames.com/)
-- [九游（线路一）](http://update.coc.gameark.cn/?channel=wandoujia)
-- [九游（线路二）](https://www.wandoujia.com/apps/6632360)
-- [~~九游（线路三）~~](https://a.9game.cn/coc/)
-  - 分服前，阿里巴巴收购了豌豆荚，并把豌豆荚整合到了他们自家的九游品牌，但安装包并没有完全统一。当时豌豆荚版可以登录九游版，但是反过来不行，直到分服后的两年都还是这样。但是 2024 年 7 月的时候我们收到反馈，不论你是从豌豆荚渠道，还是从九游渠道下载的安装包，都无法再登录豌豆荚版本的 coc 账号，经查，感觉像是**豌豆荚官方关闭了绑定渠道**，那我们也没办法了。
-  - 线路一无套路，推荐选用。
-  - 如果你选择线路二，进入之后请选择“普通下载”，否则会下载到豌豆荚 App.
+  - 根据用户反馈，截至 2025 年 5 月，昆仑渠道的账号已无法绑定。
+- [~~九游/豌豆荚（线路一）~~](http://update.coc.gameark.cn/?channel=wandoujia)
+- [~~九游/豌豆荚（线路二）~~](https://www.wandoujia.com/apps/6632360)
+- [~~九游~~](https://a.9game.cn/coc/)
+  - 分服前，阿里巴巴收购了豌豆荚，并把豌豆荚整合到了他们自家的九游品牌，但安装包并没有完全统一。当时豌豆荚版可以登录九游版，但是反过来不行，直到分服后都还是这样。
+  - 根据用户反馈，截至 2025 年 5 月，豌豆荚和九游渠道均已无法绑定。
 - [360（线路一）](http://update.coc.gameark.cn/?channel=360)
 - [360（线路二）](https://m.app.so.com/detail/index?from=qing&id=3100671)
   - 进入之后请先取消勾选“360手机助手官方下载”的选项，再点击“普通下载”，最后在弹窗中点击“继续”按钮，只要选错一步就会下载到 360 手机助手。
@@ -172,25 +171,27 @@ function downloadCocApk() {
 - [夜神](https://app.yeshen.com/games/single/9360)
   - 进去之后请选择“下载安卓版”，否则下载到的不是安装包，而是夜神模拟器。
 - [~~逍遥安卓~~](https://www.xyaz.cn/gc/apps-586-1.html)
-  - 即使在链接尚未失效的时候，该渠道也是强制下载逍遥安卓出品的安装工具的，没有无套路下载地址。
+  - 根据用户反馈，截至 2024 年 12 月，逍遥安卓渠道已无法绑定。
 - [~~一号玩家（原益玩版）~~](https://www.1gamer.cn/game-id-11162.html)
+  - 根据网站维护人员的测试，在 2024 年 5 月之前，一号玩家渠道就已下架安装包，无法再绑定。
 - [联想（线路一）](http://update.coc.gameark.cn/?channel=lenovo)
 - [联想（线路二）](https://www.lenovomm.com/appdetail/com.supercell.clashofclans.lenovo/1224)
-- [雷电](https://www.ldmnq.com/app/7361.html)
-  - 该渠道强制要求下载雷电模拟器，没有无套路下载地址。
+- [~~雷电~~](https://www.ldmnq.com/app/7361.html)
+  - 根据用户反馈，截至 2025 年 5 月，雷电模拟器渠道已无法绑定。
 - [B 站（线路一）](http://update.coc.gameark.cn/?channel=bili)
 - [~~B 站（线路二）~~](https://app.biligame.com/page/detail_game.html?id=103536)
 - [~~果盘（仅适用于手机端）~~](https://game.guopan.cn/m/gamedetail/43182?channelid=40540)
 - [~~果盘（仅适用于电脑端）~~](https://game.guopan.cn/detail/43182?channelid=40540)
-  - 果盘版本的网页是分手机和电脑端的，手机和电脑一定要选对，否则无法进入游戏详情界面。
-  - 果盘版本的所有线路都需要下载果盘 App，没有无套路的下载地址。
-  - 虽然网页和果盘 App 中显示的游戏名称是“部落冲突”，但实际上就是绑定工具，大家可以放心下载。
-- [魅族](https://game.flyme.cn/game/detail/3239713?contentId=3239713)
+  - 根据网站维护人员的测试，截至 2023 年 12 月，果盘渠道就已下架安装包，无法再绑定。
+- [~~魅族~~](https://game.flyme.cn/game/detail/3239713?contentId=3239713)
+  - 根据用户反馈，截至 2025 年 5 月，魅族渠道已无法绑定。
 - [4399 版本](https://a.4399.cn/game-id-251473.html)
   - 该渠道强制要求下载 4399 游戏盒，没有无套路的下载地址。
 - [~~2345 版本（电脑端网页，点击“下载到电脑”就不用下载 2345 手机助手了）~~](https://zhushou.2345.com/game/174645.html)
 - [~~2345 版本（手机端网页，适合用手机看，但需要下载 2345 手机助手）~~](https://zhushou.2345.com/m/game/174645.html)
-- 7723 版本（已下架）
+  - 根据网站维护人员的测试，在 2024 年 5 月之前，2345 渠道就已下架安装包，无法再绑定。
+- 7723 版本
+  - 根据网站维护人员的测试，在 2023 年 6 月之前，7723 渠道就已下架安装包，无法再绑定。
 
 ### 大一统前就已经倒闭的版本
 

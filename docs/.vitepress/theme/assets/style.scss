@@ -68,7 +68,7 @@ body {
     padding: 0;
     -webkit-tap-highlight-color: transparent;
     background-color: var(--cp-page-bg-light);
-    scrollbar-gutter: stable; /* 防止滚动条挤占内容位置 */
+    scrollbar-gutter: stable both-edges; /* 防止滚动条挤占内容位置 */
 }
 
 body.cp-theme-dark {
@@ -233,25 +233,35 @@ table th, table td, .cp-unit-property-value {
 }
 
 /*
- * 在大屏设备上缩小滚动条（屏幕边缘的滚动条除外），并且设定只有 hover 的时候显示这个元素的滚动条
- * 这段 css 只能在 webkit 系浏览器生效，但 Firefox 的滚动条本来就不大，无所谓。
- * 表格的横向滚动条采用默认方案，防止电脑用户看不到滚动条，无法拖动。
+ * 出于颜值考虑，在大屏设备上缩小滚动条（屏幕边缘的滚动条和表格的滚动条除外）。
+ *
+ * 这里排除屏幕边缘的滚动条是为了方便用户直接拖动滚动条，达到快速滚动的效果；
+ * 排除表格的滚动条是因为桌面端的表格没有提供除了拖动滚动条以外的滚动方式，滚动条太细会导致用户鼠标对不准，影响用户体验。
+ * 
+ * 如果浏览器支持 scrollbar styling（需要 Chrome 121 / Safari 18.2），则采用新版方案，否则采用非标准的 ::-webkit-scrollbar.
  */
 div:not(.cp-table-container) {
     &::-webkit-scrollbar {
-        width: 0.25rem;
-        height: 0.25rem;
+        width: 0.375rem;
+        height: 0.375rem;
     }
 
     &::-webkit-scrollbar-thumb {
-        border-radius: 0.125rem;
-        background-color: rgb(192, 192, 192);
+        border-radius: 9999px;
+        /* 需设置颜色确保（元素可滚动时）滚动条常驻 */
+        background-color: rgb(139, 139, 139);
     }
 }
 
-.cp-theme-dark div {
+.cp-theme-dark div:not(.cp-table-container) {
     &::-webkit-scrollbar-thumb {
-        background-color: rgb(80, 80, 80);
+        background-color: rgb(159, 159, 159);
+    }
+}
+
+@supports (scrollbar-width: thin) {
+    div:not(.cp-table-container) {
+        scrollbar-width: thin;
     }
 }
 
