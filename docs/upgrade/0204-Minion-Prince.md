@@ -32,14 +32,12 @@ canonical: /upgrade/0204-Minion-Prince
     <UnitProperty pKey="攻击距离" pValue="4.5 格" />
     <UnitProperty pKey="所需英雄殿堂等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="警戒半径" pValue="12 格<sup>①</sup>" />
-    <UnitProperty pKey="搜索半径" pValue="10 格<sup>②</sup>" />
-    <UnitProperty pKey="巡逻半径" pValue="3 格<sup>③</sup>" />
+    <UnitProperty pKey="搜索半径" pValue="10 格<sup>①</sup>" />
+    <UnitProperty pKey="巡逻半径" pValue="3 格<sup>②</sup>" />
 </UnitProperties>
 
-① 防守时，如果敌军进入这个范围，英雄会准备反击（具体表现为头上顶个问号）。<br>
-② 如果敌军进入这个范围，英雄会奔向敌军，并进行反击。<br>
-③ 在没有敌人的情况下，英雄也会走动，而这个走动的范围叫巡逻半径。
+① 如果敌军进入这个范围，英雄会奔向敌军，并进行反击。<br>
+② 在没有敌人的情况下，英雄也会走动，而这个走动的范围叫巡逻半径。
 
 <SmallTitle>升级数据</SmallTitle>
 

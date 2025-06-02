@@ -34,18 +34,16 @@ canonical: /upgrade/0202-Grand-Warden
     <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="7 格<sup>①</sup>" />
     <UnitProperty pKey="所需大本等级" pValue="11" />
-    <UnitProperty pKey="警戒半径" pValue="13 格<sup>②</sup>" />
-    <UnitProperty pKey="搜索半径" pValue="10 格<sup>③</sup>" />
-    <UnitProperty pKey="巡逻半径" pValue="2 格<sup>④</sup>" />
+    <UnitProperty pKey="搜索半径" pValue="10 格<sup>②</sup>" />
+    <UnitProperty pKey="巡逻半径" pValue="2 格<sup>③</sup>" />
     <UnitProperty pKey="技能持续时间" pValue="与具体装备有关" />
-    <UnitProperty pKey="光环半径" pValue="9 格<sup>⑤</sup>" />
+    <UnitProperty pKey="光环半径" pValue="9 格<sup>④</sup>" />
 </UnitProperties>
 
 ① 地面模式为 7 格，空中模式进攻时约 6.6 格。注意：6.6 这个数据是玩家自行测试得到的，并非官方数据。<br>
-② 防守时，如果敌军进入这个范围，英雄会准备反击（具体表现为头上顶个问号）。<br>
-③ 如果敌军进入这个范围，英雄会奔向敌军，并进行反击。<br>
-④ 在没有敌人的情况下，英雄也会走动，而这个走动的范围叫巡逻半径。<br>
-⑤ 这个光环半径是诸多装备的有效范围。
+② 如果敌军进入这个范围，英雄会奔向敌军，并进行反击。<br>
+③ 在没有敌人的情况下，英雄也会走动，而这个走动的范围叫巡逻半径。<br>
+④ 这个光环半径是诸多装备的有效范围。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -185,6 +183,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>英雄的升级操作被整合进英雄殿堂，取消王座，同时引入英雄栏位和战旗的概念。</TimelineRow>
+        <TimelineRow>英雄不再拥有警戒半径，遇到敌人后头顶不会冒问号，而是直接反击。</TimelineRow>
         <TimelineRow>在 17 本新增 71 - 75 级大守护者。</TimelineRow>
         <TimelineRow>11 ~ 60 级大守护者的升级时间减少。</TimelineRow>
         <TimelineRow>1 级大守护者的升级费用降低。</TimelineRow>

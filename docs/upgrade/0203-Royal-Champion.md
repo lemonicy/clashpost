@@ -29,14 +29,12 @@ canonical: /upgrade/0203-Royal-Champion
     <UnitProperty pKey="攻击速度" pValue="1.2 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="3 格" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
-    <UnitProperty pKey="警戒半径" pValue="12 格<sup>①</sup>" />
-    <UnitProperty pKey="搜索半径" pValue="10 格<sup>②</sup>" />
-    <UnitProperty pKey="巡逻半径" pValue="3 格<sup>③</sup>" />
+    <UnitProperty pKey="搜索半径" pValue="10 格<sup>①</sup>" />
+    <UnitProperty pKey="巡逻半径" pValue="3 格<sup>②</sup>" />
 </UnitProperties>
 
-① 防守时，如果敌军进入这个范围，英雄会准备反击（具体表现为头上顶个问号）。<br>
-② 如果敌军进入这个范围，英雄会奔向敌军，并进行反击。<br>
-③ 在没有敌人的情况下，英雄也会走动，而这个走动的范围叫巡逻半径。
+① 如果敌军进入这个范围，英雄会奔向敌军，并进行反击。<br>
+② 在没有敌人的情况下，英雄也会走动，而这个走动的范围叫巡逻半径。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -149,6 +147,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>英雄的升级操作被整合进英雄殿堂，取消王座，同时引入英雄栏位和战旗的概念。</TimelineRow>
+        <TimelineRow>英雄不再拥有警戒半径，遇到敌人后头顶不会冒问号，而是直接反击。</TimelineRow>
         <TimelineRow>在 17 本新增 46 - 50 级飞盾战神。</TimelineRow>
         <TimelineRow>8 ~ 30 级飞盾战神的升级时间减少。</TimelineRow>
         <TimelineRow>1 ~ 45 级飞盾战神的升级费用降低。</TimelineRow>
