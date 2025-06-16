@@ -13,7 +13,7 @@ import { generateToast } from '@/components/dialog/Toast.vue';
 import Download from '@/components/icon/Download.vue';
 
 const disableDownloading = false;
-const apkVersion = "17.126.37";
+const apkVersion = "17.360.7";
 const apkUploadDate = "2025-06-16";
 const apkFileSize = "667.0 MB";
 const apkFileName = "Clash_of_Clans_v17.360.7_cVqYg7wl4qybevYh.apk";
