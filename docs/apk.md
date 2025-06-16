@@ -14,9 +14,9 @@ import Download from '@/components/icon/Download.vue';
 
 const disableDownloading = false;
 const apkVersion = "17.126.37";
-const apkUploadDate = "2025-06-02";
-const apkFileSize = "632.9 MB";
-const apkFileName = "Clash_of_Clans_v17.126.37_zH5Pphim0rXLVg9N.apk";
+const apkUploadDate = "2025-06-16";
+const apkFileSize = "667.0 MB";
+const apkFileName = "Clash_of_Clans_v17.360.7_cVqYg7wl4qybevYh.apk";
 
 function downloadCocApk() {
     window.location.href = "https://static.clashpost.com/download/" + encodeURI(apkFileName);
