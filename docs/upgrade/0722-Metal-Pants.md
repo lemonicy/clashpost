@@ -31,13 +31,13 @@ canonical: /upgrade/0722-Metal-Pants
 <script setup>
 const tableExtraInfo = [
     {
-        "column": 6,
+        "column": 5,
         "type": "cost",
         "icon": "Shiny_Ore",
         "noGoldPass": true
     },
     {
-        "column": 7,
+        "column":6,
         "type": "cost",
         "icon": "Glowy_Ore",
         "noGoldPass": true
