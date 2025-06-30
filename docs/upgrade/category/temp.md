@@ -54,6 +54,7 @@ import ListItem from '@/components/upgrade/ListItem.vue';
     <ListItem name="霸天巨人" imgSrc="0e17/Giant_Giant_thumb.png" link="0e17-Giant-Giant" />
     <ListItem name="皮卡凯恩" imgSrc="0e18/K.A.N.E_thumb.png" link="0e18-K.A.N.E" />
     <ListItem name="铁臂终结者" imgSrc="0e19/Disarmer_thumb.png" link="0e19-The-Disarmer" />
+    <ListItem name="收债哥布林" imgSrc="0e20/Debt_Collector_thumb.png" link="0e20-Debt-Collector" />
 </ListItems>
 
 <div class="cp-upgrade-index-tip">
