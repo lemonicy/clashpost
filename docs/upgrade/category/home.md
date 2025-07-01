@@ -78,6 +78,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="暗黑魔球" imgSrc="0721/Dark_Orb_thumb.png" link="0721-Dark-Orb" />
         <ListItem name="铁甲短裤" imgSrc="0722/Metal_Pants_thumb.png" link="0722-Metal-Pants" />
         <ListItem name="贵族哑铃" imgSrc="0723/Noble_Iron_thumb.png" link="0723-Noble-Iron" />
+        <listItem name="暗黑皇冠" imgSrc="0724/Dark_Crown_thumb.png" link="0724-Dark-Crown" />
     </ListItems>
     <ListItems title="装备（大守护者）" imgFolder="home_heroes">
         <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" />
@@ -166,6 +167,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="骷髅法术" imgSrc="0183/Skeleton_Spell.png" link="0183-Skeleton-Spell" />
         <ListItem name="蝙蝠法术" imgSrc="0184/Bat_Spell.png" link="0184-Bat-Spell" />
         <ListItem name="蔓生法术" imgSrc="0185/Overgrowth_Spell.png" link="0185-Overgrowth-Spell" />
+        <ListItem name="冰障法术" imgSrc="0186/Ice_Block_Spell.png" link="0186-Ice-Block-Spell" />
     </ListItems>
     <ListItems title="攻城机器" imgFolder="home_tech">
         <ListItem name="攻城战车" imgSrc="0240/Wall_Wrecker_thumb.png" link="0240-Wall-Wrecker" />
