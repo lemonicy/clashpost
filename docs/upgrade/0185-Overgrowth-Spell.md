@@ -32,6 +32,7 @@ canonical: /upgrade/0185-Overgrowth-Spell
 <UnitProperties>
     <UnitProperty pKey="作用半径" pValue="6 格" />
     <UnitProperty pKey="作用类型" pValue="让防御建筑暂时无法攻击" />
+    <UnitProperty pKey="作用类型" pValue="敌方建筑" />
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
