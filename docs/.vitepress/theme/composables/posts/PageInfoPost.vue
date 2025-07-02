@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted, nextTick } from 'vue';
 import { getISOTimeStr, getTimeStr } from '@/assets/global/datetime.js';
-import { invalidatedPosts, oldBuilderBasePosts, maintenancePosts } from '@/assets/posts/marks.js';
+import { invalidatedPosts, oldBuilderBasePosts, maintenancePosts } from '#/global-variables.js';
 import { getPostInfo } from '@/assets/posts/posts.js';
 import Callout from '@/components/Callout.vue';
 
