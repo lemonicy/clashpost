@@ -6,8 +6,8 @@ import { authors } from '@/assets/posts/author.js';
  * 
  * @returns {Array} 完整文章列表
  */
-function getFullPostList() {
-    const postDataImportPromise = import('@/assets/posts/posts.data.mjs').then(postsRawData => {
+async function getFullPostList() {
+    const postDataImportPromise = await import('@/assets/posts/posts.data.mjs').then(postsRawData => {
         const currentPostList = [];
         const postsInfoArr = postsRawData.data;
 
