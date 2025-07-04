@@ -33,7 +33,7 @@ router.onBeforeRouteChange = () => {
 }
 
 // 新页面加载完成后执行
-router.onAfterRouteChanged = () => {
+router.onAfterPageLoad = () => {
     // 取消 WiFi 警告图标，如果尚未显示出来则打断定时器
     hideNetworkWarning();
     // 隐藏弹窗

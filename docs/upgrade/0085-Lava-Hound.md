@@ -23,6 +23,7 @@ canonical: /upgrade/0085-Lava-Hound
         <UnitImg imgTitle="4 级" imgSrc="Lava_Hound4.png" />
         <UnitImg imgTitle="5 级" imgSrc="Lava_Hound5.png" />
         <UnitImg imgTitle="6 级" imgSrc="Lava_Hound6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Lava_Hound7.png" imgHd="Lava_Hound7_hd.png" />
         <UnitImg imgTitle="迷你熔岩猎犬" imgSrc="Lava_Pup.png" />
     </UnitImgGroup>
 </Panel>
@@ -97,11 +98,15 @@ const tableExtraInfo = [
 |  4  |   16  |   32  |       250     |            14 / 11             |  7200 |  42.5K  |   3     |        9       |      11       |
 |  5  |   18  |   36  |       300     |            16 / 12             |  7600 |    60K  |   4     |       10       |      12       |
 |  6  |   20  |   40  |       350     |            18 / 13             |  8000 |    80K  |   7     |       11       |      13       |
+|  6  |   22  |   44  |       400     |            20 / 14             |  8500 |   200K  |   8     |       14       |      16       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/16">
+        <TimelineRow>在 16 本新增 7 级熔岩猎犬。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>

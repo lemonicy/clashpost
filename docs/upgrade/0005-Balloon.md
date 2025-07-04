@@ -26,6 +26,7 @@ canonical: /upgrade/0005-Balloon
         <UnitImg imgTitle="9 级" imgSrc="Balloon9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Balloon10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Balloon11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Balloon12.png" imgHd="Balloon12_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -83,11 +84,15 @@ const tableExtraInfo = [
 |   9  |    256   |   768   |     322     |   940 |     7M  |    5      |       11        |    13     |
 |  10  |    276   |   828   |     352     |  1040 |    10M  |    7,12   |       12        |    14     |
 |  11  |    290   |   870   |     375     |  1140 |    14M  |    8,12   |       14        |    16     |
+|  12  |    304   |   912   |     398     |  1240 |  22.5M  |   15,12   |       15        |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/16">
+        <TimelineRow>在 17 本新增 12 级气球兵。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
