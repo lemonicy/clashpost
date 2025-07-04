@@ -19,6 +19,7 @@ canonical: /upgrade/0241-Battle-Blimp
         <UnitImg imgTitle="2 级" imgSrc="Battle_Blimp2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Battle_Blimp3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Battle_Blimp4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Battle_Blimp5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -70,11 +71,15 @@ const tableExtraInfo = [
 |   2  |         140        |       210       |        800     |  3500  |  2.5M  |    2    |       10        |      12       |
 |   3  |         180        |       270       |        900     |  4000  |  3.5M  |    3    |       10        |      12       |
 |   4  |         220        |       330       |       1000     |  4500  |  6.5M  |    7    |       11        |      13       |
+|   5  |         260        |       390       |       1100     |  5000  |   10M  |    9    |       13        |      15       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/16">
+        <TimelineRow>在 15 本新增 5 级攻城飞艇。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
     </TimelineItem>

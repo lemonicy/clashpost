@@ -75,13 +75,18 @@ canonical: /upgrade/060a-Ice-Hound
 
 | 等级 | 每秒伤害 | 每次伤害 |死亡后<br>冰冻时间|死亡后分裂的迷你寒冰<br>猎犬数量 (进攻/防守)| 生命值 |所需<br>大本等级|
 | ---- |   ----  |   ----  |       ----      |                   ----                  |  ---- |      ----     |
-|   5  |    10   |    20   |      3.5 秒     |                 10 / 10                 |  9500 |       12      |
+|   5  |    10   |    20   |      3.75 秒    |                 10 / 10                 |  9500 |       12      |
 |   6  |    15   |    30   |      4.25 秒    |                 12 / 11                 | 10000 |       13      |
+|   7  |    20   |    40   |      4.75 秒    |                 14 / 12                 | 10500 |       16      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/16">
+        <TimelineRow>1 级寒冰猎犬的死亡冰冻时间由 3.5 秒提升到 3.75 秒。</TimelineRow>
+        <TimelineRow>在 16 本新增 7 级熔岩猎犬，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>

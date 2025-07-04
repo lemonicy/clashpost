@@ -25,6 +25,7 @@ canonical: /upgrade/008a-Druid
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 - 2 级" imgSrc="Druid1.png" />
         <UnitImg imgTitle="3 - 4 级" imgSrc="Druid3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Druid5.png" imgHd="Druid5_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -87,6 +88,7 @@ const tableExtraInfo = [
 |   2  |     70    |     70    |  1400 |   125K  |      9    |        12       |       14      |
 |   3  |     75    |     75    |  1500 |   175K  |     12    |        13       |       15      |
 |   4  |     80    |     80    |  1600 | 187.5K  |     13    |        14       |       16      |
+|   5  |     85    |     85    |  1700 |   320K  |     16    |        15       |       17      |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -101,6 +103,7 @@ const tableExtraInfo = [
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 - 2 级" imgSrc="Bear1.png" />
         <UnitImg imgTitle="3 - 4 级" imgSrc="Bear3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Bear5.png" imgHd="Bear5_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -143,6 +146,7 @@ const tableExtraInfo = [
 |   2  |   160   |   160   |  2000  |
 |   3  |   170   |   170   |  2100  |
 |   4  |   180   |   180   |  2200  |
+|   5  |   190   |   190   |  2300  |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -150,6 +154,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/16">
+        <TimelineRow>在 17 本新增 5 级德鲁伊。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
