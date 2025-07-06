@@ -43,7 +43,7 @@ hasUpdateTime: false
 
 反馈问题请发邮件：[feedback@clashpost.com](mailto:feedback@clashpost.com)
 
-Discord 群组链接：[部落驿站 Discord 交流群](https://discord.gg/wKtGM2QPzC)
+Discord 群组链接：[部落驿站 Discord 交流群](https://discord.gg/dKn9WQjfdj)
 
 不玩 Discord 别加群占位置啊，为啥会有人从来不在线的，这部分人加群的意义是啥……
 
