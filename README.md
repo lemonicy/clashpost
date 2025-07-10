@@ -13,7 +13,7 @@
 
 具体步骤如下：
 
-1. 下载并安装 [Node.js](https://nodejs.org/en)
+1. 下载并安装 [Node.js](https://nodejs.org/en)（需要 Node.js 20.19+ / 22.12+）
 
 2. 下载项目 dev 分支的 zip 文件，解压项目。你也可以直接使用 git clone 把项目拉到本地。
 
