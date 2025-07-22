@@ -245,6 +245,12 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="战宠小屋" imgSrc="0487/Pet_House11.png" link="0487-Pet-House" />
         <ListItem name="铁匠铺" imgSrc="0488/Blacksmith9.png" link="0488-Blacksmith" />
         <ListItem name="英雄殿堂" imgSrc="0489/Hero_Hall11.png" link="0489-Hero-Hall" />
+        <ListItem name="精制台" imgSrc="048a/Crafting_Station_thumb.png" link="048a-Crafting-Station" />
+    </ListItems>
+    <ListItems title="精工防御" imgFolder="home_buildings">
+        <ListItem name="钩索塔" imgSrc="0900/Hook_Tower4.png" link="0900-Hook-Tower" />
+        <ListItem name="旋转喷火器" imgSrc="0901/Flame_Spinner4.png" link="0901-Flame-Spinner" />
+        <ListItem name="碎岩迫击炮" imgSrc="0902/Crusher_Mortar4.png" link="0902-Crusher-Mortar" />
     </ListItems>
     <ListItems title="其他" imgFolder="home_buildings">
         <ListItem name="建筑工人小屋" imgSrc="0500/Builders_Hut7.png" link="0500-Builders-Hut" />

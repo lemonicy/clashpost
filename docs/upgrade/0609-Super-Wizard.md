@@ -40,9 +40,9 @@ canonical: /upgrade/0609-Super-Wizard
     <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="3.5 格" />
     <UnitProperty pKey="连锁距离" pValue="3 格" />
-    <UnitProperty pKey="最大目标数" pValue="10" />
+    <UnitProperty pKey="最大目标数" pValue="10 (含初始目标)" />
     <UnitProperty pKey="连锁延迟" pValue="0.128 秒" />
-    <UnitProperty pKey="连锁后保留的伤害" pValue="40%" />
+    <UnitProperty pKey="连锁后保留的伤害" pValue="40% (除初始目标外均保留 40% 伤害)" />
     <UnitProperty pKey="最低法师等级" pValue="9" />
     <UnitProperty pKey="最低大本等级" pValue="12" />
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />

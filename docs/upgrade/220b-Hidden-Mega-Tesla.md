@@ -56,14 +56,14 @@ canonical: /upgrade/220b-Hidden-Mega-Tesla
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
+    <UnitProperty pKey="连锁距离" pValue="2.25 格" />
+    <UnitProperty pKey="最大目标数量" pValue="2 (含初始目标)" />
+    <UnitProperty pKey="连锁延迟" pValue="0.416 秒" />
+    <UnitProperty pKey="连锁衰减" pValue="20% (逐级递减)" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="触发距离" pValue="6 格" />
     <UnitProperty pKey="射程" pValue="6 格" />
     <UnitProperty pKey="攻速" pValue="4 秒/次" />
-    <UnitProperty pKey="连锁距离" pValue="2.25 格" />
-    <UnitProperty pKey="最大目标数" pValue="2" />
-    <UnitProperty pKey="连锁延迟" pValue="0.128 秒" />
-    <UnitProperty pKey="连锁后保留的伤害" pValue="80%" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

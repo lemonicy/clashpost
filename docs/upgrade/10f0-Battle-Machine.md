@@ -51,11 +51,12 @@ canonical: /upgrade/10f0-Battle-Machine
     <UnitProperty pKey="能量条充能速度" pValue="13 秒/格" />
     <UnitProperty pKey="技能生效时间" pValue="3 次攻击" />
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
-    <UnitProperty pKey="最大连锁距离" pValue="3 格" />
+    <UnitProperty pKey="连锁距离" pValue="3 格以内" />
+    <UnitProperty pKey="最大目标数量" pValue="详见升级数据" />
     <UnitProperty pKey="连锁延迟" pValue="0.128 秒" />
-    <UnitProperty pKey="1 级能量条伤害衰减" pValue="100% (不能连锁)" />
-    <UnitProperty pKey="2 级能量条伤害衰减" pValue="50%" />
-    <UnitProperty pKey="3 级能量条伤害衰减" pValue="30%" />
+    <UnitProperty pKey="1 级能量条连锁衰减" pValue="100% (不能连锁)" />
+    <UnitProperty pKey="2 级能量条连锁衰减" pValue="50% (逐级递减)" />
+    <UnitProperty pKey="3 级能量条连锁衰减" pValue="30% (逐级递减)" />
 </UnitProperties>
 
 \* 电磁战锤：在接下来的几次攻击造成额外伤害，并恢复部分生命值。如果启用技能时能量条达到 2 级，则接下来的几次攻击含有连锁效果。

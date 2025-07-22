@@ -96,7 +96,10 @@ canonical: /upgrade/0610-Super-Yeti
     <UnitProperty pKey="部队类型" pValue="地面辅助单位" />
     <UnitProperty pKey="攻击偏好" pValue="建筑 (4 倍伤害)<sup>①</sup>" />
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
-    <UnitProperty pKey="连锁距离" pValue="未知" />
+    <UnitProperty pKey="连锁距离" pValue="3 格以内" />
+    <UnitProperty pKey="最大目标数量" pValue="3 (含初始目标)" />
+    <UnitProperty pKey="连锁延迟" pValue="0.128 秒" />
+    <UnitProperty pKey="连锁衰减" pValue="20% (逐级递减)" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="目标数量" pValue="3" />
     <UnitProperty pKey="占据人口" pValue="3<sup>②</sup>" />

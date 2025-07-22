@@ -124,7 +124,7 @@ const tableExtraInfo2 = [
 |  14  |   8900 |    12M  |  9         |                    |     95     |     44    |
 |  15  |   9600 |    13M  | 10         |                    |     98     |     44    |
 |  16  |  10000 |    16M  | 11         |                    |     94     |     44    |
-|  17  |  10400 |    16M  | 12         |                    |     93     |     47    |
+|  17  |  10400 |    16M  | 12         |                    |     94     |     47    |
 </UnitTable>
 
 **\* 关于建筑数量和陷阱数量的说明：**
@@ -174,6 +174,7 @@ const tableExtraInfo2 = [
 <Timeline>
     <TimelineItem date="2025/06/16">
         <TimelineRow>1 ~ 4 级大本营的生命值减少。</TimelineRow>
+        <TimelineRow>由于精制台的推出，17 级大本营的建筑数量加一。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>6、9、14 ~ 17 级大本营的升级费用降低。</TimelineRow>
