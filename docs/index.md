@@ -105,7 +105,7 @@ onBeforeUnmount(() => {
 - 新法术：[冰障法术](/upgrade/0186-Ice-Block-Spell)
 - 新装备：[暗黑皇冠](/upgrade/0724-Dark-Crown)
 - 新临时兵种：[收债哥布林](/upgrade/0e20-Debt-Collector)
-- 新文章：[同样是以防御建筑为优先攻击目标，不同兵种竟然还有区别？](/p/6943)
+- 精工防御：[精制台](/upgrade/048a-Crafting-Station)、[钩索塔](/upgrade/0900-Hook-Tower)、[旋转喷火器](/upgrade/0901-Flame-Spinner)、[碎岩迫击炮](/upgrade/0902-Crusher-Mortar)
 
 </div>
 </div>

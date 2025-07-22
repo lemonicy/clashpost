@@ -123,12 +123,12 @@ const tableExtraInfoElectroMode = [
     <UnitProperty pKey="所需夜世界大本等级" pValue="10" />
     <UnitProperty pKey="技能冷却时间" pValue="1.5 秒" />
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
+    <UnitProperty pKey="连锁距离" pValue="3 格" />
+    <UnitProperty pKey="最大目标数量" pValue="4 (含初始目标)" />
+    <UnitProperty pKey="连锁延迟" pValue="0.416 秒" />
+    <UnitProperty pKey="连锁衰减" pValue="20% (逐级递减)" />
     <UnitProperty pKey="攻击速度" pValue="3.5 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="3.5 格" />
-    <UnitProperty pKey="连锁距离" pValue="3 格" />
-    <UnitProperty pKey="最大目标数" pValue="4" />
-    <UnitProperty pKey="连锁延迟" pValue="0.416 秒" />
-    <UnitProperty pKey="连锁衰减" pValue="20%" />
 </UnitProperties>
 
 <SmallTitle>特殊技能的属性</SmallTitle>

@@ -59,7 +59,7 @@ if (link && isUpgradeDetails(link)) {
     const isPet = ["028", "029", "02a", "02b"].includes(unitIdFirst3);
 
     // 判断这个页面是否为建筑
-    const buildingPrefixArr = ["03", "04", "05", "11", "12", "22", "23", "24", "25"];
+    const buildingPrefixArr = ["03", "04", "05", "09", "11", "12", "22", "23", "24", "25"];
     const isBuilding = buildingPrefixArr.includes(unitIdFirst2);
 
     // 确定是否展示训练弹窗

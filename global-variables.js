@@ -18,6 +18,7 @@ export const maintenancePosts = [];
 export const notificationInfo = {
     "hasNotification": true,
     "notificationCount": 1,
-    "currentNotificationId": 8,
-    "notificationHTML": "网站已上线六月更新的数据（精制建筑除外）。"
+    "currentNotificationId": 9,
+    "notificationHTML": "由于目前网站的维护人员均已退游，我们无法保证更新速度，如果你有心为项目出一份力，请前往 " +
+        "<a href='https://github.com/lemonicy/clashpost' target='_blank' rel='nofollow noreferrer noopener'>Github 开源地址</a>。<br>"
 }

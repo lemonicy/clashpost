@@ -31,13 +31,14 @@ canonical: /upgrade/0281-Electro-Owl
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="英雄的目标" />
     <UnitProperty pKey="伤害类型" pValue="链式攻击" />
+    <UnitProperty pKey="连锁距离" pValue="3 格以内" />
+    <UnitProperty pKey="最大目标数量" pValue="2 (含初始目标)" />
+    <UnitProperty pKey="连锁延迟" pValue="0.416 秒" />
+    <UnitProperty pKey="连锁衰减" pValue="20%" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1.4 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="5.5 格" />
-    <UnitProperty pKey="连锁距离" pValue="3 格以内" />
-    <UnitProperty pKey="连锁衰减" pValue="20%" />
-    <UnitProperty pKey="连锁延迟" pValue="0.416 秒" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
 </UnitProperties>

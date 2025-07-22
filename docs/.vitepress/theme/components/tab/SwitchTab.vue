@@ -89,7 +89,7 @@ const activeTab = props.activeTab;
 const cookieValue = props.upgradeCookieValue;
 
 function tabClickEvent(event) {
-    const clickedDom = event.target; // 获取点击的 Tab    
+    const clickedDom = event.target; // 获取点击的 Tab
     showActiveTabContent(clickedDom); // 显示对应 Tab 的内容，并将点击的 Tab 设为活跃状态
     setDefaultTabCookie(cookieValue); // 使用 Cookie 记住刚才使用的 Tab，方便再次加载时读取
 }
