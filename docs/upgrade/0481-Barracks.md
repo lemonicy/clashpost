@@ -81,14 +81,14 @@ const tableExtraInfo = [
 
 | 等级 |  生命值 | 升级费用 |  升级时间  |升级后可获<br>得的经验| 所需<br>大本等级 | 解锁的兵种 |
 | ---- |   ---  |   ----  |     ---    |         ---        |       ---       |    ---    |
-|    1 |   250  |    100  |  0, 0, 0,10|                    |         1       |<a href="/upgrade/0000-Barbarian">野蛮人</a>|
-|    2 |   290  |    500  |  0, 0, 0,15|                    |  1<sup>#</sup>  |<a href="/upgrade/0001-Archer">弓箭手</a>|
-|    3 |   330  |   2500  |  0, 0, 2   |                    |  1<sup>#</sup>  |<a href="/upgrade/0002-Giant">巨人</a>|
-|    4 |   370  |   5000  |  0, 0,30   |                    |         2       |<a href="/upgrade/0003-Goblin">哥布林</a>|
-|    5 |   420  |    20k  |  0, 2      |                    |         3       |<a href="/upgrade/0004-Wall-Breaker">炸弹人</a>|
-|    6 |   470  |   120k  |  0, 4      |                    |         4       |<a href="/upgrade/0005-Balloon">气球兵</a>|
-|    7 |   520  |   270k  |  0, 6      |                    |         5       |<a href="/upgrade/0006-Wizard">法师</a>|
-|    8 |   580  |   600k  |  0,12      |                    |         6       |<a href="/upgrade/0007-Healer">天使</a>|
+|    1 |   100  |    100  |  0, 0, 0,10|                    |         1       |<a href="/upgrade/0000-Barbarian">野蛮人</a>|
+|    2 |   200  |    500  |  0, 0, 0,15|                    |  1<sup>#</sup>  |<a href="/upgrade/0001-Archer">弓箭手</a>|
+|    3 |   250  |   2500  |  0, 0, 2   |                    |  1<sup>#</sup>  |<a href="/upgrade/0002-Giant">巨人</a>|
+|    4 |   300  |   5000  |  0, 0,30   |                    |         2       |<a href="/upgrade/0003-Goblin">哥布林</a>|
+|    5 |   360  |    20k  |  0, 2      |                    |         3       |<a href="/upgrade/0004-Wall-Breaker">炸弹人</a>|
+|    6 |   420  |   120k  |  0, 4      |                    |         4       |<a href="/upgrade/0005-Balloon">气球兵</a>|
+|    7 |   500  |   270k  |  0, 6      |                    |         5       |<a href="/upgrade/0006-Wizard">法师</a>|
+|    8 |   575  |   600k  |  0,12      |                    |         6       |<a href="/upgrade/0007-Healer">天使</a>|
 |    9 |   650  |     1M  |  1         |                    |         7       |<a href="/upgrade/0008-Dragon">飞龙</a>|
 |   10 |   730  |   1.4M  |  1,12      |                    |         8       |<a href="/upgrade/0009-P.E.K.K.A">皮卡超人</a>|
 |   11 |   810  |   2.6M  |  2         |                    |         9       |<a href="/upgrade/000a-Baby-Dragon">飞龙宝宝</a>|
@@ -106,6 +106,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/16">
+        <TimelineRow>1 ~ 8 级训练营的生命值减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">  
         <TimelineRow>2 ~ 3、5 ~ 13、17 ~ 18 级训练营的升级时间减少。</TimelineRow>
         <TimelineRow>8、13、15、18 级训练营的升级费用降低。</TimelineRow>

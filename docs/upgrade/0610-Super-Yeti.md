@@ -49,7 +49,7 @@ canonical: /upgrade/0610-Super-Yeti
     <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
     <UnitProperty pKey="强化有效期" pValue="3 天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
-    <UnitProperty pKey="捐赠费用" pValue="18,18,52500,Elixir" :isDonationCost="true" />
+    <UnitProperty pKey="捐赠费用" pValue="18,18,54000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 
