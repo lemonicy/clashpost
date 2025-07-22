@@ -9,6 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Yeti
 canonical: /upgrade/000d-Yeti
 ---
 
+- *如想查看该兵种的强化版本，请访问：[超级大雪怪](/upgrade/0610-Super-Yeti)。*
+
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-unit-item-0" :activeTab="true">大雪怪</SwitchTab>
     <SwitchTab tabId="cp-unit-item-1">小雪怪</SwitchTab>
@@ -94,7 +96,7 @@ const tableExtraInfo = [
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Yetimi7te1.png" />
+        <UnitImg imgTitle="1 级" imgSrc="Yetimite1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Yetimite2.png" />
         <UnitImg imgTitle="3 - 5 级" imgSrc="Yetimite3.png" />
         <UnitImg imgTitle="6 级" imgSrc="Yetimite6.png" />
@@ -120,14 +122,14 @@ const tableExtraInfo = [
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="0.8 格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="占据人口" pValue="1<sup>①</sup>" />
+    <UnitProperty pKey="占据人口" pValue="2<sup>①</sup>" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击时机" pValue="到达目标后 0.5 秒<sup>②</sup>" />
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />
 </UnitProperties>
 
-① 在考虑小雪怪与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，小雪怪应被视为 1 人口。<br>
-② 根据解析安装包的结果，小雪怪的攻击速度是一秒一次，但实际上小雪怪攻击一次后就会死亡，而小雪怪的首次攻击时机为到达目标后 0.5 秒，因此小雪怪的攻速值无意义。
+① 在考虑小雪怪与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，小雪怪应被视为 2 人口。<br>
+② 根据解析安装包的结果，小雪怪的攻击速度是一秒一次，但实际上小雪怪的首次攻击时机为到达目标后 0.5 秒，且攻击一次后就会死亡，因此其攻速值无意义。
 
 <SmallTitle>升级数据</SmallTitle>
 

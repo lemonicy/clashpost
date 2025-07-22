@@ -101,7 +101,7 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
-- 新兵种：超级大雪怪（页面制作中）
+- 新兵种：[超级大雪怪](/upgrade/0610-Super-Yeti)
 - 新法术：[冰障法术](/upgrade/0186-Ice-Block-Spell)
 - 新装备：[暗黑皇冠](/upgrade/0724-Dark-Crown)
 - 新临时兵种：[收债哥布林](/upgrade/0e20-Debt-Collector)

@@ -144,6 +144,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="超级飞龙" imgSrc="060d/Super_Dragon_thumb.png" link="060d-Super-Dragon" />
         <ListItem name="地狱飞龙" imgSrc="0604/Inferno_Dragon_thumb.png" link="0604-Inferno-Dragon" />
         <ListItem name="超级矿工" imgSrc="060e/Super_Miner_thumb.png" link="060e-Super-Miner" />
+        <ListItem name="超级大雪怪" imgSrc="0610/Super_Yeti_thumb.png" link="0610-Super-Yeti" />
         <ListItem name="超级亡灵" imgSrc="0608/Super_Minion_thumb.png" link="0608-Super-Minion" />
         <ListItem name="超级野猪骑士" imgSrc="060f/Super_Hog_Rider_thumb.png" link="060f-Super-Hog-Rider" />
         <ListItem name="超级瓦基丽武神" imgSrc="0607/Super_Valkyrie_thumb.png" link="0607-Super-Valkyrie" />

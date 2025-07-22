@@ -41,8 +41,9 @@ canonical: /upgrade/000c-Electro-Dragon
     <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
-    <UnitProperty pKey="连锁距离" pValue="3 格" />
+    <UnitProperty pKey="连锁距离" pValue="3 格以内" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="目标数量" pValue="5" />
     <UnitProperty pKey="占据人口" pValue="30" />
     <UnitProperty pKey="移动速度" pValue="1.6 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="3.5 秒/次" />
