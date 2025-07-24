@@ -66,7 +66,7 @@ canonical: /upgrade/0500-Builders-Hut
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="建筑工人小屋的最大数量" pValue="5" />
     <UnitProperty pKey="射程" pValue="7 格" />
-    <UnitProperty pKey="攻速" pValue="0.4 秒/次" />
+    <UnitProperty pKey="工人小屋的攻速" pValue="0.4 秒/次" />
     <UnitProperty pKey="防守时工人的移动速度" pValue="3.5 秒/格" />
     <UnitProperty pKey="工人的修复速度" pValue="0.75 秒/次" />
 </UnitProperties>
