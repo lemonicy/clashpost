@@ -24,7 +24,7 @@ function hideNetworkWarning() {
     clearTimeout(networkWarningTimer);
 }
 
-// 新页面开始加载时执行
+// 页面链接切换前执行
 router.onBeforeRouteChange = () => {
     // 等待 0.8 秒显示 WiFi 警告图标
     networkWarningTimer = setTimeout(() => {
@@ -32,8 +32,8 @@ router.onBeforeRouteChange = () => {
     }, 800);
 }
 
-// 新页面加载完成后执行
-router.onAfterPageLoad = () => {
+// 页面链接切换后执行
+router.onAfterRouteChange = () => {
     // 取消 WiFi 警告图标，如果尚未显示出来则打断定时器
     hideNetworkWarning();
     // 隐藏弹窗

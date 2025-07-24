@@ -208,6 +208,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="地狱之塔" imgSrc="030a/Inferno_Tower11.png" link="030a-Inferno-Tower" />
         <ListItem name="天鹰火炮" imgSrc="030b/Eagle_Artillery7.png" link="030b-Eagle-Artillery" />
         <ListItem name="投石炮" imgSrc="030e/Scattershot6.png" link="030e-Scattershot" />
+        <ListItem name="建筑工人小屋" imgSrc="0500/Builders_Hut7.png" link="0500-Builders-Hut" />
         <ListItem name="法术塔" imgSrc="0311/Spell_Tower3_Rage.png" link="0311-Spell-Tower" />
         <ListItem name="巨石碑" imgSrc="0312/Monolith4.png" link="0312-Monolith" />
         <ListItem name="跳弹加农炮" imgSrc="0313/Ricochet_Cannon3.png" link="0313-Ricochet-Cannon" />
@@ -253,7 +254,6 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="碎岩迫击炮" imgSrc="0902/Crusher_Mortar4.png" link="0902-Crusher-Mortar" />
     </ListItems>
     <ListItems title="其他" imgFolder="home_buildings">
-        <ListItem name="建筑工人小屋" imgSrc="0500/Builders_Hut7.png" link="0500-Builders-Hut" />
         <ListItem name="小博木屋" imgSrc="0501/B.O.Bs_Hut.png" link="0501-B.O.Bs-Hut" />
         <ListItem name="帮手小屋" imgSrc="0502/Helper_Hut.png" link="0502-Helper-Hut" />
     </ListItems>
