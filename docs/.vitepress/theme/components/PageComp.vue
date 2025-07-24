@@ -11,16 +11,17 @@ import { resetToastPosition } from '@/assets/global/common.js';
 function getPageInvalidInfo(page) {
     if (page === "" || !isNumber(page)) {
         return "页码必须是数字";
-    }
-    page = parseFloat(page);
-    if (page % 1 !== 0) {
-        return "页码必须是整数";
-    }
-    if (page < 0) {
-        return "页码不得小于 0";
-    }
-    if (page === 0) {
-        return "页码不得为 0";
+    } else {
+        page = parseFloat(page);
+        if (page % 1 !== 0) {
+            return "页码必须是整数";
+        }
+        if (page < 0) {
+            return "页码不得小于 0";
+        }
+        if (page === 0) {
+            return "页码不得为 0";
+        }
     }
     return null;
 }
@@ -93,10 +94,12 @@ function enterKeyEvent(event, pageJumpInput) {
         const inputValue = pageJumpInput.value;
         const pageInvalidInfo = getPageInvalidInfo(inputValue, maxPage);
         if (pageInvalidInfo) {
+            // 如果 pageInvalidInfo 不为 null，说明数据不合法，需要弹出错误信息
             generateToast(pageInvalidInfo, {
                 type: "error"
             });
         } else {
+            // 如果 pageInvalidInfo 为 null，说明数据合法，需要继续处理数据
             let pageNum = parseInt(inputValue);
             let pageLink;
             let succeedText;
@@ -119,6 +122,19 @@ function enterKeyEvent(event, pageJumpInput) {
     }
 }
 
+/**
+ * 检测到按键 E 按下就撤回输入，防止输入框中出现 E/e.
+ * 在数学中，e 常用作自然常数或科学计数法（Exp），为避免不必要的麻烦，这里直接禁用。
+ * 
+ * @param event 输入数字时触发的 event
+ * @param pageJumpInput 
+ */
+function inputCheck(event) {
+    if (event.key === "E" || event.key === "e") {
+        event.preventDefault();
+    }
+}
+
 function showPageJumpInput() {
     const pageJumpContainer = pageJumpRef.value;
     const pageJumpInput = pageJumpContainer.querySelector(".cp-page-btn-jump-input input");
@@ -135,6 +151,7 @@ onMounted(() => {
             // 下面空的 event 参数不能不传，否则可能不执行
             pageJumpInput.addEventListener("focus", event => focusEvent(pageJumpInput));
             pageJumpInput.addEventListener("blur", event => blurEvent(pageJumpContainer));
+            pageJumpInput.addEventListener("keydown", event => inputCheck(event));
         }
     });
 });
@@ -146,6 +163,7 @@ onBeforeUnmount(() => {
         pageJumpInput.removeEventListener("keydown", event => enterKeyEvent(event, pageJumpInput));
         pageJumpInput.removeEventListener("focus", event => focusEvent(pageJumpInput));
         pageJumpInput.removeEventListener("blur", event => blurEvent(pageJumpContainer));
+        pageJumpInput.removeEventListener("keydown", event => inputCheck(event));
     }
 });
 </script>
