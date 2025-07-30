@@ -92,9 +92,10 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>你知道吗</SmallTitle>
 
-- 2025/03 更新后，兵种训练、法术配置、攻城机器建造以及英雄恢复都不需要时间了。
-- 2024 年官方推出的 [特殊装饰](/p/1451) 数量超过之前 12 年的总和。
-- 在都城中，玩家每一刀的突袭奖章收益取决于平均进攻质量，因此强行把不想打的人抓来打很可能会降低收益，详见这篇文章：[部落都城突袭奖章计算公式解析](/p/5001)。
+- [冰障法术](/upgrade/0186-Ice-Block-Spell) 和 [冰冻法术](/upgrade/0104-Freeze-Spell) 的一个重要区别是：冰障法术冻结的是我方单位，冰冻法术冻结的是敌方单位。
+- 如无特殊情况，精工防御每三个月就会换一批，届时你需要点击 [精制台](/upgrade/048a-Crafting-Station) 重新选择一个防御。
+- 强化战宠等级需要使用英雄药水，加速战宠升级需要使用英雄之书或战宠药水，详见 [魔法物品](/p/1073) 页面。
+- 有时候游戏 [载入页面的提示信息](/p/4683) 并不严谨，甚至可能是错的。
 
 </div>
 
@@ -106,6 +107,7 @@ onBeforeUnmount(() => {
 - 新装备：[暗黑皇冠](/upgrade/0724-Dark-Crown)
 - 新临时兵种：[收债哥布林](/upgrade/0e20-Debt-Collector)
 - 精工防御：[精制台](/upgrade/048a-Crafting-Station)、[钩索塔](/upgrade/0900-Hook-Tower)、[旋转喷火器](/upgrade/0901-Flame-Spinner)、[碎岩迫击炮](/upgrade/0902-Crusher-Mortar)
+- 新文章：[新手挑战机制及任务列表](/p/6699)
 
 </div>
 </div>
