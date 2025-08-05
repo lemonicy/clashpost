@@ -19,12 +19,12 @@ canonical: /upgrade/0387-Giga-Bomb
     <UnitImgGroup title="正常情况" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Giga_Bomb1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Giga_Bomb2.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Giga_Bomb2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Giga_Bomb3.png" />
     </UnitImgGroup>
     <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Giga_Bomb1_unarmed.png" />
         <UnitImg imgTitle="2 级" imgSrc="Giga_Bomb2_unarmed.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Giga_Bomb2_unarmed.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Giga_Bomb3_unarmed.png" />
     </UnitImgGroup>
 </Panel>
 
