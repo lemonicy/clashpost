@@ -241,7 +241,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="暗黑训练营" imgSrc="0482/Dark_Barracks12.png" link="0482-Dark-Barracks" />
         <ListItem name="实验室" imgSrc="0483/Laboratory15.png" link="0483-Laboratory" />
         <ListItem name="法术工厂" imgSrc="0484/Spell_Factory8.png" link="0484-Spell-Factory" />
-        <ListItem name="暗黑法术工厂" imgSrc="0485/Dark_Spell_Factory6.png" link="0485-Dark-Spell-Factory" />
+        <ListItem name="暗黑法术工厂" imgSrc="0485/Dark_Spell_Factory7.png" link="0485-Dark-Spell-Factory" />
         <ListItem name="攻城机器工坊" imgSrc="0486/Workshop8.png" link="0486-Workshop" />
         <ListItem name="战宠小屋" imgSrc="0487/Pet_House11.png" link="0487-Pet-House" />
         <ListItem name="铁匠铺" imgSrc="0488/Blacksmith9.png" link="0488-Blacksmith" />

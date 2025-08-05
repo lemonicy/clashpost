@@ -11,7 +11,7 @@ canonical: /upgrade/0485-Dark-Spell-Factory
 
 - *如想查看配置圣水法术的法术工厂，请访问：[法术工厂](/upgrade/0484-Spell-Factory)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Spell_Factory6.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Spell_Factory7_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -23,6 +23,7 @@ canonical: /upgrade/0485-Dark-Spell-Factory
         <UnitImg imgTitle="4 级" imgSrc="Dark_Spell_Factory4.png" />
         <UnitImg imgTitle="5 级" imgSrc="Dark_Spell_Factory5.png" />
         <UnitImg imgTitle="6 级" imgSrc="Dark_Spell_Factory6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Dark_Spell_Factory7.png" />
     </UnitImgGroup>
     <UnitImgGroup title="法术配置中" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Dark_Spell_Factory1_Active.png" />
@@ -31,6 +32,7 @@ canonical: /upgrade/0485-Dark-Spell-Factory
         <UnitImg imgTitle="4 级" imgSrc="Dark_Spell_Factory4_Active.png" />
         <UnitImg imgTitle="5 级" imgSrc="Dark_Spell_Factory5_Active.png" />
         <UnitImg imgTitle="6 级" imgSrc="Dark_Spell_Factory6_Active.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Dark_Spell_Factory7_Active.png" />
     </UnitImgGroup>
 </Panel>
 
