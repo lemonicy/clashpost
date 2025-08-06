@@ -31,9 +31,9 @@ onBeforeUnmount(() => {
 </script>
 
 <div id="homepage-site-name">
-    <h1>部落驿站 (原部落冲突指导)</h1>
+    <h1>部落驿站</h1>
 </div>
-<div id="homepage-site-description">部落玩家的得力助手，下载游戏、找数据、看攻略都来这。</div>
+<div id="homepage-site-description">部落冲突玩家的得力助手，下载游戏、找数据、看攻略都来这。</div>
 
 <SmallTitle>网站模块</SmallTitle>
 <FeaturedCardGrid>
@@ -102,12 +102,9 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
-- 新兵种：[超级大雪怪](/upgrade/0610-Super-Yeti)
-- 新法术：[冰障法术](/upgrade/0186-Ice-Block-Spell)
-- 新装备：[暗黑皇冠](/upgrade/0724-Dark-Crown)
-- 新临时兵种：[收债哥布林](/upgrade/0e20-Debt-Collector)
-- 精工防御：[精制台](/upgrade/048a-Crafting-Station)、[钩索塔](/upgrade/0900-Hook-Tower)、[旋转喷火器](/upgrade/0901-Flame-Spinner)、[碎岩迫击炮](/upgrade/0902-Crusher-Mortar)
-- 新文章：[新手挑战机制及任务列表](/p/6699)
+- [如何区分装饰和障碍物？](/p/6993)
+- [新手挑战机制及任务列表](/p/6699)
+- 2025/06 新增：[冰障法术](/upgrade/0186-Ice-Block-Spell)、[暗黑皇冠](/upgrade/0724-Dark-Crown)、[收债哥布林](/upgrade/0e20-Debt-Collector)、[精制台](/upgrade/048a-Crafting-Station)、[钩索塔](/upgrade/0900-Hook-Tower)、[旋转喷火器](/upgrade/0901-Flame-Spinner)、[碎岩迫击炮](/upgrade/0902-Crusher-Mortar)
 
 </div>
 </div>
