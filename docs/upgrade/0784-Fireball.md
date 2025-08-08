@@ -25,14 +25,7 @@ canonical: /upgrade/0784-Fireball
 <UnitProperties>
     <UnitProperty pKey="技能类型" pValue="主动技能" />
     <UnitProperty pKey="装备稀有度" pValue="史诗" />
-    <UnitProperty pKey="解锁条件" pValue="见说明<sup>*</sup>" />
 </UnitProperties>
-
-\* 该装备有多种获取方式：
-
-- 在 2024 年 3 月的超级飞龙大舞台活动中积攒 3 100 超级奖章（活动货币）后去商人那里购买即可解锁。
-- 在 2024 年 12 月的大闹玩具店活动中积攒 3 100 玩具奖章（活动货币）后去商人那里购买即可解锁。
-- 在商人那里花费 1 500 宝石购买，只不过商人每周卖的物品不固定，可能需要等几个星期才能刷出来。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -93,6 +86,16 @@ const tableExtraInfo = [
 </UnitTable>
 
 注：如果升级费用中有多种资源，则同时需要多种资源才能升级。
+
+<SmallTitle>推出记录</SmallTitle>
+
+<UnitTable>
+
+| 推出时间 |    活动名称   |     价格       | 购买渠道 |
+|   ---   |      ---      |      ---      |    ---   |
+| 2024/03 | 超级飞龙大舞台 | 3 100 超级奖章 |   商人   |
+| 2024/12 |   大闹玩具店   | 3 100 玩具奖章 |   商人   |
+</UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 

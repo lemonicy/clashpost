@@ -29,7 +29,7 @@ canonical: /upgrade/0720-Henchmen-Puppet
 <UnitProperties>
     <UnitProperty pKey="技能类型" pValue="主动技能" />
     <UnitProperty pKey="装备稀有度" pValue="普通" />
-    <UnitProperty pKey="解锁要求" pValue="有亡灵王子即可" />
+    <UnitProperty pKey="解锁条件" pValue="有亡灵王子即可" />
     <UnitProperty pKey="召唤的护卫数量" pValue="2" />
     <UnitProperty pKey="开启技能后亡灵王子的隐身时长" pValue="1 秒" />
 </UnitProperties>

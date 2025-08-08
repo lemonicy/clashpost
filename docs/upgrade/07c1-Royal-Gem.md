@@ -22,7 +22,7 @@ canonical: /upgrade/07c1-Royal-Gem
 <UnitProperties>
     <UnitProperty pKey="技能类型" pValue="主动技能" />
     <UnitProperty pKey="装备稀有度" pValue="普通" />
-    <UnitProperty pKey="解锁要求" pValue="有闰土即可" />
+    <UnitProperty pKey="解锁条件" pValue="有飞盾战神即可" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

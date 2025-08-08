@@ -40,7 +40,7 @@ canonical: /upgrade/0e83-Yellow-Card
 
 <Timeline>
     <TimelineItem date="2023/5/7">
-        <TimelineRow>该法术在并肩哈兰德活动中首次推出，在奖励之路中达到 3 000 足球（任务点数）即可解锁。</TimelineRow>
+        <TimelineRow>该法术在并肩哈兰德活动中首次推出，在活动中获取 3 000 足球（任务点数）即可解锁。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

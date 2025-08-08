@@ -25,7 +25,7 @@ canonical: /upgrade/0741-Invisibility-Vial
 <UnitProperties>
     <UnitProperty pKey="技能类型" pValue="主动技能" />
     <UnitProperty pKey="装备稀有度" pValue="普通" />
-    <UnitProperty pKey="解锁要求" pValue="有女王即可" />
+    <UnitProperty pKey="解锁条件" pValue="有弓箭女皇即可" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

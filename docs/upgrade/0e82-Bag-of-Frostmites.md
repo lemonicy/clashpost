@@ -72,7 +72,7 @@ canonical: /upgrade/0e82-Bag-of-Frostmites
         <TimelineRow>袋装小冰怪的持续时间整体缩短 1 秒，减速比例由 50% 降低至 30%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/18">
-        <TimelineRow>该法术在饼干大作战活动中首次推出，在奖励之路中达到 5 500 香甜圣水（任务点数）即可解锁。</TimelineRow>
+        <TimelineRow>该法术在饼干大作战活动中首次推出，在活动中获取 5 500 香甜圣水（任务点数）即可解锁。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
