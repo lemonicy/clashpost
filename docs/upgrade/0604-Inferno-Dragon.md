@@ -24,7 +24,8 @@ canonical: /upgrade/0604-Inferno-Dragon
 
 <SmallTitle>重要说明</SmallTitle>
 
-地狱飞龙的技能（地狱烈焰）：持续攻击同一目标时，地狱飞龙的攻击伤害会随着时间递增。初始伤害切换二段伤害需要 1.7 秒，二段到三段需要 1.5 秒。也就是说从初始伤害到最高伤害需要 3.2 秒。
+1. 地狱飞龙的技能（地狱烈焰）：持续攻击同一目标时，地狱飞龙的攻击伤害会随着时间递增。初始伤害切换二段伤害需要 1.7 秒，二段到三段需要 1.5 秒。也就是说从初始伤害到最高伤害需要 3.2 秒。
+2. [雷电法术](/upgrade/0100-Lightning-Spell) 的伤害、[灵狐](/upgrade/0288-Spirit-Fox)、[隐形药水瓶](/upgrade/0741-Invisibility-Vial) 和 [隐形法术](/upgrade/0106-Invisibility-Spell) 的隐形效果可以打断地狱飞龙的攻击，使其伤害从头开始积累。
 
 <SmallTitle>属性</SmallTitle>
 

@@ -16,6 +16,7 @@ canonical: /upgrade/0e82-Bag-of-Frostmites
 1. 使用该法术后，法术会冻结受影响的区域，类似于 [冰冻法术](/upgrade/0104-Freeze-Spell)。
 2. 冻结之后，冻结区域内会生成小冰怪，这些小冰怪可以分散敌人的注意力，被小冰怪击中的防御攻击速度会变慢。
    - 这个小冰怪的属性和 [冰牙](/upgrade/0284-Frosty) 召唤的小冰怪基本相同，不过减速比例不同。
+3. 小冰怪攻击一次后就会死亡，[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备也无法阻止。
 
 <SmallTitle>袋装小冰怪的属性</SmallTitle>
 

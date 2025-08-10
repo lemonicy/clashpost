@@ -88,7 +88,8 @@ canonical: /upgrade/0610-Super-Yeti
 
 <SmallTitle>重要说明</SmallTitle>
 
-雷电小雪怪可以跳过城墙。
+1. 雷电小雪怪可以跳过城墙。
+2. 雷电小雪怪攻击一次后就会死亡，[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备也无法阻止。
 
 <SmallTitle>属性</SmallTitle>
 

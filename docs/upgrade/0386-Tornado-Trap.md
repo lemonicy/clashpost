@@ -29,6 +29,11 @@ canonical: /upgrade/0386-Tornado-Trap
     <BuildingNumRow title="建筑数量" num="     0,       1" />
 </BuildingNum>
 
+<SmallTitle>重要说明</SmallTitle>
+
+1. 飓风陷阱可以让部队转圈，也可以对部队造成少量伤害，但不能阻止部队发动攻击。
+2. [掘地矿工](/upgrade/000b-Miner)、[超级矿工](/upgrade/060e-Super-Miner)、[地兽](/upgrade/0285-Diggy) 和 [攻城钻机](/upgrade/0246-Battle-Drill) 能免疫飓风陷阱的转圈效果。
+
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>

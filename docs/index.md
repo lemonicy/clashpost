@@ -102,9 +102,10 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
-- [如何区分装饰和障碍物？](/p/6993)
-- [新手挑战机制及任务列表](/p/6699)
-- 2025/06 新增：[冰障法术](/upgrade/0186-Ice-Block-Spell)、[暗黑皇冠](/upgrade/0724-Dark-Crown)、[收债哥布林](/upgrade/0e20-Debt-Collector)、[精制台](/upgrade/048a-Crafting-Station)、[钩索塔](/upgrade/0900-Hook-Tower)、[旋转喷火器](/upgrade/0901-Flame-Spinner)、[碎岩迫击炮](/upgrade/0902-Crusher-Mortar)
+- 新装备：[英雄火炬](/upgrade/0786-Heroic-Torch)
+- 新文章：
+    - [如何区分装饰和障碍物？](/p/6993)
+    - [新手挑战机制及任务列表](/p/6699)
 
 </div>
 </div>

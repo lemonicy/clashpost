@@ -19,12 +19,13 @@ canonical: /upgrade/0186-Ice-Block-Spell
     - 冰障法术的定身及减伤效果只对法术释放时在法术范围内的部队有效，对法术释放后进入范围的部队无效。
     - 冰障法术对攻城机器无效。
     - 冰障法术对释放法术时位于地下的部队（例如 [掘地矿工](/upgrade/000b-Miner)）无效。但如果掘地矿工在法术释放时位于地面，则会受到影响。
-2. 冰障法术的减伤效果不能与 [巨型手套](/upgrade/0704-Giant-Gauntlet)、[永恒书卷](/upgrade/0780-Eternal-Tome) 等单位的减伤效果直接叠加，只能取最高的减伤效果。
-3. 被冻结的部队会受到 [空气炮](/upgrade/0306-Air-Sweeper)、[飓风陷阱](/upgrade/0386-Tornado-Trap) 等单位的位移效果影响，会被带着移动。
-4. 即使 [戈仑石人](/upgrade/0083-Golem)、[熔岩猎犬](/upgrade/0085-Lava-Hound)、[大雪怪](/upgrade/000d-Yeti) 这类会生成派生单位的兵种已经被冻结，它们也可以正常生成派生单位，且新生成的单位不会被冻结。
-5. 冰障法术对 [蝙蝠法术](/upgrade/0184-Bat-Spell) 和 [骷髅法术](/upgrade/0183-Skeleton-Spell) 生成的部队有效，即使是新生成的单位也会被冻结。
-6. 即使 [烈焰熔炉](/upgrade/008b-Furnace) 被冰障法术冻结，它也可以分裂出部队。
-7. 在冻结期间，[德鲁伊](/upgrade/008a-Druid) 的变身计时器不会停止。
+2. 冰障法术的作用是冻结我方部队，让我方部队获得减伤效果，而 [冰冻法术](/upgrade/0104-Freeze-Spell) 的作用是冻结敌方单位，停止敌方的移动和攻击。两者的作用不同，不要混淆。
+3. 冰障法术的减伤效果不能与 [巨型手套](/upgrade/0704-Giant-Gauntlet)、[永恒书卷](/upgrade/0780-Eternal-Tome) 等单位的减伤效果直接叠加，只能取最高的减伤效果。
+4. 被冻结的部队会受到 [空气炮](/upgrade/0306-Air-Sweeper)、[飓风陷阱](/upgrade/0386-Tornado-Trap) 等单位的位移效果影响，会被带着移动。
+5. 即使 [戈仑石人](/upgrade/0083-Golem)、[熔岩猎犬](/upgrade/0085-Lava-Hound)、[大雪怪](/upgrade/000d-Yeti) 这类会生成派生单位的兵种已经被冻结，它们也可以正常生成派生单位，且新生成的单位不会被冻结。
+6. 冰障法术对 [蝙蝠法术](/upgrade/0184-Bat-Spell) 和 [骷髅法术](/upgrade/0183-Skeleton-Spell) 生成的部队有效，即使是新生成的单位也会被冻结。
+7. 即使 [烈焰熔炉](/upgrade/008b-Furnace) 被冰障法术冻结，它也可以分裂出部队。
+8. 在冻结期间，[德鲁伊](/upgrade/008a-Druid) 的变身计时器不会停止。
 
 <SmallTitle>属性</SmallTitle>
 
