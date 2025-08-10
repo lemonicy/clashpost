@@ -2,23 +2,25 @@
 title: "部落冲突 coc 英雄火炬装备升级数据"
 navTitle: "英雄火炬"
 shownTitle: "英雄火炬"
-description: "英雄火炬是大守护者的第三件史诗装备，它在 2025 年 8 月的水花大赛活动中推出。英雄火炬能在大守护者技能生效期间，让位于光环内部队（包括大守护者自己）能获得跳跃城墙、移速提高和减伤等效果。"
+description: "英雄火炬是大守护者的第三件史诗装备，它在 2025 年 8 月的水花大赛活动中首次开放购买。2. 技能持续期间，英雄火炬能为光环内的单位提供弹跳法术的效果，同时提升单位的移动速度，减少他们受到的伤害。"
 module: upgrade-home
 imgFolder: home_heroes/0786
 wiki: https://clashofclans.fandom.com/wiki/Heroic_Torch
 canonical: /upgrade/0786-Heroic-Torch
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Heroic_Torch_info.png" :imgAlt="$frontmatter.navTitle" description="激发附近部队的斗志，让他们能够穿过城墙、加速移动，并降低所受伤害" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Heroic_Torch.png" :imgAlt="$frontmatter.navTitle" description="激发附近部队的斗志，让他们能够穿过城墙、加速移动，并降低所受伤害" :isSmallImg="true" />
 
 <SmallTitle>说明</SmallTitle>
 
-1. 英雄火炬是 [大守护者](/upgrade/0202-Grand-Warden) 的第三件史诗装备，它在 2025 年 8 月的水花大赛活动中推出。
-2. 技能持续期间，英雄火炬能为光环内的任何单位（包括大守护者）提供弹跳法术的效果，同时提升单位的移动速度，减少他们受到的伤害。
-    - 和[永恒书卷](/upgrade/0780-Eternal-Tome)类似， 弹跳法术、减伤等效果只对光环内的单位有效，离开光环 1 秒后的部队会失去英雄火炬的效果。在技能生效期间，进入光环或在光环内生成的单位亦可以获得英雄火炬的效果。
-3. 此外，英雄火炬可以提高大守护者的生命值、每秒伤害，以及增加开启技能时恢复的生命值。
-<!-- 说明有待补充，例如减伤可不可以跟金身、冰障的减伤叠加等 -->
-
+1. 英雄火炬是 [大守护者](/upgrade/0202-Grand-Warden) 的第三件史诗装备，它在 2025 年 8 月的水花大赛活动中首次开放购买。
+2. 技能持续期间，英雄火炬能为光环内的单位提供弹跳法术的效果，同时提升单位的移动速度，减少他们受到的伤害。
+    - 英雄火炬对攻城机器无效。
+    - 大守护者自身可以享受到英雄火炬的减伤效果，但不能获得加速效果。
+    - 其他英雄只能获得一半的加速效果，但其他效果不受影响。
+3. 和 [永恒书卷](/upgrade/0780-Eternal-Tome) 类似，弹跳、减伤等效果只对光环内的单位有效，离开光环 1 秒后的部队就会失去英雄火炬的效果。在技能生效期间，进入光环或在光环内生成的单位亦可获得英雄火炬的效果。
+4. 此外，英雄火炬可以提高大守护者的生命值和每秒伤害属性，以及增加开启技能时恢复的生命值。
+5. 关于英雄火炬的减伤效果能否和 [冰障法术](/upgrade/0780-Eternal-Tome)、[永恒书卷](/upgrade/0780-Eternal-Tome) 叠加的问题，目前没有人测试，根据我们多年的经验，大概率是不能直接叠加，取效果最强的那个。
 
 <SmallTitle>属性</SmallTitle>
 
