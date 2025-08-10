@@ -60,6 +60,10 @@ canonical: /upgrade/0400-Town-Hall
     </UnitImgGroup>
 </Panel>
 
+<SmallTitle>重要说明</SmallTitle>
+
+[雷电法术](/upgrade/0100-Lightning-Spell) 不能对大本营造成伤害，[地震法术](/upgrade/0181-Earthquake-Spell) 可以。
+
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>

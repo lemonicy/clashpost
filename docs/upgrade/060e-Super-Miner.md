@@ -26,6 +26,7 @@ canonical: /upgrade/060e-Super-Miner
 
 1. 超级矿工的技能（终极大爆炸）：被消灭时丢下一个炸药桶。
 2. 超级矿工使用钻机进行攻击，攻击时间越长伤害越高，类似于 [地狱飞龙](/upgrade/0604-Inferno-Dragon)。
+3. 超级矿工能免疫 [飓风陷阱](/upgrade/0386-Tornado-Trap) 的转圈效果。
 
 <SmallTitle>属性</SmallTitle>
 

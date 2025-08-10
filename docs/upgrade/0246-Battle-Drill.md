@@ -33,6 +33,7 @@ canonical: /upgrade/0246-Battle-Drill
 
 4. 攻城钻机从地下钻出时可以对建筑造成眩晕效果。
 5. 当攻城钻机的血量清零时，攻城钻机就会自动解体并释放部落城堡内的部队。
+6. 攻城钻机能免疫 [飓风陷阱](/upgrade/0386-Tornado-Trap) 的转圈效果。
 
 <SmallTitle>属性</SmallTitle>
 

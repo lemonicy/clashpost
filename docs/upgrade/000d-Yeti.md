@@ -111,6 +111,7 @@ const tableExtraInfo = [
     - 大本营的武器在升级时应视为不带武器的大本。
     - 此处我们**不**将 [铁匠铺](/upgrade/0488-Blacksmith) 视为资源建筑。
 3. 小雪怪攻击时会先接近目标建筑，然后在短暂停顿后跳到建筑身上并造成伤害。在跳跃状态下，小雪怪是无敌的，且不能被其他单位锁定。
+4. 小雪怪攻击一次后就会死亡，[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备也无法阻止。
 
 <SmallTitle>小雪怪的属性</SmallTitle>
 

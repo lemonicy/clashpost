@@ -102,6 +102,7 @@ const tableExtraInfo = [
 2. 和小雪怪类似，小火怪可以跳过城墙。
 3. 小火怪攻击后会留下一个火坑，并对目标造成持续伤害。
 4. 和 [毒药法术](/upgrade/0180-Poison-Spell) 类似，这个火坑的伤害是递增的，多个火坑不能叠加伤害，但能更快到达最高伤害。
+5. 小火怪攻击一次后就会死亡，[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备也无法阻止。
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面辅助单位" />

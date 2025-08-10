@@ -45,6 +45,10 @@ canonical: /upgrade/0405-Elixir-Storage
     <BuildingNumRow title="建筑数量" num="    1,     2, 3,      4" />
 </BuildingNum>
 
+<SmallTitle>重要说明</SmallTitle>
+
+[雷电法术](/upgrade/0100-Lightning-Spell) 和 [地震法术](/upgrade/0181-Earthquake-Spell) 不能对资源仓库造成伤害。
+
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>

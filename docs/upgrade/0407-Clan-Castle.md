@@ -43,10 +43,8 @@ canonical: /upgrade/0407-Clan-Castle
 
 1. 部落城堡内可存储的资源数量只与玩家的大本营等级和部落等级有关，而与部落城堡等级无关，详见页面下方的表格。
 2. 部落城堡升级时仍然可以请求援兵。
-3. 雷电法术不能对部落城堡造成伤害。
+3. [雷电法术](/upgrade/0100-Lightning-Spell) 不能对部落城堡造成伤害，[地震法术](/upgrade/0181-Earthquake-Spell) 可以。
 4. 自 2021 年 4 月更新起，部落城堡可收到的兵种等级有限制，详见：[为什么我的满级兵捐出去之后等级变低了？援兵等级限制机制讲解](/p/2053)。
-
-<SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="3×3" />

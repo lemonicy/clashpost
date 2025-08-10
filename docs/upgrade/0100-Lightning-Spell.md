@@ -27,7 +27,7 @@ canonical: /upgrade/0100-Lightning-Spell
 
 1. 对于建筑来说，雷电法术的闪电只需**蹭到建筑边缘**即可对建筑造成完整伤害，参见：[新版雷电法术攻击范围示意](/p/1663)。
 2. 雷电法术对敌方英雄有效，但是要想劈到英雄最好把雷电法术扔在英雄头顶，否则可能劈不到。
-3. 雷电法术不能对资源仓库、[大本营](/upgrade/0400-Town-Hall) 和 [部落城堡](/upgrade/0407-Clan-Castle) 造成伤害。
+3. 雷电法术不能对资源仓库（[储金罐](/upgrade/0404-Gold-Storage)、[圣水瓶](/upgrade/0405-Elixir-Storage) 和 [暗黑重油罐](/upgrade/0406-Dark-Elixir-Storage)）、[大本营](/upgrade/0400-Town-Hall) 和 [部落城堡](/upgrade/0407-Clan-Castle) 造成伤害。
 
 <SmallTitle>属性</SmallTitle>
 

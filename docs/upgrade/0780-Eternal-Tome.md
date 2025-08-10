@@ -20,7 +20,8 @@ canonical: /upgrade/0780-Eternal-Tome
    - [巨型炸弹](/upgrade/0383-Giant-Bomb) 对小单位的击退效果；
    - [空气炮](/upgrade/0306-Air-Sweeper) 的击退效果；
    - [隐形弹簧](/upgrade/0381-Spring-Trap) 的击飞效果。
-4. 永恒书卷装备的无敌效果在开启技能时生效，仅对光环内的单位有效，走出光环 1 秒后的部队就会失去无敌效果。技能开启后进入光环或在光环内生成的部队可以获得无敌效果。
+4. 永恒书卷装备无法让 [炸弹人](/upgrade/0004-Wall-Breaker) 和 [超级炸弹人](/upgrade/0603-Super-Wall-Breaker) 攻击后存活，无法阻止部队被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞，也无法延长 [凤凰](/upgrade/0287-Phoenix) 的无敌效果。
+5. 永恒书卷装备的无敌效果在开启技能时生效，仅对光环内的单位有效，走出光环 1 秒后的部队就会失去无敌效果。技能开启后进入光环或在光环内生成的部队可以获得无敌效果。
 
 <SmallTitle>属性</SmallTitle>
 

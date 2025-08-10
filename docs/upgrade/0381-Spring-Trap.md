@@ -34,6 +34,10 @@ canonical: /upgrade/0381-Spring-Trap
     <BuildingNumRow title="建筑数量" num="    0,     2,     4,      6,  8,       9" />
 </BuildingNum>
 
+<SmallTitle>重要说明</SmallTitle>
+
+[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止部队被隐形弹簧弹飞。
+
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>

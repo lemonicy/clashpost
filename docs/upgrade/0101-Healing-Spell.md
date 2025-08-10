@@ -19,6 +19,7 @@ canonical: /upgrade/0101-Healing-Spell
 
 1. 多个疗伤法术的效果可以叠加。
 2. 疗伤法术治疗我方英雄时，其效果会减弱。疗伤法术对攻城机器无效。
+3. 疗伤法术可以与 [治疗单位](/p/6925) 的治疗效果直接叠加。
 
 <SmallTitle>属性</SmallTitle>
 
