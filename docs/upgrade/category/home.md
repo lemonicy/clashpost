@@ -87,6 +87,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="治疗书卷" imgSrc="0783/Healing_Tome_thumb.png" link="0783-Healing-Tome" />
         <ListItem name="巨大火球" imgSrc="0784/Fireball_thumb.png" link="0784-Fireball" />
         <ListItem name="熔岩气球玩偶" imgSrc="0785/Lavaloon_Puppet_thumb.png" link="0785-Lavaloon-Puppet" />
+        <ListItem name="英雄火炬" imgSrc="0786/Heroic_Torch_thumb.png" link="0786-Heroic-Torch" />
     </ListItems>
     <ListItems title="装备（飞盾战神）" imgFolder="home_heroes">
         <ListItem name="寻踪飞盾" imgSrc="07c0/Seeking_Shield_thumb.png" link="07c0-Seeking-Shield" />
