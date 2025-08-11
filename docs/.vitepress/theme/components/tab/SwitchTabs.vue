@@ -20,7 +20,6 @@ function showActiveContent() {
 import { onMounted, onBeforeUnmount, nextTick, ref } from 'vue';
 import { throttle, changeScrollDirection } from '@/assets/global/utils.js';
 
-
 const props = defineProps({
     contentClass: {
         type: String,

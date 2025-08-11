@@ -33,7 +33,9 @@ function setTocHeadings() {
         });
 }
 
-onMounted(setTocHeadings);
+onMounted(() => {
+    setTimeout(setTocHeadings, 100);
+});
 
 // 开发环境下每 2 秒更新一次目录
 if (import.meta.env.MODE === 'development') {
