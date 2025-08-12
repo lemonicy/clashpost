@@ -92,9 +92,10 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>你知道吗</SmallTitle>
 
-- [冰障法术](/upgrade/0186-Ice-Block-Spell) 和 [冰冻法术](/upgrade/0104-Freeze-Spell) 的一个重要区别是：冰障法术冻结的是我方单位，冰冻法术冻结的是敌方单位。
-- 如无特殊情况，精工防御每三个月就会换一批，届时你需要点击 [精制台](/upgrade/048a-Crafting-Station) 重新选择一个防御。
-- 强化战宠等级需要使用英雄药水，加速战宠升级需要使用英雄之书或战宠药水，详见 [魔法物品](/p/1073) 页面。
+- [空气炮](/upgrade/0306-Air-Sweeper) 是唯一一个在 11 本就达到最高等级的防御建筑。
+- [建筑工人小屋](/upgrade/0500-Builders-Hut) 升级后会由普通建筑变成防御建筑。
+- 除 [英雄火炬](/upgrade/0786-Heroic-Torch) 外，[暗夜女巫](/upgrade/1007-Night-Witch) 也曾在正式推出之前就被削弱。
+- 升级攻城机器需要使用战斗之书或战斗之锤，详见 [魔法物品](/p/1073) 页面。
 - 有时候游戏 [载入页面的提示信息](/p/4683) 并不严谨，甚至可能是错的。
 
 </div>
@@ -104,6 +105,7 @@ onBeforeUnmount(() => {
 
 - 新装备：[英雄火炬](/upgrade/0786-Heroic-Torch)
 - 新文章：
+    - [目前 coc 的英雄系统是什么样的？](/p/6827)
     - [如何区分装饰和障碍物？](/p/6993)
     - [新手挑战机制及任务列表](/p/6699)
 
