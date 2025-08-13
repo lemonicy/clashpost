@@ -13,8 +13,8 @@ import PostList from '@/components/posts/PostList.vue';
 import { getPostList, getPostCount } from '@/assets/posts/posts.js';
 
 const currentPage = 1;
-const posts = await getPostList(currentPage);
-const postCount = await getPostCount();
+const posts = getPostList(currentPage);
+const postCount = getPostCount();
 const maxPage = Math.ceil(postCount / 20);
 </script>
 

@@ -21,8 +21,8 @@ const authorId = params.value.author;
 const authorInfo = getAuthorInfo(authorId);
 const authorName = authorInfo.nickName;
 
-const posts = await getPostList(currentPage, {"author": authorId});
-const postCount = await getPostCount({"author": authorId});
+const posts = getPostList(currentPage, {"author": authorId});
+const postCount = getPostCount({"author": authorId});
 const linkPrefix = "/p/author/" + authorId;
 const maxPage = Math.ceil(postCount / 20);
 </script>

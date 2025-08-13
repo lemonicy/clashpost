@@ -34,12 +34,8 @@ watch(() => router.route.data.relativePath, (path) => {
     <main>
         <TopNav />
         <PageTitle :key="titleKey" v-if="!$frontmatter.customTitle" />
-        <Suspense>
-            <PageInfoPost :key="pageInfoPostKey" :link="$frontmatter.canonical" v-if="hasPageInfoPost($frontmatter.canonical)" />
-        </Suspense>
-        <Suspense>
-            <Main />
-        </Suspense>
+        <PageInfoPost :key="pageInfoPostKey" :link="$frontmatter.canonical" v-if="hasPageInfoPost($frontmatter.canonical)" />
+        <Main />
         <Footer />
     </main>
     <SidebarRight />
