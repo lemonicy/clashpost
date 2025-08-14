@@ -20,8 +20,8 @@ const currentPage = 1;
 const categoryName = params.value.category;
 const categoryIndex = params.value.categoryIndex;
 
-const posts = await getPostList(currentPage, {"category": categoryName});
-const postCount = await getPostCount({"category": categoryName});
+const posts = getPostList(currentPage, {"category": categoryName});
+const postCount = getPostCount({"category": categoryName});
 const linkPrefix = "/p/category/" + categoryName;
 const maxPage = Math.ceil(postCount / 20);
 </script>

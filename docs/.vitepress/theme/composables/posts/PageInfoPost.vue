@@ -18,15 +18,18 @@ const updateTimeRef = ref();
 // 文章的基本信息（作者、最后更新时间等）
 const link = props.link;
 const postId = parseInt(link.replace("/p/", ""));
-const postInfo = await getPostInfo(postId);
+const postInfo = getPostInfo(postId);
 const author = postInfo.author;
 const lastCreated = postInfo.lastCreated;
 const lastUpdated = postInfo.lastUpdated;
 
+// 获取首次发布时间和上次更新时间的毫秒数，方便运算
+const lastCreatedMills = new Date(lastUpdated).getTime();
+const lastUpdatedMills = new Date(lastUpdated).getTime();
+
 // 判断文章是否太长时间（超过两年）没有编辑
-const timeMillsNow = new Date().getTime();
-const updateTimeMills = new Date(lastUpdated).getTime();
-const isPostTooOld = timeMillsNow - updateTimeMills > 2 * 365 * 86400 * 1000;
+const currentTimeMills = new Date().getTime();
+const isPostTooOld = currentTimeMills - lastUpdatedMills > 2 * 365 * 86400 * 1000;
 
 // 文章的 mark 标记
 const isDiscarded = invalidatedPosts.includes(postId);
@@ -45,7 +48,7 @@ onMounted(() => {
 
         // 更新时间（如果更新时间和首次发布时间相差不到一分钟，则显示从未更新）
         const updateTimeDom = updateTimeRef.value;
-        if (lastUpdated - lastCreated < 60 * 1000) {
+        if (lastUpdatedMills - lastCreatedMills < 60 * 1000) {
             updateTimeDom.innerText = "从未更新";
         } else {
             const lastUpdatedISO = getISOTimeStr(lastUpdated);
@@ -65,7 +68,6 @@ onMounted(() => {
         </a>
         <div class="cp-post-detail cp-post-detail-time" ref="createTimeRef"></div>
         <div class="cp-post-detail cp-post-detail-time" ref="updateTimeRef"></div>
-        <!-- <div class="cp-post-detail cp-post-detail-views"></div> -->
     </div>
     <Callout type="error" class="cp-callout-post-mark" v-if="isDiscarded">
         本文已被手动标注为废弃状态，请用考古的心态查看这篇文章。
@@ -84,12 +86,13 @@ onMounted(() => {
 <style lang="scss">
 .cp-post-details {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     font-size: 0.875rem;
     margin: 1rem 0;
     color: var(--cp-grey-text-light);
     transform: translateY(-0.5rem);
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .cp-theme-dark .cp-post-details {
@@ -98,6 +101,7 @@ onMounted(() => {
 
 .cp-post-detail {
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     color: var(--cp-grey-text-light);
 }

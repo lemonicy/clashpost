@@ -17,8 +17,8 @@ import { getPostList, getPostCount } from '@/assets/posts/posts.js';
 const { params } = useData();
 
 const currentPage = params.value.page;
-const posts = await getPostList(currentPage);
-const postCount = await getPostCount();
+const posts = getPostList(currentPage);
+const postCount = getPostCount();
 const maxPage = Math.ceil(postCount / 20);
 </script>
 
