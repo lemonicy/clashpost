@@ -63,7 +63,7 @@ canonical: /upgrade/060a-Ice-Hound
     <UnitProperty pKey="占据人口" pValue="1" />
     <UnitProperty pKey="移动速度" pValue="4 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="攻击距离" pValue="2.25 格" />
     <UnitProperty pKey="每秒伤害" pValue="35" />
     <UnitProperty pKey="每次伤害" pValue="35" />
     <UnitProperty pKey="生命值" pValue="50" />
