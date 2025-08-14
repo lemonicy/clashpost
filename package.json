@@ -4,7 +4,7 @@
     "markdown-it-mathjax3": "^4.3.2",
     "p-map": "^7.0.3",
     "sass": "^1.90.0",
-    "vitepress": "^2.0.0-alpha.10"
+    "vitepress": "^2.0.0-alpha.11"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
