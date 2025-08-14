@@ -14,13 +14,11 @@ import NetworkWarning from '@/components/common/NetworkWarning.vue';
 const router = useRouter();
 
 let titleKey = ref(0);
-let pageInfoPostKey = ref(0);
 let upgradeDialogKey = ref(0);
 
 watch(() => router.route.data.relativePath, (path) => {
     nextTick(() => {
         titleKey.value++;
-        pageInfoPostKey.value++;
         upgradeDialogKey.value++;
     });
 }, { immediate: false });

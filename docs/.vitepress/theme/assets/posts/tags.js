@@ -172,6 +172,7 @@ const tags = {
     "th16": "16 本",
     "th17": "17 本",
     "training-system": "训练机制",
+    "treasure-chest": "宝箱",
     "troop-vision": "兵种视野",
     "tools": "实用工具",
     "troop-matching": "配兵",
