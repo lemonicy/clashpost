@@ -106,7 +106,8 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/06/30">
-        <TimelineRow>3 ~ 充能 2 级投石炮的每秒伤害降低。</TimelineRow>
+        <TimelineRow>3 ~ 6 级投石炮的每秒伤害值减少。</TimelineRow>
+        <TimelineRow>投石炮充能提升的每秒伤害值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>1 ~ 5 级投石炮的升级时间减少。</TimelineRow>

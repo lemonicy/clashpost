@@ -24,7 +24,7 @@ const lastCreated = postInfo.lastCreated;
 const lastUpdated = postInfo.lastUpdated;
 
 // 获取首次发布时间和上次更新时间的毫秒数，方便运算
-const lastCreatedMills = new Date(lastUpdated).getTime();
+const lastCreatedMills = new Date(lastCreated).getTime();
 const lastUpdatedMills = new Date(lastUpdated).getTime();
 
 // 判断文章是否太长时间（超过两年）没有编辑

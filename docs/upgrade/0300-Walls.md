@@ -108,7 +108,7 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
-    <TimelineItem date="2025/03/24">
+    <TimelineItem date="2025/06/30">
         <TimelineRow>13 ~ 18 级城墙的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
