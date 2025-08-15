@@ -67,13 +67,16 @@ const tableExtraInfo = [
 |   1  |    340   |    408  |    700   |  4100 |      \  |   \     |         1       |      13       |
 |   2  |    370   |    444  |    800   |  4400 |   7.5M  |   7     |        11       |      13       |
 |   3  |    400   |    480  |    900   |  4700 |    12M  |   8,12  |        12       |      14       |
-|   4  |    430   |    516  |   1000   |  5000 |  14.5M  |   9     |        14       |      16       |
-|   5  |    460   |    552  |   1100   |  5300 |  22.5M  |  15,12  |        15       |      17       |
+|   4  |    430   |    516  |   1000   |  5100 |  14.5M  |   9     |        14       |      16       |
+|   5  |    460   |    552  |   1100   |  5600 |  22.5M  |  15,12  |        15       |      17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/30">
+        <TimelineRow>4 ~ 5 级龙骑士的生命值增加。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>

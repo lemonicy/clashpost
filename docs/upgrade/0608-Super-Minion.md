@@ -23,7 +23,7 @@ canonical: /upgrade/0608-Super-Minion
 
 <SmallTitle>重要说明</SmallTitle>
 
-超级亡灵的技能（远程狙杀）：当超级亡灵作进攻方时，其前 6 次攻击为远距离攻击；作防守方时，其前 3 次攻击为远距离攻击。
+超级亡灵的技能（远程狙杀）：当超级亡灵作进攻方时，其前 7 次攻击为远距离攻击；作防守方时，其前 3 次攻击为远距离攻击。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -36,7 +36,7 @@ canonical: /upgrade/0608-Super-Minion
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
     <UnitProperty pKey="普攻攻击距离" pValue="3.5 格" />
-    <UnitProperty pKey="远程狙杀次数" pValue="6 (进攻)，3 (防守)" />
+    <UnitProperty pKey="远程狙杀次数" pValue="7 次（进攻）<br>3 次（防守）" />
     <UnitProperty pKey="远程狙杀射程" pValue="9.5 格" />
     <UnitProperty pKey="最低亡灵等级" pValue="8" />
     <UnitProperty pKey="最低大本等级" pValue="12" />
@@ -63,6 +63,9 @@ canonical: /upgrade/0608-Super-Minion
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/30">
+        <TimelineRow>超级亡灵的“远程狙杀”技能在进攻时的远距离攻击次数由 6 次改为 7 次，防守时保持 3 次不变。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>

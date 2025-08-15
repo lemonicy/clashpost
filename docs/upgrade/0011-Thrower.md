@@ -60,14 +60,18 @@ const tableExtraInfo = [
 
 | 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间  |所需实验室等级|所需大本等级|
 | ---- |   ----   |   ---   |  ---- |    ---  |     ---   |     ---     |   ----    |
-|   1  |    180   |   450   |  1800 |      \  |      \    |       1     |     16    |
-|   2  |    190   |   475   |  1950 |    21M  |     14    |      14     |     16    |
-|   3  |    200   |   500   |  2100 |    23M  |     16    |      15     |     17    |
+|   1  |    190   |   475   |  2100 |      \  |      \    |       1     |     16    |
+|   2  |    200   |   500   |  2250 |    21M  |     14    |      14     |     16    |
+|   3  |    210   |   525   |  2400 |    23M  |     16    |      15     |     17    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/30">
+        <TimelineRow>所有等级巨矛投手的生命值增加。</TimelineRow>
+        <TimelineRow>所有等级巨矛投手的每秒伤害提升。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
@@ -75,7 +79,7 @@ const tableExtraInfo = [
         <TimelineRow>巨矛投手的训练时间由 3:10 改为 2:20</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 16 本新增巨矛投手。</TimelineRow>
+        <TimelineRow>17 本推出，并在 16 本新增巨矛投手，共推出 3 个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

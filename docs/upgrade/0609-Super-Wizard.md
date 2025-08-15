@@ -59,14 +59,17 @@ canonical: /upgrade/0609-Super-Wizard
 | ---- |    ----   |  ----   |   ---   |  ----  |    ----   |
 |   9  |    220    |   440   |   176   |   450  |     12    |
 |  10  |    240    |   480   |   192   |   500  |     13    |
-|  11  |    260    |   520   |   208   |   540  |     15    |
-|  12  |    275    |   550   |   220   |   580  |     16    |
-|  13  |    290    |   580   |   232   |   620  |     17    |
+|  11  |    265    |   530   |   212   |   540  |     15    |
+|  12  |    285    |   570   |   228   |   580  |     16    |
+|  13  |    305    |   610   |   244   |   620  |     17    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/30">
+        <TimelineRow>11 ~ 13 级超级法师的每秒伤害提升。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
