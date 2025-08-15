@@ -111,6 +111,7 @@ const tags = {
     "loot-cart": "资源车",
     "loot-mechanics": "掠夺机制",
     "magic-items": "魔法物品",
+    "magic-snacks": "魔法零食",
     "matching-value": "匹配值",
     "miner-hog": "矿猪",
     "multiplayer-battles": "联机模式",
