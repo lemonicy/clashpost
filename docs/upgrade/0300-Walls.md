@@ -95,12 +95,12 @@ const tableExtraInfo = [
 |  10  |  4000 |  200k   |   200k   |          1         |        9        |
 |  11  |  5000 |  500k   |   500k   |          1         |       10        |
 |  12  |  7000 |    1M   |     1M   |          1         |       11        |
-|  13  |  9000 |  1.5M   |   1.5M   |          2         |       12        |
-|  14  | 11000 |    2M   |     2M   |          2         |       13        |
-|  15  | 12500 |    3M   |     3M   |          3         |       14        |
-|  16  | 13500 |    4M   |     4M   |          4         |       15        |
-|  17  | 14500 |    5M   |     5M   |          5         |       16        |
-|  18  | 15500 |    8M   |     8M   |          8         |       17        |
+|  13  |  8000 |  1.5M   |   1.5M   |          2         |       12        |
+|  14  |  9000 |    2M   |     2M   |          2         |       13        |
+|  15  | 10000 |    3M   |     3M   |          3         |       14        |
+|  16  | 11000 |    4M   |     4M   |          4         |       15        |
+|  17  | 12000 |    5M   |     5M   |          5         |       16        |
+|  18  | 13000 |    8M   |     8M   |          8         |       17        |
 </UnitTable>
 
 注：升级城墙时，金币、圣水、戒指任选其一即可。
@@ -108,6 +108,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/03/24">
+        <TimelineRow>13 ~ 18 级城墙的生命值减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>1 ~ 7 级城墙的生命值减少。</TimelineRow>
     </TimelineItem>

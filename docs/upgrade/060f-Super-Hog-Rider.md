@@ -61,9 +61,9 @@ canonical: /upgrade/060f-Super-Hog-Rider
 | ---- |    ----   |    ----   |  ---- |    ----   |
 |  10  |    190    |    190    |  1500 |     13    |
 |  11  |    210    |    210    |  1600 |     14    |
-|  12  |    230    |    230    |  1700 |     15    |
-|  13  |    250    |    250    |  1800 |     16    |
-|  14  |    270    |    270    |  1900 |     17    |
+|  12  |    230    |    230    |  1750 |     15    |
+|  13  |    250    |    250    |  1900 |     16    |
+|  14  |    270    |    270    |  2100 |     17    |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -153,6 +153,9 @@ canonical: /upgrade/060f-Super-Hog-Rider
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/30">
+        <TimelineRow>12 ~ 14 级超级野猪骑士的生命值增加。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>

@@ -56,15 +56,19 @@ canonical: /upgrade/060c-Super-Bowler
 |   4  |    170    |    374    |  1600 |     12    |
 |   5  |    185    |    407    |  1800 |     13    |
 |   6  |    200    |    440    |  2000 |     14    |
-|   7  |    215    |    473    |  2200 |     15    |
-|   8  |    230    |    506    |  2400 |     16    |
-|   9  |    245    |    539    |  2600 |     17    |
+|   7  |    220    |    484    |  2300 |     15    |
+|   8  |    240    |    528    |  2600 |     16    |
+|   9  |    260    |    572    |  2900 |     17    |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/06/30">
+        <TimelineRow>7 ~ 9 级超级巨石投手的生命值增加。</TimelineRow>
+        <TimelineRow>7 ~ 9 级超级巨石投手的每秒伤害提升。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
