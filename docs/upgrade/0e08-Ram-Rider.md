@@ -70,7 +70,7 @@ canonical: /upgrade/0e08-Ram-Rider
 
 <Timeline>
     <TimelineItem date="2024/12/11">
-        <TimelineRow>该兵种第 3 次推出，采用饼干大作战活动的形象，有效期至 2025/1/1.</TimelineRow>
+        <TimelineRow>该兵种第 3 次推出，采用饼干大作战活动的形象，有效期至 2025/01/01.</TimelineRow>
         <TimelineRow>这次推出时，现在蛮羊骑士只需 6 本即可解锁（之前是 8 本）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12">

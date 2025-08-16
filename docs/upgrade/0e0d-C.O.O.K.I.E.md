@@ -64,7 +64,7 @@ canonical: /upgrade/0e0d-C.O.O.K.I.E
 
 <Timeline>
     <TimelineItem date="2024/12/11">
-        <TimelineRow>该兵种第 2 次推出，有效期至 2025/1/1.</TimelineRow>
+        <TimelineRow>该兵种第 2 次推出，有效期至 2025/01/01.</TimelineRow>
         <TimelineRow>这次推出时，现在饼干皮卡只需 6 本即可解锁（之前是 8 本）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
