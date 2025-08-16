@@ -15,7 +15,7 @@ export default createContentLoader("p/*.md", {
     includeSrc: true, 
     frontmatter: true,
     render: false,
-    excerpt: true,
+    excerpt: false,
     transform(rawData) {
         return rawData.map(page => ({
             ID: parseInt(page.url.replace("/p/", "")), // 就是链接中 /p/ 后面的数字

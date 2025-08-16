@@ -113,6 +113,7 @@ const tags = {
     "magic-items": "魔法物品",
     "magic-snacks": "魔法零食",
     "matching-value": "匹配值",
+    "medal-events": "奖章活动",
     "miner-hog": "矿猪",
     "multiplayer-battles": "联机模式",
     "obstacles": "障碍物",
