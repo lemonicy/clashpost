@@ -31,10 +31,11 @@ canonical: /upgrade/0e00-Ice-Wizard
     <UnitProperty pKey="攻击速度" pValue="1.5 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="3 格" />
     <UnitProperty pKey="所需训练营等级" pValue="7" />
-    <UnitProperty pKey="所需大本等级" pValue="6" />    
+    <UnitProperty pKey="所需大本等级" pValue="6" />
     <UnitProperty pKey="特殊技能" pValue="被击中的目标会减速" />
     <UnitProperty pKey="速度降低" pValue="50% 攻速<br>50% 移速" />
-    <UnitProperty pKey="训练时间" pValue="30" trainingSystem="2022" />
+    <UnitProperty pKey="减速效果持续时间" pValue="2 秒" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -70,8 +71,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/08/11">
+        <TimelineRow>该兵种第 7 次推出，有效期至 2025/08/19.</TimelineRow>
+        <TimelineRow>与上次推出时相比，除训练时间取消外，无其他数据上的区别。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/12/11">
-        <TimelineRow>该兵种第 6 次推出，有效期至 2025/1/1.</TimelineRow>
+        <TimelineRow>该兵种第 6 次推出，有效期至 2025/01/01.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12">
         <TimelineRow>该兵种第 5 次推出。</TimelineRow>
@@ -80,7 +85,7 @@ const tableExtraInfo = [
         <TimelineRow>该兵种第 4 次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12">
-        <TimelineRow>该兵种第 3 次推出，前两次分别在 2016/12/30 - 2017/1/6、2017/12/?? - 2018/1/3.</TimelineRow>
+        <TimelineRow>该兵种第 3 次推出，前两次分别在 2016/12/30 - 2017/01/06 以及 2017/12/?? - 2018/01/03.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
