@@ -47,7 +47,7 @@ canonical: /upgrade/0e13-Broom-Witch
     <UnitProperty pKey="可分裂的女巫精灵数量" pValue="24" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />  
     <UnitProperty pKey="所需大本等级" pValue="6" />    
-    <UnitProperty pKey="训练时间" pValue="150" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

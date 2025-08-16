@@ -71,7 +71,7 @@ if (link && isUpgradeDetails(link)) {
         const v1TrainingSystemUnits = ["0e02", "0e04", "0e05", "0e81"];
         const v2TrainingSystemUnits = [
             "0e03", "0e06", "0e07", "0e08", "0e09", "0e0a", "0e0b", "0e0c", "0e0d", "0e0e", "0e0f",
-            "0e11", "0e12", "0e13", "0e14", "0e15", "0e80", "0e82", "0e83"
+            "0e11", "0e14", "0e15", "0e80", "0e82", "0e83"
         ];
         hasV1TrainingDialog = v1TrainingSystemUnits.includes(unitId);
         hasV2TrainingDialog = v2TrainingSystemUnits.includes(unitId);
