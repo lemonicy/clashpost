@@ -13,10 +13,10 @@ import { generateToast } from '@/components/dialog/Toast.vue';
 import Download from '@/components/icon/Download.vue';
 
 const disableDownloading = false;
-const apkVersion = "17.360.28";
-const apkUploadDate = "2025-08-02";
-const apkFileSize = "667.4 MB";
-const apkFileName = "Clash_of_Clans_v17.360.28_6n6J7Zaernn2OAPm.apk";
+const apkVersion = "17.360.30";
+const apkUploadDate = "2025-08-19";
+const apkFileSize = "669.6 MB";
+const apkFileName = "Clash_of_Clans_v17.360.30_W0EasN5ZM95Xpock.apk";
 
 function downloadCocApk() {
     window.location.href = "https://static.clashpost.com/download/" + encodeURI(apkFileName);
@@ -32,7 +32,7 @@ function downloadCocApk() {
 ## 事先声明
 
 - 现在部落冲突不是全球同服了，如果你是回归玩家，可以去这里了解一下事情的来龙去脉：[什么是 216 事件？这件事的后续是什么呢？](/p/2754)
-- **本页只提供 coc 安卓版的安装包**，苹果手机请参考这两篇文章：[iOS 如何下载 coc 国际服（清除数据方案）](/p/6676)、[iOS 如何下载 coc 国际服（保留数据方案）](/p/4604)。
+- **本页只提供 coc 安卓版的安装包**，苹果手机请参考这两篇文章：[iOS 如何下载 coc 国际服（常规方案）](/p/6676)、[iOS 如何下载 coc 国际服（备用方案）](/p/4604)。
 - 安装时遇到问题请参考这篇文章：[网站里下载的 coc 安装包不能用，可能是什么造成的？](/p/6903)
 - 如果你从其他渠道下载到了 xapk 或 apkm 格式的安装包，请按照这篇文章所说的步骤操作：[如何安装 xapk 或 apkm 格式的安装包？](/p/6665)
 - 安装包这块我只是搬运工，游戏方面的问题请联系官方。
