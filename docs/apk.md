@@ -13,10 +13,11 @@ import { generateToast } from '@/components/dialog/Toast.vue';
 import Download from '@/components/icon/Download.vue';
 
 const disableDownloading = false;
-const apkVersion = "17.360.30";
-const apkUploadDate = "2025-08-19";
+const apkVersion = "17.360.31";
+const apkUploadDate = "2025-08-28";
 const apkFileSize = "669.6 MB";
-const apkFileName = "Clash_of_Clans_v17.360.30_W0EasN5ZM95Xpock.apk";
+const apkFileName = "Clash_of_Clans_v17.360.31_ECFmoVhnCAyV0ovh.apk";
+const systemRequirement = "Android 5.0+";
 
 function downloadCocApk() {
     window.location.href = "https://static.clashpost.com/download/" + encodeURI(apkFileName);
@@ -45,7 +46,12 @@ function downloadCocApk() {
 
 今天我宣布一个好消息，因为国外的商业带宽比较便宜，所以网站服务器迁移到国外之后运营成本有所下降，就算是开放直接下载也支付得起，因此我们决定让利用户，回归直接下载功能！当然也因为网站服务器在国外，我们不保证国内用户的速度。
 
-<div class="cp-download-container" v-if="!disableDownloading">
+<div class="cp-download-component" v-if="!disableDownloading">
+    <div class="cp-download-info">
+        <p>版本：{{ apkVersion }}</p>
+        <p>更新时间：{{ apkUploadDate }}</p>
+        <p>系统要求：{{ systemRequirement }}<sup>*</sup></p>
+    </div>
     <button class="btn-primary cp-download-btn" @click="downloadCocApk">
         <div class="cp-download-btn-left">
             <Download />
@@ -55,20 +61,25 @@ function downloadCocApk() {
             <p class="cp-download-size">{{ apkFileSize }}</p>
         </div>
     </button>
-    <p style="text-align: center">版本：{{ apkVersion }}，更新于 {{ apkUploadDate }}</p>
 </div>
-<div class="cp-download-container" v-else>
+<div class="cp-download-component" v-else>
+    <div class="cp-download-info">
+        <p>版本：未知</p>
+        <p>更新时间：未知</p>
+        <p>系统要求：{{ systemRequirement }}</p>
+    </div>
     <button class="btn-primary cp-download-btn" disabled>
         <div class="cp-download-btn-left">
             <Download />
         </div>
-        <div class="cp-download-btn-right">
+        <p class="cp-download-btn-right">
             <p class="cp-download-text">游戏即将更新</p>
             <p class="cp-download-size">旧版本下载链接暂时关闭</p>
-        </div>
+        </p>
     </button>
-    <p>版本：未知，更新时间：未知</p>
 </div>
+
+\* 自 2025/09 更新起，coc 的系统要求将更改为 Android 7.0+.
 
 请留意上方的更新时间和版本号，不要下载成旧版的安装包。如果网站内未更新安装包，请等一会再看，不要反复下载。
 
@@ -212,13 +223,39 @@ function downloadCocApk() {
 账号绑定工具的版本一大堆，好多平台的账号网站内部根本没有，所以我们没能力逐一测试。如果你发现哪个版本的链接不能用了，或者发现了新的有效链接，请前往“常见问题解答”版块查找作者的联系方式，并向作者反馈，我们会依据你的反馈进行更新。网站内容的准确性离不开大家的贡献。
 
 <style lang="scss">
-.cp-download-container button.cp-download-btn {
+@use '@/assets/mixins.scss' as *;
+
+.cp-download-component {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.cp-download-component .cp-download-info {
     width: 15rem;
-    height: 6rem;
-    margin: 0 auto;
+    height: 6.5rem;
+    padding: 0.25rem 0.625rem;
+    border-radius: 0.5rem;
+    border: var(--cp-border-light);
+
+    p {
+        margin: 0.125rem;
+    }
+}
+
+.cp-theme-dark .cp-download-component .cp-download-info {
+    border: var(--cp-border-dark);
+}
+
+.cp-download-component .cp-download-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    width: 15rem;
+    height: 6.5rem;
     border-radius: 0.75rem;
 
     .cp-download-btn-left {
@@ -245,9 +282,5 @@ function downloadCocApk() {
             font-size: 0.875rem;
         }
     }
-}
-
-.cp-download-container p {
-    text-align: center;
 }
 </style>

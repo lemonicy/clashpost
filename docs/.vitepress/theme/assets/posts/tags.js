@@ -53,6 +53,7 @@ const tags = {
     "decorations": "装饰",
     "destroy-town-hall": "爆本",
     "details": "细节",
+    "dissuade": "劝退",
     "donate-according-layout": "看阵填援军",
     "dragon": "龙流",
     "dragon-bat": "蝙蝠龙",
