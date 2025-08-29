@@ -93,7 +93,7 @@ onBeforeUnmount(() => {
 <SmallTitle>你知道吗</SmallTitle>
 
 - [空气炮](/upgrade/0306-Air-Sweeper) 是唯一一个在 11 本就达到最高等级的防御建筑。
-- [建筑工人小屋](/upgrade/0500-Builders-Hut) 升级后会由普通建筑变成防御建筑。
+- 随着 2024 年 9 月战场寻宝活动的推出，coc 也有了 [开箱](/p/6932) 功能。
 - 除 [英雄火炬](/upgrade/0786-Heroic-Torch) 外，[暗夜女巫](/upgrade/1007-Night-Witch) 也曾在正式推出之前就被削弱。
 - 即使玩家不做 [新手挑战](/p/6699) 任务，升到 7 本后也能拿到全部奖励。
 - 装饰和障碍物是不同的东西，[如何区分呢？](/p/6993)
@@ -103,11 +103,11 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
+- [在 2025 年的今天，coc 还有前途吗？](/p/6778)
+- [部落冲突 2024 年更新](/p/6885)
 - [coc 英雄火炬装备升级数据](/upgrade/0786-Heroic-Torch)
 - [什么是奖章活动？活动令牌又有什么用？](/p/7015)
 - [部落冲突魔法零食清单](/p/6957)
-- [部落冲突竟然能开箱！你知道宝箱内有哪些奖励吗？](/p/6932)
-- [目前 coc 的英雄系统是什么样的？](/p/6827)
 
 </div>
 </div>
