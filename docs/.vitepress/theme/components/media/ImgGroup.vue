@@ -20,7 +20,7 @@ if (props.biggerImg) {
 </script>
 
 <template>
-    <div :class="groupDomClass" ref="imgGroupRef">
+    <div :class="groupDomClass">
         <slot></slot>
         <div class="cp-img-item cp-img-placeholder"></div>
         <div class="cp-img-item cp-img-placeholder"></div>

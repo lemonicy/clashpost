@@ -2,7 +2,7 @@
 import { nextTick, ref, watch } from 'vue';
 import { useRouter } from 'vitepress';
 import BreadCrumb from '@/composables/top-nav/BreadCrumb.vue';
-import GoldPassSelect from '@/components/upgrade/GoldPassSelect.vue';
+import GoldPassSelect from '@/customized/upgrade/GoldPassSelect.vue';
 
 const router = useRouter();
 let goldPassSelectKey = ref(0);

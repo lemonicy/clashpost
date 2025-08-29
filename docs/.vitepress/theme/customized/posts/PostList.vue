@@ -1,5 +1,5 @@
 <script setup>
-import PostListItem from '@/components/posts/PostListItem.vue';
+import PostListItem from '@/customized/posts/PostListItem.vue';
 
 const props = defineProps({
     posts: {

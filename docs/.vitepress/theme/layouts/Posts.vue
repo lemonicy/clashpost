@@ -5,7 +5,7 @@ import Head from '@/composables/Head.vue';
 import SidebarLeft from '@/composables/sidebar/SidebarLeft.vue';
 import TopNav from '@/composables/top-nav/TopNav.vue';
 import PageTitle from '@/composables/PageTitle.vue';
-import PageInfoPost from '@/composables/posts/PageInfoPost.vue';
+import PageInfoPost from '@/customized/posts/PageInfoPost.vue';
 import Main from '@/composables/Main.vue';
 import Footer from '@/composables/Footer.vue';
 import SidebarRight from '@/composables/sidebar/SidebarRight.vue';

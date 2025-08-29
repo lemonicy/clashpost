@@ -39,7 +39,7 @@ export const authors = {
         avatarSm: "ddf2a56db43f7c322c6bf1912da6c8f8-sm.jpg",
         avatarMd: "ddf2a56db43f7c322c6bf1912da6c8f8.jpg",
         nickName: "1785",
-        signature: "coc 正式服刷数据玩家"
+        signature: "曾经的 coc 正式服刷数据玩家"
     },
     "coclun": {
         avatarSm: "ae6528b92d3bfd85c7a574e93a7c2e91-sm.jpg",
