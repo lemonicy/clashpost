@@ -1,6 +1,4 @@
 <script setup>
-import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from '@/assets/global/utils.js';
-
 const props = defineProps({
     link: {
         type: String,
@@ -27,12 +25,6 @@ const props = defineProps({
         default: false
     }
 });
-
-const imgSrcOriginal = props.imgSrc;
-const imgExtension = getFileExtension(imgSrcOriginal);
-const hasAdditionalSource = getConvertWebpInfo(imgExtension);
-const imgSrcWebp = replaceFileExtension(imgSrcOriginal, ".webp");
-const loadingValue = props.lazyLoading ? "lazy" : "eager";
 </script>
 
 <template>
@@ -43,10 +35,7 @@ const loadingValue = props.lazyLoading ? "lazy" : "eager";
                 <div class="cp-featured-card-subtitle" v-if="props.subtitle">{{ props.subtitle }}</div>
             </div>
             <div class="cp-featured-card-img-container" v-if="imgSrc">
-                <picture>
-                    <source :srcset="imgSrcWebp" type="image/webp" v-if="hasAdditionalSource" />
-                    <img :loading="loadingValue" :src="imgSrcOriginal" :alt="props.title" width="720" height="480" />
-                </picture>
+                <Pic :src="props.imgSrc" :alt="props.title" width="720" height="480" />
             </div>
         </div>
     </a>
@@ -56,10 +45,7 @@ const loadingValue = props.lazyLoading ? "lazy" : "eager";
             <div class="cp-featured-card-subtitle" v-if="props.subtitle">{{ props.subtitle }}</div>
         </div>
         <div class="cp-featured-card-img-container" v-if="imgSrc">
-            <picture>
-                <source :srcset="imgSrcWebp" type="image/webp" v-if="hasAdditionalSource" />
-                <img :src="imgSrcOriginal" :alt="props.title" width="720" height="480" />
-            </picture>
+            <Pic :src="props.imgSrc" :alt="props.title" width="720" height="480" />
         </div>
     </div>
 </template>
@@ -93,12 +79,14 @@ const loadingValue = props.lazyLoading ? "lazy" : "eager";
         }
     }
 
-    .cp-featured-card-img-container img {
-        display: block;
-        width: 100%;
-        max-width: 100%;
-        height: auto;
+    .cp-featured-card-img-container figure {
         margin: 0;
+    }
+    
+    .cp-featured-card-img-container img {
+        border-radius: 0;
+        aspect-ratio: 3 / 2;
+        object-fit: cover;
     }
 }
 

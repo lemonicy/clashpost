@@ -7,8 +7,8 @@ canonical: /upgrade/category/temp
 ---
 
 <script setup>
-import ListItems from '@/components/upgrade/ListItems.vue';
-import ListItem from '@/components/upgrade/ListItem.vue';
+import ListItems from '@/customized/upgrade/ListItems.vue';
+import ListItem from '@/customized/upgrade/ListItem.vue';
 </script>
 
 如需查看其他版块（家乡、夜世界、都城）的内容，请使用左侧菜单栏。

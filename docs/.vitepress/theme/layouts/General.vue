@@ -8,7 +8,7 @@ import PageTitle from '@/composables/PageTitle.vue';
 import Main from '@/composables/Main.vue';
 import Footer from '@/composables/Footer.vue';
 import SidebarRight from '@/composables/sidebar/SidebarRight.vue';
-import UpgradeDialog from '@/components/upgrade/UpgradeDialog.vue';
+import UpgradeDialog from '@/customized/upgrade/UpgradeDialog.vue';
 import NetworkWarning from '@/components/common/NetworkWarning.vue';
 
 const router = useRouter();

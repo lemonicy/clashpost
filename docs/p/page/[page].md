@@ -9,9 +9,9 @@ hasUpdateTime: false
 
 <script setup>
 import { useData } from 'vitepress';
-import PostCategoryTab from '@/components/posts/PostCategoryTab.vue';
+import PostCategoryTab from '@/customized/posts/PostCategoryTab.vue';
 import PageComp from '@/components/PageComp.vue';
-import PostList from '@/components/posts/PostList.vue';
+import PostList from '@/customized/posts/PostList.vue';
 import { getPostList, getPostCount } from '@/assets/posts/posts.js';
 
 const { params } = useData();

@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, nextTick, ref } from 'vue';
 import { showDialog } from '@/components/dialog/Dialog.vue';
-import Resource from '@/components/Resource.vue';
+import Resource from '@/customized/Resource.vue';
 import Info from '@/components/icon/Info.vue';
 import Question from '@/components/icon/Question.vue';
 import { convertTime, convertNum } from '@/assets/global/utils.js';
