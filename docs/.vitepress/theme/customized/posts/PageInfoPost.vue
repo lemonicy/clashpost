@@ -79,7 +79,7 @@ onMounted(() => {
         这篇文章已经很久没修订了，部分内容可能已过期，链接可能已失效，请注意辨别。
     </Callout>
     <Callout type="warning" class="cp-callout-post-mark" v-else-if="isUnderMaintenance">
-        文章正在维护，内容尚不完善，请大家积极反馈。
+        文章正在维护，内容尚不完善，可能存在错误，请大家积极反馈。
     </Callout>
 </template>
 
