@@ -9,10 +9,10 @@ hasUpdateTime: false
 ---
 
 <script setup>
-import { onMounted, nextTick, onBeforeUnmount } from 'vue';
-import FeaturedCardGrid from '@/components/card/FeaturedCardGrid.vue';
-import FeaturedCard from '@/components/card/FeaturedCard.vue';
-import { calcAllCountdowns } from '@/assets/homepage-countdown.js';
+import { onMounted, nextTick, onBeforeUnmount } from "vue";
+import FeaturedCardGrid from "@/components/card/FeaturedCardGrid.vue";
+import FeaturedCard from "@/components/card/FeaturedCard.vue";
+import { calcAllCountdowns } from "@/assets/homepage-countdown.js";
 
 let intervalId;
 onMounted(() => {

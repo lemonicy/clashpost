@@ -1,5 +1,5 @@
 <script setup>
-import { getResourceInfo } from '@/assets/upgrade.js';
+import { getResourceInfo } from "@/assets/upgrade.js";
 
 const props = defineProps({
     type: {

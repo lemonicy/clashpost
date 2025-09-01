@@ -134,10 +134,10 @@ function getModule(frontmatterModule, path) {
 </script>
 
 <script setup>
-import { watch, nextTick } from 'vue'
-import { useData, useRouter, inBrowser } from 'vitepress';
-import { hideOverlay } from '@/components/dialog/Overlay.vue';
-import Arrow from '@/components/icon/Arrow.vue';
+import { watch, nextTick } from "vue"
+import { useData, useRouter, inBrowser } from "vitepress";
+import { hideOverlay } from "@/components/dialog/Overlay.vue";
+import Arrow from "@/components/icon/Arrow.vue";
 
 const { frontmatter } = useData();
 const router = useRouter();

@@ -8,9 +8,9 @@ robots: index, nofollow
 ---
 
 <script setup>
-import { showDialog } from '@/components/dialog/Dialog.vue';
-import { generateToast } from '@/components/dialog/Toast.vue';
-import Download from '@/components/icon/Download.vue';
+import { showDialog } from "@/components/dialog/Dialog.vue";
+import { generateToast } from "@/components/dialog/Toast.vue";
+import Download from "@/components/icon/Download.vue";
 
 const disableDownloading = false;
 const apkVersion = "17.360.32";

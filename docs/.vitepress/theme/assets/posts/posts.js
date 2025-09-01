@@ -1,6 +1,6 @@
-import { getISOTimeStr } from '@/assets/global/datetime.js';
-import { authors } from '@/assets/posts/author.js';
-import { data as postsInfoArr } from '@/assets/posts/posts.data.mjs';
+import { getISOTimeStr } from "@/assets/global/datetime.js";
+import { authors } from "@/assets/posts/author.js";
+import { data as postsInfoArr } from "@/assets/posts/posts.data.mjs";
 
 /**
  * 使用动态导入功能获取完整文章列表

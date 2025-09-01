@@ -1,7 +1,7 @@
 <script setup>
-import { ref } from 'vue';
-import { useRouter } from 'vitepress';
-import { hideAllDialogs } from '@/components/dialog/Dialog.vue';
+import { ref } from "vue";
+import { useRouter } from "vitepress";
+import { hideAllDialogs } from "@/components/dialog/Dialog.vue";
 
 const router = useRouter();
 const networkWarningRef = ref();

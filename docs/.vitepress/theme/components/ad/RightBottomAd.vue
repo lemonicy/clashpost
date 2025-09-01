@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, nextTick } from 'vue';
+import { onMounted, nextTick } from "vue";
 
 /* 根据随机数的大小确定展示哪个广告
  * 不同广告给的钱多少不一样，展示几率也不同

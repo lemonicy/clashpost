@@ -175,9 +175,9 @@ function getBreadcrumbArr(moduleCode, finalTitle, path) {
 </script>
 
 <script setup>
-import { ref, watch } from 'vue';
-import { useData, useRouter, inBrowser } from 'vitepress';
-import BreadcrumbItem from '@/composables/top-nav/BreadCrumbItem.vue';
+import { ref, watch } from "vue";
+import { useData, useRouter, inBrowser } from "vitepress";
+import BreadcrumbItem from "@/composables/top-nav/BreadCrumbItem.vue";
 
 const props = defineProps({
     module: {

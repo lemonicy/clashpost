@@ -1,5 +1,5 @@
-import { inBrowser } from 'vitepress';
-import { generateToast } from '@/components/dialog/Toast.vue';
+import { inBrowser } from "vitepress";
+import { generateToast } from "@/components/dialog/Toast.vue";
 
 /**
  * 确定传入的数值是否是数字

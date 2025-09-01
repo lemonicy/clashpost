@@ -1,5 +1,5 @@
 <script setup>
-import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from '@/assets/global/utils.js';
+import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
 
 const props = defineProps({
     folder: {

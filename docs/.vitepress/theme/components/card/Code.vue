@@ -1,7 +1,7 @@
 <script setup>
-import { ref } from 'vue';
-import Copy from '@/components/icon/Copy.vue';
-import { copyToClip } from '@/assets/global/utils.js';
+import { ref } from "vue";
+import Copy from "@/components/icon/Copy.vue";
+import { copyToClip } from "@/assets/global/utils.js";
 
 const props = defineProps({
     title: {

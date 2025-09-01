@@ -1,7 +1,7 @@
 <script setup>
-import { useRouter } from 'vitepress';
-import EventTabs from '@/components/tab/EventTabs.vue';
-import EventTab from '@/components/tab/EventTab.vue';
+import { useRouter } from "vitepress";
+import EventTabs from "@/components/tab/EventTabs.vue";
+import EventTab from "@/components/tab/EventTab.vue";
 
 const props = defineProps({
     categoryIndex: {

@@ -43,7 +43,7 @@ export function setSelectValue(selectId, newOptionValue) {
 </script>
 
 <script setup>
-import { onMounted, nextTick, ref } from 'vue';
+import { onMounted, nextTick, ref } from "vue";
 
 const props = defineProps({
     id: {

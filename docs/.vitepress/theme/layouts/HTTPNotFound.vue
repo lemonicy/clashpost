@@ -1,7 +1,7 @@
 <script setup>
-import Head from '@/composables/Head.vue';
-import SidebarLeft from '@/composables/sidebar/SidebarLeft.vue';
-import SidebarRight from '@/composables/sidebar/SidebarRight.vue';
+import Head from "@/composables/Head.vue";
+import SidebarLeft from "@/composables/sidebar/SidebarLeft.vue";
+import SidebarRight from "@/composables/sidebar/SidebarRight.vue";
 </script>
 
 <template>

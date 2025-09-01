@@ -1,15 +1,15 @@
 <script setup>
-import { nextTick, ref, watch } from 'vue';
-import { useRouter } from 'vitepress';
-import Head from '@/composables/Head.vue';
-import SidebarLeft from '@/composables/sidebar/SidebarLeft.vue';
-import TopNav from '@/composables/top-nav/TopNav.vue';
-import PageTitle from '@/composables/PageTitle.vue';
-import Main from '@/composables/Main.vue';
-import Footer from '@/composables/Footer.vue';
-import SidebarRight from '@/composables/sidebar/SidebarRight.vue';
-import UpgradeDialog from '@/customized/upgrade/UpgradeDialog.vue';
-import NetworkWarning from '@/components/common/NetworkWarning.vue';
+import { nextTick, ref, watch } from "vue";
+import { useRouter } from "vitepress";
+import Head from "@/composables/Head.vue";
+import SidebarLeft from "@/composables/sidebar/SidebarLeft.vue";
+import TopNav from "@/composables/top-nav/TopNav.vue";
+import PageTitle from "@/composables/PageTitle.vue";
+import Main from "@/composables/Main.vue";
+import Footer from "@/composables/Footer.vue";
+import SidebarRight from "@/composables/sidebar/SidebarRight.vue";
+import UpgradeDialog from "@/customized/upgrade/UpgradeDialog.vue";
+import NetworkWarning from "@/components/common/NetworkWarning.vue";
 
 const router = useRouter();
 

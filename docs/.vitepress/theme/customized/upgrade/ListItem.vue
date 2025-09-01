@@ -1,6 +1,6 @@
 <script setup>
-import { onMounted, ref, nextTick } from 'vue';
-import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from '@/assets/global/utils.js';
+import { onMounted, ref, nextTick } from "vue";
+import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
 
 const props = defineProps({
     name: {

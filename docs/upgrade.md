@@ -8,8 +8,8 @@ hasUpdateTime: false
 ---
 
 <script setup>
-import FeaturedCardGrid from '@/components/card/FeaturedCardGrid.vue';
-import FeaturedCard from '@/components/card/FeaturedCard.vue';
+import FeaturedCardGrid from "@/components/card/FeaturedCardGrid.vue";
+import FeaturedCard from "@/components/card/FeaturedCard.vue";
 </script>
 
 <div style="margin-bottom: 1.5rem">

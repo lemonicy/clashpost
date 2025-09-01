@@ -1,7 +1,7 @@
 <script>
-import { showDialog } from '@/components/dialog/Dialog.vue';
-import { convertNum, convertTime } from '@/assets/global/utils.js';
-import { getResourceHTML, getGoldPassValueArr, geNumFromValue, getTimeSecFromValue, showGoldPassValue } from '@/assets/upgrade.js';
+import { showDialog } from "@/components/dialog/Dialog.vue";
+import { convertNum, convertTime } from "@/assets/global/utils.js";
+import { getResourceHTML, getGoldPassValueArr, geNumFromValue, getTimeSecFromValue, showGoldPassValue } from "@/assets/upgrade.js";
 
 /**
  * 修改表头的值，使数据格式符合用户需求
@@ -171,8 +171,8 @@ function setSpecialItems(table, tableExtraInfo) {
 </script>
 
 <script setup>
-import { onMounted, nextTick, ref } from 'vue';
-import { formatTableData } from '@/assets/global/utils.js';
+import { onMounted, nextTick, ref } from "vue";
+import { formatTableData } from "@/assets/global/utils.js";
 
 const props = defineProps({
     tableExtraInfo: {

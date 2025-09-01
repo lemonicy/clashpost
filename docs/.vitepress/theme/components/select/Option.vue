@@ -1,6 +1,6 @@
 <script setup>
-import { onMounted, nextTick, ref } from 'vue';
-import { getSelectDomFromOption, setSelectValue } from '@/components/select/Select.vue';
+import { onMounted, nextTick, ref } from "vue";
+import { getSelectDomFromOption, setSelectValue } from "@/components/select/Select.vue";
 
 const props = defineProps({
     text: {

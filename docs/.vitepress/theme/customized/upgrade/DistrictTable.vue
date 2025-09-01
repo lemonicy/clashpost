@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, nextTick, ref } from 'vue';
+import { onMounted, nextTick, ref } from "vue";
 
 const tableContainerRef = ref();
 

@@ -1,6 +1,6 @@
 <script setup>
-import { ref, onMounted, nextTick } from 'vue';
-import { getTimeStr } from '@/assets/global/datetime.js';
+import { ref, onMounted, nextTick } from "vue";
+import { getTimeStr } from "@/assets/global/datetime.js";
 
 const props = defineProps({
     index: {
