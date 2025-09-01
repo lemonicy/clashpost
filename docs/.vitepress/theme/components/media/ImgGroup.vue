@@ -24,10 +24,8 @@ switch (props.itemSize) {
     case "Big":
         groupDomClass += " cp-img-group-big";
         break;
-    case "Medium":
-        break; // 不添加任何 class
     default:
-        console.error("[clashpost error] ImgGroup 的 itemSize 必须为 \"Tiny\", \"Small\", \"Medium\", \"Big\" 这三个值的其中一个。");
+        // 不添加任何 class
 }
 </script>
 
