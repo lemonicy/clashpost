@@ -41,6 +41,8 @@
     --cp-error-bg-dark: rgb(60, 31, 31);
     --cp-error-border-light: 0.05rem solid rgb(254, 202, 202)
     --cp-error-border-dark: 0.05rem solid rgb(112, 75, 75);
+    --cp-gold-color-light: rgb(255, 114, 0);
+    --cp-gold-color-dark: rgb(255, 215, 0);
     --cp-legendary-color-light: rgb(230, 0, 230);
     --cp-legendary-color-dark: rgb(225, 80, 225);
     --dvh: 1dvh;
@@ -905,4 +907,21 @@ input[type=search]::-webkit-search-cancel-button {
 input[type=search] {
     -moz-appearance: textfield;
     appearance: textfield;
+}
+
+/* 网站中的部分文章（如英雄皮肤）存在标准、黄金、传奇品质的区别，为避免不同文章各自为政，这里统一规定一组颜色 */
+.cp-color-gold {
+    color: var(--cp-gold-color-light);
+}
+
+.cp-theme-dark .cp-color-gold {
+    color: var(--cp-gold-color-dark);
+}
+
+.cp-color-legendary {
+    color: var(--cp-legendary-color-light);
+}
+
+.cp-theme-dark .cp-color-legendary {
+    color: var(--cp-legendary-color-dark);
 }

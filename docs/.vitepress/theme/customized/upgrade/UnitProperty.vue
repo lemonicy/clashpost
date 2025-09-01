@@ -236,13 +236,13 @@ onMounted(() => {
     }
 
     .cp-gp-discount-10, .cp-gp-discount-15, .cp-gp-discount-20 {
-        color: rgb(255, 114, 0);
+        color: var(--cp-gold-color-light);
     }
 }
 
 .cp-theme-dark .cp-gp-item {
     .cp-gp-discount-10, .cp-gp-discount-15, .cp-gp-discount-20 {
-        color: rgb(255, 215, 0);
+        color: var(--cp-gold-color-dark);
     }
 }
 

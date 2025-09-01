@@ -34,14 +34,13 @@ const props = defineProps({
     justify-content: flex-end;
     align-items: center;
     width: 70px;
-    margin: 0.5rem;
 
     figure.cp-img-container {
         margin: 0;
+    }
 
-        img {
-            max-width: 55px;
-        }
+    figure.cp-img-container img {
+        max-width: 55px;
     }
 
     figcaption {
@@ -53,12 +52,9 @@ const props = defineProps({
 @media (min-width: $cp-col-tablat) {
     .cp-deco-img {
         width: 75px;
-        margin: 0.75rem;
 
-        figure.cp-img-container {
-            img {
-                max-width: 65px;
-            }
+        figure.cp-img-container img {
+            max-width: 65px;
         }
     }
 }
@@ -66,12 +62,9 @@ const props = defineProps({
 @media (min-width: $cp-col-laptop) {
     .cp-deco-img {
         width: 80px;
-        margin: 1rem;
 
-        figure.cp-img-container {
-            img {
-                max-width: 75px;
-            }
+        figure.cp-img-container img {
+            max-width: 75px;
         }
     }
 }
