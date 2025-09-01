@@ -1,8 +1,8 @@
 <script>
-import { inBrowser } from 'vitepress';
-import { showOverlay, hideOverlay } from '@/components/dialog/Overlay.vue';
-import { hideSidebarLeft } from '@/composables/sidebar/SidebarLeft.vue';
-import { hideSidebarRight } from '@/composables/sidebar/SidebarRight.vue';
+import { inBrowser } from "vitepress";
+import { showOverlay, hideOverlay } from "@/components/dialog/Overlay.vue";
+import { hideSidebarLeft } from "@/composables/sidebar/SidebarLeft.vue";
+import { hideSidebarRight } from "@/composables/sidebar/SidebarRight.vue";
 
 export function showDialog(dialogId) {
     // 显示遮罩

@@ -1,6 +1,6 @@
 <script setup>
-import { onMounted, onBeforeUnmount, nextTick, ref } from 'vue';
-import { throttle, changeScrollDirection } from '@/assets/global/utils.js';
+import { onMounted, onBeforeUnmount, nextTick, ref } from "vue";
+import { throttle, changeScrollDirection } from "@/assets/global/utils.js";
 
 const props = defineProps({
     stickyTabs: {

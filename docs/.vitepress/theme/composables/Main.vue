@@ -1,10 +1,10 @@
 <script setup>
-import { onMounted, onBeforeUnmount, nextTick, watch } from 'vue';
-import { useRouter, useData } from 'vitepress';
-import { debounce, reloadResource, reloadFailedResources } from '@/assets/global/utils.js';
+import { onMounted, onBeforeUnmount, nextTick, watch } from "vue";
+import { useRouter, useData } from "vitepress";
+import { debounce, reloadResource, reloadFailedResources } from "@/assets/global/utils.js";
 import { stickyTheadWhenScrolling, stickyThead, changeHeader, bodyClickEvent, showCookieTip,
     resetDvhValue, resetSidebars } from '@/assets/global/common.js';
-import { addOldBrowserTip } from '@/assets/global/browser-check.js';
+import { addOldBrowserTip } from "@/assets/global/browser-check.js";
 
 onMounted(() => {
     nextTick(() => {

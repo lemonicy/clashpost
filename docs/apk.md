@@ -8,9 +8,9 @@ robots: index, nofollow
 ---
 
 <script setup>
-import { showDialog } from '@/components/dialog/Dialog.vue';
-import { generateToast } from '@/components/dialog/Toast.vue';
-import Download from '@/components/icon/Download.vue';
+import { showDialog } from "@/components/dialog/Dialog.vue";
+import { generateToast } from "@/components/dialog/Toast.vue";
+import Download from "@/components/icon/Download.vue";
 
 const disableDownloading = false;
 const apkVersion = "17.360.32";
@@ -79,7 +79,7 @@ function downloadCocApk() {
     </button>
 </div>
 
-\* 自 2025/09 更新起，coc 的系统要求将更改为 Android 7.0+.
+\* 从下次大版本更新开始，coc 的系统要求将更改为 Android 7.0+.
 
 请留意上方的更新时间和版本号，不要下载成旧版的安装包。如果网站内未更新安装包，请等一会再看，不要反复下载。
 

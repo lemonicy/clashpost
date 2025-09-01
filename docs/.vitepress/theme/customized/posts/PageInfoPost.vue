@@ -1,9 +1,9 @@
 <script setup>
-import { ref, onMounted, nextTick } from 'vue';
-import { getISOTimeStr, getTimeStr } from '@/assets/global/datetime.js';
-import { invalidatedPosts, oldBuilderBasePosts, maintenancePosts } from '#/global-variables.js';
-import { getPostInfo } from '@/assets/posts/posts.js';
-import Callout from '@/components/Callout.vue';
+import { ref, onMounted, nextTick } from "vue";
+import { getISOTimeStr, getTimeStr } from "@/assets/global/datetime.js";
+import { invalidatedPosts, oldBuilderBasePosts, maintenancePosts } from "#/global-variables.js";
+import { getPostInfo } from "@/assets/posts/posts.js";
+import Callout from "@/components/Callout.vue";
 
 const props = defineProps({
     link: {
@@ -79,7 +79,7 @@ onMounted(() => {
         这篇文章已经很久没修订了，部分内容可能已过期，链接可能已失效，请注意辨别。
     </Callout>
     <Callout type="warning" class="cp-callout-post-mark" v-else-if="isUnderMaintenance">
-        文章正在维护，内容尚不完善，请大家积极反馈。
+        文章正在维护，内容尚不完善，且可能存在错误，请大家积极反馈。
     </Callout>
 </template>
 

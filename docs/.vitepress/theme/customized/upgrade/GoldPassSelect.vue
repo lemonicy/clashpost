@@ -1,9 +1,9 @@
 <script setup>
-import { inBrowser, useRouter } from 'vitepress';
-import SelectContainer from '@/components/select/SelectContainer.vue';
-import Option from '@/components/select/Option.vue';
-import { getCookie, setCookie, deleteCookie } from '@/assets/global/utils.js';
-import { showGoldPassValue } from '@/assets/upgrade.js';
+import { inBrowser, useRouter } from "vitepress";
+import SelectContainer from "@/components/select/SelectContainer.vue";
+import Option from "@/components/select/Option.vue";
+import { getCookie, setCookie, deleteCookie } from "@/assets/global/utils.js";
+import { showGoldPassValue } from "@/assets/upgrade.js";
 
 const props = defineProps({
     link: {

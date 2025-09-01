@@ -9,10 +9,10 @@ hasUpdateTime: false
 ---
 
 <script setup>
-import { onMounted, nextTick, onBeforeUnmount } from 'vue';
-import FeaturedCardGrid from '@/components/card/FeaturedCardGrid.vue';
-import FeaturedCard from '@/components/card/FeaturedCard.vue';
-import { calcAllCountdowns } from '@/assets/homepage-countdown.js';
+import { onMounted, nextTick, onBeforeUnmount } from "vue";
+import FeaturedCardGrid from "@/components/card/FeaturedCardGrid.vue";
+import FeaturedCard from "@/components/card/FeaturedCard.vue";
+import { calcAllCountdowns } from "@/assets/homepage-countdown.js";
 
 let intervalId;
 onMounted(() => {
@@ -103,11 +103,11 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
+- [部落冲突英雄皮肤（造型）一览](/p/6540)
 - [在 2025 年的今天，coc 还有前途吗？](/p/6778)
 - [部落冲突 2024 年更新](/p/6885)
 - [coc 英雄火炬装备升级数据](/upgrade/0786-Heroic-Torch)
 - [什么是奖章活动？活动令牌又有什么用？](/p/7015)
-- [部落冲突魔法零食清单](/p/6957)
 
 </div>
 </div>

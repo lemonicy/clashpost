@@ -1,6 +1,6 @@
 <script setup>
-import { onMounted, nextTick, ref } from 'vue';
-import { formatTableData } from '@/assets/global/utils.js';
+import { onMounted, nextTick, ref } from "vue";
+import { formatTableData } from "@/assets/global/utils.js";
 
 const props = defineProps({
     maxWidth: {

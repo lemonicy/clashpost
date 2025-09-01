@@ -7,8 +7,8 @@ canonical: /upgrade/category/level
 ---
 
 <script setup>
-import ListItems from '@/customized/upgrade/ListItems.vue';
-import ListItem from '@/customized/upgrade/ListItem.vue';
+import ListItems from "@/customized/upgrade/ListItems.vue";
+import ListItem from "@/customized/upgrade/ListItem.vue";
 </script>
 
 这个页面原本是用来查看每个大本等级升满需要多少资源、多少时间的，不过以前的按大本等级分类是稳本算法，已严重脱离玩家的实际需求，实在是没什么用了，因此我们删除了相关内容。

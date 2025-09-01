@@ -1,5 +1,5 @@
 <script setup>
-import Select from '@/components/select/Select.vue';
+import Select from "@/components/select/Select.vue";
 
 const props = defineProps({
     title: {

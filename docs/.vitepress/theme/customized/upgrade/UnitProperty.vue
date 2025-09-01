@@ -1,11 +1,11 @@
 <script setup>
-import { onMounted, nextTick, ref } from 'vue';
-import { showDialog } from '@/components/dialog/Dialog.vue';
-import Resource from '@/customized/Resource.vue';
-import Info from '@/components/icon/Info.vue';
-import Question from '@/components/icon/Question.vue';
-import { convertTime, convertNum } from '@/assets/global/utils.js';
-import { getGoldPassValueArr, showGoldPassValue } from '@/assets/upgrade.js';
+import { onMounted, nextTick, ref } from "vue";
+import { showDialog } from "@/components/dialog/Dialog.vue";
+import Resource from "@/customized/Resource.vue";
+import Info from "@/components/icon/Info.vue";
+import Question from "@/components/icon/Question.vue";
+import { convertTime, convertNum } from "@/assets/global/utils.js";
+import { getGoldPassValueArr, showGoldPassValue } from "@/assets/upgrade.js";
 
 const props = defineProps({
     pKey: {
@@ -236,13 +236,13 @@ onMounted(() => {
     }
 
     .cp-gp-discount-10, .cp-gp-discount-15, .cp-gp-discount-20 {
-        color: rgb(255, 114, 0);
+        color: var(--cp-gold-color-light);
     }
 }
 
 .cp-theme-dark .cp-gp-item {
     .cp-gp-discount-10, .cp-gp-discount-15, .cp-gp-discount-20 {
-        color: rgb(255, 215, 0);
+        color: var(--cp-gold-color-dark);
     }
 }
 

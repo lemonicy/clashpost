@@ -1,5 +1,5 @@
-import { inBrowser } from 'vitepress';
-import { isNumber, convertTime, convertNum, getCookie } from '@/assets/global/utils.js';
+import { inBrowser } from "vitepress";
+import { isNumber, convertTime, convertNum, getCookie } from "@/assets/global/utils.js";
 
 /**
  * 给定训练时间和折扣，返回指定折扣下的训练时间

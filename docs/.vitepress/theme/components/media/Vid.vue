@@ -1,5 +1,5 @@
 <script setup>
-import { isSupportWebp, replaceFileExtension} from '@/assets/global/utils.js';
+import { isSupportWebp, replaceFileExtension} from "@/assets/global/utils.js";
 
 const props = defineProps({
     lazyLoading: {

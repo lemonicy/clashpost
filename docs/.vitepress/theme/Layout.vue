@@ -1,8 +1,8 @@
 <script setup>
-import { useRouter, useData } from 'vitepress';
-import HTTPNotFound from '@/layouts/HTTPNotFound.vue';
-import General from '@/layouts/General.vue';
-import Posts from '@/layouts/Posts.vue';
+import { useRouter, useData } from "vitepress";
+import HTTPNotFound from "@/layouts/HTTPNotFound.vue";
+import General from "@/layouts/General.vue";
+import Posts from "@/layouts/Posts.vue";
 
 const router = useRouter();
 const { page } = useData();

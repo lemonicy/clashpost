@@ -9,12 +9,12 @@ export function hideSidebarRight() {
 </script>
 
 <script setup>
-import { ref, watch, nextTick } from 'vue';
-import { useRouter, inBrowser } from 'vitepress';
-import { sidebarRightShowing } from '@/assets/global/common.js';
-import { hideOverlay } from '@/components/dialog/Overlay.vue';
-// import RightBottomAd from '@/components/ad/RightBottomAd.vue';
-import Toc from '@/composables/sidebar/Toc.vue';
+import { ref, watch, nextTick } from "vue";
+import { useRouter, inBrowser } from "vitepress";
+import { sidebarRightShowing } from "@/assets/global/common.js";
+import { hideOverlay } from "@/components/dialog/Overlay.vue";
+// import RightBottomAd from "@/components/ad/RightBottomAd.vue";
+import Toc from "@/composables/sidebar/Toc.vue";
 
 let tocKey = ref(0);
 let adKey = ref(0);

@@ -7,10 +7,10 @@ hasUpdateTime: false
 ---
 
 <script setup>
-import PostCategoryTab from '@/customized/posts/PostCategoryTab.vue';
-import PageComp from '@/components/PageComp.vue';
-import PostList from '@/customized/posts/PostList.vue';
-import { getPostList, getPostCount } from '@/assets/posts/posts.js';
+import PostCategoryTab from "@/customized/posts/PostCategoryTab.vue";
+import PageComp from "@/components/PageComp.vue";
+import PostList from "@/customized/posts/PostList.vue";
+import { getPostList, getPostCount } from "@/assets/posts/posts.js";
 
 const currentPage = 1;
 const posts = getPostList(currentPage);

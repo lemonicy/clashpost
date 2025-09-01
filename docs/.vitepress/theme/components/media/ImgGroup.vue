@@ -1,21 +1,33 @@
 <script setup>
 const props = defineProps({
+    itemSize: {
+        type: String,
+        required: true
+    },
     centeredItems: {
         type: Boolean,
         default: true
     },
-    biggerImg: {
-        type: Boolean,
-        default: false
-    }
 });
 
 let groupDomClass = "cp-img-group";
 if (props.centeredItems) {
-    groupDomClass += " cp-centered-img-group";
+    groupDomClass += " cp-img-group-centered";
 }
-if (props.biggerImg) {
-    groupDomClass += " cp-bigger-img-group";
+switch (props.itemSize) {
+    case "Tiny":
+        groupDomClass += " cp-img-group-tiny";
+        break;
+    case "Small":
+        groupDomClass += " cp-img-group-small";
+        break;
+    case "Big":
+        groupDomClass += " cp-img-group-big";
+        break;
+    case "Medium":
+        break; // 不添加任何 class
+    default:
+        console.error("[clashpost error] ImgGroup 的 itemSize 必须为 \"Tiny\", \"Small\", \"Medium\", \"Big\" 这三个值的其中一个。");
 }
 </script>
 
@@ -38,8 +50,7 @@ if (props.biggerImg) {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
-    margin-right: -1rem;
-    margin-bottom: -1rem;
+    gap: 1rem;
 }
 
 .cp-img-item.cp-img-placeholder {
@@ -49,11 +60,11 @@ if (props.biggerImg) {
 }
 
 /* 图片居中 */
-.cp-centered-img-group {
+.cp-img-group-centered {
     justify-content: center;
 }
 
-.cp-centered-img-group .cp-img-item.cp-img-placeholder {
+.cp-img-group-centered .cp-img-item.cp-img-placeholder {
     width: 0;
     margin-left: 0 !important;
     margin-right: 0 !important;

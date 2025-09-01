@@ -7,7 +7,7 @@
  */
 export const invalidatedPosts = [20, 66, 268, 295, 559, 596, 689, 756, 801, 1642, 2754, 2922, 3048, 4801, 5434];
 export const oldBuilderBasePosts = [349, 848, 1200, 1250, 2763];
-export const maintenancePosts = [];
+export const maintenancePosts = [6540];
 
 /**
  * hasNotification {Boolean} 是否发布通知，如果填 false 则视为不发布，前端不再运行通知相关的代码，可节省性能。

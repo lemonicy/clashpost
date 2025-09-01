@@ -9,10 +9,10 @@ hasUpdateTime: false
 ---
 
 <script setup>
-import { useData } from 'vitepress';
-import PageComp from '@/components/PageComp.vue';
-import PostList from '@/customized/posts/PostList.vue';
-import { getAuthorInfo, getPostList, getPostCount } from '@/assets/posts/posts.js';
+import { useData } from "vitepress";
+import PageComp from "@/components/PageComp.vue";
+import PostList from "@/customized/posts/PostList.vue";
+import { getAuthorInfo, getPostList, getPostCount } from "@/assets/posts/posts.js";
 
 const { params } = useData();
 

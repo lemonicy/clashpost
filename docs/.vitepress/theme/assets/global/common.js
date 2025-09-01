@@ -1,10 +1,10 @@
-import { inBrowser } from 'vitepress';
+import { inBrowser } from "vitepress";
 import { getCookie, setCookie, getRemValue } from "@/assets/global/utils.js";
 import { getSafariVersionFromUA } from "@/assets/global/browser-check.js";
-import { hideOverlayOnly } from '@/components/dialog/Overlay.vue';
-import { hideSidebarLeft } from '@/composables/sidebar/SidebarLeft.vue';
-import { hideSidebarRight } from '@/composables/sidebar/SidebarRight.vue';
-import { generateToast } from '@/components/dialog/Toast.vue';
+import { hideOverlayOnly } from "@/components/dialog/Overlay.vue";
+import { hideSidebarLeft } from "@/composables/sidebar/SidebarLeft.vue";
+import { hideSidebarRight } from "@/composables/sidebar/SidebarRight.vue";
+import { generateToast } from "@/components/dialog/Toast.vue";
 
 /*
  * 让表头保持冻结状态

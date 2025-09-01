@@ -7,9 +7,9 @@ canonical: /upgrade/category/home
 ---
 
 <script setup>
-import ListItems from '@/customized/upgrade/ListItems.vue';
-import ListItem from '@/customized/upgrade/ListItem.vue';
-import { getCookie } from '@/assets/global/utils.js';
+import ListItems from "@/customized/upgrade/ListItems.vue";
+import ListItem from "@/customized/upgrade/ListItem.vue";
+import { getCookie } from "@/assets/global/utils.js";
 
 let activeTabIndex = 0;
 const activeTabCookieValue = getCookie("cp-upgrade-active-tab");

@@ -1,12 +1,12 @@
 // https://vitepress.dev/guide/custom-theme
 import '@/assets/style.scss';
-import { setUserTheme, normalizeLink } from '@/assets/global/utils.js';
-import Layout from '@/Layout.vue';
-import { Dialog, Toast } from '@/components/dialog/DialogComp.vue';
-import { SwitchTabs, SwitchTab, SwitchTabGroup } from '@/components/tab/TabComp.vue';
-import { Pic, Vid, SmallTitle, Table, Panel, PCenter, PCaption, Resource } from '@/components/common/CommonComp.vue';
-import { UnitInfo, UnitImgGroup, UnitImg, UnitProperties, UnitProperty, UnitTable, DistrictTable, BuildingNum, BuildingNumRow, Timeline, TimelineItem, TimelineRow } from '@/customized/upgrade/UnitComp.vue';
-import { PostHistory, PostCopyright } from '@/customized/posts/PostComp.vue';
+import { setUserTheme, normalizeLink } from "@/assets/global/utils.js";
+import Layout from "@/Layout.vue";
+import { Dialog, Toast } from "@/components/dialog/DialogComp.vue";
+import { SwitchTabs, SwitchTab, SwitchTabGroup } from "@/components/tab/TabComp.vue";
+import { Pic, Vid, SmallTitle, Table, Panel, PCenter, PCaption, Resource } from "@/components/common/CommonComp.vue";
+import { UnitInfo, UnitImgGroup, UnitImg, UnitProperties, UnitProperty, UnitTable, DistrictTable, BuildingNum, BuildingNumRow, Timeline, TimelineItem, TimelineRow } from "@/customized/upgrade/UnitComp.vue";
+import { PostHistory, PostCopyright } from "@/customized/posts/PostComp.vue";
 
 /*
  * 需要提前执行的代码

@@ -70,6 +70,7 @@ switch (props.type) {
 .cp-callout-icon {
     font-size: 1.125rem;
     margin-right: 0.25rem;
+    transform: translateY(-0.125rem);
 }
 
 .cp-callout-content {

@@ -1,5 +1,5 @@
 <script setup>
-import Callout from '@/components/Callout.vue';
+import Callout from "@/components/Callout.vue";
 </script>
 
 <template>

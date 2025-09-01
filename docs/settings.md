@@ -98,13 +98,13 @@ function saveSettings() {
 </script>
 
 <script setup>
-import { onMounted, nextTick } from 'vue';
-import { inBrowser } from 'vitepress';
-import SelectContainer from '@/components/select/SelectContainer.vue';
-import Select, { getSelectValue, setSelectValue } from '@/components/select/Select.vue';
-import Option from '@/components/select/Option.vue';
-import { generateToast } from '@/components/dialog/Toast.vue';
-import { getCookie, setCookie, deleteCookie, isNumber } from '@/assets/global/utils.js';
+import { onMounted, nextTick } from "vue";
+import { inBrowser } from "vitepress";
+import SelectContainer from "@/components/select/SelectContainer.vue";
+import Select, { getSelectValue, setSelectValue } from "@/components/select/Select.vue";
+import Option from "@/components/select/Option.vue";
+import { generateToast } from "@/components/dialog/Toast.vue";
+import { getCookie, setCookie, deleteCookie, isNumber } from "@/assets/global/utils.js";
 
 /*
  * 获取三个月卡减免比例

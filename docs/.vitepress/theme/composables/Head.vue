@@ -1,14 +1,14 @@
 <script setup>
-import { onMounted, onBeforeUnmount, nextTick, ref } from 'vue';
-import { inBrowser } from 'vitepress';
+import { onMounted, onBeforeUnmount, nextTick, ref } from "vue";
+import { inBrowser } from "vitepress";
 import { notificationInfo } from "#/global-variables.js";
 import { getCookie, setCookie } from "@/assets/global/utils.js";
-import { showSidebarLeft, hideSidebarLeft } from '@/composables/sidebar/SidebarLeft.vue';
-import { showSidebarRight, hideSidebarRight } from '@/composables/sidebar/SidebarRight.vue';
-import { showDialog, hideAllDialogs, hideAllDialogsOnly } from '@/components/dialog/Dialog.vue';
-import Overlay, { showOverlay, hideOverlay } from '@/components/dialog/Overlay.vue';
-import { generateToast } from '@/components/dialog/Toast.vue';
-import Close from '@/components/icon/Close.vue';
+import { showSidebarLeft, hideSidebarLeft } from "@/composables/sidebar/SidebarLeft.vue";
+import { showSidebarRight, hideSidebarRight } from "@/composables/sidebar/SidebarRight.vue";
+import { showDialog, hideAllDialogs, hideAllDialogsOnly } from "@/components/dialog/Dialog.vue";
+import Overlay, { showOverlay, hideOverlay } from "@/components/dialog/Overlay.vue";
+import { generateToast } from "@/components/dialog/Toast.vue";
+import Close from "@/components/icon/Close.vue";
 
 const notificationCountIconRef = ref(0);
 const searchProviderRef = ref();

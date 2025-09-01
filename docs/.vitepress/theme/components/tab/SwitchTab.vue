@@ -1,5 +1,5 @@
 <script>
-import { setCookie } from '@/assets/global/utils.js';
+import { setCookie } from "@/assets/global/utils.js";
 
 // 显示对应 Tab 的内容，并将点击的 Tab 设为活跃状态
 function showActiveTabContent(clickedDom) {

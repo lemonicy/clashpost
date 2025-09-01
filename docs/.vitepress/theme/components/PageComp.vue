@@ -1,6 +1,6 @@
 <script>
-import { isNumber } from '@/assets/global/utils.js';
-import { resetToastPosition } from '@/assets/global/common.js';
+import { isNumber } from "@/assets/global/utils.js";
+import { resetToastPosition } from "@/assets/global/common.js";
 
 /**
  * 确定用户输入的页码值是否合法
@@ -56,10 +56,10 @@ function blurEvent(pageJumpContainer) {
 </script>
 
 <script setup>
-import { onMounted, nextTick, onBeforeUnmount, ref } from 'vue';
-import { useRouter } from 'vitepress';
-import { PagePre, PageNext } from '@/components/icon/page/PageArrows.vue';
-import { generateToast } from '@/components/dialog/Toast.vue';
+import { onMounted, nextTick, onBeforeUnmount, ref } from "vue";
+import { useRouter } from "vitepress";
+import { PagePre, PageNext } from "@/components/icon/page/PageArrows.vue";
+import { generateToast } from "@/components/dialog/Toast.vue";
 
 const props = defineProps({
     currentPage: {
