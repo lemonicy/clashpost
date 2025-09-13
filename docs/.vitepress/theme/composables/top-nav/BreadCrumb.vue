@@ -28,9 +28,6 @@ function getBreadcrumbArr(moduleCode, finalTitle, path) {
     } else if (moduleCode === "posts") {
         items[1] = setBreadcrumbItem(null, "攻略教程");
 
-    } else if (moduleCode === "faq") {
-        items[1] = setBreadcrumbItem(null, "联系我们");
-
     } else if (moduleCode === "settings") {
         items[1] = setBreadcrumbItem(null, "设置");
 

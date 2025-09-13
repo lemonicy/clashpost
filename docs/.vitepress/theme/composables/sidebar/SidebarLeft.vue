@@ -239,9 +239,6 @@ if (inBrowser) {
                     </li>
                 </ul>
             </li>
-            <li>
-                <a id="cp-module-faq" class="cp-module-item" href="/faq">联系我们</a>
-            </li>
         </ul>
         <ul id="cp-sidebar-left-settings" class='cp-sidebar-left-list'>
             <li>
