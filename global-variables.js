@@ -16,8 +16,8 @@ export const maintenancePosts = [6540];
  * notificationHTML {String} 通知内容，可使用 HTML 代码。如果发布多条通知，通常使用 <hr> 标签分割。
  */
 export const notificationInfo = {
-    "hasNotification": false,
-    "notificationCount": 2,
-    "currentNotificationId": 10,
-    "notificationHTML": ""
+    "hasNotification": true,
+    "notificationCount": 1,
+    "currentNotificationId": 11,
+    "notificationHTML": "我们收到用户反馈说，账号绑定工具可以登录，但加载不出绑定 QQ 或微信的页面。这看起来是腾讯那边的问题，请等待修复。"
 }
