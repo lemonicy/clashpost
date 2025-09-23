@@ -50,7 +50,7 @@ canonical: /upgrade/0300-Walls
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="1×1" />
-    <UnitProperty pKey="18 级城墙最高可升级" pValue="250 块" />
+    <!-- <UnitProperty pKey="18 级城墙最高可升级" pValue="250 块" /> -->
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -113,6 +113,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>1 ~ 7 级城墙的生命值减少。</TimelineRow>
+        <TimelineRow>17 本现可解锁全部 18 级城墙。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>13 ~ 17 级城墙的升级费用降低。</TimelineRow>
