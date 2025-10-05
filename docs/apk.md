@@ -12,12 +12,12 @@ import { showDialog } from "@/components/dialog/Dialog.vue";
 import { generateToast } from "@/components/dialog/Toast.vue";
 import Download from "@/components/icon/Download.vue";
 
-const disableDownloading = false;
+const disableDownloading = true;
 const apkVersion = "17.360.42";
 const apkUploadDate = "2025-10-01";
 const apkFileSize = "669.9 MB";
 const apkFileName = "Clash_of_Clans_v17.360.42_ZeKY2EettapSV7VC.apk";
-const systemRequirement = "Android 5.0+";
+const systemRequirement = "Android 7.0+";
 
 function downloadCocApk() {
     window.location.href = "https://static.clashpost.com/download/" + encodeURI(apkFileName);
@@ -162,11 +162,10 @@ function downloadCocApk() {
 - [~~昆仑（线路一）~~](http://update.coc.gameark.cn/?channel=kunlun)
 - [~~昆仑（线路二）~~](https://coc.arkgames.com/)
   - 根据用户反馈，截至 2025 年 5 月，昆仑渠道的账号已无法绑定。
-- [~~九游/豌豆荚（线路一）~~](http://update.coc.gameark.cn/?channel=wandoujia)
-- [~~九游/豌豆荚（线路二）~~](https://www.wandoujia.com/apps/6632360)
+- [九游/豌豆荚（线路一）](http://update.coc.gameark.cn/?channel=wandoujia)
+- [九游/豌豆荚（线路二）](https://www.wandoujia.com/apps/6632360)
 - [~~九游~~](https://a.9game.cn/coc/)
   - 分服前，阿里巴巴收购了豌豆荚，并把豌豆荚整合到了他们自家的九游品牌，但安装包并没有完全统一。当时豌豆荚版可以登录九游版，但是反过来不行，直到分服后都还是这样。
-  - 根据用户反馈，截至 2025 年 5 月，豌豆荚和九游渠道均已无法绑定。
 - [360（线路一）](http://update.coc.gameark.cn/?channel=360)
 - [360（线路二）](https://m.app.so.com/detail/index?from=qing&id=3100671)
   - 进入之后请先取消勾选“360手机助手官方下载”的选项，再点击“普通下载”，最后在弹窗中点击“继续”按钮，只要选错一步就会下载到 360 手机助手。
