@@ -16,8 +16,8 @@ export const maintenancePosts = [6540];
  * notificationHTML {String} 通知内容，可使用 HTML 代码。如果发布多条通知，通常使用 <hr> 标签分割。
  */
 export const notificationInfo = {
-    "hasNotification": false,
+    "hasNotification": true,
     "notificationCount": 1,
-    "currentNotificationId": 11,
-    "notificationHTML": ""
+    "currentNotificationId": 12,
+    "notificationHTML": "本次更新后，部落冲突的最低系统要求已改为 iOS 15 或 Android 7.0，望周知。"
 }
