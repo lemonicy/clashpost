@@ -21,7 +21,7 @@
 
 ```
 npm install
-npm run dev
+npm run docs:dev
 ```
 
 4. 打开 http://localhost:5173
