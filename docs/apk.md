@@ -12,11 +12,11 @@ import { showDialog } from "@/components/dialog/Dialog.vue";
 import { generateToast } from "@/components/dialog/Toast.vue";
 import Download from "@/components/icon/Download.vue";
 
-const disableDownloading = true;
-const apkVersion = "17.360.42";
-const apkUploadDate = "2025-10-01";
-const apkFileSize = "669.9 MB";
-const apkFileName = "Clash_of_Clans_v17.360.42_ZeKY2EettapSV7VC.apk";
+const disableDownloading = false;
+const apkVersion = "17.477.0";
+const apkUploadDate = "2025-10-06";
+const apkFileSize = "643.8 MB";
+const apkFileName = "Clash_of_Clans_v17.477.0_K8JSTBqXGIoVFZh1.apk";
 const systemRequirement = "Android 7.0+";
 
 function downloadCocApk() {
@@ -50,7 +50,7 @@ function downloadCocApk() {
     <div class="cp-download-info">
         <p>版本：{{ apkVersion }}</p>
         <p>更新时间：{{ apkUploadDate }}</p>
-        <p>系统要求：{{ systemRequirement }}<sup>*</sup></p>
+        <p>系统要求：{{ systemRequirement }}</p>
     </div>
     <button class="btn-primary cp-download-btn" @click="downloadCocApk">
         <div class="cp-download-btn-left">
@@ -78,8 +78,6 @@ function downloadCocApk() {
         </div>
     </button>
 </div>
-
-\* 从下次大版本更新开始，coc 的系统要求将更改为 Android 7.0+.
 
 请留意上方的更新时间和版本号，不要下载成旧版的安装包。如果网站内未更新安装包，请等一会再看，不要反复下载。
 
