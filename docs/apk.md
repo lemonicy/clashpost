@@ -89,7 +89,7 @@ function downloadCocApk() {
 
 - [天翼云盘（访问码：dwy1）](https://cloud.189.cn/web/share?code=EjaiAvVn6jYn) - 不限速，但必须登录才能下载。
   - 虽说天翼云盘是中国电信的产品，但不一定要在电信网络下使用，你在移动、联通的网络下也可以使用。
-- [123 云盘（提取码：M93s）](https://www.123pan.com/s/yAPGTd-Y55vH) - 不限速，但想要免登录下载需要分享者掏钱买一个叫“免登录提取流量包”的东西。
+- [123 云盘（提取码：M93s）](https://www.123pan.com/s/yAPGTd-Y55vH) - 不限速，但想要免登录下载需要分享者掏钱买一个叫“分享提取流量包”的东西。
   - 我们只会在游戏大版本更新后买一些免登录流量，手快有手慢无。
 - [小飞机网盘（提取码：dg54）](https://share.feijipan.com/s/kCBcuwIg) - 同样不限速，但只有 500 MB 以下的文件才能免登录下载，coc 安装包已超过限制，因此需要登录。
 
