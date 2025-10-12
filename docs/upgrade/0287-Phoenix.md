@@ -37,6 +37,7 @@ canonical: /upgrade/0287-Phoenix
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="0.3 格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="20 (凤凰)<br>0 (凤凰蛋)" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />

@@ -42,6 +42,7 @@ canonical: /upgrade/0246-Battle-Drill
     <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="30" />
     <UnitProperty pKey="攻击距离" pValue="1 格" />
     <UnitProperty pKey="攻击速度" pValue="1.7 秒/次" />
     <UnitProperty pKey="眩晕时间" pValue="2 秒" />

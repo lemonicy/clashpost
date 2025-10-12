@@ -39,6 +39,7 @@ canonical: /upgrade/028a-Sneezy
     <UnitProperty pKey="攻击偏好" pValue="防御建筑" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="20" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="0.8 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="见说明<sup>①</sup>" />

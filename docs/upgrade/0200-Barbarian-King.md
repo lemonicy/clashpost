@@ -27,6 +27,7 @@ canonical: /upgrade/0200-Barbarian-King
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="25" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1.2 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="1 格" />

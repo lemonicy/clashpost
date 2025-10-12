@@ -33,6 +33,7 @@ canonical: /upgrade/0283-Unicorn
     <UnitProperty pKey="治疗偏好" pValue="英雄" />
     <UnitProperty pKey="恢复类型" pValue="单个目标" />
     <UnitProperty pKey="作用目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="20" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="治疗速度" pValue="1 秒/次" />
     <UnitProperty pKey="独角手长" pValue="2.5 格" />

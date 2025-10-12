@@ -83,7 +83,7 @@ canonical: /upgrade/0605-Super-Witch
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>大宝宝（超级女巫的骷髅巨人）占用的人口数由 20 调整为 10，这意味着它现在可以被隐形弹簧弹走了。</TimelineRow>
+        <TimelineRow>大宝宝（超级女巫的骷髅巨人）占用的人口数由 20 调整为 10，这意味着它现在可以被隐形弹簧弹飞了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>超级女巫的训练时间由 6:40 改为 5:33</TimelineRow>

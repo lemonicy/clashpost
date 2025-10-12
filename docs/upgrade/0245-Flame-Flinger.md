@@ -41,6 +41,7 @@ canonical: /upgrade/0245-Flame-Flinger
     <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="30" />
     <UnitProperty pKey="攻击距离" pValue="11 格" />
     <UnitProperty pKey="攻击速度" pValue="约 5.4 秒/次<sup>①</sup>" />
     <UnitProperty pKey="首次进攻时机" pValue="到达目标后 4.5 秒<sup>②</sup>" />

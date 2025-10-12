@@ -106,7 +106,7 @@ const tableExtraInfo = [
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 小雪怪本身不会触发陷阱，但是大雪怪踩中的 [弹簧](/upgrade/0381-Spring-Trap)、[大炸弹](/upgrade/0383-Giant-Bomb) 等陷阱可能会伤害到小雪怪。
+1. 小雪怪本身不会触发陷阱，但是大雪怪踩中的 [大炸弹](/upgrade/0383-Giant-Bomb) 等陷阱可能会伤害到小雪怪。
 2. 小雪怪对防御建筑的伤害是 4 倍，对带有武器的 [大本营](/upgrade/0400-Town-Hall) 是 2 倍，对不带武器的大本以及其他资源建筑为二分之一。
     - 大本营的武器在升级时应视为不带武器的大本。
     - 此处我们**不**将 [铁匠铺](/upgrade/0488-Blacksmith) 视为资源建筑。
