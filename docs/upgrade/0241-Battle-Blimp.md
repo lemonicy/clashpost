@@ -37,6 +37,7 @@ canonical: /upgrade/0241-Battle-Blimp
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="3 格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="30" />
     <UnitProperty pKey="移动速度" pValue="2.25 格/秒" />
     <UnitProperty pKey="炸弹投掷速度" pValue="1.5 秒/次" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="2" />

@@ -27,6 +27,7 @@ canonical: /upgrade/0200-Barbarian-King
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="25" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1.2 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="1 格" />
@@ -146,11 +147,11 @@ const tableExtraInfo = [
 |  78 |   490  | 588   |  9240 |  195k |  7    |        |         8        |      14       |
 |  79 |   498  | 597.6 |  9401 |  200k |  7    |        |         8        |      14       |
 |  80 |   506  | 607.2 |  9563 |  205k |  7    |        |         8        |      14       |
-|  81 |   513  | 615.6 |  9690 |  210k |  7,12 |        |         9        |      15       |
-|  82 |   519  | 622.8 |  9818 |  215k |  7,12 |        |         9        |      15       |
-|  83 |   526  | 631.2 |  9945 |  220k |  7,12 |        |         9        |      15       |
-|  84 |   533  | 639.6 | 10073 |  225k |  7,12 |        |         9        |      15       |
-|  85 |   540  | 648   | 10200 |  230k |  7,12 |        |         9        |      15       |
+|  81 |   513  | 615.6 |  9690 |  210k |  7,12 |        |         8        |      14       |
+|  82 |   519  | 622.8 |  9818 |  215k |  7,12 |        |         8        |      14       |
+|  83 |   526  | 631.2 |  9945 |  220k |  7,12 |        |         8        |      14       |
+|  84 |   533  | 639.6 | 10073 |  225k |  7,12 |        |         8        |      14       |
+|  85 |   540  | 648   | 10200 |  230k |  7,12 |        |         8        |      14       |
 |  86 |   547  | 656.4 | 10328 |  240k |  8    |        |         9        |      15       |
 |  87 |   553  | 663.6 | 10455 |  250k |  8    |        |         9        |      15       |
 |  88 |   560  | 672   | 10583 |  260k |  8    |        |         9        |      15       |
@@ -202,6 +203,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>现在 14 级大本营即可解锁 81 ~ 85 级野蛮人之王。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>取消英雄的恢复时间，现在英雄可以像战宠一样瞬间恢复。</TimelineRow>
     </TimelineItem>

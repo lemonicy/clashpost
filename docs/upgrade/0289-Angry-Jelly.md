@@ -32,6 +32,7 @@ canonical: /upgrade/0289-Angry-Jelly
     <UnitProperty pKey="攻击偏好" pValue="英雄的目标" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="20" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="0.75 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="5 格" />

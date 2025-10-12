@@ -27,6 +27,7 @@ canonical: /upgrade/0201-Archer-Queen
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="25" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="0.75 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="5 格" />
@@ -147,11 +148,11 @@ const tableExtraInfo = [
 |  78  |  706  |  529.5  |  2796 |  195k |  7,12 |        |         8        |      14       |
 |  79  |  710  |  532.5  |  2824 |  200k |  7,12 |        |         8        |      14       |
 |  80  |  714  |  535.5  |  2852 |  205k |  7,12 |        |         8        |      14       |
-|  81  |  717  |  537.75 |  2880 |  210k |  8    |        |         9        |      15       |
-|  82  |  721  |  540.75 |  2904 |  215k |  8    |        |         9        |      15       |
-|  83  |  724  |  543    |  2928 |  220k |  8    |        |         9        |      15       |
-|  84  |  728  |  546    |  2952 |  225k |  8    |        |         9        |      15       |
-|  85  |  731  |  548.25 |  2976 |  230k |  8    |        |         9        |      15       |
+|  81  |  717  |  537.75 |  2880 |  210k |  8    |        |         8        |      14       |
+|  82  |  721  |  540.75 |  2904 |  215k |  8    |        |         8        |      14       |
+|  83  |  724  |  543    |  2928 |  220k |  8    |        |         8        |      14       |
+|  84  |  728  |  546    |  2952 |  225k |  8    |        |         8        |      14       |
+|  85  |  731  |  548.25 |  2976 |  230k |  8    |        |         8        |      14       |
 |  86  |  734  |  550.25 |  3000 |  240k |  8    |        |         9        |      15       |
 |  87  |  738  |  553.5  |  3024 |  250k |  8    |        |         9        |      15       |
 |  88  |  741  |  555.75 |  3048 |  260k |  8    |        |         9        |      15       |
@@ -203,6 +204,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>现在 14 级大本营即可解锁 81 ~ 85 级弓箭女皇。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>取消英雄的恢复时间，现在英雄可以像战宠一样瞬间恢复。</TimelineRow>
     </TimelineItem>

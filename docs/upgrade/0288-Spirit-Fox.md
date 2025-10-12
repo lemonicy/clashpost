@@ -33,6 +33,7 @@ canonical: /upgrade/0288-Spirit-Fox
     <UnitProperty pKey="攻击偏好" pValue="距离英雄不超过 4.5 格的目标" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="20" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1.6 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />

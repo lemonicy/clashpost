@@ -44,7 +44,7 @@ canonical: /upgrade/0083-Golem
 <SmallTitle>重要说明</SmallTitle>
 
 1. 戈仑石人死亡后会分裂成若干小戈仑石人（小石头人）。
-2. 根据玩家解安装包的结果，小石头人占用 6 空间，可被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹走。
+2. 根据玩家解安装包的结果，小石头人占用 6 空间，可被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞。
 3. 自 2024 年 6 月平衡性调整起，小石头人的生命值不再固定为大石头人的五分之一，但游戏内的介绍还是保留了五分之一这个说法。
 
 <SmallTitle>属性</SmallTitle>
@@ -132,7 +132,7 @@ const tableExtraInfo = [
 <SmallTitle>重要说明</SmallTitle>
 
 1. 戈仑石人死亡后会分裂成若干小戈仑石人（小石头人）。
-2. 根据玩家解安装包的结果，小石头人占用 6 空间，可被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹走。
+2. 根据玩家解安装包的结果，小石头人占用 6 空间，可被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞。
 3. 自 2024 年 6 月平衡性调整起，小石头人的生命值不再固定为大石头人的五分之一，但游戏内的介绍还是保留了五分之一这个说法。
 
 <SmallTitle>属性</SmallTitle>

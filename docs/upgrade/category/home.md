@@ -219,7 +219,7 @@ if (activeTabCookieValue === "home-techniques") {
     </ListItems>
     <ListItems title="陷阱" imgFolder="home_buildings">
         <ListItem name="隐形炸弹" imgSrc="0380/Bomb13.png" link="0380-Bomb" />
-        <ListItem name="隐形弹簧" imgSrc="0381/Spring_Trap5.png" link="0381-Spring-Trap" />
+        <ListItem name="隐形弹簧" imgSrc="0381/Spring_Trap11.png" link="0381-Spring-Trap" />
         <ListItem name="空中炸弹" imgSrc="0382/Air_Bomb11.png" link="0382-Air-Bomb" />
         <ListItem name="巨型炸弹" imgSrc="0383/Giant_Bomb11.png" link="0383-Giant-Bomb" />
         <ListItem name="搜空地雷" imgSrc="0384/Seeking_Air_Mine7.png" link="0384-Seeking-Air-Mine" />

@@ -2,7 +2,7 @@
 title: "部落冲突 coc 大本营升级数据"
 navTitle: "大本营"
 shownTitle: "大本营"
-description: "大本营是村庄的核心。升级大本营，可解锁新的防御、建筑、陷阱和更多内容。摧毁敌军大本营，您将赢得战争，并获得一颗星。摧毁敌军 50% 的建筑及其大本营，可赢得第二颗星。如果 100% 全毁敌军建筑，则获得满分三星。"
+description: "大本营是村庄的核心。升级大本营，可解锁新的防御、建筑、陷阱和更多内容。在战斗中摧毁敌军大本营，您将获得一颗星。把大本营建在村庄中心，并在其周围建造城墙、陷阱以及其他防御是最安全的举措。"
 module: upgrade-home
 imgFolder: home_buildings/0400
 wiki: https://clashofclans.fandom.com/wiki/Town_Hall
@@ -14,12 +14,12 @@ canonical: /upgrade/0400-Town-Hall
 - *如想查看都城的大本营，请访问：[都城大本营](/upgrade/2400-Capital-Hall)、[子城大本营](/upgrade/2401-District-Hall)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Town_Hall17_5_hd.png" :imgAlt="$frontmatter.navTitle"
-    description="大本营是村庄的核心。升级大本营，可解锁新的防御、建筑、陷阱和更多内容。<br>摧毁敌军大本营，您将赢得战争，并获得一颗星。<br>摧毁敌军 50% 的建筑及其大本营，可赢得第二颗星。<br>如果 100% 全毁敌军建筑，则获得满分三星。<br>小心！敌军也会尝试摧毁您的大本营！<br>把大本营建在村庄中心，并在其周围建造城墙、陷阱以及其他防御是最安全的举措。<br>敌军十分狡猾，可能在村庄的任何一侧发起进攻！" />
+    description="大本营是村庄的核心。升级大本营，可解锁新的防御、建筑、陷阱和更多内容。<br>在战斗中摧毁敌军大本营，您将获得一颗星。<br>把大本营建在村庄中心，并在其周围建造城墙、陷阱以及其他防御是最安全的举措。" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
-    <UnitImgGroup :folder="$frontmatter.imgFolder">
+    <UnitImgGroup :folder="$frontmatter.imgFolder" title="当前版本使用的模型">
         <UnitImg imgTitle="1 本" imgSrc="Town_Hall1.png" imgHd="Town_Hall1_hd.png" />
         <UnitImg imgTitle="2 本" imgSrc="Town_Hall2.png" imgHd="Town_Hall2_hd.png" />
         <UnitImg imgTitle="3 本" imgSrc="Town_Hall3.png" imgHd="Town_Hall3_hd.png" />
@@ -31,6 +31,18 @@ canonical: /upgrade/0400-Town-Hall
         <UnitImg imgTitle="9 本" imgSrc="Town_Hall9.png" imgHd="Town_Hall9_hd.png" />
         <UnitImg imgTitle="10 本" imgSrc="Town_Hall10.png" imgHd="Town_Hall10_hd.png" />
         <UnitImg imgTitle="11 本" imgSrc="Town_Hall11.png" imgHd="Town_Hall11_hd.png" />
+        <UnitImg imgTitle="12 本" imgSrc="Town_Hall12.png" imgHd="Town_Hall12_hd.png" />
+        <UnitImg imgTitle="13 本" imgSrc="Town_Hall13.png" imgHd="Town_Hall13_hd.png" />
+        <UnitImg imgTitle="14 本" imgSrc="Town_Hall14.png" imgHd="Town_Hall14_hd.png" />
+        <UnitImg imgTitle="15 本" imgSrc="Town_Hall15.png" imgHd="Town_Hall15_hd.png" />
+        <UnitImg imgTitle="16 本" imgSrc="Town_Hall16.png" imgHd="Town_Hall16_hd.png" />
+        <UnitImg imgTitle="17 本 1 星" imgSrc="Town_Hall17_1.png" imgHd="Town_Hall17_1_hd.png" />
+        <UnitImg imgTitle="17 本 2 星" imgSrc="Town_Hall17_2.png" imgHd="Town_Hall17_2_hd.png" />
+        <UnitImg imgTitle="17 本 3 星" imgSrc="Town_Hall17_3.png" imgHd="Town_Hall17_3_hd.png" />
+        <UnitImg imgTitle="17 本 4 星" imgSrc="Town_Hall17_4.png" imgHd="Town_Hall17_4_hd.png" />
+        <UnitImg imgTitle="17 本 5 星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
+    </UnitImgGroup>
+    <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="12 本 1 星" imgSrc="Town_Hall12_1.png" imgHd="Town_Hall12_1_hd.png" />
         <UnitImg imgTitle="12 本 2 星" imgSrc="Town_Hall12_2.png" imgHd="Town_Hall12_2_hd.png" />
         <UnitImg imgTitle="12 本 3 星" imgSrc="Town_Hall12_3.png" imgHd="Town_Hall12_3_hd.png" />
@@ -51,12 +63,6 @@ canonical: /upgrade/0400-Town-Hall
         <UnitImg imgTitle="15 本 3 星" imgSrc="Town_Hall15_3.png" imgHd="Town_Hall15_3_hd.png" />
         <UnitImg imgTitle="15 本 4 星" imgSrc="Town_Hall15_4.png" imgHd="Town_Hall15_4_hd.png" />
         <UnitImg imgTitle="15 本 5 星" imgSrc="Town_Hall15_5.png" imgHd="Town_Hall15_5_hd.png" />
-        <UnitImg imgTitle="16 本" imgSrc="Town_Hall16.png" imgHd="Town_Hall16_hd.png" />
-        <UnitImg imgTitle="17 本 1 星" imgSrc="Town_Hall17_1.png" imgHd="Town_Hall17_1_hd.png" />
-        <UnitImg imgTitle="17 本 2 星" imgSrc="Town_Hall17_2.png" imgHd="Town_Hall17_2_hd.png" />
-        <UnitImg imgTitle="17 本 3 星" imgSrc="Town_Hall17_3.png" imgHd="Town_Hall17_3_hd.png" />
-        <UnitImg imgTitle="17 本 4 星" imgSrc="Town_Hall17_4.png" imgHd="Town_Hall17_4_hd.png" />
-        <UnitImg imgTitle="17 本 5 星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -124,11 +130,11 @@ const tableExtraInfo2 = [
 |  10  |   5500 |   3.5M  |  3         |                    |     84     |     30    |
 |  11  |   6800 |     4M  |  5         |                    |     89     |     31    |
 |  12  |   7500 |     6M  |  6         |                    |     92     |     36    |
-|  13  |   8200 |     9M  |  7,12      |                    |     94     |     39    |
-|  14  |   8900 |    12M  |  9         |                    |     95     |     44    |
-|  15  |   9600 |    13M  | 10         |                    |     98     |     44    |
-|  16  |  10000 |    16M  | 11         |                    |     94     |     44    |
-|  17  |  10400 |    16M  | 12         |                    |     94     |     47    |
+|  13  |   8200 |     9M  |  7         |                    |     94     |     39    |
+|  14  |   8900 |    12M  |  7,12      |                    |     95     |     44    |
+|  15  |   9600 |    13M  |  8         |                    |     98     |     44    |
+|  16  |  10000 |    15M  |  9         |                    |     94     |     44    |
+|  17  |  10400 |    16M  | 10         |                    |     94     |     47    |
 </UnitTable>
 
 **\* 关于建筑数量和陷阱数量的说明：**
@@ -176,6 +182,11 @@ const tableExtraInfo2 = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>同步游戏内大本营的文字描述。</TimelineRow>
+        <TimelineRow>16 级大本营的升级费用降低。</TimelineRow>
+        <TimelineRow>13 ~ 17 级大本营的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>1 ~ 4 级大本营的生命值减少。</TimelineRow>
         <TimelineRow>由于精制台的推出，17 级大本营的建筑数量加一。</TimelineRow>

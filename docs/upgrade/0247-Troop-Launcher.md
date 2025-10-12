@@ -37,6 +37,7 @@ canonical: /upgrade/0247-Troop-Launcher
 <UnitProperties>
     <UnitProperty pKey="作用方式" pValue="给进攻方投放增援部队" />
     <UnitProperty pKey="作用目标" pValue="最近的进攻方部队" />
+    <UnitProperty pKey="占据人口" pValue="30" />
     <UnitProperty pKey="最远投放距离" pValue="未知" />
     <UnitProperty pKey="投放速度" pValue="6 秒/次" />
     <UnitProperty pKey="移动速度" pValue="0 (无法移动)" />
