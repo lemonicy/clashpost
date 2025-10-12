@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 隐形弹簧升级数据"
 navTitle: "隐形弹簧"
 shownTitle: "隐形弹簧"
@@ -51,6 +51,7 @@ canonical: /upgrade/0381-Spring-Trap
     - 隐形弹簧可以对英雄、战宠和攻城机器造成**一半伤害**。
 4. 如果同一部队在同一位置多次触发隐形弹簧，伤害不会叠加。
 5. [大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止小单位部队被隐形弹簧弹飞，也无法使部队免疫弹簧的击退效果，但可以免疫大单位部队受到的伤害。
+6. 现在隐形弹簧的反应比 [哥布林](/upgrade/0003-Goblin) 和 [超级炸弹人](/upgrade/0603-Super-Wall-Breaker) 都快，即使哥布林或超级炸弹人在移动，弹簧也可以弹飞它们。
 
 <SmallTitle>属性</SmallTitle>
 

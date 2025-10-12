@@ -31,6 +31,7 @@ canonical: /upgrade/0003-Goblin
 
 1. 哥布林攻击资源类建筑时，其伤害翻倍。
 2. [铁匠铺](/upgrade/0488-Blacksmith) 免疫 [雷电法术](/upgrade/0100-Lightning-Spell) 伤害，理论上属于资源类建筑，但不被哥布林优先攻击，哥布林的攻击伤害也不会翻倍。
+3. 2025/10 更新后，哥布林的反应已经没有隐形弹簧快了，但游戏内仍然保留了“他们的反应比隐形弹簧更快”这段介绍。
 
 <SmallTitle>属性</SmallTitle>
 
