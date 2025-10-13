@@ -13,10 +13,10 @@ import { generateToast } from "@/components/dialog/Toast.vue";
 import Download from "@/components/icon/Download.vue";
 
 const disableDownloading = false;
-const apkVersion = "17.477.0";
-const apkUploadDate = "2025-10-06";
+const apkVersion = "17.477.9";
+const apkUploadDate = "2025-10-13";
 const apkFileSize = "643.8 MB";
-const apkFileName = "Clash_of_Clans_v17.477.0_K8JSTBqXGIoVFZh1.apk";
+const apkFileName = "Clash_of_Clans_v17.477.9_m74sZ6H7ZEnZIO4Q.apk";
 const systemRequirement = "Android 7.0+";
 
 function downloadCocApk() {
@@ -49,7 +49,7 @@ function downloadCocApk() {
 <div class="cp-download-component" v-if="!disableDownloading">
     <div class="cp-download-info">
         <p>版本：{{ apkVersion }}</p>
-        <p>更新时间：{{ apkUploadDate }}</p>
+        <p>上传时间：{{ apkUploadDate }}</p>
         <p>系统要求：{{ systemRequirement }}</p>
     </div>
     <button class="btn-primary cp-download-btn" @click="downloadCocApk">
@@ -65,7 +65,7 @@ function downloadCocApk() {
 <div class="cp-download-component" v-else>
     <div class="cp-download-info">
         <p>版本：未知</p>
-        <p>更新时间：未知</p>
+        <p>上传时间：未知</p>
         <p>系统要求：{{ systemRequirement }}</p>
     </div>
     <button class="btn-primary cp-download-btn" disabled>
@@ -79,7 +79,7 @@ function downloadCocApk() {
     </button>
 </div>
 
-请留意上方的更新时间和版本号，不要下载成旧版的安装包。如果网站内未更新安装包，请等一会再看，不要反复下载。
+请留意上方的上传时间和版本号，不要下载成旧版的安装包。如果网站内未更新安装包，请等一会再看，不要反复下载。
 
 ### 网盘下载
 

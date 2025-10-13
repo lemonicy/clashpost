@@ -18,6 +18,12 @@ export const maintenancePosts = [6540];
 export const notificationInfo = {
     "hasNotification": true,
     "notificationCount": 1,
-    "currentNotificationId": 12,
-    "notificationHTML": "本次更新后，部落冲突的最低系统要求已改为 iOS 15 或 Android 7.0，望周知。"
+    "currentNotificationId": 13,
+    "notificationHTML": "关于 coc 本次更新的内容，网站的同步情况如下：<br><br>" +
+        "1. 重做后的隐形弹簧（已完成）。另外，由于重做后的隐形弹簧需要判断英雄、战宠和攻城机器的人口数，为了方便大家判断，我们在英雄、战宠和攻城机器页面添加了占用人口属性。<br>" +
+        "2. 14 本额外解锁的 5 级英雄（已完成）<br>" +
+        "3. 移除 12 - 15 本的大本武器等级（已完成）<br>" +
+        "4. 老玩家劳动贬值，也即提速降费部分（进度 0%）<br>"+
+        "5. 这次更新涉及到的攻略区文章，如护盾、掠夺机制（进度 0%）<br><br>"+
+        "后续进度更新不会推送新通知，感兴趣的玩家点击铃铛图标就能看到了。"
 }
