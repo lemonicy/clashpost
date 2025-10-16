@@ -21,12 +21,15 @@ canonical: /upgrade/030d-Giga-Inferno
 
 <!-- ↓↓↓ 13 本 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Inferno13_5.png" imgAlt="13 本巨型地狱之塔"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Inferno13.png" imgAlt="13 本巨型地狱之塔"
     description="巨型地狱之塔会让敌军觉得自己就是一团向篝火发动攻击的棉花糖。被摧毁时，巨型地狱之塔会炸碎大本营同时引发一场冰冻，在一段时间内减速附近所有敌军。" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder" title="当前版本使用的模型">
+        <UnitImg imgTitle="1 级" imgSrc="Giga_Inferno13.png" />
+    </UnitImgGroup>
     <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="1 级" imgSrc="Giga_Inferno13_1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Giga_Inferno13_2.png" />
@@ -101,12 +104,15 @@ canonical: /upgrade/030d-Giga-Inferno
 
 <!-- ↓↓↓ 14 本 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Inferno14_5.png" imgAlt="14 本巨型地狱之塔"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Inferno14.png" imgAlt="14 本巨型地狱之塔"
     description="巨型地狱之塔会让敌军觉得自己就是一团向篝火发动攻击的棉花糖。经过技术升级后，它现在变得更加强大，被摧毁时会释放毒雾，对附近敌军造成伤害并使其减速。" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder" title="当前版本使用的模型">
+        <UnitImg imgTitle="1 级" imgSrc="Giga_Inferno14.png" />
+    </UnitImgGroup>
     <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="1 级" imgSrc="Giga_Inferno14_1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Giga_Inferno14_2.png" />
@@ -173,7 +179,7 @@ canonical: /upgrade/030d-Giga-Inferno
 
 <!-- ↓↓↓ 15 本 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-2" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Inferno15_5.png" imgAlt="15 本巨型地狱之塔"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Inferno15.png" imgAlt="15 本巨型地狱之塔"
     description="巨型地狱之塔会让敌军觉得自己就是一团向篝火发动攻击的棉花糖。经过技术升级后，它现在变得更加强大，被摧毁时会释放毒雾，对附近敌军造成伤害并使其减速。" />
 
 <SmallTitle>各等级图片</SmallTitle>

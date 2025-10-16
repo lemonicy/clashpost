@@ -12,12 +12,15 @@ canonical: /upgrade/030c-Giga-Tesla
 - 如想查看大本营的相关数据，请访问：[大本营](/upgrade/0400-Town-Hall)。
 - 如想查看特斯拉电磁塔，请访问：[特斯拉电磁塔](/upgrade/0307-Hidden-Tesla)。
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Tesla5.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Tesla.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
-    <UnitImgGroup :folder="$frontmatter.imgFolder">
+    <UnitImgGroup :folder="$frontmatter.imgFolder" title="当前版本使用的模型">
+        <UnitImg imgTitle="1 级" imgSrc="Giga_Tesla.png" />
+    </UnitImgGroup>
+    <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="1 级" imgSrc="Giga_Tesla1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Giga_Tesla2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Giga_Tesla3.png" />
