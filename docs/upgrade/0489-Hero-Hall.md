@@ -84,13 +84,13 @@ const tableExtraInfo = [
 |   1  |        1        |  2000 |   800k   |  1      |                      |        7         |<a href="/upgrade/0200-Barbarian-King">野蛮人之王</a>|
 |   2  |        1        |  2400 |   1.6M   |  2      |                      |        8         |<a href="/upgrade/0201-Archer-Queen">弓箭女皇</a>|
 |   3  |        2        |  2800 |   2.3M   |  3      |                      |        9         |<a href="/upgrade/0204-Minion-Prince">亡灵王子</a>|
-|   4  |        2        |  3200 |     3M   |  5      |                      |       10         | 无 |
-|   5  |        3        |  3600 |     5M   |  6      |                      |       11         |<a href="/upgrade/0202-Grand-Warden">大守护者</a>|
-|   6  |        3        |  3800 |     6M   |  7      |                      |       12         | 无 |
-|   7  |        4        |  4200 |     9M   |  7,12   |                      |       13         |<a href="/upgrade/0203-Royal-Champion">飞盾战神</a>|
-|   8  |        4        |  4600 |    10M   |  7,18   |                      |       14         | 无 |
-|   9  |        4        |  5000 |    12M   |  8      |                      |       15         | 无 |
-|  10  |        4        |  5400 |    14M   |  9      |                      |       16         | 无 |
+|   4  |        2        |  3200 |   2.5M   |  4      |                      |       10         | 无 |
+|   5  |        3        |  3600 |   4.5M   |  4,12   |                      |       11         |<a href="/upgrade/0202-Grand-Warden">大守护者</a>|
+|   6  |        3        |  3800 |   5.5M   |  5      |                      |       12         | 无 |
+|   7  |        4        |  4200 |   8.5M   |  6      |                      |       13         |<a href="/upgrade/0203-Royal-Champion">飞盾战神</a>|
+|   8  |        4        |  4600 |   9.5M   |  6,12   |                      |       14         | 无 |
+|   9  |        4        |  5000 |    11M   |  7      |                      |       15         | 无 |
+|  10  |        4        |  5400 |    13M   |  8      |                      |       16         | 无 |
 |  11  |        4        |  5800 |    21M   |  15,12  |                      |       17         | 无 |  
 
 </UnitTable>
@@ -205,6 +205,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>4 ~ 10 级英雄殿堂的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 10 级英雄殿堂的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>3、7 ~ 10 级英雄殿堂的升级时间减少。</TimelineRow>
         <TimelineRow>8 ~ 10 级英雄殿堂的升级费用降低。</TimelineRow>

@@ -91,20 +91,23 @@ const tableExtraInfo = [
 
 | 等级 |  生命值 |蓝矿的<br>最大储量|紫矿的<br>最大储量|黄矿的<br>最大储量|  升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级| 解锁的装备 |
 | ---- |   ---- |        ---      |        ---      |       ---      |    ---   |   ---   |         ---         |      ---      |    ---    |
-|   1  |   700  |        10k      |       1000      |       200      |   600k   |    0,12 |                     |        8      |<a href="/upgrade/0702-Earthquake-Boots">地震金靴</a>|
-|   2  |   800  |        15k      |       1500      |       300      |   1.2M   |    1    |                     |        9      |<a href="/upgrade/0742-Giant-Arrow">巨型箭矢</a>|
-|   3  |   900  |        20k      |       2000      |       400      |   2.3M   |    2    |                     |       10      |<a href="/upgrade/0703-Vampstache">嗜血胡须</a><br><a href="/upgrade/0722-Metal-Pants">铁甲短裤</a>|
-|   4  |  1000  |        25k      |       2500      |       500      |     3M   |    3    |                     |       11      |<a href="/upgrade/0782-Rage-Gem">狂暴宝石</a>|
-|   5  |  1100  |        30k      |       3000      |       600      |     5M   |    4    |                     |       12      |<a href="/upgrade/0743-Healer-Puppet">天使木偶</a><br><a href="/upgrade/0723-Noble-Iron">贵族哑铃</a>|
-|   6  |  1200  |        35k      |       3500      |       700      |   6.2M   |    5    |                     |       13      |<a href="/upgrade/0783-Healing-Tome">治疗书卷</a>|
-|   7  |  1300  |        40k      |       4000      |       800      |   9.2M   |    7    |                     |       14      |<a href="/upgrade/07c2-Hog-Rider-Puppet">野猪骑士木偶</a>|
-|   8  |  1400  |        45k      |       4500      |       900      |    10M   |    7, 6 |                     |       15      |<a href="/upgrade/07c3-Haste-Vial">急速药水瓶</a>|
-|   9  |  1500  |        50k      |       5000      |      1000      |    11M   |    8    |                     |       16      |     无    |
+|   1  |   700  |        10k      |       1000      |       200      |   600k   |   0,12  |                     |        8      |<a href="/upgrade/0702-Earthquake-Boots">地震金靴</a>|
+|   2  |   800  |        15k      |       1500      |       300      |   1.2M   |   1     |                     |        9      |<a href="/upgrade/0742-Giant-Arrow">巨型箭矢</a>|
+|   3  |   900  |        20k      |       2000      |       400      |   2.3M   |   2     |                     |       10      |<a href="/upgrade/0703-Vampstache">嗜血胡须</a><br><a href="/upgrade/0722-Metal-Pants">铁甲短裤</a>|
+|   4  |  1000  |        25k      |       2500      |       500      |     3M   |   3     |                     |       11      |<a href="/upgrade/0782-Rage-Gem">狂暴宝石</a>|
+|   5  |  1100  |        30k      |       3000      |       600      |     5M   |   4     |                     |       12      |<a href="/upgrade/0743-Healer-Puppet">天使木偶</a><br><a href="/upgrade/0723-Noble-Iron">贵族哑铃</a>|
+|   6  |  1200  |        35k      |       3500      |       700      |   6.2M   |   4,12  |                     |       13      |<a href="/upgrade/0783-Healing-Tome">治疗书卷</a>|
+|   7  |  1300  |        40k      |       4000      |       800      |   9.2M   |   5     |                     |       14      |<a href="/upgrade/07c2-Hog-Rider-Puppet">野猪骑士木偶</a>|
+|   8  |  1400  |        45k      |       4500      |       900      |    10M   |   6     |                     |       15      |<a href="/upgrade/07c3-Haste-Vial">急速药水瓶</a>|
+|   9  |  1500  |        50k      |       5000      |      1000      |    11M   |   7     |                     |       16      |     无    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>6 ~ 9 级铁匠铺的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>1 ~ 6、8 ~ 9 级铁匠铺的升级时间减少。</TimelineRow>
         <TimelineRow>1 ~ 2、5 ~ 9 级铁匠铺的升级费用降低。</TimelineRow>
