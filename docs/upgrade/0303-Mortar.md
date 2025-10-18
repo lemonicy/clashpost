@@ -124,8 +124,8 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 |  12  |    38   |   190   |  1500  |   2.4M  |   1,12    |                     |       12       |
 |  13  |    42   |   210   |  1700  |   2.8M  |   2       |                     |       13       |
 |  14  |    48   |   240   |  1950  |   4.3M  |   2,12    |                     |       14       |
-|  15  |    54   |   270   |  2150  |     5M  |   3,12    |                     |       15       |
-|  16  |    60   |   300   |  2300  |     7M  |   5       |                     |       16       |
+|  15  |    54   |   270   |  2150  |     5M  |   3       |                     |       15       |
+|  16  |    60   |   300   |  2300  |     7M  |   4       |                     |       16       |
 |  17  |    66   |   330   |  2450  |  19.5M  |  14,12    |                     |       17       |
 | ⚡1  |    69   |   345   |  2450  |   7.5M  |   3,12    |                     |       17       |
 | ⚡2  |    69   |   345   |  2525  |     5M  |   5,12    |                     |       17       |
@@ -193,8 +193,8 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 |  12  |    41   |   70    |  1500  |  2.4M   |   1,12    |                     |       12       |
 |  13  |    46   |   77    |  1700  |  2.8M   |   2       |                     |       13       |
 |  14  |    52   |   88    |  1950  |  4.3M   |   2,12    |                     |       14       |
-|  15  |    59   |   99    |  2150  |    5M   |   3,12    |                     |       15       |
-|  16  |    65   |  110    |  2300  |    7M   |   5       |                     |       16       |
+|  15  |    59   |   99    |  2150  |    5M   |   3       |                     |       15       |
+|  16  |    65   |  110    |  2300  |    7M   |   4       |                     |       16       |
 |  17  |    72   |  121    |  2450  | 19.5M   |  14,12    |                     |       17       |
 | ⚡1  |    75   |   126   |  2450  |  7.5M   |   3,12    |                     |       17       |
 | ⚡2  |    75   |   126   |  2525  |    5M   |   5,12    |                     |       17       |
@@ -207,6 +207,9 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>15 ~ 16 级迫击炮的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>1 ~ 9、11、13 ~ 16 级迫击炮的升级时间减少。</TimelineRow>
         <TimelineRow>3 ~ 4、6 ~ 16 级迫击炮的升级费用降低。</TimelineRow>

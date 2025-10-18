@@ -141,10 +141,10 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
 |  15  |   105   |   84    |  1500  |  1.2M   |  0,10       |                     |       11       |
 |  16  |   110   |   88    |  1620  |  1.3M   |  0,11       |                     |       12       |
 |  17  |   115   |   92    |  1740  |  1.5M   |  0,12       |                     |       12       |
-|  18  |   125   |  100    |  1870  |  1.8M   |  0,20       |                     |       13       |
-|  19  |   135   |  108    |  2000  |    2M   |  1          |                     |       13       |
-|  20  |   150   |  120    |  2150  |  2.6M   |  1,12       |                     |       14       |
-|  21  |   160   |  128    |  2250  |    3M   |  2          |                     |       15       |
+|  18  |   125   |  100    |  1870  |  1.8M   |  0,16       |                     |       13       |
+|  19  |   135   |  108    |  2000  |    2M   |  0,20       |                     |       13       |
+|  20  |   150   |  120    |  2150  |  2.6M   |  1          |                     |       14       |
+|  21  |   160   |  128    |  2250  |    3M   |  1,12       |                     |       15       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -219,10 +219,10 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
 |  15  |   156   |   92    |  1500  |  1.2M   |   0,10    |                     |       11       |
 |  16  |   162   |   96    |  1620  |  1.3M   |   0,11    |                     |       12       |
 |  17  |   170   |  100    |  1740  |  1.5M   |   0,12    |                     |       12       |
-|  18  |   175   |  104    |  1870  |  1.8M   |   0,20    |                     |       13       |
-|  19  |   189   |  112    |  2000  |    2M   |   1       |                     |       13       |
-|  20  |   202   |  120    |  2150  |  2.6M   |   1,12    |                     |       14       |
-|  21  |   216   |  128    |  2250  |    3M   |   2       |                     |       15       |
+|  18  |   175   |  104    |  1870  |  1.8M   |   0,16    |                     |       13       |
+|  19  |   189   |  112    |  2000  |    2M   |   0,20    |                     |       13       |
+|  20  |   202   |  120    |  2150  |  2.6M   |   1       |                     |       14       |
+|  21  |   216   |  128    |  2250  |    3M   |   1,12    |                     |       15       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -230,6 +230,9 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>18 ~ 21 级加农炮的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>1 ~ 6 级加农炮的生命值减少。</TimelineRow>
         <TimelineRow>1 ~ 6 级加农炮的每秒伤害降低。</TimelineRow>

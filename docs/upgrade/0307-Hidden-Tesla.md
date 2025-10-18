@@ -17,7 +17,7 @@ canonical: /upgrade/0307-Hidden-Tesla
 <SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
-    <UnitImgGroup title="特斯拉电磁塔" :folder="$frontmatter.imgFolder">
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Hidden_Tesla1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Hidden_Tesla2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Hidden_Tesla3.png" />
@@ -95,9 +95,9 @@ const tableExtraInfo = [
 |  10  |   120   |   72    |   980  |    3M   |   2       |                     |       12       |
 |  11  |   130   |   78    |  1100  |  3.1M   |   2,12    |                     |       13       |
 |  12  |   140   |   84    |  1200  |  3.7M   |   3       |                     |       13       |
-|  13  |   150   |   90    |  1350  |  5.1M   |   4       |                     |       14       |
-|  14  |   160   |   96    |  1450  |  6.5M   |   5       |                     |       15       |
-|  15  |   170   |  102    |  1550  |  8.2M   |   6       |                     |       16       |
+|  13  |   150   |   90    |  1350  |  5.1M   |   3,12    |                     |       14       |
+|  14  |   160   |   96    |  1450  |  6.5M   |   4       |                     |       15       |
+|  15  |   170   |  102    |  1550  |  8.2M   |   5       |                     |       16       |
 |  16  |   180   |  108    |  1650  | 20.5M   |  15       |                     |       17       |
 | ⚡1  |   185   |  111    |  1650  |   10M   |   4       |                     |       17       |
 | ⚡2  |   185   |  111    |  1700  |    6M   |   6       |                     |       17       |
@@ -106,6 +106,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>13 ~ 15 级特斯拉电磁塔的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>3、7 ~ 11、13 ~ 15 级特斯拉电磁塔的升级时间减少。</TimelineRow>
         <TimelineRow>3 ~ 5、7、9 ~ 15 级特斯拉电磁塔的升级费用降低。</TimelineRow>

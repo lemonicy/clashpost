@@ -77,8 +77,8 @@ const tableExtraInfo = [
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---  |   ---   |   ----  |        ---          |      ----      |
-|   1  |   360   |  288    |  5400  |    12M  |   9     |                     |       16       |
-|   2  |   390   |  312    |  5700  |    13M  |  10     |                     |       16       |
+|   1  |   360   |  288    |  5400  |    12M  |   7     |                     |       16       |
+|   2  |   390   |  312    |  5700  |    13M  |   8     |                     |       16       |
 |   3  |   405   |  324    |  6000  |    23M  |  15,12  |                     |       17       |
 | ⚡1  |   413   |  330.4  |  6000  |  11.5M  |   5,12  |                     |       17       |
 | ⚡2  |   413   |  330.4  |  6150  |     8M  |   6,12  |                     |       17       |
@@ -87,6 +87,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>1 ~ 2 级跳弹加农炮的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>1 ~ 2 级跳弹加农炮的升级费用和时间减少。</TimelineRow>
     </TimelineItem>

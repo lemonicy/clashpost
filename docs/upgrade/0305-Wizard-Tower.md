@@ -98,7 +98,7 @@ const tableExtraInfo = [
 |  13  |    84   |  109.2  |  2500  |     3M  |   2       |                     |       13       |
 |  14  |    90   |  117    |  2800  |   4.5M  |   3       |                     |       14       |
 |  15  |    95   |  123.5  |  3000  |   5.5M  |   4       |                     |       15       |
-|  16  |   102   |  132.6  |  3150  |     8M  |   5,12    |                     |       16       |
+|  16  |   102   |  132.6  |  3150  |     8M  |   4,12    |                     |       16       |
 |  17  |   110   |  143    |  3300  |    20M  |  14,18    |                     |       17       |
 | ⚡1  |   114   |  148.2  |  3300  |     8M  |   3,12    |                     |       17       |
 | ⚡2  |   114   |  148.2  |  3375  |     4M  |   5,12    |                     |       17       |
@@ -107,6 +107,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>16 级法师塔的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>1、3 ~ 5、7 ~ 8、10 ~ 12、14 ~ 16 级法师塔的升级时间减少。</TimelineRow>
         <TimelineRow>1 ~ 16 级法师塔的升级费用降低。</TimelineRow>

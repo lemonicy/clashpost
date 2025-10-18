@@ -85,8 +85,8 @@ const tableExtraInfo = [
 |   5  |   275   |   4 格  |   900k  |  0,10     |                    |       11      |
 |   6  |   325   |   4 格  |   1.3M  |  0,11     |                    |       13      |
 |   7  |   375   |   4 格  |   1.5M  |  0,12     |                    |       13      |
-|   8  |   400   |   4 格  |   2.5M  |  2        |                    |       14      |
-|   9  |   425   |   4 格  |     4M  |  3        |                    |       15      |
+|   8  |   400   |   4 格  |     2M  |  1        |                    |       14      |
+|   9  |   425   |   4 格  |   3.2M  |  2        |                    |       15      |
 |  10  |   450   |   4 格  |   5.5M  |  4        |                    |       16      |
 |  11  |   475   |   4 格  |    12M  |  9        |                    |       17      |
 </UnitTable>
@@ -94,6 +94,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>8 ~ 9 级巨型炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 9 级巨型炸弹的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 6、8 ~ 10 级巨型炸弹的升级时间减少。</TimelineRow>
         <TimelineRow>3 ~ 10 级巨型炸弹的升级费用降低。</TimelineRow>
