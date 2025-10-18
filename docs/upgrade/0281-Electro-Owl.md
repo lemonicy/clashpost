@@ -78,7 +78,7 @@ const tableExtraInfo = [
 |   5  |    120   |   168   |  2000  |    75k   |   4     |         |         2         |       14      |
 |   6  |    125   |   175   |  2100  |    90k   |   4,12  |         |         2         |       14      |
 |   7  |    130   |   182   |  2200  |   105k   |   5     |         |         2         |       14      |
-|   8  |    135   |   189   |  2300  |   120k   |   5,22  |         |         2         |       14      |
+|   8  |    135   |   189   |  2300  |   120k   |   5,12  |         |         2         |       14      |
 |   9  |    140   |   196   |  2400  |   135k   |   6     |         |         2         |       14      |
 |  10  |    145   |   203   |  2500  |   150k   |   6,12  |         |         2         |       14      |
 |  11  |    150   |   210   |  2600  |   165k   |   7     |         |         9         |       16      |
@@ -91,6 +91,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>8 级闪枭的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 14 级闪枭的升级费用降低。</TimelineRow>
     </TimelineItem>

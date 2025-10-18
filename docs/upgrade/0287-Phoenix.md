@@ -86,7 +86,7 @@ const tableExtraInfo = [
 |   5  |   210   |   210   |   7   |  3600 |   125k  |   4     |         |         8         |      15      |
 |   6  |   218   |   218   |   7   |  3720 |   140k  |   4,12  |         |         8         |      15      |
 |   7  |   226   |   226   |   7   |  3840 |   155k  |   5     |         |         8         |      15      |
-|   8  |   234   |   234   |   7   |  3960 |   170k  |   5,22  |         |         8         |      15      |
+|   8  |   234   |   234   |   7   |  3960 |   170k  |   5,12  |         |         8         |      15      |
 |   9  |   242   |   242   |   7   |  4080 |   180k  |   6     |         |         8         |      15      |
 |  10  |   250   |   250   |   8   |  4200 |   190k  |   6,12  |         |         8         |      15      |
 </UnitTable>
@@ -94,6 +94,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>8 级凤凰的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 10 级凤凰的升级费用降低。</TimelineRow>
     </TimelineItem>

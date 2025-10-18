@@ -85,16 +85,19 @@ const tableExtraInfo = [
 |   1  |        12      |     \    |    \    |         1       |        9      |
 |   2  |        13      |    11K   |   1     |         8       |       10      |
 |   3  |        14      |    17K   |   1,12  |         8       |       10      |
-|   4  |        15      |    25K   |   2, 6  |         9       |       11      |
-|   5  |        16      |    40K   |   3     |        10       |       12      |
-|   6  |        17      |    50K   |   4     |        10       |       12      |
-|   7  |        18      |    75K   |   5     |        11       |       13      |
-|   8  |        19      |   135K   |   7, 4  |        13       |       15      |
+|   4  |        15      |    25K   |   2     |         9       |       11      |
+|   5  |        16      |    40K   |   2,12  |        10       |       12      |
+|   6  |        17      |    50K   |   3     |        10       |       12      |
+|   7  |        18      |    75K   |   4, 6  |        11       |       13      |
+|   8  |        19      |   135K   |   6,12  |        13       |       15      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>4 ~ 8 级骷髅法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>

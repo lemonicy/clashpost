@@ -63,8 +63,8 @@ const tableExtraInfo = [
 | 等级 |复苏后<br>回复的血量| 升级花费 |  升级时间  |所需<br>实验室等级|所需<br>大本等级|
 | ---- |        ---       |    ---   |    ---    |       ----      |      ----    |
 |   1  |        60%       |     \    |      \    |         1       |       15     |
-|   2  |        65%       |    18M   |     10    |        13       |       15     |
-|   3  |        70%       |    20M   |     14    |        14       |       16     |
+|   2  |        65%       |    18M   |      8    |        13       |       15     |
+|   3  |        70%       |    20M   |     12    |        14       |       16     |
 |   4  |        75%       |    22M   |     16    |        15       |       17     |
 </UnitTable>
 
@@ -72,6 +72,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>2 ~ 3 级复苏法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
