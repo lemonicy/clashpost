@@ -77,7 +77,7 @@ const tableExtraInfo = [
 |   5  |   125   | 137.5 |  2.5  |  4250  |   130k  |   4     |         |         6         |       15      |
 |   6  |   130   |  143  |  2.5  |  4400  |   140k  |   4,12  |         |         6         |       15      |
 |   7  |   135   | 148.5 |  2.5  |  4550  |   150k  |   5     |         |         6         |       15      |
-|   8  |   140   |  154  |  2.5  |  4700  |   160k  |   5,22  |         |         6         |       15      |
+|   8  |   140   |  154  |  2.5  |  4700  |   160k  |   5,12  |         |         6         |       15      |
 |   9  |   145   | 159.5 |  2.5  |  4850  |   170k  |   6     |         |         6         |       15      |
 |  10  |   150   |  165  |   3   |  5000  |   180k  |   6,12  |         |         6         |       15      |
 </UnitTable>
@@ -85,6 +85,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>8 级地兽的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 10 级地兽的升级费用降低。</TimelineRow>
     </TimelineItem>

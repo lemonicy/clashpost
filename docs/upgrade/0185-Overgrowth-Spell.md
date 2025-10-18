@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 蔓生法术升级数据"
 navTitle: "蔓生法术"
 shownTitle: "蔓生法术"
@@ -64,13 +64,16 @@ const tableExtraInfo = [
 | ---- |      ---      |   ---   |  ----   |       ----      |      ----     |
 |   1  |     22 秒     |    \    |    \    |         1       |       12      |
 |   2  |     23 秒     |  62.5K  |   5,12  |        10       |       12      |
-|   3  |     24 秒     |   125K  |   9     |        12       |       14      |
-|   4  |     25 秒     |   175K  |  11     |        14       |       16      |
+|   3  |     24 秒     |   125K  |   8,12  |        12       |       14      |
+|   4  |     25 秒     |   175K  |  10     |        14       |       16      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>3 ~ 4 级蔓生法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>

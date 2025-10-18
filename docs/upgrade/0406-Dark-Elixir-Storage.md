@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 暗黑重油罐升级数据"
 navTitle: "暗黑重油罐"
 shownTitle: "暗黑重油罐"
@@ -89,16 +89,19 @@ const tableExtraInfo = [
 |   5  |  140k   |  2900 |    2.0M  |   1,16  |                      |         9       |
 |   6  |  180k   |  3200 |    2.4M  |   2     |                      |         9       |
 |   7  |  220k   |  3500 |    3.8M  |   3     |                      |        12       |
-|   8  |  280k   |  3800 |    5.4M  |   4,12  |                      |        13       |
-|   9  |  330k   |  4100 |    6.6M  |   5     |                      |        14       |
-|  10  |  360k   |  4300 |      8M  |   5,12  |                      |        15       |
-|  11  |  390k   |  4500 |     10M  |   6     |                      |        16       |
+|   8  |  280k   |  3800 |    5.4M  |   3,12  |                      |        13       |
+|   9  |  330k   |  4100 |    6.6M  |   4     |                      |        14       |
+|  10  |  360k   |  4300 |      8M  |   4,12  |                      |        15       |
+|  11  |  390k   |  4500 |     10M  |   5     |                      |        16       |
 |  12  |  420k   |  4700 |     16M  |  15     |                      |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>8 ~ 11 级暗黑重油罐的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>7 ~ 11 级暗黑重油罐的升级时间减少。</TimelineRow>
         <TimelineRow>6、9 ~ 11 级暗黑重油罐的升级费用降低。</TimelineRow>

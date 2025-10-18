@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 狂暴宝石装备升级数据"
 navTitle: "狂暴宝石"
 shownTitle: "狂暴宝石"

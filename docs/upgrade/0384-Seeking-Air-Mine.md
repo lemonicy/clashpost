@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 搜空地雷（黑炸）升级数据"
 navTitle: "搜空地雷"
 shownTitle: "搜空地雷（黑炸）"
@@ -73,9 +73,9 @@ const tableExtraInfo = [
 |   1  |   1500  |    12k  |    0      |                     |        7      |
 |   2  |   1800  |   600k  |    0,12   |                     |        9      |
 |   3  |   2100  |   1.2M  |    1      |                     |       10      |
-|   4  |   2500  |   2.5M  |    2      |                     |       13      |
-|   5  |   2800  |     5M  |    4      |                     |       15      |
-|   6  |   3000  |   6.5M  |    5      |                     |       16      |
+|   4  |   2500  |   2.5M  |    1,12   |                     |       13      |
+|   5  |   2800  |     5M  |    3      |                     |       15      |
+|   6  |   3000  |   6.5M  |    4,12   |                     |       16      |
 |   7  |   3200  |    14M  |   10      |                     |       17      |
 
 </UnitTable>
@@ -83,6 +83,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>4 ~ 6 级搜空地雷的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>4 ~ 6 级搜空地雷的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 6 级搜空地雷的升级费用降低。</TimelineRow>

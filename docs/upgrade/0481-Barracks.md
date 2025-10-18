@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 训练营升级数据"
 navTitle: "训练营"
 shownTitle: "训练营"
@@ -94,11 +94,11 @@ const tableExtraInfo = [
 |   11 |   810  |   2.6M  |  2         |                    |         9       |<a href="/upgrade/000a-Baby-Dragon">飞龙宝宝</a>|
 |   12 |   900  |   3.7M  |  4         |                    |        10       |<a href="/upgrade/000b-Miner">掘地矿工</a>|
 |   13 |   980  |     6M  |  5         |                    |        11       |<a href="/upgrade/000c-Electro-Dragon">雷电飞龙</a>|
-|   14 |  1050  |     7M  |  7         |                    |        12       |<a href="/upgrade/000d-Yeti">大雪怪</a>|
-|   15 |  1150  |     9M  |  7,4       |                    |        13       |<a href="/upgrade/000e-Dragon-Rider">龙骑士</a>|
-|   16 |  1250  |    11M  |  8         |                    |        14       |<a href="/upgrade/000f-Electro-Titan">雷霆泰坦</a>|
-|   17 |  1350  |  12.6M  |  9         |                    |        15       |<a href="/upgrade/0010-Root-Rider">根蔓骑士</a>|
-|   18 |  1450  |    15M  | 11         |                    |        16       |<a href="/upgrade/0011-Thrower">巨矛投手</a>|
+|   14 |  1050  |     7M  |  6         |                    |        12       |<a href="/upgrade/000d-Yeti">大雪怪</a>|
+|   15 |  1150  |     9M  |  7         |                    |        13       |<a href="/upgrade/000e-Dragon-Rider">龙骑士</a>|
+|   16 |  1250  |    11M  |  7,12      |                    |        14       |<a href="/upgrade/000f-Electro-Titan">雷霆泰坦</a>|
+|   17 |  1350  |  12.6M  |  8         |                    |        15       |<a href="/upgrade/0010-Root-Rider">根蔓骑士</a>|
+|   18 |  1450  |    15M  |  9         |                    |        16       |<a href="/upgrade/0011-Thrower">巨矛投手</a>|
 </UnitTable>
 
 \# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 3 级，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
@@ -106,6 +106,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>14 ~ 18 级训练营的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>1 ~ 8 级训练营的生命值减少。</TimelineRow>
     </TimelineItem>

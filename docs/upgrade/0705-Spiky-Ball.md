@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 尖刺足球装备升级数据"
 navTitle: "尖刺足球"
 shownTitle: "尖刺足球"

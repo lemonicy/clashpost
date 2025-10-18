@@ -75,7 +75,7 @@ const tableExtraInfo = [
 |   5  |    60   |        60        |  1600  |    95k  |   4     |         |         4         |       14      |
 |   6  |    62   |        62        |  1675  |   110k  |   4,12  |         |         4         |       14      |
 |   7  |    64   |        64        |  1725  |   125k  |   5     |         |         4         |       14      |
-|   8  |    66   |        66        |  1800  |   140k  |   5,22  |         |         4         |       14      |
+|   8  |    66   |        66        |  1800  |   140k  |   5,12  |         |         4         |       14      |
 |   9  |    68   |        68        |  1875  |   155k  |   6     |         |         4         |       14      |
 |  10  |    70   |        70        |  1950  |   170k  |   6,12  |         |         4         |       14      |
 |  11  |    71   |        71        |  2025  |   200k  |   7     |         |        11         |       17      |
@@ -88,6 +88,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>8 级独角的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>在 17 本新增 11 ~ 15 级独角。</TimelineRow>
         <TimelineRow>2 ~ 10 级独角的升级费用降低。</TimelineRow>

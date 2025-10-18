@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 兵营升级数据"
 navTitle: "兵营"
 shownTitle: "兵营"
@@ -83,16 +83,19 @@ const tableExtraInfo = [
 |    6 |          50        |   330  |   500k  |  0,12    |                       |         6       |
 |    7 |          55        |   400  |   1.5M  |  2       |                       |         9       |
 |    8 |          60        |   500  |   2.5M  |  3       |                       |        10       |
-|    9 |          65        |   600  |   4.2M  |  4       |                       |        11       |
-|   10 |          70        |   700  |   4.5M  |  5       |                       |        12       |
-|   11 |          75        |   800  |   7.5M  |  6       |                       |        13       |
-|   12 |          80        |   850  |    10M  |  7       |                       |        15       |
+|    9 |          65        |   600  |   4.2M  |  3,12    |                       |        11       |
+|   10 |          70        |   700  |   4.5M  |  4       |                       |        12       |
+|   11 |          75        |   800  |   7.5M  |  5       |                       |        13       |
+|   12 |          80        |   850  |    10M  |  6       |                       |        15       |
 |   13 |          85        |   900  |    21M  | 15       |                       |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>9 ~ 12 级兵营的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>1 ~ 6 级兵营的生命值减少。</TimelineRow>
     </TimelineItem>

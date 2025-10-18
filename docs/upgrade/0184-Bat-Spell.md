@@ -86,13 +86,16 @@ const tableExtraInfo = [
 |   3  |         11      |  25.5K  |   2     |         8       |       10      |
 |   4  |         16      |    35K  |   2, 6  |         9       |       11      |
 |   5  |         21      |  47.5K  |   4     |        10       |       12      |
-|   6  |         22      |   140K  |   7, 4  |        13       |       15      |
+|   6  |         22      |   140K  |   7     |        13       |       15      |
 |   7  |         23      |   260K  |  13     |        15       |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>6 级蝙蝠法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>

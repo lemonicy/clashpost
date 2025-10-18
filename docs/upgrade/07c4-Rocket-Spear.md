@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 火箭飞矛装备升级数据"
 navTitle: "火箭飞矛"
 shownTitle: "火箭飞矛"

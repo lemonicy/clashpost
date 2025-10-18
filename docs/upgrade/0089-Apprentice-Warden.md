@@ -78,12 +78,15 @@ const tableExtraInfo = [
 |   1  |    170   |   153   |       20%     |  1500 |    \    |     \   |         1       |       13      |
 |   2  |    185   |   166.5 |       22%     |  1650 |    90K  |   6     |        11       |       13      |
 |   3  |    200   |   180   |       24%     |  1800 |   135K  |   7,12  |        12       |       14      |
-|   4  |    215   |   193.5 |       26%     |  1950 |   160K  |   8,18  |        13       |       15      |
+|   4  |    215   |   193.5 |       26%     |  1950 |   160K  |   8     |        13       |       15      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>4 级守护者学徒的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>

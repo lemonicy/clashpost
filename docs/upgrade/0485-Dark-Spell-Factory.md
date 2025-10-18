@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 暗黑法术工厂升级数据"
 navTitle: "暗黑法术工厂"
 shownTitle: "暗黑法术工厂"
@@ -83,12 +83,16 @@ const tableExtraInfo = [
 |   4  |          1         |   780  |  1.2M   |   4     |                       |      9     |<a href="/upgrade/0183-Skeleton-Spell">骷髅法术</a>|
 |   5  |          1         |   840  |  2.5M   |   5     |                       |     10     |<a href="/upgrade/0184-Bat-Spell">蝙蝠法术</a>|
 |   6  |          1         |   950  |    4M   |   6     |                       |     12     |<a href="/upgrade/0185-Overgrowth-Spell">蔓生法术</a>|
-|   7  |          1         |  1010  |    12M   |   8     |                       |     14     |<a href="/upgrade/0186-Ice-Block-Spell">冰障法术</a>|
+|   7  |          1         |  1010  |   11M   |   7     |                       |     14     |<a href="/upgrade/0186-Ice-Block-Spell">冰障法术</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>7 级暗黑法术工厂的升级时间减少。</TimelineRow>
+        <TimelineRow>7 级暗黑法术工厂的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/19">
         <TimelineRow>新增 7 级暗黑法术工厂，14 本可解锁。新法术：冰障法术。</TimelineRow>
     </TimelineItem>

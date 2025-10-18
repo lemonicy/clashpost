@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 大本营升级数据"
 navTitle: "大本营"
 shownTitle: "大本营"

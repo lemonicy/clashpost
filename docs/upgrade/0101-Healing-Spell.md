@@ -69,8 +69,8 @@ const tableExtraInfo = [
 |   6  |              1600              |          880        |   1.8M  |    1,12   |              7              |       9       |
 |   7  |              1800              |          990        |     3M  |    3      |              8              |      10       |
 |   8  |              2000              |         1100        |     6M  |    5      |             11              |      13       |
-|   9  |              2200              |         1210        |    11M  |    7      |             13              |      15       |
-|  10  |              2400              |         1320        |    14M  |    8      |             14              |      16       |
+|   9  |              2200              |         1210        |    11M  |    6,12   |             13              |      15       |
+|  10  |              2400              |         1320        |    14M  |    7      |             14              |      16       |
 |  11  |              2600              |         1430        |    19M  |   15      |             15              |      17       |
 </UnitTable>
 
@@ -80,6 +80,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>9 ~ 10 级疗伤法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>

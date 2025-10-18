@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 法术工厂升级数据"
 navTitle: "法术工厂"
 shownTitle: "法术工厂"

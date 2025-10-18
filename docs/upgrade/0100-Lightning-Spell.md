@@ -74,8 +74,8 @@ const tableExtraInfo = [
 |   7  |   400  |   2.5M  |   3     |              8              |      10       |
 |   8  |   480  |   4.2M  |   3,12  |              9              |      11       |
 |   9  |   560  |   6.3M  |   5     |             10              |      12       |
-|  10  |   600  |    10M  |   7     |             13              |      15       |
-|  11  |   640  |  13.5M  |   8     |             14              |      16       |
+|  10  |   600  |    10M  |   6     |             13              |      15       |
+|  11  |   640  |  13.5M  |   7     |             14              |      16       |
 |  12  |   680  |  18.5M  |  14     |             15              |      17       |
 </UnitTable>
 
@@ -84,6 +84,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>10 ~ 11 级雷电法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 法术塔升级数据"
 navTitle: "法术塔"
 shownTitle: "法术塔"
@@ -177,9 +177,9 @@ const tableExtraInfo = [
 
 | 等级 | 生命值 | 升级费用 | 升级时间 | 升级后可<br>获得的经验| 所需<br>大本等级 | 解锁的法术 |
 | ---- |   --- |   ---   |   ---    |        ---          |       ---       |    ---    |
-|   1  |  2500 |    9M   |    7     |                     |        15       |<a href="/upgrade/0102-Rage-Spell">狂暴法术</a>|
-|   2  |  2800 |   11M   |    8     |                     |        15       |<a href="/upgrade/0180-Poison-Spell">毒药法术</a>|
-|   3  |  3100 |   12M   |    9     |                     |        15       |<a href="/upgrade/0106-Invisibility-Spell">隐形法术</a>|
+|   1  |  2500 |    9M   |   7      |                     |        15       |<a href="/upgrade/0102-Rage-Spell">狂暴法术</a>|
+|   2  |  2800 |   11M   |   8      |                     |        15       |<a href="/upgrade/0180-Poison-Spell">毒药法术</a>|
+|   3  |  3100 |   12M   |   8,12   |                     |        15       |<a href="/upgrade/0106-Invisibility-Spell">隐形法术</a>|
 </UnitTable>
 
 注：法术塔释放的法术与自己主动释放的法术并不完全相同，上述链接只是方便对照，切勿生搬硬套。
@@ -187,6 +187,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>3 级法术塔的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>1 ~ 3 级法术塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

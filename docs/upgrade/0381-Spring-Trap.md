@@ -111,6 +111,7 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2025/10/06">
         <TimelineRow>隐形弹簧重做，现在弹簧有 12 个等级了。</TimelineRow>
+        <TimelineRow>5 级隐形弹簧的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 5 级隐形弹簧的升级时间减少。</TimelineRow>

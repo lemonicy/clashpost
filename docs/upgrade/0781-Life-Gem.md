@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 生命宝石装备升级数据"
 navTitle: "生命宝石"
 shownTitle: "生命宝石"

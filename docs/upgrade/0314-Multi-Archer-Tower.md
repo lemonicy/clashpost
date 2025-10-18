@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 多人箭塔升级数据"
 navTitle: "多人箭塔"
 shownTitle: "多人箭塔"
@@ -76,8 +76,8 @@ const tableExtraInfo = [
 
 | 等级 |每个弓箭手的<br>每秒伤害|每个弓箭手的<br>每次伤害| 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |          ---         |          ---         |   ---  |   ---   |   ----  |        ---         |      ----      |
-|   1  |          120         |           60         |  5000  |   12M   |   9     |                    |       16       |
-|   2  |          130         |           65         |  5200  |   13M   |  10     |                    |       16       |
+|   1  |          120         |           60         |  5000  |   12M   |   7     |                    |       16       |
+|   2  |          130         |           65         |  5200  |   13M   |   8     |                    |       16       |
 |   3  |          140         |           70         |  5400  |   23M   |  15,12  |                    |       17       |
 | ⚡1  |          145         |         72.5         |  5400  | 11.5M   |   5,12  |                    |       17       |
 | ⚡2  |          145         |         72.5         |  5500  |    8M   |   6,12  |                    |       17       |
@@ -86,6 +86,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>1 ~ 2 级多人箭塔的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>1 ~ 2 级多人箭塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>

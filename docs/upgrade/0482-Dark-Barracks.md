@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 暗黑训练营升级数据"
 navTitle: "暗黑训练营"
 shownTitle: "暗黑训练营"
@@ -84,14 +84,17 @@ const tableExtraInfo = [
 |    7 |   800 |     4M  |   5      |                      |        10       |<a href="/upgrade/0086-Bowler">巨石投手</a>|
 |    8 |   850 |     7M  |   6      |                      |        11       |<a href="/upgrade/0087-Ice-Golem">戈仑冰人</a>|
 |    9 |   900 |   7.2M  |   7      |                      |        12       |<a href="/upgrade/0088-Headhunter">英雄猎手</a>|
-|   10 |   950 |    10M  |   8      |                      |        13       |<a href="/upgrade/0089-Apprentice-Warden">守护者学徒</a>|
-|   11 |  1000 |    12M  |   9      |                      |        14       |<a href="/upgrade/008a-Druid">德鲁伊</a>|
+|   10 |   950 |    10M  |   7,12   |                      |        13       |<a href="/upgrade/0089-Apprentice-Warden">守护者学徒</a>|
+|   11 |  1000 |    12M  |   8      |                      |        14       |<a href="/upgrade/008a-Druid">德鲁伊</a>|
 |   12 |  1050 |    20M  |  12      |                      |        15       |<a href="/upgrade/008b-Furnace">烈焰熔炉</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>10 ~ 11 级暗黑训练营的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">  
         <TimelineRow>15 本新增 12 级暗黑训练营，新兵种：烈焰熔炉。</TimelineRow>
         <TimelineRow>10 ~ 11 级暗黑训练营的升级费用降低。</TimelineRow>

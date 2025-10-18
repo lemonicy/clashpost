@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 骷髅陷阱升级数据"
 navTitle: "骷髅陷阱"
 shownTitle: "骷髅陷阱"

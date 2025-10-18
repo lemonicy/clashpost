@@ -61,7 +61,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 复合机械塔由一个 21 级 [加农炮](/upgrade/0301-Cannon) 和一个 21 级 [箭塔](/upgrade/0302-Archer-Tower) 合并而来。
+1. 复合机械塔由一个改装后的 21 级 [加农炮](/upgrade/0301-Cannon) 和一个改装后的 21 级 [箭塔](/upgrade/0302-Archer-Tower) 合并而来。
     - 合并一旦开始就无法取消。
     - 如果你的加农炮或箭塔未改装，则无法合并。
     - 升本前必须合并完所有可以合并的建筑。
