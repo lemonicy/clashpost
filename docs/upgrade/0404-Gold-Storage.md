@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 储金罐升级数据"
 navTitle: "储金罐"
 shownTitle: "储金罐"

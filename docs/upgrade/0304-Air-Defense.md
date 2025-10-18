@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 防空火箭升级数据"
 navTitle: "防空火箭"
 shownTitle: "防空火箭"
@@ -94,7 +94,7 @@ const tableExtraInfo = [
 |  11  |   440   |   440   |  1500  |  5.6M   |   4,12    |                     |       13       |
 |  12  |   500   |   500   |  1650  |  6.5M   |   5       |                     |       14       |
 |  13  |   540   |   540   |  1750  |    8M   |   6       |                     |       15       |
-|  14  |   600   |   600   |  1850  |    9M   |   7       |                     |       16       |
+|  14  |   600   |   600   |  1850  |    9M   |   6,12    |                     |       16       |
 |  15  |   650   |   650   |  1950  |   21M   |  15,6     |                     |       17       |
 | ⚡1  |   670   |   670   |  1950  |   10M   |   4       |                     |       17       |
 | ⚡2  |   690   |   690   |  1950  |    6M   |   6       |                     |       17       |
@@ -103,6 +103,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>14 级防空火箭的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>1、3 ~ 6、14 级防空火箭的升级时间减少。</TimelineRow>
         <TimelineRow>3、10 ~ 14 级防空火箭的升级费用降低。</TimelineRow>

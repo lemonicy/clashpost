@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 投石炮（投石机）升级数据"
 navTitle: "投石炮"
 shownTitle: "投石炮（投石机）"

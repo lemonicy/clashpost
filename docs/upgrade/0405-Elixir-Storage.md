@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 圣水瓶升级数据"
 navTitle: "圣水瓶"
 shownTitle: "圣水瓶"

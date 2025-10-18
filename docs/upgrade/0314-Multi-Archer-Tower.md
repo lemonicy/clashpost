@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 多人箭塔升级数据"
 navTitle: "多人箭塔"
 shownTitle: "多人箭塔"

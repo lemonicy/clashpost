@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 兵营升级数据"
 navTitle: "兵营"
 shownTitle: "兵营"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 建筑工人小屋升级数据"
 navTitle: "建筑工人小屋"
 shownTitle: "建筑工人小屋"

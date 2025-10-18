@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 金矿升级数据"
 navTitle: "金矿"
 shownTitle: "金矿"

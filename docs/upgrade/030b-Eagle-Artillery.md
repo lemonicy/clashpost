@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 天鹰火炮（鸟炮）升级数据"
 navTitle: "天鹰火炮"
 shownTitle: "天鹰火炮（鸟炮）"

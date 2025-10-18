@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 箭塔升级数据"
 navTitle: "箭塔"
 shownTitle: "箭塔"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 法师塔升级数据"
 navTitle: "法师塔"
 shownTitle: "法师塔"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 永恒书卷装备升级数据"
 navTitle: "永恒书卷"
 shownTitle: "永恒书卷"

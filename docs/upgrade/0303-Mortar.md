@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 迫击炮升级数据"
 navTitle: "迫击炮"
 shownTitle: "迫击炮"

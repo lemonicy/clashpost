@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 英雄殿堂升级数据"
 navTitle: "英雄殿堂"
 shownTitle: "英雄殿堂"

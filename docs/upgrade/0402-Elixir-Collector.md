@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 圣水收集器升级数据"
 navTitle: "圣水收集器"
 shownTitle: "圣水收集器"

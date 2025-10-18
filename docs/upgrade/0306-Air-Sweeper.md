@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 空气炮（吹风机）升级数据"
 navTitle: "空气炮"
 shownTitle: "空气炮（吹风机）"

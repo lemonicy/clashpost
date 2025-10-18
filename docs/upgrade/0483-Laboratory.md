@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 实验室（研究所）升级数据"
 navTitle: "实验室"
 shownTitle: "实验室（研究所）"

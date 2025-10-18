@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 攻城机器工坊升级数据"
 navTitle: "攻城机器工坊"
 shownTitle: "攻城机器工坊"

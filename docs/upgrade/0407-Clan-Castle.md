@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 部落城堡升级数据"
 navTitle: "部落城堡"
 shownTitle: "部落城堡"

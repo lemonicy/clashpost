@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 飓风陷阱（旋风）升级数据"
 navTitle: "飓风陷阱"
 shownTitle: "飓风陷阱（旋风）"

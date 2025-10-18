@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 治疗书卷装备升级数据"
 navTitle: "治疗书卷"
 shownTitle: "治疗书卷"

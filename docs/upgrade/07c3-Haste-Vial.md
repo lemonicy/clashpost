@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 急速药水瓶装备升级数据"
 navTitle: "急速药水瓶"
 shownTitle: "急速药水瓶"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 空中炸弹（红炸）升级数据"
 navTitle: "空中炸弹"
 shownTitle: "空中炸弹（红炸）"

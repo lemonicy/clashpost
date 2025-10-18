@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 蔓生法术升级数据"
 navTitle: "蔓生法术"
 shownTitle: "蔓生法术"

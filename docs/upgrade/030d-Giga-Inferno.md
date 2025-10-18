@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 巨型地狱之塔升级数据"
 navTitle: "巨型地狱之塔"
 shownTitle: "巨型地狱之塔"

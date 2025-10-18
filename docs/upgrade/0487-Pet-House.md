@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 战宠小屋升级数据"
 navTitle: "战宠小屋"
 shownTitle: "战宠小屋"

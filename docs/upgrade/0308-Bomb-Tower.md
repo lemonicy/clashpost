@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 炸弹塔升级数据"
 navTitle: "炸弹塔"
 shownTitle: "炸弹塔"

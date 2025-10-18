@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 加农炮升级数据"
 navTitle: "加农炮"
 shownTitle: "加农炮"

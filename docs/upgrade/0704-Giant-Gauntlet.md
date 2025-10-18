@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 巨型手套装备升级数据"
 navTitle: "巨型手套"
 shownTitle: "巨型手套"
