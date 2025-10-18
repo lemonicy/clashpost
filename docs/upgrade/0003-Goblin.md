@@ -79,13 +79,16 @@ const tableExtraInfo = [
 |   5  |    32   |    32   |         64         |   65   |   700k  |    0,12   |        6        |     8    |
 |   6  |    42   |    42   |         84         |   80   |   1.6M  |    1      |        7        |     9    |
 |   7  |    52   |    52   |        104         |  105   |   2.2M  |    1,12   |        8        |    10    |
-|   8  |    62   |    62   |        124         |  126   |   3.7M  |    3      |       10        |    12    |
-|   9  |    72   |    72   |        144         |  146   |     8M  |    5,12   |       13        |    15    |
+|   8  |    62   |    62   |        124         |  126   |   3.7M  |    2, 6   |       10        |    12    |
+|   9  |    72   |    72   |        144         |  146   |     8M  |    5      |       13        |    15    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>8 ~ 9 级哥布林的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>

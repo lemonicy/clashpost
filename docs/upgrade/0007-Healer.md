@@ -80,15 +80,18 @@ const tableExtraInfo = [
 |   4  |          66        |          36        |  1200  |   2.5M  |    2      |      7      |     9     |
 |   5  |          72        |          48        |  1500  |     4M  |    3      |      9      |    11     |
 |   6  |          72        |          56        |  1600  |     6M  |    4,12   |     11      |    13     |
-|   7  |          72        |          62        |  1700  |   9.5M  |    7      |     12      |    14     |
-|   8  |          76        |          68        |  1800  |    11M  |    7,12   |     13      |    15     |
-|   9  |          80        |          75        |  1900  |    13M  |    8      |     14      |    16     |
+|   7  |          72        |          62        |  1700  |   9.5M  |    6,12   |     12      |    14     |
+|   8  |          76        |          68        |  1800  |    11M  |    7      |     13      |    15     |
+|   9  |          80        |          75        |  1900  |    13M  |    7, 6   |     14      |    16     |
 |  10  |          80        |          78        |  2000  |  22.5M  |   15      |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/06">
+        <TimelineRow>7 ~ 9 级天使的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/30">
         <TimelineRow>8 ~ 10 级天使对英雄的每秒治疗量增加。</TimelineRow>
     </TimelineItem>
