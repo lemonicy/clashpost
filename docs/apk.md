@@ -159,7 +159,8 @@ function downloadCocApk() {
 
 - [~~昆仑（线路一）~~](http://update.coc.gameark.cn/?channel=kunlun)
 - [~~昆仑（线路二）~~](https://coc.arkgames.com/)
-  - 根据用户反馈，截至 2025 年 5 月，昆仑渠道的账号已无法绑定。
+- [昆仑（线路三）](https://www.taptap.cn/app/10497?os=android)
+  - 目前昆仑版本的账号绑定工具只能通过第三方渠道下载（需下载 Taptap），官方链接早已失效。
 - [九游/豌豆荚（线路一）](http://update.coc.gameark.cn/?channel=wandoujia)
 - [九游/豌豆荚（线路二）](https://www.wandoujia.com/apps/6632360)
 - [~~九游~~](https://a.9game.cn/coc/)
@@ -191,9 +192,10 @@ function downloadCocApk() {
   - 根据用户反馈，截至 2025 年 5 月，雷电模拟器渠道已无法绑定。
 - [B 站（线路一）](http://update.coc.gameark.cn/?channel=bili)
 - [~~B 站（线路二）~~](https://app.biligame.com/page/detail_game.html?id=103536)
-- [~~果盘（仅适用于手机端）~~](https://game.guopan.cn/m/gamedetail/43182?channelid=40540)
-- [~~果盘（仅适用于电脑端）~~](https://game.guopan.cn/detail/43182?channelid=40540)
-  - 根据网站维护人员的测试，截至 2023 年 12 月，果盘渠道就已下架安装包，无法再绑定。
+- [果盘（仅适用于手机端）](https://game.guopan.cn/m/gamedetail/28139?channelid=40540)
+  - 上述链接必须在手机端打开，否则会直接跳到网站首页。作者未发现在电脑端下载安装包的方法。
+  - 该渠道强制要求下载果盘 App，没有无套路的下载地址。
+  - 在果盘 App 内搜索时，请搜索神秘代码 116454，搜“部落冲突”是搜不到的。
 - [~~魅族~~](https://game.flyme.cn/game/detail/3239713?contentId=3239713)
   - 根据用户反馈，截至 2025 年 5 月，魅族渠道已无法绑定。
 - [4399 版本](https://a.4399.cn/game-id-251473.html)
