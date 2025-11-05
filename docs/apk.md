@@ -13,10 +13,10 @@ import { generateToast } from "@/components/dialog/Toast.vue";
 import Download from "@/components/icon/Download.vue";
 
 const disableDownloading = false;
-const apkVersion = "17.477.13";
-const apkUploadDate = "2025-10-27";
-const apkFileSize = "644.1 MB";
-const apkFileName = "Clash_of_Clans_v17.477.13_4ChYDHLxI84F2ZhR.apk";
+const apkVersion = "17.477.15";
+const apkUploadDate = "2025-11-05";
+const apkFileSize = "682.9 MB";
+const apkFileName = "Clash_of_Clans_v17.477.15_LswNztIs5psHEeZw.apk";
 const systemRequirement = "Android 7.0+";
 
 function downloadCocApk() {
@@ -152,8 +152,8 @@ function downloadCocApk() {
 - 账号绑定工具是分渠道的，如果你分服前是用九游账号登录游戏的，那么你就需要去下载九游版，以前是用果盘账号登录的就下载果盘版，不能混用。
 - 下文中，如果某链接被删除线划掉，则该链接已失效。如果你所在渠道的所有线路的链接均已失效，但你尚未绑定 QQ/微信，那么你可以认为自己的账号丢失了，只能节哀。理论上来说你可以联系客服处理，但腾讯大一统的事情都过去这么久了，小渠道商的运营公司说不定都倒闭了，就算你能找到负责这一块的客服，客服很可能也没办法帮你对接。
 - 下载部分版本（如小米版）时会自动下载一个插件，下载完成后请给这个插件必要的权限，否则游戏无法运行。如果提示缺少插件，请到对应应用商店自行下载。
-- 部分浏览器（如 UC 浏览器、VIVO 自带浏览器）可能会劫持你的连接，导致你最终下载的不是你要的版本，这种现象与本网站无关。为了避免这种劫持，请使用 Chrome 或 Firefox 国际版下载。
-- 如果绑定时提示这个 QQ/微信 已经被绑定过了，请换一个号继续绑定。每个手机号可以注册五个 QQ 和两个微信，只要你号不是特别多就够用。请注意短时间内不要注册太多，隔天注册比较好，而且注册后一定要进行实名认证，不然你新注册的号第二天就会被封。如果你把自己的 COC 账号绑定到被封的 QQ 上，那就真的无力回天了。
+- 部分浏览器（如 UC 浏览器、VIVO 自带浏览器）可能会劫持你的连接，导致你最终下载的不是你要的版本，这种现象与本网站无关。为了避免这种劫持，请使用 Chrome 或 Firefox 下载。
+- 如果绑定时提示这个 QQ/微信 已经被绑定过了，请换一个号继续绑定。每个手机号可以注册五个 QQ 和两个微信，只要你号不是特别多就够用。请注意短时间内不要注册太多，隔天注册比较好，而且注册后一定要实名认证，不然你新注册的号第二天就会被封。如果你把自己的 COC 账号绑定到被封的 QQ 上，那就真的无力回天了。
 
 ### 下载地址
 
