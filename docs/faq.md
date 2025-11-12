@@ -52,7 +52,7 @@ hasUpdateTime: false
 
 反馈问题请发邮件：[feedback@clashpost.com](mailto:feedback@clashpost.com)
 
-Discord 群组链接：[部落驿站 Discord 交流群](https://discord.gg/dKn9WQjfdj)
+Discord 群组链接：[部落驿站 Discord 交流群](https://discord.gg/wCJkSFzVAQ)
 
 ## 特别鸣谢
 
