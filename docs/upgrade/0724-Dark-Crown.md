@@ -2,7 +2,7 @@
 title: "部落冲突 coc 暗黑皇冠装备升级数据"
 navTitle: "暗黑皇冠"
 shownTitle: "暗黑皇冠"
-description: "暗黑皇冠是亡灵王子的一件史诗装备。"
+description: "暗黑皇冠是亡灵王子的第一件史诗装备。当亡灵王子带上暗黑皇冠并在场时，每累计 60 人口的攻击方部队被击败，亡灵王子就可以获得一层生命值和伤害增益，最多 3 层，共需 180 人口。"
 module: upgrade-home
 imgFolder: home_heroes/0724
 wiki: https://clashofclans.fandom.com/wiki/Dark_Crown

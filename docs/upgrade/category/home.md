@@ -79,6 +79,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="铁甲短裤" imgSrc="0722/Metal_Pants_thumb.png" link="0722-Metal-Pants" />
         <ListItem name="贵族哑铃" imgSrc="0723/Noble_Iron_thumb.png" link="0723-Noble-Iron" />
         <listItem name="暗黑皇冠" imgSrc="0724/Dark_Crown.png" link="0724-Dark-Crown" />
+        <listItem name="陨石法杖" imgSrc="0725/Meteor_Staff_thumb.png" link="0725-Meteor-Staff" />
     </ListItems>
     <ListItems title="装备（大守护者）" imgFolder="home_heroes">
         <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" />
@@ -119,6 +120,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="雷霆泰坦" imgSrc="000f/Electro_Titan_thumb.png" link="000f-Electro-Titan" />
         <ListItem name="根蔓骑士" imgSrc="0010/Root_Rider_thumb.png" link="0010-Root-Rider" />
         <ListItem name="巨矛投手" imgSrc="0011/Thrower_thumb.png" link="0011-Thrower" />
+        <ListItem name="陨石戈仑" imgSrc="0012/Meteor_Golem_thumb.png" link="0012-Meteor-Golem" />
     </ListItems>
     <ListItems title="黑水兵" imgFolder="home_tech">
         <ListItem name="亡灵" imgSrc="0080/Minion_thumb.png" link="0080-Minion" />

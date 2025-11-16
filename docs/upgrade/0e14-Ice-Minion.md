@@ -41,7 +41,7 @@ canonical: /upgrade/0e14-Ice-Minion
     <UnitProperty pKey="死亡冰冻半径" pValue="4.5 格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />  
     <UnitProperty pKey="所需大本等级" pValue="6" />    
-    <UnitProperty pKey="训练时间" pValue="18" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -55,17 +55,21 @@ canonical: /upgrade/0e14-Ice-Minion
 |   3  |    66   |    66   |      1.5 秒     |   280   |         8       |
 |   4  |    71   |    71   |      1.5 秒     |   300   |         9       |
 |   5  |    75   |    75   |      1.5 秒     |   320   |        10       |
-|   6  |    81   |    81   |      2.5 秒     |   340   |        11       |
-|   7  |    87   |    87   |      2.5 秒     |   360   |        12       |
-|   8  |    93   |    93   |      2.5 秒     |   380   |        13       |
-|   9  |    99   |    99   |      2.5 秒     |   400   |        14       |
-|  10  |   105   |   105   |      2.5 秒     |   420   |        15       |
-|  11  |   111   |   111   |      2.5 秒     |   440   |        16       |
+|   6  |    81   |    81   |      2.7 秒     |   340   |        11       |
+|   7  |    87   |    87   |      2.7 秒     |   360   |        12       |
+|   8  |    93   |    93   |      2.7 秒     |   380   |        13       |
+|   9  |    99   |    99   |      2.7 秒     |   400   |        14       |
+|  10  |   105   |   105   |      2.7 秒     |   420   |        15       |
+|  11  |   111   |   111   |      2.7 秒     |   440   |        16       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/10">
+        <TimelineRow>该兵种第 2 次推出，有效期至 2025/11/01.</TimelineRow>
+        <TimelineRow>11 ~ 17 级大本营寒冰亡灵死亡后的冰冻时间由 2.5 秒调整为 2.7 秒。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/10/11">
         <TimelineRow>该兵种第 1 次推出，是 2024 年合体狂热活动中的五个临时兵种之一。</TimelineRow>
     </TimelineItem>

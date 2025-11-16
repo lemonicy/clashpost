@@ -10,6 +10,7 @@ canonical: /upgrade/0083-Golem
 ---
 
 - *本页面的内容不是戈仑冰人，如想查看戈仑冰人的页面，请访问：[戈仑冰人](/upgrade/0087-Ice-Golem)。*
+- *如想查看陨石戈仑，请访问：[陨石戈仑](/upgrade/0012-Meteor-Golem)、[陨石戈仑（临时兵种）](/upgrade/0e1b-Meteor-Golem)。*
 - *如想查看都城的高山戈仑，请访问：[都城高山戈仑](/upgrade/200d-Mountain-Golem)。*
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">

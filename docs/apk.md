@@ -12,7 +12,7 @@ import { showDialog } from "@/components/dialog/Dialog.vue";
 import { generateToast } from "@/components/dialog/Toast.vue";
 import Download from "@/components/icon/Download.vue";
 
-const disableDownloading = false;
+const disableDownloading = true;
 const apkVersion = "17.477.18";
 const apkUploadDate = "2025-11-12";
 const apkFileSize = "682.9 MB";
