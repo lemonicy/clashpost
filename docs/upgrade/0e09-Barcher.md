@@ -36,14 +36,14 @@ canonical: /upgrade/0e09-Barcher
     <UnitProperty pKey="攻击距离" pValue="3.5 格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />    
-    <UnitProperty pKey="训练时间" pValue="12" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 <SmallTitle>特殊技能的属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="特殊技能" pValue="狂暴披风<sup>*</sup>" />
-    <UnitProperty pKey="伤害提升" pValue="70%" />
+    <UnitProperty pKey="伤害提升" pValue="100%" />
     <UnitProperty pKey="攻速提升" pValue="100%" />
     <UnitProperty pKey="移速提升" pValue="2.5 格/秒" />
 </UnitProperties>
@@ -72,6 +72,10 @@ canonical: /upgrade/0e09-Barcher
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/10">
+        <TimelineRow>该兵种第 3 次推出，有效期至 2025/11/01.</TimelineRow>
+        <TimelineRow>野蛮箭手的狂暴伤害提升比例由 70% 调整为 100%.</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/10/11">
         <TimelineRow>该兵种第 2 次推出，是 2024 年合体狂热活动中的五个临时兵种之一。</TimelineRow>
         <TimelineRow>与 2023 版相比，该兵种新增了 11 级。</TimelineRow>

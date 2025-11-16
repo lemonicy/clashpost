@@ -42,14 +42,14 @@ canonical: /upgrade/0e0b-Lavaloon
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="1.8 格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="占据人口" pValue="23" />
+    <UnitProperty pKey="占据人口" pValue="35" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="2.5 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="0 格 (建筑头顶)" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
     <UnitProperty pKey="特殊技能" pValue="爆炸分裂<sup>*</sup>" />
-    <UnitProperty pKey="训练时间" pValue="90" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 \* 熔岩气球在到达目标的途中会释放炸弹，每次炸弹爆炸时都会分裂出一只迷你熔岩气球犬。另外，熔岩气球死亡时会额外分裂一些迷你熔岩气球犬。
@@ -124,6 +124,10 @@ canonical: /upgrade/0e0b-Lavaloon
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/10/10">
+        <TimelineRow>该兵种第 3 次推出，有效期至 2025/11/01.</TimelineRow>
+        <TimelineRow>熔岩气球占用的人口数由 23 调整为 35.</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>迷你熔岩猎犬、迷你寒冰猎犬和迷你熔岩气球犬占用的人口数由 2 调整为 1.</TimelineRow>
     </TimelineItem>

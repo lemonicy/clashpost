@@ -119,6 +119,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="雷霆泰坦" imgSrc="000f/Electro_Titan_thumb.png" link="000f-Electro-Titan" />
         <ListItem name="根蔓骑士" imgSrc="0010/Root_Rider_thumb.png" link="0010-Root-Rider" />
         <ListItem name="巨矛投手" imgSrc="0011/Thrower_thumb.png" link="0011-Thrower" />
+        <ListItem name="陨石戈仑" imgSrc="0012/Meteor_Golem_thumb.png" link="0012-Meteor-Golem" />
     </ListItems>
     <ListItems title="黑水兵" imgFolder="home_tech">
         <ListItem name="亡灵" imgSrc="0080/Minion_thumb.png" link="0080-Minion" />

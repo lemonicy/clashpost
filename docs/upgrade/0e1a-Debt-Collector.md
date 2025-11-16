@@ -4,9 +4,9 @@ navTitle: "收债哥布林"
 shownTitle: "收债哥布林"
 description: "收债哥布林贪婪无比，喜欢直奔资源建筑，夺取的战利品数量远超普通哥布林。而且，额外夺取的战利品并非来自防守方，而是由收债哥布林自己变出来的！"
 module: upgrade-temp
-imgFolder: temp/0e20
+imgFolder: temp/0e1a
 wiki: https://clashofclans.fandom.com/wiki/Debt_Collector
-canonical: /upgrade/0e20-Debt-Collector
+canonical: /upgrade/0e1a-Debt-Collector
 ---
 
 - *如想查看收债哥布林的设计原型，请访问：[哥布林](/upgrade/0003-Goblin)。*
