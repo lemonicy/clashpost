@@ -85,12 +85,15 @@ const tableExtraInfo = [
 |   5  |    360   |   1260  |    105×6    |  4800 |    11M  |     8     |     12      |    14     |
 |   6  |    390   |   1365  |    115×6    |  5200 |    14M  |     8,12  |     13      |    15     |
 |   7  |    420   |   1470  |    125×6    |  5500 |    16M  |     9     |     14      |    16     |
-|   8  |    450   |   1575  |    135×6    |  5800 |    23M  |    15     |     15      |    17     |
+|   8  |    450   |   1575  |    135×6    |  5800 |    20M  |    10     |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>8 级雷电飞龙的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>2、3、6、7 级雷电飞龙的升级时间减少。</TimelineRow>
     </TimelineItem>

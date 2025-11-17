@@ -84,12 +84,15 @@ const tableExtraInfo = [
 |   9  |    256   |   768   |     322     |   940 |     7M  |    4,12   |       11        |    13     |
 |  10  |    276   |   828   |     352     |  1040 |    10M  |    7      |       12        |    14     |
 |  11  |    290   |   870   |     375     |  1140 |    14M  |    8,12   |       14        |    16     |
-|  12  |    304   |   912   |     398     |  1240 |  22.5M  |   15,12   |       15        |    17     |
+|  12  |    304   |   912   |     398     |  1240 |  17.5M  |   11      |       15        |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>12 级气球兵的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>7 ~ 10 级气球兵的升级时间减少。</TimelineRow>
     </TimelineItem>

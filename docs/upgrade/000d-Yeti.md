@@ -83,7 +83,7 @@ const tableExtraInfo = [
 |   4  |    290   |    290  |         11        |  3700 |    10M  |     7     |       12       |      14       |
 |   5  |    310   |    310  |         12        |  3900 |    12M  |     7,12  |       13       |      15       |
 |   6  |    330   |    330  |         13        |  4100 |  14.5M  |     8, 6  |       14       |      16       |
-|   7  |    350   |    350  |         13        |  4300 |  22.5M  |    15     |       15       |      17       |
+|   7  |    350   |    350  |         13        |  4300 |    17M  |    10     |       15       |      17       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -153,6 +153,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>7 级大雪怪的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>2 ~ 6 级大雪怪的升级时间减少。</TimelineRow>
     </TimelineItem>

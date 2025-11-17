@@ -88,7 +88,7 @@ const tableExtraInfo = [
 |   2  |     70    |     70    |  1400 |   125K  |   9     |        12       |       14      |
 |   3  |     75    |     75    |  1500 |   175K  |   9,12  |        13       |       15      |
 |   4  |     80    |     80    |  1600 | 187.5K  |  11     |        14       |       16      |
-|   5  |     85    |     85    |  1700 |   320K  |  16     |        15       |       17      |
+|   5  |     85    |     85    |  1700 |   300K  |  12     |        15       |       17      |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -154,6 +154,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>5 级德鲁伊的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>3 ~ 4 级德鲁伊的升级时间减少。</TimelineRow>
     </TimelineItem>

@@ -77,12 +77,15 @@ const tableExtraInfo = [
 |   3  |        95      |     8M   |    8,12   |        12       |       14     |
 |   4  |       101      |     9M   |    9,12   |        13       |       15     |
 |   5  |       107      |    13M   |   11,12   |        14       |       16     |
-|   6  |       113      |    21M   |   15      |        15       |       17     |
+|   6  |       113      |    19M   |   12,12   |        15       |       17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>6 级回溯法术的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>3 ~ 5 级回溯法术的升级时间减少。</TimelineRow>
     </TimelineItem>

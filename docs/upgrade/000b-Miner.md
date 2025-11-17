@@ -86,12 +86,15 @@ const tableExtraInfo = [
 |   8  |    136   |  231.2  |  1150  |   8.6M  |    6      |     12      |    14     |
 |   9  |    144   |  244.8  |  1350  |  10.5M  |    6,12   |     13      |    15     |
 |  10  |    160   |  272    |  1550  |  12.5M  |    7      |     14      |    16     |
-|  11  |    175   |  297.5  |  1750  |  21.5M  |   14,12   |     15      |    17     |
+|  11  |    175   |  297.5  |  1750  |  16.5M  |    9,20   |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>11 级掘地矿工的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>4 ~ 10 级掘地矿工的升级时间减少。</TimelineRow>
     </TimelineItem>

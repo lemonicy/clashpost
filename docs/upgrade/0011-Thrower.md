@@ -61,13 +61,16 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间  |所需实验室等级|所需大本等级|
 | ---- |   ----   |   ---   |  ---- |    ---  |     ---   |     ---     |   ----    |
 |   1  |    190   |   475   |  2100 |      \  |      \    |       1     |     16    |
-|   2  |    200   |   500   |  2250 |    21M  |     14    |      14     |     16    |
-|   3  |    210   |   525   |  2400 |    23M  |     16    |      15     |     17    |
+|   2  |    200   |   500   |  2250 |    16M  |    9,12   |      14     |     16    |
+|   3  |    210   |   525   |  2400 |    18M  |   10,12   |      15     |     17    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>2 ~ 3 级巨矛投手的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/30">
         <TimelineRow>所有等级巨矛投手的生命值增加。</TimelineRow>
         <TimelineRow>所有等级巨矛投手的每秒伤害提升。</TimelineRow>

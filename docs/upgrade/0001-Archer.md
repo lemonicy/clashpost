@@ -84,7 +84,7 @@ const tableExtraInfo = [
 |  10  |    34   |    34   |    60  |   4.5M  |    3,12   |     12      |     14      |
 |  11  |    37   |    37   |    64  |   6.5M  |    4      |     13      |     15      |
 |  12  |    40   |    40   |    68  |     9M  |    5      |     14      |     16      |
-|  13  |    43   |    43   |    72  |  17.5M  |   13      |     15      |     17      |
+|  13  |    43   |    43   |    72  |    14M  |    9      |     15      |     17      |
 </UnitTable>
 
 \# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 2 级以解锁弓箭手，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
@@ -92,6 +92,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>13 级弓箭手的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>9、11、12 级弓箭手的升级时间减少。</TimelineRow>
     </TimelineItem>

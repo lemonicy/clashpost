@@ -83,12 +83,15 @@ const tableExtraInfo = [
 |   9  |    350   |   437.5 |  4500  |  10.5M  |    7      |     12      |    14     |
 |  10  |    370   |   462.5 |  4900  |    12M  |    7,12   |     13      |    15     |
 |  11  |    390   |   487.5 |  5300  |    14M  |    8,12   |     14      |    16     |
-|  12  |    410   |   512.5 |  5700  |    22M  |   14,16   |     15      |    17     |
+|  12  |    410   |   512.5 |  5700  |  18.5M  |   10      |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>12 级飞龙的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>7、8、10 级飞龙的升级时间减少。</TimelineRow>
     </TimelineItem>
