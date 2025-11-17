@@ -88,12 +88,15 @@ const tableExtraInfo = [
 |  10  |     70   |    70   |  108  |   100K  |    4      |        12       |       14      |
 |  11  |     74   |    74   |  114  |   115K  |    4,12   |        13       |       15      |
 |  12  |     78   |    78   |  120  |   160K  |    6      |        14       |       16      |
-|  13  |     82   |    82   |  126  |   255K  |   14      |        15       |       17      |
+|  13  |     82   |    82   |  126  |   220K  |    9      |        15       |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>13 级亡灵的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>8 ~ 12 级亡灵的升级时间减少。</TimelineRow>
     </TimelineItem>

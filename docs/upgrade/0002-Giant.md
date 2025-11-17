@@ -84,7 +84,7 @@ const tableExtraInfo = [
 |  10  |    78   |   156   |  2000  |     5M  |    3      |     11      |     13      |
 |  11  |    86   |   172   |  2200  |   7.5M  |    4      |     13      |     15      |
 |  12  |    94   |   188   |  2400  |    10M  |    5,12   |     14      |     16      |
-|  13  |   102   |   204   |  2600  |  18.5M  |   13,12   |     15      |     17      |
+|  13  |   102   |   204   |  2600  |    15M  |    9,12   |     15      |     17      |
 </UnitTable>
 
 \# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 3 级以解锁巨人，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
@@ -92,6 +92,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>13 级巨人的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>9 ~ 12 级巨人的升级时间减少。</TimelineRow>
     </TimelineItem>

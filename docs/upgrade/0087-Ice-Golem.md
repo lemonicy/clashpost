@@ -81,12 +81,15 @@ const tableExtraInfo = [
 |  6  |    44   |    88   |      7.5  秒        |       3.25 秒      |  3600 |   110K |    6,12   |       12        |       14      |
 |  7  |    48   |    96   |      8    秒        |       3.25 秒      |  3900 |   140K |    7,12   |       13        |       15      |
 |  8  |    52   |   104   |      8.5  秒        |       3.25 秒      |  4200 |   180K |    8      |       14        |       16      |
-|  9  |    56   |   112   |      9    秒        |       3.25 秒      |  4350 |   300K |   15,12   |       15        |       17      |
+|  9  |    56   |   112   |      9    秒        |       3.25 秒      |  4350 |   280K |   10,14   |       15        |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>9 级戈仑冰人的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>2 ~ 8 级戈仑冰人的升级时间减少。</TimelineRow>
     </TimelineItem>

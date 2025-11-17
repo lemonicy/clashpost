@@ -102,7 +102,7 @@ const tableExtraInfo = [
 |  11  |     85   |    204  |       850     |              3           |  8500 |   105K |    5      |       12        |      14       |
 |  12  |     90   |    216  |       900     |              3           |  8800 | 122.5K |    5,12   |       13        |      15       |
 |  13  |     95   |    228  |       950     |              4           |  9200 |   175K |    6,10   |       14        |      16       |
-|  14  |    100   |    240  |      1000     |              4           |  9600 |   270K |   14      |       15        |      17       |
+|  14  |    100   |    240  |      1000     |              4           |  9600 |   230K |   10      |       15        |      17       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -178,6 +178,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>14 级戈仑石人的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>3 ~ 13 级戈仑石人的升级时间减少。</TimelineRow>
     </TimelineItem>

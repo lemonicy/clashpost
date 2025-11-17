@@ -83,12 +83,15 @@ const tableExtraInfo = [
 |   7  |          72        |          62        |  1700  |   9.5M  |    6,12   |     12      |    14     |
 |   8  |          76        |          68        |  1800  |    11M  |    7      |     13      |    15     |
 |   9  |          80        |          75        |  1900  |    13M  |    7, 6   |     14      |    16     |
-|  10  |          80        |          78        |  2000  |  22.5M  |   15      |     15      |    17     |
+|  10  |          80        |          78        |  2000  |    17M  |   11      |     15      |    17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>10 级天使的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>7 ~ 9 级天使的升级时间减少。</TimelineRow>
     </TimelineItem>

@@ -97,7 +97,7 @@ const tableExtraInfo = [
 |  10  |  94 / 54 |         3760       |        5920       |   130  |   6.5M  |   5      |       12       |      14       |
 |  11  | 102 / 60 |         4080       |        6480       |   140  |   9.5M  |   5,12   |       13       |      15       |
 |  12  | 110 / 66 |         4400       |        7040       |   150  |    11M  |   6      |       14       |      16       |
-|  13  | 118 / 72 |         4720       |        7600       |   160  |    20M  |  14      |       15       |      17       |
+|  13  | 118 / 72 |         4720       |        7600       |   160  |  15.5M  |  10      |       15       |      17       |
 </UnitTable>
 
 1. 上方的“面板伤害”解释："10/9" 表示主动伤害为 10，死亡伤害为 9.
@@ -106,6 +106,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>13 级炸弹人的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>7 ~ 12 级炸弹人的升级时间减少。</TimelineRow>
     </TimelineItem>

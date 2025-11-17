@@ -72,12 +72,15 @@ const tableExtraInfo = [
 |   1  |     80 秒     |     5     |      2      |      3      |     1      |      1      |      9    | 2000 |     \  |    \   |          1      |       16      |
 |   2  |     88 秒     |     5     |      2      |      3      |     1      |      2      |     10    | 2200 |  8.5M  |    6   |         14      |       16      |
 |   3  |     96 秒     |     6     |      2      |      4      |     1      |      2      |     11    | 2400 |   10M  |    9   |         14      |       16      |
-|   4  |    104 秒     |     7     |      2      |      4      |     1      |      2      |     12    | 2600 |   19M  |  13,12 |         15      |       17      |
+|   4  |    104 秒     |     7     |      2      |      4      |     1      |      2      |     12    | 2600 |   17M  |    9   |         15      |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>4 级部队发射器的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
     </TimelineItem>
