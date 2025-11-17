@@ -124,7 +124,7 @@ canonical: /upgrade/0e1b-Meteor-Golem
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
-    <TimelineItem date="2025/11/17（推测）">
+    <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，陨石戈仑成为永久兵种，共推出 3 个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/10">

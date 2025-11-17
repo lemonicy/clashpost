@@ -92,7 +92,7 @@ const tableExtraInfo = [
 |  10  |        45        |          3        |           1          | 5200 |   10M |   7     |                     |       14     |
 |  11  |        50        |          3        |           1          | 5400 |   12M |   8     |                     |       15     |
 |  12  |        50        |          3        |      2<sup>②</sup>   | 5600 | 14.5M |   9     |                     |       16     |
-|  13  |        55        |          3        |           2          | 5800 | 20.5M |  16     |                     |       17     |
+|  13  |        55        |          3        |           2          | 5800 |   19M |  11     |                     |       17     |
 </UnitTable>
 
 ① 理论上来说，玩家只有升级到 3 级大本营才能达到 10 000 的资源储量用来修复城堡，但是如果玩家在 2 级大本营时遇到夯木节（升级建筑的费用减半）活动，或者购买资源礼包，那么就可以提前解锁城堡。  
@@ -268,6 +268,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>13 级部落城堡的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>1 ~ 3 级部落城堡的生命值减少。</TimelineRow>
     </TimelineItem>

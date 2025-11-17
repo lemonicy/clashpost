@@ -93,12 +93,15 @@ const tableExtraInfo = [
 |   9  |  330k   |  4100 |    6.6M  |   4     |                      |        14       |
 |  10  |  360k   |  4300 |      8M  |   4,12  |                      |        15       |
 |  11  |  390k   |  4500 |     10M  |   5     |                      |        16       |
-|  12  |  420k   |  4700 |     16M  |  15     |                      |        17       |
+|  12  |  420k   |  4700 |     16M  |   9     |                      |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>12 级暗黑重油罐的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>8 ~ 11 级暗黑重油罐的升级时间减少。</TimelineRow>
     </TimelineItem>

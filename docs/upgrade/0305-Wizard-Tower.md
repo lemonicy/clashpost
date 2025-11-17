@@ -99,7 +99,7 @@ const tableExtraInfo = [
 |  14  |    90   |  117    |  2800  |   4.5M  |   3       |                     |       14       |
 |  15  |    95   |  123.5  |  3000  |   5.5M  |   4       |                     |       15       |
 |  16  |   102   |  132.6  |  3150  |     8M  |   4,12    |                     |       16       |
-|  17  |   110   |  143    |  3300  |    20M  |  14,18    |                     |       17       |
+|  17  |   110   |  143    |  3300  |    14M  |   8,12    |                     |       17       |
 | ⚡1  |   114   |  148.2  |  3300  |     8M  |   3,12    |                     |       17       |
 | ⚡2  |   114   |  148.2  |  3375  |     4M  |   5,12    |                     |       17       |
 </UnitTable>
@@ -107,6 +107,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>17 级法师塔的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>16 级法师塔的升级时间减少。</TimelineRow>
     </TimelineItem>

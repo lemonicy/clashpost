@@ -98,14 +98,17 @@ const tableExtraInfo = [
 |  13  |   150   |   90    |  1350  |  5.1M   |   3,12    |                     |       14       |
 |  14  |   160   |   96    |  1450  |  6.5M   |   4       |                     |       15       |
 |  15  |   170   |  102    |  1550  |  8.2M   |   5       |                     |       16       |
-|  16  |   180   |  108    |  1650  | 20.5M   |  15       |                     |       17       |
-| ⚡1  |   185   |  111    |  1650  |   10M   |   4       |                     |       17       |
-| ⚡2  |   185   |  111    |  1700  |    6M   |   6       |                     |       17       |
+|  16  |   180   |  108    |  1650  |   15M   |   9       |                     |       17       |
+| ⚡1  |   185   |  111    |  1650  |    6M   |   2, 6    |                     |       17       |
+| ⚡2  |   185   |  111    |  1700  |    4M   |   3,18    |                     |       17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>16 级及两个充能等级的特斯拉电磁塔的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>13 ~ 15 级特斯拉电磁塔的升级时间减少。</TimelineRow>
     </TimelineItem>

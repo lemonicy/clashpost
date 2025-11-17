@@ -126,9 +126,9 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 |  14  |    48   |   240   |  1950  |   4.3M  |   2,12    |                     |       14       |
 |  15  |    54   |   270   |  2150  |     5M  |   3       |                     |       15       |
 |  16  |    60   |   300   |  2300  |     7M  |   4       |                     |       16       |
-|  17  |    66   |   330   |  2450  |  19.5M  |  14,12    |                     |       17       |
-| ⚡1  |    69   |   345   |  2450  |   7.5M  |   3,12    |                     |       17       |
-| ⚡2  |    69   |   345   |  2525  |     5M  |   5,12    |                     |       17       |
+|  17  |    66   |   330   |  2450  |    13M  |   8       |                     |       17       |
+| ⚡1  |    69   |   345   |  2450  |   4.5M  |   2       |                     |       17       |
+| ⚡2  |    69   |   345   |  2525  |     3M  |   3,12    |                     |       17       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -195,9 +195,9 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 |  14  |    52   |   88    |  1950  |  4.3M   |   2,12    |                     |       14       |
 |  15  |    59   |   99    |  2150  |    5M   |   3       |                     |       15       |
 |  16  |    65   |  110    |  2300  |    7M   |   4       |                     |       16       |
-|  17  |    72   |  121    |  2450  | 19.5M   |  14,12    |                     |       17       |
-| ⚡1  |    75   |   126   |  2450  |  7.5M   |   3,12    |                     |       17       |
-| ⚡2  |    75   |   126   |  2525  |    5M   |   5,12    |                     |       17       |
+|  17  |    72   |  121    |  2450  |   13M   |   8       |                     |       17       |
+| ⚡1  |    75   |   126   |  2450  |  4.5M   |   2       |                     |       17       |
+| ⚡2  |    75   |   126   |  2525  |    3M   |   3,12    |                     |       17       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -207,6 +207,9 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>17 级及两个充能等级的迫击炮的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>15 ~ 16 级迫击炮的升级时间减少。</TimelineRow>
     </TimelineItem>

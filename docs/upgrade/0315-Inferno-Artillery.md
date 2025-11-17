@@ -87,15 +87,19 @@ const tableExtraInfo = [
 | 等级 |平均<br>每秒伤害|每次<br>攻击伤害| 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |      ---     |      ---      |   ---   |   ---    |         ---        |      ---      |
 |   1  |       40     |      140      |      \  |     \    |                    |       17      |
-|   2  |       45     |      157.5    |    10M  |     9    |                    |       17      |
-|   3  |       50     |      175      |    14M  |    11    |                    |       17      |
-|   4  |       55     |      192.5    |    18M  |    13    |                    |       17      |
-|   5  |       60     |      210      |    22M  |    15    |                    |       17      |
+|   2  |       45     |      157.5    |    10M  |     6    |                    |       17      |
+|   3  |       50     |      175      |    12M  |     7    |                    |       17      |
+|   4  |       55     |      192.5    |    14M  |     8    |                    |       17      |
+|   5  |       60     |      210      |    18M  |    10    |                    |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>2 ~ 5 级地狱火炮的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 5 级地狱火炮的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，大本营自带地狱火炮。</TimelineRow>
     </TimelineItem>

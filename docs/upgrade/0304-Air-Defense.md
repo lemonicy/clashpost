@@ -95,7 +95,7 @@ const tableExtraInfo = [
 |  12  |   500   |   500   |  1650  |  6.5M   |   5       |                     |       14       |
 |  13  |   540   |   540   |  1750  |    8M   |   6       |                     |       15       |
 |  14  |   600   |   600   |  1850  |    9M   |   6,12    |                     |       16       |
-|  15  |   650   |   650   |  1950  |   21M   |  15,6     |                     |       17       |
+|  15  |   650   |   650   |  1950  |   15M   |   9,12    |                     |       17       |
 | ⚡1  |   670   |   670   |  1950  |   10M   |   4       |                     |       17       |
 | ⚡2  |   690   |   690   |  1950  |    6M   |   6       |                     |       17       |
 </UnitTable>
@@ -103,6 +103,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>15 级防空火箭的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>14 级防空火箭的升级时间减少。</TimelineRow>
     </TimelineItem>

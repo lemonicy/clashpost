@@ -104,7 +104,7 @@ const tableExtraInfo = [
 |   4  |   120   |    48   |      70     |        52.5         |  1600 |     6M  |   4     |                    |      14       |
 |   5  |   135   |    54   |      80     |        60           |  1800 |     7M  |   5     |                    |      15       |
 |   6  |   150   |    60   |      85     |        63.75        |  1900 |     8M  |   5,12  |                    |      16       |
-|   7  |   165   |    66   |      90     |        67.5         |  2000 |    21M  |  15, 6  |                    |      17       |
+|   7  |   165   |    66   |      90     |        67.5         |  2000 |  15.5M  |   9,12  |                    |      17       |
 | ⚡1  |   172   |   68.8  |      90     |        67.5         |  2000 |    10M  |   4     |                    |      17       |
 | ⚡2  |   172   |   68.8  |      90     |        67.5         |  2050 |     5M  |   6     |                    |      17       |
 </UnitTable>
@@ -125,6 +125,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>7 级建筑工人小屋的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>2 ~ 6 级建筑工人小屋的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 6 级建筑工人小屋的升级费用降低。</TimelineRow>

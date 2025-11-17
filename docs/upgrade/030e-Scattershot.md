@@ -97,7 +97,7 @@ const tableExtraInfo = [
 |   3  |   170   |  380 - 544  | 130 - 380 |  4800  |    11M  |    7,12   |                     |        14       |
 |   4  |   175   |  400 - 560  | 140 - 400 |  5100  |  11.5M  |    8      |                     |        15       |
 |   5  |   180   |  420 - 576  | 150 - 420 |  5410  |    12M  |    8,12   |                     |        16       |
-|   6  |   185   |  440 - 592  | 155 - 440 |  5600  |  22.5M  |   15,18   |                     |        17       |
+|   6  |   185   |  440 - 592  | 155 - 440 |  5600  |  16.5M  |   10,12   |                     |        17       |
 | ⚡1  |   188   | 440 - 601.6 | 155 - 440 |  5600 |     11M  |    5      |                     |        17       |
 | ⚡2  |   188   | 440 - 601.6 | 155 - 440 |  5750 |      7M  |    7      |                     |        17       |
 </UnitTable>
@@ -105,6 +105,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>6 级投石炮的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>1 ~ 5 级投石炮的升级时间减少。</TimelineRow>
     </TimelineItem>
