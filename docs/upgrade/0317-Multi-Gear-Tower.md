@@ -84,8 +84,8 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---  |   ---   |   ---   |        ---          |       ---      |
-|   1  |   300   |   300   |  4000  |  22.5M  |    15   |                     |        17      |
-|   2  |   320   |   320   |  4200  |    23M  |    16   |                     |        17      |
+|   1  |   300   |   300   |  4000  |    17M  |  10     |                     |        17      |
+|   2  |   320   |   320   |  4200  |    18M  |  10,18  |                     |        17      |
 | ⚡1  |   330   |   330   |  4200  |  11.5M  |     6   |                     |        17      |
 | ⚡2  |   330   |   330   |  4350  |     8M  |     7   |                     |        17      |
 </UnitTable>
@@ -139,10 +139,10 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 | 等级 | 平均每秒伤害 | 每次伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |     ---     |   ---   |   ---  |   ---   |   ---   |        ---          |       ---      |
-|   1  |     607     |   175   |  4000  |  22.5M  |    15   |                     |        17      |
-|   2  |     644     |   185   |  4200  |    23M  |    16   |                     |        17      |
-| ⚡1  |     678     |   189   |  4200  |  11.5M  |     6   |                     |        17      |
-| ⚡2  |     678     |   189   |  4350  |     8M  |     7   |                     |        17      |
+|   1  |     607     |   175   |  4000  |    17M  |  10     |                     |        17      |
+|   2  |     644     |   185   |  4200  |    18M  |  10,18  |                     |        17      |
+| ⚡1  |     678     |   189   |  4200  |  11.5M  |   6    |                     |        17      |
+| ⚡2  |     678     |   189   |  4350  |     8M  |   7    |                     |        17      |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -150,6 +150,9 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>1 ~ 2 级复合机械塔的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>复合机械塔成为可以充能的建筑。</TimelineRow>
     </TimelineItem>

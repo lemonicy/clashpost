@@ -79,7 +79,7 @@ const tableExtraInfo = [
 | ---- |   ---   |   ---   |   ---  |   ---   |   ----  |        ---          |      ----      |
 |   1  |   360   |  288    |  5400  |    12M  |   7     |                     |       16       |
 |   2  |   390   |  312    |  5700  |    13M  |   8     |                     |       16       |
-|   3  |   405   |  324    |  6000  |    23M  |  15,12  |                     |       17       |
+|   3  |   405   |  324    |  6000  |  17.5M  |  10,18  |                     |       17       |
 | ⚡1  |   413   |  330.4  |  6000  |  11.5M  |   5,12  |                     |       17       |
 | ⚡2  |   413   |  330.4  |  6150  |     8M  |   6,12  |                     |       17       |
 </UnitTable>
@@ -87,6 +87,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>3 级跳弹加农炮的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>1 ~ 2 级跳弹加农炮的升级时间减少。</TimelineRow>
     </TimelineItem>

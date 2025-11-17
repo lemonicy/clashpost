@@ -107,12 +107,15 @@ const tableExtraInfo = [
 |  15  |   4.5M  |  3700 |     3M   |  3          |                      |        14       |
 |  16  |     5M  |  3900 |     4M   |  4          |                      |        15       |
 |  17  |   5.5M  |  4050 |   5.5M   |  5          |                      |        16       |
-|  18  |     6M  |  4200 |    10M   | 12,12       |                      |        17       |
+|  18  |     6M  |  4200 |    10M   |  7          |                      |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 级储金罐的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>1 ~ 9 级储金罐的生命值减少。</TimelineRow>
     </TimelineItem>

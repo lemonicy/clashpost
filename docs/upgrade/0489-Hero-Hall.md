@@ -91,7 +91,7 @@ const tableExtraInfo = [
 |   8  |        4        |  4600 |   9.5M   |  6,12   |                      |       14         | 无 |
 |   9  |        4        |  5000 |    11M   |  7      |                      |       15         | 无 |
 |  10  |        4        |  5400 |    13M   |  8      |                      |       16         | 无 |
-|  11  |        4        |  5800 |    21M   |  15,12  |                      |       17         | 无 |  
+|  11  |        4        |  5800 |    17M   |  9,12   |                      |       17         | 无 |  
 
 </UnitTable>
 
@@ -205,6 +205,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>11 级英雄殿堂的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>4 ~ 10 级英雄殿堂的升级时间减少。</TimelineRow>
         <TimelineRow>4 ~ 10 级英雄殿堂的升级费用降低。</TimelineRow>

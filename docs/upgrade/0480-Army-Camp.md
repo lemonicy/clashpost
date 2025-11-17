@@ -87,12 +87,15 @@ const tableExtraInfo = [
 |   10 |          70        |   700  |   4.5M  |  4       |                       |        12       |
 |   11 |          75        |   800  |   7.5M  |  5       |                       |        13       |
 |   12 |          80        |   850  |    10M  |  6       |                       |        15       |
-|   13 |          85        |   900  |    21M  | 15       |                       |        17       |
+|   13 |          85        |   900  |    17M  | 10       |                       |        17       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>13 级兵营的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>9 ~ 12 级兵营的升级时间减少。</TimelineRow>
     </TimelineItem>

@@ -12,11 +12,11 @@ import { showDialog } from "@/components/dialog/Dialog.vue";
 import { generateToast } from "@/components/dialog/Toast.vue";
 import Download from "@/components/icon/Download.vue";
 
-const disableDownloading = true;
-const apkVersion = "17.477.18";
-const apkUploadDate = "2025-11-12";
-const apkFileSize = "682.9 MB";
-const apkFileName = "Clash_of_Clans_v17.477.18_JjGXhy7YqdwJ4bJB.apk";
+const disableDownloading = false;
+const apkVersion = "18.0.2";
+const apkUploadDate = "2025-11-17";
+const apkFileSize = "717.1 MB";
+const apkFileName = "Clash_of_Clans_v18.0.2_I1sc9QMvkqQQWcQo.apk";
 const systemRequirement = "Android 7.0+";
 
 function downloadCocApk() {

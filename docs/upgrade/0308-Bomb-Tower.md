@@ -91,7 +91,7 @@ const tableExtraInfo = [
 |   9  |    84   |   92.4  |         500        |  2300  |     6M  |    4,12   |                     |       14       |
 |  10  |    94   |  103.4  |         550        |  2500  |     7M  |    4,18   |                     |       15       |
 |  11  |   104   |  114.4  |         600        |  2700  |   8.5M  |    5      |                     |       16       |
-|  12  |   114   |  125.4  |         650        |  2900  |    20M  |   15      |                     |       17       |
+|  12  |   114   |  125.4  |         650        |  2900  |  14.5M  |    9      |                     |       17       |
 | ⚡1  |   119   |  130.9  |         650        |  2900  |    10M  |    4      |                     |       17       |
 | ⚡2  |   119   |  130.9  |         650        |  3000  |     6M  |    6      |                     |       17       |
 </UnitTable>
@@ -99,6 +99,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>12 级炸弹塔的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>10 ~ 11 级炸弹塔的升级时间减少。</TimelineRow>
     </TimelineItem>
