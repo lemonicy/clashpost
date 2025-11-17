@@ -83,15 +83,18 @@ const tableExtraInfo = [
 
 | 等级 | 爆炸伤害 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |    ---  |   ---   |   ---    |         ---        |      ---      |
-|   1  |   1100  |    5M   |     \    |                    |       17      |
-|   2  |   1200  |   10M   |     8    |                    |       17      |
-|   3  |   1300  |   15M   |    10    |                    |       17      |
+|   1  |   1100  |     5M  |     \    |                    |       17      |
+|   2  |   1200  |   8.5M  |     5    |                    |       17      |
+|   3  |   1300  |  12.5M  |     6    |                    |       17      |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>2 ~ 3 级终极炸弹的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>17 本推出，新陷阱：终极炸弹。</TimelineRow>
     </TimelineItem>

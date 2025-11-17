@@ -85,12 +85,15 @@ const tableExtraInfo = [
 |   9  |   325   |     2M  |    1      |                     |     14      |
 |  10  |   350   |     3M  |    2      |                     |     15      |
 |  11  |   375   |     5M  |    3      |                     |     16      |
-|  12  |   400   |    11M  |    8,12   |                     |     17      |
+|  12  |   400   |   9.5M  |    5,12   |                     |     17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>12 级空中炸弹的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>7 ~ 9 级空中炸弹的升级时间减少。</TimelineRow>
     </TimelineItem>

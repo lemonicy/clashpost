@@ -76,13 +76,16 @@ const tableExtraInfo = [
 |   4  |   2500  |   2.5M  |    1,12   |                     |       13      |
 |   5  |   2800  |     5M  |    3      |                     |       15      |
 |   6  |   3000  |   6.5M  |    4,12   |                     |       16      |
-|   7  |   3200  |    14M  |   10      |                     |       17      |
+|   7  |   3200  |    12M  |    5,12   |                     |       17      |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>7 级搜空地雷的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>4 ~ 6 级搜空地雷的升级时间减少。</TimelineRow>
     </TimelineItem>

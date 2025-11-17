@@ -62,16 +62,18 @@ const tableExtraInfo = [
 
 | 等级 |复苏后<br>回复的血量| 升级花费 |  升级时间  |所需<br>实验室等级|所需<br>大本等级|
 | ---- |        ---       |    ---   |    ---    |       ----      |      ----    |
-|   1  |        60%       |     \    |      \    |         1       |       15     |
-|   2  |        65%       |    18M   |      8    |        13       |       15     |
-|   3  |        70%       |    20M   |     12    |        14       |       16     |
-|   4  |        75%       |    22M   |     16    |        15       |       17     |
+|   1  |        60%       |     \    |    \      |         1       |       15     |
+|   2  |        65%       |    18M   |    8      |        13       |       15     |
+|   3  |        70%       |    19M   |   10,12   |        14       |       16     |
+|   4  |        75%       |    20M   |   11,12   |        15       |       17     |
 </UnitTable>
-
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>3 ~ 4 级复苏法术的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>2 ~ 3 级复苏法术的升级时间减少。</TimelineRow>
     </TimelineItem>

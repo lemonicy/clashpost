@@ -71,7 +71,7 @@ const tableExtraInfo = [
 |   8  |              2000              |         1100        |     6M  |    5      |             11              |      13       |
 |   9  |              2200              |         1210        |    11M  |    6,12   |             13              |      15       |
 |  10  |              2400              |         1320        |    14M  |    7      |             14              |      16       |
-|  11  |              2600              |         1430        |    19M  |   15      |             15              |      17       |
+|  11  |              2600              |         1430        |    19M  |   10,12   |             15              |      17       |
 </UnitTable>
 
 ① 表格中的总治疗量指的是每个兵都可以享受这么多治疗量。<br>
@@ -80,6 +80,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>11 级疗伤法术的升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>9 ~ 10 级疗伤法术的升级时间减少。</TimelineRow>
     </TimelineItem>
