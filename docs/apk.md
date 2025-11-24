@@ -117,7 +117,6 @@ function downloadCocApk() {
 - [Atrasis 服官网](https://atrasisclash.net/)
 - [Null 服官网](https://nulls.gg/servers/nulls-clash/)
 - [天翼云盘（访问码：wfm0）](https://cloud.189.cn/web/share?code=aMR7BjzIbIvm)
-- [123 云盘（提取码：xiqk）](https://www.123pan.com/s/yAPGTd-QvivH.html)
 - [小飞机网盘（提取码：T81v）](https://share.feijipan.com/s/49BcL43l)
 
 ## 国服
