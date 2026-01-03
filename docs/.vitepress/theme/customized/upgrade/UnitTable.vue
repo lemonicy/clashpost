@@ -197,38 +197,38 @@ function createTimeTitleElement() {
 /**
  * 生成结束时间元素
  *
- * @param {time}  时间信息,诸如0, 4或3, 2,1 天,时,分,秒
+ * @param {time}  时间信息,诸如xxx天xxx小时xxx分xxx秒
  */
 function createTimeElement(time) {
   const element = document.createElement("td")
-  let Times = time.split(",")
   let finalsec = 0
-  switch (Times.length) {
-    case 1:
-      finalsec = 86400 * Number(Times[0].trim())
-      break
-    case 2:
-      finalsec = 86400 * Number(Times[0].trim()) + 3600 * Number(Times[1].trim())
-      break
-    case 3:
-      finalsec = 86400 * Number(Times[0].trim()) + 3600 * Number(Times[1].trim()) + 60 * Number(Times[2].trim())
-      break
-    case 4:
-      finalsec = 86400 * Number(Times[0].trim()) + 3600 * Number(Times[1].trim()) + 60 * Number(Times[2].trim()) + Number(Times[3].trim())
-      break
-  }
-  const djs = dayjs().add(finalsec,"s")
+  let day = time.match(/\d+天/g)
+  let hour = time.match(/\d+小时/g)
+  let min = time.match(/\d+分/g)
+  let sec = time.match(/\d+秒/g)
+  if (day === null) day = 0
+  else day = Number(day[0].replace("天", ""))
+  if (hour === null) hour = 0
+  else hour = Number(hour[0].replace("小时", ""))
+  if (min === null) min = 0
+  else min = Number(min[0].replace("分", ""))
+  if (sec === null) sec = 0
+  else sec = Number(sec[0].replace("秒", ""))
+  finalsec = day * 86400 + hour * 3600 + min * 60 + sec
+  const djs = dayjs().add(finalsec, "s")
   element.innerHTML = djs.format('YYYY-MM-DD<br>HH:mm')
-  return {dayjs: djs,dom: element}
+  return {dayjs: djs, dom: element}
 }
 
 
 </script>
 
 <script setup>
-import {onMounted, nextTick, ref} from "vue";
+import {onMounted, nextTick, ref, watch} from "vue";
 import {formatTableData} from "@/assets/global/utils.js";
 import dayjs from "dayjs";
+import {setGoldpass} from "@/assets/upgrade.js";
+
 
 const props = defineProps({
   tableExtraInfo: {
@@ -252,11 +252,29 @@ let allTime = []
 // [{dayjs: dayjs(),dom: Element}]
 
 setInterval(() => {
-  allTime.forEach((item,index) => {
+  allTime.forEach((item, index) => {
     item.dayjs = item.dayjs.add(1, 'm');
     item.dom.innerHTML = item.dayjs.format('YYYY-MM-DD<br>HH:mm')
   })
 }, 60000)
+
+watch(setGoldpass, () => {
+  if (haveTime.value) {
+    const table = tableContainerRef.value.querySelector("table");
+    table.querySelectorAll("tr").forEach((row, index) => {
+      if (index === 0) {
+        row.appendChild(createTimeTitleElement());
+      } else {
+        // 获取原始时间数据
+        // etc. <td data-value="0, 4" className="cp-gp-item cp-gp-type-time cp-gp-class-building">
+        const timedata = row.querySelector(".cp-gp-type-time").querySelector(".cp-gp-showing-value").innerHTML;
+        const allTimedata = createTimeElement(timedata)
+        row.appendChild(allTimedata.dom)
+        allTime.push(allTimedata);
+      }
+    })
+  }
+})
 
 onMounted(() => {
   nextTick(() => {
@@ -275,14 +293,12 @@ onMounted(() => {
         } else {
           // 获取原始时间数据
           // etc. <td data-value="0, 4" className="cp-gp-item cp-gp-type-time cp-gp-class-building">
-          const timedata = row.querySelector(".cp-gp-type-time").getAttribute("data-value")
+          const timedata = row.querySelector(".cp-gp-type-time").querySelector(".cp-gp-showing-value").innerHTML;
           const allTimedata = createTimeElement(timedata)
           row.appendChild(allTimedata.dom)
           allTime.push(allTimedata);
         }
       })
-
-
     }
   });
 });

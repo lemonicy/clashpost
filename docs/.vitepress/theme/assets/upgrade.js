@@ -1,4 +1,5 @@
 import { inBrowser } from "vitepress";
+import {ref} from "vue"
 import { isNumber, convertTime, convertNum, getCookie } from "@/assets/global/utils.js";
 
 /**
@@ -412,6 +413,8 @@ function setTargetGoldPassTd(td, discount) {
     }
 }
 
+
+export const setGoldpass = ref(false)
 /**
  * 根据已有计算结果和用户的月卡减免设置，展示符合要求的数据
  * 
@@ -419,6 +422,7 @@ function setTargetGoldPassTd(td, discount) {
  * @param {Array} discountArr 减免比例的数组，三个值分别为训练、研究、建筑加成
  */
 export function showGoldPassValue(DOM, discountArr) {
+
     // 如果没传入月卡见面比例的参数，则从 cookie 获取
     if (!discountArr) {
         let cookieValue;
@@ -462,4 +466,5 @@ export function showGoldPassValue(DOM, discountArr) {
             console.error("黄金令牌加成的数据类型有误，请检查 td.classList 数据：" + tdClassList);
         }
     });
+    setGoldpass.value = !setGoldpass.value;
 }
