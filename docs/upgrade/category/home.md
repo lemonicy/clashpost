@@ -97,6 +97,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="急速药水瓶" imgSrc="07c3/Haste_Vial_thumb.png" link="07c3-Haste-Vial" />
         <ListItem name="火箭飞矛" imgSrc="07c4/Rocket_Spear_thumb.png" link="07c4-Rocket-Spear" />
         <ListItem name="雷电战靴" imgSrc="07c5/Electro_Boots_thumb.png" link="07c5-Electro-Boots" />
+        <ListItem name="冷冽冰晶" imgSrc="07c6/Frost_Flake_thumb.png" link="07c6-Frost-Flake" />
     </ListItems>
 </SwitchTabGroup>
 
