@@ -259,12 +259,14 @@ setInterval(() => {
 }, 60000)
 
 watch(setGoldpass, () => {
+  allTime.forEach((item, index) => {
+    item.dom.parentNode.removeChild(item.dom);
+  })
+  allTime = []
   if (haveTime.value) {
     const table = tableContainerRef.value.querySelector("table");
     table.querySelectorAll("tr").forEach((row, index) => {
-      if (index === 0) {
-        row.appendChild(createTimeTitleElement());
-      } else {
+      if (index > 0) {
         // 获取原始时间数据
         // etc. <td data-value="0, 4" className="cp-gp-item cp-gp-type-time cp-gp-class-building">
         const timedata = row.querySelector(".cp-gp-type-time").querySelector(".cp-gp-showing-value").innerHTML;
