@@ -24,7 +24,7 @@ canonical: /upgrade/0e82-Bag-of-Frostmites
     <UnitProperty pKey="影响区域的半径" pValue="1.75 格" />
     <UnitProperty pKey="占据的法术空间" pValue="1" />
     <UnitProperty pKey="所需法术工厂等级" pValue="1" />
-    <UnitProperty pKey="所需大本等级" pValue="5" />
+    <UnitProperty pKey="所需大本等级" pValue="6" />
     <UnitProperty pKey="法术配置时间" pValue="180" trainingSystem="2022" />
 </UnitProperties>
 
@@ -53,6 +53,8 @@ canonical: /upgrade/0e82-Bag-of-Frostmites
 
 | 等级 | 冰冻时间 |生成的<br>小冰怪数量|对应的<br>大本等级|
 |  --- |   ---   |        ---        |       ----     |
+|   3  |  1.5 秒 |          8        |        6       |
+|   3  |  1.7 秒 |          9        |        7       |
 |   3  |  1.9 秒 |         10        |        8       |
 |   4  |  2.1 秒 |         11        |        9       |
 |   5  |  2.3 秒 |         12        |       10       |
@@ -61,12 +63,18 @@ canonical: /upgrade/0e82-Bag-of-Frostmites
 |   8  |  2.9 秒 |         15        |       13       |
 |   9  |  3.1 秒 |         16        |       14       |
 |  10  |  3.3 秒 |         16        |       15       |
-|  11  |  3.5 秒 |         16        |       16       |
+|  11  |  3.5 秒 |         17        |       16       |
+|  12  |  3.7 秒 |         17        |       17       |
+|  13  |  3.9 秒 |         18        |       18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/12/08">
+        <TimelineRow>该兵种第 2 次推出，有效期至 2026/01/01.</TimelineRow>
+        <TimelineRow>这次推出后，该法术改为 6 本解锁，而不是 8 本。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/21">
         <TimelineRow>10 ~ 11 级袋装小冰怪可生成的小冰怪数量由 17/18 减少到 16/16.</TimelineRow>
         <TimelineRow>袋装小冰怪生成小冰怪的间隔时间缩短。</TimelineRow>

@@ -97,6 +97,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="急速药水瓶" imgSrc="07c3/Haste_Vial_thumb.png" link="07c3-Haste-Vial" />
         <ListItem name="火箭飞矛" imgSrc="07c4/Rocket_Spear_thumb.png" link="07c4-Rocket-Spear" />
         <ListItem name="雷电战靴" imgSrc="07c5/Electro_Boots_thumb.png" link="07c5-Electro-Boots" />
+        <ListItem name="冷冽冰晶" imgSrc="07c6/Frost_Flake_thumb.png" link="07c6-Frost-Flake" />
     </ListItems>
 </SwitchTabGroup>
 
@@ -165,6 +166,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="隐形法术" imgSrc="0106/Invisibility_Spell.png" link="0106-Invisibility-Spell" />
         <ListItem name="回溯法术" imgSrc="0107/Recall_Spell.png" link="0107-Recall-Spell" />
         <ListItem name="复苏法术" imgSrc="0108/Revive_Spell_thumb.png" link="0108-Revive-Spell" />
+        <ListItem name="图腾法术" imgSrc="0109/Totem_Spell_thumb.png" link="0109-Totem-Spell"/>
         <ListItem name="毒药法术" imgSrc="0180/Poison_Spell.png" link="0180-Poison-Spell" />
         <ListItem name="地震法术" imgSrc="0181/Earthquake_Spell.png" link="0181-Earthquake-Spell" />
         <ListItem name="急速法术" imgSrc="0182/Haste_Spell.png" link="0182-Haste-Spell" />
