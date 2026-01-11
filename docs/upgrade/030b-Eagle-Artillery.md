@@ -48,8 +48,8 @@ canonical: /upgrade/030b-Eagle-Artillery
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 10, 11 - 16, 17" />
-    <BuildingNumRow title="建筑数量" num="     0,       1,  0" />
+    <BuildingNumRow title="大本等级" num="1 - 10, 11 - 16, 17 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       1,       0" />
 </BuildingNum>
 
 在 16 级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。

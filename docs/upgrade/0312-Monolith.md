@@ -25,7 +25,7 @@ canonical: /upgrade/0312-Monolith
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 18" />
     <BuildingNumRow title="建筑数量" num="     0,       1" />
 </BuildingNum>
 
@@ -33,7 +33,6 @@ canonical: /upgrade/0312-Monolith
 
 1. 巨石碑每次攻击不仅会造成基础伤害，还会以目标的最大生命值为基准造成一定百分比的额外伤害，因此巨石碑对高生命值单位极具威胁。
 2. [狂暴法术塔](/upgrade/0311-Spell-Tower) 释放出来的狂暴法术只能提升巨石碑的普通攻击，不能提升巨石碑的额外伤害。
-3. 巨石碑是目前唯一使用黑油升级的建筑。
 
 <SmallTitle>属性</SmallTitle>
 

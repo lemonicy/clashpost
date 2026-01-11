@@ -28,7 +28,7 @@ canonical: /upgrade/0306-Air-Sweeper
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 5, 6 - 8, 9 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 5, 6 - 8, 9 - 18" />
     <BuildingNumRow title="建筑数量" num="    0,     1,      2" />
 </BuildingNum>
 

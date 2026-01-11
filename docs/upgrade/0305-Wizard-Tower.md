@@ -9,6 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Wizard_Tower
 canonical: /upgrade/0305-Wizard-Tower
 ---
 
+- *如想查看由两个法师塔合成的超级法师塔，请访问 [超级法师塔](/upgrade/0318-Super-Wizard-Tower)。*
 - *如想查看都城的超级法师塔，请访问：[都城超级法师塔](/upgrade/2207-Super-Wizard-Tower)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wizard_Tower17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
@@ -40,9 +41,11 @@ canonical: /upgrade/0305-Wizard-Tower
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 4, 5, 6 - 7, 8, 9 - 10, 11 - 17" />
-    <BuildingNumRow title="建筑数量" num="    0, 1,     2, 3,      4,       5" />
+    <BuildingNumRow title="大本等级" num="1 - 4, 5, 6 - 7, 8, 9 - 10, 11 - 17, 18" />
+    <BuildingNumRow title="建筑数量" num="    0, 1,     2, 3,      4,       5,  2" />
 </BuildingNum>
+
+注：18 本可新建一个法师塔，合并两个超级法师塔，因此法师塔的数量为 5 + 1 - 2 * 2 = 2 个。
 
 <SmallTitle>属性</SmallTitle>
 

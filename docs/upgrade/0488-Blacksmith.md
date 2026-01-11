@@ -26,7 +26,7 @@ canonical: /upgrade/0488-Blacksmith
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 18" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 

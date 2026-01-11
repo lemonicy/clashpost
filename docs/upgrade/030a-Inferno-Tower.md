@@ -94,7 +94,7 @@ const tableExtraInfoMultiMode = [
 <SmallTitle>各大本等级的地狱塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 9, 10 - 11, 12 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 9, 10 - 11, 12 - 18" />
     <BuildingNumRow title="建筑数量" num="    0,       2,       3" />
 </BuildingNum>
 
