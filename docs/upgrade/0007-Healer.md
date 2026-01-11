@@ -23,6 +23,7 @@ canonical: /upgrade/0007-Healer
         <UnitImg imgTitle="8 级" imgSrc="Healer8.png" />
         <UnitImg imgTitle="9 级" imgSrc="Healer9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Healer10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Healer11.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -84,12 +85,14 @@ const tableExtraInfo = [
 |   8  |          76        |          68        |  1800  |    11M  |    7      |     13      |    15     |
 |   9  |          80        |          75        |  1900  |    13M  |    7, 6   |     14      |    16     |
 |  10  |          80        |          78        |  2000  |    17M  |   11      |     15      |    17     |
+|  11  |          82        |          88        |  2100  | 28.5M  |   15      |     16      |    18     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 11 级天使。</TimelineRow>
         <TimelineRow>10 级天使的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

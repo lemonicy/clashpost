@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 超级巨人升级数据"
 navTitle: "超级巨人"
 shownTitle: "超级巨人"
@@ -57,12 +57,17 @@ canonical: /upgrade/0602-Super-Giant
 |  10  |    140   |   280   |      1400     |  4200 |     13    |
 |  11  |    150   |   300   |      1500     |  4400 |     15    |
 |  12  |    160   |   320   |      1600     |  4600 |     16    |
-|  13  |    170   |   340   |      1700     |  4800 |     17    |
+|  13  |    175   |   350   |      1750     |  4900 |     17    |
+|  14  |    190   |   380   |      1900     |  5300 |     18    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 14 级巨人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>13 级超级巨人的每秒伤害和生命值增加。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>

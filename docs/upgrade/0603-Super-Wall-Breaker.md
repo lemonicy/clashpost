@@ -73,6 +73,7 @@ canonical: /upgrade/0603-Super-Wall-Breaker
 |      11       | 140 / 338 |          338        |         478        |        13520        |        19120        |  500  |     15    |
 |      12       | 150 / 363 |          363        |         513        |        14520        |        20520        |  525  |     16    |
 |      13       | 160 / 388 |          388        |         548        |        15520        |        21920        |  550  |     17    |
+|      14       | 170 / 413 |          413        |         583        |        16520        |        23320        |  575  |     18    |
 </UnitTable>
 
 \* 5 - 6 级超级炸弹人只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
@@ -85,6 +86,9 @@ canonical: /upgrade/0603-Super-Wall-Breaker
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 14 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>

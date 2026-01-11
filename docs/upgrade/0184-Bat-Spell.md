@@ -88,12 +88,14 @@ const tableExtraInfo = [
 |   5  |         21      |  47.5K  |   4     |        10       |       12      |
 |   6  |         22      |   140K  |   7     |        13       |       15      |
 |   7  |         23      |   220K  |   8,12  |        15       |       17      |
+|   8  |         25      |   300K  |   13    |        16       |       18      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 8 级蝙蝠法术。</TimelineRow>
         <TimelineRow>7 级蝙蝠法术的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

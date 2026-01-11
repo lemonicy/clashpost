@@ -11,7 +11,7 @@ canonical: /upgrade/0401-Gold-Mine
 
 - *如想查看夜世界的金矿，请访问：[夜世界金矿](/upgrade/1201-Gold-Mine)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Mine16.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Mine17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -33,13 +33,14 @@ canonical: /upgrade/0401-Gold-Mine
         <UnitImg imgTitle="14 级" imgSrc="Gold_Mine14.png" />
         <UnitImg imgTitle="15 级" imgSrc="Gold_Mine15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Gold_Mine16.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Gold_Mine17.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1, 2, 3, 4, 5, 6 - 8, 9 - 17" />
+    <BuildingNumRow title="大本等级" num="1, 2, 3, 4, 5, 6 - 8, 9 - 18" />
     <BuildingNumRow title="建筑数量" num="1, 2, 3, 4, 5,     6,      7" />
 </BuildingNum>
 
@@ -106,9 +107,10 @@ const tableExtraInfo = [
 |  14  |  5600   |          300k           |    2, 5,34,18    |          800          |           11           |   1180  |   800k  |  0,10       |                    |        11       |
 |  15  |  6300   |          350k           |    2, 7,33,20    |          900          |           11           |   1280  |   1.2M  |  0,18       |                    |        12       |
 |  16  |  7000   |          385k           |    2, 7          |         1000          |           11           |   1350  |     2M  |  2          |                    |        14       |
-| ⚡1  |  7300   |        401.5k           |    2, 7          |         1000          |           11           |   1350  |   1.7M  |  2          |                    |        16       |
-| ⚡2  |  7600   |          418k           |    2, 7          |         1000          |           11           |   1350  |   1.5M  |  3          |                    |        16       |
-| ⚡3  |  7600   |          418k           |    2, 7          |         1000          |           11           |   1400  |   1.3M  |  4          |                    |        16       |
+|  17  |  7560   |          420k           |    2, 7,33,20    |         1000          |           11           |   1400  |     8M  |  4          |                    |        16       |
+| ⚡1  |  7857   |        436.5k           |    2, 7,33,20   |          1000         |           11           |   1400  |   1.7M  |  2          |                    |        18       |
+| ⚡2  |  8154   |          453k           |    2, 7,33,20   |          1000         |           11           |   1400  |   1.5M  |  3          |                    |        18       |
+| ⚡3  |  8154   |          453k           |    2, 7,33,20   |          1000         |           11           |   1450  |   1.3M  |  4          |                    |        18       |
 </UnitTable>
 
 \* 采集器容量满后将停止工作，直到玩家收集采集器内的资源。
@@ -116,6 +118,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>新增 17 级金矿，16 本可解锁。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>14 ~ 15 级金矿的升级时间减少。</TimelineRow>
     </TimelineItem>

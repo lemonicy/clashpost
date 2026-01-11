@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 巨石投手（蓝胖）升级数据"
 navTitle: "巨石投手"
 shownTitle: "巨石投手（蓝胖）"
@@ -25,6 +25,7 @@ canonical: /upgrade/0086-Bowler
         <UnitImg imgTitle="7 级" imgSrc="Bowler7.png" />
         <UnitImg imgTitle="8 级" imgSrc="Bowler8.png" />
         <UnitImg imgTitle="9 级" imgSrc="Bowler9.png" imgHd="Bowler9_hd.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Bowler10.png" imgHd="Bowler10_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -79,14 +80,17 @@ const tableExtraInfo = [
 |   6  |    108   |  237.6  |   530  |  110K  |    6      |     12      |    14     |
 |   7  |    114   |  250.8  |   565  |  145K  |    7      |     13      |    15     |
 |   8  |    126   |  277.2  |   600  |  175K  |    7,12   |     14      |    16     |
-|   9  |    136   |  299.2  |   650  |  260K  |   10      |     15      |    17     |
+|   9  |    140   |  308    |   700  |  260K  |   10      |     15      |    17     |
+|  10  |    156   |  343.2  |   850  |  360K  |   15      |     16      |    18     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 10 级巨石投手。</TimelineRow>
         <TimelineRow>9 级巨石投手的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>9 级巨石投手的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>4 ~ 8 级巨石投手的升级时间减少。</TimelineRow>

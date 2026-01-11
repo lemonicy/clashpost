@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 空中炸弹（红炸）升级数据"
 navTitle: "空中炸弹"
 shownTitle: "空中炸弹（红炸）"
@@ -25,6 +25,7 @@ canonical: /upgrade/0382-Air-Bomb
         <UnitImg imgTitle="7 - 8 级" imgSrc="Air_Bomb7.png" />
         <UnitImg imgTitle="9 - 10 级" imgSrc="Air_Bomb9.png" />
         <UnitImg imgTitle="11 - 12 级" imgSrc="Air_Bomb11.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Air_Bomb13.png" />
         <UnitImg imgTitle="未重新布置" imgSrc="Air_Bomb_unarmed.png" />
     </UnitImgGroup>
 </Panel>
@@ -32,7 +33,7 @@ canonical: /upgrade/0382-Air-Bomb
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 7, 8 - 9, 10 - 11, 12 - 13, 14 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 7, 8 - 9, 10 - 11, 12 - 13, 14 - 18" />
     <BuildingNumRow title="建筑数量" num="    0,     2,     4,       5,       6,       7" />
 </BuildingNum>
 
@@ -86,12 +87,14 @@ const tableExtraInfo = [
 |  10  |   350   |     3M  |    2      |                     |     15      |
 |  11  |   375   |     5M  |    3      |                     |     16      |
 |  12  |   400   |   9.5M  |    5,12   |                     |     17      |
+|  13  |   425   |   15M   |    9      |                     |     18      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 13 级空中炸弹。</TimelineRow>
         <TimelineRow>12 级空中炸弹的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

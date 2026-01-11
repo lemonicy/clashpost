@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage
 canonical: /upgrade/0406-Dark-Elixir-Storage
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Storage12.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Storage13.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -27,13 +27,14 @@ canonical: /upgrade/0406-Dark-Elixir-Storage
         <UnitImg imgTitle="10 级" imgSrc="Dark_Elixir_Storage10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Dark_Elixir_Storage11.png" imgHd="Dark_Elixir_Storage11_hd.png" />
         <UnitImg imgTitle="12 级" imgSrc="Dark_Elixir_Storage12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Dark_Elixir_Storage13.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 18" />
     <BuildingNumRow title="建筑数量" num="     0,     1" />
 </BuildingNum>
 
@@ -94,12 +95,14 @@ const tableExtraInfo = [
 |  10  |  360k   |  4300 |      8M  |   4,12  |                      |        15       |
 |  11  |  390k   |  4500 |     10M  |   5     |                      |        16       |
 |  12  |  420k   |  4700 |     16M  |   9     |                      |        17       |
+|  13  |  450k   |  4800 |     25M  |  13     |                      |        18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 13 级暗黑重油罐。</TimelineRow>
         <TimelineRow>12 级暗黑重油罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

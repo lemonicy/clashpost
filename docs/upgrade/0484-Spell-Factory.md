@@ -11,7 +11,7 @@ canonical: /upgrade/0484-Spell-Factory
 
 - *如想查看配置暗黑法术的法术工厂，请访问：[暗黑法术工厂](/upgrade/0485-Dark-Spell-Factory)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spell_Factory8.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spell_Factory9.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -25,6 +25,7 @@ canonical: /upgrade/0484-Spell-Factory
         <UnitImg imgTitle="6 级" imgSrc="Spell_Factory6.png" />
         <UnitImg imgTitle="7 级" imgSrc="Spell_Factory7.png" />
         <UnitImg imgTitle="8 级" imgSrc="Spell_Factory8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Spell_Factory9.png" />
     </UnitImgGroup>
     <UnitImgGroup title="法术配置中" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Spell_Factory1_Active.png" />
@@ -35,13 +36,14 @@ canonical: /upgrade/0484-Spell-Factory
         <UnitImg imgTitle="6 级" imgSrc="Spell_Factory6_Active.png" />
         <UnitImg imgTitle="7 级" imgSrc="Spell_Factory7_Active.png" />
         <UnitImg imgTitle="8 级" imgSrc="Spell_Factory8_Active.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Spell_Factory9_Active.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 18" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
@@ -87,11 +89,15 @@ const tableExtraInfo = [
 |   6  |        10        |   840  |  3.5M   |   5     |                     |      11       |<a href="/upgrade/0106-Invisibility-Spell">隐形法术</a>|
 |   7  |        10        |   960  |    9M   |   7     |                     |      13       |<a href="/upgrade/0107-Recall-Spell">回溯法术</a>|
 |   8  |        10        |  1080  |   14M   |   8     |                     |      15       |<a href="/upgrade/0108-Revive-Spell">复苏法术</a>|
+|   9  |        10        |  1150  |   24M   |  13     |                     |      16       |<a href="/upgrade/0109-Totem-Spell">图腾法术</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>16 本新增 9 级法术工厂。</TimelineRow>    
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>1 ~ 5、7 ~ 8 级法术工厂的升级时间减少。</TimelineRow>
         <TimelineRow>8 级法术工厂的升级费用降低。</TimelineRow>

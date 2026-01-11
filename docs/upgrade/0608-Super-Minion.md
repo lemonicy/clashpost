@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 超级亡灵（超苍、马云）升级数据"
 navTitle: "超级亡灵"
 shownTitle: "超级亡灵（超苍、马云）"
@@ -61,7 +61,8 @@ canonical: /upgrade/0608-Super-Minion
 |      10       |    350    |    350    |  1700 |     14    |
 |      11       |    360    |    360    |  1800 |     15    |
 |      12       |    370    |    370    |  1900 |     16    |
-|      13       |    380    |    380    |  2000 |     17    |
+|      13       |    385    |    385    |  2100 |     17    |
+|      14       |    400    |    400    |  2300 |     18    |
 </UnitTable>
 
 \* 4 - 7 级超级亡灵只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
@@ -69,6 +70,10 @@ canonical: /upgrade/0608-Super-Minion
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 14 级亡灵，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>13 级超级亡灵的每秒伤害和生命值增加。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/30">
         <TimelineRow>超级亡灵的“远程狙杀”技能在进攻时的远距离攻击次数由 6 次改为 7 次，防守时保持 3 次不变。</TimelineRow>
     </TimelineItem>

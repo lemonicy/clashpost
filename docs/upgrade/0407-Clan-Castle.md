@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Clan_Castle
 canonical: /upgrade/0407-Clan-Castle
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Clan_Castle13_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Clan_Castle14_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -29,13 +29,14 @@ canonical: /upgrade/0407-Clan-Castle
         <UnitImg imgTitle="11 级" imgSrc="Clan_Castle11.png" />
         <UnitImg imgTitle="12 级" imgSrc="Clan_Castle12.png" imgHd="Clan_Castle12_hd.png" />
         <UnitImg imgTitle="13 级" imgSrc="Clan_Castle13.png" imgHd="Clan_Castle13_hd.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Clan_Castle14.png" imgHd="Clan_Castle14_hd.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 18" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
@@ -93,6 +94,7 @@ const tableExtraInfo = [
 |  11  |        50        |          3        |           1          | 5400 |   12M |   8     |                     |       15     |
 |  12  |        50        |          3        |      2<sup>②</sup>   | 5600 | 14.5M |   9     |                     |       16     |
 |  13  |        55        |          3        |           2          | 5800 |   19M |  11     |                     |       17     |
+|  14  |        55        |          4        |           2          | 6000 |   28M |  14     |                     |       18     |
 </UnitTable>
 
 ① 理论上来说，玩家只有升级到 3 级大本营才能达到 10 000 的资源储量用来修复城堡，但是如果玩家在 2 级大本营时遇到夯木节（升级建筑的费用减半）活动，或者购买资源礼包，那么就可以提前解锁城堡。  
@@ -132,6 +134,7 @@ const tableExtraInfo = [
 |    15   |    480 万     |  24 000  |
 |    16   |    520 万     |  26 000  |
 |    17   |    560 万     |  30 000  |
+|    18   |    600 万     |  32 000  |
 </Table>
 </SwitchTabGroup>
 
@@ -158,6 +161,7 @@ const tableExtraInfo = [
 |    15   |    528 万     |  26 400  |
 |    16   |    572 万     |  28 600  |
 |    17   |    616 万     |  33 000  |
+|    18   |    660 万     |  35 200  |
 </Table>
 </SwitchTabGroup>
 
@@ -184,6 +188,7 @@ const tableExtraInfo = [
 |    15   |    576 万     |  28 800  |
 |    16   |    624 万     |  31 200  |
 |    17   |    672 万     |  36 000  |
+|    18   |    720 万     |  38 400  |
 </Table>
 </SwitchTabGroup>
 
@@ -210,6 +215,7 @@ const tableExtraInfo = [
 |    15   |    624 万     |  31 200  |
 |    16   |    676 万     |  33 800  |
 |    17   |    728 万     |  39 000  |
+|    18   |    780 万     |  41 600  |
 </Table>
 </SwitchTabGroup>
 
@@ -236,6 +242,7 @@ const tableExtraInfo = [
 |    15   |    672 万     |  33 600  |
 |    16   |    728 万     |  36 400  |
 |    17   |    784 万     |  42 000  |
+|    18   |    840 万     |  44 800  |
 </Table>
 </SwitchTabGroup>
 
@@ -262,6 +269,7 @@ const tableExtraInfo = [
 |    15   |    720 万     |  36 000  |
 |    16   |    780 万     |  39 000  |
 |    17   |    840 万     |  45 000  |
+|    18   |    900 万     |  48 000  |
 </Table>
 </SwitchTabGroup>
 
@@ -269,6 +277,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 14 级部落城堡。</TimelineRow>
         <TimelineRow>13 级部落城堡的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">

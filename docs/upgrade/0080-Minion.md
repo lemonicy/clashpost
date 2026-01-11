@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 亡灵（苍蝇）升级数据"
 navTitle: "亡灵"
 shownTitle: "亡灵（苍蝇）"
@@ -30,6 +30,7 @@ canonical: /upgrade/0080-Minion
         <UnitImg imgTitle="11 级" imgSrc="Minion11.png" />
         <UnitImg imgTitle="12 级" imgSrc="Minion12.png" />
         <UnitImg imgTitle="13 级" imgSrc="Minion13.png" imgHd="Minion13_hd.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Minion14.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -88,14 +89,17 @@ const tableExtraInfo = [
 |  10  |     70   |    70   |  108  |   100K  |    4      |        12       |       14      |
 |  11  |     74   |    74   |  114  |   115K  |    4,12   |        13       |       15      |
 |  12  |     78   |    78   |  120  |   160K  |    6      |        14       |       16      |
-|  13  |     82   |    82   |  126  |   220K  |    9      |        15       |       17      |
+|  13  |     84   |    84   |  130  |   220K  |    9      |        15       |       17      |
+|  14  |     92   |    92   |  140  |   335K  |   14      |        16       |       18      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 14 级亡灵。</TimelineRow>
         <TimelineRow>13 级亡灵的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>13 级亡灵的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>8 ~ 12 级亡灵的升级时间减少。</TimelineRow>

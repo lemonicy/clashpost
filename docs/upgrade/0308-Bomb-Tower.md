@@ -11,12 +11,12 @@ canonical: /upgrade/0308-Bomb-Tower
 
 - *如想查看都城的炸弹塔，请访问：[都城炸弹塔](/upgrade/2205-Bomb-Tower)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Bomb_Tower12.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Bomb_Tower13.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
-    <UnitImgGroup title="炸弹塔" :folder="$frontmatter.imgFolder">
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Bomb_Tower1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Bomb_Tower2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Bomb_Tower3.png" />
@@ -29,14 +29,15 @@ canonical: /upgrade/0308-Bomb-Tower
         <UnitImg imgTitle="10 级" imgSrc="Bomb_Tower10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Bomb_Tower11.png" />
         <UnitImg imgTitle="12 级" imgSrc="Bomb_Tower12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Bomb_Tower13.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1-7, 8-9, 11-17" />
-    <BuildingNumRow title="建筑数量" num="  0,   1,     2" />
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 9, 11 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,     1,       2" />
 </BuildingNum>
 
 <SmallTitle>属性</SmallTitle>
@@ -92,14 +93,16 @@ const tableExtraInfo = [
 |  10  |    94   |  103.4  |         550        |  2500  |     7M  |    4,18   |                     |       15       |
 |  11  |   104   |  114.4  |         600        |  2700  |   8.5M  |    5      |                     |       16       |
 |  12  |   114   |  125.4  |         650        |  2900  |  14.5M  |    9      |                     |       17       |
-| ⚡1  |   119   |  130.9  |         650        |  2900  |    10M  |    4      |                     |       17       |
-| ⚡2  |   119   |  130.9  |         650        |  3000  |     6M  |    6      |                     |       17       |
+|  13  |   122   |  134.2  |         700        |  3050  |    25M  |    13     |                     |       18       |
+| ⚡1  |   127   |  139.7  |         700        |  3050  |     6M  |   2,12   |                     |       18       |
+| ⚡2  |   127   |  139.7  |         700        |  3150  |     3M  |    4      |                     |       18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 13 级炸弹塔。</TimelineRow>
         <TimelineRow>12 级炸弹塔的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

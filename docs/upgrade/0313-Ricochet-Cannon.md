@@ -11,7 +11,7 @@ canonical: /upgrade/0313-Ricochet-Cannon
 
 - *如想查看普通的加农炮，请访问 [加农炮](/upgrade/0301-Cannon)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ricochet_Cannon3.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ricochet_Cannon4.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -21,14 +21,15 @@ canonical: /upgrade/0313-Ricochet-Cannon
         <UnitImg imgTitle="1 级" imgSrc="Ricochet_Cannon1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Ricochet_Cannon2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Ricochet_Cannon3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Ricochet_Cannon4.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 15, 16, 17" />
-    <BuildingNumRow title="建筑数量" num="     0,  2,  3" />
+    <BuildingNumRow title="大本等级" num="1 - 15, 16 - 17, 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       2,  3" />
 </BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
@@ -80,14 +81,16 @@ const tableExtraInfo = [
 |   1  |   360   |  288    |  5400  |    12M  |   7     |                     |       16       |
 |   2  |   390   |  312    |  5700  |    13M  |   8     |                     |       16       |
 |   3  |   405   |  324    |  6000  |  17.5M  |  10,18  |                     |       17       |
-| ⚡1  |   413   |  330.4  |  6000  |  11.5M  |   5,12  |                     |       17       |
-| ⚡2  |   413   |  330.4  |  6150  |     8M  |   6,12  |                     |       17       |
+|   4  |   412   |  329.6  |  6100  |  26.5M  |  13,12  |                     |       18       |
+| ⚡1  |   420   |  336  |  6100  |  12M   |     6    |                     |       18       |
+| ⚡2  |   420   |  336  |  6250  |   10M  |     7    |                     |       18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 4 级跳弹加农炮。</TimelineRow>
         <TimelineRow>3 级跳弹加农炮的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

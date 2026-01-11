@@ -59,11 +59,15 @@ canonical: /upgrade/060e-Super-Miner
 |   9  |    205    |      405      |     605   |    1800   |  3600 |     15    |
 |  10  |    225    |      440      |     650   |    2000   |  4000 |     16    |
 |  11  |    245    |      475      |     695   |    2200   |  4400 |     17    |
+|  12  |    265    |      510      |     740   |    2400   |  5000 |     18    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 12 级掘地矿工，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/30">
         <TimelineRow>7 ~ 11 级超级矿工的生命值增加。</TimelineRow>
         <TimelineRow>9 ~ 11 级超级矿工的每秒伤害提升。</TimelineRow>

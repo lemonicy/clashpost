@@ -11,7 +11,7 @@ canonical: /upgrade/0483-Laboratory
 
 - *如想查看夜世界的星空实验室，请访问：[夜世界星空实验室](/upgrade/1282-Star-Laboratory)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Laboratory15.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Laboratory16_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -32,13 +32,14 @@ canonical: /upgrade/0483-Laboratory
         <UnitImg imgTitle="13 级" imgSrc="Laboratory13.png" />
         <UnitImg imgTitle="14 级" imgSrc="Laboratory14.png" />
         <UnitImg imgTitle="15 级" imgSrc="Laboratory15.png" />
+        <UnitImg imgTitle="16 级" imgSrc="Laboratory16.png" imgHd="Laboratory16_hd.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 18" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
@@ -95,12 +96,14 @@ const tableExtraInfo = [
 |   13 |  1350 |  10.8M  |  8       |                      |       15        |
 |   14 |  1400 |    13M  |  9       |                      |       16        |
 |   15 |  1450 |    18M  | 10       |                      |       17        |
+|   16 |  1500 |    27M  | 16       |                      |       18        |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 16 级实验室。</TimelineRow>
         <TimelineRow>15 级实验室的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24"> 

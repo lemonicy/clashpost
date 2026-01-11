@@ -18,6 +18,7 @@ canonical: /upgrade/0011-Thrower
         <UnitImg imgTitle="1 级" imgSrc="Thrower1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Thrower2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Thrower3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Thrower4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -62,14 +63,17 @@ const tableExtraInfo = [
 | ---- |   ----   |   ---   |  ---- |    ---  |     ---   |     ---     |   ----    |
 |   1  |    190   |   475   |  2100 |      \  |      \    |       1     |     16    |
 |   2  |    200   |   500   |  2250 |    16M  |    9,12   |      14     |     16    |
-|   3  |    210   |   525   |  2400 |    18M  |   10,12   |      15     |     17    |
+|   3  |    220   |   550   |  2500 |    18M  |   10,12   |      15     |     17    |
+|   4  |    240   |   600   |  2800 |    27M  |   15      |      16     |     18    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 4 级巨矛投手。</TimelineRow>
         <TimelineRow>2 ~ 3 级巨矛投手的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>3 级巨矛投手的生命值和每秒伤害增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/30">
         <TimelineRow>所有等级巨矛投手的生命值增加。</TimelineRow>
