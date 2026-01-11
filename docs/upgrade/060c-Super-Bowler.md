@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 超级巨石投手（超级蓝胖、超蓝）升级数据"
 navTitle: "超级巨石投手"
 shownTitle: "超级巨石投手（超级蓝胖、超蓝）"
@@ -58,13 +58,18 @@ canonical: /upgrade/060c-Super-Bowler
 |   6  |    200    |    440    |  2000 |     14    |
 |   7  |    220    |    484    |  2300 |     15    |
 |   8  |    240    |    528    |  2600 |     16    |
-|   9  |    260    |    572    |  2900 |     17    |
+|   9  |    270    |    594    |  3000 |     17    |
+|  10  |    300    |    660    |  3600 |     18    |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 10 级巨石投手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>9 级超级巨石投手的每秒伤害和生命值增加。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/30">
         <TimelineRow>7 ~ 9 级超级巨石投手的生命值增加。</TimelineRow>
         <TimelineRow>7 ~ 9 级超级巨石投手的每秒伤害提升。</TimelineRow>

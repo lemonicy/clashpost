@@ -12,7 +12,7 @@ canonical: /upgrade/0300-Walls
 - *如想查看夜世界的城墙，请访问：[夜世界城墙](/upgrade/110c-Walls)。*
 - *如想查看都城的城墙，请访问：[都城城墙](/upgrade/2200-Walls)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wall18.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wall19.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -36,13 +36,14 @@ canonical: /upgrade/0300-Walls
         <UnitImg imgTitle="16 级" imgSrc="Wall16.png" />
         <UnitImg imgTitle="17 级" imgSrc="Wall17_thumb.png" imgHd="Wall17.png"/>
         <UnitImg imgTitle="18 级" imgSrc="Wall18.png" />
+        <UnitImg imgTitle="19 级" imgSrc="Wall19.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1,  2,  3,  4,   5,   6,   7,   8,   9,  10, 11 - 13, 14 - 17" />
+    <BuildingNumRow title="大本等级" num="1,  2,  3,  4,   5,   6,   7,   8,   9,  10, 11 - 13, 14 - 18" />
     <BuildingNumRow title="建筑数量" num="0, 25, 50, 75, 100, 125, 175, 225, 250, 275,     300,     325" />
 </BuildingNum>
 
@@ -50,7 +51,7 @@ canonical: /upgrade/0300-Walls
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="1×1" />
-    <!-- <UnitProperty pKey="18 级城墙最高可升级" pValue="250 块" /> -->
+    <UnitProperty pKey="19 级城墙最高可升级" pValue="125 块" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -100,7 +101,8 @@ const tableExtraInfo = [
 |  15  | 10000 |    3M   |     3M   |          3         |       14        |
 |  16  | 11000 |    4M   |     4M   |          4         |       15        |
 |  17  | 12000 |    5M   |     5M   |          5         |       16        |
-|  18  | 13000 |    8M   |     8M   |          8         |       17        |
+|  18  | 13000 |    7M   |     7M   |          7         |       17        |
+|  19  | 14000 |   10M   |    10M   |         10         |       18        |
 </UnitTable>
 
 注：升级城墙时，金币、圣水、戒指任选其一即可。
@@ -108,6 +110,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>18 本推出，并在 18 本新增 19 级城墙，目前游戏只开放了 125 块 19 级城墙。</TimelineRow>
+        <TimelineRow>18 级城墙的升级费用降低。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/30">
         <TimelineRow>13 ~ 18 级城墙的生命值减少。</TimelineRow>
     </TimelineItem>

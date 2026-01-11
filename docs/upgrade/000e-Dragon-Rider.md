@@ -20,6 +20,7 @@ canonical: /upgrade/000e-Dragon-Rider
         <UnitImg imgTitle="3 级" imgSrc="Dragon_Rider3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Dragon_Rider4.png" />
         <UnitImg imgTitle="5 级" imgSrc="Dragon_Rider5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Dragon_Rider6.png" imgHd="Dragon_Rider6_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -68,12 +69,17 @@ const tableExtraInfo = [
 |   2  |    370   |    444  |    800   |  4400 |   7.5M  |   6     |        11       |      13       |
 |   3  |    400   |    480  |    900   |  4700 |    12M  |   8     |        12       |      14       |
 |   4  |    430   |    516  |   1000   |  5100 |  14.5M  |   9     |        14       |      16       |
-|   5  |    460   |    552  |   1100   |  5600 |  22.5M  |  15,12  |        15       |      17       |
+|   5  |    470   |    564  |   1100   |  5600 |   19M  |  10,6   |        15       |      17       |
+|   6  |    520   |    624  |   1200   |  6200 |  29.5M  |  15,12  |        16       |      18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 6 级龙骑士。</TimelineRow>
+        <TimelineRow>5 级龙骑士的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>2 ~ 3 级龙骑士的升级时间减少。</TimelineRow>
     </TimelineItem>

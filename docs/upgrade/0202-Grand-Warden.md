@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 大守护者（咏王）升级数据"
 navTitle: "大守护者"
 shownTitle: "大守护者（咏王）"
@@ -148,6 +148,11 @@ const tableExtraInfo = [
 |  73  |  318  | 572.4 |  2465 | 21.5M |  8    |        |        11        |       17      |
 |  74  |  321  | 577.8 |  2482 |   22M |  8    |        |        11        |       17      |
 |  75  |  324  | 583.2 |  2499 | 22.5M |  8    |        |        11        |       17      |
+|  76  |  327  | 588.6 |  2516 |   24M |  8    |        |        12        |       18      |
+|  77  |  330  | 594   |  2533 | 25.5M |  8    |        |        12        |       18      |
+|  78  |  333  | 599.4 |  2550 |   27M |  8    |        |        12        |       18      |
+|  79  |  336  | 604.8 |  2567 | 28.5M |  8    |        |        12        |       18      |
+|  80  |  339  | 610.2 |  2584 |   30M |  8    |        |        12        |       18      |
 </UnitTable>
 
 <SmallTitle>技能回血数据</SmallTitle>
@@ -173,12 +178,16 @@ const tableExtraInfo = [
 |   60 - 64   |         238        |
 |   65 - 69   |         247        |
 |   70 - 74   |         256        |
-|      75     |         265        |
+|   75 - 79   |         265        |
+|      80     |         275        |
 </Table>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 76 ~ 80 级大守护者。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>现在 14 级大本营即可解锁 56 ~ 60 级大守护者。</TimelineRow>
         <TimelineRow>10、26 ~ 70 级大守护者的升级时间减少。</TimelineRow>

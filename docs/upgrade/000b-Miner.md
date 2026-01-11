@@ -25,6 +25,7 @@ canonical: /upgrade/000b-Miner
         <UnitImg imgTitle="9 级" imgSrc="Miner9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Miner10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Miner11.png" imgHd="Miner11_hd.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Miner12.png" imgHd="Miner12_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -87,12 +88,14 @@ const tableExtraInfo = [
 |   9  |    144   |  244.8  |  1350  |  10.5M  |    6,12   |     13      |    15     |
 |  10  |    160   |  272    |  1550  |  12.5M  |    7      |     14      |    16     |
 |  11  |    175   |  297.5  |  1750  |  16.5M  |    9,20   |     15      |    17     |
+|  12  |    195   |  331.5  |  2050  |    28M  |   14,12   |     16      |    18     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 12 级掘地矿工。</TimelineRow>
         <TimelineRow>11 级掘地矿工的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

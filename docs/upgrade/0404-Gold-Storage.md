@@ -11,7 +11,7 @@ canonical: /upgrade/0404-Gold-Storage
 
 - *如想查看夜世界的储金罐，请访问：[夜世界储金罐](/upgrade/1203-Gold-Storage)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Storage18.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Storage19.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -35,13 +35,14 @@ canonical: /upgrade/0404-Gold-Storage
         <UnitImg imgTitle="16 级" imgSrc="Gold_Storage16.png" />
         <UnitImg imgTitle="17 级" imgSrc="Gold_Storage17.png" />
         <UnitImg imgTitle="18 级" imgSrc="Gold_Storage18.png" />
+        <UnitImg imgTitle="19 级" imgSrc="Gold_Storage19.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 7, 8, 9 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 7, 8, 9 - 18" />
     <BuildingNumRow title="建筑数量" num="    1,     2, 3,      4" />
 </BuildingNum>
 
@@ -108,12 +109,14 @@ const tableExtraInfo = [
 |  16  |     5M  |  3900 |     4M   |  4          |                      |        15       |
 |  17  |   5.5M  |  4050 |   5.5M   |  5          |                      |        16       |
 |  18  |     6M  |  4200 |    10M   |  7          |                      |        17       |
+|  19  |   6.5M  |  4300 |    18M   |  12,12      |                      |        18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 19 级储金罐。</TimelineRow>
         <TimelineRow>18 级储金罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">

@@ -77,6 +77,7 @@ const tableExtraInfo = [
 |  10  |   600  |    10M  |   6     |             13              |      15       |
 |  11  |   640  |  13.5M  |   7     |             14              |      16       |
 |  12  |   680  |  18.5M  |  10     |             15              |      17       |
+|  13  |   720  |    27M  |  14     |             16              |      18       |
 </UnitTable>
 
 \* 如果玩家升级到 5 级大本营并且解锁了雷电法术，即使玩家没有立即升实验室也可以升级雷电法术。
@@ -85,6 +86,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 13 级雷电法术。</TimelineRow>
         <TimelineRow>12 级雷电法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

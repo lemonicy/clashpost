@@ -12,7 +12,7 @@ canonical: /upgrade/0304-Air-Defense
 - *如想查看夜世界的多管防空火炮，请访问：[夜世界防空火炮](/upgrade/1104-Firecrackers)。*
 - *如想查看都城的多管防空火箭，请访问：[都城防空火箭](/upgrade/2203-Air-Defense)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Air_Defense15.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Air_Defense16.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -33,13 +33,14 @@ canonical: /upgrade/0304-Air-Defense
         <UnitImg imgTitle="13 级" imgSrc="Air_Defense13.png" />
         <UnitImg imgTitle="14 级" imgSrc="Air_Defense14.png" />
         <UnitImg imgTitle="15 级" imgSrc="Air_Defense15.png" />
+        <UnitImg imgTitle="16 级" imgSrc="Air_Defense16.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 3, 4 - 5, 6, 7 - 8, 9 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 3, 4 - 5, 6, 7 - 8, 9 - 18" />
     <BuildingNumRow title="建筑数量" num="    0,     1, 2,     3,      4" />
 </BuildingNum>
 
@@ -96,14 +97,16 @@ const tableExtraInfo = [
 |  13  |   540   |   540   |  1750  |    8M   |   6       |                     |       15       |
 |  14  |   600   |   600   |  1850  |    9M   |   6,12    |                     |       16       |
 |  15  |   650   |   650   |  1950  |   15M   |   9,12    |                     |       17       |
-| ⚡1  |   670   |   670   |  1950  |   10M   |   4       |                     |       17       |
-| ⚡2  |   690   |   690   |  1950  |    6M   |   6       |                     |       17       |
+|  16  |   700   |   700   |  2000  |   26M   |   13,6    |                     |       18       |
+| ⚡1  |   720   |   720   |  2000  |    6M   |  2,18    |                     |       18       |
+| ⚡2  |   740   |   740   |  2000  |    3M   |   4,6    |                     |       18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 16 级防空火箭。</TimelineRow>
         <TimelineRow>15 级防空火箭的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

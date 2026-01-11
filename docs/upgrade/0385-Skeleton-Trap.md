@@ -11,7 +11,15 @@ canonical: /upgrade/0385-Skeleton-Trap
 
 - 本页内容不是空中炸弹，如想查看空中炸弹的数据，请访问：[空中炸弹](/upgrade/0382-Air-Bomb)。
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_Trap_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
+    <SwitchTab tabId="cp-unit-item-0" :activeTab="true">骷髅陷阱</SwitchTab>
+    <SwitchTab tabId="cp-unit-item-1">骷髅</SwitchTab>
+</SwitchTabs>
+
+<!-- ↓↓↓ 骷髅陷阱 ↓↓↓ -->
+<SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_Trap_info.png" imgAlt="骷髅陷阱"
+    description="骷髅兵虽然脆弱，但异常狡猾，他们出其不意地伏击毫无戒备的敌军部队，并分散敌军注意力！您可以将骷髅陷阱的目标设置为地面部队或空中部队。" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -19,21 +27,24 @@ canonical: /upgrade/0385-Skeleton-Trap
     <UnitImgGroup title="地面模式" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 - 2 级" imgSrc="Skeleton_Trap1.png" />
         <UnitImg imgTitle="3 - 4 级" imgSrc="Skeleton_Trap3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Skeleton_Trap5.png" />
     </UnitImgGroup>
     <UnitImgGroup title="空中模式" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 - 2 级" imgSrc="Skeleton_Trap1_Air.png" />
         <UnitImg imgTitle="3 - 4 级" imgSrc="Skeleton_Trap3_Air.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Skeleton_Trap5_Air.png" />
     </UnitImgGroup>
     <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 - 2 级" imgSrc="Skeleton_Trap1_unarmed.png" />
         <UnitImg imgTitle="3 - 4 级" imgSrc="Skeleton_Trap3_unarmed.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Skeleton_Trap5_unarmed.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 9, 10 - 13, 14 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 9, 10 - 13, 14 - 18" />
     <BuildingNumRow title="建筑数量" num="    0,     2,       3,       4" />
 </BuildingNum>
 
@@ -47,6 +58,55 @@ canonical: /upgrade/0385-Skeleton-Trap
     <UnitProperty pKey="触发半径" pValue="5 格" />
 </UnitProperties>
 
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 5,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 骷髅数量 |  骷髅等级 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
+| ---- |   ---   |    ---   |   ---    |   ---   |         ---        |      ---      |
+|   1  |    2    |     1    |     6k   |   0     |                    |        8      |
+|   2  |    3    |     1    |   250k   |   0, 5  |                    |        8      |
+|   3  |    4    |     1    |   400k   |   0, 8  |                    |        9      |
+|   4  |    5    |     1    |     1M   |   0,12  |                    |       10      |
+|   5  |    5    |     2    |    18M   |   7     |                    |       18      |
+
+</UnitTable>
+</SwitchTabGroup>
+
+<!-- ↓↓↓ 骷髅 ↓↓↓ -->
+<SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_info.png" imgAlt="骷髅"
+    description="这些不死生物本身不构成太大的威胁，但它们从来不单独作战，因为女巫会不断召唤成群的骷髅兵来对抗您的敌人！" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Skeleton1.png" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>对地骷髅的属性</SmallTitle>
 
 <UnitProperties>
@@ -56,9 +116,6 @@ canonical: /upgrade/0385-Skeleton-Trap
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击距离" pValue="0.4 格" />
     <UnitProperty pKey="攻速" pValue="0.7 秒/次" />
-    <UnitProperty pKey="每秒伤害" pValue="25" />
-    <UnitProperty pKey="每次伤害" pValue="17.5" />
-    <UnitProperty pKey="生命值" pValue="30" />
 </UnitProperties>
 
 <SmallTitle>对空骷髅的属性</SmallTitle>
@@ -70,48 +127,28 @@ canonical: /upgrade/0385-Skeleton-Trap
     <UnitProperty pKey="移动速度" pValue="2.2 格/秒" />
     <UnitProperty pKey="攻击距离" pValue="0 (紧贴目标)" />
     <UnitProperty pKey="攻速" pValue="0.7 秒/次" />
-    <UnitProperty pKey="每秒伤害" pValue="25" />
-    <UnitProperty pKey="每次伤害" pValue="17.5" />
-    <UnitProperty pKey="生命值" pValue="30" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
 
-<script setup>
-const tableExtraInfo = [
-    {
-        "column": 2,
-        "type": "cost",
-        "gpClass": "building",
-        "icon": "Gold"
-    },
-    {
-        "column": 3,
-        "type": "time",
-        "gpClass": "building"
-    },
-    {
-        "column": 4,
-        "type": "exp",
-        "icon": "Exp"
-    }
-];
-</script>
+<UnitTable>
 
-<UnitTable :tableExtraInfo="tableExtraInfo">
-
-| 等级 | 骷髅数量 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
-| ---- |   ---   |   ---   |   ---   |         ---        |      ---      |
-|   1  |    2    |     6k  |   0     |                    |        8      |
-|   2  |    3    |   250k  |   0, 5  |                    |        8      |
-|   3  |    4    |   400k  |   0, 8  |                    |        9      |
-|   4  |    5    |     1M  |   0,12  |                    |       10      |
+| 等级 | 每秒伤害 |  每次伤害 | 生命值 |
+| ---- |   ---   |    ---   |  ---   |
+|   1  |    25   |   17.5   |   30   |
+|   2  |    30   |   21     |   45   |
 
 </UnitTable>
 
+</SwitchTabGroup>
+
+<!-- ↓↓↓ 公共部分 ↓↓↓ -->
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 5 级骷髅陷阱。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>3 ~ 4 级骷髅陷阱的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 4 级骷髅陷阱的升级费用降低。</TimelineRow>

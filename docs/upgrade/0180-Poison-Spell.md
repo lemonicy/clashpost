@@ -70,12 +70,14 @@ const tableExtraInfo = [
 |   9  |    320    |        48%       |         70%       |   135K  |   7     |        13       |       15      |
 |  10  |    340    |        50%       |         72%       |   175K  |   8     |        14       |       16      |
 |  11  |    360    |        51%       |         73%       |   230K  |   9,16  |        15       |       17      |
+|  12  |    380    |        52%       |         74%       |   350K  |  14,12  |        16       |       18      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 12 级毒药法术。</TimelineRow>
         <TimelineRow>11 级毒药法术的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

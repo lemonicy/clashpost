@@ -21,6 +21,7 @@ canonical: /upgrade/000c-Electro-Dragon
         <UnitImg imgTitle="6 级" imgSrc="Electro_Dragon6.png" />
         <UnitImg imgTitle="7 级" imgSrc="Electro_Dragon7.png" />
         <UnitImg imgTitle="8 级" imgSrc="Electro_Dragon8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Electro_Dragon9.png" imgHd="Electro_Dragon9.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -85,13 +86,15 @@ const tableExtraInfo = [
 |   5  |    360   |   1260  |    105×6    |  4800 |    11M  |     8     |     12      |    14     |
 |   6  |    390   |   1365  |    115×6    |  5200 |    14M  |     8,12  |     13      |    15     |
 |   7  |    420   |   1470  |    125×6    |  5500 |    16M  |     9     |     14      |    16     |
-|   8  |    450   |   1575  |    135×6    |  5800 |    20M  |    10     |     15      |    17     |
+|   8  |    450   |   1575  |    135×6    |  6000 |    20M  |    10     |     15      |    17     |
+|   9  |    490   |   1715  |    145×6    |  6500 |    30M  |    16     |     16      |    18     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 9 级雷电飞龙。</TimelineRow>
         <TimelineRow>8 级雷电飞龙的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

@@ -62,11 +62,15 @@ canonical: /upgrade/0609-Super-Wizard
 |  11  |    265    |   530   |   212   |   540  |     15    |
 |  12  |    285    |   570   |   228   |   580  |     16    |
 |  13  |    305    |   610   |   244   |   620  |     17    |
+|  14  |    335    |   670   |   268   |   700  |     18    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 14 级法师，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/30">
         <TimelineRow>11 ~ 13 级超级法师的每秒伤害提升。</TimelineRow>
     </TimelineItem>

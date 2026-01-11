@@ -13,7 +13,7 @@ canonical: /upgrade/0400-Town-Hall
 - *如想查看夜世界的大本营，请访问：[建筑大师大本营](/upgrade/1200-Builder-Hall)、[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。*
 - *如想查看都城的大本营，请访问：[都城大本营](/upgrade/2400-Capital-Hall)、[子城大本营](/upgrade/2401-District-Hall)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Town_Hall17_5_hd.png" :imgAlt="$frontmatter.navTitle"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Town_Hall18_hd.png" :imgAlt="$frontmatter.navTitle"
     description="大本营是村庄的核心。升级大本营，可解锁新的防御、建筑、陷阱和更多内容。<br>在战斗中摧毁敌军大本营，您将获得一颗星。<br>把大本营建在村庄中心，并在其周围建造城墙、陷阱以及其他防御是最安全的举措。" />
 
 <SmallTitle>各等级图片</SmallTitle>
@@ -41,6 +41,7 @@ canonical: /upgrade/0400-Town-Hall
         <UnitImg imgTitle="17 本 3 星" imgSrc="Town_Hall17_3.png" imgHd="Town_Hall17_3_hd.png" />
         <UnitImg imgTitle="17 本 4 星" imgSrc="Town_Hall17_4.png" imgHd="Town_Hall17_4_hd.png" />
         <UnitImg imgTitle="17 本 5 星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
+        <UnitImg imgTitle="18 本" imgSrc="Town_Hall18.png" imgHd="Town_Hall18_hd.png" />
     </UnitImgGroup>
     <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="12 本 1 星" imgSrc="Town_Hall12_1.png" imgHd="Town_Hall12_1_hd.png" />
@@ -116,7 +117,7 @@ const tableExtraInfo2 = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo1">
 
-| 等级 | 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验|最大建筑<br>数量<sup>*</sup>|最大陷阱<br>数量<sup>*</sup>|
+| 等级 | 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验|建筑<br>数量<sup>*</sup>|陷阱<br>数量<sup>*</sup>|
 | ---- |   ---  |   ---   |     ---    |         ---        |    ---     |     --    |
 |   1  |    400 |      \  |      \     |                    |     13     |      0    |
 |   2  |    800 |     1k  |  0, 0, 0,10|                    |     17     |      0    |
@@ -134,7 +135,8 @@ const tableExtraInfo2 = [
 |  14  |   8900 |    12M  |  7,12      |                    |     95     |     44    |
 |  15  |   9600 |    13M  |  8         |                    |     98     |     44    |
 |  16  |  10000 |    15M  |  9         |                    |     94     |     44    |
-|  17  |  10400 |    16M  | 10         |                    |     94     |     47    |
+|  17  |  10400 |    16M  | 10         |                    |     93     |     47    |
+|  18  |  10800 |    25M  | 14         |                    |     94     |     47    |
 </UnitTable>
 
 **\* 关于建筑数量和陷阱数量的说明：**
@@ -163,7 +165,7 @@ const tableExtraInfo2 = [
 | 11 - 13 |          2M       |        20k      |
 | 14 - 15 |          3M       |        30k      |
 | 16 - 17 |          4M       |        40k      |
-
+|   18    |          5M       |        50k      |
 </UnitTable>
 
 <SmallTitle>大本营升级提速情况一览</SmallTitle>
@@ -182,6 +184,9 @@ const tableExtraInfo2 = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>游戏新增 18 级大本营。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>同步游戏内大本营的文字描述。</TimelineRow>
         <TimelineRow>16 级大本营的升级费用降低。</TimelineRow>

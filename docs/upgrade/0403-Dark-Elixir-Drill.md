@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Dark_Elixir_Drill
 canonical: /upgrade/0403-Dark-Elixir-Drill
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Drill10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Drill11.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -25,13 +25,14 @@ canonical: /upgrade/0403-Dark-Elixir-Drill
         <UnitImg imgTitle="8 级" imgSrc="Dark_Elixir_Drill8.png" />
         <UnitImg imgTitle="9 级" imgSrc="Dark_Elixir_Drill9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Dark_Elixir_Drill10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Dark_Elixir_Drill11.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 18" />
     <BuildingNumRow title="建筑数量" num="    0, 1, 2,      3" />
 </BuildingNum>
 
@@ -92,9 +93,10 @@ const tableExtraInfo = [
 |   8  |   140   |          3000           |    0,21,25,43    |            5          |           40           |   1380  |   2.4M   |   2     |                    |        11       |
 |   9  |   160   |          3600           |    0,22,30       |            6          |           45           |   1480  |   3.7M   |   2,12  |                    |        12       |
 |  10  |   180   |          4200           |    0,23,20       |            7          |           50           |   1550  |   5.3M   |   3     |                    |        14       |
-| ⚡1  |   189   |          4410           |    0,23,20       |            7          |           50           |   1550  |   5.1M   |   3     |                    |        16       |
-| ⚡2  |   198   |          4620           |    0,23,20       |            7          |           50           |   1550  |   4.5M   |   4     |                    |        16       |
-| ⚡3  |   198   |          4620           |    0,23,20       |            7          |           50           |   1600  |   3.9M   |   5     |                    |        16       |
+|  11  |   200   |          4600           |    0,23           |           8          |           55           |   1600  |   12M    |   6     |                    |        16       |
+| ⚡1  |   209   |          4807           |    0,23          |            8          |           55           |   1600  |   5.1M   |   3     |                    |        18       |
+| ⚡2  |   218   |          5014           |    0,23          |            8          |           55           |   1600  |   4.5M   |   4     |                    |        18       |
+| ⚡3  |   218   |          5014           |    0,23          |            8          |           55           |   1650  |   3.9M   |   5     |                    |        18       |
 </UnitTable>
 
 \* 采集器容量满后将停止工作，直到玩家收集采集器内的资源。
@@ -102,6 +104,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>新增 11 级暗黑重油钻井，16 本可解锁。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>9 ~ 10 级暗黑重油钻井的升级时间减少。</TimelineRow>
     </TimelineItem>

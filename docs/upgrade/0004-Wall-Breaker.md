@@ -27,6 +27,7 @@ canonical: /upgrade/0004-Wall-Breaker
         <UnitImg imgTitle="11 级" imgSrc="Wall_Breaker11.png" />
         <UnitImg imgTitle="12 级" imgSrc="Wall_Breaker12.png" />
         <UnitImg imgTitle="13 级" imgSrc="Wall_Breaker13.png" imgHd="Wall_Breaker13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Wall_Breaker14.png" imgHd="Wall_Breaker14.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -98,6 +99,7 @@ const tableExtraInfo = [
 |  11  | 102 / 60 |         4080       |        6480       |   140  |   9.5M  |   5,12   |       13       |      15       |
 |  12  | 110 / 66 |         4400       |        7040       |   150  |    11M  |   6      |       14       |      16       |
 |  13  | 118 / 72 |         4720       |        7600       |   160  |  15.5M  |  10      |       15       |      17       |
+|  14  | 126 / 78 |         5040       |        8160       |   170  |  26M    |  14      |       16       |      18       |
 </UnitTable>
 
 1. 上方的“面板伤害”解释："10/9" 表示主动伤害为 10，死亡伤害为 9.
@@ -107,6 +109,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 14 级炸弹人。</TimelineRow>
         <TimelineRow>13 级炸弹人的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

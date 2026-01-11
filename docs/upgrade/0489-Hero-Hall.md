@@ -1,4 +1,4 @@
----
+﻿---
 title: "部落冲突 coc 英雄殿堂升级数据"
 navTitle: "英雄殿堂"
 shownTitle: "英雄殿堂"
@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Hero_Hall
 canonical: /upgrade/0489-Hero-Hall
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hero_Hall11_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hero_Hall12_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -26,13 +26,14 @@ canonical: /upgrade/0489-Hero-Hall
         <UnitImg imgTitle="9 级" imgSrc="Hero_Hall9.png" imgHd="Hero_Hall9_hd.png" />
         <UnitImg imgTitle="10 级" imgSrc="Hero_Hall10.png" imgHd="Hero_Hall10_hd.png" />
         <UnitImg imgTitle="11 级" imgSrc="Hero_Hall11.png" imgHd="Hero_Hall11_hd.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Hero_Hall12.png" imgHd="Hero_Hall12_hd.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 18" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
@@ -92,12 +93,13 @@ const tableExtraInfo = [
 |   9  |        4        |  5000 |    11M   |  7      |                      |       15         | 无 |
 |  10  |        4        |  5400 |    13M   |  8      |                      |       16         | 无 |
 |  11  |        4        |  5800 |    17M   |  9,12   |                      |       17         | 无 |  
+|  12  |        4        |  6000 |    26M   | 13,12   |                      |       18         | 无 |  
 
 </UnitTable>
 
 <SmallTitle>英雄殿堂的初始等级</SmallTitle>
 
-如果你在 2024 年 11 月更新前已经拥有英雄，那么官方会根据你更新时的英雄等级送你相应等级英雄殿堂和亡灵王子，无需从头开始升级。如果更新时你的英雄尚未升级完成，那么官方会帮你直接秒掉这一级英雄。
+如果你在 **2024 年 11 月更新前** 已经拥有英雄，那么官方会根据你更新时的英雄等级送你相应等级英雄殿堂和亡灵王子，无需从头开始升级。如果更新时你的英雄尚未升级完成，那么官方会帮你直接秒掉这一级英雄。
 
 官方送的英雄/建筑等级就高不就低。比如说更新时你的四王等级为 60/70/51/20，那么更新后你可以获得 8 级英雄殿堂和 50 级亡灵王子。
 
@@ -206,6 +208,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 12 级英雄殿堂。</TimelineRow>
         <TimelineRow>11 级英雄殿堂的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

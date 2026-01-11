@@ -21,13 +21,14 @@ canonical: /upgrade/0314-Multi-Archer-Tower
         <UnitImg imgTitle="1 级" imgSrc="Multi-Archer_Tower1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Multi-Archer_Tower2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Multi-Archer_Tower3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Multi-Archer_Tower4.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 15, 16, 17" />
+    <BuildingNumRow title="大本等级" num="1 - 15, 16, 18" />
     <BuildingNumRow title="建筑数量" num="     0,  2,  3" />
 </BuildingNum>
 
@@ -79,14 +80,16 @@ const tableExtraInfo = [
 |   1  |          120         |           60         |  5000  |    12M  |   7     |                    |       16       |
 |   2  |          130         |           65         |  5200  |    13M  |   8     |                    |       16       |
 |   3  |          140         |           70         |  5400  |  17.5M  |  10,18  |                    |       17       |
-| ⚡1  |          145         |         72.5         |  5400  |  11.5M  |   5,12  |                    |       17       |
-| ⚡2  |          145         |         72.5         |  5500  |     8M  |   6,12  |                    |       17       |
+|   4  |          146         |           73         |  5500  |    27M  |  14    |                    |       18       |
+| ⚡1  |          151         |         75.5         |  5500  |   12M  |      6   |                    |       18       |
+| ⚡2  |          151         |         75.5         |  5600  |   10M  |      7   |                    |       18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 4 级多人箭塔。</TimelineRow>
         <TimelineRow>3 级多人箭塔的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">

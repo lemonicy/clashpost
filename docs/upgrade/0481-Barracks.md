@@ -13,7 +13,7 @@ canonical: /upgrade/0481-Barracks
 - *如想查看夜世界的建筑大师训练营，请访问：[夜世界建筑大师训练营](/upgrade/1280-Builder-Barracks)。*
 - *都城的训练营比较多，这里就不放链接了，如有需求请自行前往相关页面查看。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Barracks18.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Barracks19_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -37,13 +37,14 @@ canonical: /upgrade/0481-Barracks
         <UnitImg imgTitle="16 级" imgSrc="Barracks16.png" />
         <UnitImg imgTitle="17 级" imgSrc="Barracks17.png" imgHd="Barracks17_hd.png" />
         <UnitImg imgTitle="18 级" imgSrc="Barracks18.png" />
+        <UnitImg imgTitle="19 级" imgSrc="Barracks19.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 18" />
     <BuildingNumRow title="建筑数量" num="1" />
 </BuildingNum>
 
@@ -99,6 +100,7 @@ const tableExtraInfo = [
 |   16 |  1250  |    11M  |  7,12      |                    |        14       |<a href="/upgrade/000f-Electro-Titan">雷霆泰坦</a>|
 |   17 |  1350  |  12.6M  |  8         |                    |        15       |<a href="/upgrade/0010-Root-Rider">根蔓骑士</a>|
 |   18 |  1450  |    15M  |  9         |                    |        16       |<a href="/upgrade/0011-Thrower">巨矛投手</a>|
+|   19 |  1520  |    26M  | 14         |                    |        17       |<a href="/upgrade/0012-Meteor-Golem">陨石戈仑</a>|
 </UnitTable>
 
 \# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 3 级，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
@@ -106,6 +108,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>17 本新增 19 级训练营。</TimelineRow>    
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>14 ~ 18 级训练营的升级时间减少。</TimelineRow>
     </TimelineItem>

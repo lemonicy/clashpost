@@ -16,7 +16,6 @@ canonical: /upgrade/0182-Haste-Spell
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="4 格" />
     <UnitProperty pKey="作用类型" pValue="范围内脉冲赋能" />
     <UnitProperty pKey="作用目标" pValue="我方部队和英雄" />
     <UnitProperty pKey="每次脉冲间隔时间" pValue="0.3 秒" />
@@ -35,13 +34,13 @@ canonical: /upgrade/0182-Haste-Spell
 <script setup>
 const tableExtraInfo = [
     {
-        "column": 3,
+        "column": 4,
         "type": "cost",
         "gpClass": "research",
         "icon": "Dark_Elixir"
     },
     {
-        "column": 4,
+        "column": 5,
         "type": "time",
         "gpClass": "research"
     }
@@ -50,14 +49,15 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 |速度提升<sup>#</sup>| 持续时间 | 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
-| ---- |        ----       |   ---   |    ---   |  ----   |       ----      |      ----     |
-|   1  |         28        |  10 秒  |     \    |    \    |         1       |        9      |
-|   2  |         34        |  15 秒  |     8K   |    1    |         7       |        9      |
-|   3  |         40        |  20 秒  |    17K   |    2    |         8       |       10      |
-|   4  |         46        |  25 秒  |    30K   |    3    |         8       |       10      |
-|   5  |         52        |  30 秒  |  38.5K   |    4    |         9       |       11      |
-|   6  |         56        |  30 秒  |   200K   |    9    |        15       |       17      |
+| 等级 |速度提升<sup>#</sup>| 持续时间 |作用半径| 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
+| ---- |        ----       |   ---   |   ---  |  ---   |  ----   |       ----      |      ----     |
+|   1  |         28        |  10 秒  |  4 格  |   \    |    \    |         1       |        9      |
+|   2  |         34        |  15 秒  |  4 格  |   8K   |    1    |         7       |        9      |
+|   3  |         40        |  20 秒  |  4 格  |  17K   |    2    |         8       |       10      |
+|   4  |         46        |  25 秒  |  4 格  |  30K   |    3    |         8       |       10      |
+|   5  |         52        |  30 秒  |  4 格  | 38.5K |    4    |         9       |       11      |
+|   6  |         56        |  30 秒  |  4 格  | 200K  |    9    |        15       |       17      |
+|   7  |         56        |  30 秒  |  5 格  | 320K  | 12,12   |        16       |       18      |
 </UnitTable>
 
 \# 表格中每 8 点速度值代表 1 格/秒。
@@ -66,6 +66,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 7 级急速法术。</TimelineRow>
         <TimelineRow>6 级急速法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
