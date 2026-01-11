@@ -37,7 +37,7 @@ canonical: /upgrade/0480-Army-Camp
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 4, 5 - 6, 7 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 4, 5 - 6, 7 - 18" />
     <BuildingNumRow title="建筑数量" num="    1,     2,     3,      4" />
 </BuildingNum>
 

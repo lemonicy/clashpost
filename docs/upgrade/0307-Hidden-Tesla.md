@@ -40,7 +40,7 @@ canonical: /upgrade/0307-Hidden-Tesla
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 11, 12 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 11, 12 - 18" />
     <BuildingNumRow title="建筑数量" num="    0, 2, 3,      4,       5" />
 </BuildingNum>
 
