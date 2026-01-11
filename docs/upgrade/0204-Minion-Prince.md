@@ -206,7 +206,7 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 91 ~ 95 级亡灵王子。</TimelineRow>
-        <TimelineRow>1 ~ 90 级亡灵王子的生命值减少 1000。</TimelineRow>
+        <TimelineRow>1 ~ 90 级亡灵王子的生命值减少 1000，但所有装备提供 500 生命值加成。也就是说亡灵王子的进攻强度不变，防守强度降低了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>26 ~ 80 级亡灵王子的升级时间减少。</TimelineRow>
