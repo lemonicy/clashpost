@@ -199,7 +199,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="巨型地狱之塔" imgSrc="030d/Giga_Inferno16_thumb.png" link="030d-Giga-Inferno" />
         <ListItem name="地狱火炮" imgSrc="0315/Inferno_Artillery5.png" link="0315-Inferno-Artillery" />
     </ListItems>
-    <ListItems title="防御建筑" imgFolder="home_buildings">
+    <ListItems title="普通防御" imgFolder="home_buildings">
         <ListItem name="城墙" imgSrc="0300/Wall19.png" link="0300-Walls" />
         <ListItem name="加农炮" imgSrc="0301/Cannon21.png" link="0301-Cannon" />
         <ListItem name="箭塔" imgSrc="0302/Archer_Tower21.png" link="0302-Archer-Tower" />
@@ -220,6 +220,13 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="多人箭塔" imgSrc="0314/Multi-Archer_Tower4.png" link="0314-Multi-Archer-Tower" />
         <ListItem name="火焰喷射器" imgSrc="0316/Firespitter2.png" link="0316-Firespitter" />
         <ListItem name="复合机械塔" imgSrc="0317/Multi-Gear_Tower3_LongRange.png" link="0317-Multi-Gear-Tower" />
+        <ListItem name="超级法师塔" imgSrc="0318/Super_Wizard_Tower2.png" link="0318-Super-Wizard-Tower" />
+        <ListItem name="复仇之塔" imgSrc="0319/Revenge_Tower2_Dormant.png" link="0319-Revenge-Tower" />
+    </ListItems>
+    <ListItems title="精工防御" imgFolder="home_buildings">
+        <ListItem name="钩索塔" imgSrc="0900/Hook_Tower4.png" link="0900-Hook-Tower" />
+        <ListItem name="旋转喷火器" imgSrc="0901/Flame_Spinner4.png" link="0901-Flame-Spinner" />
+        <ListItem name="碎岩迫击炮" imgSrc="0902/Crusher_Mortar4.png" link="0902-Crusher-Mortar" />
     </ListItems>
     <ListItems title="陷阱" imgFolder="home_buildings">
         <ListItem name="隐形炸弹" imgSrc="0380/Bomb13.png" link="0380-Bomb" />
@@ -253,12 +260,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="英雄殿堂" imgSrc="0489/Hero_Hall12.png" link="0489-Hero-Hall" />
         <ListItem name="精制台" imgSrc="048a/Crafting_Station_thumb.png" link="048a-Crafting-Station" />
     </ListItems>
-    <ListItems title="精工防御" imgFolder="home_buildings">
-        <ListItem name="钩索塔" imgSrc="0900/Hook_Tower4.png" link="0900-Hook-Tower" />
-        <ListItem name="旋转喷火器" imgSrc="0901/Flame_Spinner4.png" link="0901-Flame-Spinner" />
-        <ListItem name="碎岩迫击炮" imgSrc="0902/Crusher_Mortar4.png" link="0902-Crusher-Mortar" />
-    </ListItems>
-    <ListItems title="其他" imgFolder="home_buildings">
+    <ListItems title="其他建筑" imgFolder="home_buildings">
         <ListItem name="小博木屋" imgSrc="0501/B.O.Bs_Hut.png" link="0501-B.O.Bs-Hut" />
         <ListItem name="帮手小屋" imgSrc="0502/Helper_Hut.png" link="0502-Helper-Hut" />
     </ListItems>

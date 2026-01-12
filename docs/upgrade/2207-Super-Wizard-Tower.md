@@ -10,6 +10,7 @@ canonical: /upgrade/2207-Super-Wizard-Tower
 ---
 
 - *如想查看家乡的法师塔，请访问：[法师塔](/upgrade/0305-Wizard-Tower)。*
+- *如想查看家乡的超级法师塔，请移步：[超级法师塔](/upgrade/0318-Super-Wizard-Tower)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Wizard_Tower5.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 

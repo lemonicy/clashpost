@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Ricochet_Cannon
 canonical: /upgrade/0313-Ricochet-Cannon
 ---
 
-- *如想查看普通的加农炮，请访问 [加农炮](/upgrade/0301-Cannon)。*
+- *如想查看合并前的建筑，请访问 [加农炮](/upgrade/0301-Cannon)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ricochet_Cannon4.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
@@ -35,16 +35,18 @@ canonical: /upgrade/0313-Ricochet-Cannon
 <SmallTitle>重要说明</SmallTitle>
 
 1. 跳弹加农炮不能直接建造，必须由两个 [加农炮](/upgrade/0301-Cannon) 合并而成，两座用来合并的建筑必须已达到最高等级。
-2. 合并建筑的操作是永久性的，一旦合并就无法拆开。
-3. 如果在距离第一个目标 4 格范围内存在其他敌方单位，则炮弹将会弹射到第二个目标并造成伤害。
-4. 第二个目标受到的伤害与第一个目标相同。
+    - 合并一旦开始就无法取消。
+    - 合并建筑的操作是永久性的，一旦合并就无法拆开。
+    - 升本前必须合并完所有可以合并的建筑。
+2. 如果在距离第一个目标 4 格范围内存在其他敌方单位，则炮弹将会弹射到第二个目标并造成伤害。
+3. 第二个目标受到的伤害与第一个目标相同。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
-    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="伤害类型" pValue="直接伤害 + 弹射伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="射程" pValue="9 格" />
     <UnitProperty pKey="攻速" pValue="0.8 秒/次" />
