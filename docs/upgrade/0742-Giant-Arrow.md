@@ -69,14 +69,17 @@ const tableExtraInfo = [
 |  15  |  1750   |         105        |   454   |   2400  |  600  |        5       |       12       |
 |  16  |  1750   |         114        |   496   |   2500  |   -   |        7       |       14       |
 |  17  |  1750   |         123        |   539   |   2600  |   -   |        7       |       14       |
-|  18  |  1950   |         132        |   581   |   2700  |  600  |        7       |       14       |
+|  18  |  2000   |         132        |   581   |   2700  |  600  |        7       |       14       |
 </UnitTable>
 
 注意：如果升级费用中有多种资源，则同时需要多种资源才能升级。
 
 <SmallTitle>更新历史</SmallTitle>
 
-<Timeline>  
+<Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 级巨型箭矢的伤害提升。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>游戏新增装备系统，巨型箭矢是第一批推出的装备。</TimelineRow>
     </TimelineItem>
