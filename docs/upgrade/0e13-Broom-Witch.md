@@ -4,7 +4,7 @@ navTitle: "扫帚女巫"
 shownTitle: "扫帚女巫"
 description: "一名见习女巫，她会在战场上飞来飞去，召唤女巫精灵。她特别不喜欢那些站在塔上的傲慢法师。"
 module: upgrade-temp
-imgFolder: temp/0e13
+imgFolder: temp_troops/0e13
 wiki: https://clashofclans.fandom.com/wiki/Broom_Witch
 canonical: /upgrade/0e13-Broom-Witch
 ---

@@ -4,7 +4,7 @@ navTitle: "女巫戈仑"
 shownTitle: "女巫戈仑"
 description: "戈仑坚如磐石加上女巫神奇的暗黑魔法，这个可怕的合体兵种能轻松摧毁敌方防御！"
 module: upgrade-temp
-imgFolder: temp/0e0c
+imgFolder: temp_troops/0e0c
 wiki: https://clashofclans.fandom.com/wiki/Witch_Golem
 canonical: /upgrade/0e0c-Witch-Golem
 ---

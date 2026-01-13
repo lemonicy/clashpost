@@ -4,7 +4,7 @@ navTitle: "野猪法师"
 shownTitle: "野猪法师"
 description: "这个危险的兵种拥有火爆的性格和魔法，还有野猪骑士的超强灵活性。野猪法师的到来定会让敌方闻风丧胆！"
 module: upgrade-temp
-imgFolder: temp/0e0a
+imgFolder: temp_troops/0e0a
 wiki: https://clashofclans.fandom.com/wiki/Hog_Wizard
 canonical: /upgrade/0e0a-Hog-Wizard
 ---

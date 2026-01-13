@@ -4,7 +4,7 @@ navTitle: "南瓜炸弹"
 shownTitle: "南瓜炸弹"
 description: "哇喔！限时供应这款令人毛骨悚然的炸弹。"
 module: upgrade-temp
-imgFolder: temp/0f00
+imgFolder: temp_others/0f00
 wiki: https://clashofclans.fandom.com/wiki/Pumpkin_Bomb
 canonical: /upgrade/0f00-Pumpkin-Bomb
 ---

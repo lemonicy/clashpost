@@ -4,7 +4,7 @@ navTitle: "铁臂终结者"
 shownTitle: "铁臂终结者"
 description: "她就是那个狠角色！铁臂终结者挥舞球棒，狠狠砸向防御建筑，毫不留情！城墙？对她来说根本不是问题，一跃而过轻松突破！她必须被击倒三次才会彻底倒下，这才叫硬茬！"
 module: upgrade-temp
-imgFolder: temp/0e19
+imgFolder: temp_troops/0e19
 wiki: https://clashofclans.fandom.com/wiki/The_Disarmer
 canonical: /upgrade/0e19-The-Disarmer
 ---

@@ -4,7 +4,7 @@ navTitle: "生日大爆炸"
 shownTitle: "生日大爆炸"
 description: "为 5 周岁生日献上一份爆炸性惊喜。这份精美礼物可以对附近的敌军建筑和部队造成伤害和眩晕效果。"
 module: upgrade-temp
-imgFolder: temp/0e81
+imgFolder: temp_others/0e81
 wiki: https://clashofclans.fandom.com/wiki/Birthday_Boom
 canonical: /upgrade/0e81-Birthday-Boom
 ---

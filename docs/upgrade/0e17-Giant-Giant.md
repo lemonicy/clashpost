@@ -4,7 +4,7 @@ navTitle: "霸天巨人"
 shownTitle: "霸天巨人"
 description: "霸天巨人的力量堪比十个普通巨人，他能对防御建筑造成巨大的溅射伤害。糟糕！如果他的生命值降至一半，则会进入狂暴状态，速度和力量大幅提升。"
 module: upgrade-temp
-imgFolder: temp/0e17
+imgFolder: temp_troops/0e17
 wiki: https://clashofclans.fandom.com/wiki/Giant_Giant
 canonical: /upgrade/0e17-Giant-Giant
 ---

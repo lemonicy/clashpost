@@ -4,7 +4,7 @@ navTitle: "骷髅巨人"
 shownTitle: "骷髅巨人"
 description: "骷髅巨人从小就骨骼粗大，他能炸毁的可不只是城墙。被消灭后，他的超大炸弹能对周围的一切造成伤害。"
 module: upgrade-temp
-imgFolder: temp/0e03
+imgFolder: temp_troops/0e03
 wiki: https://clashofclans.fandom.com/wiki/Giant_Skeleton
 canonical: /upgrade/0e03-Giant-Skeleton
 ---

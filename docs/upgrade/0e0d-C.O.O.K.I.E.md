@@ -4,7 +4,7 @@ navTitle: "饼干皮卡"
 shownTitle: "饼干皮卡"
 description: "身为饼干战士，饼干皮卡战力满满，甜翻全场。它能使用椒盐卷饼进行回旋攻击，造成溅射伤害。它可能会带来毁灭性的破坏，但这就是饼干碎裂的方式。"
 module: upgrade-temp
-imgFolder: temp/0e0d
+imgFolder: temp_troops/0e0d
 wiki: https://clashofclans.fandom.com/wiki/C.O.O.K.I.E
 canonical: /upgrade/0e0d-C.O.O.K.I.E
 ---

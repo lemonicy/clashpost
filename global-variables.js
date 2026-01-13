@@ -5,10 +5,11 @@
  * notificationHTML {String} 通知内容，可使用 HTML 代码。如果发布多条通知，通常使用 <hr> 标签分割。
  */
 export const notificationInfo = {
-    "hasNotification": false,
+    "hasNotification": true,
     "notificationCount": 1,
-    "currentNotificationId": 13,
-    "notificationHTML": ""
+    "currentNotificationId": 14,
+    "notificationHTML": "即日起，精工防御将被归类到 <a href='/upgrade/category/temp' target='_blank'><strong>临时单位</strong></a>" +
+        " 一类，守卫将被分类到新开的 <strong>家乡 -> 大本</strong> 一类，望周知。<br>"
 }
 
 /**

@@ -4,7 +4,7 @@ navTitle: "寒冰法师"
 shownTitle: "寒冰法师（冰法）"
 description: "这一传奇兵种会让您的敌人颤栗不已！寒冰法师仅限活动期间训练。"
 module: upgrade-temp
-imgFolder: temp/0e00
+imgFolder: temp_troops/0e00
 wiki: https://clashofclans.fandom.com/wiki/Ice_Wizard
 canonical: /upgrade/0e00-Ice-Wizard
 ---

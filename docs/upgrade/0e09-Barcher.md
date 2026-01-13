@@ -4,7 +4,7 @@ navTitle: "野蛮箭手"
 shownTitle: "野蛮箭手"
 description: "既像野蛮人一样强悍，也如弓箭手一般凶猛。野蛮箭手虽然长得怪异，但拥有惊人的进攻实力。"
 module: upgrade-temp
-imgFolder: temp/0e09
+imgFolder: temp_troops/0e09
 wiki: https://clashofclans.fandom.com/wiki/Barcher
 canonical: /upgrade/0e09-Barcher
 ---

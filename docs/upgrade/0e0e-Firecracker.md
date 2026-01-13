@@ -4,7 +4,7 @@ navTitle: "烟花炮手"
 shownTitle: "烟花炮手"
 description: "这位粉头发的前弓箭手超爱玩火，她卖掉了自己的弓，换上了火力更凶猛的武器。烟花炮手会向离她最近的目标发射威力巨大、效果华丽的烟花，但每次攻击的后坐力会使她略微后退。她可以让农历新年的夜空变得绚丽多彩，但要记得别在她周围留下任何可燃物。"
 module: upgrade-temp
-imgFolder: temp/0e0e
+imgFolder: temp_troops/0e0e
 wiki: https://clashofclans.fandom.com/wiki/Firecracker
 canonical: /upgrade/0e0e-Firecracker
 ---

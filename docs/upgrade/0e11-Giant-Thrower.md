@@ -4,7 +4,7 @@ navTitle: "边线球巨人"
 shownTitle: "边线球巨人（界外球巨人）"
 description: "这名新秀运动员又高又壮，他会向最近的建筑投掷一个威力巨大的弹跳足球。随后他会回归巨人的招牌动作——重拳锤击！"
 module: upgrade-temp
-imgFolder: temp/0e11
+imgFolder: temp_troops/0e11
 wiki: https://clashofclans.fandom.com/wiki/Giant_Thrower
 canonical: /upgrade/0e11-Giant-Thrower
 ---

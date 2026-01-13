@@ -4,7 +4,7 @@ navTitle: "冰冻陷阱"
 shownTitle: "冰冻陷阱"
 description: "冻住进攻中的敌军，冻起来！"
 module: upgrade-temp
-imgFolder: temp/0f02
+imgFolder: temp_others/0f02
 wiki: https://clashofclans.fandom.com/wiki/Freeze_Trap
 canonical: /upgrade/0f02-Freeze-Trap
 ---

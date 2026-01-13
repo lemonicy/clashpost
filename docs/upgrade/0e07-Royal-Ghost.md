@@ -4,7 +4,7 @@ navTitle: "皇家幽灵"
 shownTitle: "皇家幽灵"
 description: "透明的皇家幽灵很难被人注意到，他为此很苦恼，因此决心大肆破坏来找回应有的存在感。皇家幽灵实在太透明了，有时候连城墙都不会阻拦他！"
 module: upgrade-temp
-imgFolder: temp/0e07
+imgFolder: temp_troops/0e07
 wiki: https://clashofclans.fandom.com/wiki/Royal_Ghost
 canonical: /upgrade/0e07-Royal-Ghost
 ---
