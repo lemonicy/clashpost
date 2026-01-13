@@ -92,7 +92,6 @@ if (activeTabCookieValue === "temp-troops") {
             <li>临时兵种、法术无法升级，它的等级根据你的大本营等级自动确定。</li>
             <li>临时陷阱无法升级，不管玩家是几本，陷阱的属性都是一样的。</li>
             <li>临时兵种和法术无法捐赠给其他部落成员。</li>
-            <li>由于某些兵种的年代过于久远，所以可能出现部分数据缺失的问题。如果您有详细数据，请联系作者。</li>
         </ol>
     </div>
 </SwitchTabGroup>
@@ -113,12 +112,10 @@ if (activeTabCookieValue === "temp-troops") {
     <div class="cp-upgrade-index-tip">
         <SmallTitle>注意</SmallTitle>
         <ol>
-            <li>本页中显示的年份以临时单位第一次推出时为准。</li>
             <li>如果某个临时单位曾经多次推出，则本站中的数据以最后一次出现时为准。</li>
             <li>临时兵种、法术无法升级，它的等级根据你的大本营等级自动确定。</li>
             <li>临时陷阱无法升级，不管玩家是几本，陷阱的属性都是一样的。</li>
             <li>临时兵种和法术无法捐赠给其他部落成员。</li>
-            <li>由于某些兵种的年代过于久远，所以可能出现部分数据缺失的问题。如果您有详细数据，请联系作者。</li>
         </ol>
     </div>
 </SwitchTabGroup>

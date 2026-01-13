@@ -210,7 +210,7 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>  
-    <TimelineItem date="2023/10/11">
+    <TimelineItem date="2024/10/11">
         <TimelineRow>新装备：熔岩气球玩偶。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
