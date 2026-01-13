@@ -10,8 +10,18 @@ canonical: /upgrade/0901-Flame-Spinner
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Flame_Spinner4_hd.png" :imgAlt="$frontmatter.navTitle"
-    description="这台经过改造的烤箱会永不停歇地旋转，令人望而生畏！<br>旋转喷火器无论转多久都不会晕，还能制造无尽的烈焰旋风，对地面和空中的敌人造成伤害。"
-    :isSmallImg="true" />
+    description="这台经过改造的烤箱会永不停歇地旋转，令人望而生畏！<br>旋转喷火器无论转多久都不会晕，还能制造无尽的烈焰旋风，对地面和空中的敌人造成伤害。" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="3 - 11 级" imgSrc="Flame_Spinner1.png" />
+        <UnitImg imgTitle="12 - 20 级" imgSrc="Flame_Spinner2.png" />
+        <UnitImg imgTitle="21 - 29 级" imgSrc="Flame_Spinner3.png" />
+        <UnitImg imgTitle="30 级" imgSrc="Flame_Spinner4.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -34,7 +44,7 @@ canonical: /upgrade/0901-Flame-Spinner
     <UnitProperty pKey="推出时的最高大本等级" pValue="17" />
 </UnitProperties>
 
-<SmallTitle>可升级模组 1：生命值模组</SmallTitle>
+<SmallTitle>可升级模组 1：提升建筑的生命值</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo1">
 
@@ -52,7 +62,7 @@ canonical: /upgrade/0901-Flame-Spinner
 |  10  |  6000  |    12M  |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 2：攻击力模组</SmallTitle>
+<SmallTitle>可升级模组 2：提升每次攻击造成的伤害</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo2">
 
@@ -70,7 +80,7 @@ canonical: /upgrade/0901-Flame-Spinner
 |  10  |          400         |   115k  |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 3：效果模组（增加每次爆发的连射次数）</SmallTitle>
+<SmallTitle>可升级模组 3：增加每次爆发的连射次数</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo3">
 
@@ -91,6 +101,9 @@ canonical: /upgrade/0901-Flame-Spinner
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>该精工防御失效。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>新精工防御：旋转喷火器。</TimelineRow>
     </TimelineItem>
