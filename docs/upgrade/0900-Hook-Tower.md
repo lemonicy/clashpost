@@ -3,8 +3,8 @@ title: "部落冲突 coc 钩索塔升级数据"
 navTitle: "钩索塔"
 shownTitle: "钩索塔"
 description: "建筑大师应该不会介意我们借用他船上的绳索吧？钩索塔可将远处的敌人拖拽过来并击晕。不过攻城机器实在太重了，这招对它们无效！"
-module: upgrade-home
-imgFolder: home_buildings/0900
+module: upgrade-temp
+imgFolder: temp_crafted/0900
 wiki: https://clashofclans.fandom.com/wiki/Hook_Tower
 canonical: /upgrade/0900-Hook-Tower
 ---

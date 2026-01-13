@@ -3,8 +3,8 @@ title: "部落冲突 coc 旋转喷火器升级数据"
 navTitle: "旋转喷火器"
 shownTitle: "旋转喷火器"
 description: "这台经过改造的烤箱会永不停歇地旋转，令人望而生畏！旋转喷火器无论转多久都不会晕，还能制造无尽的烈焰旋风，对地面和空中的敌人造成伤害。"
-module: upgrade-home
-imgFolder: home_buildings/0901
+module: upgrade-temp
+imgFolder: temp_crafted/0901
 wiki: https://clashofclans.fandom.com/wiki/Flame_Spinner
 canonical: /upgrade/0901-Flame-Spinner
 ---

@@ -4,7 +4,7 @@ navTitle: "袋装小冰怪"
 shownTitle: "袋装小冰怪"
 description: "短暂冰冻目标区域，并缓慢召唤活蹦乱跳的小冰怪，来吸引附近防御设施的火力，并减缓其速度。"
 module: upgrade-temp
-imgFolder: temp/0e82
+imgFolder: temp_others/0e82
 wiki: https://clashofclans.fandom.com/wiki/Bag_of_Frostmites
 canonical: /upgrade/0e82-Bag-of-Frostmites
 ---

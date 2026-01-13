@@ -4,7 +4,7 @@ navTitle: "陨石戈仑"
 shownTitle: "陨石戈仑（临时兵种）"
 description: "来自宇宙的它们，将加入您的军队！这对热衷投掷的组合，会将自己扔向任何目标，造成近战伤害。当它们分开时，小陨石戈仑会攻击附近目标，或者寻找同伴重新合体变成陨石戈仑！"
 module: upgrade-temp
-imgFolder: temp/0e1b
+imgFolder: temp_troops/0e1b
 wiki: https://clashofclans.fandom.com/wiki/Meteor_Golem
 canonical: /upgrade/0e1b-Meteor-Golem
 ---

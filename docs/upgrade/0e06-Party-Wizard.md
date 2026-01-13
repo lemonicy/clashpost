@@ -4,7 +4,7 @@ navTitle: "派对法师"
 shownTitle: "派对法师"
 description: "听见远处架子鼓的声音了吗？派对法师华丽登场！他脚踩节奏，手扔火球，绝对是庆功派对的灵魂人物。"
 module: upgrade-temp
-imgFolder: temp/0e06
+imgFolder: temp_troops/0e06
 wiki: https://clashofclans.fandom.com/wiki/Party_Wizard
 canonical: /upgrade/0e06-Party-Wizard
 ---

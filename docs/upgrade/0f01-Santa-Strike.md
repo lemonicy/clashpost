@@ -4,7 +4,7 @@ navTitle: "圣诞陷阱"
 shownTitle: "圣诞陷阱"
 description: "给敌人制造一份特别的惊喜。您的慷慨定将获得回报！"
 module: upgrade-temp
-imgFolder: temp/0f01
+imgFolder: temp_others/0f01
 wiki: https://clashofclans.fandom.com/wiki/Santa_Strike
 canonical: /upgrade/0f01-Santa-Strike
 ---

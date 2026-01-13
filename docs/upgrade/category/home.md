@@ -15,8 +15,10 @@ let activeTabIndex = 0;
 const activeTabCookieValue = getCookie("cp-upgrade-active-tab");
 if (activeTabCookieValue === "home-techniques") {
     activeTabIndex = 1;
-} else if (activeTabCookieValue === "home-buildings") {
+} else if (activeTabCookieValue === "home-town-hall") {
     activeTabIndex = 2;
+} else if (activeTabCookieValue === "home-buildings") {
+    activeTabIndex = 3;
 }
 </script>
 
@@ -29,8 +31,11 @@ if (activeTabCookieValue === "home-techniques") {
     <SwitchTab tabId="cp-upgrade-techniques"
         :activeTab="activeTabIndex === 1"
         upgradeCookieValue="home-techniques">科技</SwitchTab>
-    <SwitchTab tabId="cp-upgrade-buildings"
+    <SwitchTab tabId="cp-upgrade-town-hall"
         :activeTab="activeTabIndex === 2"
+        upgradeCookieValue="home-town-hall">大本</SwitchTab>
+    <SwitchTab tabId="cp-upgrade-buildings"
+        :activeTab="activeTabIndex === 3"
         upgradeCookieValue="home-buildings">建筑</SwitchTab>
 </SwitchTabs>
 
@@ -192,14 +197,19 @@ if (activeTabCookieValue === "home-techniques") {
     </ListItems>
 </SwitchTabGroup>
 
-<SwitchTabGroup id="cp-upgrade-buildings" class="cp-upgrade-item">
-    <ListItems title="大本营及武器" imgFolder="home_buildings">
+<SwitchTabGroup id="cp-upgrade-town-hall" class="cp-upgrade-item">
+    <ListItems title="大本及武器" imgFolder="home_buildings">
         <ListItem name="大本营" imgSrc="0400/Town_Hall18.png" link="0400-Town-Hall" />
         <ListItem name="巨型特斯拉电磁塔" imgSrc="030c/Giga_Tesla_thumb.png" link="030c-Giga-Tesla" />
         <ListItem name="巨型地狱之塔" imgSrc="030d/Giga_Inferno16_thumb.png" link="030d-Giga-Inferno" />
         <ListItem name="地狱火炮" imgSrc="0315/Inferno_Artillery5.png" link="0315-Inferno-Artillery" />
     </ListItems>
-    <ListItems title="普通防御" imgFolder="home_buildings">
+    <ListItems title="守卫（在做了）" imgFolder="home_buildings">
+    </ListItems>
+</SwitchTabGroup>
+
+<SwitchTabGroup id="cp-upgrade-buildings" class="cp-upgrade-item">
+    <ListItems title="防御建筑" imgFolder="home_buildings">
         <ListItem name="城墙" imgSrc="0300/Wall19.png" link="0300-Walls" />
         <ListItem name="加农炮" imgSrc="0301/Cannon21.png" link="0301-Cannon" />
         <ListItem name="箭塔" imgSrc="0302/Archer_Tower21.png" link="0302-Archer-Tower" />
@@ -222,11 +232,6 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="复合机械塔" imgSrc="0317/Multi-Gear_Tower3_LongRange.png" link="0317-Multi-Gear-Tower" />
         <ListItem name="超级法师塔" imgSrc="0318/Super_Wizard_Tower2.png" link="0318-Super-Wizard-Tower" />
         <ListItem name="复仇之塔" imgSrc="0319/Revenge_Tower2_Dormant.png" link="0319-Revenge-Tower" />
-    </ListItems>
-    <ListItems title="精工防御" imgFolder="home_buildings">
-        <ListItem name="钩索塔" imgSrc="0900/Hook_Tower4.png" link="0900-Hook-Tower" />
-        <ListItem name="旋转喷火器" imgSrc="0901/Flame_Spinner4.png" link="0901-Flame-Spinner" />
-        <ListItem name="碎岩迫击炮" imgSrc="0902/Crusher_Mortar4.png" link="0902-Crusher-Mortar" />
     </ListItems>
     <ListItems title="陷阱" imgFolder="home_buildings">
         <ListItem name="隐形炸弹" imgSrc="0380/Bomb13.png" link="0380-Bomb" />

@@ -4,7 +4,7 @@ navTitle: "艾尔普里莫"
 shownTitle: "艾尔普里莫"
 description: "这个神秘的面具侠来历不明，大家只知道他是个大力士，可以用自己的铁拳轻松击垮城墙，为部落疯狂乱斗。"
 module: upgrade-temp
-imgFolder: temp/0e05
+imgFolder: temp_troops/0e05
 wiki: https://clashofclans.fandom.com/wiki/El_Primo
 canonical: /upgrade/0e05-El-Primo
 ---

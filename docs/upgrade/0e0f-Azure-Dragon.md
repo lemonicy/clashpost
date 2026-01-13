@@ -4,7 +4,7 @@ navTitle: "驭水青龙"
 shownTitle: "驭水青龙"
 description: "青龙象征着力量与威严，而这条驭水青龙更是集聚了这两方面的神力。它预示着春天的到来，能行云布雨，还能助您斩获胜利。驭水青龙的生命值很高，并能造成带有穿透效果的溅射伤害，可攻击到其初始目标后方的敌军。有它的帮助，您在战场上肯定能如鱼得水，势如破竹！"
 module: upgrade-temp
-imgFolder: temp/0e0f
+imgFolder: temp_troops/0e0f
 wiki: https://clashofclans.fandom.com/wiki/Azure_Dragon
 canonical: /upgrade/0e0f-Azure-Dragon
 ---

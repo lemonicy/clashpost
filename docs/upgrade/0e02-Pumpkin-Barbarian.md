@@ -4,7 +4,7 @@ navTitle: "南瓜野蛮人"
 shownTitle: "南瓜野蛮人"
 description: "自制南瓜头盔效果还挺不错，意不意外？直到破碎前，南瓜头盔都能替野蛮人承受伤害。"
 module: upgrade-temp
-imgFolder: temp/0e02
+imgFolder: temp_troops/0e02
 wiki: https://clashofclans.fandom.com/wiki/Pumpkin_Barbarian
 canonical: /upgrade/0e02-Pumpkin-Barbarian
 ---

@@ -4,7 +4,7 @@ navTitle: "熔岩气球"
 shownTitle: "熔岩气球"
 description: "兼具气球兵的强力炸弹和熔岩猎犬的坚硬外壳，熔岩气球能轻松摧毁基地，一炸一个坑！"
 module: upgrade-temp
-imgFolder: temp/0e0b
+imgFolder: temp_troops/0e0b
 wiki: https://clashofclans.fandom.com/wiki/Lavaloon
 canonical: /upgrade/0e0b-Lavaloon
 ---

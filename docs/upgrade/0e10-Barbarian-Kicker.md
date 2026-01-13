@@ -4,7 +4,7 @@ navTitle: "任意球野蛮人"
 shownTitle: "任意球野蛮人（自由球野蛮人）"
 description: "登场时，他会冷静、精准地大脚开球，摧毁最近的防御建筑。随后会像普通野蛮人一样开始横冲直撞。"
 module: upgrade-temp
-imgFolder: temp/0e10
+imgFolder: temp_troops/0e10
 wiki: https://clashofclans.fandom.com/wiki/Barbarian_Kicker
 canonical: /upgrade/0e10-Barbarian-Kicker
 ---

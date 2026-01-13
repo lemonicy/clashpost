@@ -4,7 +4,7 @@ navTitle: "野蛮人攻城槌"
 shownTitle: "野蛮人攻城槌"
 description: "四名野蛮人在前方进行一场大型圆木竞赛，以击倒目标，如果他们连接起来，会造成大量额外伤害；然后他们用剑继续战斗！"
 module: upgrade-temp
-imgFolder: temp/0e01
+imgFolder: temp_troops/0e01
 wiki: https://clashofclans.fandom.com/wiki/Battle_Ram
 canonical: /upgrade/0e01-Battle-Ram
 ---

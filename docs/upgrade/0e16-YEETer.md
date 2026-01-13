@@ -4,7 +4,7 @@ navTitle: "战吼狂人"
 shownTitle: "战吼狂人"
 description: "战吼狂人的攻击范围超远，战斗一开始他会投出 4 名忠诚的部族成员，攻击一切目标！之后，他会投掷自己最擅长的巨矛。现在，大声喊出来——咦哈！"
 module: upgrade-temp
-imgFolder: temp/0e16
+imgFolder: temp_troops/0e16
 wiki: https://clashofclans.fandom.com/wiki/YEETer
 canonical: /upgrade/0e16-YEETer
 ---

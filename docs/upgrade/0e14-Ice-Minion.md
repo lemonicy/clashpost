@@ -4,7 +4,7 @@ navTitle: "寒冰亡灵"
 shownTitle: "寒冰亡灵"
 description: "寒冰亡灵兼具亡灵的凶猛和戈仑冰人的冷酷，会锁定防御建筑并减缓其攻击速度。但它像雪花一样脆弱！"
 module: upgrade-temp
-imgFolder: temp/0e14
+imgFolder: temp_troops/0e14
 wiki: https://clashofclans.fandom.com/wiki/Ice_Minion
 canonical: /upgrade/0e14-Ice-Minion
 ---

@@ -4,7 +4,7 @@ navTitle: "黄牌法术"
 shownTitle: "黄牌法术"
 description: "阻挡您的进攻是缺乏竞技精神的无礼行为，理应受到惩罚，因此目标防御建筑或英雄将被临时禁赛。禁赛期间，这些防御建筑或英雄无法发动攻击，也无法被攻击。"
 module: upgrade-temp
-imgFolder: temp/0e83
+imgFolder: temp_others/0e83
 wiki: https://clashofclans.fandom.com/wiki/Yellow_Card
 canonical: /upgrade/0e83-Yellow-Card
 ---

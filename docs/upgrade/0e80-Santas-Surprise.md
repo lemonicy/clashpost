@@ -4,7 +4,7 @@ navTitle: "圣诞奇袭"
 shownTitle: "圣诞奇袭"
 description: "向圣诞老人许个愿，让他把那些“爆炸性”的礼物砸向敌人的村庄吧！"
 module: upgrade-temp
-imgFolder: temp/0e80
+imgFolder: temp_others/0e80
 wiki: https://clashofclans.fandom.com/wiki/Santa%27s_Surprise
 canonical: /upgrade/0e80-Santas-Surpeise
 ---

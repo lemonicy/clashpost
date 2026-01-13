@@ -72,7 +72,7 @@ body.cp-theme-dark.cp-dialog-show .cp-tabs-container.cp-sticky-tabs {
     padding: 0 0.5rem;
     margin-right: 0.5rem;
     background-color: inherit;
-    min-width: 3rem;
+    min-width: 5rem;
     height: 2.75rem;
     display: flex;
     flex-direction: column;
@@ -91,12 +91,6 @@ body.cp-theme-dark.cp-dialog-show .cp-tabs-container.cp-sticky-tabs {
 .cp-theme-dark .cp-tab {
     &:hover, &:focus {
         background-color: var(--cp-grey-bg-dark);
-    }
-}
-
-@media (min-width: 1024px) {
-    .cp-tab {
-        min-width: 4rem;
     }
 }
 

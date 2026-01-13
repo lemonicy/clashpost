@@ -4,7 +4,7 @@ navTitle: "蛮羊骑士"
 shownTitle: "蛮羊骑士"
 description: "姜饼蛮羊骑士坚毅无比，即使战败也“蛮”不在乎。这对甜点组合是自奥利奥和牛奶以来的最佳搭档，城墙在她面前就像烤焦的饼干一样，一碰就碎。"
 module: upgrade-temp
-imgFolder: temp/0e08
+imgFolder: temp_troops/0e08
 wiki: https://clashofclans.fandom.com/wiki/Ram_Rider
 canonical: /upgrade/0e08-Ram-Rider
 ---

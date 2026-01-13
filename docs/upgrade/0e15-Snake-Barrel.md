@@ -4,7 +4,7 @@ navTitle: "灵蛇飞桶"
 shownTitle: "灵蛇飞桶"
 description: "农历新年到，灵蛇从天降！这些绿油油的家伙危险又有趣，它们会狠狠撕咬防御建筑。灵蛇还还可以爬过城墙，当它们成群结队时更加危险！"
 module: upgrade-temp
-imgFolder: temp/0e15
+imgFolder: temp_troops/0e15
 wiki: https://clashofclans.fandom.com/wiki/Snake_Barrel
 canonical: /upgrade/0e15-Snake-Barrel
 ---

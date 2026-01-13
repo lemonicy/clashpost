@@ -4,7 +4,7 @@ navTitle: "骷髅飞桶"
 shownTitle: "骷髅飞桶"
 description: "鸟儿？飞机？都不是，这是坐在骷髅桶里的哈里、拉里、特里还有几个朋友，他们正飞向最近的建筑！"
 module: upgrade-temp
-imgFolder: temp/0e04
+imgFolder: temp_troops/0e04
 wiki: https://clashofclans.fandom.com/wiki/Skeleton_Barrel/Home_Village
 canonical: /upgrade/0e04-Skeleton-Barrel
 ---

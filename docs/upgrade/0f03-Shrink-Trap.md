@@ -4,7 +4,7 @@ navTitle: "玲珑陷阱"
 shownTitle: "玲珑陷阱"
 description: "这个陷阱中装着女巫诅咒过的药水，触发后会使范围内的敌军体型变小，暂时降低他们的生命值和伤害，并让他们看起来萌萌哒。厉害啦！"
 module: upgrade-temp
-imgFolder: temp/0f03
+imgFolder: temp_others/0f03
 wiki: https://clashofclans.fandom.com/wiki/Shrink_Trap
 canonical: /upgrade/0f03-Shrink-Trap
 ---

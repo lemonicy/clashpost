@@ -3,8 +3,8 @@ title: "部落冲突 coc 碎岩迫击炮升级数据"
 navTitle: "碎岩迫击炮"
 shownTitle: "碎岩迫击炮"
 description: "世界各地的巨石投手都排着队要它的签名！碎岩迫击炮会发射带有尖刺的巨石，石头如戈仑石人般优雅坠落，落地后还会继续弹跳、造成附带伤害。建议佩戴安全帽！"
-module: upgrade-home
-imgFolder: home_buildings/0902
+module: upgrade-temp
+imgFolder: temp_crafted/0902
 wiki: https://clashofclans.fandom.com/wiki/Crusher_Mortar
 canonical: /upgrade/0902-Crusher-Mortar
 ---
