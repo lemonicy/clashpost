@@ -35,15 +35,19 @@ if (activeTabCookieValue === "temp-troops") {
 </SwitchTabs>
 
 <SwitchTabGroup id="cp-upgrade-crafted" class="cp-upgrade-item">
-    <ListItems title="精工防御" imgFolder="temp_crafted">
+    <ListItems title="2025 - 2026" imgFolder="temp_crafted">
         <ListItem name="钩索塔" imgSrc="0900/Hook_Tower4.png" link="0900-Hook-Tower" :lazyLoading="false" />
         <ListItem name="旋转喷火器" imgSrc="0901/Flame_Spinner4.png" link="0901-Flame-Spinner" :lazyLoading="false" />
         <ListItem name="碎岩迫击炮" imgSrc="0902/Crusher_Mortar4.png" link="0902-Crusher-Mortar" :lazyLoading="false" />
+        <ListItem name="英雄警钟" imgSrc="0903/Hero_Bell4.png" link="0903-Hero-Bell" :lazyLoading="false" />
+        <ListItem name="炸弹蜂巢" imgSrc="0904/Bomb_Hive4.png" link="0904-Bomb-Hive" :lazyLoading="false" />
+        <ListItem name="圣光灯塔" imgSrc="0905/Light_Beam4.png" link="0905-Light-Beam" :lazyLoading="false" />
     </ListItems>
     <div class="cp-upgrade-index-tip">
         <SmallTitle>注意</SmallTitle>
         <ol>
-            <li>绿色背景代表该防御目前可用。</li>
+            <li>小标题显示的年份以精工防御第一次推出时为准。</li>
+            <li>一般来说，本页的最后三个精工防御就是目前可以使用的。</li>
             <li>如想查看精制台的数据，请移步：<a href="/upgrade/048a-Crafting-Station">精制台</a>。</li>
         </ol>
     </div>
@@ -87,7 +91,7 @@ if (activeTabCookieValue === "temp-troops") {
     <div class="cp-upgrade-index-tip">
         <SmallTitle>注意</SmallTitle>
         <ol>
-            <li>本页中显示的年份以临时单位第一次推出时为准。</li>
+            <li>小标题显示的年份以临时单位第一次推出时为准。</li>
             <li>如果某个临时单位曾经多次推出，则本站中的数据以最后一次出现时为准。</li>
             <li>临时兵种、法术无法升级，它的等级根据你的大本营等级自动确定。</li>
             <li>临时陷阱无法升级，不管玩家是几本，陷阱的属性都是一样的。</li>

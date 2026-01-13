@@ -10,8 +10,18 @@ canonical: /upgrade/0900-Hook-Tower
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hook_Tower4_hd.png" :imgAlt="$frontmatter.navTitle"
-    description="建筑大师应该不会介意我们借用他船上的绳索吧？<br>钩索塔可将远处的敌人拖拽过来并击晕。不过攻城机器实在太重了，这招对它们无效！"
-    :isSmallImg="true" />
+    description="建筑大师应该不会介意我们借用他船上的绳索吧？<br>钩索塔可将远处的敌人拖拽过来并击晕。不过攻城机器实在太重了，这招对它们无效！" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="3 - 11 级" imgSrc="Hook_Tower1.png" />
+        <UnitImg imgTitle="12 - 20 级" imgSrc="Hook_Tower2.png" />
+        <UnitImg imgTitle="21 - 29 级" imgSrc="Hook_Tower3.png" />
+        <UnitImg imgTitle="30 级" imgSrc="Hook_Tower4.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -34,7 +44,7 @@ canonical: /upgrade/0900-Hook-Tower
     <UnitProperty pKey="推出时的最高大本等级" pValue="17" />
 </UnitProperties>
 
-<SmallTitle>可升级模组 1：生命值模组</SmallTitle>
+<SmallTitle>可升级模组 1：提升建筑的生命值</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo1">
 
@@ -52,7 +62,7 @@ canonical: /upgrade/0900-Hook-Tower
 |  10  |  5000  |   12M   |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 2：攻击力模组（减少攻击冷却时间）</SmallTitle>
+<SmallTitle>可升级模组 2：减少攻击冷却时间</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo2">
 
@@ -70,7 +80,7 @@ canonical: /upgrade/0900-Hook-Tower
 |  10  |      5.3 秒     |    12M  |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 3：效果模组（增加眩晕时间）</SmallTitle>
+<SmallTitle>可升级模组 3：增加攻击后的眩晕时间</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo3">
 
@@ -91,6 +101,9 @@ canonical: /upgrade/0900-Hook-Tower
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>该精工防御失效。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>新精工防御：钩索塔。</TimelineRow>
     </TimelineItem>
