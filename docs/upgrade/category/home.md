@@ -204,7 +204,9 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="巨型地狱之塔" imgSrc="030d/Giga_Inferno16_thumb.png" link="030d-Giga-Inferno" />
         <ListItem name="地狱火炮" imgSrc="0315/Inferno_Artillery5.png" link="0315-Inferno-Artillery" />
     </ListItems>
-    <ListItems title="守卫（在做了）" imgFolder="home_buildings">
+    <ListItems title="守卫" imgFolder="home_th">
+        <ListItem name="远袭者" imgSrc="0840/Longshot_thumb.png" link="0840-Longshot" />
+        <ListItem name="粉碎者" imgSrc="0841/Smasher_thumb.png" link="0841-Smasher" />
     </ListItems>
 </SwitchTabGroup>
 
