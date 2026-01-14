@@ -88,22 +88,19 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>你知道吗</SmallTitle>
 
-- [空气炮](/upgrade/0306-Air-Sweeper) 是唯一一个在 11 本就达到最高等级的防御建筑。
-- 随着 2024 年 9 月战场寻宝活动的推出，coc 也有了 [开箱](/p/6932) 功能。
-- 除 [英雄火炬](/upgrade/0786-Heroic-Torch) 外，[暗夜女巫](/upgrade/1007-Night-Witch) 也曾在正式推出之前就被削弱。
-- 即使玩家不做 [新手挑战](/p/6699) 任务，升到 7 本后也能拿到全部奖励。
-- 装饰和障碍物是不同的东西，[如何区分呢？](/p/6993)
+- [隐形弹簧](/upgrade/0381-Spring-Trap) 重做后，不仅能弹飞小单位部队，还能对大单位部队造成高额伤害。
+- 现在 12 - 15 级 [大本营](/upgrade/0400-Town-Hall) 的武器只有一个等级，无需升级。
+- 由于 [复合机械塔](/upgrade/0317-Multi-Gear-Tower) 是由改装后的 [加农炮](/upgrade/0301-Cannon) 和 [箭塔](/upgrade/0302-Archer-Tower) 合并而来的，而想要升级 18 本必须有这个建筑，也就是说不玩夜世界不能升 18 本。
 
 </div>
 
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
-- [部落冲突英雄皮肤（造型）一览](/p/6540)
-- [在 2025 年的今天，coc 还有前途吗？](/p/6778)
-- [部落冲突 2024 年更新](/p/6885)
-- [coc 英雄火炬装备升级数据](/upgrade/0786-Heroic-Torch)
-- [什么是奖章活动？活动令牌又有什么用？](/p/7015)
+- 新兵种：[陨石戈仑](/upgrade/0012-Meteor-Golem)
+- 新法术：[图腾法术](/upgrade/0109-Totem-Spell)
+- 新建筑：[超级法师塔](/upgrade/0318-Super-Wizard-Tower)、[复仇之塔](/upgrade/0319-Revenge-Tower)、[英雄警钟](/upgrade/0903-Hero-Bell)、[炸弹蜂巢](/upgrade/0904-Bomb-Hive)、[圣光灯塔](/upgrade/0905-Light-Beam)
+- 新守卫：[远袭者](/upgrade/0840-Longshot)、[粉碎者](/upgrade/0841-Smasher)
 
 </div>
 </div>
