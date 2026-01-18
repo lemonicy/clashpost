@@ -58,12 +58,15 @@ canonical: /upgrade/0602-Super-Giant
 |  11  |    150   |   300   |      1500     |  4400 |     15    |
 |  12  |    160   |   320   |      1600     |  4600 |     16    |
 |  13  |    175   |   350   |      1750     |  4900 |     17    |
-|  14  |    190   |   380   |      1900     |  5300 |     18    |
+|  14  |    205   |   410   |      2050     |  5600 |     18    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/12">
+        <TimelineRow>14 级超级巨人的每秒伤害和生命值增加。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 14 级巨人，超级部队的等级也相应更新。</TimelineRow>
         <TimelineRow>13 级超级巨人的每秒伤害和生命值增加。</TimelineRow>

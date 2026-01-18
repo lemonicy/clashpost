@@ -106,7 +106,7 @@ const tableExtraInfo = [
 
 <SmallTitle>重要说明</SmallTitle>
 
-鼻涕小怪不能触发 [搜空地雷](/upgrade/0384-Seeking-Air-Mine)。
+鼻涕小怪不能触发陷阱。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -143,6 +143,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/12">
+        <TimelineRow>鼻涕小怪不再触发陷阱。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>新战宠：阿啾。</TimelineRow>
     </TimelineItem>

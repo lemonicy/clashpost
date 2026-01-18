@@ -1,19 +1,6 @@
-<script>
-/**
- * 判断是否为升级数据的详情页
- * 
- * @param {String} link 页面的规范链接
- */
-function isUpgradeDetails(link) {
-    if (link && link.startsWith("/upgrade/")) {
-        const unitId = link.substring(9, 13);
-        return unitId.match(/^[0-9a-f]{4}$/);
-    }
-    return false;
-}
-</script>
-
 <script setup>
+import { isUpgradeDetails } from "@/assets/global/common.js";
+
 const props = defineProps({
     link: {
         type: String,
@@ -92,7 +79,6 @@ if (link && isUpgradeDetails(link)) {
     // 是否加载兵种攻击偏好的提示弹窗
     hasPreferredTargetTip = isTroop || isHero || isPet || isTempTroop;
 }
-
 </script>
 
 <template>
@@ -129,7 +115,7 @@ if (link && isUpgradeDetails(link)) {
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasDonationCostDialog">
         1. 这三种资源是“或”的关系，使用任何一种资源均可捐赠。<br>
         2. 捐赠费用与部队、法术和攻城机器的等级无关，所有等级的捐赠费用是一样的。<br>
-        3. <a href="/p/1001">黄金令牌</a> 只能减少捐赠所需的宝石费用（就是那个 1 宝石捐赠特权），不能减少其他类型的费用。
+        3. <a href="/p/1001">黄金令牌</a> 只能减少捐赠所需的宝石（就是那个 1 宝石捐赠特权），不能减少捐赠所需的资源。
     </Dialog>
     <Dialog dialogId="cp-preferred-target-tip" title="这里的偏好类型是什么意思？" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasPreferredTargetTip">
