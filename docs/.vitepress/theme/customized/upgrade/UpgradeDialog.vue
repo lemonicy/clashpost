@@ -1,19 +1,6 @@
-<script>
-/**
- * 判断是否为升级数据的详情页
- * 
- * @param {String} link 页面的规范链接
- */
-function isUpgradeDetails(link) {
-    if (link && link.startsWith("/upgrade/")) {
-        const unitId = link.substring(9, 13);
-        return unitId.match(/^[0-9a-f]{4}$/);
-    }
-    return false;
-}
-</script>
-
 <script setup>
+import { isUpgradeDetails } from "@/assets/global/common.js";
+
 const props = defineProps({
     link: {
         type: String,
@@ -92,7 +79,6 @@ if (link && isUpgradeDetails(link)) {
     // 是否加载兵种攻击偏好的提示弹窗
     hasPreferredTargetTip = isTroop || isHero || isPet || isTempTroop;
 }
-
 </script>
 
 <template>

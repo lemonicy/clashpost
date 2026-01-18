@@ -16,10 +16,10 @@ export const notificationInfo = {
  * 全局升级数据状态，会在进入升级数据页面的时候调用
  * 
  * availableTempUnits 目前可以训练的临时兵种
- * unavailableUnits 目前可以使用的精工防御
+ * availableCraftedBuildings 目前可以使用的精工防御
  */
 export const availableTempUnits = [];
-export const availableCraftedBuildings = [];
+export const availableCraftedBuildings = ["0903", "0904", "0905"];
 
 /**
  * 全局文章状态，会在文章加载的时候调用

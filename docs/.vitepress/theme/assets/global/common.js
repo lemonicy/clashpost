@@ -276,3 +276,16 @@ export function resetToastPosition() {
         resetFixedPosition(toastContainer, originalFixedOffset);
     }
 }
+
+/**
+ * 判断是否为升级数据的详情页
+ * 
+ * @param {String} link 页面的规范链接
+ */
+export function isUpgradeDetails(link) {
+    if (link && link.startsWith("/upgrade/")) {
+        const unitId = link.substring(9, 13);
+        return unitId.match(/^[0-9a-f]{4}$/);
+    }
+    return false;
+}
