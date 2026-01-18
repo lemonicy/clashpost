@@ -27,8 +27,8 @@ canonical: /upgrade/0012-Meteor-Golem
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Meteor_Golem1.png" />
-        <!-- <UnitImg imgTitle="2 级" imgSrc="Meteor_Golem2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Meteor_Golem3.png" /> -->
+        <UnitImg imgTitle="2 级" imgSrc="Meteor_Golem2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Meteor_Golem3.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -48,7 +48,7 @@ canonical: /upgrade/0012-Meteor-Golem
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
-    <UnitProperty pKey="伤害加成" pValue="对墙 10 倍伤害" />
+    <UnitProperty pKey="伤害加成" pValue="对墙 5 倍伤害" />
     <UnitProperty pKey="伤害类型" pValue="投掷后造成范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="1 格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
@@ -100,8 +100,8 @@ const tableExtraInfo = [
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Meteormite1.png" />
-        <!-- <UnitImg imgTitle="2 级" imgSrc="Meteormite2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Meteormite3.png" /> -->
+        <UnitImg imgTitle="2 级" imgSrc="Meteormite2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Meteormite3.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -125,15 +125,18 @@ const tableExtraInfo = [
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 |
 | ---- |   ---   |   ---   |  ----  |
-|   1  |    ?    |    ?    |  7500  |
-|   2  |    ?    |    ?    |  8500  |
-|   3  |    ?    |    ?    |  9500  |
+|   1  |   220   |   330   |  7500  |
+|   2  |   240   |   360   |  8500  |
+|   3  |   260   |   390   |  9500  |
 </UnitTable>
 </SwitchTabGroup>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/12">
+        <TimelineRow>陨石戈仑对城墙的伤害降低 50%（现在对墙只有 5 倍伤害了）。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，陨石戈仑成为永久兵种，共推出 3 个等级。</TimelineRow>
     </TimelineItem>

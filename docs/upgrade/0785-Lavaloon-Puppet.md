@@ -83,13 +83,13 @@ const tableExtraInfo = [
 |  18  |          2         |       7       |         40       |        107      |  2700  |  600  |   50  |        5        |      12       |
 |  19  |          2         |       7       |         41       |        110      |  2800  |   -   |   -   |        7        |      14       |
 |  20  |          2         |       7       |         42       |        115      |  2900  |   -   |   -   |        7        |      14       |
-|  21  |          2         |       8       |         43       |        117      |  3000  |  600  |  100  |        7        |      14       |
-|  22  |          2         |       8       |         45       |        120      |  3100  |   -   |   -   |        8        |      15       |
-|  23  |          2         |       9       |         46       |        125      |  3200  |   -   |   -   |        8        |      15       |
-|  24  |          2         |       9       |         47       |        127      |  3300  |  600  |  120  |        8        |      15       |
-|  25  |          2         |      10       |         48       |        130      |  3400  |   -   |   -   |        9        |      16       |
-|  26  |          2         |      10       |         49       |        135      |  3500  |   -   |   -   |        9        |      16       |
-|  27  |          2         |      11       |         50       |        150      |  3600  |  600  |  150  |        9        |      16       |
+|  21  |          3         |       8       |         43       |        117      |  3000  |  600  |  100  |        7        |      14       |
+|  22  |          3         |       8       |         45       |        120      |  3100  |   -   |   -   |        8        |      15       |
+|  23  |          3         |       9       |         46       |        125      |  3200  |   -   |   -   |        8        |      15       |
+|  24  |          3         |       9       |         47       |        127      |  3300  |  600  |  120  |        8        |      15       |
+|  25  |          3         |      10       |         48       |        130      |  3400  |   -   |   -   |        9        |      16       |
+|  26  |          3         |      10       |         49       |        135      |  3500  |   -   |   -   |        9        |      16       |
+|  27  |          3         |      11       |         50       |        150      |  3600  |  600  |  150  |        9        |      16       |
 </UnitTable>
 
 注：如果升级费用中有多种资源，则同时需要多种资源才能升级。
@@ -133,7 +133,7 @@ const tableExtraInfo = [
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="1.8 格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="占据人口" pValue="23" />
+    <UnitProperty pKey="占据人口" pValue="21" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="2.5 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="0 格 (建筑头顶)" />
@@ -210,6 +210,10 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>  
+    <TimelineItem date="2026/01/12">
+        <TimelineRow>21 ~ 27 级熔岩气球玩偶召唤的熔岩气球数量由 2 增加到 3.</TimelineRow>
+        <TimelineRow>熔岩气球占据的人口数由 23 减少到 21.</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/10/11">
         <TimelineRow>新装备：熔岩气球玩偶。</TimelineRow>
     </TimelineItem>

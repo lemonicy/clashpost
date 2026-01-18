@@ -13,7 +13,7 @@ canonical: /upgrade/0109-Totem-Spell
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 图腾法术部署后会生成一个图腾，能对敌方建筑和部队造成伤害、击晕它们、并使附近的敌方单位重置目标。
+1. 图腾法术部署后会生成一个图腾（看起来像一根棍子），能对敌方建筑和部队造成伤害、击晕它们、并使附近的敌方单位重置目标。
     - 重置效果并不会使敌方建筑强制攻击图腾，如果我方其他单位与敌方建筑的距离比图腾与该建筑的更近，该建筑会攻击其他单位，而非图腾。
     - 图腾法术无法对城墙造成伤害。
 2. 图腾是地面部队的同时，也是空中部队。因此，只攻击地面目标、只攻击空中目标和攻击地面和空中目标的防守方建筑、部队也会攻击图腾。
@@ -31,11 +31,14 @@ canonical: /upgrade/0109-Totem-Spell
     <UnitProperty pKey="作用类型" pValue="重置敌方攻击并吸引火力" />
     <UnitProperty pKey="作用目标" pValue="敌方建筑和部队" />
     <UnitProperty pKey="占用的法术空间" pValue="1" />
+    <UnitProperty pKey="图腾的掉血速度" pValue="每秒 334 血<sup>*</sup>" />
     <UnitProperty pKey="所需法术工厂等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="16" />
     <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="3,3,9000,Elixir" :isDonationCost="true" />
 </UnitProperties>
+
+\* 这是图腾不受到伤害时的掉血速度。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -69,6 +72,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/12">
+        <TimelineRow>图腾增加生命值衰减机制，每秒自动减少 334 生命值（类似于攻城训练营和攻城滚木车）。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/27">
         <TimelineRow>18 本推出，并在 16 本新增图腾法术。</TimelineRow>
     </TimelineItem>

@@ -56,7 +56,7 @@ canonical: /upgrade/0605-Super-Witch
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="占据人口" pValue="10" />
+    <UnitProperty pKey="占据人口" pValue="20" />
     <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="1 格" />
@@ -73,12 +73,16 @@ canonical: /upgrade/0605-Super-Witch
 | ---- |    ----   |    ----   |  ---- |    ----   |
 |   5  |    360    |    252    |  3200 |     12    |
 |   6  |    390    |    273    |  3400 |     15    |
-|   7  |    420    |    294    |  3600 |     16    |
+|   7  |    430    |    301    |  3750 |     16    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/12">
+        <TimelineRow>7 级超级女巫的每秒伤害和生命值增加。</TimelineRow>
+        <TimelineRow>大宝宝占用的人口数由 10 调整为 20.</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
@@ -86,7 +90,7 @@ canonical: /upgrade/0605-Super-Witch
         <TimelineRow>大宝宝（超级女巫的骷髅巨人）占用的人口数由 20 调整为 10，这意味着它现在可以被隐形弹簧弹飞了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>超级女巫的训练时间由 6:40 改为 5:33</TimelineRow>
+        <TimelineRow>超级女巫的训练时间由 6:40 改为 5:33。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>16 本推出，并在 16 本新增 7 级女巫，超级部队的等级也相应更新。</TimelineRow>
