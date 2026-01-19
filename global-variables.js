@@ -8,8 +8,7 @@ export const notificationInfo = {
     "hasNotification": true,
     "notificationCount": 2,
     "currentNotificationId": 15,
-    "notificationHTML": "1. 十八本版本以及一月平衡性调整的数据已更新到网站上。最近网站的更新比较多，各位可以注意一下数据有没有问题。<hr />" +
-    "2. 现在精工防御在 <strong>升级数据 -> 临时单位</strong> 分类，守卫在新开的 <strong>升级数据 -> 家乡 -> 大本</strong> 一类。"
+    "notificationHTML": "1. 十八本版本以及一月平衡性调整的数据已更新到网站上。最近网站的更新比较多，各位可以注意一下数据有没有问题。<hr />2. 现在精工防御在 <strong>升级数据 -> 临时单位</strong> 分类，守卫在新开的 <strong>升级数据 -> 家乡 -> 大本</strong> 一类。"
 }
 
 /**
