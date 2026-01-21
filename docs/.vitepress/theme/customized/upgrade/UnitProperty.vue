@@ -2,8 +2,8 @@
 import { onMounted, nextTick, ref } from "vue";
 import { showDialog } from "@/components/dialog/Dialog.vue";
 import Resource from "@/customized/Resource.vue";
-import Info from "@/components/icon/general/Info.vue";
-import Question from "@/components/icon/general/Question.vue";
+import Info from "@/components/icon/reminding/Info.vue";
+import Question from "@/components/icon/reminding/Question.vue";
 import { convertTime, convertNum } from "@/assets/global/utils.js";
 import { getGoldPassValueArr, showGoldPassValue } from "@/assets/upgrade.js";
 
