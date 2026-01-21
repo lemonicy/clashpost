@@ -137,7 +137,7 @@ function getModule(frontmatterModule, path) {
 import { watch, nextTick } from "vue"
 import { useData, useRouter, inBrowser } from "vitepress";
 import { hideOverlay } from "@/components/dialog/Overlay.vue";
-import Arrow from "@/components/icon/Arrow.vue";
+import Arrow from "@/components/icon/general/Arrow.vue";
 
 const { frontmatter } = useData();
 const router = useRouter();

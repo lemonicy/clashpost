@@ -8,7 +8,7 @@ import { showSidebarRight, hideSidebarRight } from "@/composables/sidebar/Sideba
 import { showDialog, hideAllDialogs, hideAllDialogsOnly } from "@/components/dialog/Dialog.vue";
 import Overlay, { showOverlay, hideOverlay } from "@/components/dialog/Overlay.vue";
 import { generateToast } from "@/components/dialog/Toast.vue";
-import Close from "@/components/icon/Close.vue";
+import Close from "@/components/icon/general/Close.vue";
 
 const notificationCountIconRef = ref(0);
 const searchProviderRef = ref();

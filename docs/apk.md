@@ -10,7 +10,7 @@ robots: index, nofollow
 <script setup>
 import { showDialog } from "@/components/dialog/Dialog.vue";
 import { generateToast } from "@/components/dialog/Toast.vue";
-import Download from "@/components/icon/Download.vue";
+import Download from "@/components/icon/link/Download.vue";
 
 const disableDownloading = false;
 const apkVersion = "18.0.10";

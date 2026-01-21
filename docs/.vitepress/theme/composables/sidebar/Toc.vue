@@ -7,8 +7,8 @@ function scrollToTop() {
 <script setup>
 import { onMounted, onUpdated, ref, computed } from "vue";
 import { useData } from "vitepress";
-import ArrowTop from "@/components/icon/ArrowTop.vue";
-import ExternalLink from "@/components/icon/ExternalLink.vue";
+import ArrowTop from "@/components/icon/general/ArrowTop.vue";
+import ExternalLink from "@/components/icon/link/ExternalLink.vue";
 import TocList from "@/composables/sidebar/TocList.vue";
 import { hideAllDialogs } from "@/components/dialog/Dialog.vue";
 
