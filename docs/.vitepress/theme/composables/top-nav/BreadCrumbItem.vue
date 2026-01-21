@@ -1,5 +1,5 @@
 <script setup>
-import Arrow from "@/components/icon/Arrow.vue";
+import Arrow from "@/components/icon/general/Arrow.vue";
 
 const props = defineProps({
     breadcrumbItems: {

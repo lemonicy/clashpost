@@ -1,4 +1,9 @@
 <script setup>
+import Success from "@/components/icon/reminding/Success.vue";
+import Warning from "@/components/icon/reminding/Warning.vue";
+import Error from "@/components/icon/reminding/Error.vue";
+import Info from "@/components/icon/reminding/Info.vue";
+
 const props = defineProps({
     type: {
         type: String,
@@ -7,29 +12,35 @@ const props = defineProps({
 });
 
 let calloutClass = "cp-callout cp-callout-";
-let calloutIcon = "";
 switch (props.type) {
     case "success":
         calloutClass += "success";
-        calloutIcon = "✅";
         break;
     case "warning":
         calloutClass += "warning";
-        calloutIcon = "⚠️";
         break;
     case "error":
         calloutClass += "error";
-        calloutIcon = "🚫";
         break;
     default:
         calloutClass += "info";
-        calloutIcon = "ℹ️";
 }
 </script>
 
 <template>
     <div :class="calloutClass">
-        <div class="cp-callout-icon">{{ calloutIcon }}</div>
+        <div class="cp-callout-icon" v-if="props.type === 'success'">
+            <Success />
+        </div>
+        <div class="cp-callout-icon" v-else-if="props.type === 'warning'">
+            <Warning />
+        </div>
+        <div class="cp-callout-icon" v-else-if="props.type === 'error'">
+            <Error />
+        </div>
+        <div class="cp-callout-icon" v-else="props.type === 'info'">
+            <Info />
+        </div>
         <div class="cp-callout-content">
             <slot></slot>
         </div>
@@ -70,7 +81,11 @@ switch (props.type) {
 .cp-callout-icon {
     font-size: 1.125rem;
     margin-right: 0.25rem;
-    transform: translateY(-0.125rem);
+    transform: translateY(0.15rem);
+
+    .cp-icon {
+        cursor: unset;
+    }
 }
 
 .cp-callout-content {
