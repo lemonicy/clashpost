@@ -14,11 +14,11 @@ import NetworkWarning from "@/components/common/NetworkWarning.vue";
 
 const router = useRouter();
 
-let postBannerKey = ref(0);
-let titleKey = ref(0);
-let pageInfoPostKey = ref(0);
+let postBannerKey = ref();
+let titleKey = ref();
+let pageInfoPostKey = ref();
 
-const hasPageInfoPost = link => {
+const isSinglePost = link => {
     return link && link.match("/p/\d*");
 };
 
@@ -36,9 +36,9 @@ watch(() => router.route.data.relativePath, (path) => {
     <SidebarLeft />
     <main>
         <TopNav />
-        <PostBanner :Key="postBannerKey" :link="$frontmatter.canonical" v-if="hasPageInfoPost($frontmatter.canonical)" />
+        <PostBanner :Key="postBannerKey" :link="$frontmatter.canonical" v-if="isSinglePost($frontmatter.canonical)" />
         <PageTitle :key="titleKey" v-if="!$frontmatter.customTitle" />
-        <PageInfoPost :key="pageInfoPostKey" :link="$frontmatter.canonical" v-if="hasPageInfoPost($frontmatter.canonical)" />
+        <PageInfoPost :key="pageInfoPostKey" :link="$frontmatter.canonical" v-if="isSinglePost($frontmatter.canonical)" />
         <Main />
         <Footer />
     </main>

@@ -61,15 +61,23 @@ onMounted(() => {
 </template>
 
 <style lang="scss">
+@use '@/assets/mixins.scss' as *;
+
 .cp-post-details {
     display: flex;
     align-items: center;
     font-size: 0.875rem;
-    margin: 1rem 0;
+    margin: -0.5rem 0 1rem 0;
     color: var(--cp-grey-text-light);
     transform: translateY(-0.5rem);
     overflow-x: auto;
     overflow-y: hidden;
+}
+
+@media (min-width: $cp-col-tablat-big) {
+    .cp-post-details {
+        margin: -0.125rem 0 1rem 0;
+    }
 }
 
 .cp-theme-dark .cp-post-details {

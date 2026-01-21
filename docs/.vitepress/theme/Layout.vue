@@ -11,7 +11,7 @@ const { page } = useData();
 
 <template>
     <HTTPNotFound v-if="page.isNotFound" />
-    <Posts v-else-if="router.route.data.relativePath.startsWith('p/') || router.route.data.relativePath === 'p.md'" />
-    <Upgrade v-else-if="router.route.data.relativePath.startsWith('upgrade/') || router.route.data.relativePath === 'upgrade.md'" />
+    <Posts v-else-if="router.route.data.relativePath.startsWith('p/')" />
+    <Upgrade v-else-if="router.route.data.relativePath.startsWith('upgrade/')" />
     <Basic v-else />
 </template>
