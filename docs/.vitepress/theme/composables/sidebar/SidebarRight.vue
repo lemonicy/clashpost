@@ -13,16 +13,13 @@ import { ref, watch, nextTick } from "vue";
 import { useRouter, inBrowser } from "vitepress";
 import { sidebarRightShowing } from "@/assets/global/common.js";
 import { hideOverlay } from "@/components/dialog/Overlay.vue";
-// import RightBottomAd from "@/components/ad/RightBottomAd.vue";
 import Toc from "@/composables/sidebar/Toc.vue";
 
 let tocKey = ref(0);
-let adKey = ref(0);
 
 function refreshToc() {
     nextTick(() => {
         tocKey.value++;
-        adKey.value++;
     });
 }
 
@@ -57,7 +54,6 @@ if (inBrowser) {
 <template>
     <div id="cp-sidebar-right" ref="sidebarRightRef" @click="event => clickSidebarRightLinkEvent(event)">
         <Toc :key="'toc-' + tocKey" />
-        <!-- <RightBottomAd :key="'ad-' + adKey" /> -->
     </div>
 </template>
 

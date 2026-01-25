@@ -92,7 +92,6 @@ const wikiLink = frontmatter.value.wiki;
 
 <style lang="scss">
 .cp-sidebar-right-toc {
-    margin-bottom: auto; /* 占满空间，把下方留给广告位 */
     width: 224px;
 
     ul {
