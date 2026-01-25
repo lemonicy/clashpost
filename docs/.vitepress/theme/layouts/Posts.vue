@@ -14,9 +14,9 @@ import NetworkWarning from "@/components/common/NetworkWarning.vue";
 
 const router = useRouter();
 
-let postBannerKey = ref();
-let titleKey = ref();
-let pageInfoPostKey = ref();
+let postBannerKey = ref(0);
+let pageTitleKey = ref(0);
+let pageInfoPostKey = ref(0);
 
 const isSinglePost = link => {
     return link && link.match("/p/\d*");
@@ -25,7 +25,7 @@ const isSinglePost = link => {
 watch(() => router.route.data.relativePath, (path) => {
     nextTick(() => {
         postBannerKey.value++;
-        titleKey.value++;
+        pageTitleKey.value++;
         pageInfoPostKey.value++;
     });
 }, { immediate: false });
@@ -36,9 +36,9 @@ watch(() => router.route.data.relativePath, (path) => {
     <SidebarLeft />
     <main>
         <TopNav />
-        <PostBanner :Key="postBannerKey" :link="$frontmatter.canonical" v-if="isSinglePost($frontmatter.canonical)" />
-        <PageTitle :key="titleKey" v-if="!$frontmatter.customTitle" />
-        <PageInfoPost :key="pageInfoPostKey" :link="$frontmatter.canonical" v-if="isSinglePost($frontmatter.canonical)" />
+        <PostBanner :Key="'postBanner-' + postBannerKey" :link="$frontmatter.canonical" v-if="isSinglePost($frontmatter.canonical)" />
+        <PageTitle :key="'pageTitle-' + pageTitleKey" v-if="!$frontmatter.customTitle" />
+        <PageInfoPost :key="'pageInfoPost-' + pageInfoPostKey" :link="$frontmatter.canonical" v-if="isSinglePost($frontmatter.canonical)" />
         <Main />
         <Footer />
     </main>

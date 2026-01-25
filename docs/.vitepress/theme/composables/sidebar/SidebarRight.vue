@@ -56,8 +56,8 @@ if (inBrowser) {
 
 <template>
     <div id="cp-sidebar-right" ref="sidebarRightRef" @click="event => clickSidebarRightLinkEvent(event)">
-        <Toc :key="tocKey" />
-        <!-- <RightBottomAd :key="adKey" /> -->
+        <Toc :key="'toc-' + tocKey" />
+        <!-- <RightBottomAd :key="'ad-' + adKey" /> -->
     </div>
 </template>
 

@@ -222,7 +222,7 @@ if (inBrowser) {
 
 <template>
     <div id="cp-breadcrumb">
-        <BreadcrumbItem :key="breadcrumbKey" :breadcrumbItems="breadcrumbItems" />
+        <BreadcrumbItem :key="'breadcrumb-' + breadcrumbKey" :breadcrumbItems="breadcrumbItems" />
     </div>
 </template>
 

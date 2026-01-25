@@ -12,11 +12,11 @@ import NetworkWarning from "@/components/common/NetworkWarning.vue";
 
 const router = useRouter();
 
-let titleKey = ref(0);
+let pageTitleKey = ref(0);
 
 watch(() => router.route.data.relativePath, (path) => {
     nextTick(() => {
-        titleKey.value++;
+        pageTitleKey.value++;
     });
 }, { immediate: false });
 </script>
@@ -26,7 +26,7 @@ watch(() => router.route.data.relativePath, (path) => {
     <SidebarLeft />
     <main>
         <TopNav />
-        <PageTitle :key="titleKey" v-if="!$frontmatter.customTitle" />
+        <PageTitle :key="'pageTitle-' + pageTitleKey" v-if="!$frontmatter.customTitle" />
         <Main />
         <Footer />
     </main>

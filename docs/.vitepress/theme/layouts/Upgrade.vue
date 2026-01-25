@@ -15,13 +15,13 @@ import NetworkWarning from "@/components/common/NetworkWarning.vue";
 const router = useRouter();
 
 let upgradeBannerKey = ref(0);
-let titleKey = ref(0);
+let pageTitleKey = ref(0);
 let upgradeDialogKey = ref(0);
 
 watch(() => router.route.data.relativePath, (path) => {
     nextTick(() => {
         upgradeBannerKey.value++;
-        titleKey.value++;
+        pageTitleKey.value++;
         upgradeDialogKey.value++;
     });
 }, { immediate: false });
@@ -32,13 +32,13 @@ watch(() => router.route.data.relativePath, (path) => {
     <SidebarLeft />
     <main>
         <TopNav />
-        <UpgradeBanner :key="upgradeBannerKey" :link="$frontmatter.canonical" />
-        <PageTitle :key="titleKey" v-if="!$frontmatter.customTitle" />
+        <UpgradeBanner :key="'upgradeBanner-' + upgradeBannerKey" :link="$frontmatter.canonical" />
+        <PageTitle :key="'pageTitle-' + pageTitleKey" v-if="!$frontmatter.customTitle" />
         <Main />
         <Footer />
     </main>
     <SidebarRight />
-    <UpgradeDialog :key="upgradeDialogKey" :link="$frontmatter.canonical" />
+    <UpgradeDialog :key="'upgradeDialog-' + upgradeDialogKey" :link="$frontmatter.canonical" />
     <NetworkWarning />
 </template>
 
