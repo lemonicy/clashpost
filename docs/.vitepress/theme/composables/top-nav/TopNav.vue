@@ -17,7 +17,7 @@ watch(() => router.route.data.relativePath, (path) => {
 <template>
     <div class="cp-top-nav" v-if="$frontmatter.module !== 'home'">
         <BreadCrumb :module="$frontmatter.module" />
-        <GoldPassSelect :key="goldPassSelectKey" :link="$frontmatter.canonical" :hasCustomOption="true" />
+        <GoldPassSelect :key="'goldPassSelect-' + goldPassSelectKey" :link="$frontmatter.canonical" :hasCustomOption="true" />
     </div>
 </template>
 
