@@ -101,7 +101,7 @@ canonical: /upgrade/0900-Hook-Tower
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
-    <TimelineItem date="2025/11/17">
+    <TimelineItem date="2025/11/16">
         <TimelineRow>该精工防御失效。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">

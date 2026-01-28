@@ -98,7 +98,7 @@ canonical: /upgrade/0903-Hero-Bell
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
-    <TimelineItem date="2025/11/17">
+    <TimelineItem date="2025/11/20">
         <TimelineRow>新精工防御：英雄警钟。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
