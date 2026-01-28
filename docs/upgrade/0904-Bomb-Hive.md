@@ -98,7 +98,7 @@ canonical: /upgrade/0904-Bomb-Hive
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
-    <TimelineItem date="2025/06/16">
+    <TimelineItem date="2025/11/20">
         <TimelineRow>新精工防御：炸弹蜂巢。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

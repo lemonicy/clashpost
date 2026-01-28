@@ -96,7 +96,7 @@ canonical: /upgrade/0905-Light-Beam
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
-    <TimelineItem date="2025/06/16">
+    <TimelineItem date="2025/11/20">
         <TimelineRow>新精工防御：圣光灯塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
