@@ -49,7 +49,7 @@ canonical: /upgrade/0314-Multi-Archer-Tower
     <UnitProperty pKey="伤害类型" pValue="同时攻击多个目标 (1 ~ 3 个)" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="射程" pValue="10 格" />
-    <UnitProperty pKey="攻速" pValue="0.5 秒/次" />
+    <UnitProperty pKey="攻速" pValue="0.6 秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -79,17 +79,20 @@ const tableExtraInfo = [
 
 | 等级 |每个弓箭手的<br>每秒伤害|每个弓箭手的<br>每次伤害| 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |          ---         |          ---         |   ---  |   ---   |   ----  |        ---         |      ----      |
-|   1  |          120         |           60         |  5000  |    12M  |   7     |                    |       16       |
-|   2  |          130         |           65         |  5200  |    13M  |   8     |                    |       16       |
-|   3  |          140         |           70         |  5400  |  17.5M  |  10,18  |                    |       17       |
-|   4  |          146         |           73         |  5500  |    27M  |  14    |                    |       18       |
-| ⚡1  |          151         |         75.5         |  5500  |   12M  |      6   |                    |       18       |
-| ⚡2  |          151         |         75.5         |  5600  |   10M  |      7   |                    |       18       |
+|   1  |          120         |          72          |  5000  |    12M  |   7     |                    |       16       |
+|   2  |          130         |          78          |  5200  |    13M  |   8     |                    |       16       |
+|   3  |          140         |          84          |  5400  |  17.5M  |  10,18  |                    |       17       |
+|   4  |          146         |          87.6        |  5500  |    27M  |  14    |                    |       18       |
+| ⚡1  |          151         |         90.3         |  5500  |   12M  |      6   |                    |       18       |
+| ⚡2  |          151         |         90.3         |  5600  |   10M  |      7   |                    |       18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/28">
+        <TimelineRow>多人箭塔的攻速由 0.5 秒/次 降低到 0.6 秒/次。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 4 级多人箭塔。</TimelineRow>
         <TimelineRow>3 级多人箭塔的升级时间和升级费用减少。</TimelineRow>

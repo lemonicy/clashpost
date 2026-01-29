@@ -66,9 +66,9 @@ canonical: /upgrade/0500-Builders-Hut
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="建筑工人小屋的最大数量" pValue="5" />
     <UnitProperty pKey="射程" pValue="7 格" />
-    <UnitProperty pKey="工人小屋的攻速" pValue="0.4 秒/次" />
-    <UnitProperty pKey="防守时工人的移动速度" pValue="3.5 秒/格" />
-    <UnitProperty pKey="工人的修复速度" pValue="0.75 秒/次" />
+    <UnitProperty pKey="建筑工人小屋的攻速" pValue="0.4 秒/次" />
+    <UnitProperty pKey="建筑工人的移动速度" pValue="2.5 秒/格" />
+    <UnitProperty pKey="建筑工人的修复速度" pValue="0.75 秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -125,6 +125,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/28">
+        <TimelineRow>建筑工人的移动速度由 3.5 格/秒 降低到 2.5 格/秒。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>7 级建筑工人小屋的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>

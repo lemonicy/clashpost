@@ -81,6 +81,7 @@ canonical: /upgrade/0e17-Giant-Giant
 <Timeline>
     <TimelineItem date="2026/01/28">
         <TimelineRow>该兵种第 2 次推出，有效期至 2026/02/02.</TimelineRow>
+        <TimelineRow>与上次推出时相比，大守护者对霸天巨人的跟随权重降低，天鹰火炮对霸天巨人的攻击权重降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/04/14">
         <TimelineRow>14 ~ 15 级霸天巨人的每秒伤害和生命值降低。</TimelineRow>
