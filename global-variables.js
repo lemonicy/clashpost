@@ -17,7 +17,7 @@ export const notificationInfo = {
  * availableTempUnits 目前可以训练的临时兵种
  * availableCraftedBuildings 目前可以使用的精工防御
  */
-export const availableTempUnits = [];
+export const availableTempUnits = ["0e17"];
 export const availableCraftedBuildings = ["0903", "0904", "0905"];
 
 /**

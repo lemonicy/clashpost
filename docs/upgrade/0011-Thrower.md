@@ -30,7 +30,7 @@ canonical: /upgrade/0011-Thrower
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="16" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="移动速度" pValue="2.25 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="2.5 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="6 格" />
     <UnitProperty pKey="所需训练营等级" pValue="18" />
@@ -61,15 +61,20 @@ const tableExtraInfo = [
 
 | 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间  |所需实验室等级|所需大本等级|
 | ---- |   ----   |   ---   |  ---- |    ---  |     ---   |     ---     |   ----    |
-|   1  |    190   |   475   |  2100 |      \  |      \    |       1     |     16    |
-|   2  |    200   |   500   |  2250 |    16M  |    9,12   |      14     |     16    |
-|   3  |    220   |   550   |  2500 |    18M  |   10,12   |      15     |     17    |
-|   4  |    240   |   600   |  2800 |    27M  |   15      |      16     |     18    |
+|   1  |    190   |   475   |  2200 |      \  |      \    |       1     |     16    |
+|   2  |    210   |   525   |  2350 |    16M  |    9,12   |      14     |     16    |
+|   3  |    230   |   575   |  2600 |    18M  |   10,12   |      15     |     17    |
+|   4  |    250   |   625   |  2900 |    27M  |   15      |      16     |     18    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/28">
+        <TimelineRow>所有等级巨矛投手的生命值提升。</TimelineRow>
+        <TimelineRow>2 ~ 4 级巨矛投手的伤害提升。</TimelineRow>
+        <TimelineRow>巨矛投手的移动速度由 2 格/秒 提升到 2.25 格/秒。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 4 级巨矛投手。</TimelineRow>
         <TimelineRow>2 ~ 3 级巨矛投手的升级时间和升级费用减少。</TimelineRow>

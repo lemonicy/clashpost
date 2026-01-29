@@ -26,10 +26,10 @@ function hideNetworkWarning() {
 
 // 页面链接切换前执行
 router.onBeforeRouteChange = () => {
-    // 等待 0.8 秒显示 WiFi 警告图标
+    // 等待 1 秒显示 WiFi 警告图标
     networkWarningTimer = setTimeout(() => {
         showNetworkWarning();
-    }, 800);
+    }, 1000);
 }
 
 // 页面链接切换后执行

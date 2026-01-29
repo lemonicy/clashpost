@@ -116,8 +116,8 @@ const tableExtraInfoStage3 = [
 1. 复仇之塔随着建筑被摧毁的数量增加而增强。
     - 游戏开始时，它处于休眠状态，不会主动攻击。
     - 当 5 座建筑物被摧毁时，它会进入一阶段。一阶段的复仇之塔会以较慢的速度向地面和空中单位发射高伤害的弹丸。
-    - 当 20 座建筑物被摧毁时，它会进入二阶段。此时复仇之塔每次造成的伤害减半，但射速翻倍，并且可以像 [跳弹加农炮](/upgrade/0313-Ricochet-Cannon) 一样将弹丸反弹到其他目标，不过只能反弹一次。
-    - 当 40 座建筑物被摧毁时，它会进入三阶段，也就是最终阶段。此时复仇之塔每次造成的伤害不变，射速再次翻倍，且可以反弹两次。
+    - 当 25 座建筑物被摧毁时，它会进入二阶段。此时复仇之塔每次造成的伤害减半，但射速翻倍，并且可以像 [跳弹加农炮](/upgrade/0313-Ricochet-Cannon) 一样将弹丸反弹到其他目标，不过只能反弹一次。
+    - 当 50 座建筑物被摧毁时，它会进入三阶段，也就是最终阶段。此时复仇之塔每次造成的伤害不变，射速再次翻倍，且可以反弹两次。
 2. 即使复仇之塔处于休眠状态，它仍被视为防御建筑，这意味着 [巨人](/upgrade/0002-Giant)、[气球兵](/upgrade/0005-Balloon) 等以防御为目标的单位会优先攻击它。
 
 <SmallTitle>属性</SmallTitle>
@@ -211,6 +211,7 @@ const tableExtraInfoStage3 = [
     <UnitProperty pKey="攻速" pValue="0.6 秒/次" />
     <UnitProperty pKey="最远弹射距离" pValue="4 格" />
     <UnitProperty pKey="最高弹射次数" pValue="1" />
+    <UnitProperty pKey="弹射伤害衰减" pValue="40%" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -252,9 +253,10 @@ const tableExtraInfoStage3 = [
     <UnitProperty pKey="伤害类型" pValue="直接伤害 + 弹射伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="射程" pValue="11 格" />
-    <UnitProperty pKey="攻速" pValue="0.3 秒/次" />
+    <UnitProperty pKey="攻速" pValue="0.35 秒/次" />
     <UnitProperty pKey="最远弹射距离" pValue="4 格" />
     <UnitProperty pKey="最高弹射次数" pValue="2" />
+    <UnitProperty pKey="弹射伤害衰减" pValue="40%" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -263,9 +265,25 @@ const tableExtraInfoStage3 = [
 
 | 等级 | 每秒伤害 | 直接伤害 |弹射伤害<sup>*</sup>| 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |         ---        |  ---  |   ---   |     ---     |        ---         |       ---       |
-|   1  |   750   |   225   |      135 / 81      |  5800 |   430k  | 13, 0, 0, 5 |                    |        18       |
-|   2  |   833   |   250   |      150 / 90      |  6200 |   460k  | 14          |                    |        18       |
+|   1  |   642   |   225   |      135 / 81      |  5800 |   430k  | 13, 0, 0, 5 |                    |        18       |
+|   2  |   714   |   250   |      150 / 90      |  6200 |   460k  | 14          |                    |        18       |
 </UnitTable>
 
 \* 弹射伤害一栏中，135 / 81 代表弹丸弹射到第一个目标时的伤害为 135，弹射到第二个目标时为 81.
 </SwitchTabGroup>
+
+<!-- ↓↓↓ 公共部分 ↓↓↓ -->
+<SmallTitle>更新历史</SmallTitle>
+
+<Timeline>
+    <TimelineItem date="2026/01/28">
+        <TimelineRow>复仇之塔最后一个阶段的攻速由 0.3 秒/次 降低到 0.35 秒/次。</TimelineRow>
+        <TimelineRow>复仇之塔二阶段的触发条件改为 25 座建筑被摧毁（之前是 20 座）。</TimelineRow>
+        <TimelineRow>复仇之塔三阶段的触发条件改为 50 座建筑被摧毁（之前是 40 座）。</TimelineRow>
+        <TimelineRow>复仇之塔三阶段的每秒伤害降低。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增建筑：复仇之塔，共设两个等级。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem :historyBottom="true" />
+</Timeline>

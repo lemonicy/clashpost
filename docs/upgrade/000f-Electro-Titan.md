@@ -82,12 +82,15 @@ const tableExtraInfo = [
 |   1  |      180 / 270      |        75 / 30       |  7200 |      \  |     \     |        1       |      14       |
 |   2  |      200 / 300      |       100 / 40       |  7700 |    14M  |    9      |       12       |      14       |
 |   3  |      220 / 330      |       125 / 50       |  8200 |    16M  |    9,12   |       13       |      15       |
-|   4  |      240 / 360      |      137.5 / 55      |  8400 |  18.5M  |   11      |       14       |      16       |
+|   4  |      240 / 360      |      137.5 / 55      |  8700 |  18.5M  |   11      |       14       |      16       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/28">
+        <TimelineRow>4 级雷霆泰坦的生命值由 8400 提升到 8700.</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>3 ~ 4 级雷霆泰坦的升级时间减少。</TimelineRow>
     </TimelineItem>
