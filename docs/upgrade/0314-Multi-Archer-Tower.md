@@ -28,8 +28,8 @@ canonical: /upgrade/0314-Multi-Archer-Tower
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 15, 16, 18" />
-    <BuildingNumRow title="建筑数量" num="     0,  2,  3" />
+    <BuildingNumRow title="大本等级" num="1 - 15, 16, 17 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,  2,       3" />
 </BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
