@@ -3,8 +3,8 @@
     "cross-spawn": "^7.0.6",
     "markdown-it-mathjax3": "^4.3.2",
     "p-map": "^7.0.4",
-    "sass": "^1.97.2",
-    "vitepress": "^2.0.0-alpha.15"
+    "sass": "^1.97.3",
+    "vitepress": "^2.0.0-alpha.16"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
