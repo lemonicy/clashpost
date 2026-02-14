@@ -172,13 +172,14 @@ function downloadCocApk() {
   - 线路二必须下载 OPPO 软件商店，不推荐选用。
 - [小米（线路一）](https://game.xiaomi.com/game/62231040)
 - [小米（线路二）](https://app.mi.com/details?id=com.supercell.clashofclans.mi)
-- [百度（线路一）](http://update.coc.gameark.cn/?channel=baidu)
-- [百度（线路二）](https://mobile.baidu.com/item?docid=5001672440)
+- [~~百度（线路一）~~](http://update.coc.gameark.cn/?channel=baidu)
+- [~~百度（线路二）~~](https://mobile.baidu.com/item?docid=5001672440)
   - 进入之后请选择“普通下载”，否则会下载到百度手机助手。
+  - 2025 年开始陆续有人反馈百度版无法再绑定，我们将其视为已失效。
 - [华为](https://appgallery.huawei.com/#/app/C10329573)
   - 华为版比较特殊，在下载绑定工具之前请先下载 [华为应用市场](https://appgallery.huawei.com/#/app/C27162)、[华为移动服务 (HMS Core)](https://appgallery.huawei.com/#/app/C10132067) 和 [华为游戏中心](https://appgallery.huawei.com/#/app/C10059090)，否则会提示登录谷歌。
-- [夜神](https://app.yeshen.com/games/single/9360)
-  - 进去之后请选择“下载安卓版”，否则下载到的不是安装包，而是夜神模拟器。
+- [~~夜神~~](https://app.yeshen.com/games/single/9360)
+  - 根据网站维护人员的测试，截至 2026 年 2 月，夜神应用中心已无法打开，夜神游戏中心搜不到正确的版本，因此我们认为该渠道的链接已失效。
 - [~~逍遥安卓~~](https://www.xyaz.cn/gc/apps-586-1.html)
   - 根据用户反馈，截至 2024 年 12 月，逍遥安卓渠道已无法绑定。
 - [~~一号玩家（原益玩版）~~](https://www.1gamer.cn/game-id-11162.html)
@@ -192,7 +193,7 @@ function downloadCocApk() {
 - [果盘（仅适用于手机端）](https://game.guopan.cn/m/gamedetail/28139?channelid=40540)
   - 上述链接必须在手机端打开，否则会直接跳到网站首页。作者未发现在电脑端下载安装包的方法。
   - 该渠道强制要求下载果盘 App，没有无套路的下载地址。
-  - 在果盘 App 内搜索时，请搜索神秘代码 116454，搜“部落冲突”是搜不到的。
+  - 在果盘 App 内搜索时，直接搜“部落冲突”是搜不到的，请搜索神秘代码 116454，那一串搜索结果都一样，随便选一个即可。
 - [~~魅族~~](https://game.flyme.cn/game/detail/3239713?contentId=3239713)
   - 根据用户反馈，截至 2025 年 5 月，魅族渠道已无法绑定。
 - [4399 版本](https://a.4399.cn/game-id-251473.html)

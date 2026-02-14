@@ -136,6 +136,7 @@ const tags = {
     "queen-walk-valkyrie": "天女武神",
     "raid-weekends": "突袭周末",
     "raids": "打资源",
+    "ranked-battles": "排位战",
     "returning-gift": "回归奖励",
     "ring-base": "回形阵",
     "rush-town-hall": "速本",
