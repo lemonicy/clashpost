@@ -15,7 +15,7 @@ canonical: /upgrade/0e08-Ram-Rider
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="所有等级 (2023 版)" imgSrc="Ram_Rider1.png" />
+        <UnitImg imgTitle="所有等级" imgSrc="Ram_Rider1.png" />
         <UnitImg imgTitle="所有等级 (2022 版)" imgSrc="Ram_Rider_2022_lvl1.png" />
         <UnitImg imgTitle="宣传图 (2022 版)" imgSrc="Ram_Rider_2022_thumb.png" imgHd="Ram_Rider_2022.png" />
     </UnitImgGroup>
@@ -24,8 +24,7 @@ canonical: /upgrade/0e08-Ram-Rider
 <SmallTitle>重要说明</SmallTitle>
 
 1. 蛮羊骑士在 2022 年 12 月作为圣诞节的临时兵种首次推出，当时的兵种介绍是这样的：蛮羊骑士忙着到处传递欢乐的节日气氛。完成第一次冲锋后，她会跃过城墙朝防御建筑扔铃铛。
-2. 2023 年 12 月，它在饼干大作战活动中回归，并且更新了形象。
-4. 2024 年 12 月，它以饼干大作战中的形象回归。
+2. 2023 年 12 月，它在饼干大作战活动中回归，并改为饼干形象，这也是该兵种后续回归时沿用的形象。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -41,7 +40,7 @@ canonical: /upgrade/0e08-Ram-Rider
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
     <UnitProperty pKey="特殊技能" pValue="蛮羊冲锋！<sup>*</sup>" />
-    <UnitProperty pKey="训练时间" pValue="60" trainingSystem="2022" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
 </UnitProperties>
 
 \* 冲向她看到的第一个防御建筑，并摧毁挡道的城墙！
@@ -58,20 +57,25 @@ canonical: /upgrade/0e08-Ram-Rider
 |   4  |   440   |   150   |    150   |  1300  |        9       |
 |   5  |   520   |   175   |    175   |  1600  |       10       |
 |   6  |   600   |   200   |    200   |  1850  |       11       |
-|   7  |   680   |   225   |    225   |  2150  |       12       |
-|   8  |   760   |   250   |    250   |  2250  |       13       |
-|   9  |   840   |   275   |    275   |  2400  |       14       |
-|  10  |   920   |   300   |    300   |  2600  |       15       |
-|  11  |  1000   |   325   |    325   |  2800  |       16       |
-|  12  |  1080   |   350   |    350   |  3000  |       17       |
+|   7  |   680   |   255   |    255   |  2350  |       12       |
+|   8  |   760   |   285   |    285   |  2550  |       13       |
+|   9  |   840   |   315   |    315   |  2750  |       14       |
+|  10  |   920   |   345   |    345   |  3000  |       15       |
+|  11  |  1000   |   380   |    380   |  3250  |       16       |
+|  12  |  1080   |   415   |    415   |  3500  |       17       |
+|  13  |  1160   |   455   |    455   |  3800  |       18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/09">
+        <TimelineRow>该兵种第 4 次推出，有效期至 2026/02/26.</TimelineRow>
+        <TimelineRow>与上次推出时相比，7 级及以上蛮羊骑士的每秒伤害和生命值提升。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/12/11">
         <TimelineRow>该兵种第 3 次推出，采用饼干大作战活动的形象，有效期至 2025/01/01.</TimelineRow>
-        <TimelineRow>这次推出时，现在蛮羊骑士只需 6 本即可解锁（之前是 8 本）。</TimelineRow>
+        <TimelineRow>这次推出时，蛮羊骑士只需 6 本即可解锁（之前是 8 本）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12">
         <TimelineRow>该兵种在饼干大作战活动中以不同的形象回归。</TimelineRow>

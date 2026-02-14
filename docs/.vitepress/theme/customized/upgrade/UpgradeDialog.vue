@@ -57,8 +57,7 @@ if (link && isUpgradeDetails(link)) {
         // 是否使用旧版训练系统的说明文字，其中 v1 指的是 2022/10/10 更新前的训练系统，v2 指的是 2022/10/10 更新后、2025/03/24 更新前的训练系统。
         const v1TrainingSystemUnits = ["0e02", "0e04", "0e05", "0e81"];
         const v2TrainingSystemUnits = [
-            "0e03", "0e06", "0e07", "0e08", "0e0a", "0e0c", "0e0d", "0e0e", "0e0f",
-            "0e11", "0e15", "0e80", "0e82", "0e83"
+            "0e03", "0e06", "0e07", "0e0a", "0e0c", "0e0d", "0e11", "0e15", "0e80", "0e82", "0e83"
         ];
         hasV1TrainingDialog = v1TrainingSystemUnits.includes(unitId);
         hasV2TrainingDialog = v2TrainingSystemUnits.includes(unitId);
@@ -119,7 +118,7 @@ if (link && isUpgradeDetails(link)) {
     </Dialog>
     <Dialog dialogId="cp-preferred-target-tip" title="这里的偏好类型是什么意思？" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasPreferredTargetTip">
-        简而言之，对于以防御建筑为优先攻击目标的兵种，在场上的防御建筑尚未清理干净的时候，如果英雄、城堡部队、骷髅陷阱这些东西在打它，它不会反击，则为偏好类型 1，会反击则为偏好类型 2.<br>
+        简而言之，对于以防御建筑为优先攻击目标的兵种，当场上的防御建筑尚未清理干净时，如果英雄、城堡部队、骷髅陷阱这些东西在打它，它不会反击，则为偏好类型 1，会反击则为偏好类型 2.<br>
         相关说明见这篇文章：<a href="/p/6943">同样是以防御建筑为优先攻击目标，不同兵种竟然还有区别？</a>
     </Dialog>
 </template>
