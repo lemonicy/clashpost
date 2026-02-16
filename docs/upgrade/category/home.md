@@ -68,6 +68,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="巨型手套" imgSrc="0704/Giant_Gauntlet_thumb.png" link="0704-Giant-Gauntlet" :lazyLoading="false" />
         <ListItem name="尖刺足球" imgSrc="0705/Spiky_Ball_thumb.png" link="0705-Spiky-Ball" :lazyLoading="false" />
         <ListItem name="灵蛇手镯" imgSrc="0706/Snake_Bracelet_thumb.png" link="0706-Snake-Bracelet" :lazyLoading="false" />
+        <ListItem name="木棍马驹" imgSrc="0707/Stick_Horse_thumb.png" link="0707-Stick-Horse" :lazyLoading="false" />
     </ListItems>
     <ListItems title="装备（弓箭女皇）" imgFolder="home_heroes">
         <ListItem name="弓箭手木偶" imgSrc="0740/Archer_Puppet_thumb.png" link="0740-Archer-Puppet" />
