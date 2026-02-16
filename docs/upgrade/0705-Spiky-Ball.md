@@ -106,7 +106,7 @@ const tableExtraInfo = [
         <TimelineRow>所有等级（18 级除外）尖刺足球装备可弹跳的目标数量减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/05/07">
-        <TimelineRow>新装备：尖刺足球，有效期至 2024/05/24。</TimelineRow>
+        <TimelineRow>新装备：尖刺足球。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

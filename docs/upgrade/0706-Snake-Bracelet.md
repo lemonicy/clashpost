@@ -31,7 +31,6 @@ canonical: /upgrade/0706-Snake-Bracelet
 <UnitProperties>
     <UnitProperty pKey="技能类型" pValue="被动技能" />
     <UnitProperty pKey="装备稀有度" pValue="史诗" />
-    <UnitProperty pKey="解锁条件" pValue="见说明<sup>*</sup>" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -153,7 +152,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/02/07">
-        <TimelineRow>新装备：灵蛇手镯，有效期至 2025/02/28.</TimelineRow>
+        <TimelineRow>新装备：灵蛇手镯。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
