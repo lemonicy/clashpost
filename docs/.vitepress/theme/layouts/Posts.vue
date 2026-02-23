@@ -1,5 +1,5 @@
 <script setup>
-import { nextTick, ref, watch } from "vue";
+import { ref, watch } from "vue";
 import { useRouter } from "vitepress";
 import Head from "@/composables/Head.vue";
 import SidebarLeft from "@/composables/sidebar/SidebarLeft.vue";
@@ -11,6 +11,7 @@ import Main from "@/composables/Main.vue";
 import Footer from "@/composables/Footer.vue";
 import SidebarRight from "@/composables/sidebar/SidebarRight.vue";
 import NetworkWarning from "@/components/common/NetworkWarning.vue";
+import { isSinglePost } from "@/assets/global/common.js";
 
 const router = useRouter();
 
@@ -18,16 +19,10 @@ let postBannerKey = ref(0);
 let pageTitleKey = ref(0);
 let pageInfoPostKey = ref(0);
 
-const isSinglePost = link => {
-    return link && link.match("/p/\d*");
-};
-
 watch(() => router.route.data.relativePath, (path) => {
-    nextTick(() => {
-        postBannerKey.value++;
-        pageTitleKey.value++;
-        pageInfoPostKey.value++;
-    });
+    postBannerKey.value++;
+    pageTitleKey.value++;
+    pageInfoPostKey.value++;
 }, { immediate: false });
 </script>
 
@@ -36,7 +31,7 @@ watch(() => router.route.data.relativePath, (path) => {
     <SidebarLeft />
     <main>
         <TopNav />
-        <PostBanner :Key="'postBanner-' + postBannerKey" :link="$frontmatter.canonical" v-if="isSinglePost($frontmatter.canonical)" />
+        <PostBanner :key="'postBanner-' + postBannerKey" :link="$frontmatter.canonical" v-if="isSinglePost($frontmatter.canonical)" />
         <PageTitle :key="'pageTitle-' + pageTitleKey" v-if="!$frontmatter.customTitle" />
         <PageInfoPost :key="'pageInfoPost-' + pageInfoPostKey" :link="$frontmatter.canonical" v-if="isSinglePost($frontmatter.canonical)" />
         <Main />

@@ -48,13 +48,13 @@ if (link && isUpgradeDetails(link)) {
     <Callout type="success" class="cp-callout-available-tip" v-if="tempTroopAvailable">
         该临时兵种现在可用。在活动期间，你可以训练和使用该兵种。
     </Callout>
-    <Callout type="success" class="cp-callout-available-tip" v-if="tempSpellAvailable">
+    <Callout type="success" class="cp-callout-available-tip" v-else-if="tempSpellAvailable">
         该临时法术现在可用。在活动期间，你可以配置和部署该法术。
     </Callout>
-    <Callout type="success" class="cp-callout-available-tip" v-if="tempTrapAvailable">
+    <Callout type="success" class="cp-callout-available-tip" v-else-if="tempTrapAvailable">
         该临时陷阱现在可用。在活动期间，你可以购买和部署该陷阱。
     </Callout>
-    <Callout type="success" class="cp-callout-available-tip" v-if="craftedBuildingAvailable">
+    <Callout type="success" class="cp-callout-available-tip" v-else-if="craftedBuildingAvailable">
         该精工防御现在可用。在新一批精工防御推出之前，你可以升级该防御。
     </Callout>
 </template>

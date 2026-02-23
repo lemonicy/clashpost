@@ -1,5 +1,5 @@
 <script setup>
-import { nextTick, ref, watch } from "vue";
+import { ref, watch } from "vue";
 import { useRouter } from "vitepress";
 import Head from "@/composables/Head.vue";
 import SidebarLeft from "@/composables/sidebar/SidebarLeft.vue";
@@ -19,11 +19,9 @@ let pageTitleKey = ref(0);
 let upgradeDialogKey = ref(0);
 
 watch(() => router.route.data.relativePath, (path) => {
-    nextTick(() => {
-        upgradeBannerKey.value++;
-        pageTitleKey.value++;
-        upgradeDialogKey.value++;
-    });
+    upgradeBannerKey.value++;
+    pageTitleKey.value++;
+    upgradeDialogKey.value++;
 }, { immediate: false });
 </script>
 
