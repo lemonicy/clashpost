@@ -11,7 +11,7 @@ canonical: /upgrade/0314-Multi-Archer-Tower
 
 - *如想查看合并前的建筑，请访问 [箭塔](/upgrade/0302-Archer-Tower)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Archer_Tower3.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Archer_Tower4.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
