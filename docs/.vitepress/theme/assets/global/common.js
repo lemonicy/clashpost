@@ -289,3 +289,13 @@ export function isUpgradeDetails(link) {
     }
     return false;
 }
+
+/**
+ * 判断是否为单个文章的页面
+ * 
+ * @param {String} link 页面的规范链接
+ * @returns 
+ */
+export function isSinglePost(link) {
+    return link && link.match("/p/\d*");
+};
