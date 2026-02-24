@@ -29,4 +29,4 @@ export const availableCraftedBuildings = ["0903", "0904", "0905"];
  */
 export const invalidatedPosts = [20, 66, 268, 295, 559, 596, 689, 756, 801, 1642, 2754, 2922, 3048, 4801, 5434];
 export const oldBuilderBasePosts = [349, 848, 1200, 1250, 2763];
-export const maintenancePosts = [6463, 6540, 7029];
+export const maintenancePosts = [1010, 6463, 6540, 7029];
