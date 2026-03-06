@@ -54,15 +54,15 @@ canonical: /upgrade/1201-Gold-Mine
 const tableExtraInfo = [
     {
         "column": 1,
-        "type": "cost",
-        "gpClass": "building",
-        "icon": "Gold2"
+        "type": "number",
+        "icon": "Gold2",
+        "noGoldPass": true
     },
     {
         "column": 2,
-        "type": "cost",
-        "gpClass": "building",
-        "icon": "Gold2"
+        "type": "number",
+        "icon": "Gold2",
+        "noGoldPass": true
     }, 
     {
         "column": 5,
