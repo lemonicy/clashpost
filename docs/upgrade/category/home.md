@@ -46,6 +46,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="亡灵王子" imgSrc="0204/Minion_Prince_thumb.png" link="0204-Minion-Prince" :lazyLoading="false" />
         <ListItem name="大守护者" imgSrc="0202/Grand_Warden_thumb.png" link="0202-Grand-Warden" :lazyLoading="false" />
         <ListItem name="飞盾战神" imgSrc="0203/Royal_Champion_thumb.png" link="0203-Royal-Champion" :lazyLoading="false" />
+        <ListItem name="飞龙公爵" imgSrc="0205/Dragon_Duke_thumb.png" link="0205-Dragon-Duke" :lazyLoading="false" /> 
     </ListItems>
     <ListItems title="战宠" imgFolder="home_heroes">
         <ListItem name="莱希" imgSrc="0280/L.A.S.S.I_thumb.png" link="0280-L.A.S.S.I" :lazyLoading="false" />
@@ -59,6 +60,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="灵狐" imgSrc="0288/Spirit_Fox_thumb.png" link="0288-Spirit-Fox" :lazyLoading="false" />
         <ListItem name="愤怒水母" imgSrc="0289/Angry_Jelly_thumb.png" link="0289-Angry-Jelly" :lazyLoading="false" />
         <ListItem name="阿啾" imgSrc="028a/Sneezy_thumb.png" link="028a-Sneezy" :lazyLoading="false" />
+        <ListItem name="贪婪渡鸦" imgSrc="028b/Sneezy_thumb.png" link="028b-Greedy-Raven" :lazyLoading="false" />
     </ListItems>
     <ListItems title="装备（野蛮人之王）" imgFolder="home_heroes">
         <ListItem name="野蛮人木偶" imgSrc="0700/Barbarian_Puppet_thumb.png" link="0700-Barbarian-Puppet" :lazyLoading="false" />
