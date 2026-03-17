@@ -54,16 +54,16 @@ canonical: /upgrade/1202-Elixir-Collector
 const tableExtraInfo = [
     {
         "column": 1,
-        "type": "cost",
-        "gpClass": "building",
-        "icon": "Elixir2"
+        "type": "number",
+        "icon": "Elixir2",
+        "noGoldPass": true
     },
     {
         "column": 2,
-        "type": "cost",
-        "gpClass": "building",
-        "icon": "Elixir2"
-    }, 
+        "type": "number",
+        "icon": "Elixir2",
+        "noGoldPass": true
+    },
     {
         "column": 5,
         "type": "cost",
