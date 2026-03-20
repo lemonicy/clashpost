@@ -13,10 +13,10 @@ import { generateToast } from "@/components/dialog/Toast.vue";
 import Download from "@/components/icon/link/Download.vue";
 
 const disableDownloading = false;
-const apkVersion = "18.200.9";
-const apkUploadDate = "2026-03-06";
-const apkFileSize = "764.9 MB";
-const apkFileName = "Clash_of_Clans_v18.200.9_Zi1hyxl7h4lb95nm.apk";
+const apkVersion = "18.200.19";
+const apkUploadDate = "2026-03-20";
+const apkFileSize = "764.6 MB";
+const apkFileName = "Clash_of_Clans_v18.200.19_hPojV62cTvzCUIVb.apk";
 const systemRequirement = "Android 7.0+";
 
 function downloadCocApk() {
@@ -108,7 +108,6 @@ function downloadCocApk() {
 ### 下载前必读
 
 - 下方的下载地址中不包含 iOS 版本的私服，苹果用户请使用官网链接。
-- 在下方的下载地址中，如果某文件带有“模拟器”字样，说明这个安装包需要在模拟器上安装，带有“手机”字样说明这个安装包需要在实体机上安装。
 - 原版的意思是兵种、建筑这些和原版游戏一样，原版游戏能造几个，这个版本也只能造几个，就是有无限宝石和无限资源罢了。魔改版就是把什么皇室战争、海岛奇兵的兵种也给加进来了，一种兵能造 999 个的那种。
 - 私服问题请进入官网查找联系方式。
 
