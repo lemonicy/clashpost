@@ -51,7 +51,7 @@ canonical: /upgrade/0300-Walls
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="1×1" />
-    <UnitProperty pKey="19 级城墙最高可升级" pValue="125 块" />
+    <UnitProperty pKey="19 级城墙最高可升级" pValue="200 块" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -110,6 +110,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>18 本新解锁 75 块 19 级城墙（共 200 块）。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>18 本推出，并在 18 本新增 19 级城墙，目前游戏只开放了 125 块 19 级城墙。</TimelineRow>
         <TimelineRow>18 级城墙的升级费用降低。</TimelineRow>

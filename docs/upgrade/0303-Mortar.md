@@ -65,6 +65,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <UnitImg imgTitle="15 级" imgSrc="Mortar15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Mortar16.png" />
         <UnitImg imgTitle="17 级" imgSrc="Mortar17.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Mortar18.png" />
     </UnitImgGroup>
     <UnitImgGroup title="已改装，处于标准模式" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="8 级" imgSrc="Mortar8A.png" />
@@ -77,6 +78,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <UnitImg imgTitle="15 级" imgSrc="Mortar15A.png" />
         <UnitImg imgTitle="16 级" imgSrc="Mortar16A.png" />
         <UnitImg imgTitle="17 级" imgSrc="Mortar17A.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Mortar18A.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -110,25 +112,25 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---  |   ---   |    ---    |        ---          |       ---      |
-|   1  |     4   |    20   |   400  |     5k  |   0, 0,30 |                     |        3       |
-|   2  |     5   |    25   |   450  |    25k  |   0, 1    |                     |        4       |
-|   3  |     6   |    30   |   500  |    90k  |   0, 2    |                     |        5       |
-|   4  |     7   |    35   |   550  |   180k  |   0, 3    |                     |        6       |
-|   5  |     9   |    45   |   600  |   300k  |   0, 6    |                     |        7       |
-|   6  |    11   |    55   |   650  |   500k  |   0, 8    |                     |        8       |
-|   7  |    15   |    75   |   700  |   900k  |   0,12    |                     |        9       |
-|   8  |    20   |   100   |   800  |   1.2M  |   0,18    |                     |       10       |
-|   9  |    25   |   125   |   950  |   1.6M  |   0,20    |                     |       11       |
-|  10  |    30   |   150   |  1100  |   1.8M  |   1       |                     |       11       |
-|  11  |    35   |   175   |  1300  |   2.3M  |   1, 6    |                     |       12       |
-|  12  |    38   |   190   |  1500  |   2.4M  |   1,12    |                     |       12       |
-|  13  |    42   |   210   |  1700  |   2.8M  |   2       |                     |       13       |
-|  14  |    48   |   240   |  1950  |   4.3M  |   2,12    |                     |       14       |
-|  15  |    54   |   270   |  2150  |     5M  |   3       |                     |       15       |
-|  16  |    60   |   300   |  2300  |     7M  |   4       |                     |       16       |
-|  17  |    66   |   330   |  2450  |    13M  |   8       |                     |       17       |
-| ⚡1  |    69   |   345   |  2450  |   4.5M  |   2       |                     |       17       |
-| ⚡2  |    69   |   345   |  2525  |     3M  |   3,12    |                     |       17       |
+|   1  |     4   |    20   |   400  |     5k  |   0, 0,30 |        42           |        3       |
+|   2  |     5   |    25   |   450  |    25k  |   0, 1    |        60           |        4       |
+|   3  |     6   |    30   |   500  |    90k  |   0, 2    |        84           |        5       |
+|   4  |     7   |    35   |   550  |   180k  |   0, 3    |        103          |        6       |
+|   5  |     9   |    45   |   600  |   300k  |   0, 6    |        146          |        7       |
+|   6  |    11   |    55   |   650  |   500k  |   0, 8    |        169          |        8       |
+|   7  |    15   |    75   |   700  |   900k  |   0,12    |        207          |        9       |
+|   8  |    20   |   100   |   800  |   1.2M  |   0,18    |        254          |       10       |
+|   9  |    25   |   125   |   950  |   1.6M  |   0,20    |        268          |       11       |
+|  10  |    30   |   150   |  1100  |   1.8M  |   1       |        293          |       11       |
+|  11  |    35   |   175   |  1300  |   2.3M  |   1, 6    |        328          |       12       |
+|  12  |    38   |   190   |  1500  |   2.4M  |   1,12    |        360          |       12       |
+|  13  |    42   |   210   |  1700  |   2.8M  |   2       |        415          |       13       |
+|  14  |    48   |   240   |  1950  |   4.3M  |   2,12    |        464          |       14       |
+|  15  |    54   |   270   |  2150  |     5M  |   3       |        509          |       15       |
+|  16  |    60   |   300   |  2300  |     7M  |   4       |        587          |       16       |
+|  17  |    66   |   330   |  2450  |    13M  |   8       |        831          |       17       |
+|  18  |    72   |   360   |  2550  |    21M  |   12,12   |        1039         |       18       |
+
 </UnitTable>
 </SwitchTabGroup>
 
@@ -151,6 +153,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <UnitImg imgTitle="15 级" imgSrc="Mortar15B.png" />
         <UnitImg imgTitle="16 级" imgSrc="Mortar16B.png" />
         <UnitImg imgTitle="17 级" imgSrc="Mortar17B.png" />
+        <UnitImg imgTitle="18 级" imgSrc="Mortar18B.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -186,18 +189,17 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---  |   ---   |    ---    |        ---          |       ---      |
-|   8  |    22   |   37    |   800  |  1.2M   |   0,18    |                     |       10       |
-|   9  |    28   |   47    |   950  |  1.6M   |   0,20    |                     |       11       |
-|  10  |    33   |   56    |  1100  |  1.8M   |   1       |                     |       11       |
-|  11  |    38   |   64    |  1300  |  2.3M   |   1, 6    |                     |       12       |
-|  12  |    41   |   70    |  1500  |  2.4M   |   1,12    |                     |       12       |
-|  13  |    46   |   77    |  1700  |  2.8M   |   2       |                     |       13       |
-|  14  |    52   |   88    |  1950  |  4.3M   |   2,12    |                     |       14       |
-|  15  |    59   |   99    |  2150  |    5M   |   3       |                     |       15       |
-|  16  |    65   |  110    |  2300  |    7M   |   4       |                     |       16       |
-|  17  |    72   |  121    |  2450  |   13M   |   8       |                     |       17       |
-| ⚡1  |    75   |   126   |  2450  |  4.5M   |   2       |                     |       17       |
-| ⚡2  |    75   |   126   |  2525  |    3M   |   3,12    |                     |       17       |
+|   8  |    24   |   37    |   800  |  1.2M   |   0,18    |                     |       10       |
+|   9  |    30   |   47    |   950  |  1.6M   |   0,20    |                     |       11       |
+|  10  |    37   |   56    |  1100  |  1.8M   |   1       |                     |       11       |
+|  11  |    42   |   64    |  1300  |  2.3M   |   1, 6    |                     |       12       |
+|  12  |    46   |   70    |  1500  |  2.4M   |   1,12    |                     |       12       |
+|  13  |    51   |   77    |  1700  |  2.8M   |   2       |                     |       13       |
+|  14  |    58   |   88    |  1950  |  4.3M   |   2,12    |                     |       14       |
+|  15  |    66   |   99    |  2150  |    5M   |   3       |                     |       15       |
+|  16  |    73   |  110    |  2300  |    7M   |   4       |                     |       16       |
+|  17  |    81   |  121    |  2450  |   13M   |   8       |                     |       17       |
+|  18  |    85   |  128    |  2550  |   21M   |   12,12   |                     |       18       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -207,6 +209,11 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>添加了 18 级迫击炮。</TimelineRow>
+        <TimelineRow>移除了 17 级迫击炮的超级充能。</TimelineRow>
+        <TimelineRow>修改了多管迫击炮的显示DPS、DPH。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>17 级及两个充能等级的迫击炮的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>

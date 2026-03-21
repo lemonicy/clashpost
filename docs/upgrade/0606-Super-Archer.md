@@ -57,11 +57,15 @@ canonical: /upgrade/0606-Super-Archer
 |  11  |    156   |   234   |  605  |     15    |
 |  12  |    162   |   243   |  645  |     16    |
 |  13  |    166   |   249   |  685  |     17    |
+|  14  |    170   |   255   |  725  |     18    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>18 本新增 14 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>10 ~ 13 级超级弓箭手的生命值提升。</TimelineRow>
     </TimelineItem>

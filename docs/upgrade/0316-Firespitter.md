@@ -19,6 +19,7 @@ canonical: /upgrade/0316-Firespitter
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Firespitter1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Firespitter2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Firespitter3.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -79,15 +80,20 @@ const tableExtraInfo = [
 
 | 等级 |平均<br>每秒伤害| 每次伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |      ---      |   ---   |  ---  |   ---   |   ---    |         ---        |      ---      |
-|   1  |      399      |    46   |  4500 |    17M  |   11     |                    |       17      |
-|   2  |      425      |    49   |  5000 |    18M  |   11,12  |                    |       17      |
-| ⚡1  |      442     |    51   |  5000  |    8M   |   3,12  |                     |       17      |
-| ⚡2  |      442     |    51   |  5250  |    6M   |   4     |                     |       17      |
+|   1  |      410      |    46   |  4500 |    17M  |   11     |         974        |       17      |
+|   2  |      437      |    49   |  5000 |    18M  |   11,12  |         996        |       17      |
+|3	   |455	           |    51	 | 5300	 |    29M  |15        |	       1138	       |18             |
+
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本添加了 3 级火焰喷射器</TimelineRow>
+        <TimelineRow>移除了 2 级火焰喷射器的超级充能</TimelineRow>
+        <TimelineRow>更改了 1 ~ 2 级火焰喷射器的显示DPS</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>1 ~ 2 级及两个充能等级的火焰喷射器的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>

@@ -59,11 +59,15 @@ canonical: /upgrade/0604-Inferno-Dragon
 |   9  |     85    |      170      |     1700    |  2300 |     15    |
 |  10  |     86    |      174      |     1740    |  2400 |     16    |
 |  11  |     88    |      178      |     1780    |  2500 |     17    |
+|  12  |     90    |      182      |     1820    |  2700 |     18    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>在 18 本新增 12 级飞龙宝宝，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
