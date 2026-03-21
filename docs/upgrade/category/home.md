@@ -107,6 +107,11 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="雷电战靴" imgSrc="07c5/Electro_Boots_thumb.png" link="07c5-Electro-Boots" />
         <ListItem name="冷冽冰晶" imgSrc="07c6/Frost_Flake_thumb.png" link="07c6-Frost-Flake" />
     </ListItems>
+    <ListItems title="装备（飞龙公爵）" imgFolder="home_heroes">
+        <ListItem name="烈焰之心" imgSrc="07e0/Fire_Heart_thumb.png" link="07e0-Fire-Heart" />
+        <ListItem name="助燃器" imgSrc="07e1/Flame_Blower_thumb.png" link="07e1-Flame-Blower" />
+        <ListItem name="爆震器" imgSrc="07e2/Stun_Blaster_thumb.png" link="07e2-Stun-Blaster" />
+    </ListItems>
 </SwitchTabGroup>
 
 <SwitchTabGroup id="cp-upgrade-techniques" class="cp-upgrade-item">
