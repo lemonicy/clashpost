@@ -26,6 +26,7 @@ canonical: /upgrade/0487-Pet-House
         <UnitImg imgTitle="9 级" imgSrc="Pet_House9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Pet_House10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Pet_House11.png" imgHd="Pet_House11_hd.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Pet_House11.png" imgHd="Pet_House11_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -91,11 +92,15 @@ const tableExtraInfo = [
 |   9  |  1250  |    11M   |   6      |                    |       16      |<a href="/upgrade/0288-Spirit-Fox">灵狐</a>|
 |  10  |  1300  |    12M   |   7      |                    |       16      |<a href="/upgrade/0289-Angry-Jelly">愤怒水母</a>|
 |  11  |  1350  |  16.5M   |   9      |                    |       17      |<a href="/upgrade/028a-Sneezy">阿啾</a>|
+|  12  |  1400  |  25.5M   |   13,12  |                    |       18      |<a href="/upgrade/028b-Greedy-Raven">贪婪渡鸦</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>18 本新增 12 级战宠小屋，可解锁新战宠：贪婪渡鸦。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>11 级战宠小屋的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>

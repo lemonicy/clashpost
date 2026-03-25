@@ -74,11 +74,15 @@ canonical: /upgrade/0605-Super-Witch
 |   5  |    360    |    252    |  3200 |     12    |
 |   6  |    390    |    273    |  3400 |     15    |
 |   7  |    430    |    301    |  3750 |     16    |
+|   8  |    470    |    329    |  4100 |     18    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本新增 8 级女巫，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>  
     <TimelineItem date="2026/01/12">
         <TimelineRow>7 级超级女巫的每秒伤害和生命值增加。</TimelineRow>
         <TimelineRow>大宝宝占用的人口数由 10 调整为 20.</TimelineRow>

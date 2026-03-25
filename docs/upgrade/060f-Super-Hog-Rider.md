@@ -64,6 +64,7 @@ canonical: /upgrade/060f-Super-Hog-Rider
 |  12  |    230    |    230    |  1750 |     15    |
 |  13  |    250    |    250    |  1900 |     16    |
 |  14  |    270    |    270    |  2100 |     17    |
+|  15  |    300    |    300    |  2350 |     18    |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -103,6 +104,7 @@ canonical: /upgrade/060f-Super-Hog-Rider
 |  12  |     60    |     60    |  1000 |     15    |
 |  13  |     65    |     65    |  1050 |     16    |
 |  14  |     70    |     70    |  1100 |     17    |
+|  15  |     80    |     80    |  1200 |     18    |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -146,6 +148,7 @@ canonical: /upgrade/060f-Super-Hog-Rider
 |  12  |   230   |   230   |     460     |  700  |     15    |
 |  13  |   250   |   250   |     500     |  750  |     16    |
 |  14  |   270   |   270   |     540     |  800  |     17    |
+|  15  |   300   |   300   |     600     |  900  |     18    |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -153,6 +156,9 @@ canonical: /upgrade/060f-Super-Hog-Rider
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>18 本新增 15 级野猪骑士，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/30">
         <TimelineRow>12 ~ 14 级超级野猪骑士的生命值增加。</TimelineRow>
     </TimelineItem>

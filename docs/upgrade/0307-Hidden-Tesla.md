@@ -34,6 +34,7 @@ canonical: /upgrade/0307-Hidden-Tesla
         <UnitImg imgTitle="14 级" imgSrc="Hidden_Tesla14.png" />
         <UnitImg imgTitle="15 级" imgSrc="Hidden_Tesla15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Hidden_Tesla16.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Hidden_Tesla17.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -99,13 +100,17 @@ const tableExtraInfo = [
 |  14  |   160   |   96    |  1450  |  6.5M   |   4       |                     |       15       |
 |  15  |   170   |  102    |  1550  |  8.2M   |   5       |                     |       16       |
 |  16  |   180   |  108    |  1650  |   15M   |   9       |                     |       17       |
-| ⚡1  |   185   |  111    |  1650  |    6M   |   2, 6    |                     |       17       |
-| ⚡2  |   185   |  111    |  1700  |    4M   |   3,18    |                     |       17       |
+|  17  |   190   |  114    |  1750  |   25M   |   13      |                     |       18       |
+
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本添加了 17 级特斯拉电磁塔。</TimelineRow>
+        <TimelineRow>移除了 16 级特斯拉电磁他的超级充能</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>16 级及两个充能等级的特斯拉电磁塔的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>

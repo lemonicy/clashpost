@@ -39,13 +39,13 @@ canonical: /upgrade/0181-Earthquake-Spell
 <script setup>
 const tableExtraInfo = [
     {
-        "column": 3,
+        "column": 4,
         "type": "cost",
         "gpClass": "research",
         "icon": "Dark_Elixir"
     },
     {
-        "column": 4,
+        "column": 5,
         "type": "time",
         "gpClass": "research"
     }
@@ -54,20 +54,27 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 |       总伤害     | 作用半径 | 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
-| ---- |       ----      |   ---   |   ----  |   ----   |       ----      |      ----     |
-|   1  |14.5%<sup>*</sup>|  3.5 格 |     \   |    \     |         1       |        8      |
-|   2  |        17%      |  3.8 格 |     6K  |   0,12   |         6       |        8      |
-|   3  |        21%      |  4.1 格 |    12K  |   1      |         7       |        9      |
-|   4  |        25%      |  4.4 格 |  25.5K  |   3      |         8       |       10      |
-|   5  |        29%      |  4.7 格 |    42K  |   3,12   |         9       |       11      |
+| 等级 |       对建筑伤害 | 对部队伤害|作用半径 | 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
+| ---- |       ----      | ---      |  ---   |   ----  |   ----   |       ----      |      ----     |
+|   1  |14.5%<sup>*</sup>|\         | 3.5 格 |     \   |    \     |         1       |        8      |
+|   2  |        17%      |\         | 3.8 格 |     6K  |   0,12   |         6       |        8      |
+|   3  |        21%      |\         | 4.1 格 |    12K  |   1      |         7       |        9      |
+|   4  |        25%      |\         | 4.4 格 |  25.5K  |   3      |         8       |       10      |
+|   5  |        29%      |\         | 4.7 格 |    42K  |   3,12   |         9       |       11      |
+|   6  |        21%      | 5%       | 4.7 格 |    120K  |   8      |         12     |        14      |
+|   7  |        25%      | 10%      | 4.7 格 |  200K  |   9      |         14       |       16      |
+|   8  |        29%      |14.5%<sup>**</sup>| 4.7 格 |    330K  |   13,12   |16     |       18      |
 </UnitTable>
 
-\* 1 级地震的实际伤害是 14.5%，但游戏内显示的是 14%。
+\* 1 级地震的实际伤害是 14.5%，但游戏内显示的是 14%
 
+\** 8 级地震的对部队伤害是 14.5%，但游戏内显示的是 14%。
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>新增 6 ~ 8 级地震法术</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>

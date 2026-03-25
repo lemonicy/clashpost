@@ -23,6 +23,7 @@ canonical: /upgrade/0084-Witch
         <UnitImg imgTitle="5 级" imgSrc="Witch5.png" />
         <UnitImg imgTitle="6 级" imgSrc="Witch6.png" />
         <UnitImg imgTitle="7 级" imgSrc="Witch7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Witch8.png" />
         <UnitImg imgTitle="骷髅" imgSrc="Skeleton.png" />
     </UnitImgGroup>
 </Panel>
@@ -61,9 +62,6 @@ canonical: /upgrade/0084-Witch
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="0.4 格" />
-    <UnitProperty pKey="每秒伤害" pValue="25" />
-    <UnitProperty pKey="每次伤害" pValue="25" />
-    <UnitProperty pKey="生命值" pValue="30" />
 </UnitProperties>
 
 <SmallTitle>女巫的升级数据</SmallTitle>
@@ -71,13 +69,13 @@ canonical: /upgrade/0084-Witch
 <script setup>
 const tableExtraInfo = [
     {
-        "column": 6,
+        "column": 7,
         "type": "cost",
         "gpClass": "research",
         "icon": "Dark_Elixir"
     },
     {
-        "column": 7,
+        "column": 8,
         "type": "time",
         "gpClass": "research"
     }
@@ -86,22 +84,37 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 |每秒伤害| 每次伤害 |每次召唤<br>数量<sup>*</sup>|最大召唤<br>数量| 生命值 |升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
-| --- |   ---  |   ----  |            ---            |       ---     |  ---- |  ----  |    ---    |       ----      |      ----     |
-|  1  |   100  |   70    |             4             |        6      |  300  |    \   |     \     |        1        |       9       |
-|  2  |   110  |   77    |             4             |        8      |  320  |    20K |    2      |        7        |       9       |
-|  3  |   140  |   98    |             4             |       10      |  400  |    29K |    3      |        8        |      10       |
-|  4  |   165  |  115.5  |             4             |       12      |  470  |    45K |    3,12   |        9        |      11       |
-|  5  |   185  |  129.5  |             4             |       14      |  520  |  62.5K |    4      |       10        |      12       |
-|  6  |   200  |  140    |             4             |       15      |  540  |   150K |    5,12   |       13        |      15       |
-|  7  |   220  |  154    |             5             |       16      |  560  |   180K |    7, 6   |       14        |      16       |
+| 等级 |每秒伤害| 每次伤害 |每次召唤<br>数量<sup>*</sup>|   召唤骷髅等级 |最大召唤<br>数量| 生命值 |升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
+| --- |   ---  |   ----  |            ---            |        ---    |      ---     |  ---- |  ----  |    ---    |       ----      |      ----     |
+|  1  |   100  |   70    |             4             | 1             |       6      |  300  |    \   |     \     |        1        |       9       |
+|  2  |   110  |   77    |             4             | 1             |       8      |  320  |    20K |    2      |        7        |       9       |
+|  3  |   140  |   98    |             4             | 1             |      10      |  400  |    29K |    3      |        8        |      10       |
+|  4  |   165  |  115.5  |             4             | 1             |      12      |  470  |    45K |    3,12   |        9        |      11       |
+|  5  |   185  |  129.5  |             4             | 1             |      14      |  520  |  62.5K |    4      |       10        |      12       |
+|  6  |   200  |  140    |             4             | 1             |      15      |  540  |   150K |    5,12   |       13        |      15       |
+|  7  |   220  |  154    |             5             | 1             |      16      |  560  |   180K |    7, 6   |       14        |      16       |
+|  8  |   260  |  182    |             5             | 2             |      16      |  650  |   355K |    15, 12 |       16        |      18       |
 </UnitTable>
 
 \* 女巫并不是每次召唤都可以召唤出这么多骷髅，当一只女巫召唤的骷髅达到上表的限制时，除非骷髅兵死亡，否则女巫不会继续召唤。这个上限指的是每只女巫召唤的骷髅，如果有两只女巫，那么场上的最大骷髅数量为 2 倍上限。
 
+<SmallTitle>骷髅的升级数据</SmallTitle>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |每秒伤害| 每次伤害 | 生命值 |
+| --- |   ---  |   ----  | ---    |
+|  1  |   25  |   25    | 30 |
+|  2  |   30  |   30    |45 |
+</UnitTable>
+
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本添加了 8 级女巫。</TimelineRow>
+        <TimelineRow>添加了 2 级骷髅。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>4 ~ 7 级女巫的升级时间减少。</TimelineRow>
     </TimelineItem>

@@ -20,11 +20,13 @@ canonical: /upgrade/0387-Giga-Bomb
         <UnitImg imgTitle="1 级" imgSrc="Giga_Bomb1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Giga_Bomb2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Giga_Bomb3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Giga_Bomb4.png" />
     </UnitImgGroup>
     <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Giga_Bomb1_unarmed.png" />
         <UnitImg imgTitle="2 级" imgSrc="Giga_Bomb2_unarmed.png" />
         <UnitImg imgTitle="3 级" imgSrc="Giga_Bomb3_unarmed.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Giga_Bomb4_unarmed.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -83,15 +85,18 @@ const tableExtraInfo = [
 
 | 等级 | 爆炸伤害 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |    ---  |   ---   |   ---    |         ---        |      ---      |
-|   1  |   1100  |     5M  |     \    |                    |       17      |
-|   2  |   1200  |   8.5M  |     5    |                    |       17      |
-|   3  |   1300  |  12.5M  |     6    |                    |       17      |
-
+|   1  |   1100  |     5M  |     \    |          \          |       17      |
+|   2  |   1200  |   8.5M  |     5    |          657          |       17      |
+|   3  |   1300  |  12.5M  |     6    |          720          |       17      |
+|   4  |   1400  |  20M    |     13    |         1059       |       18      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>18 本推出4级终极炸弹</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>2 ~ 3 级终极炸弹的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>

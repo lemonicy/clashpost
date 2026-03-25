@@ -82,6 +82,7 @@ canonical: /upgrade/060a-Ice-Hound
 |      5      |    10   |    20   |      3.75 秒    |                 10 / 10                 |  9500 |       12      |
 |      6      |    15   |    30   |      4.25 秒    |                 12 / 11                 | 10000 |       13      |
 |      7      |    20   |    40   |      4.75 秒    |                 14 / 12                 | 10500 |       16      |
+|      8      |    25   |    50   |      5.25 秒    |                 16 / 13                 | 11500 |       18      |
 </UnitTable>
 
 \* 1 - 4 级寒冰猎犬只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
@@ -89,6 +90,9 @@ canonical: /upgrade/060a-Ice-Hound
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本新增 8 级熔岩猎犬，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>1 级寒冰猎犬的死亡冰冻时间由 3.5 秒提升到 3.75 秒。</TimelineRow>
         <TimelineRow>在 16 本新增 7 级熔岩猎犬，超级部队的等级也相应更新。</TimelineRow>
