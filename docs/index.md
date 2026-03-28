@@ -88,19 +88,23 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>你知道吗</SmallTitle>
 
-- [隐形弹簧](/upgrade/0381-Spring-Trap) 重做后，不仅能弹飞小单位部队，还能对大单位部队造成高额伤害。
-- 现在 12 - 15 级 [大本营](/upgrade/0400-Town-Hall) 的武器只有一个等级，无需升级。
-- 由于 [复合机械塔](/upgrade/0317-Multi-Gear-Tower) 是由改装后的 [加农炮](/upgrade/0301-Cannon) 和 [箭塔](/upgrade/0302-Archer-Tower) 合并而来的，而想要升级 18 本必须有这个建筑，也就是说不玩夜世界不能升 18 本。
+- 2026/02 更新是地震的狂欢：
+    - 现在 [地震法术](/upgrade/0181-Earthquake-Spell) 和 [地震金靴](/upgrade/0702-Earthquake-Boots) 可以对地面部队造成伤害了。
+    - [法术塔](/upgrade/0311-Spell-Tower) 中新增了地震法术。
+- [飞龙公爵](/upgrade/0205-Dragon-Duke) 落单后狂暴的机制类似于 [飞龙宝宝](/upgrade/000a-Baby-Dragon)。
+- 如果 [愤怒水母](/upgrade/0289-Angry-Jelly) 和 [阿啾](/upgrade/028a-Sneezy) 跟随的英雄未被击倒，则不占用回溯法术的空间。
 
 </div>
 
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
-- 新兵种：[陨石戈仑](/upgrade/0012-Meteor-Golem)
-- 新法术：[图腾法术](/upgrade/0109-Totem-Spell)
-- 新建筑：[超级法师塔](/upgrade/0318-Super-Wizard-Tower)、[复仇之塔](/upgrade/0319-Revenge-Tower)、[英雄警钟](/upgrade/0903-Hero-Bell)、[炸弹蜂巢](/upgrade/0904-Bomb-Hive)、[圣光灯塔](/upgrade/0905-Light-Beam)
-- 新守卫：[远袭者](/upgrade/0840-Longshot)、[粉碎者](/upgrade/0841-Smasher)
+- 新英雄：[飞龙公爵](/upgrade/0205-Dragon-Duke)
+- 新战宠：[贪婪渡鸦](/upgrade/028b-Greedy-Raven)
+- 新装备：[木棍马驹](/upgrade/0707-Stick-Horse)、[烈焰之心](/upgrade/07e0-Fire-Heart)、[助燃器](/upgrade/07e1-Flame-Blower)、[爆震器](/upgrade/07e2-Stun-Blaster)
+- 新文章：
+    - [老版本 coc 的杯段是怎么分的？有相关数据留存吗？](/p/7029)
+    - [部落冲突 2025 年更新](/p/7005)
 
 </div>
 </div>

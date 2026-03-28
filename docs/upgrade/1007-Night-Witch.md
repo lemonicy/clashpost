@@ -113,10 +113,10 @@ const tableExtraInfo = [
         <TimelineRow>所有等级暗夜女巫开启技能后召唤出的蝙蝠数量增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/20">
-        <TimelineRow>暗夜女巫的生命值增加 6%。</TimelineRow>
+        <TimelineRow>暗夜女巫的生命值增加 6%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/09">
-        <TimelineRow>暗夜女巫的生命值增加 11%。</TimelineRow>
+        <TimelineRow>暗夜女巫的生命值增加 11%.</TimelineRow>
         <TimelineRow>暗夜女巫召唤蝙蝠的冷却时间减少 0.8 秒。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/05/15">

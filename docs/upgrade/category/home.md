@@ -60,7 +60,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="灵狐" imgSrc="0288/Spirit_Fox_thumb.png" link="0288-Spirit-Fox" :lazyLoading="false" />
         <ListItem name="愤怒水母" imgSrc="0289/Angry_Jelly_thumb.png" link="0289-Angry-Jelly" :lazyLoading="false" />
         <ListItem name="阿啾" imgSrc="028a/Sneezy_thumb.png" link="028a-Sneezy" :lazyLoading="false" />
-        <ListItem name="贪婪渡鸦" imgSrc="028b/Sneezy_thumb.png" link="028b-Greedy-Raven" :lazyLoading="false" />
+        <ListItem name="贪婪渡鸦" imgSrc="028b/Greedy_Raven_thumb.png" link="028b-Greedy-Raven" :lazyLoading="false" />
     </ListItems>
     <ListItems title="装备（野蛮人之王）" imgFolder="home_heroes">
         <ListItem name="野蛮人木偶" imgSrc="0700/Barbarian_Puppet_thumb.png" link="0700-Barbarian-Puppet" :lazyLoading="false" />
@@ -223,22 +223,22 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="城墙" imgSrc="0300/Wall19.png" link="0300-Walls" />
         <ListItem name="加农炮" imgSrc="0301/Cannon21.png" link="0301-Cannon" />
         <ListItem name="箭塔" imgSrc="0302/Archer_Tower21.png" link="0302-Archer-Tower" />
-        <ListItem name="迫击炮" imgSrc="0303/Mortar17.png" link="0303-Mortar" />
+        <ListItem name="迫击炮" imgSrc="0303/Mortar18.png" link="0303-Mortar" />
         <ListItem name="防空火箭" imgSrc="0304/Air_Defense16.png" link="0304-Air-Defense" />
         <ListItem name="法师塔" imgSrc="0305/Wizard_Tower17.png" link="0305-Wizard-Tower" />
         <ListItem name="空气炮" imgSrc="0306/Air_Sweeper7.png" link="0306-Air-Sweeper" />
-        <ListItem name="特斯拉电磁塔" imgSrc="0307/Hidden_Tesla16.png" link="0307-Hidden-Tesla" />
+        <ListItem name="特斯拉电磁塔" imgSrc="0307/Hidden_Tesla17.png" link="0307-Hidden-Tesla" />
         <ListItem name="炸弹塔" imgSrc="0308/Bomb_Tower13.png" link="0308-Bomb-Tower" />
         <ListItem name="X连弩" imgSrc="0309/X-Bow12.png" link="0309-X-Bow" />
-        <ListItem name="地狱之塔" imgSrc="030a/Inferno_Tower11.png" link="030a-Inferno-Tower" />
+        <ListItem name="地狱之塔" imgSrc="030a/Inferno_Tower12.png" link="030a-Inferno-Tower" />
         <ListItem name="天鹰火炮" imgSrc="030b/Eagle_Artillery7.png" link="030b-Eagle-Artillery" />
         <ListItem name="投石炮" imgSrc="030e/Scattershot6.png" link="030e-Scattershot" />
         <ListItem name="建筑工人小屋" imgSrc="0500/Builders_Hut7.png" link="0500-Builders-Hut" />
-        <ListItem name="法术塔" imgSrc="0311/Spell_Tower3_Rage.png" link="0311-Spell-Tower" />
+        <ListItem name="法术塔" imgSrc="0311/Spell_Tower4_Rage.png" link="0311-Spell-Tower" />
         <ListItem name="巨石碑" imgSrc="0312/Monolith4.png" link="0312-Monolith" />
         <ListItem name="跳弹加农炮" imgSrc="0313/Ricochet_Cannon4.png" link="0313-Ricochet-Cannon" />
         <ListItem name="多人箭塔" imgSrc="0314/Multi-Archer_Tower4.png" link="0314-Multi-Archer-Tower" />
-        <ListItem name="火焰喷射器" imgSrc="0316/Firespitter2.png" link="0316-Firespitter" />
+        <ListItem name="火焰喷射器" imgSrc="0316/Firespitter3.png" link="0316-Firespitter" />
         <ListItem name="复合机械塔" imgSrc="0317/Multi-Gear_Tower3_LongRange.png" link="0317-Multi-Gear-Tower" />
         <ListItem name="超级法师塔" imgSrc="0318/Super_Wizard_Tower2.png" link="0318-Super-Wizard-Tower" />
         <ListItem name="复仇之塔" imgSrc="0319/Revenge_Tower2_Dormant.png" link="0319-Revenge-Tower" />
@@ -251,7 +251,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="搜空地雷" imgSrc="0384/Seeking_Air_Mine7.png" link="0384-Seeking-Air-Mine" />
         <ListItem name="骷髅陷阱" imgSrc="0385/Skeleton_Trap5.png" link="0385-Skeleton-Trap" />
         <ListItem name="飓风陷阱" imgSrc="0386/Tornado_Trap2.png" link="0386-Tornado-Trap" />
-        <ListItem name="终极炸弹" imgSrc="0387/Giga_Bomb3.png" link="0387-Giga-Bomb" />
+        <ListItem name="终极炸弹" imgSrc="0387/Giga_Bomb4.png" link="0387-Giga-Bomb" />
     </ListItems>
     <ListItems title="资源类建筑" imgFolder="home_buildings">
         <ListItem name="金矿" imgSrc="0401/Gold_Mine17.png" link="0401-Gold-Mine" />
@@ -270,7 +270,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="法术工厂" imgSrc="0484/Spell_Factory9.png" link="0484-Spell-Factory" />
         <ListItem name="暗黑法术工厂" imgSrc="0485/Dark_Spell_Factory7.png" link="0485-Dark-Spell-Factory" />
         <ListItem name="攻城机器工坊" imgSrc="0486/Workshop8.png" link="0486-Workshop" />
-        <ListItem name="战宠小屋" imgSrc="0487/Pet_House11.png" link="0487-Pet-House" />
+        <ListItem name="战宠小屋" imgSrc="0487/Pet_House12.png" link="0487-Pet-House" />
         <ListItem name="铁匠铺" imgSrc="0488/Blacksmith9.png" link="0488-Blacksmith" />
         <ListItem name="英雄殿堂" imgSrc="0489/Hero_Hall12.png" link="0489-Hero-Hall" />
         <ListItem name="精制台" imgSrc="048a/Crafting_Station_thumb.png" link="048a-Crafting-Station" />

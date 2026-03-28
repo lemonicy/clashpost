@@ -90,7 +90,7 @@ canonical: /upgrade/0609-Super-Wizard
         <TimelineRow>15 本推出，并在 15 本新增 11 级法师，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/01/20">
-    <TimelineRow>超级法师连锁后的伤害由 60%降低到 40%。</TimelineRow>
+    <TimelineRow>超级法师连锁后的伤害由 60% 降低到 40%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
     <TimelineRow>新超级兵：超级法师。</TimelineRow>

@@ -64,12 +64,15 @@ const tableExtraInfo = [
 |   1  |    190   |   475   |  2200 |      \  |      \    |       1     |     16    |
 |   2  |    210   |   525   |  2350 |    16M  |    9,12   |      14     |     16    |
 |   3  |    230   |   575   |  2600 |    18M  |   10,12   |      15     |     17    |
-|   4  |    250   |   625   |  2900 |    27M  |   15      |      16     |     18    |
+|   4  |    240   |   600   |  2800 |    27M  |   15      |      16     |     18    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>4 级巨矛投手的每秒伤害和生命值减少（回滚到 2026/01 平衡性调整的数据）。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>所有等级巨矛投手的生命值提升。</TimelineRow>
         <TimelineRow>2 ~ 4 级巨矛投手的伤害提升。</TimelineRow>

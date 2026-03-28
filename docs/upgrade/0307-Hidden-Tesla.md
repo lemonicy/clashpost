@@ -12,7 +12,7 @@ canonical: /upgrade/0307-Hidden-Tesla
 - *如想查看 12 本的自带武器，请访问 [巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
 - *如想查看夜世界的特斯拉电磁塔，请访问：[夜世界特斯拉电磁塔](/upgrade/1103-Hidden-Tesla)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Tesla16.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Tesla17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -100,7 +100,7 @@ const tableExtraInfo = [
 |  14  |   160   |   96    |  1450  |  6.5M   |   4       |                     |       15       |
 |  15  |   170   |  102    |  1550  |  8.2M   |   5       |                     |       16       |
 |  16  |   180   |  108    |  1650  |   15M   |   9       |                     |       17       |
-|  17  |   190   |  114    |  1750  |   25M   |   13      |                     |       18       |
+|  17  |   190   |  114    |  1750  |   25M   |  13       |                     |       18       |
 
 </UnitTable>
 
@@ -109,7 +109,7 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/02/23">
         <TimelineRow>在 18 本添加了 17 级特斯拉电磁塔。</TimelineRow>
-        <TimelineRow>移除了 16 级特斯拉电磁他的超级充能</TimelineRow>
+        <TimelineRow>移除了特斯拉电磁塔的充能等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>16 级及两个充能等级的特斯拉电磁塔的升级时间和升级费用减少。</TimelineRow>

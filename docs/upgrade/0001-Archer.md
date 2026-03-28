@@ -95,7 +95,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>在 18 本新增 14 级弓箭手</TimelineRow>
+        <TimelineRow>在 18 本新增 14 级弓箭手。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>13 级弓箭手的升级时间和升级费用减少。</TimelineRow>

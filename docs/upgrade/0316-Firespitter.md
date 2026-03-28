@@ -11,7 +11,7 @@ canonical: /upgrade/0316-Firespitter
 
 - 如想查看夜世界的一座机制类似的建筑，请访问：[夜世界熔岩火炮](/upgrade/1109-Roaster)。
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Firespitter2.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Firespitter3.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -48,7 +48,7 @@ canonical: /upgrade/0316-Firespitter
     <UnitProperty pKey="伤害类型" pValue="多目标" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="射程" pValue="16 格" />
-    <UnitProperty pKey="攻速" pValue="0.0625 秒/次" />
+    <UnitProperty pKey="攻速" pValue="0.064 秒/次" />
     <UnitProperty pKey="每轮弹药数量" pValue="20" />
     <UnitProperty pKey="每轮攻击间隔" pValue="1 秒" />
 </UnitProperties>
@@ -80,9 +80,9 @@ const tableExtraInfo = [
 
 | 等级 |平均<br>每秒伤害| 每次伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |      ---      |   ---   |  ---  |   ---   |   ---    |         ---        |      ---      |
-|   1  |      410      |    46   |  4500 |    17M  |   11     |         974        |       17      |
-|   2  |      437      |    49   |  5000 |    18M  |   11,12  |         996        |       17      |
-|3	   |455	           |    51	 | 5300	 |    29M  |15        |	       1138	       |18             |
+|   1  |      410      |    46   |  4500 |    17M  |   11     |                    |       17      |
+|   2  |      437      |    49   |  5000 |    18M  |   11,12  |                    |       17      |
+|   3  |      455      |    51   |  5300 |    29M  |   15     |                    |       18      |
 
 </UnitTable>
 
@@ -91,8 +91,8 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/02/23">
         <TimelineRow>在 18 本添加了 3 级火焰喷射器</TimelineRow>
-        <TimelineRow>移除了 2 级火焰喷射器的超级充能</TimelineRow>
-        <TimelineRow>更改了 1 ~ 2 级火焰喷射器的显示DPS</TimelineRow>
+        <TimelineRow>移除了火焰喷射器的充能等级。</TimelineRow>
+        <TimelineRow>更改了 1 ~ 2 级火焰喷射器在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>1 ~ 2 级及两个充能等级的火焰喷射器的升级时间和升级费用减少。</TimelineRow>

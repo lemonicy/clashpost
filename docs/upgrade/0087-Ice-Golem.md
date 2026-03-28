@@ -140,7 +140,7 @@ const tableExtraInfo = [
     <TimelineItem date="2019/04/02">
         <TimelineRow>12 级大本营新增 5 级戈仑冰人。</TimelineRow>
         <TimelineRow>在防守时，戈仑冰人死亡后的冰冻时间整体减少。</TimelineRow>
-        <TimelineRow>戈仑冰人进攻时的冰冻半径增大 36%。</TimelineRow>
+        <TimelineRow>戈仑冰人进攻时的冰冻半径增大 36%.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
