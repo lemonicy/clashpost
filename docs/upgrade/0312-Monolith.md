@@ -101,12 +101,12 @@ const tableExtraInfo = [
         <TimelineRow>16 本新增 3 级巨石碑。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>所有等级巨石碑的额外伤害减少 1%。</TimelineRow>
+        <TimelineRow>所有等级巨石碑的额外伤害减少 1%.</TimelineRow>
         <TimelineRow>2 级巨石碑的每秒基础伤害降低 25。</TimelineRow>
         <TimelineRow>所有等级巨石碑的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/12/12">
-        <TimelineRow>所有等级巨石碑的额外伤害减少 2%。</TimelineRow>
+        <TimelineRow>所有等级巨石碑的额外伤害减少 2%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>15 本推出，并在 15 本新增建筑：巨石碑。</TimelineRow>

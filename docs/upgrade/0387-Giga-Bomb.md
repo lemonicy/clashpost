@@ -11,7 +11,7 @@ canonical: /upgrade/0387-Giga-Bomb
 
 - 游戏中还存在另一种大炸弹，详见：[巨型炸弹](/upgrade/0383-Giant-Bomb)。
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Bomb3.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Bomb4.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -88,14 +88,14 @@ const tableExtraInfo = [
 |   1  |   1100  |     5M  |     \    |          \          |       17      |
 |   2  |   1200  |   8.5M  |     5    |          657          |       17      |
 |   3  |   1300  |  12.5M  |     6    |          720          |       17      |
-|   4  |   1400  |  20M    |     13    |         1059       |       18      |
+|   4  |   1400  |    20M  |     13    |         1059       |       18      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>18 本推出4级终极炸弹</TimelineRow>
+        <TimelineRow>在 18 本推出 4 级终极炸弹。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>2 ~ 3 级终极炸弹的升级时间和升级费用减少。</TimelineRow>

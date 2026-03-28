@@ -31,6 +31,7 @@ canonical: /upgrade/0081-Hog-Rider
         <UnitImg imgTitle="12 级" imgSrc="Hog_Rider12.png" />
         <UnitImg imgTitle="13 级" imgSrc="Hog_Rider13.png" />
         <UnitImg imgTitle="14 级" imgSrc="Hog_Rider14.png" />
+        <UnitImg imgTitle="15 级" imgSrc="Hog_Rider15.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -87,7 +88,7 @@ const tableExtraInfo = [
 |  12  |    200   |   200   |  1230 |   125K  |    5,12   |     13     |    15     |
 |  13  |    213   |   213   |  1380 |   175K  |    6,12   |     14     |    16     |
 |  14  |    225   |   225   |  1500 |   240K  |   10      |     15     |    17     |
-|15    |    250   |   250   |  1750 |   340K  |   14,12   |     16     |    18     |
+|  15  |    250   |   250   |  1750 |   340K  |   14,12   |     16     |    18     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

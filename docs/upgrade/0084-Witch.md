@@ -2,7 +2,7 @@
 title: "部落冲突 coc 女巫升级数据"
 navTitle: "女巫"
 shownTitle: "女巫"
-description: "虽然女巫自身的远程攻击能力较弱，但她召唤的骷髅勇士们可以无情地撕开敌人的防线。"
+description: "女巫从来不是一个人在战斗，她能不断召唤骷髅兵发起攻击。升级您的女巫，让她每次可以召唤更多骷髅兵。"
 module: upgrade-home
 imgFolder: home_tech/0084
 wiki: https://clashofclans.fandom.com/wiki/Witch
@@ -12,7 +12,15 @@ canonical: /upgrade/0084-Witch
 - *如想查看该兵种的强化版本，请访问：[超级女巫](/upgrade/0605-Super-Witch)。*
 - *如想查看夜世界的暗夜女巫，请访问：[夜世界暗夜女巫](/upgrade/1007-Night-Witch)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Witch_info.png" :imgAlt="$frontmatter.displayTitle" :description="$frontmatter.description" />
+<SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
+    <SwitchTab tabId="cp-unit-item-0" :activeTab="true">女巫</SwitchTab>
+    <SwitchTab tabId="cp-unit-item-1">骷髅</SwitchTab>
+</SwitchTabs>
+
+<!-- ↓↓↓ 女巫 ↓↓↓ -->
+<SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Witch_info.png" imgAlt="女巫"
+    description="女巫从来不是一个人在战斗，她能不断召唤骷髅兵发起攻击。升级您的女巫，让她每次可以召唤更多骷髅兵。" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -23,16 +31,11 @@ canonical: /upgrade/0084-Witch
         <UnitImg imgTitle="5 级" imgSrc="Witch5.png" />
         <UnitImg imgTitle="6 级" imgSrc="Witch6.png" />
         <UnitImg imgTitle="7 级" imgSrc="Witch7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Witch8.png" />
-        <UnitImg imgTitle="骷髅" imgSrc="Skeleton.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Witch8.png" imgHd="Witch8_hd.png" />
     </UnitImgGroup>
 </Panel>
 
-<SmallTitle>重要说明</SmallTitle>
-
-女巫从来不是一个人在战斗，她能不断召唤骷髅兵发起攻击。升级您的女巫，让她每次可以召唤更多骷髅兵。
-
-<SmallTitle>女巫的属性</SmallTitle>
+<SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面远程单位" />
@@ -51,20 +54,7 @@ canonical: /upgrade/0084-Witch
     <UnitProperty pKey="捐赠费用" pValue="6,6,270,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
-<SmallTitle>骷髅的属性</SmallTitle>
-
-<UnitProperties>
-    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="无" />
-    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
-    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="占据人口" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
-</UnitProperties>
-
-<SmallTitle>女巫的升级数据</SmallTitle>
+<SmallTitle>升级数据</SmallTitle>
 
 <script setup>
 const tableExtraInfo = [
@@ -84,30 +74,59 @@ const tableExtraInfo = [
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
-| 等级 |每秒伤害| 每次伤害 |每次召唤<br>数量<sup>*</sup>|   召唤骷髅等级 |最大召唤<br>数量| 生命值 |升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
-| --- |   ---  |   ----  |            ---            |        ---    |      ---     |  ---- |  ----  |    ---    |       ----      |      ----     |
-|  1  |   100  |   70    |             4             | 1             |       6      |  300  |    \   |     \     |        1        |       9       |
-|  2  |   110  |   77    |             4             | 1             |       8      |  320  |    20K |    2      |        7        |       9       |
-|  3  |   140  |   98    |             4             | 1             |      10      |  400  |    29K |    3      |        8        |      10       |
-|  4  |   165  |  115.5  |             4             | 1             |      12      |  470  |    45K |    3,12   |        9        |      11       |
-|  5  |   185  |  129.5  |             4             | 1             |      14      |  520  |  62.5K |    4      |       10        |      12       |
-|  6  |   200  |  140    |             4             | 1             |      15      |  540  |   150K |    5,12   |       13        |      15       |
-|  7  |   220  |  154    |             5             | 1             |      16      |  560  |   180K |    7, 6   |       14        |      16       |
-|  8  |   260  |  182    |             5             | 2             |      16      |  650  |   355K |    15, 12 |       16        |      18       |
+| 等级 |每秒伤害| 每次伤害 |每次召唤<br>数量<sup>*</sup>|召唤的<br>骷髅等级|最大召唤<br>数量| 生命值 |升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
+| --- |   ---  |   ----  |            ---            |        ---      |      ---     |  ---- |  ----  |    ---    |       ----      |      ----     |
+|  1  |   100  |   70    |             4             |         1       |       6      |  300  |    \   |     \     |        1        |       9       |
+|  2  |   110  |   77    |             4             |         1       |       8      |  320  |    20K |    2      |        7        |       9       |
+|  3  |   140  |   98    |             4             |         1       |      10      |  400  |    29K |    3      |        8        |      10       |
+|  4  |   165  |  115.5  |             4             |         1       |      12      |  470  |    45K |    3,12   |        9        |      11       |
+|  5  |   185  |  129.5  |             4             |         1       |      14      |  520  |  62.5K |    4      |       10        |      12       |
+|  6  |   200  |  140    |             4             |         1       |      15      |  540  |   150K |    5,12   |       13        |      15       |
+|  7  |   220  |  154    |             5             |         1       |      16      |  560  |   180K |    7, 6   |       14        |      16       |
+|  8  |   260  |  182    |             5             |         2       |      16      |  650  |   355K |    15, 12 |       16        |      18       |
 </UnitTable>
 
 \* 女巫并不是每次召唤都可以召唤出这么多骷髅，当一只女巫召唤的骷髅达到上表的限制时，除非骷髅兵死亡，否则女巫不会继续召唤。这个上限指的是每只女巫召唤的骷髅，如果有两只女巫，那么场上的最大骷髅数量为 2 倍上限。
+</SwitchTabGroup>
 
-<SmallTitle>骷髅的升级数据</SmallTitle>
+<!-- ↓↓↓ 骷髅 ↓↓↓ -->
+<SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_info.png" imgAlt="女巫召唤的骷髅"
+    description="这些不死生物本身不构成太大的威胁，但它们从来不单独作战，因为女巫会不断召唤成群的骷髅兵来对抗您的敌人！" />
 
-<UnitTable :tableExtraInfo="tableExtraInfo">
+<SmallTitle>各等级图片</SmallTitle>
 
-| 等级 |每秒伤害| 每次伤害 | 生命值 |
-| --- |   ---  |   ----  | ---    |
-|  1  |   25  |   25    | 30 |
-|  2  |   30  |   30    |45 |
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Skeleton1.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 |
+| --- |    ---   |   ----  |  ---  |
+|  1  |     25   |   25    |   30  |
+|  2  |     30   |   30    |   45  |
 </UnitTable>
+</SwitchTabGroup>
 
+<!-- ↓↓↓ 公共部分 ↓↓↓ -->
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>

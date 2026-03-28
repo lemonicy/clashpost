@@ -20,8 +20,7 @@ canonical: /upgrade/0384-Seeking-Air-Mine
         <UnitImg imgTitle="1 - 2 级" imgSrc="Seeking_Air_Mine1.png" />
         <UnitImg imgTitle="3 - 4 级" imgSrc="Seeking_Air_Mine3.png" />
         <UnitImg imgTitle="5 - 6 级" imgSrc="Seeking_Air_Mine5.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Seeking_Air_Mine7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Seeking_Air_Mine8.png" />
+        <UnitImg imgTitle="7 - 8 级" imgSrc="Seeking_Air_Mine7.png" />
         <UnitImg imgTitle="未重新布置" imgSrc="Seeking_Air_Mine_unarmed.png" />
     </UnitImgGroup>
 </Panel>
@@ -85,7 +84,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>在 18 本推出8级搜空地雷。</TimelineRow>
+        <TimelineRow>在 18 本推出 8 级搜空地雷。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>7 级搜空地雷的升级时间和升级费用减少。</TimelineRow>

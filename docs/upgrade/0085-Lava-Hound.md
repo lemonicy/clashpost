@@ -24,7 +24,7 @@ canonical: /upgrade/0085-Lava-Hound
         <UnitImg imgTitle="5 级" imgSrc="Lava_Hound5.png" />
         <UnitImg imgTitle="6 级" imgSrc="Lava_Hound6.png" />
         <UnitImg imgTitle="7 级" imgSrc="Lava_Hound7.png" imgHd="Lava_Hound7_hd.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Lava_Hound8.png" imgHd="Lava_Hound8_hd.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Lava_Hound8.png" imgHd="Lava_Hound8_hd.png" />
         <UnitImg imgTitle="迷你熔岩猎犬" imgSrc="Lava_Pup.png" />
     </UnitImgGroup>
 </Panel>
@@ -100,7 +100,7 @@ const tableExtraInfo = [
 |  5  |   18  |   36  |       300     |            16 / 12             |  7600 |    60K  |   4     |       10       |      12       |
 |  6  |   20  |   40  |       350     |            18 / 13             |  8000 |    80K  |   7     |       11       |      13       |
 |  7  |   22  |   44  |       400     |            20 / 14             |  8500 |   200K  |   8     |       14       |      16       |
-|  8  |   24  |   48  |       450     |            22 / 15             |  9500 |   345K  |   15,6  |       16       |      18       |
+|  8  |   24  |   48  |       450     |            22 / 15             |  9500 |   345K  |  15, 6  |       16       |      18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

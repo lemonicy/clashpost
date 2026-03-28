@@ -41,7 +41,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 <!-- ↓↓↓ 标准模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Mortar17_hd.png" imgAlt="迫击炮（标准模式）"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Mortar18.png" imgAlt="迫击炮（标准模式）"
     :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
@@ -136,7 +136,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 <!-- ↓↓↓ 快速模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Mortar17B.png" imgAlt="迫击炮（快速模式）"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Mortar18B.png" imgAlt="迫击炮（快速模式）"
     :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
@@ -190,21 +190,21 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---  |   ---   |    ---    |        ---          |       ---      |
 |   8  |    24   |   37    |   800  |  1.2M   |   0,18    |                     |       10       |
-|   9  |    30   |   47    |   950  |  1.6M   |   0,20    |                     |       11       |
+|   9  |    30   |   46    |   950  |  1.6M   |   0,20    |                     |       11       |
 |  10  |    37   |   56    |  1100  |  1.8M   |   1       |                     |       11       |
 |  11  |    42   |   64    |  1300  |  2.3M   |   1, 6    |                     |       12       |
 |  12  |    46   |   70    |  1500  |  2.4M   |   1,12    |                     |       12       |
 |  13  |    51   |   77    |  1700  |  2.8M   |   2       |                     |       13       |
 |  14  |    58   |   88    |  1950  |  4.3M   |   2,12    |                     |       14       |
-|  15  |    66   |   99    |  2150  |    5M   |   3       |                     |       15       |
+|  15  |    66   |   98    |  2150  |    5M   |   3       |                     |       15       |
 |  16  |    73   |  110    |  2300  |    7M   |   4       |                     |       16       |
-|  17  |    81   |  121    |  2450  |   13M   |   8       |                     |       17       |
+|  17  |    81   |  120    |  2450  |   13M   |   8       |                     |       17       |
 |  18  |    85   |  128    |  2550  |   21M   |   12,12   |                     |       18       |
 </UnitTable>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->
-注：迫击炮改装后每秒伤害会提高 10%.
+注：迫击炮改装后每秒伤害会略微提高。
 
 <SmallTitle>更新历史</SmallTitle>
 
@@ -212,7 +212,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
     <TimelineItem date="2026/02/23">
         <TimelineRow>添加了 18 级迫击炮。</TimelineRow>
         <TimelineRow>移除了 17 级迫击炮的超级充能。</TimelineRow>
-        <TimelineRow>修改了多管迫击炮的显示DPS、DPH。</TimelineRow>
+        <TimelineRow>更改了多管迫击炮在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>17 级及两个充能等级的迫击炮的升级时间和升级费用减少。</TimelineRow>
@@ -273,7 +273,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <TimelineRow>13 本新增 13 级迫击炮。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>所有等级多管迫击炮的伤害提高 10%。</TimelineRow>
+        <TimelineRow>所有等级多管迫击炮的伤害提高 10%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/09/11">
         <TimelineRow>12 级迫击炮的生命值由 950 提升至 980。</TimelineRow>

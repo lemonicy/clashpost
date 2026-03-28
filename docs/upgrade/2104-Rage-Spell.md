@@ -48,7 +48,7 @@ canonical: /upgrade/2104-Rage-Spell
 
 <Timeline>
     <TimelineItem date="2022/06/30">
-        <TimelineRow>将狂暴法术的“伤害提升”属性降低 20%。</TimelineRow>
+        <TimelineRow>将狂暴法术的“伤害提升”属性降低 20%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>狂暴法术随着部落都城玩法一同推出。</TimelineRow>

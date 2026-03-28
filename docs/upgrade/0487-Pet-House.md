@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Pet_House
 canonical: /upgrade/0487-Pet-House
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Pet_House11_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Pet_House12_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -26,7 +26,7 @@ canonical: /upgrade/0487-Pet-House
         <UnitImg imgTitle="9 级" imgSrc="Pet_House9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Pet_House10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Pet_House11.png" imgHd="Pet_House11_hd.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Pet_House11.png" imgHd="Pet_House11_hd.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Pet_House12.png" imgHd="Pet_House12_hd.png" />
     </UnitImgGroup>
 </Panel>
 

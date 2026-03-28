@@ -100,7 +100,7 @@ const tableExtraInfo = [
 
 <SmallTitle>更新历史</SmallTitle>
 
-<Timeline>  
+<Timeline>
     <TimelineItem date="2023/12/12">
         <TimelineRow>游戏新增装备系统，皇家宝石是第一批推出的装备。</TimelineRow>
     </TimelineItem>

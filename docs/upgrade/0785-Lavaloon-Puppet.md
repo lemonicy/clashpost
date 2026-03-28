@@ -209,7 +209,7 @@ const tableExtraInfo = [
 
 <SmallTitle>更新历史</SmallTitle>
 
-<Timeline>  
+<Timeline>
     <TimelineItem date="2026/01/12">
         <TimelineRow>21 ~ 27 级熔岩气球玩偶召唤的熔岩气球数量由 2 增加到 3.</TimelineRow>
         <TimelineRow>熔岩气球占据的人口数由 23 减少到 21.</TimelineRow>
