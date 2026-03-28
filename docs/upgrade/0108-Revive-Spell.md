@@ -66,11 +66,15 @@ const tableExtraInfo = [
 |   2  |        65%       |    18M   |    8      |        13       |       15     |
 |   3  |        70%       |    19M   |   10,12   |        14       |       16     |
 |   4  |        75%       |    20M   |   11,12   |        15       |       17     |
+|   5  |        80%       |    29.5M |   16      |        16       |       18     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本新增 5 级复苏法术。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>3 ~ 4 级复苏法术的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>

@@ -75,6 +75,7 @@ const tableExtraInfoMultiMode = [
         <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12.png" />
     </UnitImgGroup>
     <UnitImgGroup title="熄火的单头" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1_Depleted.png" />
@@ -88,6 +89,7 @@ const tableExtraInfoMultiMode = [
         <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Depleted.png" />
         <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Depleted.png" />
         <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Depleted.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12_Depleted.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -138,8 +140,7 @@ const tableExtraInfoMultiMode = [
 |   9  |      100      |        230        |         2300       |  4000  |    10M  |   6,12  |                     |       15       |
 |  10  |      120      |        260        |         2600       |  4400  |    11M  |   7     |                     |       16       |
 |  11  |      140      |        290        |         2900       |  4800  |    16M  |  12     |                     |       17       |
-| ⚡1  |      150      |        310        |         3100       |  4800  |     7M  |   2,18  |                     |       17       |
-| ⚡2  |      150      |        310        |         3100       |  5000  |   4.5M  |   4, 6  |                     |       17       |
+|  12  |      155	   |        330	       |         3300	    |  5100	 |  26.5M  |13,12	 |                     |       18       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -162,6 +163,7 @@ const tableExtraInfoMultiMode = [
         <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Multi.png" />
         <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Multi.png" />
         <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Multi.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12_Multi.png" />
     </UnitImgGroup>
         <UnitImgGroup title="熄火的多头" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1_Multi_Depleted.png" />
@@ -175,6 +177,7 @@ const tableExtraInfoMultiMode = [
         <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Multi_Depleted.png" />
         <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Multi_Depleted.png" />
         <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Multi_Depleted.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12_Multi_Depleted.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -225,8 +228,8 @@ const tableExtraInfoMultiMode = [
 |   9  |   100   |     6   |  4000  |    10M  |   6,12  |                     |       15       |
 |  10  |   120   |     6   |  4400  |    11M  |   7     |                     |       16       |
 |  11  |   140   |     6   |  4800  |    16M  |  12     |                     |       17       |
-| ⚡1  |   150   |     6   |  4800  |     7M  |   2,18  |                     |       17       |
-| ⚡2  |   150   |     6   |  5000  |   4.5M  |   4, 6  |                     |       17       |
+|  12  |   155   |     6   |  5100  |    26.5M  |  13,12|                     |       18       |
+
 </UnitTable>
 </SwitchTabGroup>
 
@@ -234,6 +237,10 @@ const tableExtraInfoMultiMode = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本添加了 12 级地狱之塔</TimelineRow>
+        <TimelineRow>移除了 11 级地狱之塔的超级充能</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>11 级及两个充能等级的地狱之塔的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>

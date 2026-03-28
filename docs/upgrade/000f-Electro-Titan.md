@@ -19,6 +19,7 @@ canonical: /upgrade/000f-Electro-Titan
         <UnitImg imgTitle="2 级" imgSrc="Electro_Titan2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Electro_Titan3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Electro_Titan4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Electro_Titan5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -83,11 +84,15 @@ const tableExtraInfo = [
 |   2  |      200 / 300      |       100 / 40       |  7700 |    14M  |    9      |       12       |      14       |
 |   3  |      220 / 330      |       125 / 50       |  8200 |    16M  |    9,12   |       13       |      15       |
 |   4  |      240 / 360      |      137.5 / 55      |  8700 |  18.5M  |   11      |       14       |      16       |
+|   5  |      270 / 405      |      150 / 60        |  9200 |  30M    |   16      |       16       |      18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本新增了5级雷霆泰坦.</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>4 级雷霆泰坦的生命值由 8400 提升到 8700.</TimelineRow>
     </TimelineItem>

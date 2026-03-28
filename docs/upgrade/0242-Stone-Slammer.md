@@ -20,6 +20,7 @@ canonical: /upgrade/0242-Stone-Slammer
         <UnitImg imgTitle="3 级" imgSrc="Stone_Slammer3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Stone_Slammer4.png" />
         <UnitImg imgTitle="5 级" imgSrc="Stone_Slammer5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Stone_Slammer6.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -80,11 +81,15 @@ const tableExtraInfo = [
 |   3  |       600       |       1500      |     200~400    |  6200  |  3.5M  |     3     |        10       |       12      |
 |   4  |       700       |       1750      |     250~500    |  6500  |  6.5M  |     7     |        11       |       13      |
 |   5  |       750       |       1875      |     300~600    |  6800  |   10M  |     9     |        13       |       15      |
+|   6  |       820       |       2050      |     350~700?   |  7200  |   26M  |     13,12 |        16       |       18      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2023/06/12">
+        <TimelineRow>18 本新增 6 级攻城气球。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
     </TimelineItem>

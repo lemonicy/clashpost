@@ -28,6 +28,7 @@ canonical: /upgrade/000a-Baby-Dragon
         <UnitImg imgTitle="9 级" imgSrc="Baby_Dragon9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Baby_Dragon10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Baby_Dragon11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Baby_Dragon12.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -86,11 +87,15 @@ const tableExtraInfo = [
 |   9  |    155   |   155   |  2000 |    11M  |    7      |     13      |    15     |
 |  10  |    165   |   165   |  2100 |  13.5M  |    7, 6   |     14      |    16     |
 |  11  |    175   |   175   |  2200 |  16.5M  |   10      |     15      |    17     |
+|  12  |    185   |   185   |  2350 |  29M  |   15,6      |     16      |    18     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本新增 12 级飞龙宝宝。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>11 级飞龙宝宝的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
