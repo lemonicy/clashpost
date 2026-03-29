@@ -25,7 +25,7 @@ canonical: /upgrade/0205-Dragon-Duke
 <UnitProperties>
     <UnitProperty pKey="英雄类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
-    <UnitProperty pKey="伤害类型" pValue="周围有空中单位时单体伤害，否则范围伤害" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="25" />
     <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
