@@ -111,6 +111,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="烈焰之心" imgSrc="07e0/Fire_Heart_thumb.png" link="07e0-Fire-Heart" />
         <ListItem name="助燃器" imgSrc="07e1/Flame_Blower_thumb.png" link="07e1-Flame-Blower" />
         <ListItem name="爆震器" imgSrc="07e2/Stun_Blaster_thumb.png" link="07e2-Stun-Blaster" />
+        <ListItem name="火箭背包" imgSrc="07e3/Rocket_Backpack_thumb.png" link="07e3-Rocket-Backpack" />
     </ListItems>
 </SwitchTabGroup>
 
