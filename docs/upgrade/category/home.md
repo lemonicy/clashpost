@@ -111,6 +111,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="烈焰之心" imgSrc="07e0/Fire_Heart_thumb.png" link="07e0-Fire-Heart" />
         <ListItem name="助燃器" imgSrc="07e1/Flame_Blower_thumb.png" link="07e1-Flame-Blower" />
         <ListItem name="爆震器" imgSrc="07e2/Stun_Blaster_thumb.png" link="07e2-Stun-Blaster" />
+        <ListItem name="雷电獠牙" imgSrc="07e4/Electro_Fangs_thumb.png" link="07e4-Electro-Fangs" />
         <ListItem name="火箭背包" imgSrc="07e3/Rocket_Backpack_thumb.png" link="07e3-Rocket-Backpack" />
     </ListItems>
 </SwitchTabGroup>
@@ -198,6 +199,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="攻城烈焰车" imgSrc="0245/Flame_Flinger_thumb.png" link="0245-Flame-Flinger" />
         <ListItem name="攻城钻机" imgSrc="0246/Battle_Drill_thumb.png" link="0246-Battle-Drill" />
         <ListItem name="部队发射器" imgSrc="0247/Troop_Launcher_thumb.png" link="0247-Troop-Launcher" />
+        <ListItem name="空中战车" imgSrc="0248/Sky_Wagon_thumb.png" link="0248-Sky-Wagon" />
     </ListItems>
     <ListItems title="非战斗人员" imgFolder="home_tech">
         <ListItem name="实验助理" imgSrc="0800/Lab_Assistant_thumb.png" link="0800-Lab-Assistant" />
