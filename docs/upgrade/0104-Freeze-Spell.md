@@ -64,6 +64,7 @@ const tableExtraInfo = [
 |   5  |  4.5 秒  |  4.2M  |   2,12  |        8      |    10     |
 |   6  |    5 秒  |    6M  |   3,12  |        9      |    11     |
 |   7  |  5.5 秒  |    7M  |   5     |       10      |    12     |
+|   8  |    6 秒  |   28M  |  15,12  |       16      |    18     |	
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
