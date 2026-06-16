@@ -13,10 +13,10 @@ import { generateToast } from "@/components/dialog/Toast.vue";
 import Download from "@/components/icon/link/Download.vue";
 
 const disableDownloading = false;
-const apkVersion = "18.367.1";
-const apkUploadDate = "2026-05-26";
-const apkFileSize = "747.9 MB";
-const apkFileName = "Clash_of_Clans_v18.367.1_S0wbwhA25WLhf3Jy.apk";
+const apkVersion = "18.400.2";
+const apkUploadDate = "2026-06-16";
+const apkFileSize = "812.9 MB";
+const apkFileName = "Clash_of_Clans_v18.400.2_SScXf2oBf9ZHn1LP.apk";
 const systemRequirement = "Android 7.0+";
 
 function downloadCocApk() {
@@ -96,8 +96,7 @@ function downloadCocApk() {
 如果你人在国外，或者有条件翻墙，那么你还可以选择以下渠道：
 
 - [Google Play 下载](https://play.google.com/store/apps/details?id=com.supercell.clashofclans) - Google Play 下载的安装包只适配你自己的手机，无法分享给他人，如需分享请勿下载这个版本。
-- [Apkpure 下载](https://apkpure.net/cn/clash-of-clans-android/com.supercell.clashofclans) - 这个渠道更新最快，更新后大家可以去这个地方蹲新版本安装包。
-- [APKMirror 下载](https://www.apkmirror.com/apk/supercell/clash-of-clans/) - 这个渠道更新也相当快。
+- [APKMirror 下载](https://www.apkmirror.com/apk/supercell/clash-of-clans/) - 网站的安装包通常是从这里来的，更新后大家可以去这里蹲新版本安装包。
 
 ## 私服
 
