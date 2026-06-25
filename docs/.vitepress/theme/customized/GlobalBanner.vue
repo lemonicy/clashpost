@@ -4,12 +4,11 @@ import Callout from "@/components/Callout.vue";
 const props = defineProps({
     link: {
         type: String,
-        required: true
     }
 });
 
 const link = props.link;
-const ifApkDownloading = link === "/apk";
+const ifApkDownloading = link === "/apk" || false;
 </script>
 
 <template>

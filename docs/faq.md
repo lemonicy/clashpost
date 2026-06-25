@@ -1,12 +1,10 @@
 ---
-title: "联系我们"
+title: "常见问题解答"
 module: faq
 canonical: /faq
 robots: noindex, nofollow
 hasUpdateTime: false
 ---
-
-## 常见问题解答
 
 <Panel title="网站不维护了吗？我还可以在这里下载安装包吗？">
     <p>除“安装包下载”版块外，本站其他内容已停止维护。</p>
@@ -29,6 +27,7 @@ hasUpdateTime: false
         </a>
         下载完整项目数据，作为备份、参考或二次整理使用。
     </p>
+    <p>如果你希望继续维护、整理或迁移本站资料，可以基于 GitHub 仓库中的历史数据自行开展，只需说明自己是“部落驿站”的继承者就行。</p>
     <p>使用这些数据时，请注意其中可能存在过期、遗漏或错误内容，建议自行核对后再使用。</p>
 </Panel>
 <Panel title="这个网站能投放广告吗？">
@@ -49,7 +48,24 @@ hasUpdateTime: false
 
 ## 作者的联系方式
 
-反馈问题请发邮件：[feedback@clashpost.com](mailto:feedback@clashpost.com)
+本站已停止主体维护，反馈入口仅用于以下情况：
+
+- 安装包下载失效；
+- 页面存在严重错误；
+- 内容涉及侵权、隐私或其他需要下架的问题。
+
+普通资料修订、游戏数据更新、攻略投稿等内容，原则上不再处理。
+
+如果你需要反馈内容，可使用 Github 的 Issues 功能，使用步骤如下：
+
+- 打开 [Github 首页](https://github.com)。如果你没有 Github 账号，点击右上角的 Sign Up 注册；如果已有账号，点击 Sign In 登录；
+- 进入项目的 [GitHub 仓库](https://github.com/lemonicy/clashpost)；
+- 点击页面上方的 Issues；
+- 点击 New issue；
+- 简单说明你遇到的问题，最好附上相关页面链接；
+- 点击 Submit new issue 提交。
+
+请注意：本项目已经停止主体维护，Issues 不保证及时回复，也不代表网站会恢复更新。
 
 ## 特别鸣谢
 
