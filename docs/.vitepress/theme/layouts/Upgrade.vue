@@ -3,8 +3,9 @@ import { ref, watch } from "vue";
 import { useRouter } from "vitepress";
 import Head from "@/composables/Head.vue";
 import SidebarLeft from "@/composables/sidebar/SidebarLeft.vue";
-import TopNav from "@/composables/top-nav/TopNav.vue";
+import GlobalBanner from "../customized/GlobalBanner.vue";
 import UpgradeBanner from "@/customized/upgrade/UpgradeBanner.vue";
+import TopNav from "@/composables/top-nav/TopNav.vue";
 import PageTitle from "@/composables/PageTitle.vue";
 import Main from "@/composables/Main.vue";
 import Footer from "@/composables/Footer.vue";
@@ -14,11 +15,13 @@ import NetworkWarning from "@/components/common/NetworkWarning.vue";
 
 const router = useRouter();
 
+let globalBannerKey = ref(0);
 let upgradeBannerKey = ref(0);
 let pageTitleKey = ref(0);
 let upgradeDialogKey = ref(0);
 
 watch(() => router.route.data.relativePath, (path) => {
+    globalBannerKey.value++;
     upgradeBannerKey.value++;
     pageTitleKey.value++;
     upgradeDialogKey.value++;
@@ -29,8 +32,9 @@ watch(() => router.route.data.relativePath, (path) => {
     <Head />
     <SidebarLeft />
     <main>
-        <TopNav />
+        <GlobalBanner :key="'globalBanner-' + globalBannerKey" :link="$frontmatter.canonical" />
         <UpgradeBanner :key="'upgradeBanner-' + upgradeBannerKey" :link="$frontmatter.canonical" />
+        <TopNav />
         <PageTitle :key="'pageTitle-' + pageTitleKey" v-if="!$frontmatter.customTitle" />
         <Main />
         <Footer />

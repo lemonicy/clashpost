@@ -2,7 +2,7 @@
 title: "部落驿站"
 customTitle: true
 titleTemplate: "下载游戏、查数据、看攻略的好帮手"
-description: "部落驿站（原部落冲突指导）是一个百科类网站，不管是下载游戏、查数据，还是看攻略，这个网站都能满足你，快来看看吧！"
+description: "部落驿站（原部落冲突指导）是一个《部落冲突》资料归档网站，保留了安装包下载、游戏数据、机制讲解与攻略文章等历史内容，供有需要的玩家查阅参考。"
 module: home
 canonical: /
 hasUpdateTime: false

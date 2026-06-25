@@ -16,6 +16,7 @@ const searchProviderRef = ref();
 const hasNotification = notificationInfo.hasNotification;
 const notificationCount = notificationInfo.notificationCount;
 const currentNotificationId = notificationInfo.currentNotificationId;
+const notificationTitle = notificationInfo.notificationTitle || "通知";
 const notificationHTML = notificationInfo.notificationHTML;
 
 // 显示通知弹窗
@@ -255,7 +256,7 @@ onBeforeUnmount(() => {
             </div>
         </nav>
     </div>
-    <Dialog dialogId="cp-notification-dialog" title="通知" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasNotification">
+    <Dialog dialogId="cp-notification-dialog" :title="notificationTitle" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasNotification">
         <p v-html="notificationHTML"></p>
     </Dialog>
     <Dialog dialogId="cp-notification-dialog" title="通知" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了" v-else>

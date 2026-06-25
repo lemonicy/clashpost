@@ -1,7 +1,7 @@
 ---
 title: "部落冲突升级数据（按大本等级分类）"
 shownTitle: "升级数据"
-description: "在这里，你可以查到部落冲突的各种数据，每个兵种和建筑有哪些属性、升级要多久、多少资源这些东西写得清清楚楚。本页面是按大本等级分类的数据。"
+description: "这个页面原本是用来查看每个大本等级升满需要多少资源、多少时间的，不过我们已经放弃这个版块，有需求的玩家可前往维基查看。"
 module: upgrade-level
 canonical: /upgrade/category/level
 ---
