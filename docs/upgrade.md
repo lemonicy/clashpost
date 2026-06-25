@@ -1,7 +1,7 @@
 ---
 title: "部落冲突升级数据"
 shownTitle: "升级数据"
-description: "在这里，你可以看到游戏内的各种数据，像升级要多久、多少资源这些写得清清楚楚，可以说是规划升级必备。"
+description: "这里归档了部分《部落冲突》游戏数据，包括升级时间、资源消耗等内容，可供玩家查询和参考。"
 module: upgrade
 canonical: /upgrade
 hasUpdateTime: false
@@ -13,7 +13,7 @@ import FeaturedCard from "@/components/card/FeaturedCard.vue";
 </script>
 
 <div style="margin-bottom: 1.5rem">
-    在这里，你可以看到游戏内的各种数据，像升级要多久、多少资源这些写得清清楚楚，可以说是规划升级必备。
+    这里归档了部分《部落冲突》游戏数据，包括升级时间、资源消耗等内容，可供玩家查询和参考。
 </div>
 
 <FeaturedCardGrid>

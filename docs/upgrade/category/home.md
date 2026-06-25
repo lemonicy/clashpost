@@ -1,7 +1,7 @@
 ---
 title: "部落冲突升级数据（家乡）"
 shownTitle: "升级数据"
-description: "在这里，你可以查到部落冲突的各种数据，每个兵种和建筑有哪些属性、升级要多久、多少资源这些东西写得清清楚楚。本页面是家乡村庄的数据。"
+description: "这里归档了部分《部落冲突》游戏数据，包括升级时间、资源消耗等内容，可供玩家查询和参考。本页面是家乡村庄的数据。"
 module: upgrade-home
 canonical: /upgrade/category/home
 ---

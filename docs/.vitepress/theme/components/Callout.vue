@@ -203,11 +203,6 @@ switch (props.type) {
     }
 }
 
-/* 攻略区文章的额外标记 */
-.cp-callout.cp-callout-post-mark {
-    transform: translateY(-0.5rem);
-}
-
 /* 旧版浏览器的提示信息 */
 .cp-callout.cp-callout-old-browser {
     margin-bottom: -0.5rem;
