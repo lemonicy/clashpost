@@ -1,4 +1,5 @@
 <script setup>
+import { computed } from "vue";
 import { isUpgradeDetails } from "@/assets/global/common.js";
 
 const props = defineProps({
@@ -8,17 +9,23 @@ const props = defineProps({
     }
 });
 
-const link = props.link;
-let hasTrainingDialog = false;
-let hasV1TrainingDialog = false;
-let hasV2TrainingDialog = false;
-let hasNewestTrainingDialog = true;
-let hasJudgeSquare = false;
-let hasDailyCost = false;
-let hasDonationCostDialog = false;
-let hasPreferredTargetTip = false;
+const dialogState = computed(() => {
+    const result = {
+        hasTrainingDialog: false,
+        hasV1TrainingDialog: false,
+        hasV2TrainingDialog: false,
+        hasNewestTrainingDialog: true,
+        hasJudgeSquare: false,
+        hasDailyCost: false,
+        hasDonationCostDialog: false,
+        hasPreferredTargetTip: false
+    };
 
-if (link && isUpgradeDetails(link)) {
+    const link = props.link;
+    if (!link || !isUpgradeDetails(link)) {
+        return result;
+    }
+
     // 提取链接中的序号
     const unitId = link.substring(9, 13);
     const unitIdFirst2 = unitId.substring(0, 2); // 序号中的前两个字符
@@ -30,17 +37,17 @@ if (link && isUpgradeDetails(link)) {
     const isHero = isHeroHome || isHeroBh;
 
     // 判断这个页面是否为兵种、法术、攻城机器（我们不将临时兵种和超级兵视为 NormalTroop）
-    const isHomeNormalTroop = ["00"].includes(unitIdFirst2);
-    const isSuperTroop = ["06"].includes(unitIdFirst2);
+    const isHomeNormalTroop = unitIdFirst2 === "00";
+    const isSuperTroop = unitIdFirst2 === "06";
     const isHomeTroop = isHomeNormalTroop || isSuperTroop;
-    const isBuilderBaseTroop = ["10"].includes(unitIdFirst2);
-    const isCapitalTroop = ["20"].includes(unitIdFirst2);
+    const isBuilderBaseTroop = unitIdFirst2 === "10";
+    const isCapitalTroop = unitIdFirst2 === "20";
     const isTroop = isHomeTroop || isBuilderBaseTroop || isCapitalTroop;
-    const isSpell = ["01"].includes(unitIdFirst2);
+    const isSpell = unitIdFirst2 === "01";
     const isSiegeMachine = ["024", "025", "026", "027"].includes(unitIdFirst3);
 
     // 判断这个页面是否为临时兵种
-    const isTempTroop = ["0e"].includes(unitIdFirst2);
+    const isTempTroop = unitIdFirst2 === "0e";
 
     // 判断这个页面是否为战宠
     const isPet = ["028", "029", "02a", "02b"].includes(unitIdFirst3);
@@ -50,34 +57,44 @@ if (link && isUpgradeDetails(link)) {
     const isBuilding = buildingPrefixArr.includes(unitIdFirst2);
 
     // 确定是否展示训练弹窗
-    hasTrainingDialog = isHomeNormalTroop || isSpell || isSiegeMachine || isTempTroop;
+    result.hasTrainingDialog = isHomeNormalTroop || isSpell || isSiegeMachine || isTempTroop;
 
     // 只有在确定拥有训练弹窗时才运行这一段
-    if (hasTrainingDialog) {
-        // 是否使用旧版训练系统的说明文字，其中 v1 指的是 2022/10/10 更新前的训练系统，v2 指的是 2022/10/10 更新后、2025/03/24 更新前的训练系统。
+    if (result.hasTrainingDialog) {
+        // v1: 2022/10/10 更新前；v2: 2022/10/10 更新后、2025/03/24 更新前
         const v1TrainingSystemUnits = ["0e02", "0e04", "0e05", "0e81"];
         const v2TrainingSystemUnits = [
             "0e03", "0e06", "0e07", "0e0a", "0e0c", "0e0d", "0e11", "0e15", "0e80", "0e82", "0e83"
         ];
-        hasV1TrainingDialog = v1TrainingSystemUnits.includes(unitId);
-        hasV2TrainingDialog = v2TrainingSystemUnits.includes(unitId);
-        if (hasV1TrainingDialog || hasV2TrainingDialog) {
-            hasNewestTrainingDialog = false;
-        }
+
+        result.hasV1TrainingDialog = v1TrainingSystemUnits.includes(unitId);
+        result.hasV2TrainingDialog = v2TrainingSystemUnits.includes(unitId);
+        result.hasNewestTrainingDialog = !result.hasV1TrainingDialog && !result.hasV2TrainingDialog;
     }
 
     // 建筑和英雄的页面都有判定面积
-    hasJudgeSquare = isHero || isBuilding;
+    result.hasJudgeSquare = isHero || isBuilding;
 
     // 英雄和战宠才有日均花费
-    hasDailyCost = isHero || isPet;
+    result.hasDailyCost = isHero || isPet;
 
     // 兵种、法术和攻城机器才有捐赠费用，临时兵种数据缺失，不加载捐赠费用的提示弹窗
-    hasDonationCostDialog = isHomeTroop || isSpell || isSiegeMachine;
+    result.hasDonationCostDialog = isHomeTroop || isSpell || isSiegeMachine;
 
     // 是否加载兵种攻击偏好的提示弹窗
-    hasPreferredTargetTip = isTroop || isHero || isPet || isTempTroop;
-}
+    result.hasPreferredTargetTip = isTroop || isHero || isPet || isTempTroop;
+
+    return result;
+});
+
+const hasTrainingDialog = computed(() => dialogState.value.hasTrainingDialog);
+const hasV1TrainingDialog = computed(() => dialogState.value.hasV1TrainingDialog);
+const hasV2TrainingDialog = computed(() => dialogState.value.hasV2TrainingDialog);
+const hasNewestTrainingDialog = computed(() => dialogState.value.hasNewestTrainingDialog);
+const hasJudgeSquare = computed(() => dialogState.value.hasJudgeSquare);
+const hasDailyCost = computed(() => dialogState.value.hasDailyCost);
+const hasDonationCostDialog = computed(() => dialogState.value.hasDonationCostDialog);
+const hasPreferredTargetTip = computed(() => dialogState.value.hasPreferredTargetTip);
 </script>
 
 <template>

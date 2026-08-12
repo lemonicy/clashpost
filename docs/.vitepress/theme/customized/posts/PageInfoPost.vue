@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, nextTick } from "vue";
+import { computed, nextTick, onMounted, ref, watch } from "vue";
 import { getISOTimeStr, getTimeStr } from "@/assets/global/datetime.js";
 import { getPostInfo } from "@/assets/posts/posts.js";
 
@@ -12,41 +12,48 @@ const props = defineProps({
 
 const createTimeRef = ref();
 const updateTimeRef = ref();
+const mounted = ref(false);
 
-// 文章的基本信息（作者、最后更新时间等）
-const link = props.link;
-const postId = parseInt(link.replace("/p/", ""));
-const postInfo = getPostInfo(postId);
-const author = postInfo.author;
+// 文章的基本信息（文章 ID、最后更新时间等）
+const postId = computed(() => parseInt(props.link.replace("/p/", "")));
+const postInfo = computed(() => getPostInfo(postId.value));
+const author = computed(() => postInfo.value.author);
 
-// 获取首次发布时间和上次更新时间的毫秒数，方便运算
-const lastCreated = postInfo.lastCreated;
-const lastUpdated = postInfo.lastUpdated;
-const lastCreatedMills = new Date(lastCreated).getTime();
-const lastUpdatedMills = new Date(lastUpdated).getTime();
+// 进入文章页面时，更新首次发布时间和上次更新时间的毫秒数
+async function updateTimeInfo() {
+    if (!mounted.value) return;
 
-// 页面加载完毕后给页面写入发布时间和更新时间，而非写死在页面中，防止出现 Hydration Mismatch
+    await nextTick();
+
+    const info = postInfo.value;
+    const lastCreated = info.lastCreated;
+    const lastUpdated = info.lastUpdated;
+    const lastCreatedMills = new Date(lastCreated).getTime();
+    const lastUpdatedMills = new Date(lastUpdated).getTime();
+
+    const createTimeDom = createTimeRef.value;
+    const updateTimeDom = updateTimeRef.value;
+
+    if (!createTimeDom || !updateTimeDom) return;
+
+    createTimeDom.setAttribute("datetime", getISOTimeStr(lastCreated));
+    createTimeDom.innerText = getTimeStr(lastCreated) + "发布";
+
+    if (lastUpdatedMills - lastCreatedMills < 60 * 1000) {
+        updateTimeDom.removeAttribute("datetime");
+        updateTimeDom.innerText = "从未更新";
+    } else {
+        updateTimeDom.setAttribute("datetime", getISOTimeStr(lastUpdated));
+        updateTimeDom.innerText = getTimeStr(lastUpdated) + "更新";
+    }
+}
+
 onMounted(() => {
-    nextTick(() => {
-        // 首次发布时间
-        const createTimeDom = createTimeRef.value;
-        const createTimeISO = getISOTimeStr(lastCreated);
-        const createTime = getTimeStr(lastCreated);
-        createTimeDom.setAttribute("datetime", createTimeISO);
-        createTimeDom.innerText = createTime + "发布";
-
-        // 更新时间（如果更新时间和首次发布时间相差不到一分钟，则显示从未更新）
-        const updateTimeDom = updateTimeRef.value;
-        if (lastUpdatedMills - lastCreatedMills < 60 * 1000) {
-            updateTimeDom.innerText = "从未更新";
-        } else {
-            const lastUpdatedISO = getISOTimeStr(lastUpdated);
-            const updateTime = getTimeStr(lastUpdated);
-            updateTimeDom.setAttribute("datetime", lastUpdatedISO);
-            updateTimeDom.innerText = updateTime + "更新";
-        }
-    });
+    mounted.value = true;
+    updateTimeInfo();
 });
+
+watch(() => props.link, updateTimeInfo);
 </script>
 
 <template>

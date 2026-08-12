@@ -1,4 +1,5 @@
 <script setup>
+import { computed } from "vue";
 import { invalidatedPosts, oldBuilderBasePosts } from "#/global-variables.js";
 import Callout from "@/components/Callout.vue";
 
@@ -9,13 +10,11 @@ const props = defineProps({
     }
 });
 
-// 文章的基本信息（最后更新时间等）
-const link = props.link;
-const postId = parseInt(link.replace("/p/", ""));
-
+// 文章 ID
+const postId = computed(() => parseInt(props.link.replace("/p/", "")));
 // 文章的 mark 标记
-const isDiscarded = invalidatedPosts.includes(postId);
-const isOldBuilderBasePost = oldBuilderBasePosts.includes(postId);
+const isDiscarded = computed(() => invalidatedPosts.includes(postId.value));
+const isOldBuilderBasePost = computed(() => oldBuilderBasePosts.includes(postId.value));
 </script>
 
 <template>

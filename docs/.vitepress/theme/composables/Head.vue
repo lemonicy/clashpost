@@ -257,10 +257,10 @@ onBeforeUnmount(() => {
         </nav>
     </div>
     <Dialog dialogId="cp-notification-dialog" :title="notificationTitle" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasNotification">
-        <p v-html="notificationHTML"></p>
+        <div v-html="notificationHTML"></div>
     </Dialog>
     <Dialog dialogId="cp-notification-dialog" title="通知" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了" v-else>
-        暂无通知
+        <div >暂无通知</div>
     </Dialog>
     <Dialog dialogId="cp-search-dialog" title="搜索 (Ctrl + k)" :hasSecondaryBtn="true" :hasPrimaryBtn="true"
         primaryText="开始搜索" secondaryText="关闭窗口" :hasClickPrimaryEvent="true" :hasClickSecondaryEvent="true"

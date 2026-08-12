@@ -1,18 +1,19 @@
 <script setup>
+import { computed } from "vue";
 import Callout from "@/components/Callout.vue";
 
 const props = defineProps({
     link: {
         type: String,
+        required: true
     }
 });
 
-const link = props.link;
-const ifApkDownloading = link === "/apk" || false;
+const isApkDownloading = computed(() => props.link === "/apk");
 </script>
 
 <template>
-    <Callout type="warning" class="cp-callout-global-mark" v-if="!ifApkDownloading">
+    <Callout type="warning" class="cp-callout-global-mark" v-if="!isApkDownloading">
         除“安装包下载”版块外，网站已不再维护。如想查看游戏数据，请前往
         <a href="https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki" target="_blank" rel="nofollow noreferrer">
             Clash of Clans Wiki (英文)
