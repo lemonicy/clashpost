@@ -116,7 +116,7 @@ let gpBuildingActiveValue = 0;
 // 如果 cookie 不存在，则认为没有减免比例，不进行任何操作
 if (gpCookieValue) {
     // 月卡的数组长度一定是 3，如果不是则使用默认值
-    const gpDiscountArr = gpCookieValue.split("-");
+    let gpDiscountArr = gpCookieValue.split("-");
     if (gpDiscountArr.length !== 3) {
         gpDiscountArr = [0,0,0];
     }

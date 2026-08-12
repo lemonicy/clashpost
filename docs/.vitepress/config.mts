@@ -1,5 +1,5 @@
 import { defineConfig, HeadConfig } from "vitepress";
-import path from "path";
+import { resolve } from 'node:path'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -8,7 +8,6 @@ export default defineConfig({
     lang: "zh-Hans-CN",
     cleanUrls: true,
     ignoreDeadLinks: true,
-    metaChunk: true,
     head: [
         ["meta", { name: "format-detection", content: "telephone=no"}],
         ["link", { rel: "icon", href: "https://static.clashpost.com/favicon.ico" }],
@@ -33,7 +32,7 @@ export default defineConfig({
     markdown: {
         math: true,
         image: {
-            lazyLoading: true
+            lazyLoad: true
         },
         externalLinks: {
             target: "_blank",
@@ -64,8 +63,8 @@ export default defineConfig({
         },
         resolve: {
             alias: {
-                "@": path.resolve(__dirname, "./theme"),
-                "#": path.resolve(__dirname, "../..")
+                "@": resolve(import.meta.dirname, "./theme"),
+                "#": resolve(import.meta.dirname, "../..")
             }
         }
     }
