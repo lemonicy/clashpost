@@ -1,4 +1,5 @@
 <script setup>
+import { computed } from "vue";
 import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
 
 const props = defineProps({
@@ -48,65 +49,63 @@ const props = defineProps({
     },
 });
 
-const loadingValue = props.lazyLoading ? "lazy" : "eager";
-const alt = props.alt;
-const caption = props.caption;
-const width = props.width;
-const height = props.height;
-const maxWidth = props.maxWidth;
-const maxHeight = props.maxHeight;
+const loadingValue = computed(() => props.lazyLoading ? "lazy" : "eager");
 
 // 容器的 css 样式
-let figureStyle = "";
-if (props.figureStyle) {
-    figureStyle += props.figureStyle;
-}
+const figureStyle = computed(() => props.figureStyle || "");
 
 // 图片的最大宽度和最小宽度
-let imgStyle = props.imgStyle ? props.imgStyle + ";" : "";
-if (maxWidth) {
-    // 当 maxWidth 以 % 结尾，或者以 min、max 开头时，则尊重填入的值，不使用 min(xxx, 100%) 形式。
-    if (maxWidth.endsWith("%") || maxWidth.startsWith("min") || maxWidth.startsWith("max")) {
-        imgStyle += "max-width: " + maxWidth + ";";
-    } else if (maxWidth === "none") {
-        imgStyle += "max-width: 100%";
-    } else {
-        imgStyle += "max-width: min(" + maxWidth + ", 100%);";
+const imgStyle = computed(() => {
+    const maxWidth = props.maxWidth;
+    const maxHeight = props.maxHeight;
+    let style = props.imgStyle ? props.imgStyle + ";" : "";
+
+    if (maxWidth) {
+        // 当 maxWidth 以 % 结尾，或者以 min、max 开头时，则尊重填入的值，不使用 min(xxx, 100%) 形式。
+        if (maxWidth.endsWith("%") || maxWidth.startsWith("min") || maxWidth.startsWith("max")) {
+            style += "max-width: " + maxWidth + ";";
+        } else if (maxWidth === "none") {
+            style += "max-width: 100%";
+        } else {
+            style += "max-width: min(" + maxWidth + ", 100%);";
+        }
     }
-}
-if (maxHeight) {
-    if (maxHeight.endsWith("%") || maxHeight.startsWith("min") || maxHeight.startsWith("max")) {
-        imgStyle += "max-height: " + maxHeight + ");";
-    } else {
-        imgStyle += "max-height: min(" + maxHeight + ", 100%);";
+    if (maxHeight) {
+        if (maxHeight.endsWith("%") || maxHeight.startsWith("min") || maxHeight.startsWith("max")) {
+            style += "max-height: " + maxHeight + ");";
+        } else {
+            style += "max-height: min(" + maxHeight + ", 100%);";
+        }
     }
-}
+    return style;
+});
 
 // 图片链接
-const srcProp = props.src;
-let imgSrcOriginal;
-if (srcProp.startsWith("http://") || srcProp.startsWith("https://")) {
-    imgSrcOriginal = srcProp;
-} else {
-    imgSrcOriginal = "https://static.clashpost.com" + srcProp;
-}
+const imgSrcOriginal = computed(() => {
+    const srcProp = props.src;
+    if (srcProp.startsWith("http://") || srcProp.startsWith("https://")) {
+        return srcProp;
+    }
+    return "https://static.clashpost.com" + srcProp;
+});
 
 // 如果调用时明确说明不转化，则不进行其他判断
 // 动图使用原图格式，不转化
 // gif 即使不写是动图也不转化，webp 格式无需进一步转化
-const convertWebp = props.convertWebp;
-const imgExtension = getFileExtension(imgSrcOriginal);
-const hasAdditionalSource = convertWebp && getConvertWebpInfo(imgExtension);
-const imgSrcWebp = replaceFileExtension(imgSrcOriginal, ".webp");
+const hasAdditionalSource = computed(() => {
+    const imgExtension = getFileExtension(imgSrcOriginal.value);
+    return props.convertWebp && getConvertWebpInfo(imgExtension);
+});
+const imgSrcWebp = computed(() => replaceFileExtension(imgSrcOriginal.value, ".webp"));
 </script>
 
 <template>
     <figure class="cp-img-container" :style="figureStyle">
         <picture>
             <source :srcset="imgSrcWebp" type="image/webp" v-if="hasAdditionalSource" />
-            <img :loading="loadingValue" :src="imgSrcOriginal" :alt="alt" :width="width" :height="height" :style="imgStyle" />
+            <img :loading="loadingValue" :src="imgSrcOriginal" :alt="props.alt" :width="props.width" :height="props.height" :style="imgStyle" />
         </picture>
-        <figcaption v-if="caption" v-html="caption"</figcaption>
+        <figcaption v-if="props.caption" v-html="props.caption"</figcaption>
     </figure>
 </template>
 

@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, nextTick, ref } from "vue";
+import { onMounted, ref } from "vue";
 import { getSelectDomFromOption, setSelectValue } from "@/components/select/Select.vue";
 
 const props = defineProps({
@@ -33,15 +33,13 @@ function listItemClickEvent() {
 }
 
 onMounted(() => {
-    nextTick(() => {
-        const optionDom = listItemRef.value;
-        const selectDom = getSelectDomFromOption(optionDom);
-        if (selectDom.getAttribute("active-value") === props.value) {
-            optionDom.classList.add("cp-select-item-active")
-        } else {
-            optionDom.classList.remove("cp-select-item-active")
-        }
-    });
+    const optionDom = listItemRef.value;
+    const selectDom = getSelectDomFromOption(optionDom);
+    if (selectDom.getAttribute("active-value") === props.value) {
+        optionDom.classList.add("cp-select-item-active")
+    } else {
+        optionDom.classList.remove("cp-select-item-active")
+    }
 });
 </script>
 

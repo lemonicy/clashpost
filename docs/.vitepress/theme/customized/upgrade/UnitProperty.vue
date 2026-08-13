@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, nextTick, ref } from "vue";
+import { onMounted, ref } from "vue";
 import { showDialog } from "@/components/dialog/Dialog.vue";
 import Resource from "@/customized/Resource.vue";
 import Info from "@/components/icon/reminding/Info.vue";
@@ -128,11 +128,9 @@ if (props.isDonationCost) {
 const unitPropertyRef = ref();
 
 onMounted(() => {
-    nextTick(() => {
-        const unitProperty = unitPropertyRef.value;
-        // 根据用户要求（cookie 值）确定要展示哪个特殊数据
-        showGoldPassValue(unitProperty);
-    });
+    const unitProperty = unitPropertyRef.value;
+    // 根据用户要求（cookie 值）确定要展示哪个特殊数据
+    showGoldPassValue(unitProperty);
 });
 </script>
 

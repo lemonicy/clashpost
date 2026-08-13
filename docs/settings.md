@@ -98,7 +98,6 @@ function saveSettings() {
 </script>
 
 <script setup>
-import { onMounted, nextTick } from "vue";
 import { inBrowser } from "vitepress";
 import SelectContainer from "@/components/select/SelectContainer.vue";
 import Select, { getSelectValue, setSelectValue } from "@/components/select/Select.vue";

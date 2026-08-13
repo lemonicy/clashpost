@@ -43,7 +43,7 @@ export function setSelectValue(selectId, newOptionValue) {
 </script>
 
 <script setup>
-import { onMounted, nextTick, ref } from "vue";
+import { computed, onMounted, ref, watch } from "vue";
 
 const props = defineProps({
     id: {
@@ -64,7 +64,7 @@ const props = defineProps({
     }
 });
 
-const selectStyle = "width: " + props.selectWidth;
+const selectStyle = computed(() => "width: " + props.selectWidth);
 const selectRef = ref();
 
 function changeDropdownsVisibility() {
@@ -84,12 +84,15 @@ function changeDropdownsVisibility() {
     });
 }
 
-onMounted(() => {
-    nextTick(() => {
-        const selectDom = selectRef.value;
+function refreshActiveValue() {
+    const selectDom = selectRef.value;
+    if (selectDom) {
         setSelectValue(selectDom.getAttribute("id"), props.activeValue);
-    });
-});
+    }
+}
+
+onMounted(refreshActiveValue);
+watch(() => props.activeValue, refreshActiveValue);
 </script>
 
 <template>

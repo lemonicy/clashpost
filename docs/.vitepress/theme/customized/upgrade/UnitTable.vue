@@ -171,7 +171,7 @@ function setSpecialItems(table, tableExtraInfo) {
 </script>
 
 <script setup>
-import { onMounted, nextTick, ref } from "vue";
+import { onMounted, ref } from "vue";
 import { formatTableData } from "@/assets/global/utils.js";
 
 const props = defineProps({
@@ -194,15 +194,13 @@ if (maxWidth) {
 const tableContainerRef = ref();
 
 onMounted(() => {
-    nextTick(() => {
-        const table = tableContainerRef.value.querySelector("table");
-        // 对 tableExtraInfo 中标注出来的特殊数据进行处理，并写入单元格
-        setSpecialItems(table, props.tableExtraInfo);
-        // 根据用户要求（cookie 值）确定要展示哪个特殊数据
-        showGoldPassValue(table);
-        // 对没有特意标注出来的一般数据进行处理，并展示出来
-        formatTableData(table);
-    });
+    const table = tableContainerRef.value.querySelector("table");
+    // 对 tableExtraInfo 中标注出来的特殊数据进行处理，并写入单元格
+    setSpecialItems(table, props.tableExtraInfo);
+    // 根据用户要求（cookie 值）确定要展示哪个特殊数据
+    showGoldPassValue(table);
+    // 对没有特意标注出来的一般数据进行处理，并展示出来
+    formatTableData(table);
 });
 </script>
 

@@ -1,4 +1,5 @@
 <script setup>
+import { computed } from "vue";
 const props = defineProps({
     activeTab: {
         type: Boolean,
@@ -6,7 +7,7 @@ const props = defineProps({
     }
 });
 
-const activeTab = props.activeTab;
+const activeTab = computed(() => props.activeTab);
 const emits = defineEmits([
     "clickEvent"
 ]);

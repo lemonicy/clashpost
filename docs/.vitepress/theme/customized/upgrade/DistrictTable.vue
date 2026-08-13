@@ -1,16 +1,14 @@
 <script setup>
-import { onMounted, nextTick, ref } from "vue";
+import { onMounted, ref } from "vue";
 
 const tableContainerRef = ref();
 
 onMounted(() => {
-    nextTick(() => {
-        const tableContainer = tableContainerRef.value;
-        const firstTheadCell = tableContainer.querySelector("thead th");
-        firstTheadCell.innerHTML = "<span class=\"cp-district-title-left\">子城名称</span>" +
-            "<span class=\"cp-district-title-slash\"></span>" +
-            "<span class=\"cp-district-title-right\">子城大本营<br>等级</span>";
-    });
+    const tableContainer = tableContainerRef.value;
+    const firstTheadCell = tableContainer.querySelector("thead th");
+    firstTheadCell.innerHTML = "<span class=\"cp-district-title-left\">子城名称</span>" +
+        "<span class=\"cp-district-title-slash\"></span>" +
+        "<span class=\"cp-district-title-right\">子城大本营<br>等级</span>";
 });
 </script>
 

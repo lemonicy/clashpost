@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, nextTick } from "vue";
+import { computed, ref, onMounted, watch } from "vue";
 import { getTimeStr } from "@/assets/global/datetime.js";
 
 const props = defineProps({
@@ -42,24 +42,27 @@ const props = defineProps({
 });
 
 // 每页的前四篇文章的图片不延迟加载
-const lazyLoadingBool = props.index % 20 > 3;
-const convertWebp = props.featuredImgConvertWebp;
+const lazyLoadingBool = computed(() => props.index % 20 > 3);
+const convertWebp = computed(() => props.featuredImgConvertWebp);
 const updateTimeRef = ref();
-const hasFeaturedImg = props.featuredImg;
-const author = props.author;
-if (!author) {
+const hasFeaturedImg = computed(() => props.featuredImg);
+const author = computed(() => props.author);
+if (!props.author) {
     console.error("[clashpost error] 作者信息不存在，请检查文章 " + props.url + " (" + props.title +") 中的 author 信息。");
 }
 
-onMounted(() => {
-    nextTick(() => {
-        const updateTimeDom = updateTimeRef.value;
-        const lastUpdatedISO = props.lastUpdatedISO;
-        const updateTime = getTimeStr(lastUpdatedISO);
-        updateTimeDom.setAttribute("datetime", lastUpdatedISO);
-        updateTimeDom.innerText = updateTime;
-    });
-});
+function updateTimeInfo() {
+    const updateTimeDom = updateTimeRef.value;
+    if (!updateTimeDom) return;
+
+    const lastUpdatedISO = props.lastUpdatedISO;
+    const updateTime = getTimeStr(lastUpdatedISO);
+    updateTimeDom.setAttribute("datetime", lastUpdatedISO);
+    updateTimeDom.innerText = updateTime;
+}
+
+onMounted(updateTimeInfo);
+watch(() => props.lastUpdatedISO, updateTimeInfo);
 </script>
 
 <template>

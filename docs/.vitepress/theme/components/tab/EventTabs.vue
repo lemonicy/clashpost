@@ -1,6 +1,6 @@
 <script setup>
-import { onMounted, onBeforeUnmount, nextTick, ref } from "vue";
-import { throttle, changeScrollDirection } from "@/assets/global/utils.js";
+import { ref } from "vue";
+import { changeScrollDirection } from "@/assets/global/utils.js";
 
 const props = defineProps({
     stickyTabs: {
@@ -31,24 +31,15 @@ if (props.pageTabs) {
 
 const tabsRef = ref();
 
-onMounted(() => {
-    nextTick(() => {
-        const tabsDom = tabsRef.value;
-        const scrollDom = tabsDom.querySelector(".cp-tabs");
-        // 如果是滚动 Tab，则将滚动方向改为横向
-        tabsDom.addEventListener("wheel", event => throttle(changeScrollDirection(scrollDom, event), 16), { passive: false});
-    })
-})
-
-onBeforeUnmount(() => {
-    const tabsDom = tabsRef.value;
-    const scrollDom = tabsDom.querySelector(".cp-tabs");
-    tabsDom.removeEventListener("wheel", event => throttle(changeScrollDirection(scrollDom, event), 16), { passive: false});
-});
+function wheelEvent(event) {
+    // 如果是滚动 Tab，则将滚动方向改为横向
+    const scrollDom = tabsRef.value.querySelector(".cp-tabs");
+    changeScrollDirection(scrollDom, event);
+}
 </script>
 
 <template>
-    <div :class="tabsClass" ref="tabsRef">
+    <div :class="tabsClass" ref="tabsRef" @wheel="wheelEvent">
         <div class="cp-tabs">
             <slot></slot>
         </div>

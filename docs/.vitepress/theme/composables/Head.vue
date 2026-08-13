@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, onBeforeUnmount, nextTick, ref } from "vue";
+import { onMounted, onBeforeUnmount, ref } from "vue";
 import { inBrowser } from "vitepress";
 import { notificationInfo } from "#/global-variables.js";
 import { getCookie, setCookie } from "@/assets/global/utils.js";
@@ -174,53 +174,45 @@ function tocBtnEvent() {
 
 // 确定是否需要展示通知角标
 onMounted(() => {
-    nextTick(() => {
-        if (!inBrowser) return;
+    if (!inBrowser) return;
 
-        // 确定是否需要显示通知角标。
-        // 只有当通知存在时才运行这段代码，没有通知当然不显示角标。
-        if (hasNotification) {
-            // 加个延迟，防止 Hydration Mismatch
-            setTimeout(() => {
-                const notificationCountIcon = notificationCountIconRef.value
-                const cookieIdString = getCookie("cp-notification-id");
-                const cookieId = cookieIdString ? parseFloat(cookieIdString) : 0;
-                // 如果当前的通知 ID 大于 cookie 中存储的 ID，则展示新通知并把新 ID 存入 cookie
-                if (cookieId < currentNotificationId) {
-                    notificationCountIcon.style.display = "block";
-                }
-            }, 300);
-        }
+    // 确定是否需要显示通知角标。
+    // 只有当通知存在时才运行这段代码，没有通知当然不显示角标。
+    if (hasNotification) {
+        // 加个延迟，防止 Hydration Mismatch
+        setTimeout(() => {
+            const notificationCountIcon = notificationCountIconRef.value
+            const cookieIdString = getCookie("cp-notification-id");
+            const cookieId = cookieIdString ? parseFloat(cookieIdString) : 0;
+            // 如果当前的通知 ID 大于 cookie 中存储的 ID，则展示新通知并把新 ID 存入 cookie
+            if (cookieId < currentNotificationId) {
+                notificationCountIcon.style.display = "block";
+            }
+        }, 300);
+    }
 
-        // 搜索相关的快捷键绑定
-        const searchInput = document.getElementById("cp-search-input");
-        searchInput.addEventListener("keydown", event => searchEnterKeyEvent(event));
-        searchInput.addEventListener("keyup", event => searchInputChangeEvent(event));
-        window.addEventListener("keydown", event => searchshortcutClickEvent(event));
+    // 搜索相关的快捷键绑定
+    window.addEventListener("keydown", searchshortcutClickEvent);
 
-        // 在搜索弹窗中写出当前使用的搜索服务提供商
-        const searchProviderCookie = getCookie("cp-search-provider");
-        let searchProviderText;
-        if (searchProviderCookie === "Google") {
-            searchProviderText = "谷歌";
-        } else if (searchProviderCookie === null) {
-            searchProviderText = "必应";
-        } else if (searchProviderCookie === "Yahoo") {
-            searchProviderText = "雅虎";
-        } else {
-            // 没有翻译，直接把原文填上去
-            searchProviderText = searchProviderCookie;
-        }
-        const searchProviderDom = searchProviderRef.value;
-        searchProviderDom.innerText = searchProviderText;
-    });
+    // 在搜索弹窗中写出当前使用的搜索服务提供商
+    const searchProviderCookie = getCookie("cp-search-provider");
+    let searchProviderText;
+    if (searchProviderCookie === "Google") {
+        searchProviderText = "谷歌";
+    } else if (searchProviderCookie === null) {
+        searchProviderText = "必应";
+    } else if (searchProviderCookie === "Yahoo") {
+        searchProviderText = "雅虎";
+    } else {
+        // 没有翻译，直接把原文填上去
+        searchProviderText = searchProviderCookie;
+    }
+    const searchProviderDom = searchProviderRef.value;
+    searchProviderDom.innerText = searchProviderText;
 });
 
 onBeforeUnmount(() => {
-    const searchInput = document.getElementById("cp-search-input");
-    searchInput.removeEventListener("keydown", event => searchEnterKeyEvent(event));
-    searchInput.removeEventListener("keyup", event => searchInputChangeEvent(event));
-    window.removeEventListener("keydown", event => searchshortcutClickEvent(event));
+    window.removeEventListener("keydown", searchshortcutClickEvent);
 });
 </script>
 
@@ -267,7 +259,8 @@ onBeforeUnmount(() => {
         @clickPrimaryEvent="startSearching" @clickSecondaryEvent="exitSearching">
         <div id="cp-search-input-container">
             <form>
-                <input id="cp-search-input" type="search" name="searchText" placeholder="请输入搜索词" />
+                <input id="cp-search-input" type="search" name="searchText" placeholder="请输入搜索词"
+                    @keydown="searchEnterKeyEvent" @keyup="searchInputChangeEvent" />
                 <button id="cp-search-clear-btn" type="reset" aria-label="清空搜索框" @click="event => clearSearchBtnEvent(event)"><Close /></button>
             </form>
         </div>

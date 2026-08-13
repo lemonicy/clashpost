@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref, nextTick } from "vue";
+import { onMounted, ref } from "vue";
 import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
 
 const props = defineProps({
@@ -48,13 +48,11 @@ onMounted(() => {
     }
 
     // 将图片链接写入 src
-    nextTick(() => {
-        const pictureDom = refDom.querySelector("picture");
-        if (hasAdditionalSource) {
-            pictureDom.querySelector("source").setAttribute("srcset", imgWebpLink);
-        }
-        pictureDom.querySelector("img").setAttribute("src", imgOriginalLink);
-    });
+    const pictureDom = refDom.querySelector("picture");
+    if (hasAdditionalSource) {
+        pictureDom.querySelector("source").setAttribute("srcset", imgWebpLink);
+    }
+    pictureDom.querySelector("img").setAttribute("src", imgOriginalLink);
 });
 </script>
 

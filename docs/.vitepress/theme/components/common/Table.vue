@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, nextTick, ref } from "vue";
+import { onMounted, ref } from "vue";
 import { formatTableData } from "@/assets/global/utils.js";
 
 const props = defineProps({
@@ -28,11 +28,9 @@ if (maxWidth) {
 const tableContainerRef = ref();
 
 onMounted(() => {
-    nextTick(() => {
-        const table = tableContainerRef.value.querySelector("table");
-        formatTableData(table);
-    })
-})
+    const table = tableContainerRef.value.querySelector("table");
+    formatTableData(table);
+});
 </script>
 
 <template>

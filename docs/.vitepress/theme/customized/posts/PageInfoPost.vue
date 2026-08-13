@@ -1,5 +1,5 @@
 <script setup>
-import { computed, nextTick, onMounted, ref, watch } from "vue";
+import { computed, onMounted, ref, watch } from "vue";
 import { getISOTimeStr, getTimeStr } from "@/assets/global/datetime.js";
 import { getPostInfo } from "@/assets/posts/posts.js";
 
@@ -20,10 +20,8 @@ const postInfo = computed(() => getPostInfo(postId.value));
 const author = computed(() => postInfo.value.author);
 
 // 进入文章页面时，更新首次发布时间和上次更新时间的毫秒数
-async function updateTimeInfo() {
+function updateTimeInfo() {
     if (!mounted.value) return;
-
-    await nextTick();
 
     const info = postInfo.value;
     const lastCreated = info.lastCreated;

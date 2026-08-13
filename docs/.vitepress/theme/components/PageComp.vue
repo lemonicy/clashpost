@@ -56,7 +56,7 @@ function blurEvent(pageJumpContainer) {
 </script>
 
 <script setup>
-import { onMounted, nextTick, onBeforeUnmount, ref } from "vue";
+import { computed, onBeforeUnmount, ref } from "vue";
 import { useRouter } from "vitepress";
 import { PagePre, PageNext } from "@/components/icon/page/PageArrows.vue";
 import { generateToast } from "@/components/dialog/Toast.vue";
@@ -79,20 +79,22 @@ const props = defineProps({
 const pageJumpRef = ref();
 const router = useRouter();
 
-const page = props.currentPage;
-const maxPage = props.maxPage;
-const prefix = props.linkPrefix;
+const page = computed(() => props.currentPage);
+const maxPage = computed(() => props.maxPage);
+const prefix = computed(() => props.linkPrefix);
 
 /**
  * 敲击回车后跳转页面的逻辑
  * 
  * @param {Object} event 敲击回车后的 event
  */
-function enterKeyEvent(event, pageJumpInput) {
+function enterKeyEvent(event) {
+    inputCheck(event);
+    const pageJumpInput = event.currentTarget;
     if (event.key === "Enter") {
         event.preventDefault();
         const inputValue = pageJumpInput.value;
-        const pageInvalidInfo = getPageInvalidInfo(inputValue, maxPage);
+        const pageInvalidInfo = getPageInvalidInfo(inputValue, maxPage.value);
         if (pageInvalidInfo) {
             // 如果 pageInvalidInfo 不为 null，说明数据不合法，需要弹出错误信息
             generateToast(pageInvalidInfo, {
@@ -104,11 +106,11 @@ function enterKeyEvent(event, pageJumpInput) {
             let pageLink;
             let succeedText;
             // 如果用户输入的页面数大于或等于最大页面数，则跳转到最后一页
-            if (pageNum >= maxPage) {
-                pageLink = getPageLink(prefix, maxPage);
+            if (pageNum >= maxPage.value) {
+                pageLink = getPageLink(prefix.value, maxPage.value);
                 succeedText = "已跳转到最后一页";
             } else {
-                pageLink = getPageLink(prefix, pageNum);
+                pageLink = getPageLink(prefix.value, pageNum);
                 succeedText = "已跳转到第 " + pageNum + " 页";
             }
             router.go(pageLink).then(() => {
@@ -142,29 +144,18 @@ function showPageJumpInput() {
     pageJumpInput.focus();
 }
 
-onMounted(() => {
-    nextTick(() => {
-        const pageJumpContainer = pageJumpRef.value;
-        if (pageJumpContainer) {
-            const pageJumpInput = pageJumpContainer.querySelector(".cp-page-btn-jump-input input");
-            pageJumpInput.addEventListener("keydown", event => enterKeyEvent(event, pageJumpInput));
-            // 下面空的 event 参数不能不传，否则可能不执行
-            pageJumpInput.addEventListener("focus", event => focusEvent(pageJumpInput));
-            pageJumpInput.addEventListener("blur", event => blurEvent(pageJumpContainer));
-            pageJumpInput.addEventListener("keydown", event => inputCheck(event));
-        }
-    });
-});
+// 下面空的 event 参数不能不传，否则可能不执行
+function pageJumpFocusEvent(event) {
+    focusEvent(event.currentTarget);
+}
+
+function pageJumpBlurEvent() {
+    blurEvent(pageJumpRef.value);
+}
 
 onBeforeUnmount(() => {
-    const pageJumpContainer = pageJumpRef.value;
-    if (pageJumpContainer) {
-        const pageJumpInput = pageJumpContainer.querySelector(".cp-page-btn-jump-input input");
-        pageJumpInput.removeEventListener("keydown", event => enterKeyEvent(event, pageJumpInput));
-        pageJumpInput.removeEventListener("focus", event => focusEvent(pageJumpInput));
-        pageJumpInput.removeEventListener("blur", event => blurEvent(pageJumpContainer));
-        pageJumpInput.removeEventListener("keydown", event => inputCheck(event));
-    }
+    // 如果输入框仍处于聚焦状态时组件被卸载，需要移除全局滚动事件。
+    window.removeEventListener("scroll", resetToastPosition);
 });
 </script>
 
@@ -209,7 +200,8 @@ onBeforeUnmount(() => {
             <div class="cp-page-btn-jump-text">跳转</div>
             <div class="cp-page-btn-jump-input">
                 <form>
-                    <input tabindex="-1" type="number" name="page" min="0" required />
+                    <input tabindex="-1" type="number" name="page" min="0" required
+                        @keydown="enterKeyEvent" @focus="pageJumpFocusEvent" @blur="pageJumpBlurEvent" />
                 </form>
             </div>
         </button>
