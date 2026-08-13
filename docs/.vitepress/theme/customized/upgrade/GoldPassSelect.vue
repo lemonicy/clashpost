@@ -1,4 +1,5 @@
 <script setup>
+import { computed } from "vue";
 import { inBrowser, useRouter } from "vitepress";
 import SelectContainer from "@/components/select/SelectContainer.vue";
 import Option from "@/components/select/Option.vue";
@@ -33,25 +34,28 @@ function hasGoldPassItem(link) {
     return false;
 }
 
-const link = props.link;
-const hasGoldPass = hasGoldPassItem(link);
-let gpActiveOption;
-const cookieValue = inBrowser ? getCookie("cp-gp-discount") : null;
-if (hasGoldPass) {
+const hasGoldPass = computed(() => hasGoldPassItem(props.link));
+
+const gpActiveOption = computed(() => {
+    // 显式依赖 link，确保页面切换后重新读取 Cookie，而不是依赖组件重新挂载。
+    const link = props.link;
+    if (!hasGoldPassItem(link)) {
+        return undefined;
+    }
+
+    const cookieValue = inBrowser ? getCookie("cp-gp-discount") : null;
     if (cookieValue && cookieValue !== "0-0-0") {
         if (cookieValue === "10-10-10") {
-            gpActiveOption = 1;
+            return 1;
         } else if (cookieValue === "15-15-15") {
-            gpActiveOption = 2;
+            return 2;
         } else if (cookieValue === "20-20-20") {
-            gpActiveOption = 3;
-        } else {
-            gpActiveOption = 4;
+            return 3;
         }
-    } else {
-        gpActiveOption = 0;
+        return 4;
     }
-}
+    return 0;
+});
 
 function setDiscountValue(value) {
     // 展示用户选择的值，并将用户选择的值写入 Cookie

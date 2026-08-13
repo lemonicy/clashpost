@@ -175,8 +175,8 @@ function getBreadcrumbArr(moduleCode, finalTitle, path) {
 </script>
 
 <script setup>
-import { ref, watch } from "vue";
-import { useData, useRouter, inBrowser } from "vitepress";
+import { computed } from "vue";
+import { useData } from "vitepress";
 import BreadcrumbItem from "@/composables/top-nav/BreadCrumbItem.vue";
 
 const props = defineProps({
@@ -186,9 +186,9 @@ const props = defineProps({
     }
 });
 
-const { frontmatter } = useData();
+const { frontmatter, page } = useData();
 
-function getBreadcrumbItems(path) {
+const breadcrumbItems = computed(() => {
     // 模块的内部名称
     const moduleCode = props.module;
 
@@ -200,29 +200,14 @@ function getBreadcrumbItems(path) {
         displayTitle = displayTitle.substring(0, 9) + "…";
     }
 
-    // 根据已有信息确定面包屑导航的内容
-    return getBreadcrumbArr(moduleCode, displayTitle, path);
-}
-
-const router = useRouter();
-const routePath = router.route.data.relativePath;
-let breadcrumbItems = getBreadcrumbItems(routePath);
-let breadcrumbKey = ref(0);
-
-// 当链接变化时刷新面包屑导航
-// 如果将刷新逻辑都写入 watch 里，并将 immediate 设置为 true，那也可以得到同样的效果，
-// 但这样会导致生成静态文件时面包屑导航是空的，进而导致 Hydration Mismatch.
-if (inBrowser) {
-    watch(() => router.route.data.relativePath, (path) => {
-        breadcrumbItems = getBreadcrumbItems(path); // <= 重新获取目录结构
-        breadcrumbKey.value++; // <= 刷新面包屑导航
-    }, { immediate: false });
-}
+    // page、frontmatter 和 props 都是响应式数据，页面切换后会自动重新计算。
+    return getBreadcrumbArr(moduleCode, displayTitle, page.value.relativePath);
+});
 </script>
 
 <template>
     <div id="cp-breadcrumb">
-        <BreadcrumbItem :key="'breadcrumb-' + breadcrumbKey" :breadcrumbItems="breadcrumbItems" />
+        <BreadcrumbItem :breadcrumbItems="breadcrumbItems" />
     </div>
 </template>
 

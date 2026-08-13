@@ -1,4 +1,5 @@
 <script setup>
+import { computed } from "vue";
 import Arrow from "@/components/icon/general/Arrow.vue";
 
 const props = defineProps({
@@ -8,7 +9,7 @@ const props = defineProps({
     }
 });
 
-const items = props.breadcrumbItems;
+const items = computed(() => props.breadcrumbItems);
 </script>
 
 <template>

@@ -5,7 +5,7 @@ function scrollToTop() {
 </script>
 
 <script setup>
-import { onMounted, onUpdated, ref, computed } from "vue";
+import { computed, nextTick, onMounted, onUpdated, ref, watch } from "vue";
 import { useData } from "vitepress";
 import ArrowTop from "@/components/icon/general/ArrowTop.vue";
 import ExternalLink from "@/components/icon/link/ExternalLink.vue";
@@ -13,34 +13,55 @@ import TocList from "@/composables/sidebar/TocList.vue";
 import { hideAllDialogs } from "@/components/dialog/Dialog.vue";
 
 const headings = ref([]);
-const { frontmatter } = useData();
+const { frontmatter, page } = useData();
+const pagePath = computed(() => page.value.relativePath);
+const wikiLink = computed(() => frontmatter.value.wiki);
+
+let lastHeadingsSignature = "";
 
 function setTocHeadings() {
-    headings.value.splice(0, headings.value.length);
-    document.querySelector("main")
-        .querySelectorAll("h2, h3, h4")
-        .forEach((el, index) => {
-            const domId = "cp-title-" + index;
-            const tocId = "cp-toc-" + index;
-            el.setAttribute("id", domId);
+    const main = document.querySelector("main");
+    if (!main) {
+        headings.value = [];
+        lastHeadingsSignature = "";
+        return;
+    }
 
-            headings.value.push({
-                id: tocId,
-                level: parseInt(el.tagName.charAt(1), 10),
-                content: el.innerText,
-                subheadings: []
-            });
+    const nextHeadings = [];
+    main.querySelectorAll("h2, h3, h4").forEach((el, index) => {
+        const domId = "cp-title-" + index;
+        const tocId = "cp-toc-" + index;
+        el.setAttribute("id", domId);
+
+        nextHeadings.push({
+            id: tocId,
+            level: parseInt(el.tagName.charAt(1), 10),
+            content: el.innerText,
+            subheadings: []
         });
+    });
+
+    // 避免目录内容没有变化时重复触发当前组件更新。
+    const signature = JSON.stringify(nextHeadings.map(({ id, level, content }) => ({ id, level, content })));
+    if (signature !== lastHeadingsSignature) {
+        headings.value = nextHeadings;
+        lastHeadingsSignature = signature;
+    }
 }
 
-onMounted(() => {
-    setTimeout(setTocHeadings, 100);
-});
+async function refreshTocHeadings() {
+    // 等待 VitePress 完成新页面内容的 DOM 更新，再读取标题。
+    await nextTick();
+    setTocHeadings();
+}
 
-// 开发环境下每 2 秒更新一次目录
+onMounted(refreshTocHeadings);
+
+// 路由变化时由当前组件自己更新目录，不再依赖父组件通过 key 强制重新挂载。
+watch(pagePath, refreshTocHeadings, { flush: "post" });
+
+// 开发环境下更新 Markdown 后，路径不会变化，因此保留一次延迟刷新。
 if (import.meta.env.MODE === 'development') {
-    // 由于 setTocHeadings() 函数改动了当前组件的 DOM 结构，因此下方的 onUpdated 事件会反复触发
-    // 为了避免这个函数占满 CPU，这里用 setTimeout 控制运行频率
     let tocUpdateTimer;
     onUpdated(() => {
         clearTimeout(tocUpdateTimer);
@@ -49,13 +70,18 @@ if (import.meta.env.MODE === 'development') {
 }
 
 const groupedHeadings = computed(() => {
-    let items = [...headings.value];
+    // 使用副本进行分组，避免在 computed 中修改 headings 自身的数据。
+    const items = headings.value.map(item => ({
+        ...item,
+        subheadings: []
+    }));
+
     for (let i = items.length - 1; i >= 0; i--) {
-        let currentItem = items[i];
+        const currentItem = items[i];
         let parentItem;
-        for (let index = items.length - 1; index >= 0; index--) {
+        for (let index = i - 1; index >= 0; index--) {
             const item = items[index];
-            if (item.level < currentItem.level && index < i) {
+            if (item.level < currentItem.level) {
                 parentItem = item;
                 break;
             }
@@ -67,8 +93,6 @@ const groupedHeadings = computed(() => {
     }
     return items;
 });
-
-const wikiLink = frontmatter.value.wiki;
 </script>
 
 <template>

@@ -9,19 +9,9 @@ export function hideSidebarRight() {
 </script>
 
 <script setup>
-import { ref, watch, nextTick } from "vue";
-import { useRouter, inBrowser } from "vitepress";
 import { sidebarRightShowing } from "@/assets/global/common.js";
 import { hideOverlay } from "@/components/dialog/Overlay.vue";
 import Toc from "@/composables/sidebar/Toc.vue";
-
-let tocKey = ref(0);
-
-function refreshToc() {
-    nextTick(() => {
-        tocKey.value++;
-    });
-}
 
 function clickSidebarRightLinkEvent(event) {
     const tDom = event.target;
@@ -41,19 +31,11 @@ function clickSidebarRightLinkEvent(event) {
         }
     }
 }
-
-// 当链接改变时刷新右边的导航
-if (inBrowser) {
-    const router = useRouter();
-    watch(() => router.route.data.relativePath, (path) => {
-        refreshToc();
-    }, { immediate: true });
-}
 </script>
 
 <template>
     <div id="cp-sidebar-right" ref="sidebarRightRef" @click="event => clickSidebarRightLinkEvent(event)">
-        <Toc :key="'toc-' + tocKey" />
+        <Toc />
     </div>
 </template>
 

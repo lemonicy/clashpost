@@ -1,23 +1,20 @@
 <script setup>
-import { nextTick, ref, watch } from "vue";
-import { useRouter } from "vitepress";
+import { computed } from "vue";
+import { useData } from "vitepress";
 import BreadCrumb from "@/composables/top-nav/BreadCrumb.vue";
 import GoldPassSelect from "@/customized/upgrade/GoldPassSelect.vue";
 
-const router = useRouter();
-let goldPassSelectKey = ref(0);
+const { frontmatter } = useData();
 
-watch(() => router.route.data.relativePath, (path) => {
-    nextTick(() => {
-        goldPassSelectKey.value++;
-    });
-}, { immediate: false });
+const module = computed(() => frontmatter.value.module);
+const canonical = computed(() => frontmatter.value.canonical);
+const showTopNav = computed(() => module.value !== "home");
 </script>
 
 <template>
-    <div class="cp-top-nav" v-if="$frontmatter.module !== 'home'">
-        <BreadCrumb :module="$frontmatter.module" />
-        <GoldPassSelect :key="'goldPassSelect-' + goldPassSelectKey" :link="$frontmatter.canonical" :hasCustomOption="true" />
+    <div class="cp-top-nav" v-if="showTopNav">
+        <BreadCrumb :module="module" />
+        <GoldPassSelect :link="canonical" :hasCustomOption="true" />
     </div>
 </template>
 
