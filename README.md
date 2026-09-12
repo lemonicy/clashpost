@@ -35,7 +35,7 @@ git clone https://github.com/lemonicy/clashpost.git
 
 如果你只是想在自己的电脑中看看这个项目，可以按以下步骤运行项目：
 
-1. 下载并安装 [Node.js](https://nodejs.org/en)（需要 Node.js 20.19+ / 22.12+）。
+1. 下载并安装 [Node.js](https://nodejs.org/en)（需要 Node.js 22+）。
 
 2. 下载本仓库 ZIP 文件并解压，或使用 `git clone` 将项目拉取到本地。
 
